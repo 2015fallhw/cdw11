@@ -32,7 +32,7 @@
 </v>
 </v>
 <v t="amd.20160501215545.1" a="E"><vh>wsgi 程式部份</vh>
-<v t="amd.20160501221015.1"><vh>@path ./../../../</vh></v>
+<v t="amd.20160501221015.1" a="E"><vh>@path ./../../../</vh>
 <v t="amd.20160501221001.1" a="E"><vh>@clean myflaskapp.py</vh>
 <v t="amd.20160501221001.2"><vh>myflaskapp declarations</vh></v>
 <v t="amd.20160501221001.3"><vh>index</vh></v>
@@ -49,6 +49,7 @@
 <v t="amd.20160501221001.14"><vh>download</vh></v>
 <v t="amd.20160501221001.15"><vh>send_images</vh></v>
 <v t="amd.20160501221001.16"><vh>send_static</vh></v>
+</v>
 </v>
 </v>
 </vnodes>
