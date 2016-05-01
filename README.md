@@ -7,4 +7,14 @@
 
 各組員相關內容回報請利用 http://cdw11-ag100.rhcloud.com/static/blog/category/ag100.html (ag100 代表 a 班 g100 組)
 
+期中成績驗證:
+
+http://cdw11-ag100.rhcloud.com/images/cdw11_4a.png 
+
+http://cdw11-ag100.rhcloud.com/images/cdw11_badc.png
+
+http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png
+
+
+
 
