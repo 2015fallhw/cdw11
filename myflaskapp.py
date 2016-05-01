@@ -296,6 +296,57 @@ def fileuploadform():
   <input type="button" onclick="$('.prova').axuploader('enable')" value="ok" />
   </section></body></html>
   '''
+@app.route('/imageaxupload', methods=['POST'])
+# ajax jquery chunked file upload for flask
+def imageaxupload():
+    '''
+    if not session.get('logged_in'):
+        #abort(401)
+        return redirect(url_for('login'))
+    '''
+    # need to consider if the uploaded filename already existed.
+    # right now all existed files will be replaced with the new files
+    filename = request.args.get("ax-file-name")
+    flag = request.args.get("start")
+    if flag == "0":
+        file = open(data_dir+"images/"+filename, "wb")
+    else:
+        file = open(data_dir+"images/"+filename, "ab")
+    file.write(request.stream.read())
+    file.close()
+    return "image file uploaded!"
+
+    
+    
+@app.route('/imageuploadform')
+def imageuploadform():
+    '''
+    if not session.get('logged_in'):
+        #abort(401)
+        return redirect(url_for('login'))
+    '''
+    return "<h1>file upload</h1>"+'''
+  <script src="/static/jquery.js" type="text/javascript"></script>
+  <script src="/static/axuploader.js" type="text/javascript"></script>
+  <script>
+  $(document).ready(function(){
+  $('.prova').axuploader({url:'imageaxupload', allowExt:['jpg','png','gif','7z','pdf','zip','flv','stl','swf'],
+  finish:function(x,files)
+{
+    alert('All files have been uploaded: '+files);
+},
+  enable:true,
+  remotePath:function(){
+  return 'images/';
+  }
+  });
+  });
+  </script>
+  <div class="prova"></div>
+  <input type="button" onclick="$('.prova').axuploader('disable')" value="asd" />
+  <input type="button" onclick="$('.prova').axuploader('enable')" value="ok" />
+  </section></body></html>
+  '''
 @app.route('/downloads/<path:filename>', methods=['GET', 'POST'])
 def download(filename):
     #return send_from_directory(download_dir, filename=filename, as_attachment=True)
@@ -303,6 +354,14 @@ def download(filename):
     
 
 
+# setup static directory
+@app.route('/images/<path:path>')
+def send_images(path):
+    return send_from_directory(data_dir+"/images/", path)
+# setup static directory
+@app.route('/static/<path:path>')
+def send_static(path):
+    return send_from_directory(static_dir, path)
 if __name__ == "__main__":
     app.run()
 
