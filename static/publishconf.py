@@ -13,7 +13,7 @@ from pelicanconf import *
 # 因為 publishconf.py 在 pelicanconf.py 之後, 因此若兩處有相同變數的設定, 將以較後讀入的 publishconf.py 中的設定為主.
 
 # 請注意, 為了在近端讓 Tipue search 傳回的搜尋結果連結正確, 必須使用 ./
-SITEURL = 'http://2015fallhw.github.io/cdw2/post'
+SITEURL = 'http://cdw11-ag100.rhcloud.com/static/blog/'
 # 此設定用於近端靜態網頁查驗, 因此使用相對 URL
 RELATIVE_URLS = False
 # 為了要讓 local 與 gh-pages 上都能夠使用 Tipue search, 可能要採用不同的 theme
