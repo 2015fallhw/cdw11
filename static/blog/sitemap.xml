@@ -5,63 +5,63 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://2015fallhw.github.io/cdw2/post/</loc>
-<lastmod>2016-05-01T22:24:18-00:00</lastmod>
+<lastmod>2016-05-01T23:10:39-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://2015fallhw.github.io/cdw2/post/archives.html</loc>
-<lastmod>2016-05-01T22:24:18-00:00</lastmod>
+<lastmod>2016-05-01T23:10:39-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://2015fallhw.github.io/cdw2/post/tags.html</loc>
-<lastmod>2016-05-01T22:24:18-00:00</lastmod>
+<lastmod>2016-05-01T23:10:39-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://2015fallhw.github.io/cdw2/post/categories.html</loc>
-<lastmod>2016-05-01T22:24:18-00:00</lastmod>
+<lastmod>2016-05-01T23:10:39-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://2015fallhw.github.io/cdw2/post/40323199-cdw11-bao-gao.html</loc>
-<lastmod>2016-05-01T22:23:11+08:00</lastmod>
+<lastmod>2016-05-01T22:41:52+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://2015fallhw.github.io/cdw2/post/category/ag100.html</loc>
-<lastmod>2016-05-01T22:23:11+08:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>http://2015fallhw.github.io/cdw2/post/tag/cdw11.html</loc>
-<lastmod>2016-05-01T22:23:11+08:06</lastmod>
+<lastmod>2016-05-01T22:41:52+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://2015fallhw.github.io/cdw2/post/tag/40323199.html</loc>
-<lastmod>2016-05-01T22:23:11+08:06</lastmod>
+<lastmod>2016-05-01T22:41:52+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://2015fallhw.github.io/cdw2/post/tag/cdw11.html</loc>
+<lastmod>2016-05-01T22:41:52+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://2015fallhw.github.io/cdw2/post/author/40323199.html</loc>
-<lastmod>2016-05-01T22:23:11+08:06</lastmod>
+<lastmod>2016-05-01T22:41:52+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>

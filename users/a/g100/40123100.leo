@@ -12,6 +12,7 @@
 <vnodes>
 <v t="amd.20160501215436.2" a="E"><vh>pelican 部份</vh>
 <v t="amd.20160501215558.1" a="E"><vh>@path ./../../../</vh>
+<v t="amd.20160501223113.1"><vh>@edit README.md</vh></v>
 <v t="amd.20160501215634.1" a="E"><vh>@path static</vh>
 <v t="amd.20160501220009.1" a="E"><vh>假如要送到 gh-pages 分支, 使用下列按鈕</vh>
 <v t="amd.20160501220009.2"><vh>@button gh-pages pelican</vh></v>
@@ -49,6 +50,8 @@
 <v t="amd.20160501221001.14"><vh>download</vh></v>
 <v t="amd.20160501221001.15"><vh>send_images</vh></v>
 <v t="amd.20160501221001.16"><vh>send_static</vh></v>
+<v t="amd.20160501230850.1"><vh>send_blog</vh></v>
+<v t="amd.20160501225844.1"><vh>send_file</vh></v>
 </v>
 </v>
 </v>
@@ -105,7 +108,8 @@ def fileaxupload():
     return "files uploaded!"
 
     
-    </t>
+    
+</t>
 <t tx="amd.20160501221001.11">@app.route('/fileuploadform')
 def fileuploadform():
     '''
@@ -157,7 +161,8 @@ def imageaxupload():
     return "image file uploaded!"
 
     
-    </t>
+    
+</t>
 <t tx="amd.20160501221001.13">@app.route('/imageuploadform')
 def imageuploadform():
     '''
@@ -199,11 +204,13 @@ def download(filename):
 <t tx="amd.20160501221001.15"># setup static directory
 @app.route('/images/&lt;path:path&gt;')
 def send_images(path):
-    return send_from_directory(data_dir+"/images/", path)</t>
+    return send_from_directory(data_dir+"/images/", path)
+</t>
 <t tx="amd.20160501221001.16"># setup static directory
-@app.route('/static/&lt;path:path&gt;')
-def send_static(path):
-    return app.send_static_file(static_dir+path)
+@app.route('/static/')
+def send_static():
+  return app.send_static_file('index.html')
+
 </t>
 <t tx="amd.20160501221001.2"># coding: utf-8
 from flask import Flask, send_from_directory, request, redirect, render_template, session, make_response
@@ -461,5 +468,17 @@ def optionaction():
 
 </t>
 <t tx="amd.20160501221015.1"></t>
+<t tx="amd.20160501225844.1"># setup static directory
+@app.route('/static/&lt;path:path&gt;')
+def send_file(path):
+  return app.send_static_file(static_dir+path)
+
+</t>
+<t tx="amd.20160501230850.1"># setup static directory
+@app.route('/static/blog/')
+def send_blog():
+  return app.send_static_file('blog/index.html')
+
+</t>
 </tnodes>
 </leo_file>

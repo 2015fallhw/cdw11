@@ -359,9 +359,20 @@ def download(filename):
 def send_images(path):
     return send_from_directory(data_dir+"/images/", path)
 # setup static directory
+@app.route('/static/')
+def send_static():
+  return app.send_static_file('index.html')
+
+# setup static directory
+@app.route('/static/blog/')
+def send_blog():
+  return app.send_static_file('blog/index.html')
+
+# setup static directory
 @app.route('/static/<path:path>')
-def send_static(path):
-    return send_from_directory(static_dir, path)
+def send_file(path):
+  return app.send_static_file(static_dir+path)
+
 if __name__ == "__main__":
     app.run()
 
