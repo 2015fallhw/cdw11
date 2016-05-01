@@ -20,12 +20,6 @@
 <v t="amd.20160501220029.1" a="E"><vh>假如要在近端檢視, 使用下列按鈕</vh>
 <v t="amd.20160501220029.2"><vh>@button local pelican</vh></v>
 </v>
-<v t="amd.20160501220108.1" a="E"><vh>pelican 設定檔案</vh>
-<v t="amd.20160501220120.1"><vh>@edit pelicanconf.py</vh></v>
-<v t="amd.20160501220231.1"><vh>@edit publishconf.py</vh></v>
-<v t="amd.20160501220252.1"><vh>@edit local_publishconf.py</vh></v>
-<v t="amd.20160501220707.1"><vh>@edit index.html</vh></v>
-</v>
 <v t="amd.20160501215942.1" a="E"><vh>@path content/a/g100</vh>
 <v t="amd.20160501215720.1"><vh>@edit 40323199-20160429.md</vh></v>
 </v>
@@ -79,7 +73,6 @@ g.es("admin pelican 近端執行完畢")
 
 
 </t>
-<t tx="amd.20160501220108.1"></t>
 <t tx="amd.20160501221001.1">@language python
 @tabwidth -4
 @others
