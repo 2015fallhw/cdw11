@@ -86,6 +86,8 @@ O(0, 0, 0, 0, 0, "lightyellow", True, 4)
 <!-- 以協同方式加上 ag100 的 scrum-2 組員所寫的 task1 程式碼 -->
 
 <script type="text/python" src="/ag7/a40123149_task2_1"></script>
+<script type="text/python" src="/ag7/a40123149_task2_2"></script>
+<script type="text/python" src="/ag7/a40123149_task2_3"></script>
 
 <!-- 以協同方式加上 ag100 的  scrum-3 組員所寫的 task1 程式碼 -->
 <!-- <script type="text/python" src="/ag100/scrum3_task1"></script>-->
