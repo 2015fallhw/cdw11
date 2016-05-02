@@ -81,7 +81,7 @@ def O(x, y, rx, ry, rot, color, border, linewidth):
     # 放大 5 倍
     cgo.render(cmbr, x, y, 5, rot)
 
-O(0, 0, 0, 0, 0, "lightyellow", True, 4)
+O(0, 0, 0, 0, 0, "lightgreen", True, 4)
 </script>
 <!-- 以協同方式加上 40323152 的 A 程式碼 -->
 <script type="text/python" src="/ag6_40323155/a2_40323155"></script>
@@ -201,7 +201,7 @@ def O(x, y, rx, ry, rot, color, border, linewidth):
     # 放大 5 倍
     cgo.render(cmbr, x, y, 5, rot)
 
-O(350, 0, 0, 0, 0, "lightyellow", True, 4)
+O(350, 0, 0, 0, 0, "lightgreen", True, 4)
 '''
     return outstring
     
@@ -307,7 +307,7 @@ def O(x, y, rx, ry, rot, color, border, linewidth):
     # 放大 5 倍
     cgo.render(cmbr, x, y, 5, rot)
 
-O(700, 0, 0, 0, 0, "lightyellow", True, 4)
+O(700, 0, 0, 0, 0, "lightgreen", True, 4)
 '''
     return outstring
     
@@ -413,7 +413,7 @@ def O(x, y, rx, ry, rot, color, border, linewidth):
     # 放大 5 倍
     cgo.render(cmbr, x, y, 5, rot)
 
-O(1050, 0, 0, 0, 0, "lightyellow", True, 4)
+O(1050, 0, 0, 0, 0, "lightgreen", True, 4)
 '''
     return outstring
     
@@ -519,6 +519,6 @@ def O(x, y, rx, ry, rot, color, border, linewidth):
     # 放大 5 倍
     cgo.render(cmbr, x, y, 5, rot)
 
-O(0, 0, 0, 0, 0, "lightyellow", True, 4)
+O(0, 0, 0, 0, 0, "lightgreen", True, 4)
 '''
     return outstring
