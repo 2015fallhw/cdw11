@@ -20,28 +20,15 @@
 <v t="amd.20160501220029.1" a="E"><vh>假如要在近端檢視, 使用下列按鈕</vh>
 <v t="amd.20160501220029.2"><vh>@button local pelican</vh></v>
 </v>
-<v t="amd.20160501215942.1" a="E"><vh>@path content/b/g9</vh>
-<<<<<<< HEAD
-<v t="amd.20160501215720.1"><vh>@edit 40323218-w11.md</vh></v>
-=======
-<v t="amd.20160501215720.1"><vh>@edit 40323218-20160505.md</vh></v>
->>>>>>> bfa97b0a8c8101f990cbf1af253e0113dd7129ad
+<v t="amd.20160501215942.1" a="E"><vh>@path content/b/g7</vh>
+<v t="amd.20160501215720.1"><vh>@edit 40323216.md</vh></v>
 </v>
 </v>
 </v>
 </v>
-<<<<<<< HEAD
 <v t="amd.20160501215545.1" a="E"><vh>wsgi 程式部份</vh>
-<v t="leo.20160505110011.1" a="E"><vh>40323218</vh>
-<v t="leo.20160505100221.1"><vh>@edit bg9_40323218.py</vh></v>
-</v>
 <v t="amd.20160501221015.1" a="E"><vh>@path ./../../../</vh>
 <v t="amd.20160501221001.1" a="E"><vh>@clean myflaskapp.py</vh>
-=======
-<v t="amd.20160501215545.1"><vh>wsgi 程式部份</vh>
-<v t="amd.20160501221015.1" a="E"><vh>@path ./../../../</vh>
-<v t="amd.20160501221001.1"><vh>@clean myflaskapp.py</vh>
->>>>>>> bfa97b0a8c8101f990cbf1af253e0113dd7129ad
 <v t="amd.20160501221001.2"><vh>myflaskapp declarations</vh></v>
 <v t="amd.20160501221001.3"><vh>index</vh></v>
 <v t="amd.20160501221001.4"><vh>user</vh></v>
@@ -95,10 +82,18 @@ if __name__ == "__main__":
 app.register_blueprint(users.a.g10.ag10_40323139.ag10_40323139)
 app.register_blueprint(users.a.g8.ag8_40323131_task1.ag8_40323131)
 app.register_blueprint(users.a.g4.ag4_40323138.ag4_40323138)
-app.register_blueprint(users.b.g9.bg9_40323218.bg9_40323218)
 <<<<<<< HEAD
-app.register_blueprint(users.b.g9.bg9_40323250.bg9_40323250)
+&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+app.register_blueprint(users.b.g9.bg9_40323218.bg9_40323218)
 =======
+app.register_blueprint(users.b.g9.bg9_40323250.bg9_40323250)
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; 66b1338a18160a96e12e9c001210eefb19fbf945
+=======
+app.register_blueprint(users.b.g101.b40323299_cdw11.ag100)
+#app.register_blueprint(users.b.g9.bg9_40323218.bg9_40323218)
+app.register_blueprint(users.b.g9.bg9_40323250.bg9_40323250)
+#app.register_blueprint(users.a.g11.bg11_40323245.bg11_40323245)
+
 >>>>>>> bfa97b0a8c8101f990cbf1af253e0113dd7129ad
 
 
@@ -240,10 +235,17 @@ import init
 import users.a.g10.ag10_40323139
 import users.a.g4.ag4_40323138
 import users.a.g8.ag8_40323131_task1
-import users.b.g9.bg9_40323218
 <<<<<<< HEAD
-import users.b.g9.bg9_40323250
+&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+import users.b.g9.bg9_40323218
 =======
+import users.b.g9.bg9_40323250
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; 66b1338a18160a96e12e9c001210eefb19fbf945
+=======
+import users.b.g101.b40323299_cdw11
+#import users.b.g9.bg9_40323218
+import users.b.g9.bg9_40323250
+#import users.b.g11.bg11_40323245
 >>>>>>> bfa97b0a8c8101f990cbf1af253e0113dd7129ad
 # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
 _curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
@@ -506,9 +508,5 @@ def send_blog():
   return app.send_static_file('blog/index.html')
 
 </t>
-<<<<<<< HEAD
-<t tx="leo.20160505110011.1"></t>
-=======
->>>>>>> bfa97b0a8c8101f990cbf1af253e0113dd7129ad
 </tnodes>
 </leo_file>
