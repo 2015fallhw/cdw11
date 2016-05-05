@@ -6,6 +6,7 @@ import os
 # init.py 為自行建立的起始物件
 import init
 
+import users.a.g10.ag10_40323141_task1
 import users.a.g10.ag10_40323139
 import users.a.g4.ag4_40323138
 import users.a.g8.ag8_40323131_task1
@@ -381,7 +382,8 @@ def send_file(path):
 
 if __name__ == "__main__":
     app.run()
-    
+
+app.register_blueprint(users.a.g10.ag10_40323141_task1.ag10_40323141)    
 app.register_blueprint(users.a.g10.ag10_40323139.ag10_40323139)
 app.register_blueprint(users.a.g8.ag8_40323131_task1.ag8_40323131)
 app.register_blueprint(users.a.g4.ag4_40323138.ag4_40323138)
