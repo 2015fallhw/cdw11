@@ -4,83 +4,174 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
+<<<<<<< HEAD
 <loc>./</loc>
 <lastmod>2016-05-05T09:40:17-00:00</lastmod>
+=======
+<loc>http://cdw11-ag100.rhcloud.com/static/blog/</loc>
+<lastmod>2016-05-05T09:40:41-00:00</lastmod>
+>>>>>>> f8b490f02149b9b0dbaad816d2e8534a2ab4a764
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
+<<<<<<< HEAD
 <loc>./archives.html</loc>
 <lastmod>2016-05-05T09:40:17-00:00</lastmod>
+=======
+<loc>http://cdw11-ag100.rhcloud.com/static/blog/archives.html</loc>
+<lastmod>2016-05-05T09:40:41-00:00</lastmod>
+>>>>>>> f8b490f02149b9b0dbaad816d2e8534a2ab4a764
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
+<<<<<<< HEAD
 <loc>./tags.html</loc>
 <lastmod>2016-05-05T09:40:17-00:00</lastmod>
+=======
+<loc>http://cdw11-ag100.rhcloud.com/static/blog/tags.html</loc>
+<lastmod>2016-05-05T09:40:41-00:00</lastmod>
+>>>>>>> f8b490f02149b9b0dbaad816d2e8534a2ab4a764
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
+<<<<<<< HEAD
 <loc>./categories.html</loc>
 <lastmod>2016-05-05T09:40:17-00:00</lastmod>
+=======
+<loc>http://cdw11-ag100.rhcloud.com/static/blog/categories.html</loc>
+<lastmod>2016-05-05T09:40:41-00:00</lastmod>
+>>>>>>> f8b490f02149b9b0dbaad816d2e8534a2ab4a764
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
+<<<<<<< HEAD
 <loc>./40323231-cdw11bao-gao.html</loc>
 <lastmod>2016-05-05T09:34:55+08:00</lastmod>
+=======
+<loc>http://cdw11-ag100.rhcloud.com/static/blog/40323253-cdw11-bao-gao.html</loc>
+<lastmod>2016-05-05T09:39:35+08:00</lastmod>
+>>>>>>> f8b490f02149b9b0dbaad816d2e8534a2ab4a764
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
+<<<<<<< HEAD
 <loc>./40323250-cdw11bao-gao.html</loc>
 <lastmod>2016-05-05T09:33:03+08:00</lastmod>
+=======
+<loc>http://cdw11-ag100.rhcloud.com/static/blog/40123250-cdw11-bao-gao.html</loc>
+<lastmod>2016-05-05T09:38:33+08:00</lastmod>
+>>>>>>> f8b490f02149b9b0dbaad816d2e8534a2ab4a764
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
+<<<<<<< HEAD
 <loc>./40123134-cdw11-bao-gao.html</loc>
 <lastmod>2016-05-05T09:33:03+08:00</lastmod>
+=======
+<loc>http://cdw11-ag100.rhcloud.com/static/blog/40123250-cdw11-bao-gao-1.html</loc>
+<lastmod>2016-05-05T09:38:33+08:00</lastmod>
+>>>>>>> f8b490f02149b9b0dbaad816d2e8534a2ab4a764
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
+<<<<<<< HEAD
 <loc>./40123224-cdw11-bao-gao.html</loc>
 <lastmod>2016-05-05T09:33:03+08:00</lastmod>
+=======
+<loc>http://cdw11-ag100.rhcloud.com/static/blog/40323204-cdw11-bao-gao.html</loc>
+<lastmod>2016-05-05T09:38:33+08:00</lastmod>
+>>>>>>> f8b490f02149b9b0dbaad816d2e8534a2ab4a764
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
+<<<<<<< HEAD
 <loc>./40123250-cdw11-bao-gao.html</loc>
 <lastmod>2016-05-05T09:33:03+08:00</lastmod>
+=======
+<loc>http://cdw11-ag100.rhcloud.com/static/blog/40323206-cdw11-bao-gao.html</loc>
+<lastmod>2016-05-05T09:38:33+08:00</lastmod>
+>>>>>>> f8b490f02149b9b0dbaad816d2e8534a2ab4a764
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
+<<<<<<< HEAD
 <loc>./40123250-cdw11-bao-gao-1.html</loc>
 <lastmod>2016-05-05T09:33:03+08:00</lastmod>
+=======
+<loc>http://cdw11-ag100.rhcloud.com/static/blog/40323218-cdw11-bao-gao.html</loc>
+<lastmod>2016-05-05T09:38:33+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
+<loc>http://cdw11-ag100.rhcloud.com/static/blog/40323229-cdw11-bao-gao.html</loc>
+<lastmod>2016-05-05T09:38:33+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://cdw11-ag100.rhcloud.com/static/blog/40323230-w11nei-rong.html</loc>
+<lastmod>2016-05-05T09:38:33+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://cdw11-ag100.rhcloud.com/static/blog/40323231-cdw11bao-gao.html</loc>
+<lastmod>2016-05-05T09:38:33+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://cdw11-ag100.rhcloud.com/static/blog/40323250-cdw11bao-gao.html</loc>
+<lastmod>2016-05-05T09:38:33+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://cdw11-ag100.rhcloud.com/static/blog/40123134-cdw11-bao-gao.html</loc>
+<lastmod>2016-05-05T09:38:33+08:00</lastmod>
+>>>>>>> f8b490f02149b9b0dbaad816d2e8534a2ab4a764
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<<<<<<< HEAD
 <loc>./40323204-cdw11-bao-gao.html</loc>
 <lastmod>2016-05-05T09:33:03+08:00</lastmod>
+=======
+<loc>http://cdw11-ag100.rhcloud.com/static/blog/40123224-cdw11-bao-gao.html</loc>
+<lastmod>2016-05-05T09:38:33+08:00</lastmod>
+>>>>>>> f8b490f02149b9b0dbaad816d2e8534a2ab4a764
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
+<<<<<<< HEAD
 <loc>./40323206-cdw11-bao-gao.html</loc>
 <lastmod>2016-05-05T09:33:03+08:00</lastmod>
 <changefreq>monthly</changefreq>
@@ -118,130 +209,256 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>./40323229-cdw11-bao-gao.html</loc>
 <lastmod>2016-05-05T09:15:09+08:00</lastmod>
+=======
+<loc>http://cdw11-ag100.rhcloud.com/static/blog/40328242-cdw11-bao-gao.html</loc>
+<lastmod>2016-05-05T09:38:33+08:00</lastmod>
+>>>>>>> f8b490f02149b9b0dbaad816d2e8534a2ab4a764
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
+<<<<<<< HEAD
 <loc>./40323131-cdw11-bao-gao.html</loc>
 <lastmod>2016-05-05T08:36:40+08:00</lastmod>
+=======
+<loc>http://cdw11-ag100.rhcloud.com/static/blog/40328245-cdw11-bao-gao.html</loc>
+<lastmod>2016-05-05T09:38:33+08:00</lastmod>
+>>>>>>> f8b490f02149b9b0dbaad816d2e8534a2ab4a764
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
+<<<<<<< HEAD
 <loc>./40323199-cdw11-bao-gao.html</loc>
 <lastmod>2016-05-05T08:36:40+08:00</lastmod>
+=======
+<loc>http://cdw11-ag100.rhcloud.com/static/blog/40323131-cdw11-bao-gao.html</loc>
+<lastmod>2016-05-05T09:38:33+08:00</lastmod>
+>>>>>>> f8b490f02149b9b0dbaad816d2e8534a2ab4a764
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
+<<<<<<< HEAD
 <loc>./category/ag100.html</loc>
 <lastmod>2016-05-05T08:36:40+08:06</lastmod>
 <changefreq>daily</changefreq>
+=======
+<loc>http://cdw11-ag100.rhcloud.com/static/blog/40323199-cdw11-bao-gao.html</loc>
+<lastmod>2016-05-05T09:38:33+08:00</lastmod>
+<changefreq>monthly</changefreq>
+>>>>>>> f8b490f02149b9b0dbaad816d2e8534a2ab4a764
 <priority>0.5</priority>
 </url>
 
 <url>
+<<<<<<< HEAD
 <loc>./category/ag8.html</loc>
 <lastmod>2016-05-05T08:36:40+08:06</lastmod>
+=======
+<loc>http://cdw11-ag100.rhcloud.com/static/blog/category/ag100.html</loc>
+<lastmod>2016-05-05T09:38:33+08:06</lastmod>
+>>>>>>> f8b490f02149b9b0dbaad816d2e8534a2ab4a764
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
+<<<<<<< HEAD
 <loc>./category/bg1.html</loc>
 <lastmod>2016-05-05T09:33:03+08:06</lastmod>
+=======
+<loc>http://cdw11-ag100.rhcloud.com/static/blog/category/ag8.html</loc>
+<lastmod>2016-05-05T09:38:33+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
+<loc>http://cdw11-ag100.rhcloud.com/static/blog/category/bg1.html</loc>
+<lastmod>2016-05-05T09:38:33+08:06</lastmod>
+>>>>>>> f8b490f02149b9b0dbaad816d2e8534a2ab4a764
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<<<<<<< HEAD
 <loc>./category/bg10.html</loc>
 <lastmod>2016-05-05T09:33:03+08:06</lastmod>
+=======
+<loc>http://cdw11-ag100.rhcloud.com/static/blog/category/bg10.html</loc>
+<lastmod>2016-05-05T09:38:33+08:06</lastmod>
+>>>>>>> f8b490f02149b9b0dbaad816d2e8534a2ab4a764
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
+<<<<<<< HEAD
 <loc>./category/bg3.html</loc>
 <lastmod>2016-05-05T09:33:03+08:06</lastmod>
+=======
+<loc>http://cdw11-ag100.rhcloud.com/static/blog/category/bg3.html</loc>
+<lastmod>2016-05-05T09:38:33+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
+<loc>http://cdw11-ag100.rhcloud.com/static/blog/category/bg5.html</loc>
+<lastmod>2016-05-05T09:39:35+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://cdw11-ag100.rhcloud.com/static/blog/category/bg8.html</loc>
+<lastmod>2016-05-05T09:38:33+08:06</lastmod>
+>>>>>>> f8b490f02149b9b0dbaad816d2e8534a2ab4a764
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<<<<<<< HEAD
 <loc>./category/bg5.html</loc>
 <lastmod>2016-05-05T09:33:03+08:06</lastmod>
+=======
+<loc>http://cdw11-ag100.rhcloud.com/static/blog/category/bg9.html</loc>
+<lastmod>2016-05-05T09:38:33+08:06</lastmod>
+>>>>>>> f8b490f02149b9b0dbaad816d2e8534a2ab4a764
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
+<<<<<<< HEAD
 <loc>./category/bg8.html</loc>
 <lastmod>2016-05-05T09:15:09+08:06</lastmod>
+=======
+<loc>http://cdw11-ag100.rhcloud.com/static/blog/tag/4032350.html</loc>
+<lastmod>2016-05-05T09:38:33+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
+<loc>http://cdw11-ag100.rhcloud.com/static/blog/tag/40323231.html</loc>
+<lastmod>2016-05-05T09:38:33+08:06</lastmod>
+>>>>>>> f8b490f02149b9b0dbaad816d2e8534a2ab4a764
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<<<<<<< HEAD
 <loc>./category/bg9.html</loc>
 <lastmod>2016-05-05T09:34:55+08:06</lastmod>
+=======
+<loc>http://cdw11-ag100.rhcloud.com/static/blog/tag/40123224.html</loc>
+<lastmod>2016-05-05T09:38:33+08:06</lastmod>
+>>>>>>> f8b490f02149b9b0dbaad816d2e8534a2ab4a764
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
+<<<<<<< HEAD
 <loc>./tag/cdw11.html</loc>
 <lastmod>2016-05-05T09:33:03+08:06</lastmod>
+=======
+<loc>http://cdw11-ag100.rhcloud.com/static/blog/tag/40323131.html</loc>
+<lastmod>2016-05-05T09:38:33+08:06</lastmod>
+>>>>>>> f8b490f02149b9b0dbaad816d2e8534a2ab4a764
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
+<<<<<<< HEAD
 <loc>./tag/40123250.html</loc>
 <lastmod>2016-05-05T09:33:03+08:06</lastmod>
+=======
+<loc>http://cdw11-ag100.rhcloud.com/static/blog/tag/40323218.html</loc>
+<lastmod>2016-05-05T09:38:33+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
+<loc>http://cdw11-ag100.rhcloud.com/static/blog/tag/40328242.html</loc>
+<lastmod>2016-05-05T09:38:33+08:06</lastmod>
+>>>>>>> f8b490f02149b9b0dbaad816d2e8534a2ab4a764
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<<<<<<< HEAD
 <loc>./tag/40323199.html</loc>
 <lastmod>2016-05-05T08:36:40+08:06</lastmod>
+=======
+<loc>http://cdw11-ag100.rhcloud.com/static/blog/tag/40323204.html</loc>
+<lastmod>2016-05-05T09:38:33+08:06</lastmod>
+>>>>>>> f8b490f02149b9b0dbaad816d2e8534a2ab4a764
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
+<<<<<<< HEAD
 <loc>./tag/40323218.html</loc>
 <lastmod>2016-05-05T09:33:03+08:06</lastmod>
+=======
+<loc>http://cdw11-ag100.rhcloud.com/static/blog/tag/40123134.html</loc>
+<lastmod>2016-05-05T09:38:33+08:06</lastmod>
+>>>>>>> f8b490f02149b9b0dbaad816d2e8534a2ab4a764
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
+<<<<<<< HEAD
 <loc>./tag/4032350.html</loc>
 <lastmod>2016-05-05T09:33:03+08:06</lastmod>
+=======
+<loc>http://cdw11-ag100.rhcloud.com/static/blog/tag/40323230.html</loc>
+<lastmod>2016-05-05T09:38:33+08:06</lastmod>
+>>>>>>> f8b490f02149b9b0dbaad816d2e8534a2ab4a764
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
+<<<<<<< HEAD
 <loc>./tag/40328242.html</loc>
 <lastmod>2016-05-05T09:33:03+08:06</lastmod>
+=======
+<loc>http://cdw11-ag100.rhcloud.com/static/blog/tag/40323253.html</loc>
+<lastmod>2016-05-05T09:39:35+08:06</lastmod>
+>>>>>>> f8b490f02149b9b0dbaad816d2e8534a2ab4a764
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
+<<<<<<< HEAD
 <loc>./tag/40123134.html</loc>
 <lastmod>2016-05-05T09:33:03+08:06</lastmod>
+=======
+<loc>http://cdw11-ag100.rhcloud.com/static/blog/tag/40328245.html</loc>
+<lastmod>2016-05-05T09:38:33+08:06</lastmod>
+>>>>>>> f8b490f02149b9b0dbaad816d2e8534a2ab4a764
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
+<<<<<<< HEAD
 <loc>./tag/40123224.html</loc>
 <lastmod>2016-05-05T09:33:03+08:06</lastmod>
 <changefreq>daily</changefreq>
@@ -258,39 +475,99 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>./tag/40323231.html</loc>
 <lastmod>2016-05-05T09:34:55+08:06</lastmod>
+=======
+<loc>http://cdw11-ag100.rhcloud.com/static/blog/tag/40323206.html</loc>
+<lastmod>2016-05-05T09:38:33+08:06</lastmod>
+>>>>>>> f8b490f02149b9b0dbaad816d2e8534a2ab4a764
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
+<<<<<<< HEAD
 <loc>./tag/40323206.html</loc>
 <lastmod>2016-05-05T09:33:03+08:06</lastmod>
+=======
+<loc>http://cdw11-ag100.rhcloud.com/static/blog/tag/40323199.html</loc>
+<lastmod>2016-05-05T09:38:33+08:06</lastmod>
+>>>>>>> f8b490f02149b9b0dbaad816d2e8534a2ab4a764
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
+<<<<<<< HEAD
 <loc>./tag/40323131.html</loc>
 <lastmod>2016-05-05T08:36:40+08:06</lastmod>
+=======
+<loc>http://cdw11-ag100.rhcloud.com/static/blog/tag/40123250.html</loc>
+<lastmod>2016-05-05T09:38:33+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
+<loc>http://cdw11-ag100.rhcloud.com/static/blog/tag/40323229.html</loc>
+<lastmod>2016-05-05T09:38:33+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://cdw11-ag100.rhcloud.com/static/blog/tag/cdw11.html</loc>
+<lastmod>2016-05-05T09:39:35+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://cdw11-ag100.rhcloud.com/static/blog/author/40123134.html</loc>
+<lastmod>2016-05-05T09:38:33+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://cdw11-ag100.rhcloud.com/static/blog/author/40123224.html</loc>
+<lastmod>2016-05-05T09:38:33+08:06</lastmod>
+>>>>>>> f8b490f02149b9b0dbaad816d2e8534a2ab4a764
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<<<<<<< HEAD
 <loc>./tag/40328245.html</loc>
 <lastmod>2016-05-05T09:33:03+08:06</lastmod>
+=======
+<loc>http://cdw11-ag100.rhcloud.com/static/blog/author/40323131.html</loc>
+<lastmod>2016-05-05T09:38:33+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
+<loc>http://cdw11-ag100.rhcloud.com/static/blog/author/40323199.html</loc>
+<lastmod>2016-05-05T09:38:33+08:06</lastmod>
+>>>>>>> f8b490f02149b9b0dbaad816d2e8534a2ab4a764
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<<<<<<< HEAD
 <loc>./tag/40323229.html</loc>
 <lastmod>2016-05-05T09:15:09+08:06</lastmod>
+=======
+<loc>http://cdw11-ag100.rhcloud.com/static/blog/author/40323204.html</loc>
+<lastmod>2016-05-05T09:38:33+08:06</lastmod>
+>>>>>>> f8b490f02149b9b0dbaad816d2e8534a2ab4a764
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
+<<<<<<< HEAD
 <loc>./tag/40323230.html</loc>
 <lastmod>2016-05-05T09:33:03+08:06</lastmod>
 <changefreq>daily</changefreq>
@@ -307,39 +584,85 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>./author/40123224.html</loc>
 <lastmod>2016-05-05T09:33:03+08:06</lastmod>
+=======
+<loc>http://cdw11-ag100.rhcloud.com/static/blog/author/40323206.html</loc>
+<lastmod>2016-05-05T09:38:33+08:06</lastmod>
+>>>>>>> f8b490f02149b9b0dbaad816d2e8534a2ab4a764
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
+<<<<<<< HEAD
 <loc>./author/40323131.html</loc>
 <lastmod>2016-05-05T08:36:40+08:06</lastmod>
+=======
+<loc>http://cdw11-ag100.rhcloud.com/static/blog/author/40323218.html</loc>
+<lastmod>2016-05-05T09:38:33+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
+<loc>http://cdw11-ag100.rhcloud.com/static/blog/author/40323229.html</loc>
+<lastmod>2016-05-05T09:38:33+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://cdw11-ag100.rhcloud.com/static/blog/author/40323230.html</loc>
+<lastmod>2016-05-05T09:38:33+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://cdw11-ag100.rhcloud.com/static/blog/author/40323231.html</loc>
+<lastmod>2016-05-05T09:38:33+08:06</lastmod>
+>>>>>>> f8b490f02149b9b0dbaad816d2e8534a2ab4a764
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<<<<<<< HEAD
 <loc>./author/40323199.html</loc>
 <lastmod>2016-05-05T09:33:03+08:06</lastmod>
+=======
+<loc>http://cdw11-ag100.rhcloud.com/static/blog/author/40323250.html</loc>
+<lastmod>2016-05-05T09:38:33+08:06</lastmod>
+>>>>>>> f8b490f02149b9b0dbaad816d2e8534a2ab4a764
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
+<<<<<<< HEAD
 <loc>./author/40323204.html</loc>
 <lastmod>2016-05-05T09:33:03+08:06</lastmod>
+=======
+<loc>http://cdw11-ag100.rhcloud.com/static/blog/author/40323253.html</loc>
+<lastmod>2016-05-05T09:39:35+08:06</lastmod>
+>>>>>>> f8b490f02149b9b0dbaad816d2e8534a2ab4a764
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
+<<<<<<< HEAD
 <loc>./author/40323206.html</loc>
 <lastmod>2016-05-05T09:33:03+08:06</lastmod>
+=======
+<loc>http://cdw11-ag100.rhcloud.com/static/blog/author/40328242.html</loc>
+<lastmod>2016-05-05T09:38:33+08:06</lastmod>
+>>>>>>> f8b490f02149b9b0dbaad816d2e8534a2ab4a764
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
+<<<<<<< HEAD
 <loc>./author/40323218.html</loc>
 <lastmod>2016-05-05T09:33:03+08:06</lastmod>
 <changefreq>daily</changefreq>
@@ -384,6 +707,10 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>./author/40328245.html</loc>
 <lastmod>2016-05-05T09:33:03+08:06</lastmod>
+=======
+<loc>http://cdw11-ag100.rhcloud.com/static/blog/author/40328245.html</loc>
+<lastmod>2016-05-05T09:38:33+08:06</lastmod>
+>>>>>>> f8b490f02149b9b0dbaad816d2e8534a2ab4a764
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>

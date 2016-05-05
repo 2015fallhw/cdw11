@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <feed xmlns="http://www.w3.org/2005/Atom"><title>CDW11 網頁 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/bg8.atom.xml" rel="self"></link><id>./</id><updated>2016-05-05T09:15:09+08:00</updated><entry><title>40323229 cdw11 報告</title><link href="./40323229-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-05-05T09:15:09+08:00</updated><author><name>40323229</name></author><id>tag:,2016-05-05:./40323229-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+=======
+<feed xmlns="http://www.w3.org/2005/Atom"><title>CDW11 網頁 (虎尾科大MDE)</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/" rel="alternate"></link><link href="http://cdw11-ag100.rhcloud.com/static/blog/feeds/bg8.atom.xml" rel="self"></link><id>http://cdw11-ag100.rhcloud.com/static/blog/</id><updated>2016-05-05T09:38:33+08:00</updated><entry><title>40323229 cdw11 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323229-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-05-05T09:38:33+08:00</updated><author><name>40323229</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-05-05:static/blog/40323229-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+>>>>>>> f8b490f02149b9b0dbaad816d2e8534a2ab4a764
 
 
 &lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-ag100.rhcloud.com/static/"&gt;http://cdw11-ag100.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
