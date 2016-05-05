@@ -61,30 +61,6 @@
 <t tx="amd.20160501215545.1"></t>
 <t tx="amd.20160501215558.1"></t>
 <t tx="amd.20160501215634.1"></t>
-<t tx="amd.20160501215720.1">@language md
-Title: 40323226 cdw11 報告
-Category: bg8
-Tags: 40323226, cdw11
-Author: 4032326
-啟動 cdw11 協同專案
-
-&lt;!-- PELICAN_END_SUMMARY --&gt;
-
-pelican 網誌位置: &lt;a href="http://cdw11-ag100.rhcloud.com/static/"&gt;http://cdw11-ag100.rhcloud.com/static/&lt;/a&gt;
-
-分組程式: &lt;a href="http://cdw11-ag100.rhcloud.com/option"&gt;http://cdw11-ag100.rhcloud.com/option&lt;/a&gt;
-
-fileuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/fileuploadform"&gt;http://cdw11-ag100.rhcloud.com/fileuploadform&lt;/a&gt;
-
-imageuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/imageuploadform"&gt;http://cdw11-ag100.rhcloud.com/imageuploadform&lt;/a&gt;
-
-請各組在 CDW11 下課前完成下列3個圖形的零件組合繪圖:
-
-&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_4a.png" width="100%" /&gt;
-
-&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_badc.png" width="100%" /&gt;
-
-&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;</t>
 <t tx="amd.20160501215942.1"></t>
 <t tx="amd.20160501220009.1"></t>
 <t tx="amd.20160501220009.2">@language python
