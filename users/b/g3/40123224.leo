@@ -241,7 +241,7 @@ import users.a.g4.ag4_40323138
 import users.a.g8.ag8_40323131_task1
 import users.b.g9.bg9_40323218
 import users.b.g9.bg9_40323250
-import users.b.g3.bg3_40123224_task1
+import users.b.g3.bg3_40123224
 
 # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
 _curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
