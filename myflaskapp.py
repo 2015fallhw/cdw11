@@ -8,6 +8,7 @@ import init
 
 import users.a.g10.ag10_40323141_task1
 import users.a.g10.ag10_40323139
+import users.a.g9.ag9_40323132task
 import users.a.g5.ag5_40323113task1
 import users.a.g4.ag4_40323138
 import users.a.g8.ag8_40323131_task1
@@ -389,6 +390,7 @@ if __name__ == "__main__":
     app.run()
 
 app.register_blueprint(users.a.g10.ag10_40323141_task1.ag10_40323141)    
+app.register_blueprint(users.a.g9.ag9_40323132task.ag9_40323132)
 app.register_blueprint(users.a.g10.ag10_40323139.ag10_40323139)
 app.register_blueprint(users.a.g5.ag5_40323113task1.ag5_40323113)
 app.register_blueprint(users.a.g8.ag8_40323131_task1.ag8_40323131)
