@@ -27,7 +27,13 @@
 </v>
 </v>
 <v t="amd.20160501215545.1" a="E"><vh>wsgi 程式部份</vh>
-<v t="leo.20160505100501.1"><vh>@clean bg1_40123144.py</vh></v>
+<v t="leo.20160505111939.1" a="E"><vh>@clean b40123144.py</vh>
+<v t="leo.20160505112116.1"><vh>b40123144 declarations</vh></v>
+<v t="leo.20160505112116.2"><vh>a</vh></v>
+<v t="leo.20160505112116.3"><vh>draw_a</vh></v>
+<v t="leo.20160505112116.4"><vh>circle36</vh></v>
+<v t="leo.20160505112116.5"><vh>drawcircle36</vh></v>
+</v>
 <v t="amd.20160501221015.1" a="E"><vh>@path ./../../../</vh>
 <v t="amd.20160501221001.1" a="E"><vh>@clean myflaskapp.py</vh>
 <v t="amd.20160501221001.2"><vh>myflaskapp declarations</vh></v>
@@ -51,7 +57,7 @@
 </v>
 </v>
 <v t="leo.20160505100228.2" a="E"><vh>Recovered Nodes</vh>
-<v t="leo.20160505100228.3"><vh>Recovered node "myflaskapp declarations" from @clean myflaskapp.py</vh>
+<v t="leo.20160505100228.3" a="E"><vh>Recovered node "myflaskapp declarations" from @clean myflaskapp.py</vh>
 <v t="leo.20160505100228.4"><vh>old:myflaskapp declarations</vh></v>
 <v t="leo.20160505100228.5"><vh>new:myflaskapp declarations</vh></v>
 </v>
@@ -89,9 +95,9 @@ if __name__ == "__main__":
 app.register_blueprint(users.a.g10.ag10_40323139.ag10_40323139)
 app.register_blueprint(users.a.g8.ag8_40323131_task1.ag8_40323131)
 app.register_blueprint(users.a.g4.ag4_40323138.ag4_40323138)
-app.register_blueprint(users.b.g9.bg9_40323218.bg9_40323218)
+#app.register_blueprint(users.b.g9.bg9_40323218.bg9_40323218)
 app.register_blueprint(users.b.g9.bg9_40323250.bg9_40323250)
-app.register_blueprint(users.b.g1.bg1_40123144.bg1_40123144)
+app.register_blueprint(users.b.g1.b40123144.b40123144)
 
 
 
@@ -233,9 +239,9 @@ import init
 import users.a.g10.ag10_40323139
 import users.a.g4.ag4_40323138
 import users.a.g8.ag8_40323131_task1
-import users.b.g9.bg9_40323218
+#import users.b.g9.bg9_40323218
 import users.b.g9.bg9_40323250
-import users.b.g1.bg1_40323144
+import users.b.g1.b40123144
 # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
 _curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
 # 設定在雲端與近端的資料儲存目錄
@@ -511,11 +517,8 @@ Diff...
   import users.a.g10.ag10_40323139
   import users.a.g4.ag4_40323138
   import users.a.g8.ag8_40323131_task1
-- &lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
-- import users.b.g9.bg9_40323218
-- =======
+-# import users.b.g9.bg9_40323218
 - import users.b.g9.bg9_40323250
-- &gt;&gt;&gt;&gt;&gt;&gt;&gt; 66b1338a18160a96e12e9c001210eefb19fbf945
   # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
   _curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
   # 設定在雲端與近端的資料儲存目錄
@@ -606,11 +609,8 @@ import init
 import users.a.g10.ag10_40323139
 import users.a.g4.ag4_40323138
 import users.a.g8.ag8_40323131_task1
-&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
-import users.b.g9.bg9_40323218
-=======
+#import users.b.g9.bg9_40323218
 import users.b.g9.bg9_40323250
-&gt;&gt;&gt;&gt;&gt;&gt;&gt; 66b1338a18160a96e12e9c001210eefb19fbf945
 # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
 _curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
 # 設定在雲端與近端的資料儲存目錄
@@ -645,7 +645,11 @@ app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
 
 
 </t>
-<t tx="leo.20160505100501.1">from flask import Blueprint, request
+<t tx="leo.20160505111939.1">@language python
+@tabwidth -4
+@others
+</t>
+<t tx="leo.20160505112116.1">from flask import Blueprint, request
  
 ag100 = Blueprint('ag100', __name__, url_prefix='/ag100', template_folder='templates')
  
@@ -781,7 +785,10 @@ class chain():
         return x2, y2
 '''
 
-# 傳繪 A 函式內容
+
+
+</t>
+<t tx="leo.20160505112116.2"># 傳繪 A 函式內容
 def a(x, y, scale=1, color="green"):
     outstring = '''
 # 利用 chain class 建立案例, 對應到 mychain 變數
@@ -809,12 +816,17 @@ mychain.basic(x10, y10, x1, y1)
  
     return outstring
     
-    
-@ag100.route('/a')
+
+
+</t>
+<t tx="leo.20160505112116.3">@ag100.route('/a')
 def draw_a():
     return head_str + chain_str + a(0, 0) + tail_str
     
-def circle36(x, y, degree=10):
+
+    
+</t>
+<t tx="leo.20160505112116.4">def circle36(x, y, degree=10):
     # 20 為鏈條輪廓之圓距
     # chain 所圍之圓圈半徑為 20/2/math.asin(degree*math.pi/180/2)
     # degree = math.asin(20/2/radius)*180/math.pi
@@ -830,12 +842,16 @@ x1, y1 = mychain.basic_rot('''+str(x)+","+str(y)+", "+str(first_degree)+''')
         outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+", 90-"+str(i*degree)+") \n"
     return outstring
     
-@ag100.route('/circle36/&lt;degree&gt;', defaults={'x': 0, 'y': 0})
+    
+    
+</t>
+<t tx="leo.20160505112116.5">@ag100.route('/circle36/&lt;degree&gt;', defaults={'x': 0, 'y': 0})
 @ag100.route('/circle36/&lt;x&gt;/&lt;degree&gt;', defaults={'y': 0})
 @ag100.route('/circle36/&lt;x&gt;/&lt;y&gt;/&lt;degree&gt;')
 #@ag100.route('/circle36/&lt;int:x&gt;/&lt;int:y&gt;/&lt;int:degree&gt;')
 def drawcircle36(x,y,degree):
     return head_str + chain_str + circle36(int(x), int(y), int(degree)) + tail_str
+
 </t>
 </tnodes>
 </leo_file>
