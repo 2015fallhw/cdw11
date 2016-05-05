@@ -28,12 +28,14 @@
 </v>
 </v>
 <v t="amd.20160501215545.1" a="E"><vh>wsgi 程式部份</vh>
+<v t="leo.20160505102738.1" a="E"><vh>40323299</vh>
 <v t="leo.20160505095537.1" a="E"><vh>@clean b40323299_cdw11.py</vh>
 <v t="leo.20160505100846.1"><vh>b40323299_cdw11 declarations</vh></v>
 <v t="leo.20160505100846.2"><vh>a</vh></v>
 <v t="leo.20160505100846.3"><vh>draw_a</vh></v>
 <v t="leo.20160505100846.4"><vh>circle36</vh></v>
 <v t="leo.20160505100846.5"><vh>drawcircle36</vh></v>
+</v>
 </v>
 <v t="amd.20160501221015.1" a="E"><vh>@path ./../../../</vh>
 <v t="amd.20160501221001.1" a="E"><vh>@clean myflaskapp.py</vh>
@@ -91,6 +93,10 @@ app.register_blueprint(users.a.g10.ag10_40323139.ag10_40323139)
 app.register_blueprint(users.a.g8.ag8_40323131_task1.ag8_40323131)
 app.register_blueprint(users.a.g4.ag4_40323138.ag4_40323138)
 app.register_blueprint(users.b.g101.b40323299_cdw11.ag100)
+#app.register_blueprint(users.b.g9.bg9_40323218.bg9_40323218)
+app.register_blueprint(users.b.g9.bg9_40323250.bg9_40323250)
+#app.register_blueprint(users.a.g11.bg11_40323245.bg11_40323245)
+
 
 
 
@@ -232,6 +238,9 @@ import users.a.g10.ag10_40323139
 import users.a.g4.ag4_40323138
 import users.a.g8.ag8_40323131_task1
 import users.b.g101.b40323299_cdw11
+#import users.b.g9.bg9_40323218
+import users.b.g9.bg9_40323250
+#import users.b.g11.bg11_40323245
 # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
 _curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
 # 設定在雲端與近端的資料儲存目錄
@@ -691,5 +700,6 @@ x1, y1 = mychain.basic_rot('''+str(x)+","+str(y)+", "+str(first_degree)+''')
 #@ag100.route('/circle36/&lt;int:x&gt;/&lt;int:y&gt;/&lt;int:degree&gt;')
 def drawcircle36(x,y,degree):
     return head_str + chain_str + circle36(int(x), int(y), int(degree)) + tail_str</t>
+<t tx="leo.20160505102738.1"></t>
 </tnodes>
 </leo_file>
