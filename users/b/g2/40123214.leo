@@ -22,6 +22,7 @@
 </v>
 <v t="amd.20160501215942.1" a="E"><vh>@path content/b/g2</vh>
 <v t="amd.20160501215720.1"><vh>@edit 40123214.md</vh></v>
+<v t="leo.20160505102724.1"><vh>@edit bg2_40123214.py</vh></v>
 </v>
 </v>
 </v>
@@ -47,7 +48,6 @@
 <v t="amd.20160501230850.1"><vh>send_blog</vh></v>
 <v t="amd.20160501225844.1"><vh>send_file</vh></v>
 </v>
-<v t="leo.20160505102724.1"><vh>@edit bg2_40123214_cdw11.py</vh></v>
 </v>
 </v>
 </vnodes>
@@ -84,7 +84,7 @@ app.register_blueprint(users.a.g10.ag10_40323139.ag10_40323139)
 app.register_blueprint(users.a.g8.ag8_40323131_task1.ag8_40323131)
 app.register_blueprint(users.a.g4.ag4_40323138.ag4_40323138)
 
-app.register_blueprint(users.b.g2.bg2_40123214_cdw11.bg2_40123214_cdw11)
+app.register_blueprint(users.b.g2.bg2_40123214.bg2_40123214)
 app.register_blueprint(users.b.g9.bg9_40323218.bg9_40323218)
 
 app.register_blueprint(users.b.g9.bg9_40323250.bg9_40323250)
@@ -229,7 +229,7 @@ import init
 import users.a.g10.ag10_40323139
 import users.a.g4.ag4_40323138
 import users.a.g8.ag8_40323131_task1
-import users.b.g2.bg2_40123214_cdw11
+import users.b.g2.bg2_40123214
 import users.b.g9.bg9_40323218
 import users.b.g9.bg9_40323250
 
