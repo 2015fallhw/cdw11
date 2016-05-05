@@ -14,21 +14,21 @@
 <v t="amd.20160501215558.1" a="E"><vh>@path ./../../../</vh>
 <v t="amd.20160501223113.1"><vh>@edit README.md</vh></v>
 <v t="amd.20160501215634.1" a="E"><vh>@path static</vh>
-<v t="amd.20160501220009.1" a="E"><vh>假如要送到 gh-pages 分支, 使用下列按鈕</vh>
+<v t="amd.20160501220009.1"><vh>假如要送到 gh-pages 分支, 使用下列按鈕</vh>
 <v t="amd.20160501220009.2"><vh>@button gh-pages pelican</vh></v>
 </v>
-<v t="amd.20160501220029.1" a="E"><vh>假如要在近端檢視, 使用下列按鈕</vh>
+<v t="amd.20160501220029.1"><vh>假如要在近端檢視, 使用下列按鈕</vh>
 <v t="amd.20160501220029.2"><vh>@button local pelican</vh></v>
 </v>
-<v t="amd.20160501215942.1" a="E"><vh>@path content/a/g100</vh>
-<v t="amd.20160501215720.1"><vh>@edit 40323199-20160429.md</vh></v>
+<v t="amd.20160501215942.1" a="E"><vh>@path content/b/g9</vh>
+<v t="leo.20160505085006.1"><vh>@edit 40323230-w11.md</vh></v>
 </v>
 </v>
 </v>
 </v>
 <v t="amd.20160501215545.1" a="E"><vh>wsgi 程式部份</vh>
-<v t="amd.20160501221015.1" a="E"><vh>@path ./../../../</vh>
-<v t="amd.20160501221001.1" a="E"><vh>@clean myflaskapp.py</vh>
+<v t="amd.20160501221015.1"><vh>@path ./../../../</vh>
+<v t="amd.20160501221001.1"><vh>@clean myflaskapp.py</vh>
 <v t="amd.20160501221001.2"><vh>myflaskapp declarations</vh></v>
 <v t="amd.20160501221001.3"><vh>index</vh></v>
 <v t="amd.20160501221001.4"><vh>user</vh></v>
@@ -47,6 +47,13 @@
 <v t="amd.20160501230850.1"><vh>send_blog</vh></v>
 <v t="amd.20160501225844.1"><vh>send_file</vh></v>
 </v>
+</v>
+<v t="leo.20160505092950.1"><vh>@edit bg9_40323230.py</vh></v>
+</v>
+<v t="leo.20160505092929.1" a="E"><vh>Recovered Nodes</vh>
+<v t="leo.20160505092929.2"><vh>Recovered node "myflaskapp declarations" from @clean myflaskapp.py</vh>
+<v t="leo.20160505092929.3"><vh>old:myflaskapp declarations</vh></v>
+<v t="leo.20160505092929.4"><vh>new:myflaskapp declarations</vh></v>
 </v>
 </v>
 </vnodes>
@@ -481,6 +488,155 @@ def send_file(path):
 @app.route('/static/blog/')
 def send_blog():
   return app.send_static_file('blog/index.html')
+
+</t>
+<t tx="leo.20160505092929.1"></t>
+<t tx="leo.20160505092929.2">(uncached) amd.20160501221001.2
+Diff...
+  # coding: utf-8
+  from flask import Flask, send_from_directory, request, redirect, render_template, session, make_response
+  import random
+  import math
+  import os
+  # init.py 為自行建立的起始物件
+  import init
+  
+  import users.a.g10.ag10_40323139
+  import users.a.g4.ag4_40323138
+  import users.a.g8.ag8_40323131_task1
+- &lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+- import users.b.g9.bg9_40323218
+- =======
+  import users.b.g9.bg9_40323250
+- &gt;&gt;&gt;&gt;&gt;&gt;&gt; 66b1338a18160a96e12e9c001210eefb19fbf945
+  # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
+  _curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
+  # 設定在雲端與近端的資料儲存目錄
+  if 'OPENSHIFT_REPO_DIR' in os.environ.keys():
+      # 表示程式在雲端執行
+      data_dir = os.environ['OPENSHIFT_DATA_DIR']
+      static_dir = os.environ['OPENSHIFT_REPO_DIR']+"/static"
+      download_dir = os.environ['OPENSHIFT_DATA_DIR']+"/downloads"
+  else:
+      # 表示程式在近端執行
+      data_dir = _curdir + "/local_data/"
+      static_dir = _curdir + "/static"
+      download_dir = _curdir + "/local_data/downloads/"
+  
+  # 利用 init.py 啟動, 建立所需的相關檔案
+  initobj = init.Init()
+  
+  # 必須先將 download_dir 設為 static_folder, 然後才可以用於 download 方法中的 app.static_folder 的呼叫
+  app = Flask(__name__)
+  #app.config['download_dir'] = download_dir
+  
+  # 使用 session 必須要設定 secret_key
+  # In order to use sessions you have to set a secret key
+  # set the secret key.  keep this really secret:
+  app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
+  
+  
+  
+  
+  
+  
+  
+  
+</t>
+<t tx="leo.20160505092929.3"># coding: utf-8
+from flask import Flask, send_from_directory, request, redirect, render_template, session, make_response
+import random
+import math
+import os
+# init.py 為自行建立的起始物件
+import init
+
+import users.a.g10.ag10_40323139
+import users.a.g4.ag4_40323138
+import users.a.g8.ag8_40323131_task1
+import users.b.g9.bg9_40323250
+# 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
+_curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
+# 設定在雲端與近端的資料儲存目錄
+if 'OPENSHIFT_REPO_DIR' in os.environ.keys():
+    # 表示程式在雲端執行
+    data_dir = os.environ['OPENSHIFT_DATA_DIR']
+    static_dir = os.environ['OPENSHIFT_REPO_DIR']+"/static"
+    download_dir = os.environ['OPENSHIFT_DATA_DIR']+"/downloads"
+else:
+    # 表示程式在近端執行
+    data_dir = _curdir + "/local_data/"
+    static_dir = _curdir + "/static"
+    download_dir = _curdir + "/local_data/downloads/"
+
+# 利用 init.py 啟動, 建立所需的相關檔案
+initobj = init.Init()
+
+# 必須先將 download_dir 設為 static_folder, 然後才可以用於 download 方法中的 app.static_folder 的呼叫
+app = Flask(__name__)
+#app.config['download_dir'] = download_dir
+
+# 使用 session 必須要設定 secret_key
+# In order to use sessions you have to set a secret key
+# set the secret key.  keep this really secret:
+app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
+
+
+
+
+
+
+
+
+</t>
+<t tx="leo.20160505092929.4"># coding: utf-8
+from flask import Flask, send_from_directory, request, redirect, render_template, session, make_response
+import random
+import math
+import os
+# init.py 為自行建立的起始物件
+import init
+
+import users.a.g10.ag10_40323139
+import users.a.g4.ag4_40323138
+import users.a.g8.ag8_40323131_task1
+&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+import users.b.g9.bg9_40323218
+=======
+import users.b.g9.bg9_40323250
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; 66b1338a18160a96e12e9c001210eefb19fbf945
+# 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
+_curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
+# 設定在雲端與近端的資料儲存目錄
+if 'OPENSHIFT_REPO_DIR' in os.environ.keys():
+    # 表示程式在雲端執行
+    data_dir = os.environ['OPENSHIFT_DATA_DIR']
+    static_dir = os.environ['OPENSHIFT_REPO_DIR']+"/static"
+    download_dir = os.environ['OPENSHIFT_DATA_DIR']+"/downloads"
+else:
+    # 表示程式在近端執行
+    data_dir = _curdir + "/local_data/"
+    static_dir = _curdir + "/static"
+    download_dir = _curdir + "/local_data/downloads/"
+
+# 利用 init.py 啟動, 建立所需的相關檔案
+initobj = init.Init()
+
+# 必須先將 download_dir 設為 static_folder, 然後才可以用於 download 方法中的 app.static_folder 的呼叫
+app = Flask(__name__)
+#app.config['download_dir'] = download_dir
+
+# 使用 session 必須要設定 secret_key
+# In order to use sessions you have to set a secret key
+# set the secret key.  keep this really secret:
+app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
+
+
+
+
+
+
+
 
 </t>
 </tnodes>
