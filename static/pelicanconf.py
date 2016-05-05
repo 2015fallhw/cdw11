@@ -2,8 +2,13 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
+<<<<<<< HEAD
 AUTHOR = '40323245'
 SITENAME = '40323245 網頁 (虎尾科大MDE)'
+=======
+AUTHOR = '40123224'
+SITENAME = 'CDW11 網頁 (虎尾科大MDE)'
+>>>>>>> bfa97b0a8c8101f990cbf1af253e0113dd7129ad
 SITEURL = 'http://cdw11-ag100.rhcloud.com/static/'
 
 # 不要用文章所在目錄作為類別
