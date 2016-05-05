@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = 'kmol'
+AUTHOR = '40123224'
 SITENAME = 'CDW11 網頁 (虎尾科大MDE)'
 SITEURL = 'http://cdw11-ag100.rhcloud.com/static/'
 
