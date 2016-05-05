@@ -27,8 +27,9 @@
 </v>
 </v>
 <v t="amd.20160501215545.1" a="E"><vh>wsgi 程式部份</vh>
+<v t="leo.20160505180155.1" a="E"><vh>@auto bg1_40123156.py</vh></v>
 <v t="amd.20160501221015.1" a="E"><vh>@path ./../../../</vh>
-<v t="amd.20160501221001.1" a="E"><vh>@clean myflaskapp.py</vh>
+<v t="amd.20160501221001.1"><vh>@clean myflaskapp.py</vh>
 <v t="amd.20160501221001.2"><vh>myflaskapp declarations</vh></v>
 <v t="amd.20160501221001.3"><vh>index</vh></v>
 <v t="amd.20160501221001.4"><vh>user</vh></v>
@@ -91,6 +92,7 @@ app.register_blueprint(users.a.g8.ag8_40323131_task1.ag8_40323131)
 app.register_blueprint(users.a.g4.ag4_40323138.ag4_40323138)
 app.register_blueprint(users.b.g9.bg9_40323250.bg9_40323250)
 app.register_blueprint(users.b.g11.bg11_40323245.bg11_40323245)
+app.register_blueprint(users.b.g1.bg1_40123156.bg1_40123156)
 
 
 </t>
@@ -233,6 +235,7 @@ import users.a.g4.ag4_40323138
 import users.a.g8.ag8_40323131_task1
 import users.b.g9.bg9_40323250
 import users.b.g11.bg11_40323245
+import users.b.g1.bg1_40123156
 # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
 _curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
 # 設定在雲端與近端的資料儲存目錄
