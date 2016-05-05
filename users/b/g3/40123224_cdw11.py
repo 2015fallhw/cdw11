@@ -136,6 +136,7 @@ class chain():
 
 
 
+
 # 傳繪 A 函式內容
 def a(x, y, scale=1, color="green"):
     outstring = '''
@@ -163,15 +164,18 @@ mychain.basic(x10, y10, x1, y1)
 '''
  
     return outstring
-    
+
+
 
 
 @ag100.route('/a')
 def draw_a():
     return head_str + chain_str + a(0, 0) + tail_str
-    
 
-    
+
+
+
+
 def circle36(x, y, degree=10):
     # 20 為鏈條輪廓之圓距
     # chain 所圍之圓圈半徑為 20/2/math.asin(degree*math.pi/180/2)
@@ -188,12 +192,16 @@ x1, y1 = mychain.basic_rot('''+str(x)+","+str(y)+", "+str(first_degree)+''')
         outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+", 90-"+str(i*degree)+") \n"
     return outstring
     
-    
-    
+
+
+
+
 @ag100.route('/circle36/<degree>', defaults={'x': 0, 'y': 0})
 @ag100.route('/circle36/<x>/<degree>', defaults={'y': 0})
 @ag100.route('/circle36/<x>/<y>/<degree>')
 #@ag100.route('/circle36/<int:x>/<int:y>/<int:degree>')
 def drawcircle36(x,y,degree):
     return head_str + chain_str + circle36(int(x), int(y), int(degree)) + tail_str
+
+
 
