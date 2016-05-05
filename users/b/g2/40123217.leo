@@ -20,8 +20,8 @@
 <v t="amd.20160501220029.1" a="E"><vh>假如要在近端檢視, 使用下列按鈕</vh>
 <v t="amd.20160501220029.2"><vh>@button local pelican</vh></v>
 </v>
-<v t="amd.20160501215942.1" a="E"><vh>@path content/a/g100</vh>
-<v t="amd.20160501215720.1"><vh>@edit 40323199-20160429.md</vh></v>
+<v t="amd.20160501215942.1" a="E"><vh>@path content/b/g2</vh>
+<v t="amd.20160501215720.1"><vh>@edit 40123217.md</vh></v>
 </v>
 </v>
 </v>
@@ -49,10 +49,10 @@
 </v>
 </v>
 </v>
-<v t="leo.20160505112141.2" a="E"><vh>Recovered Nodes</vh>
-<v t="leo.20160505112141.3"><vh>Recovered node "myflaskapp declarations" from @clean myflaskapp.py</vh>
-<v t="leo.20160505112141.4"><vh>old:myflaskapp declarations</vh></v>
-<v t="leo.20160505112141.5"><vh>new:myflaskapp declarations</vh></v>
+<v t="leo.20160505111400.1" a="E"><vh>Recovered Nodes</vh>
+<v t="leo.20160505111400.2"><vh>Recovered node "myflaskapp declarations" from @clean myflaskapp.py</vh>
+<v t="leo.20160505111400.3"><vh>old:myflaskapp declarations</vh></v>
+<v t="leo.20160505111400.4"><vh>new:myflaskapp declarations</vh></v>
 </v>
 </v>
 </vnodes>
@@ -501,8 +501,8 @@ def send_blog():
   return app.send_static_file('blog/index.html')
 
 </t>
-<t tx="leo.20160505112141.2"></t>
-<t tx="leo.20160505112141.3">(uncached) amd.20160501221001.2
+<t tx="leo.20160505111400.1"></t>
+<t tx="leo.20160505111400.2">(uncached) amd.20160501221001.2
 Diff...
   # coding: utf-8
   from flask import Flask, send_from_directory, request, redirect, render_template, session, make_response
@@ -555,7 +555,7 @@ Diff...
   
   
 </t>
-<t tx="leo.20160505112141.4"># coding: utf-8
+<t tx="leo.20160505111400.3"># coding: utf-8
 from flask import Flask, send_from_directory, request, redirect, render_template, session, make_response
 import random
 import math
@@ -600,7 +600,7 @@ app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
 
 
 </t>
-<t tx="leo.20160505112141.5"># coding: utf-8
+<t tx="leo.20160505111400.4"># coding: utf-8
 from flask import Flask, send_from_directory, request, redirect, render_template, session, make_response
 import random
 import math
