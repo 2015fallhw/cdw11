@@ -5,91 +5,119 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./</loc>
-<lastmod>2016-05-03T00:56:14-00:00</lastmod>
+<lastmod>2016-05-05T09:09:37-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./archives.html</loc>
-<lastmod>2016-05-03T00:56:14-00:00</lastmod>
+<lastmod>2016-05-05T09:09:37-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tags.html</loc>
-<lastmod>2016-05-03T00:56:14-00:00</lastmod>
+<lastmod>2016-05-05T09:09:37-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./categories.html</loc>
-<lastmod>2016-05-03T00:56:14-00:00</lastmod>
+<lastmod>2016-05-05T09:09:37-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
+<loc>./40323299-cdw11-bao-gao-1.html</loc>
+<lastmod>2016-05-05T09:07:31+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./40323299-cdw11-bao-gao.html</loc>
+<lastmod>2016-05-05T09:06:48+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>./40323131-cdw11-bao-gao.html</loc>
-<lastmod>2016-05-03T00:01:47+08:00</lastmod>
+<lastmod>2016-05-05T08:50:42+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./40323199-cdw11-bao-gao.html</loc>
-<lastmod>2016-05-02T20:20:43+08:00</lastmod>
+<lastmod>2016-05-05T08:50:42+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./category/ag100.html</loc>
-<lastmod>2016-05-02T20:20:43+08:06</lastmod>
+<lastmod>2016-05-05T08:50:42+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./category/ag8.html</loc>
-<lastmod>2016-05-03T00:01:47+08:06</lastmod>
+<lastmod>2016-05-05T08:50:42+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./category/bg101.html</loc>
+<lastmod>2016-05-05T09:07:31+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./tag/40323299.html</loc>
+<lastmod>2016-05-05T09:07:31+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tag/cdw11.html</loc>
-<lastmod>2016-05-03T00:01:47+08:06</lastmod>
+<lastmod>2016-05-05T09:07:31+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tag/40323199.html</loc>
-<lastmod>2016-05-02T20:20:43+08:06</lastmod>
+<lastmod>2016-05-05T08:50:42+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tag/40323131.html</loc>
-<lastmod>2016-05-03T00:01:47+08:06</lastmod>
+<lastmod>2016-05-05T08:50:42+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./author/40323131.html</loc>
-<lastmod>2016-05-03T00:01:47+08:06</lastmod>
+<lastmod>2016-05-05T08:50:42+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./author/40323199.html</loc>
-<lastmod>2016-05-02T20:20:43+08:06</lastmod>
+<lastmod>2016-05-05T09:07:31+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
