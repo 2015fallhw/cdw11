@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = '40323245'
-SITENAME = '40323245 網頁 (虎尾科大MDE)'
+AUTHOR = 'kmol'
+SITENAME = 'CDW11 網頁 (虎尾科大MDE)'
 SITEURL = 'http://cdw11-ag100.rhcloud.com/static/'
 
 # 不要用文章所在目錄作為類別
