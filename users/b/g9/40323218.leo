@@ -10,8 +10,8 @@
 <preferences/>
 <find_panel_settings/>
 <vnodes>
-<v t="amd.20160501215436.2"><vh>pelican 部份</vh>
-<v t="amd.20160501215558.1"><vh>@path ./../../../</vh>
+<v t="amd.20160501215436.2" a="E"><vh>pelican 部份</vh>
+<v t="amd.20160501215558.1" a="E"><vh>@path ./../../../</vh>
 <v t="amd.20160501223113.1"><vh>@edit README.md</vh></v>
 <v t="amd.20160501215634.1" a="E"><vh>@path static</vh>
 <v t="amd.20160501220009.1" a="E"><vh>假如要送到 gh-pages 分支, 使用下列按鈕</vh>
@@ -27,7 +27,9 @@
 </v>
 </v>
 <v t="amd.20160501215545.1" a="E"><vh>wsgi 程式部份</vh>
+<v t="leo.20160505110011.1" a="E"><vh>40323218</vh>
 <v t="leo.20160505100221.1"><vh>@edit bg9_40323218.py</vh></v>
+</v>
 <v t="amd.20160501221015.1" a="E"><vh>@path ./../../../</vh>
 <v t="amd.20160501221001.1" a="E"><vh>@clean myflaskapp.py</vh>
 <v t="amd.20160501221001.2"><vh>myflaskapp declarations</vh></v>
@@ -83,11 +85,8 @@ if __name__ == "__main__":
 app.register_blueprint(users.a.g10.ag10_40323139.ag10_40323139)
 app.register_blueprint(users.a.g8.ag8_40323131_task1.ag8_40323131)
 app.register_blueprint(users.a.g4.ag4_40323138.ag4_40323138)
-&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
 app.register_blueprint(users.b.g9.bg9_40323218.bg9_40323218)
-=======
 app.register_blueprint(users.b.g9.bg9_40323250.bg9_40323250)
-&gt;&gt;&gt;&gt;&gt;&gt;&gt; 66b1338a18160a96e12e9c001210eefb19fbf945
 
 
 
@@ -228,11 +227,8 @@ import init
 import users.a.g10.ag10_40323139
 import users.a.g4.ag4_40323138
 import users.a.g8.ag8_40323131_task1
-&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
 import users.b.g9.bg9_40323218
-=======
 import users.b.g9.bg9_40323250
-&gt;&gt;&gt;&gt;&gt;&gt;&gt; 66b1338a18160a96e12e9c001210eefb19fbf945
 # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
 _curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
 # 設定在雲端與近端的資料儲存目錄
@@ -494,5 +490,6 @@ def send_blog():
   return app.send_static_file('blog/index.html')
 
 </t>
+<t tx="leo.20160505110011.1"></t>
 </tnodes>
 </leo_file>

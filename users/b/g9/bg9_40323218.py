@@ -213,8 +213,8 @@ mychain.basic(x10, y10, x1, y1, color="green")
     return outstring
     
 
-@bg9_40323250.route('/task50_2')
-def task50_2():
+@bg9_40323218.route('/task18_2')
+def task18_2():
     outstring = '''
 <!DOCTYPE html>
 <html>
@@ -425,8 +425,8 @@ mychain.basic(x10, y10, 0+65*3, 0, color="green")
 
 
 
-@bg9_40323250.route('/task50_3')
-def task50_3():
+@bg9_40323218.route('/task18_3')
+def task18_3():
     outstring = '''
 <!DOCTYPE html>
 <html>
