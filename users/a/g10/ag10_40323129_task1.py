@@ -7,8 +7,8 @@ ag10_40323129 = Blueprint('ag10_40323129', __name__, url_prefix='/ag10_40323129'
 
 
 
-@ag10_40323129.route('/29AAAA')
-def 29AAAA():
+@ag10_40323129.route('/task29a')
+def task29a():
     outstring = '''
 <!DOCTYPE html>
 <html>
@@ -166,7 +166,7 @@ x8, y8 = mychain.basic_rot(x7, y7, -90)
 x9, y9 = mychain.basic_rot(x8, y8, -90)
 # 中間兩個水平單元
 x10, y10 = mychain.basic_rot(x8, y8, -180)
-mychain.basic(x10, y10, x1, y1, color="blue")
+mychain.basic(x10, y10, x1, y1, color="green")
 
 cgo.setWorldCoords(-385, -250, 500, 500) 
 # 畫 A
@@ -186,7 +186,7 @@ x8, y8 = mychain.basic_rot(x7, y7, -90)
 x9, y9 = mychain.basic_rot(x8, y8, -90)
 # 中間兩個水平單元
 x10, y10 = mychain.basic_rot(x8, y8, -180)
-mychain.basic(x10, y10, x1, y1, color="red")
+mychain.basic(x10, y10, x1, y1, color="green")
 
 cgo.setWorldCoords(-445, -250, 500, 500) 
 # 畫 A
@@ -213,8 +213,8 @@ mychain.basic(x10, y10, x1, y1, color="green")
     return outstring
     
 
-@ag10_40323129.route('/29BACD')
-def 29BACD():
+@ag10_40323129.route('/task29b')
+def task29ab():
     outstring = '''
 <!DOCTYPE html>
 <html>
@@ -425,8 +425,8 @@ mychain.basic(x10, y10, 0+65*3, 0, color="green")
 
 
 
-@ag10_40323129.route('/29ABCD')
-def 29ABCD():
+@ag10_40323129.route('/task29c')
+def task29c():
     outstring = '''
 <!DOCTYPE html>
 <html>
