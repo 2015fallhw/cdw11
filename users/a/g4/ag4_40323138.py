@@ -28,8 +28,7 @@ window.onload=function(){
 brython(1);
 }
 </script>
-
-<canvas id="plotarea" width="3000" height="3000"></canvas>
+<canvas id="plotarea" width="600" height="800"></canvas>
 
 <script type="text/python">
 from javascript import JSConstructor
@@ -42,61 +41,16 @@ shapedefs = window.shapeDefs
 obj2d = JSConstructor(window.Obj2D)
 cgo = cango("plotarea")
 
-cgo.setWorldCoords(-250, -4500, 5000, 5000) 
+cgo.setWorldCoords(-250, -250, 500, 500) 
 
 # 決定要不要畫座標軸線
-#cgo.drawAxes(0, 240, 0, 240, {
-#    "strokeColor":"#aaaaaa",
-#    "fillColor": "#aaaaaa",
-#    "xTickInterval": 20,
-#    "xLabelInterval": 20,
-#    "yTickInterval": 20,
-#    "yLabelInterval": 20})
-        
-#cgo.drawText("使用 Cango 繪圖程式庫!", 0, 0, {"fontSize":60, "fontWeight": 1200, "lorg":5 })
-
-deg = math.pi/180  
-def O(x, y, rx, ry, rot, color, border, linewidth):
-    # 旋轉必須要針對相對中心 rot not working yet
-    chamber = "M -6.8397, -1.4894 \
-                     A 7, 7, 0, 1, 0, 6.8397, -1.4894 \
-                     A 40, 40, 0, 0, 1, 6.8397, -18.511 \
-                     A 7, 7, 0, 1, 0, -6.8397, -18.511 \
-                     A 40, 40, 0, 0, 1, -6.8397, -1.4894 z"
-    cgoChamber = window.svgToCgoSVG(chamber)
-    cmbr = cobj(cgoChamber, "SHAPE", {
-            "fillColor": color,
-            "border": border,
-            "strokeColor": "tan",
-            "lineWidth": linewidth })
-
-    # 複製 cmbr, 然後命名為 basic1
-    basic2 = cmbr.dup()
-    basic2.rotate(90)
-    basic2.translate(0, 0) 
-    
-    cmbr.appendPath(basic2)
-    
-    # hole 為原點位置
-    hole = cobj(shapedefs.circle(4), "PATH")
-    cmbr.appendPath(hole)
-
-    # 表示放大 3 倍
-    #cgo.render(cmbr, x, y, 3, rot)
-    # 放大 5 倍
-    cgo.render(cmbr, x, y, 5, rot)
-
-O(0, 0, 0, 0, 0, "yellow", True, 4)
-cgo.setWorldCoords(-250, -4500, 5000, 5000) 
-
-# 決定要不要畫座標軸線
-#cgo.drawAxes(0, 240, 0, 240, {
-#    "strokeColor":"#aaaaaa",
-#    "fillColor": "#aaaaaa",
-#    "xTickInterval": 20,
-#    "xLabelInterval": 20,
-#    "yTickInterval": 20,
-#    "yLabelInterval": 20})
+cgo.drawAxes(0, 240, 0, 240, {
+    "strokeColor":"#aaaaaa",
+    "fillColor": "#aaaaaa",
+   "xTickInterval": 20,
+    "xLabelInterval": 20,
+    "yTickInterval": 20,
+    "yLabelInterval": 20})
         
 #cgo.drawText("使用 Cango 繪圖程式庫!", 0, 0, {"fontSize":60, "fontWeight": 1200, "lorg":5 })
 
@@ -118,57 +72,53 @@ def O(x, y, rx, ry, rot, color, border, linewidth):
     # 複製 cmbr, 然後命名為 basic1
     basic1 = cmbr.dup()
     basic1.rotate(180)
-    
-    cmbr.appendPath(basic1)
-    
-    # hole 為原點位置
-    hole = cobj(shapedefs.circle(4), "PATH")
-    cmbr.appendPath(hole)
 
-    # 表示放大 3 倍
-    #cgo.render(cmbr, x, y, 3, rot)
-    # 放大 5 倍
-    cgo.render(cmbr, x, y, 5, rot)
+    basic2 = cmbr.dup()
+    basic2.rotate(90)
+    basic2.translate(0, 0) 
 
-O(0, 0, 0, 0, 0, "Orange", True, 4)
-cgo.setWorldCoords(-250, -4500, 5000, 5000) 
-
-# 決定要不要畫座標軸線
-#cgo.drawAxes(0, 240, 0, 240, {
-#    "strokeColor":"#aaaaaa",
-#    "fillColor": "#aaaaaa",
-#    "xTickInterval": 20,
-#    "xLabelInterval": 20,
-#    "yTickInterval": 20,
-#    "yLabelInterval": 20})
-        
-#cgo.drawText("使用 Cango 繪圖程式庫!", 0, 0, {"fontSize":60, "fontWeight": 1200, "lorg":5 })
-
-deg = math.pi/180  
-def O(x, y, rx, ry, rot, color, border, linewidth):
-    # 旋轉必須要針對相對中心 rot not working yet
-    chamber = "M -6.8397, -1.4894 \
-                     A 7, 7, 0, 1, 0, 6.8397, -1.4894 \
-                     A 40, 40, 0, 0, 1, 6.8397, -18.511 \
-                     A 7, 7, 0, 1, 0, -6.8397, -18.511 \
-                     A 40, 40, 0, 0, 1, -6.8397, -1.4894 z"
-    cgoChamber = window.svgToCgoSVG(chamber)
-    cmbr = cobj(cgoChamber, "SHAPE", {
-            "fillColor": color,
-            "border": border,
-            "strokeColor": "tan",
-            "lineWidth": linewidth })
-
-    # 複製 cmbr, 然後命名為 basic1 
     basic3 = cmbr.dup()
     basic3.rotate(90)
     basic3.translate(20, 0)
+
+    basic4 = cmbr.dup()
+    basic4.rotate(0)
+    basic4.translate(40, 0)
+    
+    basic5 = cmbr.dup()
+    basic5.rotate(0)
+    basic5.translate(40, 20)
+
+    basic6 = cmbr.dup()
+    basic6.rotate(150)
+    basic6.translate(0, 40)
+    
+    basic7 = cmbr.dup()
+    basic7.rotate(210)
+    basic7.translate(40, 40)
+
+    basic8 = cmbr.dup()
+    basic8.rotate(90)
+    basic8.translate(20*math.cos(60*deg), (20*math.sin(60*deg)+40))
+    
+    basic9 = cmbr.dup()
+    basic9.rotate(0)
+    basic9.translate(0, 40)
+    
     
     basic11 = cmbr.dup()
     basic11.rotate(0)
     basic11.translate(40, 40)
     
+    cmbr.appendPath(basic1)
+    cmbr.appendPath(basic2)
     cmbr.appendPath(basic3)
+    cmbr.appendPath(basic4)
+    cmbr.appendPath(basic5)
+    cmbr.appendPath(basic6)
+    cmbr.appendPath(basic7)
+    cmbr.appendPath(basic8)
+    cmbr.appendPath(basic9)
     cmbr.appendPath(basic11)
     
     # hole 為原點位置
@@ -178,19 +128,19 @@ def O(x, y, rx, ry, rot, color, border, linewidth):
     # 表示放大 3 倍
     #cgo.render(cmbr, x, y, 3, rot)
     # 放大 5 倍
-    cgo.render(cmbr, x, y, 5, rot)
+    cgo.render(cmbr, x, y, 1, rot)
 
-O(0, 0, 0, 0, 0, "lightyellow", True, 4)
-cgo.setWorldCoords(-250, -4500, 5000, 5000) 
+O(0, 15, 0, 0, 0, "green", True, 4)
+cgo.setWorldCoords(-250, -250, 500, 500) 
 
 # 決定要不要畫座標軸線
-#cgo.drawAxes(0, 240, 0, 240, {
-#    "strokeColor":"#aaaaaa",
-#    "fillColor": "#aaaaaa",
-#    "xTickInterval": 20,
-#    "xLabelInterval": 20,
-#    "yTickInterval": 20,
-#    "yLabelInterval": 20})
+cgo.drawAxes(0, 240, 0, 240, {
+    "strokeColor":"#aaaaaa",
+    "fillColor": "#aaaaaa",
+   "xTickInterval": 20,
+    "xLabelInterval": 20,
+    "yTickInterval": 20,
+    "yLabelInterval": 20})
         
 #cgo.drawText("使用 Cango 繪圖程式庫!", 0, 0, {"fontSize":60, "fontWeight": 1200, "lorg":5 })
 
@@ -210,6 +160,17 @@ def O(x, y, rx, ry, rot, color, border, linewidth):
             "lineWidth": linewidth })
 
     # 複製 cmbr, 然後命名為 basic1
+    basic1 = cmbr.dup()
+    basic1.rotate(180)
+
+    basic2 = cmbr.dup()
+    basic2.rotate(90)
+    basic2.translate(0, 0) 
+
+    basic3 = cmbr.dup()
+    basic3.rotate(90)
+    basic3.translate(20, 0)
+
     basic4 = cmbr.dup()
     basic4.rotate(0)
     basic4.translate(40, 0)
@@ -218,48 +179,6 @@ def O(x, y, rx, ry, rot, color, border, linewidth):
     basic5.rotate(0)
     basic5.translate(40, 20)
 
-    cmbr.appendPath(basic4)
-    cmbr.appendPath(basic5)
-    
-    # hole 為原點位置
-    hole = cobj(shapedefs.circle(4), "PATH")
-    cmbr.appendPath(hole)
-
-    # 表示放大 3 倍
-    #cgo.render(cmbr, x, y, 3, rot)
-    # 放大 5 倍
-    cgo.render(cmbr, x, y, 5, rot)
-
-O(0, 0, 0, 0, 0, "pink", True, 4)
-cgo.setWorldCoords(-250, -4500, 5000, 5000) 
-
-# 決定要不要畫座標軸線
-#cgo.drawAxes(0, 240, 0, 240, {
-#    "strokeColor":"#aaaaaa",
-#    "fillColor": "#aaaaaa",
-#    "xTickInterval": 20,
-#    "xLabelInterval": 20,
-#    "yTickInterval": 20,
-#    "yLabelInterval": 20})
-        
-#cgo.drawText("使用 Cango 繪圖程式庫!", 0, 0, {"fontSize":60, "fontWeight": 1200, "lorg":5 })
-
-deg = math.pi/180  
-def O(x, y, rx, ry, rot, color, border, linewidth):
-    # 旋轉必須要針對相對中心 rot not working yet
-    chamber = "M -6.8397, -1.4894 \
-                     A 7, 7, 0, 1, 0, 6.8397, -1.4894 \
-                     A 40, 40, 0, 0, 1, 6.8397, -18.511 \
-                     A 7, 7, 0, 1, 0, -6.8397, -18.511 \
-                     A 40, 40, 0, 0, 1, -6.8397, -1.4894 z"
-    cgoChamber = window.svgToCgoSVG(chamber)
-    cmbr = cobj(cgoChamber, "SHAPE", {
-            "fillColor": color,
-            "border": border,
-            "strokeColor": "tan",
-            "lineWidth": linewidth })
-
-    # 複製 cmbr, 然後命名為 basic1
     basic6 = cmbr.dup()
     basic6.rotate(150)
     basic6.translate(0, 40)
@@ -267,49 +186,7 @@ def O(x, y, rx, ry, rot, color, border, linewidth):
     basic7 = cmbr.dup()
     basic7.rotate(210)
     basic7.translate(40, 40)
-    
-    cmbr.appendPath(basic6)
-    cmbr.appendPath(basic7)
-    
-    # hole 為原點位置
-    hole = cobj(shapedefs.circle(4), "PATH")
-    cmbr.appendPath(hole)
 
-    # 表示放大 3 倍
-    #cgo.render(cmbr, x, y, 3, rot)
-    # 放大 5 倍
-    cgo.render(cmbr, x, y, 5, rot)
-
-O(0, 0, 0, 0, 0, "blue", True, 4)
-cgo.setWorldCoords(-250, -4500, 5000, 5000) 
-
-# 決定要不要畫座標軸線
-#cgo.drawAxes(0, 240, 0, 240, {
-#    "strokeColor":"#aaaaaa",
-#    "fillColor": "#aaaaaa",
-#    "xTickInterval": 20,
-#    "xLabelInterval": 20,
-#    "yTickInterval": 20,
-#    "yLabelInterval": 20})
-        
-#cgo.drawText("使用 Cango 繪圖程式庫!", 0, 0, {"fontSize":60, "fontWeight": 1200, "lorg":5 })
-
-deg = math.pi/180  
-def O(x, y, rx, ry, rot, color, border, linewidth):
-    # 旋轉必須要針對相對中心 rot not working yet
-    chamber = "M -6.8397, -1.4894 \
-                     A 7, 7, 0, 1, 0, 6.8397, -1.4894 \
-                     A 40, 40, 0, 0, 1, 6.8397, -18.511 \
-                     A 7, 7, 0, 1, 0, -6.8397, -18.511 \
-                     A 40, 40, 0, 0, 1, -6.8397, -1.4894 z"
-    cgoChamber = window.svgToCgoSVG(chamber)
-    cmbr = cobj(cgoChamber, "SHAPE", {
-            "fillColor": color,
-            "border": border,
-            "strokeColor": "tan",
-            "lineWidth": linewidth })
-
-    # 複製 cmbr, 然後命名為 basic1
     basic8 = cmbr.dup()
     basic8.rotate(90)
     basic8.translate(20*math.cos(60*deg), (20*math.sin(60*deg)+40))
@@ -318,246 +195,20 @@ def O(x, y, rx, ry, rot, color, border, linewidth):
     basic9.rotate(0)
     basic9.translate(0, 40)
     
-    cmbr.appendPath(basic8)
-    cmbr.appendPath(basic9)
-    
-    # hole 為原點位置
-    hole = cobj(shapedefs.circle(4), "PATH")
-    cmbr.appendPath(hole)
-
-    # 表示放大 3 倍
-    #cgo.render(cmbr, x, y, 3, rot)
-    # 放大 5 倍
-    cgo.render(cmbr, x, y, 5, rot)
-
-O(0, 0, 0, 0, 0, "lightyellow", True, 4)
-cgo.setWorldCoords(-250, -4500, 5000, 5000) 
-
-# 決定要不要畫座標軸線
-#cgo.drawAxes(0, 240, 0, 240, {
-#    "strokeColor":"#aaaaaa",
-#    "fillColor": "#aaaaaa",
-#    "xTickInterval": 20,
-#    "xLabelInterval": 20,
-#    "yTickInterval": 20,
-#    "yLabelInterval": 20})
-        
-#cgo.drawText("使用 Cango 繪圖程式庫!", 0, 0, {"fontSize":60, "fontWeight": 1200, "lorg":5 })
-
-deg = math.pi/180  
-def O(x, y, rx, ry, rot, color, border, linewidth):
-    # 旋轉必須要針對相對中心 rot not working yet
-    chamber = "M -6.8397, -1.4894 \
-                     A 7, 7, 0, 1, 0, 6.8397, -1.4894 \
-                     A 40, 40, 0, 0, 1, 6.8397, -18.511 \
-                     A 7, 7, 0, 1, 0, -6.8397, -18.511 \
-                     A 40, 40, 0, 0, 1, -6.8397, -1.4894 z"
-    cgoChamber = window.svgToCgoSVG(chamber)
-    cmbr = cobj(cgoChamber, "SHAPE", {
-            "fillColor": color,
-            "border": border,
-            "strokeColor": "tan",
-            "lineWidth": linewidth })
-
-    # 複製 cmbr, 然後命名為 basic1
-    basic2 = cmbr.dup()
-    basic2.rotate(90)
-    basic2.translate(0, 0) 
-    
-    cmbr.appendPath(basic2)
-    
-    # hole 為原點位置
-    hole = cobj(shapedefs.circle(4), "PATH")
-    cmbr.appendPath(hole)
-
-    # 表示放大 3 倍
-    #cgo.render(cmbr, x, y, 3, rot)
-    # 放大 5 倍
-    cgo.render(cmbr, x, y, 5, rot)
-
-O(350, 0, 0, 0, 0, "yellow", True, 4)
-cgo.setWorldCoords(-250, -4500, 5000, 5000) 
-
-# 決定要不要畫座標軸線
-#cgo.drawAxes(0, 240, 0, 240, {
-#    "strokeColor":"#aaaaaa",
-#    "fillColor": "#aaaaaa",
-#    "xTickInterval": 20,
-#    "xLabelInterval": 20,
-#    "yTickInterval": 20,
-#    "yLabelInterval": 20})
-        
-#cgo.drawText("使用 Cango 繪圖程式庫!", 0, 0, {"fontSize":60, "fontWeight": 1200, "lorg":5 })
-
-deg = math.pi/180  
-def O(x, y, rx, ry, rot, color, border, linewidth):
-    # 旋轉必須要針對相對中心 rot not working yet
-    chamber = "M -6.8397, -1.4894 \
-                     A 7, 7, 0, 1, 0, 6.8397, -1.4894 \
-                     A 40, 40, 0, 0, 1, 6.8397, -18.511 \
-                     A 7, 7, 0, 1, 0, -6.8397, -18.511 \
-                     A 40, 40, 0, 0, 1, -6.8397, -1.4894 z"
-    cgoChamber = window.svgToCgoSVG(chamber)
-    cmbr = cobj(cgoChamber, "SHAPE", {
-            "fillColor": color,
-            "border": border,
-            "strokeColor": "tan",
-            "lineWidth": linewidth })
-
-    # 複製 cmbr, 然後命名為 basic1
-    basic1 = cmbr.dup()
-    basic1.rotate(180)
-    
-    cmbr.appendPath(basic1)
-    
-    # hole 為原點位置
-    hole = cobj(shapedefs.circle(4), "PATH")
-    cmbr.appendPath(hole)
-
-    # 表示放大 3 倍
-    #cgo.render(cmbr, x, y, 3, rot)
-    # 放大 5 倍
-    cgo.render(cmbr, x, y, 5, rot)
-
-O(350, 0, 0, 0, 0, "Orange", True, 4)
-cgo.setWorldCoords(-250, -4500, 5000, 5000) 
-
-# 決定要不要畫座標軸線
-#cgo.drawAxes(0, 240, 0, 240, {
-#    "strokeColor":"#aaaaaa",
-#    "fillColor": "#aaaaaa",
-#    "xTickInterval": 20,
-#    "xLabelInterval": 20,
-#    "yTickInterval": 20,
-#    "yLabelInterval": 20})
-        
-cgo.setWorldCoords(-250, -4500, 5000, 5000) 
-
-# 決定要不要畫座標軸線
-#cgo.drawAxes(0, 240, 0, 240, {
-#    "strokeColor":"#aaaaaa",
-#    "fillColor": "#aaaaaa",
-#    "xTickInterval": 20,
-#    "xLabelInterval": 20,
-#    "yTickInterval": 20,
-#    "yLabelInterval": 20})
-        
-#cgo.drawText("使用 Cango 繪圖程式庫!", 0, 0, {"fontSize":60, "fontWeight": 1200, "lorg":5 })
-
-deg = math.pi/180  
-def O(x, y, rx, ry, rot, color, border, linewidth):
-    # 旋轉必須要針對相對中心 rot not working yet
-    chamber = "M -6.8397, -1.4894 \
-                     A 7, 7, 0, 1, 0, 6.8397, -1.4894 \
-                     A 40, 40, 0, 0, 1, 6.8397, -18.511 \
-                     A 7, 7, 0, 1, 0, -6.8397, -18.511 \
-                     A 40, 40, 0, 0, 1, -6.8397, -1.4894 z"
-    cgoChamber = window.svgToCgoSVG(chamber)
-    cmbr = cobj(cgoChamber, "SHAPE", {
-            "fillColor": color,
-            "border": border,
-            "strokeColor": "tan",
-            "lineWidth": linewidth })
-
-    # 複製 cmbr, 然後命名為 basic1
-    basic2 = cmbr.dup()
-    basic2.rotate(90)
-    basic2.translate(0, 0) 
-    
-    cmbr.appendPath(basic2)
-    
-    # hole 為原點位置
-    hole = cobj(shapedefs.circle(4), "PATH")
-    cmbr.appendPath(hole)
-
-    # 表示放大 3 倍
-    #cgo.render(cmbr, x, y, 3, rot)
-    # 放大 5 倍
-    cgo.render(cmbr, x, y, 5, rot)
-
-O(350, 0, 0, 0, 0, "yellow", True, 4)
-cgo.setWorldCoords(-250, -4500, 5000, 5000) 
-
-# 決定要不要畫座標軸線
-#cgo.drawAxes(0, 240, 0, 240, {
-#    "strokeColor":"#aaaaaa",
-#    "fillColor": "#aaaaaa",
-#    "xTickInterval": 20,
-#    "xLabelInterval": 20,
-#    "yTickInterval": 20,
-#    "yLabelInterval": 20})
-        
-#cgo.drawText("使用 Cango 繪圖程式庫!", 0, 0, {"fontSize":60, "fontWeight": 1200, "lorg":5 })
-
-deg = math.pi/180  
-def O(x, y, rx, ry, rot, color, border, linewidth):
-    # 旋轉必須要針對相對中心 rot not working yet
-    chamber = "M -6.8397, -1.4894 \
-                     A 7, 7, 0, 1, 0, 6.8397, -1.4894 \
-                     A 40, 40, 0, 0, 1, 6.8397, -18.511 \
-                     A 7, 7, 0, 1, 0, -6.8397, -18.511 \
-                     A 40, 40, 0, 0, 1, -6.8397, -1.4894 z"
-    cgoChamber = window.svgToCgoSVG(chamber)
-    cmbr = cobj(cgoChamber, "SHAPE", {
-            "fillColor": color,
-            "border": border,
-            "strokeColor": "tan",
-            "lineWidth": linewidth })
-
-    # 複製 cmbr, 然後命名為 basic1
-    basic1 = cmbr.dup()
-    basic1.rotate(180)
-    
-    cmbr.appendPath(basic1)
-    
-    # hole 為原點位置
-    hole = cobj(shapedefs.circle(4), "PATH")
-    cmbr.appendPath(hole)
-
-    # 表示放大 3 倍
-    #cgo.render(cmbr, x, y, 3, rot)
-    # 放大 5 倍
-    cgo.render(cmbr, x, y, 5, rot)
-
-O(350, 0, 0, 0, 0, "Orange", True, 4)
-cgo.setWorldCoords(-250, -4500, 5000, 5000) 
-
-# 決定要不要畫座標軸線
-#cgo.drawAxes(0, 240, 0, 240, {
-#    "strokeColor":"#aaaaaa",
-#    "fillColor": "#aaaaaa",
-#    "xTickInterval": 20,
-#    "xLabelInterval": 20,
-#    "yTickInterval": 20,
-#    "yLabelInterval": 20})
-        
-#cgo.drawText("使用 Cango 繪圖程式庫!", 0, 0, {"fontSize":60, "fontWeight": 1200, "lorg":5 })
-
-deg = math.pi/180  
-def O(x, y, rx, ry, rot, color, border, linewidth):
-    # 旋轉必須要針對相對中心 rot not working yet
-    chamber = "M -6.8397, -1.4894 \
-                     A 7, 7, 0, 1, 0, 6.8397, -1.4894 \
-                     A 40, 40, 0, 0, 1, 6.8397, -18.511 \
-                     A 7, 7, 0, 1, 0, -6.8397, -18.511 \
-                     A 40, 40, 0, 0, 1, -6.8397, -1.4894 z"
-    cgoChamber = window.svgToCgoSVG(chamber)
-    cmbr = cobj(cgoChamber, "SHAPE", {
-            "fillColor": color,
-            "border": border,
-            "strokeColor": "tan",
-            "lineWidth": linewidth })
-
-    # 複製 cmbr, 然後命名為 basic1 
-    basic3 = cmbr.dup()
-    basic3.rotate(90)
-    basic3.translate(20, 0)
     
     basic11 = cmbr.dup()
     basic11.rotate(0)
     basic11.translate(40, 40)
     
+    cmbr.appendPath(basic1)
+    cmbr.appendPath(basic2)
     cmbr.appendPath(basic3)
+    cmbr.appendPath(basic4)
+    cmbr.appendPath(basic5)
+    cmbr.appendPath(basic6)
+    cmbr.appendPath(basic7)
+    cmbr.appendPath(basic8)
+    cmbr.appendPath(basic9)
     cmbr.appendPath(basic11)
     
     # hole 為原點位置
@@ -567,214 +218,19 @@ def O(x, y, rx, ry, rot, color, border, linewidth):
     # 表示放大 3 倍
     #cgo.render(cmbr, x, y, 3, rot)
     # 放大 5 倍
-    cgo.render(cmbr, x, y, 5, rot)
+    cgo.render(cmbr, x, y, 1, rot)
 
-O(350, 0, 0, 0, 0, "lightyellow", True, 4)
-cgo.setWorldCoords(-250, -4500, 5000, 5000) 
-
-# 決定要不要畫座標軸線
-#cgo.drawAxes(0, 240, 0, 240, {
-#    "strokeColor":"#aaaaaa",
-#    "fillColor": "#aaaaaa",
-#    "xTickInterval": 20,
-#    "xLabelInterval": 20,
-#    "yTickInterval": 20,
-#    "yLabelInterval": 20})
-        
-#cgo.drawText("使用 Cango 繪圖程式庫!", 0, 0, {"fontSize":60, "fontWeight": 1200, "lorg":5 })
-
-deg = math.pi/180  
-def O(x, y, rx, ry, rot, color, border, linewidth):
-    # 旋轉必須要針對相對中心 rot not working yet
-    chamber = "M -6.8397, -1.4894 \
-                     A 7, 7, 0, 1, 0, 6.8397, -1.4894 \
-                     A 40, 40, 0, 0, 1, 6.8397, -18.511 \
-                     A 7, 7, 0, 1, 0, -6.8397, -18.511 \
-                     A 40, 40, 0, 0, 1, -6.8397, -1.4894 z"
-    cgoChamber = window.svgToCgoSVG(chamber)
-    cmbr = cobj(cgoChamber, "SHAPE", {
-            "fillColor": color,
-            "border": border,
-            "strokeColor": "tan",
-            "lineWidth": linewidth })
-
-    # 複製 cmbr, 然後命名為 basic1
-    basic4 = cmbr.dup()
-    basic4.rotate(0)
-    basic4.translate(40, 0)
-    
-    basic5 = cmbr.dup()
-    basic5.rotate(0)
-    basic5.translate(40, 20)
-
-    cmbr.appendPath(basic4)
-    cmbr.appendPath(basic5)
-    
-    # hole 為原點位置
-    hole = cobj(shapedefs.circle(4), "PATH")
-    cmbr.appendPath(hole)
-
-    # 表示放大 3 倍
-    #cgo.render(cmbr, x, y, 3, rot)
-    # 放大 5 倍
-    cgo.render(cmbr, x, y, 5, rot)
-
-O(350, 0, 0, 0, 0, "pink", True, 4)
-cgo.setWorldCoords(-250, -4500, 5000, 5000) 
+O(60, 15, 0, 0, 0, "green", True, 4)
+cgo.setWorldCoords(-250, -250, 500, 500) 
 
 # 決定要不要畫座標軸線
-#cgo.drawAxes(0, 240, 0, 240, {
-#    "strokeColor":"#aaaaaa",
-#    "fillColor": "#aaaaaa",
-#    "xTickInterval": 20,
-#    "xLabelInterval": 20,
-#    "yTickInterval": 20,
-#    "yLabelInterval": 20})
-        
-#cgo.drawText("使用 Cango 繪圖程式庫!", 0, 0, {"fontSize":60, "fontWeight": 1200, "lorg":5 })
-
-deg = math.pi/180  
-def O(x, y, rx, ry, rot, color, border, linewidth):
-    # 旋轉必須要針對相對中心 rot not working yet
-    chamber = "M -6.8397, -1.4894 \
-                     A 7, 7, 0, 1, 0, 6.8397, -1.4894 \
-                     A 40, 40, 0, 0, 1, 6.8397, -18.511 \
-                     A 7, 7, 0, 1, 0, -6.8397, -18.511 \
-                     A 40, 40, 0, 0, 1, -6.8397, -1.4894 z"
-    cgoChamber = window.svgToCgoSVG(chamber)
-    cmbr = cobj(cgoChamber, "SHAPE", {
-            "fillColor": color,
-            "border": border,
-            "strokeColor": "tan",
-            "lineWidth": linewidth })
-
-    # 複製 cmbr, 然後命名為 basic1
-    basic6 = cmbr.dup()
-    basic6.rotate(150)
-    basic6.translate(0, 40)
-    
-    basic7 = cmbr.dup()
-    basic7.rotate(210)
-    basic7.translate(40, 40)
-    
-    cmbr.appendPath(basic6)
-    cmbr.appendPath(basic7)
-    
-    # hole 為原點位置
-    hole = cobj(shapedefs.circle(4), "PATH")
-    cmbr.appendPath(hole)
-
-    # 表示放大 3 倍
-    #cgo.render(cmbr, x, y, 3, rot)
-    # 放大 5 倍
-    cgo.render(cmbr, x, y, 5, rot)
-
-O(350, 0, 0, 0, 0, "blue", True, 4)
-cgo.setWorldCoords(-250, -4500, 5000, 5000) 
-
-# 決定要不要畫座標軸線
-#cgo.drawAxes(0, 240, 0, 240, {
-#    "strokeColor":"#aaaaaa",
-#    "fillColor": "#aaaaaa",
-#    "xTickInterval": 20,
-#    "xLabelInterval": 20,
-#    "yTickInterval": 20,
-#    "yLabelInterval": 20})
-        
-#cgo.drawText("使用 Cango 繪圖程式庫!", 0, 0, {"fontSize":60, "fontWeight": 1200, "lorg":5 })
-
-deg = math.pi/180  
-def O(x, y, rx, ry, rot, color, border, linewidth):
-    # 旋轉必須要針對相對中心 rot not working yet
-    chamber = "M -6.8397, -1.4894 \
-                     A 7, 7, 0, 1, 0, 6.8397, -1.4894 \
-                     A 40, 40, 0, 0, 1, 6.8397, -18.511 \
-                     A 7, 7, 0, 1, 0, -6.8397, -18.511 \
-                     A 40, 40, 0, 0, 1, -6.8397, -1.4894 z"
-    cgoChamber = window.svgToCgoSVG(chamber)
-    cmbr = cobj(cgoChamber, "SHAPE", {
-            "fillColor": color,
-            "border": border,
-            "strokeColor": "tan",
-            "lineWidth": linewidth })
-
-    # 複製 cmbr, 然後命名為 basic1
-    basic8 = cmbr.dup()
-    basic8.rotate(90)
-    basic8.translate(20*math.cos(60*deg), (20*math.sin(60*deg)+40))
-    
-    basic9 = cmbr.dup()
-    basic9.rotate(0)
-    basic9.translate(0, 40)
-    
-    cmbr.appendPath(basic8)
-    cmbr.appendPath(basic9)
-    
-    # hole 為原點位置
-    hole = cobj(shapedefs.circle(4), "PATH")
-    cmbr.appendPath(hole)
-
-    # 表示放大 3 倍
-    #cgo.render(cmbr, x, y, 3, rot)
-    # 放大 5 倍
-    cgo.render(cmbr, x, y, 5, rot)
-
-O(350, 0, 0, 0, 0, "lightyellow", True, 4)
-cgo.setWorldCoords(-250, -4500, 5000, 5000) 
-
-# 決定要不要畫座標軸線
-#cgo.drawAxes(0, 240, 0, 240, {
-#    "strokeColor":"#aaaaaa",
-#    "fillColor": "#aaaaaa",
-#    "xTickInterval": 20,
-#    "xLabelInterval": 20,
-#    "yTickInterval": 20,
-#    "yLabelInterval": 20})
-        
-#cgo.drawText("使用 Cango 繪圖程式庫!", 0, 0, {"fontSize":60, "fontWeight": 1200, "lorg":5 })
-
-deg = math.pi/180  
-def O(x, y, rx, ry, rot, color, border, linewidth):
-    # 旋轉必須要針對相對中心 rot not working yet
-    chamber = "M -6.8397, -1.4894 \
-                     A 7, 7, 0, 1, 0, 6.8397, -1.4894 \
-                     A 40, 40, 0, 0, 1, 6.8397, -18.511 \
-                     A 7, 7, 0, 1, 0, -6.8397, -18.511 \
-                     A 40, 40, 0, 0, 1, -6.8397, -1.4894 z"
-    cgoChamber = window.svgToCgoSVG(chamber)
-    cmbr = cobj(cgoChamber, "SHAPE", {
-            "fillColor": color,
-            "border": border,
-            "strokeColor": "tan",
-            "lineWidth": linewidth })
-
-    # 複製 cmbr, 然後命名為 basic1
-    basic2 = cmbr.dup()
-    basic2.rotate(90)
-    basic2.translate(0, 0) 
-    
-    cmbr.appendPath(basic2)
-    
-    # hole 為原點位置
-    hole = cobj(shapedefs.circle(4), "PATH")
-    cmbr.appendPath(hole)
-
-    # 表示放大 3 倍
-    #cgo.render(cmbr, x, y, 3, rot)
-    # 放大 5 倍
-    cgo.render(cmbr, x, y, 5, rot)
-
-O(700, 0, 0, 0, 0, "yellow", True, 4)
-cgo.setWorldCoords(-250, -4500, 5000, 5000) 
-
-# 決定要不要畫座標軸線
-#cgo.drawAxes(0, 240, 0, 240, {
-#    "strokeColor":"#aaaaaa",
-#    "fillColor": "#aaaaaa",
-#    "xTickInterval": 20,
-#    "xLabelInterval": 20,
-#    "yTickInterval": 20,
-#    "yLabelInterval": 20})
+cgo.drawAxes(0, 240, 0, 240, {
+    "strokeColor":"#aaaaaa",
+    "fillColor": "#aaaaaa",
+   "xTickInterval": 20,
+    "xLabelInterval": 20,
+    "yTickInterval": 20,
+    "yLabelInterval": 20})
         
 #cgo.drawText("使用 Cango 繪圖程式庫!", 0, 0, {"fontSize":60, "fontWeight": 1200, "lorg":5 })
 
@@ -796,57 +252,53 @@ def O(x, y, rx, ry, rot, color, border, linewidth):
     # 複製 cmbr, 然後命名為 basic1
     basic1 = cmbr.dup()
     basic1.rotate(180)
-    
-    cmbr.appendPath(basic1)
-    
-    # hole 為原點位置
-    hole = cobj(shapedefs.circle(4), "PATH")
-    cmbr.appendPath(hole)
 
-    # 表示放大 3 倍
-    #cgo.render(cmbr, x, y, 3, rot)
-    # 放大 5 倍
-    cgo.render(cmbr, x, y, 5, rot)
+    basic2 = cmbr.dup()
+    basic2.rotate(90)
+    basic2.translate(0, 0) 
 
-O(700, 0, 0, 0, 0, "Orange", True, 4)
-cgo.setWorldCoords(-250, -4500, 5000, 5000) 
-
-# 決定要不要畫座標軸線
-#cgo.drawAxes(0, 240, 0, 240, {
-#    "strokeColor":"#aaaaaa",
-#    "fillColor": "#aaaaaa",
-#    "xTickInterval": 20,
-#    "xLabelInterval": 20,
-#    "yTickInterval": 20,
-#    "yLabelInterval": 20})
-        
-#cgo.drawText("使用 Cango 繪圖程式庫!", 0, 0, {"fontSize":60, "fontWeight": 1200, "lorg":5 })
-
-deg = math.pi/180  
-def O(x, y, rx, ry, rot, color, border, linewidth):
-    # 旋轉必須要針對相對中心 rot not working yet
-    chamber = "M -6.8397, -1.4894 \
-                     A 7, 7, 0, 1, 0, 6.8397, -1.4894 \
-                     A 40, 40, 0, 0, 1, 6.8397, -18.511 \
-                     A 7, 7, 0, 1, 0, -6.8397, -18.511 \
-                     A 40, 40, 0, 0, 1, -6.8397, -1.4894 z"
-    cgoChamber = window.svgToCgoSVG(chamber)
-    cmbr = cobj(cgoChamber, "SHAPE", {
-            "fillColor": color,
-            "border": border,
-            "strokeColor": "tan",
-            "lineWidth": linewidth })
-
-    # 複製 cmbr, 然後命名為 basic1 
     basic3 = cmbr.dup()
     basic3.rotate(90)
     basic3.translate(20, 0)
+
+    basic4 = cmbr.dup()
+    basic4.rotate(0)
+    basic4.translate(40, 0)
+    
+    basic5 = cmbr.dup()
+    basic5.rotate(0)
+    basic5.translate(40, 20)
+
+    basic6 = cmbr.dup()
+    basic6.rotate(150)
+    basic6.translate(0, 40)
+    
+    basic7 = cmbr.dup()
+    basic7.rotate(210)
+    basic7.translate(40, 40)
+
+    basic8 = cmbr.dup()
+    basic8.rotate(90)
+    basic8.translate(20*math.cos(60*deg), (20*math.sin(60*deg)+40))
+    
+    basic9 = cmbr.dup()
+    basic9.rotate(0)
+    basic9.translate(0, 40)
+    
     
     basic11 = cmbr.dup()
     basic11.rotate(0)
     basic11.translate(40, 40)
     
+    cmbr.appendPath(basic1)
+    cmbr.appendPath(basic2)
     cmbr.appendPath(basic3)
+    cmbr.appendPath(basic4)
+    cmbr.appendPath(basic5)
+    cmbr.appendPath(basic6)
+    cmbr.appendPath(basic7)
+    cmbr.appendPath(basic8)
+    cmbr.appendPath(basic9)
     cmbr.appendPath(basic11)
     
     # hole 為原點位置
@@ -856,214 +308,19 @@ def O(x, y, rx, ry, rot, color, border, linewidth):
     # 表示放大 3 倍
     #cgo.render(cmbr, x, y, 3, rot)
     # 放大 5 倍
-    cgo.render(cmbr, x, y, 5, rot)
+    cgo.render(cmbr, x, y, 1, rot)
 
-O(700, 0, 0, 0, 0, "lightyellow", True, 4)
-cgo.setWorldCoords(-250, -4500, 5000, 5000) 
-
-# 決定要不要畫座標軸線
-#cgo.drawAxes(0, 240, 0, 240, {
-#    "strokeColor":"#aaaaaa",
-#    "fillColor": "#aaaaaa",
-#    "xTickInterval": 20,
-#    "xLabelInterval": 20,
-#    "yTickInterval": 20,
-#    "yLabelInterval": 20})
-        
-#cgo.drawText("使用 Cango 繪圖程式庫!", 0, 0, {"fontSize":60, "fontWeight": 1200, "lorg":5 })
-
-deg = math.pi/180  
-def O(x, y, rx, ry, rot, color, border, linewidth):
-    # 旋轉必須要針對相對中心 rot not working yet
-    chamber = "M -6.8397, -1.4894 \
-                     A 7, 7, 0, 1, 0, 6.8397, -1.4894 \
-                     A 40, 40, 0, 0, 1, 6.8397, -18.511 \
-                     A 7, 7, 0, 1, 0, -6.8397, -18.511 \
-                     A 40, 40, 0, 0, 1, -6.8397, -1.4894 z"
-    cgoChamber = window.svgToCgoSVG(chamber)
-    cmbr = cobj(cgoChamber, "SHAPE", {
-            "fillColor": color,
-            "border": border,
-            "strokeColor": "tan",
-            "lineWidth": linewidth })
-
-    # 複製 cmbr, 然後命名為 basic1
-    basic4 = cmbr.dup()
-    basic4.rotate(0)
-    basic4.translate(40, 0)
-    
-    basic5 = cmbr.dup()
-    basic5.rotate(0)
-    basic5.translate(40, 20)
-
-    cmbr.appendPath(basic4)
-    cmbr.appendPath(basic5)
-    
-    # hole 為原點位置
-    hole = cobj(shapedefs.circle(4), "PATH")
-    cmbr.appendPath(hole)
-
-    # 表示放大 3 倍
-    #cgo.render(cmbr, x, y, 3, rot)
-    # 放大 5 倍
-    cgo.render(cmbr, x, y, 5, rot)
-
-O(700, 0, 0, 0, 0, "pink", True, 4)
-cgo.setWorldCoords(-250, -4500, 5000, 5000) 
+O(120, 15, 0, 0, 0, "green", True, 4)
+cgo.setWorldCoords(-250, -250, 500, 500) 
 
 # 決定要不要畫座標軸線
-#cgo.drawAxes(0, 240, 0, 240, {
-#    "strokeColor":"#aaaaaa",
-#    "fillColor": "#aaaaaa",
-#    "xTickInterval": 20,
-#    "xLabelInterval": 20,
-#    "yTickInterval": 20,
-#    "yLabelInterval": 20})
-        
-#cgo.drawText("使用 Cango 繪圖程式庫!", 0, 0, {"fontSize":60, "fontWeight": 1200, "lorg":5 })
-
-deg = math.pi/180  
-def O(x, y, rx, ry, rot, color, border, linewidth):
-    # 旋轉必須要針對相對中心 rot not working yet
-    chamber = "M -6.8397, -1.4894 \
-                     A 7, 7, 0, 1, 0, 6.8397, -1.4894 \
-                     A 40, 40, 0, 0, 1, 6.8397, -18.511 \
-                     A 7, 7, 0, 1, 0, -6.8397, -18.511 \
-                     A 40, 40, 0, 0, 1, -6.8397, -1.4894 z"
-    cgoChamber = window.svgToCgoSVG(chamber)
-    cmbr = cobj(cgoChamber, "SHAPE", {
-            "fillColor": color,
-            "border": border,
-            "strokeColor": "tan",
-            "lineWidth": linewidth })
-
-    # 複製 cmbr, 然後命名為 basic1
-    basic6 = cmbr.dup()
-    basic6.rotate(150)
-    basic6.translate(0, 40)
-    
-    basic7 = cmbr.dup()
-    basic7.rotate(210)
-    basic7.translate(40, 40)
-    
-    cmbr.appendPath(basic6)
-    cmbr.appendPath(basic7)
-    
-    # hole 為原點位置
-    hole = cobj(shapedefs.circle(4), "PATH")
-    cmbr.appendPath(hole)
-
-    # 表示放大 3 倍
-    #cgo.render(cmbr, x, y, 3, rot)
-    # 放大 5 倍
-    cgo.render(cmbr, x, y, 5, rot)
-
-O(700, 0, 0, 0, 0, "blue", True, 4)
-cgo.setWorldCoords(-250, -4500, 5000, 5000) 
-
-# 決定要不要畫座標軸線
-#cgo.drawAxes(0, 240, 0, 240, {
-#    "strokeColor":"#aaaaaa",
-#    "fillColor": "#aaaaaa",
-#    "xTickInterval": 20,
-#    "xLabelInterval": 20,
-#    "yTickInterval": 20,
-#    "yLabelInterval": 20})
-        
-#cgo.drawText("使用 Cango 繪圖程式庫!", 0, 0, {"fontSize":60, "fontWeight": 1200, "lorg":5 })
-
-deg = math.pi/180  
-def O(x, y, rx, ry, rot, color, border, linewidth):
-    # 旋轉必須要針對相對中心 rot not working yet
-    chamber = "M -6.8397, -1.4894 \
-                     A 7, 7, 0, 1, 0, 6.8397, -1.4894 \
-                     A 40, 40, 0, 0, 1, 6.8397, -18.511 \
-                     A 7, 7, 0, 1, 0, -6.8397, -18.511 \
-                     A 40, 40, 0, 0, 1, -6.8397, -1.4894 z"
-    cgoChamber = window.svgToCgoSVG(chamber)
-    cmbr = cobj(cgoChamber, "SHAPE", {
-            "fillColor": color,
-            "border": border,
-            "strokeColor": "tan",
-            "lineWidth": linewidth })
-
-    # 複製 cmbr, 然後命名為 basic1
-    basic8 = cmbr.dup()
-    basic8.rotate(90)
-    basic8.translate(20*math.cos(60*deg), (20*math.sin(60*deg)+40))
-    
-    basic9 = cmbr.dup()
-    basic9.rotate(0)
-    basic9.translate(0, 40)
-    
-    cmbr.appendPath(basic8)
-    cmbr.appendPath(basic9)
-    
-    # hole 為原點位置
-    hole = cobj(shapedefs.circle(4), "PATH")
-    cmbr.appendPath(hole)
-
-    # 表示放大 3 倍
-    #cgo.render(cmbr, x, y, 3, rot)
-    # 放大 5 倍
-    cgo.render(cmbr, x, y, 5, rot)
-
-O(700, 0, 0, 0, 0, "lightyellow", True, 4)
-cgo.setWorldCoords(-250, -4500, 5000, 5000) 
-
-# 決定要不要畫座標軸線
-#cgo.drawAxes(0, 240, 0, 240, {
-#    "strokeColor":"#aaaaaa",
-#    "fillColor": "#aaaaaa",
-#    "xTickInterval": 20,
-#    "xLabelInterval": 20,
-#    "yTickInterval": 20,
-#    "yLabelInterval": 20})
-        
-#cgo.drawText("使用 Cango 繪圖程式庫!", 0, 0, {"fontSize":60, "fontWeight": 1200, "lorg":5 })
-
-deg = math.pi/180  
-def O(x, y, rx, ry, rot, color, border, linewidth):
-    # 旋轉必須要針對相對中心 rot not working yet
-    chamber = "M -6.8397, -1.4894 \
-                     A 7, 7, 0, 1, 0, 6.8397, -1.4894 \
-                     A 40, 40, 0, 0, 1, 6.8397, -18.511 \
-                     A 7, 7, 0, 1, 0, -6.8397, -18.511 \
-                     A 40, 40, 0, 0, 1, -6.8397, -1.4894 z"
-    cgoChamber = window.svgToCgoSVG(chamber)
-    cmbr = cobj(cgoChamber, "SHAPE", {
-            "fillColor": color,
-            "border": border,
-            "strokeColor": "tan",
-            "lineWidth": linewidth })
-
-    # 複製 cmbr, 然後命名為 basic1
-    basic2 = cmbr.dup()
-    basic2.rotate(90)
-    basic2.translate(0, 0) 
-    
-    cmbr.appendPath(basic2)
-    
-    # hole 為原點位置
-    hole = cobj(shapedefs.circle(4), "PATH")
-    cmbr.appendPath(hole)
-
-    # 表示放大 3 倍
-    #cgo.render(cmbr, x, y, 3, rot)
-    # 放大 5 倍
-    cgo.render(cmbr, x, y, 5, rot)
-
-O(1050, 0, 0, 0, 0, "yellow", True, 4)
-cgo.setWorldCoords(-250, -4500, 5000, 5000) 
-
-# 決定要不要畫座標軸線
-#cgo.drawAxes(0, 240, 0, 240, {
-#    "strokeColor":"#aaaaaa",
-#    "fillColor": "#aaaaaa",
-#    "xTickInterval": 20,
-#    "xLabelInterval": 20,
-#    "yTickInterval": 20,
-#    "yLabelInterval": 20})
+cgo.drawAxes(0, 240, 0, 240, {
+    "strokeColor":"#aaaaaa",
+    "fillColor": "#aaaaaa",
+   "xTickInterval": 20,
+    "xLabelInterval": 20,
+    "yTickInterval": 20,
+    "yLabelInterval": 20})
         
 #cgo.drawText("使用 Cango 繪圖程式庫!", 0, 0, {"fontSize":60, "fontWeight": 1200, "lorg":5 })
 
@@ -1085,57 +342,53 @@ def O(x, y, rx, ry, rot, color, border, linewidth):
     # 複製 cmbr, 然後命名為 basic1
     basic1 = cmbr.dup()
     basic1.rotate(180)
-    
-    cmbr.appendPath(basic1)
-    
-    # hole 為原點位置
-    hole = cobj(shapedefs.circle(4), "PATH")
-    cmbr.appendPath(hole)
 
-    # 表示放大 3 倍
-    #cgo.render(cmbr, x, y, 3, rot)
-    # 放大 5 倍
-    cgo.render(cmbr, x, y, 5, rot)
+    basic2 = cmbr.dup()
+    basic2.rotate(90)
+    basic2.translate(0, 0) 
 
-O(1050, 0, 0, 0, 0, "Orange", True, 4)
-cgo.setWorldCoords(-250, -4500, 5000, 5000) 
-
-# 決定要不要畫座標軸線
-#cgo.drawAxes(0, 240, 0, 240, {
-#    "strokeColor":"#aaaaaa",
-#    "fillColor": "#aaaaaa",
-#    "xTickInterval": 20,
-#    "xLabelInterval": 20,
-#    "yTickInterval": 20,
-#    "yLabelInterval": 20})
-        
-#cgo.drawText("使用 Cango 繪圖程式庫!", 0, 0, {"fontSize":60, "fontWeight": 1200, "lorg":5 })
-
-deg = math.pi/180  
-def O(x, y, rx, ry, rot, color, border, linewidth):
-    # 旋轉必須要針對相對中心 rot not working yet
-    chamber = "M -6.8397, -1.4894 \
-                     A 7, 7, 0, 1, 0, 6.8397, -1.4894 \
-                     A 40, 40, 0, 0, 1, 6.8397, -18.511 \
-                     A 7, 7, 0, 1, 0, -6.8397, -18.511 \
-                     A 40, 40, 0, 0, 1, -6.8397, -1.4894 z"
-    cgoChamber = window.svgToCgoSVG(chamber)
-    cmbr = cobj(cgoChamber, "SHAPE", {
-            "fillColor": color,
-            "border": border,
-            "strokeColor": "tan",
-            "lineWidth": linewidth })
-
-    # 複製 cmbr, 然後命名為 basic1 
     basic3 = cmbr.dup()
     basic3.rotate(90)
     basic3.translate(20, 0)
+
+    basic4 = cmbr.dup()
+    basic4.rotate(0)
+    basic4.translate(40, 0)
+    
+    basic5 = cmbr.dup()
+    basic5.rotate(0)
+    basic5.translate(40, 20)
+
+    basic6 = cmbr.dup()
+    basic6.rotate(150)
+    basic6.translate(0, 40)
+    
+    basic7 = cmbr.dup()
+    basic7.rotate(210)
+    basic7.translate(40, 40)
+
+    basic8 = cmbr.dup()
+    basic8.rotate(90)
+    basic8.translate(20*math.cos(60*deg), (20*math.sin(60*deg)+40))
+    
+    basic9 = cmbr.dup()
+    basic9.rotate(0)
+    basic9.translate(0, 40)
+    
     
     basic11 = cmbr.dup()
     basic11.rotate(0)
     basic11.translate(40, 40)
     
+    cmbr.appendPath(basic1)
+    cmbr.appendPath(basic2)
     cmbr.appendPath(basic3)
+    cmbr.appendPath(basic4)
+    cmbr.appendPath(basic5)
+    cmbr.appendPath(basic6)
+    cmbr.appendPath(basic7)
+    cmbr.appendPath(basic8)
+    cmbr.appendPath(basic9)
     cmbr.appendPath(basic11)
     
     # hole 為原點位置
@@ -1145,158 +398,8 @@ def O(x, y, rx, ry, rot, color, border, linewidth):
     # 表示放大 3 倍
     #cgo.render(cmbr, x, y, 3, rot)
     # 放大 5 倍
-    cgo.render(cmbr, x, y, 5, rot)
+    cgo.render(cmbr, x, y, 1, rot)
 
-O(1050, 0, 0, 0, 0, "lightyellow", True, 4)
-cgo.setWorldCoords(-250, -4500, 5000, 5000) 
-
-# 決定要不要畫座標軸線
-#cgo.drawAxes(0, 240, 0, 240, {
-#    "strokeColor":"#aaaaaa",
-#    "fillColor": "#aaaaaa",
-#    "xTickInterval": 20,
-#    "xLabelInterval": 20,
-#    "yTickInterval": 20,
-#    "yLabelInterval": 20})
-        
-#cgo.drawText("使用 Cango 繪圖程式庫!", 0, 0, {"fontSize":60, "fontWeight": 1200, "lorg":5 })
-
-deg = math.pi/180  
-def O(x, y, rx, ry, rot, color, border, linewidth):
-    # 旋轉必須要針對相對中心 rot not working yet
-    chamber = "M -6.8397, -1.4894 \
-                     A 7, 7, 0, 1, 0, 6.8397, -1.4894 \
-                     A 40, 40, 0, 0, 1, 6.8397, -18.511 \
-                     A 7, 7, 0, 1, 0, -6.8397, -18.511 \
-                     A 40, 40, 0, 0, 1, -6.8397, -1.4894 z"
-    cgoChamber = window.svgToCgoSVG(chamber)
-    cmbr = cobj(cgoChamber, "SHAPE", {
-            "fillColor": color,
-            "border": border,
-            "strokeColor": "tan",
-            "lineWidth": linewidth })
-
-    # 複製 cmbr, 然後命名為 basic1
-    basic4 = cmbr.dup()
-    basic4.rotate(0)
-    basic4.translate(40, 0)
-    
-    basic5 = cmbr.dup()
-    basic5.rotate(0)
-    basic5.translate(40, 20)
-
-    cmbr.appendPath(basic4)
-    cmbr.appendPath(basic5)
-    
-    # hole 為原點位置
-    hole = cobj(shapedefs.circle(4), "PATH")
-    cmbr.appendPath(hole)
-
-    # 表示放大 3 倍
-    #cgo.render(cmbr, x, y, 3, rot)
-    # 放大 5 倍
-    cgo.render(cmbr, x, y, 5, rot)
-
-O(1050, 0, 0, 0, 0, "pink", True, 4)
-cgo.setWorldCoords(-250, -4500, 5000, 5000) 
-
-# 決定要不要畫座標軸線
-#cgo.drawAxes(0, 240, 0, 240, {
-#    "strokeColor":"#aaaaaa",
-#    "fillColor": "#aaaaaa",
-#    "xTickInterval": 20,
-#    "xLabelInterval": 20,
-#    "yTickInterval": 20,
-#    "yLabelInterval": 20})
-        
-#cgo.drawText("使用 Cango 繪圖程式庫!", 0, 0, {"fontSize":60, "fontWeight": 1200, "lorg":5 })
-
-deg = math.pi/180  
-def O(x, y, rx, ry, rot, color, border, linewidth):
-    # 旋轉必須要針對相對中心 rot not working yet
-    chamber = "M -6.8397, -1.4894 \
-                     A 7, 7, 0, 1, 0, 6.8397, -1.4894 \
-                     A 40, 40, 0, 0, 1, 6.8397, -18.511 \
-                     A 7, 7, 0, 1, 0, -6.8397, -18.511 \
-                     A 40, 40, 0, 0, 1, -6.8397, -1.4894 z"
-    cgoChamber = window.svgToCgoSVG(chamber)
-    cmbr = cobj(cgoChamber, "SHAPE", {
-            "fillColor": color,
-            "border": border,
-            "strokeColor": "tan",
-            "lineWidth": linewidth })
-
-    # 複製 cmbr, 然後命名為 basic1
-    basic6 = cmbr.dup()
-    basic6.rotate(150)
-    basic6.translate(0, 40)
-    
-    basic7 = cmbr.dup()
-    basic7.rotate(210)
-    basic7.translate(40, 40)
-    
-    cmbr.appendPath(basic6)
-    cmbr.appendPath(basic7)
-    
-    # hole 為原點位置
-    hole = cobj(shapedefs.circle(4), "PATH")
-    cmbr.appendPath(hole)
-
-    # 表示放大 3 倍
-    #cgo.render(cmbr, x, y, 3, rot)
-    # 放大 5 倍
-    cgo.render(cmbr, x, y, 5, rot)
-
-O(1050, 0, 0, 0, 0, "blue", True, 4)
-cgo.setWorldCoords(-250, -4500, 5000, 5000) 
-
-# 決定要不要畫座標軸線
-#cgo.drawAxes(0, 240, 0, 240, {
-#    "strokeColor":"#aaaaaa",
-#    "fillColor": "#aaaaaa",
-#    "xTickInterval": 20,
-#    "xLabelInterval": 20,
-#    "yTickInterval": 20,
-#    "yLabelInterval": 20})
-        
-#cgo.drawText("使用 Cango 繪圖程式庫!", 0, 0, {"fontSize":60, "fontWeight": 1200, "lorg":5 })
-
-deg = math.pi/180  
-def O(x, y, rx, ry, rot, color, border, linewidth):
-    # 旋轉必須要針對相對中心 rot not working yet
-    chamber = "M -6.8397, -1.4894 \
-                     A 7, 7, 0, 1, 0, 6.8397, -1.4894 \
-                     A 40, 40, 0, 0, 1, 6.8397, -18.511 \
-                     A 7, 7, 0, 1, 0, -6.8397, -18.511 \
-                     A 40, 40, 0, 0, 1, -6.8397, -1.4894 z"
-    cgoChamber = window.svgToCgoSVG(chamber)
-    cmbr = cobj(cgoChamber, "SHAPE", {
-            "fillColor": color,
-            "border": border,
-            "strokeColor": "tan",
-            "lineWidth": linewidth })
-
-    # 複製 cmbr, 然後命名為 basic1
-    basic8 = cmbr.dup()
-    basic8.rotate(90)
-    basic8.translate(20*math.cos(60*deg), (20*math.sin(60*deg)+40))
-    
-    basic9 = cmbr.dup()
-    basic9.rotate(0)
-    basic9.translate(0, 40)
-    
-    cmbr.appendPath(basic8)
-    cmbr.appendPath(basic9)
-    
-    # hole 為原點位置
-    hole = cobj(shapedefs.circle(4), "PATH")
-    cmbr.appendPath(hole)
-
-    # 表示放大 3 倍
-    #cgo.render(cmbr, x, y, 3, rot)
-    # 放大 5 倍
-    cgo.render(cmbr, x, y, 5, rot)
-
-O(1050, 0, 0, 0, 0, "lightyellow", True, 4)
+O(180, 15, 0, 0, 0, "green", True, 4)
 '''
     return outstring

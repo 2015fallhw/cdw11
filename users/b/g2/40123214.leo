@@ -80,12 +80,12 @@ if __name__ == "__main__":
     app.run()
     
 app.register_blueprint(users.a.g10.ag10_40323139.ag10_40323139)
+app.register_blueprint(users.a.g5.ag5_40323113task1.ag5_40323113)
 app.register_blueprint(users.a.g8.ag8_40323131_task1.ag8_40323131)
 app.register_blueprint(users.a.g4.ag4_40323138.ag4_40323138)
 app.register_blueprint(users.b.g9.bg9_40323250.bg9_40323250)
 app.register_blueprint(users.b.g11.bg11_40323245.bg11_40323245)
-#bg2
-app.register_blueprint(users.b.g2.bg2_40123235.bg2_40123235)
+
 
 </t>
 <t tx="amd.20160501221001.10">@app.route('/fileaxupload', methods=['POST'])
@@ -222,12 +222,11 @@ import os
 import init
 
 import users.a.g10.ag10_40323139
+import users.a.g5.ag5_40323113task1
 import users.a.g4.ag4_40323138
 import users.a.g8.ag8_40323131_task1
 import users.b.g9.bg9_40323250
 import users.b.g11.bg11_40323245
-#bg2
-import users.b.g2.bg2_40123235
 # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
 _curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
 # 設定在雲端與近端的資料儲存目錄

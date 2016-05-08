@@ -6,11 +6,18 @@ import os
 # init.py 為自行建立的起始物件
 import init
 
+import users.a.g10.ag10_40323141_task1
 import users.a.g10.ag10_40323139
+import users.a.g9.ag9_40323132task
+import users.a.g5.ag5_40323113task1
 import users.a.g4.ag4_40323138
+import users.a.g4.ag4_40323138_task2bacd
+import users.a.g4.ag4_40323138_task3abcd
 import users.a.g8.ag8_40323131_task1
 import users.b.g9.bg9_40323250
 import users.b.g11.bg11_40323245
+import users.b.g1.bg1_40123156
+import users.a.g8.ag8_40323123
 #bg2
 import users.b.g2.bg2_40123235
 import users.b.g2.bg2_40123202
@@ -384,12 +391,21 @@ def send_file(path):
 
 if __name__ == "__main__":
     app.run()
-    
-app.register_blueprint(users.a.g10.ag10_40323139.ag10_40323139)
-app.register_blueprint(users.a.g8.ag8_40323131_task1.ag8_40323131)
 app.register_blueprint(users.a.g4.ag4_40323138.ag4_40323138)
+app.register_blueprint(users.a.g10.ag10_40323141_task1.ag10_40323141)    
+app.register_blueprint(users.a.g9.ag9_40323132task.ag9_40323132)
+app.register_blueprint(users.a.g10.ag10_40323139.ag10_40323139)
+app.register_blueprint(users.a.g5.ag5_40323113task1.ag5_40323113)
+app.register_blueprint(users.a.g8.ag8_40323131_task1.ag8_40323131)
+app.register_blueprint(users.a.g4.ag4_40323138_task2bacd.ag4_40323138bacd)
+app.register_blueprint(users.a.g4.ag4_40323138_task3abcd.ag4_40323138task3)
+app.register_blueprint(users.a.g8.ag8_40323123.ag8_40323123)
+
 app.register_blueprint(users.b.g9.bg9_40323250.bg9_40323250)
 app.register_blueprint(users.b.g11.bg11_40323245.bg11_40323245)
+app.register_blueprint(users.b.g1.bg1_40123156.bg1_40123156)
 #bg2
 app.register_blueprint(users.b.g2.bg2_40123235.bg2_40123235)
 app.register_blueprint(users.b.g2.bg2_40123202.bg2_40123202)
+
+
