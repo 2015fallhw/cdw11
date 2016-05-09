@@ -20,8 +20,8 @@
 <v t="amd.20160501220029.1" a="E"><vh>假如要在近端檢視, 使用下列按鈕</vh>
 <v t="amd.20160501220029.2"><vh>@button local pelican</vh></v>
 </v>
-<v t="amd.20160501215942.1" a="E"><vh>@path content/a/g1</vh>
-<v t="amd.20160501215720.1"><vh>@edit 40323105-20160509.md</vh></v>
+<v t="amd.20160501215942.1" a="E"><vh>@path content/a/g100</vh>
+<v t="amd.20160501215720.1"><vh>@edit 40123119.md</vh></v>
 </v>
 </v>
 </v>
@@ -49,11 +49,10 @@
 </v>
 </v>
 </v>
-<v t="leo.20160502084140.1"><vh>@edit ag1_40323105.py</vh></v>
-<v t="leo.20160509082623.1"><vh>Recovered Nodes</vh>
-<v t="leo.20160509082623.2"><vh>Recovered node "myflaskapp declarations" from @clean myflaskapp.py</vh>
-<v t="leo.20160509082623.3"><vh>old:myflaskapp declarations</vh></v>
-<v t="leo.20160509082623.4"><vh>new:myflaskapp declarations</vh></v>
+<v t="leo.20160509101850.2" a="E"><vh>Recovered Nodes</vh>
+<v t="leo.20160509101850.3"><vh>Recovered node "myflaskapp declarations" from @clean myflaskapp.py</vh>
+<v t="leo.20160509101850.4"><vh>old:myflaskapp declarations</vh></v>
+<v t="leo.20160509101850.5"><vh>new:myflaskapp declarations</vh></v>
 </v>
 </v>
 </vnodes>
@@ -62,6 +61,30 @@
 <t tx="amd.20160501215545.1"></t>
 <t tx="amd.20160501215558.1"></t>
 <t tx="amd.20160501215634.1"></t>
+<t tx="amd.20160501215720.1">@language md
+Title: 40123119 cdw11 報告
+Category: ag7
+Tags: 40123119, cdw11
+Author: 40123119
+啟動 cdw11 協同專案
+
+&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+pelican 網誌位置: &lt;a href="http://cdw11-ag100.rhcloud.com/static/"&gt;http://cdw11-ag100.rhcloud.com/static/&lt;/a&gt;
+
+分組程式: &lt;a href="http://cdw11-ag100.rhcloud.com/option"&gt;http://cdw11-ag100.rhcloud.com/option&lt;/a&gt;
+
+fileuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/fileuploadform"&gt;http://cdw11-ag100.rhcloud.com/fileuploadform&lt;/a&gt;
+
+imageuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/imageuploadform"&gt;http://cdw11-ag100.rhcloud.com/imageuploadform&lt;/a&gt;
+
+請各組在 CDW11 下課前完成下列3個圖形的零件組合繪圖:
+
+&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_4a.png" width="100%" /&gt;
+
+&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_badc.png" width="100%" /&gt;
+
+&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;</t>
 <t tx="amd.20160501215942.1"></t>
 <t tx="amd.20160501220009.1"></t>
 <t tx="amd.20160501220009.2">@language python
@@ -85,28 +108,8 @@ g.es("admin pelican 近端執行完畢")
 @others
 if __name__ == "__main__":
     app.run()
-app.register_blueprint(users.a.g4.ag4_40323138.ag4_40323138)
-app.register_blueprint(users.a.g10.ag10_40323141_task1.ag10_40323141)    
-app.register_blueprint(users.a.g9.ag9_40323132task.ag9_40323132)
-app.register_blueprint(users.a.g10.ag10_40323139.ag10_40323139)
-app.register_blueprint(users.a.g5.ag5_40323113task1.ag5_40323113)
-app.register_blueprint(users.a.g8.ag8_40323131_task1.ag8_40323131)
-app.register_blueprint(users.a.g4.ag4_40323138_task2bacd.ag4_40323138bacd)
-app.register_blueprint(users.a.g4.ag4_40323138_task3abcd.ag4_40323138task3)
-app.register_blueprint(users.a.g8.ag8_40323123.ag8_40323123)
-app.register_blueprint(users.a.g10.ag10_40323129_task1.ag10_40323129)
-
-
-
-app.register_blueprint(users.b.g9.bg9_40323250.bg9_40323250)
-app.register_blueprint(users.b.g11.bg11_40323245.bg11_40323245)
-app.register_blueprint(users.b.g1.bg1_40123156.bg1_40123156)
-#bg2
-app.register_blueprint(users.b.g2.bg2_40123235.bg2_40123235)
-app.register_blueprint(users.b.g2.bg2_40123202.bg2_40123202)
-#bg4
-app.register_blueprint(users.b.g4.bg4_40323203.bg4_40323203)
-
+    
+app.register_blueprint(users.a.g7.ag7_40123119.ag7_40132119)
 
 </t>
 <t tx="amd.20160501221001.10">@app.route('/fileaxupload', methods=['POST'])
@@ -242,23 +245,7 @@ import os
 # init.py 為自行建立的起始物件
 import init
 
-import users.a.g10.ag10_40323129_task1
-import users.a.g10.ag10_40323141_task1
-import users.a.g10.ag10_40323139
-import users.a.g9.ag9_40323132task
-import users.a.g5.ag5_40323113task1
-import users.a.g4.ag4_40323138
-import users.a.g4.ag4_40323138_task2bacd
-import users.a.g4.ag4_40323138_task3abcd
-import users.a.g8.ag8_40323131_task1
-import users.b.g9.bg9_40323250
-import users.b.g11.bg11_40323245
-import users.b.g1.bg1_40123156
-#bg2
-import users.b.g2.bg2_40123235
-import users.b.g2.bg2_40123202
-#bg4
-import users.b.g4.bg4_40323203
+import users.a.g7.ag7_40123119
 # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
 _curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
 # 設定在雲端與近端的資料儲存目錄
@@ -520,8 +507,8 @@ def send_blog():
   return app.send_static_file('blog/index.html')
 
 </t>
-<t tx="leo.20160509082623.1"></t>
-<t tx="leo.20160509082623.2">(uncached) amd.20160501221001.2
+<t tx="leo.20160509101850.2"></t>
+<t tx="leo.20160509101850.3">(uncached) amd.20160501221001.2
 Diff...
   # coding: utf-8
   from flask import Flask, send_from_directory, request, redirect, render_template, session, make_response
@@ -531,26 +518,7 @@ Diff...
   # init.py 為自行建立的起始物件
   import init
   
-- import users.a.g10.ag10_40323129_task1
-- import users.a.g10.ag10_40323141_task1
-- import users.a.g10.ag10_40323139
-?                  -    -       ^^
-+ import users.a.g1.ag1_40323105
-?                             ^^
-- import users.a.g9.ag9_40323132task
-- import users.a.g5.ag5_40323113task1
-- import users.a.g4.ag4_40323138
-- import users.a.g4.ag4_40323138_task2bacd
-- import users.a.g4.ag4_40323138_task3abcd
-- import users.a.g8.ag8_40323131_task1
-- import users.b.g9.bg9_40323250
-- import users.b.g11.bg11_40323245
-- import users.b.g1.bg1_40123156
-- #bg2
-- import users.b.g2.bg2_40123235
-- import users.b.g2.bg2_40123202
-- #bg4
-- import users.b.g4.bg4_40323203
+- import users.a.g7.ag7_40123119
   # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
   _curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
   # 設定在雲端與近端的資料儲存目錄
@@ -583,9 +551,9 @@ Diff...
   
   
   
-  
+- 
 </t>
-<t tx="leo.20160509082623.3"># coding: utf-8
+<t tx="leo.20160509101850.4"># coding: utf-8
 from flask import Flask, send_from_directory, request, redirect, render_template, session, make_response
 import random
 import math
@@ -593,7 +561,6 @@ import os
 # init.py 為自行建立的起始物件
 import init
 
-import users.a.g1.ag1_40323105
 # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
 _curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
 # 設定在雲端與近端的資料儲存目錄
@@ -626,9 +593,8 @@ app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
 
 
 
-
 </t>
-<t tx="leo.20160509082623.4"># coding: utf-8
+<t tx="leo.20160509101850.5"># coding: utf-8
 from flask import Flask, send_from_directory, request, redirect, render_template, session, make_response
 import random
 import math
@@ -636,23 +602,7 @@ import os
 # init.py 為自行建立的起始物件
 import init
 
-import users.a.g10.ag10_40323129_task1
-import users.a.g10.ag10_40323141_task1
-import users.a.g10.ag10_40323139
-import users.a.g9.ag9_40323132task
-import users.a.g5.ag5_40323113task1
-import users.a.g4.ag4_40323138
-import users.a.g4.ag4_40323138_task2bacd
-import users.a.g4.ag4_40323138_task3abcd
-import users.a.g8.ag8_40323131_task1
-import users.b.g9.bg9_40323250
-import users.b.g11.bg11_40323245
-import users.b.g1.bg1_40123156
-#bg2
-import users.b.g2.bg2_40123235
-import users.b.g2.bg2_40123202
-#bg4
-import users.b.g4.bg4_40323203
+import users.a.g6.ag6_40323155
 # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
 _curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
 # 設定在雲端與近端的資料儲存目錄

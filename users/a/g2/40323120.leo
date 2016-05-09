@@ -20,8 +20,8 @@
 <v t="amd.20160501220029.1" a="E"><vh>假如要在近端檢視, 使用下列按鈕</vh>
 <v t="amd.20160501220029.2"><vh>@button local pelican</vh></v>
 </v>
-<v t="amd.20160501215942.1" a="E"><vh>@path content/a/g1</vh>
-<v t="amd.20160501215720.1"><vh>@edit 40323105-20160509.md</vh></v>
+<v t="amd.20160501215942.1" a="E"><vh>@path content/a/g2</vh>
+<v t="amd.20160501215720.1"><vh>@edit 40323120-20160509.md</vh></v>
 </v>
 </v>
 </v>
@@ -49,8 +49,8 @@
 </v>
 </v>
 </v>
-<v t="leo.20160502084140.1"><vh>@edit ag1_40323105.py</vh></v>
-<v t="leo.20160509082623.1"><vh>Recovered Nodes</vh>
+<v t="leo.20160509101513.1"><vh>@edit ag2_40323120.py</vh></v>
+<v t="leo.20160509082623.1" a="E"><vh>Recovered Nodes</vh>
 <v t="leo.20160509082623.2"><vh>Recovered node "myflaskapp declarations" from @clean myflaskapp.py</vh>
 <v t="leo.20160509082623.3"><vh>old:myflaskapp declarations</vh></v>
 <v t="leo.20160509082623.4"><vh>new:myflaskapp declarations</vh></v>
@@ -95,6 +95,7 @@ app.register_blueprint(users.a.g4.ag4_40323138_task2bacd.ag4_40323138bacd)
 app.register_blueprint(users.a.g4.ag4_40323138_task3abcd.ag4_40323138task3)
 app.register_blueprint(users.a.g8.ag8_40323123.ag8_40323123)
 app.register_blueprint(users.a.g10.ag10_40323129_task1.ag10_40323129)
+app.register_blueprint(users.a.g2.ag2_40323120.ag2_40323120)
 
 
 
@@ -242,6 +243,7 @@ import os
 # init.py 為自行建立的起始物件
 import init
 
+import users.a.g2.ag2_40323120
 import users.a.g10.ag10_40323129_task1
 import users.a.g10.ag10_40323141_task1
 import users.a.g10.ag10_40323139
@@ -254,6 +256,7 @@ import users.a.g8.ag8_40323131_task1
 import users.b.g9.bg9_40323250
 import users.b.g11.bg11_40323245
 import users.b.g1.bg1_40123156
+import users.a.g8.ag8_40323123
 #bg2
 import users.b.g2.bg2_40123235
 import users.b.g2.bg2_40123202
