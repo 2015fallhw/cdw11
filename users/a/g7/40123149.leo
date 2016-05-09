@@ -21,7 +21,7 @@
 <v t="amd.20160501220029.2"><vh>@button local pelican</vh></v>
 </v>
 <v t="amd.20160501215942.1" a="E"><vh>@path content/a/g100</vh>
-<v t="amd.20160501215720.1"><vh>@edit 40323199-20160429.md</vh></v>
+<v t="amd.20160501215720.1"><vh>@edit 40123149-20160429.md</vh></v>
 </v>
 </v>
 </v>
@@ -49,10 +49,10 @@
 </v>
 </v>
 </v>
-<v t="leo.20160502101811.1" a="E"><vh>Recovered Nodes</vh>
-<v t="leo.20160502101811.2"><vh>Recovered node "myflaskapp declarations" from @clean myflaskapp.py</vh>
-<v t="leo.20160502101811.3"><vh>old:myflaskapp declarations</vh></v>
-<v t="leo.20160502101811.4"><vh>new:myflaskapp declarations</vh></v>
+<v t="leo.20160509095520.2" a="E"><vh>Recovered Nodes</vh>
+<v t="leo.20160509095520.3"><vh>Recovered node "myflaskapp declarations" from @clean myflaskapp.py</vh>
+<v t="leo.20160509095520.4"><vh>old:myflaskapp declarations</vh></v>
+<v t="leo.20160509095520.5"><vh>new:myflaskapp declarations</vh></v>
 </v>
 </v>
 </vnodes>
@@ -84,8 +84,28 @@ g.es("admin pelican 近端執行完畢")
 @others
 if __name__ == "__main__":
     app.run()
-    
-app.register_blueprint(users.a.g6.ag6_40323155.ag6_40323155)
+app.register_blueprint(users.a.g4.ag4_40323138.ag4_40323138)
+app.register_blueprint(users.a.g10.ag10_40323141_task1.ag10_40323141)    
+app.register_blueprint(users.a.g9.ag9_40323132task.ag9_40323132)
+app.register_blueprint(users.a.g10.ag10_40323139.ag10_40323139)
+app.register_blueprint(users.a.g5.ag5_40323113task1.ag5_40323113)
+app.register_blueprint(users.a.g8.ag8_40323131_task1.ag8_40323131)
+app.register_blueprint(users.a.g4.ag4_40323138_task2bacd.ag4_40323138bacd)
+app.register_blueprint(users.a.g4.ag4_40323138_task3abcd.ag4_40323138task3)
+app.register_blueprint(users.a.g8.ag8_40323123.ag8_40323123)
+app.register_blueprint(users.a.g10.ag10_40323129_task1.ag10_40323129)
+
+
+
+app.register_blueprint(users.b.g9.bg9_40323250.bg9_40323250)
+app.register_blueprint(users.b.g11.bg11_40323245.bg11_40323245)
+app.register_blueprint(users.b.g1.bg1_40123156.bg1_40123156)
+#bg2
+app.register_blueprint(users.b.g2.bg2_40123235.bg2_40123235)
+app.register_blueprint(users.b.g2.bg2_40123202.bg2_40123202)
+#bg4
+app.register_blueprint(users.b.g4.bg4_40323203.bg4_40323203)
+
 
 </t>
 <t tx="amd.20160501221001.10">@app.route('/fileaxupload', methods=['POST'])
@@ -221,7 +241,23 @@ import os
 # init.py 為自行建立的起始物件
 import init
 
-import users.a.g6.ag6_40323155
+import users.a.g10.ag10_40323129_task1
+import users.a.g10.ag10_40323141_task1
+import users.a.g10.ag10_40323139
+import users.a.g9.ag9_40323132task
+import users.a.g5.ag5_40323113task1
+import users.a.g4.ag4_40323138
+import users.a.g4.ag4_40323138_task2bacd
+import users.a.g4.ag4_40323138_task3abcd
+import users.a.g8.ag8_40323131_task1
+import users.b.g9.bg9_40323250
+import users.b.g11.bg11_40323245
+import users.b.g1.bg1_40123156
+#bg2
+import users.b.g2.bg2_40123235
+import users.b.g2.bg2_40123202
+#bg4
+import users.b.g4.bg4_40323203
 # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
 _curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
 # 設定在雲端與近端的資料儲存目錄
@@ -483,8 +519,8 @@ def send_blog():
   return app.send_static_file('blog/index.html')
 
 </t>
-<t tx="leo.20160502101811.1"></t>
-<t tx="leo.20160502101811.2">(uncached) amd.20160501221001.2
+<t tx="leo.20160509095520.2"></t>
+<t tx="leo.20160509095520.3">(uncached) amd.20160501221001.2
 Diff...
   # coding: utf-8
   from flask import Flask, send_from_directory, request, redirect, render_template, session, make_response
@@ -494,7 +530,23 @@ Diff...
   # init.py 為自行建立的起始物件
   import init
   
-- import users.a.g6.ag6_40323155
+- import users.a.g10.ag10_40323129_task1
+- import users.a.g10.ag10_40323141_task1
+  import users.a.g10.ag10_40323139
+- import users.a.g9.ag9_40323132task
+- import users.a.g5.ag5_40323113task1
+  import users.a.g4.ag4_40323138
+- import users.a.g4.ag4_40323138_task2bacd
+- import users.a.g4.ag4_40323138_task3abcd
+  import users.a.g8.ag8_40323131_task1
+- import users.b.g9.bg9_40323250
+- import users.b.g11.bg11_40323245
+- import users.b.g1.bg1_40123156
+- #bg2
+- import users.b.g2.bg2_40123235
+- import users.b.g2.bg2_40123202
+- #bg4
+- import users.b.g4.bg4_40323203
   # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
   _curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
   # 設定在雲端與近端的資料儲存目錄
@@ -527,9 +579,9 @@ Diff...
   
   
   
-- 
+  
 </t>
-<t tx="leo.20160502101811.3"># coding: utf-8
+<t tx="leo.20160509095520.4"># coding: utf-8
 from flask import Flask, send_from_directory, request, redirect, render_template, session, make_response
 import random
 import math
@@ -537,6 +589,9 @@ import os
 # init.py 為自行建立的起始物件
 import init
 
+import users.a.g10.ag10_40323139
+import users.a.g4.ag4_40323138
+import users.a.g8.ag8_40323131_task1
 # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
 _curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
 # 設定在雲端與近端的資料儲存目錄
@@ -569,8 +624,9 @@ app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
 
 
 
+
 </t>
-<t tx="leo.20160502101811.4"># coding: utf-8
+<t tx="leo.20160509095520.5"># coding: utf-8
 from flask import Flask, send_from_directory, request, redirect, render_template, session, make_response
 import random
 import math
@@ -578,7 +634,23 @@ import os
 # init.py 為自行建立的起始物件
 import init
 
-import users.a.g6.ag6_40323155
+import users.a.g10.ag10_40323129_task1
+import users.a.g10.ag10_40323141_task1
+import users.a.g10.ag10_40323139
+import users.a.g9.ag9_40323132task
+import users.a.g5.ag5_40323113task1
+import users.a.g4.ag4_40323138
+import users.a.g4.ag4_40323138_task2bacd
+import users.a.g4.ag4_40323138_task3abcd
+import users.a.g8.ag8_40323131_task1
+import users.b.g9.bg9_40323250
+import users.b.g11.bg11_40323245
+import users.b.g1.bg1_40123156
+#bg2
+import users.b.g2.bg2_40123235
+import users.b.g2.bg2_40123202
+#bg4
+import users.b.g4.bg4_40323203
 # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
 _curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
 # 設定在雲端與近端的資料儲存目錄
