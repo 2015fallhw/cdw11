@@ -50,7 +50,7 @@
 </v>
 </v>
 <v t="leo.20160502084140.1"><vh>@edit ag1_40323105.py</vh></v>
-<v t="leo.20160509082623.1" a="E"><vh>Recovered Nodes</vh>
+<v t="leo.20160509082623.1"><vh>Recovered Nodes</vh>
 <v t="leo.20160509082623.2"><vh>Recovered node "myflaskapp declarations" from @clean myflaskapp.py</vh>
 <v t="leo.20160509082623.3"><vh>old:myflaskapp declarations</vh></v>
 <v t="leo.20160509082623.4"><vh>new:myflaskapp declarations</vh></v>
