@@ -20,13 +20,14 @@
 <v t="amd.20160501220029.1" a="E"><vh>假如要在近端檢視, 使用下列按鈕</vh>
 <v t="amd.20160501220029.2"><vh>@button local pelican</vh></v>
 </v>
-<v t="amd.20160501215942.1" a="E"><vh>@path content/b/g9</vh>
-<v t="leo.20160505085006.1"><vh>@edit 40323250-w11.md</vh></v>
+<v t="amd.20160501215942.1" a="E"><vh>@path content/b/g11</vh>
+<v t="leo.20160505085006.1"><vh>@edit 40323252-201600510.md</vh></v>
 </v>
 </v>
 </v>
 </v>
 <v t="amd.20160501215545.1" a="E"><vh>wsgi 程式部份</vh>
+<v t="leo.20160505091608.1"><vh>@edit bg11_40323252.py</vh></v>
 <v t="amd.20160501221015.1" a="E"><vh>@path ./../../../</vh>
 <v t="amd.20160501221001.1" a="E"><vh>@clean myflaskapp.py</vh>
 <v t="amd.20160501221001.2"><vh>myflaskapp declarations</vh></v>
@@ -48,12 +49,11 @@
 <v t="amd.20160501225844.1"><vh>send_file</vh></v>
 </v>
 </v>
-<v t="leo.20160505091608.1"><vh>@edit bg9_40323250.py</vh></v>
 </v>
-<v t="leo.20160511135427.2" a="E"><vh>Recovered Nodes</vh>
-<v t="leo.20160511135427.3"><vh>Recovered node "myflaskapp declarations" from @clean myflaskapp.py</vh>
-<v t="leo.20160511135427.4"><vh>old:myflaskapp declarations</vh></v>
-<v t="leo.20160511135427.5"><vh>new:myflaskapp declarations</vh></v>
+<v t="leo.20160505143620.2" a="E"><vh>Recovered Nodes</vh>
+<v t="leo.20160505143620.3"><vh>Recovered node "myflaskapp declarations" from @clean myflaskapp.py</vh>
+<v t="leo.20160505143620.4"><vh>old:myflaskapp declarations</vh></v>
+<v t="leo.20160505143620.5"><vh>new:myflaskapp declarations</vh></v>
 </v>
 </v>
 </vnodes>
@@ -528,8 +528,8 @@ def send_blog():
   return app.send_static_file('blog/index.html')
 
 </t>
-<t tx="leo.20160511135427.2"></t>
-<t tx="leo.20160511135427.3">(uncached) amd.20160501221001.2
+<t tx="leo.20160505143620.2"></t>
+<t tx="leo.20160505143620.3">(uncached) amd.20160501221001.2
 Diff...
   # coding: utf-8
   from flask import Flask, send_from_directory, request, redirect, render_template, session, make_response
@@ -538,29 +538,12 @@ Diff...
   import os
   # init.py 為自行建立的起始物件
   import init
-+ 
-- import users.a.g1.ag1_40323105
-- import users.a.g2.ag2_40323120
-- import users.a.g10.ag10_40323129_task1
-- import users.a.g10.ag10_40323141_task1
+  
   import users.a.g10.ag10_40323139
-- import users.a.g9.ag9_40323132task
-- import users.a.g5.ag5_40323113task1
   import users.a.g4.ag4_40323138
-- import users.a.g4.ag4_40323138_task2bacd
-- import users.a.g4.ag4_40323138_task3abcd
   import users.a.g8.ag8_40323131_task1
   import users.b.g9.bg9_40323250
-- import users.b.g1.bg1_40123156
-- import users.a.g8.ag8_40323123
-- #bg2
-- import users.b.g2.bg2_40123235
-- import users.b.g2.bg2_40123202
-- #bg4
-- import users.b.g4.bg4_40323203
-- #bg11
-- import users.b.g11.bg11_40323245
-- import users.b.g11.bg11_40323252
+- #import users.b.g11.bg11_40323245
   # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
   _curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
   # 設定在雲端與近端的資料儲存目錄
@@ -595,7 +578,7 @@ Diff...
   
   
 </t>
-<t tx="leo.20160511135427.4"># coding: utf-8
+<t tx="leo.20160505143620.4"># coding: utf-8
 from flask import Flask, send_from_directory, request, redirect, render_template, session, make_response
 import random
 import math
@@ -641,35 +624,19 @@ app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
 
 
 </t>
-<t tx="leo.20160511135427.5"># coding: utf-8
+<t tx="leo.20160505143620.5"># coding: utf-8
 from flask import Flask, send_from_directory, request, redirect, render_template, session, make_response
 import random
 import math
 import os
 # init.py 為自行建立的起始物件
 import init
-import users.a.g1.ag1_40323105
-import users.a.g2.ag2_40323120
-import users.a.g10.ag10_40323129_task1
-import users.a.g10.ag10_40323141_task1
+
 import users.a.g10.ag10_40323139
-import users.a.g9.ag9_40323132task
-import users.a.g5.ag5_40323113task1
 import users.a.g4.ag4_40323138
-import users.a.g4.ag4_40323138_task2bacd
-import users.a.g4.ag4_40323138_task3abcd
 import users.a.g8.ag8_40323131_task1
 import users.b.g9.bg9_40323250
-import users.b.g1.bg1_40123156
-import users.a.g8.ag8_40323123
-#bg2
-import users.b.g2.bg2_40123235
-import users.b.g2.bg2_40123202
-#bg4
-import users.b.g4.bg4_40323203
-#bg11
-import users.b.g11.bg11_40323245
-import users.b.g11.bg11_40323252
+#import users.b.g11.bg11_40323245
 # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
 _curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
 # 設定在雲端與近端的資料儲存目錄
