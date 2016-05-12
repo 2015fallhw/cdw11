@@ -11,17 +11,17 @@
 <find_panel_settings/>
 <vnodes>
 <v t="leo.20160512114644.1"><vh>40123156的筆記</vh></v>
-<v t="amd.20160501215436.2" a="E"><vh>pelican 部份</vh>
-<v t="amd.20160501215942.1" a="E"><vh>@path content/b/g1</vh>
+<v t="amd.20160501215436.2"><vh>pelican 部份</vh>
+<v t="amd.20160501215942.1"><vh>@path content/b/g1</vh>
 <v t="amd.20160501215720.1"><vh>@edit 40123156-20160505.md</vh></v>
 </v>
-<v t="amd.20160501215558.1" a="E"><vh>@path ./../../../</vh>
+<v t="amd.20160501215558.1"><vh>@path ./../../../</vh>
 <v t="amd.20160501223113.1"><vh>@edit README.md</vh></v>
-<v t="amd.20160501215634.1" a="E"><vh>@path static</vh>
-<v t="amd.20160501220009.1" a="E"><vh>假如要送到 gh-pages 分支, 使用下列按鈕</vh>
+<v t="amd.20160501215634.1"><vh>@path static</vh>
+<v t="amd.20160501220009.1"><vh>假如要送到 gh-pages 分支, 使用下列按鈕</vh>
 <v t="amd.20160501220009.2"><vh>@button gh-pages pelican</vh></v>
 </v>
-<v t="amd.20160501220029.1" a="E"><vh>假如要在近端檢視, 使用下列按鈕</vh>
+<v t="amd.20160501220029.1"><vh>假如要在近端檢視, 使用下列按鈕</vh>
 <v t="amd.20160501220029.2"><vh>@button local pelican</vh></v>
 </v>
 </v>
@@ -82,13 +82,13 @@
 </v>
 </v>
 </v>
-<v t="leo.20160505174415.1" a="E"><vh>Recovered Nodes</vh>
+<v t="leo.20160505174415.1"><vh>Recovered Nodes</vh>
 <v t="leo.20160505174415.2"><vh>Recovered node "myflaskapp declarations" from @clean myflaskapp.py</vh>
 <v t="leo.20160505174415.3"><vh>old:myflaskapp declarations</vh></v>
 <v t="leo.20160505174415.4"><vh>new:myflaskapp declarations</vh></v>
 </v>
 </v>
-<v t="leo.20160512090254.6" a="E"><vh>Recovered Nodes</vh>
+<v t="leo.20160512090254.6"><vh>Recovered Nodes</vh>
 <v t="leo.20160512090254.7"><vh>Recovered node "myflaskapp declarations" from @clean myflaskapp.py</vh>
 <v t="leo.20160512090254.8"><vh>old:myflaskapp declarations</vh></v>
 <v t="leo.20160512090254.9"><vh>new:myflaskapp declarations</vh></v>
@@ -152,8 +152,6 @@ app.register_blueprint(users.b.g2.bg2_40123235.bg2_40123235)
 app.register_blueprint(users.b.g2.bg2_40123202.bg2_40123202)
 #bg4
 app.register_blueprint(users.b.g4.bg4_40323203.bg4_40323203)
-&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
-=======
 app.register_blueprint(users.b.g4.bg4_40323202.bg4_40323202)
 app.register_blueprint(users.b.g4.b40323201_cdw11.b40323201)
 #bg5
@@ -321,8 +319,6 @@ import users.b.g2.bg2_40123235
 import users.b.g2.bg2_40123202
 #bg4
 import users.b.g4.bg4_40323203
-&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
-=======
 import users.b.g4.bg4_40323202
 import users.b.g4.b40323201_cdw11
 #bg5
