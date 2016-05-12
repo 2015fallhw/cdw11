@@ -5,296 +5,180 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./</loc>
-<<<<<<< HEAD
-<lastmod>2016-05-12T10:15:39-00:00</lastmod>
-=======
-<lastmod>2016-05-12T10:14:28-00:00</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
+<lastmod>2016-05-12T10:22:04-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./archives.html</loc>
-<<<<<<< HEAD
-<lastmod>2016-05-12T10:15:39-00:00</lastmod>
-=======
-<lastmod>2016-05-12T10:14:28-00:00</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
+<lastmod>2016-05-12T10:22:04-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tags.html</loc>
-<<<<<<< HEAD
-<lastmod>2016-05-12T10:15:39-00:00</lastmod>
-=======
-<lastmod>2016-05-12T10:14:28-00:00</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
+<lastmod>2016-05-12T10:22:04-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./categories.html</loc>
-<<<<<<< HEAD
-<lastmod>2016-05-12T10:15:39-00:00</lastmod>
-=======
-<lastmod>2016-05-12T10:14:28-00:00</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
+<lastmod>2016-05-12T10:22:04-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<<<<<<< HEAD
+<loc>./40123224-cdw11-bao-gao-1.html</loc>
+<lastmod>2016-05-12T10:20:51+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>./40323201-cdw11-bao-gao.html</loc>
 <lastmod>2016-05-12T09:11:01+08:00</lastmod>
-=======
-<loc>./40123224-cdw11-bao-gao-1.html</loc>
-<lastmod>2016-05-12T09:58:18+08:00</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<<<<<<< HEAD
 <loc>./40323203-cdw11-bao-gao.html</loc>
 <lastmod>2016-05-12T08:50:18+08:00</lastmod>
-=======
-<loc>./40323250-cdw11bao-gao.html</loc>
-<lastmod>2016-05-12T09:11:39+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./40323204-cdw11-bao-gao.html</loc>
+<lastmod>2016-05-12T08:50:18+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./40323206-cdw11-bao-gao.html</loc>
+<lastmod>2016-05-12T08:50:18+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./40323218-cdw11-bao-gao.html</loc>
+<lastmod>2016-05-12T08:50:18+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./40323229-cdw11-bao-gao.html</loc>
+<lastmod>2016-05-12T08:50:18+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./40323230-w11nei-rong.html</loc>
+<lastmod>2016-05-12T08:50:18+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./40323231-cdw11bao-gao.html</loc>
-<lastmod>2016-05-12T09:11:39+08:00</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<<<<<<< HEAD
-<loc>./40323204-cdw11-bao-gao.html</loc>
 <lastmod>2016-05-12T08:50:18+08:00</lastmod>
-=======
-<loc>./40323230-w11nei-rong.html</loc>
-<lastmod>2016-05-12T09:11:39+08:00</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<<<<<<< HEAD
-<loc>./40323206-cdw11-bao-gao.html</loc>
-<lastmod>2016-05-12T08:50:18+08:00</lastmod>
-=======
-<loc>./40323218-cdw11-bao-gao.html</loc>
-<lastmod>2016-05-12T09:11:39+08:00</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<<<<<<< HEAD
-<loc>./40323218-cdw11-bao-gao.html</loc>
-<lastmod>2016-05-12T08:50:18+08:00</lastmod>
-=======
-<loc>./40323229-cdw11-bao-gao.html</loc>
-<lastmod>2016-05-12T09:11:39+08:00</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<<<<<<< HEAD
-<loc>./40323229-cdw11-bao-gao.html</loc>
-<lastmod>2016-05-12T08:50:18+08:00</lastmod>
-=======
-<loc>./40323253-cdw11-bao-gao.html</loc>
-<lastmod>2016-05-12T09:11:39+08:00</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<<<<<<< HEAD
-<loc>./40323230-w11nei-rong.html</loc>
-<lastmod>2016-05-12T08:50:18+08:00</lastmod>
-=======
-<loc>./40323206-cdw11-bao-gao.html</loc>
-<lastmod>2016-05-12T09:11:39+08:00</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<<<<<<< HEAD
-<loc>./40323231-cdw11bao-gao.html</loc>
-<lastmod>2016-05-12T08:50:18+08:00</lastmod>
-=======
-<loc>./40323204-cdw11-bao-gao.html</loc>
-<lastmod>2016-05-12T09:11:39+08:00</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<<<<<<< HEAD
 <loc>./40323250-cdw11bao-gao.html</loc>
 <lastmod>2016-05-12T08:50:18+08:00</lastmod>
-=======
-<loc>./40323203-cdw11-bao-gao.html</loc>
-<lastmod>2016-05-12T09:11:39+08:00</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<<<<<<< HEAD
 <loc>./40323253-cdw11-bao-gao.html</loc>
 <lastmod>2016-05-12T08:50:18+08:00</lastmod>
-=======
-<loc>./40123250-cdw11-bao-gao-1.html</loc>
-<lastmod>2016-05-12T09:11:39+08:00</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<<<<<<< HEAD
 <loc>./40123202-cdw11-bao-gao.html</loc>
 <lastmod>2016-05-12T08:50:18+08:00</lastmod>
-=======
-<loc>./40123250-cdw11-bao-gao.html</loc>
-<lastmod>2016-05-12T09:11:39+08:00</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<<<<<<< HEAD
 <loc>./40123214-cdw11-bao-gao.html</loc>
 <lastmod>2016-05-12T08:50:18+08:00</lastmod>
-=======
-<loc>./40123242-cdw11-bao-gao.html</loc>
-<lastmod>2016-05-12T09:11:39+08:00</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<<<<<<< HEAD
 <loc>./40123217-cdw11-bao-gao.html</loc>
 <lastmod>2016-05-12T08:50:18+08:00</lastmod>
-=======
-<loc>./40123239-cdw11-bao-gao.html</loc>
-<lastmod>2016-05-12T09:11:39+08:00</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./40123224-cdw11-bao-gao.html</loc>
-<<<<<<< HEAD
 <lastmod>2016-05-12T08:50:18+08:00</lastmod>
-=======
-<lastmod>2016-05-12T09:11:39+08:00</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<<<<<<< HEAD
 <loc>./40123226-cdw11-bao-gao.html</loc>
 <lastmod>2016-05-12T08:50:18+08:00</lastmod>
-=======
-<loc>./40123244-cdw11-bao-gao.html</loc>
-<lastmod>2016-05-12T09:11:39+08:00</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<<<<<<< HEAD
 <loc>./40123232-cdw11-bao-gao.html</loc>
 <lastmod>2016-05-12T08:50:18+08:00</lastmod>
-=======
-<loc>./40123235-cdw11-bao-gao.html</loc>
-<lastmod>2016-05-12T09:11:39+08:00</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<<<<<<< HEAD
 <loc>./40123235-cdw11-bao-gao.html</loc>
 <lastmod>2016-05-12T08:50:18+08:00</lastmod>
-=======
-<loc>./40123232-cdw11-bao-gao.html</loc>
-<lastmod>2016-05-12T09:11:39+08:00</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<<<<<<< HEAD
 <loc>./40123239-cdw11-bao-gao.html</loc>
 <lastmod>2016-05-12T08:50:18+08:00</lastmod>
-=======
-<loc>./40123226-cdw11-bao-gao.html</loc>
-<lastmod>2016-05-12T09:11:39+08:00</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<<<<<<< HEAD
 <loc>./40123242-cdw11-bao-gao.html</loc>
 <lastmod>2016-05-12T08:50:18+08:00</lastmod>
-=======
-<loc>./40123217-cdw11-bao-gao.html</loc>
-<lastmod>2016-05-12T09:11:39+08:00</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<<<<<<< HEAD
 <loc>./40123244-cdw11-bao-gao.html</loc>
 <lastmod>2016-05-12T08:50:18+08:00</lastmod>
-=======
-<loc>./40123214-cdw11-bao-gao.html</loc>
-<lastmod>2016-05-12T09:11:39+08:00</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<<<<<<< HEAD
 <loc>./40123250-cdw11-bao-gao.html</loc>
 <lastmod>2016-05-12T08:50:18+08:00</lastmod>
 <changefreq>monthly</changefreq>
@@ -304,28 +188,18 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>./40123250-cdw11-bao-gao-1.html</loc>
 <lastmod>2016-05-12T08:50:18+08:00</lastmod>
-=======
-<loc>./40123202-cdw11-bao-gao.html</loc>
-<lastmod>2016-05-12T09:11:39+08:00</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<<<<<<< HEAD
 <loc>./40323245-cdw11bao-gao.html</loc>
 <lastmod>2016-05-12T08:50:18+08:00</lastmod>
-=======
-<loc>./40323252-cdw11bao-gao.html</loc>
-<lastmod>2016-05-12T09:11:39+08:00</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<<<<<<< HEAD
 <loc>./40323252-cdw11bao-gao.html</loc>
 <lastmod>2016-05-12T08:50:18+08:00</lastmod>
 <changefreq>monthly</changefreq>
@@ -342,769 +216,306 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>./40328245-cdw11-bao-gao.html</loc>
 <lastmod>2016-05-12T08:50:18+08:00</lastmod>
-=======
-<loc>./40323245-cdw11bao-gao.html</loc>
-<lastmod>2016-05-12T09:11:39+08:00</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<<<<<<< HEAD
 <loc>./40123134-cdw11-bao-gao.html</loc>
 <lastmod>2016-05-12T08:50:18+08:00</lastmod>
-=======
-<loc>./40328245-cdw11-bao-gao.html</loc>
-<lastmod>2016-05-12T09:11:39+08:00</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<<<<<<< HEAD
 <loc>./40123149-cdw11-bao-gao.html</loc>
 <lastmod>2016-05-12T08:50:18+08:00</lastmod>
-=======
-<loc>./40328242-cdw11-bao-gao.html</loc>
-<lastmod>2016-05-12T09:11:39+08:00</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./40123156-cdw11-bao-gao.html</loc>
-<<<<<<< HEAD
 <lastmod>2016-05-12T08:50:18+08:00</lastmod>
-=======
-<lastmod>2016-05-12T09:11:39+08:00</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<<<<<<< HEAD
 <loc>./40123227-cdw11-bao-gao.html</loc>
 <lastmod>2016-05-12T08:50:18+08:00</lastmod>
-=======
-<loc>./40123134-cdw11-bao-gao.html</loc>
-<lastmod>2016-05-12T09:11:39+08:00</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<<<<<<< HEAD
 <loc>./40323105-cdw11-bao-gao.html</loc>
 <lastmod>2016-05-12T08:50:18+08:00</lastmod>
-=======
-<loc>./40323143-cdw11-qi-zhong-bao-gao.html</loc>
-<lastmod>2016-05-12T09:11:39+08:00</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<<<<<<< HEAD
 <loc>./40323105-cdw11-qi-zhong-bao-gao.html</loc>
 <lastmod>2016-05-12T08:50:18+08:00</lastmod>
-=======
-<loc>./40323131-cdw11-bao-gao.html</loc>
-<lastmod>2016-05-12T09:11:39+08:00</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./40323123-cdw11-qi-zhong-bao-gao.html</loc>
-<<<<<<< HEAD
 <lastmod>2016-05-12T08:50:18+08:00</lastmod>
-=======
-<lastmod>2016-05-12T09:11:39+08:00</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<<<<<<< HEAD
 <loc>./40323129-cdw11-bao-gao.html</loc>
 <lastmod>2016-05-12T08:50:18+08:00</lastmod>
-=======
-<loc>./40323138-cdw11-bao-gao.html</loc>
-<lastmod>2016-05-12T09:11:39+08:00</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<<<<<<< HEAD
 <loc>./40323131-cdw11-bao-gao.html</loc>
 <lastmod>2016-05-12T08:50:18+08:00</lastmod>
-=======
-<loc>./40323199-cdw11-bao-gao.html</loc>
-<lastmod>2016-05-12T09:11:39+08:00</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<<<<<<< HEAD
 <loc>./40323138-cdw11-bao-gao.html</loc>
 <lastmod>2016-05-12T08:50:18+08:00</lastmod>
-=======
-<loc>./40123227-cdw11-bao-gao.html</loc>
-<lastmod>2016-05-12T09:11:39+08:00</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<<<<<<< HEAD
 <loc>./40323143-cdw11-qi-zhong-bao-gao.html</loc>
 <lastmod>2016-05-12T08:50:18+08:00</lastmod>
-=======
-<loc>./40123149-cdw11-bao-gao.html</loc>
-<lastmod>2016-05-12T09:11:39+08:00</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<<<<<<< HEAD
 <loc>./40323199-cdw11-bao-gao.html</loc>
 <lastmod>2016-05-12T08:50:18+08:00</lastmod>
-=======
-<loc>./40323129-cdw11-bao-gao.html</loc>
-<lastmod>2016-05-12T09:11:38+08:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>./40323105-cdw11-bao-gao.html</loc>
-<lastmod>2016-05-12T09:11:38+08:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>./40323105-cdw11-qi-zhong-bao-gao.html</loc>
-<lastmod>2016-05-12T09:11:38+08:00</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./category/ag1.html</loc>
-<<<<<<< HEAD
 <lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<lastmod>2016-05-12T09:11:38+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./category/ag10.html</loc>
-<<<<<<< HEAD
 <lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<lastmod>2016-05-12T09:11:38+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./category/ag100.html</loc>
-<<<<<<< HEAD
 <lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./category/ag4.html</loc>
-<<<<<<< HEAD
 <lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./category/ag7.html</loc>
-<<<<<<< HEAD
 <lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./category/ag8.html</loc>
-<<<<<<< HEAD
 <lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./category/bg1.html</loc>
-<<<<<<< HEAD
 <lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./category/bg10.html</loc>
-<<<<<<< HEAD
 <lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./category/bg11.html</loc>
-<<<<<<< HEAD
 <lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./category/bg2.html</loc>
-<<<<<<< HEAD
 <lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./category/bg3.html</loc>
-<<<<<<< HEAD
-<lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<lastmod>2016-05-12T09:58:18+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
+<lastmod>2016-05-12T10:20:51+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./category/bg4.html</loc>
-<<<<<<< HEAD
 <lastmod>2016-05-12T09:11:01+08:06</lastmod>
-=======
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./category/bg5.html</loc>
-<<<<<<< HEAD
 <lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./category/bg8.html</loc>
-<<<<<<< HEAD
 <lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./category/bg9.html</loc>
-<<<<<<< HEAD
 <lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./category/g3.html</loc>
-<<<<<<< HEAD
 <lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<<<<<<< HEAD
-<loc>./tag/40323231.html</loc>
+<loc>./tag/40323250.html</loc>
 <lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<loc>./tag/40323206.html</loc>
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<<<<<<< HEAD
-<loc>./tag/40323218.html</loc>
-<lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<loc>./tag/40123217.html</loc>
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<<<<<<< HEAD
-<loc>./tag/40323230.html</loc>
-<lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<loc>./tag/40123244.html</loc>
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<<<<<<< HEAD
-<loc>./tag/40123227.html</loc>
-<lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<loc>./tag/40323203.html</loc>
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<<<<<<< HEAD
-<loc>./tag/40123226.html</loc>
-<lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<loc>./tag/40323143.html</loc>
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<<<<<<< HEAD
-<loc>./tag/40323203.html</loc>
-<lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<loc>./tag/40123134.html</loc>
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<<<<<<< HEAD
-<loc>./tag/40323131.html</loc>
-<lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
 <loc>./tag/40328242.html</loc>
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<<<<<<< HEAD
-<loc>./tag/40123242.html</loc>
 <lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<loc>./tag/40323231.html</loc>
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<<<<<<< HEAD
+<loc>./tag/4032345.html</loc>
+<lastmod>2016-05-12T08:50:18+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./tag/40123239.html</loc>
+<lastmod>2016-05-12T08:50:18+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>./tag/40323199.html</loc>
 <lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<loc>./tag/4032352.html</loc>
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<<<<<<< HEAD
-<loc>./tag/40123232.html</loc>
+<loc>./tag/40323230.html</loc>
 <lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<loc>./tag/40123235.html</loc>
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<<<<<<< HEAD
-<loc>./tag/40323204.html</loc>
-<lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<loc>./tag/40123214.html</loc>
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<<<<<<< HEAD
-<loc>./tag/40323253.html</loc>
-<lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<loc>./tag/4032345.html</loc>
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<<<<<<< HEAD
-<loc>./tag/40123235.html</loc>
-<lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<loc>./tag/40123227.html</loc>
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<<<<<<< HEAD
-<loc>./tag/40123156.html</loc>
-<lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<loc>./tag/40323138.html</loc>
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<<<<<<< HEAD
-<loc>./tag/40323129.html</loc>
-<lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<loc>./tag/40123232.html</loc>
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<<<<<<< HEAD
-<loc>./tag/40123250.html</loc>
-<lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<loc>./tag/40323129.html</loc>
-<lastmod>2016-05-12T09:11:38+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<<<<<<< HEAD
-<loc>./tag/4032345.html</loc>
-<lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<loc>./tag/40123250.html</loc>
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<<<<<<< HEAD
-<loc>./tag/40123202.html</loc>
-<lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<loc>./tag/40323105.html</loc>
-<lastmod>2016-05-12T09:11:38+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<<<<<<< HEAD
-<loc>./tag/40123214.html</loc>
-<lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<loc>./tag/40323229.html</loc>
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<<<<<<< HEAD
-<loc>./tag/40328245.html</loc>
-<lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<loc>./tag/40123224.html</loc>
-<lastmod>2016-05-12T09:58:18+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<<<<<<< HEAD
-<loc>./tag/40123224.html</loc>
-<lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<loc>./tag/40323131.html</loc>
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<<<<<<< HEAD
 <loc>./tag/40123134.html</loc>
 <lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<loc>./tag/40123149.html</loc>
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<<<<<<< HEAD
-<loc>./tag/cdw11.html</loc>
-<lastmod>2016-05-12T09:11:01+08:06</lastmod>
-=======
-<loc>./tag/40323218.html</loc>
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<<<<<<< HEAD
-<loc>./tag/40323123.html</loc>
-<lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<loc>./tag/40123156.html</loc>
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<<<<<<< HEAD
-<loc>./tag/40323143.html</loc>
-<lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<loc>./tag/40323230.html</loc>
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<<<<<<< HEAD
-<loc>./tag/40323138.html</loc>
-<lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<loc>./tag/40323199.html</loc>
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<<<<<<< HEAD
-<loc>./tag/40123217.html</loc>
-<lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<loc>./tag/40123239.html</loc>
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<<<<<<< HEAD
-<loc>./tag/40123244.html</loc>
-<lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
 <loc>./tag/40323253.html</loc>
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<<<<<<< HEAD
-<loc>./tag/40323229.html</loc>
 <lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<loc>./tag/cdw11.html</loc>
-<lastmod>2016-05-12T09:58:18+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<<<<<<< HEAD
+<loc>./tag/40323129.html</loc>
+<lastmod>2016-05-12T08:50:18+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./tag/40123227.html</loc>
+<lastmod>2016-05-12T08:50:18+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>./tag/40323201.html</loc>
 <lastmod>2016-05-12T09:11:01+08:06</lastmod>
-=======
-<loc>./tag/40328245.html</loc>
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<<<<<<< HEAD
-<loc>./tag/40123149.html</loc>
+<loc>./tag/40323229.html</loc>
 <lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<loc>./tag/40323250.html</loc>
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<<<<<<< HEAD
-<loc>./tag/4032352.html</loc>
-<lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<loc>./tag/40323123.html</loc>
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<<<<<<< HEAD
-<loc>./tag/40328242.html</loc>
-<lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<loc>./tag/40123202.html</loc>
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<<<<<<< HEAD
-<loc>./tag/40123239.html</loc>
-<lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<loc>./tag/40323204.html</loc>
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<<<<<<< HEAD
 <loc>./tag/40323206.html</loc>
 <lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<loc>./tag/40123242.html</loc>
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<<<<<<< HEAD
-<loc>./tag/40323250.html</loc>
+<loc>./tag/cdw11.html</loc>
+<lastmod>2016-05-12T10:20:51+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./tag/40123232.html</loc>
 <lastmod>2016-05-12T08:50:18+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
@@ -1113,237 +524,299 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>./tag/40323105.html</loc>
 <lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./tag/40328245.html</loc>
+<lastmod>2016-05-12T08:50:18+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>./tag/40123226.html</loc>
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
+<lastmod>2016-05-12T08:50:18+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./tag/40323218.html</loc>
+<lastmod>2016-05-12T08:50:18+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./tag/40123224.html</loc>
+<lastmod>2016-05-12T10:20:51+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./tag/40123244.html</loc>
+<lastmod>2016-05-12T08:50:18+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./tag/40323203.html</loc>
+<lastmod>2016-05-12T08:50:18+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./tag/40123250.html</loc>
+<lastmod>2016-05-12T08:50:18+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./tag/40323204.html</loc>
+<lastmod>2016-05-12T08:50:18+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./tag/40323231.html</loc>
+<lastmod>2016-05-12T08:50:18+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./tag/40123149.html</loc>
+<lastmod>2016-05-12T08:50:18+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./tag/40123214.html</loc>
+<lastmod>2016-05-12T08:50:18+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./tag/40323138.html</loc>
+<lastmod>2016-05-12T08:50:18+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./tag/40323123.html</loc>
+<lastmod>2016-05-12T08:50:18+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./tag/40323131.html</loc>
+<lastmod>2016-05-12T08:50:18+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./tag/40323143.html</loc>
+<lastmod>2016-05-12T08:50:18+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./tag/4032352.html</loc>
+<lastmod>2016-05-12T08:50:18+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./tag/40123217.html</loc>
+<lastmod>2016-05-12T08:50:18+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./tag/40123202.html</loc>
+<lastmod>2016-05-12T08:50:18+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./tag/40123156.html</loc>
+<lastmod>2016-05-12T08:50:18+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./tag/40123235.html</loc>
+<lastmod>2016-05-12T08:50:18+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./tag/40123242.html</loc>
+<lastmod>2016-05-12T08:50:18+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./author/40123134.html</loc>
-<<<<<<< HEAD
 <lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./author/40123149.html</loc>
-<<<<<<< HEAD
 <lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./author/40123156.html</loc>
-<<<<<<< HEAD
 <lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./author/40123202.html</loc>
-<<<<<<< HEAD
 <lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./author/40123214.html</loc>
-<<<<<<< HEAD
 <lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./author/40123217.html</loc>
-<<<<<<< HEAD
 <lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./author/40123224.html</loc>
-<<<<<<< HEAD
-<lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<lastmod>2016-05-12T09:58:18+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
+<lastmod>2016-05-12T10:20:51+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./author/40123226.html</loc>
-<<<<<<< HEAD
 <lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./author/40123227.html</loc>
-<<<<<<< HEAD
 <lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./author/40123232.html</loc>
-<<<<<<< HEAD
 <lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./author/40123235.html</loc>
-<<<<<<< HEAD
 <lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./author/40123239.html</loc>
-<<<<<<< HEAD
 <lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./author/40123242.html</loc>
-<<<<<<< HEAD
 <lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./author/40123244.html</loc>
-<<<<<<< HEAD
 <lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./author/40323105.html</loc>
-<<<<<<< HEAD
 <lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<lastmod>2016-05-12T09:11:38+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./author/40323123.html</loc>
-<<<<<<< HEAD
 <lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./author/40323129.html</loc>
-<<<<<<< HEAD
 <lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<lastmod>2016-05-12T09:11:38+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./author/40323131.html</loc>
-<<<<<<< HEAD
 <lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./author/40323138.html</loc>
-<<<<<<< HEAD
 <lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./author/40323143.html</loc>
-<<<<<<< HEAD
 <lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./author/40323199.html</loc>
-<<<<<<< HEAD
 <lastmod>2016-05-12T08:50:18+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
@@ -1352,152 +825,97 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>./author/40323201.html</loc>
 <lastmod>2016-05-12T09:11:01+08:06</lastmod>
-=======
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./author/40323203.html</loc>
-<<<<<<< HEAD
 <lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./author/40323204.html</loc>
-<<<<<<< HEAD
 <lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./author/40323206.html</loc>
-<<<<<<< HEAD
 <lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./author/40323218.html</loc>
-<<<<<<< HEAD
 <lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./author/40323229.html</loc>
-<<<<<<< HEAD
 <lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./author/40323230.html</loc>
-<<<<<<< HEAD
 <lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./author/40323231.html</loc>
-<<<<<<< HEAD
 <lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./author/40323245.html</loc>
-<<<<<<< HEAD
 <lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./author/40323250.html</loc>
-<<<<<<< HEAD
 <lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./author/40323252.html</loc>
-<<<<<<< HEAD
 <lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./author/40323253.html</loc>
-<<<<<<< HEAD
 <lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./author/40328242.html</loc>
-<<<<<<< HEAD
 <lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./author/40328245.html</loc>
-<<<<<<< HEAD
 <lastmod>2016-05-12T08:50:18+08:06</lastmod>
-=======
-<lastmod>2016-05-12T09:11:39+08:06</lastmod>
->>>>>>> 74ee2085d5fc06ea0c158dcbf69160d8b71f0f9f
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
