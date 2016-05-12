@@ -213,7 +213,7 @@ mychain.basic(x10, y10, x1, y1, color="yellow")
     return outstring
     
 
-@bg4_40323203.route('/taskbadc')
+@bg4_40323202.route('/taskbadc')
 def taskbadc():
     outstring = '''
 <!DOCTYPE html>
@@ -426,7 +426,7 @@ cgo.setWorldCoords(-55, -250, 500, 500)
 '''
     return outstring
 
-@bg4_40323203.route('/taskabcd')
+@bg4_40323202.route('/taskabcd')
 def taskabcd():
     outstring = '''
 <!DOCTYPE html>
