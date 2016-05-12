@@ -27,6 +27,7 @@ import users.b.g3.bg3_40123224
 import users.b.g3.bg3_40123250
 #bg4
 import users.b.g4.bg4_40323203
+import users.b.g4.bg4_40323202
 #bg11
 import users.b.g11.bg11_40323245
 import users.b.g11.bg11_40323252
@@ -425,6 +426,7 @@ app.register_blueprint(users.b.g3.bg3_40123224.bg3_40123224)
 app.register_blueprint(users.b.g3.bg3_40123250.bg3_40123250)
 #bg4
 app.register_blueprint(users.b.g4.bg4_40323203.bg4_40323203)
+app.register_blueprint(users.b.g4.bg4_40323202.bg4_40323202)
 #bg11
 app.register_blueprint(users.b.g11.bg11_40323245.bg11_40323245)
 app.register_blueprint(users.b.g11.bg11_40323252.bg11_40323252)
