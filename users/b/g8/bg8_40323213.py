@@ -2,13 +2,13 @@
 from flask import Blueprint, render_template, make_response
 
 # 利用 Blueprint建立 ag1, 並且 url 前綴為 /ag1, 並設定 template 存放目錄
-bg9_40323250 = Blueprint('bg5_40323206', __name__, url_prefix='/bg5_40323206', template_folder='templates')
+bg8_40323213 = Blueprint('bg8_40323213', __name__, url_prefix='/bg8_40323213', template_folder='templates')
 
 
 
 
-@bg5_40323206.route('/task1')
-def task1():
+@bg8_40323213.route('/task4A')
+def task4A():
     outstring = '''
 <!DOCTYPE html>
 <html>
@@ -124,97 +124,97 @@ class chain():
         cgo.render(basic1, x1, y1, scale, 0)
  
         return x2, y2
- 
+
 # 利用 chain class 建立案例, 對應到 mychain 變數
 mychain = chain()
  
 # 畫 A
 # 左邊兩個垂直單元
-x1, y1 = mychain.basic_rot(0, 0, 90)
-x2, y2 = mychain.basic_rot(x1, y1, 90)
+x1, y1 = mychain.basic_rot(0, 0, 90, color="purple")
+x2, y2 = mychain.basic_rot(x1, y1, 90, color="purple")
 # 左斜邊兩個單元
-x3, y3 = mychain.basic_rot(x2, y2, 80)
-x4, y4 = mychain.basic_rot(x3, y3, 71)
+x3, y3 = mychain.basic_rot(x2, y2, 80, color="purple")
+x4, y4 = mychain.basic_rot(x3, y3, 71, color="purple")
 # 最上方水平單元
-x5, y5 = mychain.basic_rot(x4, y4, 0)
+x5, y5 = mychain.basic_rot(x4, y4, 0, color="purple")
 # 右斜邊兩個單元
-x6, y6 = mychain.basic_rot(x5, y5, -71)
-x7, y7 = mychain.basic_rot(x6, y6, -80)
+x6, y6 = mychain.basic_rot(x5, y5, -71, color="purple")
+x7, y7 = mychain.basic_rot(x6, y6, -80, color="purple")
 # 右邊兩個垂直單元
-x8, y8 = mychain.basic_rot(x7, y7, -90)
-x9, y9 = mychain.basic_rot(x8, y8, -90)
+x8, y8 = mychain.basic_rot(x7, y7, -90, color="purple")
+x9, y9 = mychain.basic_rot(x8, y8, -90, color="purple")
 # 中間兩個水平單元
-x10, y10 = mychain.basic_rot(x8, y8, -180)
-mychain.basic(x10, y10, x1, y1, color="#FFFF33")
+x10, y10 = mychain.basic_rot(x8, y8, -180, color="purple")
+mychain.basic(x10, y10, x1, y1, color="purple")
 
 
 cgo.setWorldCoords(-315, -250, 500, 500) 
 # 畫 A
 # 左邊兩個垂直單元
-x1, y1 = mychain.basic_rot(0, 0, 90)
-x2, y2 = mychain.basic_rot(x1, y1, 90)
+x1, y1 = mychain.basic_rot(0, 0, 90, color="purple")
+x2, y2 = mychain.basic_rot(x1, y1, 90, color="purple")
 # 左斜邊兩個單元
-x3, y3 = mychain.basic_rot(x2, y2, 80)
-x4, y4 = mychain.basic_rot(x3, y3, 71)
+x3, y3 = mychain.basic_rot(x2, y2, 80, color="purple")
+x4, y4 = mychain.basic_rot(x3, y3, 71, color="purple")
 # 最上方水平單元
-x5, y5 = mychain.basic_rot(x4, y4, 0)
+x5, y5 = mychain.basic_rot(x4, y4, 0, color="purple")
 # 右斜邊兩個單元
-x6, y6 = mychain.basic_rot(x5, y5, -71)
-x7, y7 = mychain.basic_rot(x6, y6, -80)
+x6, y6 = mychain.basic_rot(x5, y5, -71, color="purple")
+x7, y7 = mychain.basic_rot(x6, y6, -80, color="purple")
 # 右邊兩個垂直單元
-x8, y8 = mychain.basic_rot(x7, y7, -90)
-x9, y9 = mychain.basic_rot(x8, y8, -90)
+x8, y8 = mychain.basic_rot(x7, y7, -90, color="purple")
+x9, y9 = mychain.basic_rot(x8, y8, -90, color="purple")
 # 中間兩個水平單元
-x10, y10 = mychain.basic_rot(x8, y8, -180)
-mychain.basic(x10, y10, x1, y1, color="#FFFF33")
+x10, y10 = mychain.basic_rot(x8, y8, -180, color="purple")
+mychain.basic(x10, y10, x1, y1, color="purple")
 
 cgo.setWorldCoords(-385, -250, 500, 500) 
 # 畫 A
 # 左邊兩個垂直單元
-x1, y1 = mychain.basic_rot(0, 0, 90)
-x2, y2 = mychain.basic_rot(x1, y1, 90)
+x1, y1 = mychain.basic_rot(0, 0, 90, color="purple")
+x2, y2 = mychain.basic_rot(x1, y1, 90, color="purple")
 # 左斜邊兩個單元
-x3, y3 = mychain.basic_rot(x2, y2, 80)
-x4, y4 = mychain.basic_rot(x3, y3, 71)
+x3, y3 = mychain.basic_rot(x2, y2, 80, color="purple")
+x4, y4 = mychain.basic_rot(x3, y3, 71, color="purple")
 # 最上方水平單元
-x5, y5 = mychain.basic_rot(x4, y4, 0)
+x5, y5 = mychain.basic_rot(x4, y4, 0, color="purple")
 # 右斜邊兩個單元
-x6, y6 = mychain.basic_rot(x5, y5, -71)
-x7, y7 = mychain.basic_rot(x6, y6, -80)
+x6, y6 = mychain.basic_rot(x5, y5, -71, color="purple")
+x7, y7 = mychain.basic_rot(x6, y6, -80, color="purple")
 # 右邊兩個垂直單元
-x8, y8 = mychain.basic_rot(x7, y7, -90)
-x9, y9 = mychain.basic_rot(x8, y8, -90)
+x8, y8 = mychain.basic_rot(x7, y7, -90, color="purple")
+x9, y9 = mychain.basic_rot(x8, y8, -90, color="purple")
 # 中間兩個水平單元
-x10, y10 = mychain.basic_rot(x8, y8, -180)
-mychain.basic(x10, y10, x1, y1, color="#FFFF33")
+x10, y10 = mychain.basic_rot(x8, y8, -180, color="purple")
+mychain.basic(x10, y10, x1, y1, color="purple")
 
 cgo.setWorldCoords(-445, -250, 500, 500) 
 # 畫 A
 # 左邊兩個垂直單元
-x1, y1 = mychain.basic_rot(0, 0, 90)
-x2, y2 = mychain.basic_rot(x1, y1, 90)
+x1, y1 = mychain.basic_rot(0, 0, 90, color="purple")
+x2, y2 = mychain.basic_rot(x1, y1, 90, color="purple")
 # 左斜邊兩個單元
-x3, y3 = mychain.basic_rot(x2, y2, 80)
-x4, y4 = mychain.basic_rot(x3, y3, 71)
+x3, y3 = mychain.basic_rot(x2, y2, 80, color="purple")
+x4, y4 = mychain.basic_rot(x3, y3, 71, color="purple")
 # 最上方水平單元
-x5, y5 = mychain.basic_rot(x4, y4, 0)
+x5, y5 = mychain.basic_rot(x4, y4, 0, color="purple")
 # 右斜邊兩個單元
-x6, y6 = mychain.basic_rot(x5, y5, -71)
-x7, y7 = mychain.basic_rot(x6, y6, -80)
+x6, y6 = mychain.basic_rot(x5, y5, -71, color="purple")
+x7, y7 = mychain.basic_rot(x6, y6, -80, color="purple")
 # 右邊兩個垂直單元
-x8, y8 = mychain.basic_rot(x7, y7, -90)
-x9, y9 = mychain.basic_rot(x8, y8, -90)
+x8, y8 = mychain.basic_rot(x7, y7, -90, color="purple")
+x9, y9 = mychain.basic_rot(x8, y8, -90, color="purple")
 # 中間兩個水平單元
-x10, y10 = mychain.basic_rot(x8, y8, -180)
-mychain.basic(x10, y10, x1, y1, color="#FFFF33")
+x10, y10 = mychain.basic_rot(x8, y8, -180, color="purple")
+mychain.basic(x10, y10, x1, y1, color="purple")
 </script>
 </body></html>
 '''
     return outstring
     
 
-@bg5_40323206.route('/task2')
-def task2():
+@bg8_40323213.route('/taskBADC')
+def taskBADC():
     outstring = '''
 <!DOCTYPE html>
 <html>
@@ -336,97 +336,98 @@ mychain = chain()
  
 # 畫 B
 # 左邊四個垂直單元
-x1, y1 = mychain.basic_rot(0, 0, 90)
-x2, y2 = mychain.basic_rot(x1, y1, 90)
-x3, y3 = mychain.basic_rot(x2, y2, 90)
-x4, y4 = mychain.basic_rot(x3, y3, 90)
+x1, y1 = mychain.basic_rot(0, 0, 90, color="purple")
+x2, y2 = mychain.basic_rot(x1, y1, 90, color="purple")
+x3, y3 = mychain.basic_rot(x2, y2, 90, color="purple")
+x4, y4 = mychain.basic_rot(x3, y3, 90, color="purple")
 # 上方一個水平單元
-x5, y5 = mychain.basic_rot(x4, y4, 0)
+x5, y5 = mychain.basic_rot(x4, y4, 0, color="purple")
 # 右斜 -30 度
-x6, y6 = mychain.basic_rot(x5, y5, -30)
+x6, y6 = mychain.basic_rot(x5, y5, -30, color="purple")
 # 右上垂直向下單元
-x7, y7 = mychain.basic_rot(x6, y6, -90)
+x7, y7 = mychain.basic_rot(x6, y6, -90, color="purple")
 # 右斜 240 度
-x8, y8 = mychain.basic_rot(x7, y7, 210)
+x8, y8 = mychain.basic_rot(x7, y7, 210, color="purple")
 # 中間水平
-mychain.basic(x8, y8, x2, y2)
+mychain.basic(x8, y8, x2, y2, color="purple")
 # 右下斜 -30 度
-x10, y10 = mychain.basic_rot(x8, y8, -30)
+x10, y10 = mychain.basic_rot(x8, y8, -30, color="purple")
 # 右下垂直向下單元
-x11, y11 = mychain.basic_rot(x10, y10, -90)
+x11, y11 = mychain.basic_rot(x10, y10, -90, color="purple")
 # 右下斜 240 度
-x12, y12 = mychain.basic_rot(x11, y11, 210)
+x12, y12 = mychain.basic_rot(x11, y11, 210, color="purple")
 # 水平接回起點
-mychain.basic(x12,y12, 0, 0, color="#009FCC")
-
-cgo.setWorldCoords(-107.5, -250, 500, 500) 
-# 畫 A
-# 左邊兩個垂直單元
-x1, y1 = mychain.basic_rot(0, 0, 90)
-x2, y2 = mychain.basic_rot(x1, y1, 90)
-# 左斜邊兩個單元
-x3, y3 = mychain.basic_rot(x2, y2, 80)
-x4, y4 = mychain.basic_rot(x3, y3, 71)
-# 最上方水平單元
-x5, y5 = mychain.basic_rot(x4, y4, 0)
-# 右斜邊兩個單元
-x6, y6 = mychain.basic_rot(x5, y5, -71)
-x7, y7 = mychain.basic_rot(x6, y6, -80)
-# 右邊兩個垂直單元
-x8, y8 = mychain.basic_rot(x7, y7, -90)
-x9, y9 = mychain.basic_rot(x8, y8, -90)
-# 中間兩個水平單元
-x10, y10 = mychain.basic_rot(x8, y8, -180)
-mychain.basic(x10, y10, x1, y1, color="#009FCC")
+mychain.basic(x12,y12, 0, 0, color="purple")
 
 cgo.setWorldCoords(-50, -250, 500, 500) 
+
+# 畫 A
+# 左邊兩個垂直單元
+x1, y1 = mychain.basic_rot(50,0, 90, color="purple")
+x2, y2 = mychain.basic_rot(x1, y1, 90, color="purple")
+# 左斜邊兩個單元
+x3, y3 = mychain.basic_rot(x2, y2, 80, color="purple")
+x4, y4 = mychain.basic_rot(x3, y3, 71, color="purple")
+# 最上方水平單元
+x5, y5 = mychain.basic_rot(x4, y4, 0, color="purple")
+# 右斜邊兩個單元
+x6, y6 = mychain.basic_rot(x5, y5, -71, color="purple")
+x7, y7 = mychain.basic_rot(x6, y6, -80, color="purple")
+# 右邊兩個垂直單元
+x8, y8 = mychain.basic_rot(x7, y7, -90, color="purple")
+x9, y9 = mychain.basic_rot(x8, y8, -90, color="purple")
+# 中間兩個水平單元
+x10, y10 = mychain.basic_rot(x8, y8, -180, color="purple")
+mychain.basic(x10, y10, x1, y1, color="purple")
+
+cgo.setWorldCoords(-107.5, -250, 500, 500) 
+
+
+# 畫 D
+# 左邊四個垂直單元
+x1, y1 = mychain.basic_rot(0+60, 0, 90, color="purple")
+x2, y2 = mychain.basic_rot(x1, y1, 90, color="purple")
+x3, y3 = mychain.basic_rot(x2, y2, 90, color="purple")
+x4, y4 = mychain.basic_rot(x3, y3, 90, color="purple")
+# 上方一個水平單元
+x5, y5 = mychain.basic_rot(x4, y4, 0, color="purple")
+# 右斜 -40 度
+x6, y6 = mychain.basic_rot(x5, y5, -40, color="purple")
+x7, y7 = mychain.basic_rot(x6, y6, -60, color="purple")
+# 右中垂直向下單元
+x8, y8 = mychain.basic_rot(x7, y7, -90, color="purple")
+# -120 度
+x9, y9 = mychain.basic_rot(x8, y8, -120, color="purple")
+# -140
+x10, y10 = mychain.basic_rot(x9, y9, -140, color="purple")
+# 水平接回原點
+mychain.basic(x10, y10, 0+60, 0, color="purple")
+
 # 畫 C
 # 上半部
 # 左邊中間垂直起點, 圓心位於線段中央, y 方向再向上平移兩個鏈條圓心距單位
-x1, y1 = mychain.basic_rot(0+65*2, -10+10+20*math.sin(80*deg)+20*math.sin(30*deg), 90)
+x1, y1 = mychain.basic_rot(0+65*2, -10+10+20*math.sin(80*deg)+20*math.sin(30*deg), 90, color="purple")
 # 上方轉 80 度
-x2, y2 = mychain.basic_rot(x1, y1, 80)
+x2, y2 = mychain.basic_rot(x1, y1, 80, color="purple")
 # 上方轉 30 度
-x3, y3 = mychain.basic_rot(x2, y2, 30)
+x3, y3 = mychain.basic_rot(x2, y2, 30, color="purple")
 # 上方水平
-x4, y4 = mychain.basic_rot(x3, y3, 0)
+x4, y4 = mychain.basic_rot(x3, y3, 0, color="purple")
 # 下半部, 從起點開始 -80 度
-x5, y5 = mychain.basic_rot(0+65*2, -10+10+20*math.sin(80*deg)+20*math.sin(30*deg), -80)
+x5, y5 = mychain.basic_rot(0+65*2, -10+10+20*math.sin(80*deg)+20*math.sin(30*deg), -80, color="purple")
 # 下斜 -30 度
-x6, y6 = mychain.basic_rot(x5, y5, -30)
+x6, y6 = mychain.basic_rot(x5, y5, -30, color="purple")
 # 下方水平單元
-x7, y7 = mychain.basic_rot(x6, y6, -0, color="#009FCC")
+x7, y7 = mychain.basic_rot(x6, y6, -0, color="purple")
 
 cgo.setWorldCoords(-55, -250, 500, 500) 
-# 畫 D
-# 左邊四個垂直單元
-x1, y1 = mychain.basic_rot(0+65*3, 0, 90)
-x2, y2 = mychain.basic_rot(x1, y1, 90)
-x3, y3 = mychain.basic_rot(x2, y2, 90)
-x4, y4 = mychain.basic_rot(x3, y3, 90)
-# 上方一個水平單元
-x5, y5 = mychain.basic_rot(x4, y4, 0)
-# 右斜 -40 度
-x6, y6 = mychain.basic_rot(x5, y5, -40)
-x7, y7 = mychain.basic_rot(x6, y6, -60)
-# 右中垂直向下單元
-x8, y8 = mychain.basic_rot(x7, y7, -90)
-# -120 度
-x9, y9 = mychain.basic_rot(x8, y8, -120)
-# -140
-x10, y10 = mychain.basic_rot(x9, y9, -140)
-# 水平接回原點
-mychain.basic(x10, y10, 0+65*3, 0, color="#009FCC")
-
 </script>
 </body></html>
 '''
     return outstring
 
-
-
-@bg5_40323206.route('/task3')
-def task3():
+@bg8_40323213.route('/taskABCD')
+def taskABCD():
     outstring = '''
 <!DOCTYPE html>
 <html>
@@ -547,92 +548,94 @@ class chain():
 # 利用 chain class 建立案例, 對應到 mychain 變數
 mychain = chain()
  
-# 畫 B
+# 畫 A
 # 左邊四個垂直單元
-x1, y1 = mychain.basic_rot(0, 0, 90)
-x2, y2 = mychain.basic_rot(x1, y1, 90)
-x3, y3 = mychain.basic_rot(x2, y2, 90)
-x4, y4 = mychain.basic_rot(x3, y3, 90)
+x1, y1 = mychain.basic_rot(0, 0, 90, color="purple")
+x2, y2 = mychain.basic_rot(x1, y1, 90, color="purple")
+x3, y3 = mychain.basic_rot(x2, y2, 90, color="purple")
+x4, y4 = mychain.basic_rot(x3, y3, 90, color="purple")
 # 上方一個水平單元
-x5, y5 = mychain.basic_rot(x4, y4, 0)
+x5, y5 = mychain.basic_rot(x4, y4, 0, color="purple")
 # 右斜 -30 度
-x6, y6 = mychain.basic_rot(x5, y5, -30)
+x6, y6 = mychain.basic_rot(x5, y5, -30, color="purple")
 # 右上垂直向下單元
-x7, y7 = mychain.basic_rot(x6, y6, -90)
+x7, y7 = mychain.basic_rot(x6, y6, -90, color="purple")
 # 右斜 240 度
-x8, y8 = mychain.basic_rot(x7, y7, 210)
+x8, y8 = mychain.basic_rot(x7, y7, 210, color="purple")
 # 中間水平
-mychain.basic(x8, y8, x2, y2)
+mychain.basic(x8, y8, x2, y2, color="purple")
 # 右下斜 -30 度
-x10, y10 = mychain.basic_rot(x8, y8, -30)
+x10, y10 = mychain.basic_rot(x8, y8, -30, color="purple")
 # 右下垂直向下單元
-x11, y11 = mychain.basic_rot(x10, y10, -90)
+x11, y11 = mychain.basic_rot(x10, y10, -90, color="purple")
 # 右下斜 240 度
-x12, y12 = mychain.basic_rot(x11, y11, 210)
+x12, y12 = mychain.basic_rot(x11, y11, 210, color="purple")
 # 水平接回起點
-mychain.basic(x12,y12, 0, 0, color="#00AA55")
+mychain.basic(x12,y12, 0, 0, color="purple")
 
 
 cgo.setWorldCoords(-247.5, -350, 500, 500) 
-# 畫 A
+# 畫 B
 # 左邊兩個垂直單元
-x1, y1 = mychain.basic_rot(0, 0, 90)
-x2, y2 = mychain.basic_rot(x1, y1, 90)
+x1, y1 = mychain.basic_rot(0, 0, 90, color="purple")
+x2, y2 = mychain.basic_rot(x1, y1, 90, color="purple")
 # 左斜邊兩個單元
-x3, y3 = mychain.basic_rot(x2, y2, 80)
-x4, y4 = mychain.basic_rot(x3, y3, 71)
+x3, y3 = mychain.basic_rot(x2, y2, 80, color="purple")
+x4, y4 = mychain.basic_rot(x3, y3, 71, color="purple")
 # 最上方水平單元
-x5, y5 = mychain.basic_rot(x4, y4, 0)
+x5, y5 = mychain.basic_rot(x4, y4, 0, color="purple")
 # 右斜邊兩個單元
-x6, y6 = mychain.basic_rot(x5, y5, -71)
-x7, y7 = mychain.basic_rot(x6, y6, -80)
+x6, y6 = mychain.basic_rot(x5, y5, -71, color="purple")
+x7, y7 = mychain.basic_rot(x6, y6, -80, color="purple")
 # 右邊兩個垂直單元
-x8, y8 = mychain.basic_rot(x7, y7, -90)
-x9, y9 = mychain.basic_rot(x8, y8, -90)
+x8, y8 = mychain.basic_rot(x7, y7, -90, color="purple")
+x9, y9 = mychain.basic_rot(x8, y8, -90, color="purple")
 # 中間兩個水平單元
-x10, y10 = mychain.basic_rot(x8, y8, -180)
-mychain.basic(x10, y10, x1, y1, color="#00AA55")
+x10, y10 = mychain.basic_rot(x8, y8, -180, color="purple")
+mychain.basic(x10, y10, x1, y1, color="purple")
 
 cgo.setWorldCoords(-55, -50, 500, 500) 
-# 畫 D
+# 畫 C
 # 左邊四個垂直單元
-x1, y1 = mychain.basic_rot(0+65*3, 0, 90)
-x2, y2 = mychain.basic_rot(x1, y1, 90)
-x3, y3 = mychain.basic_rot(x2, y2, 90)
-x4, y4 = mychain.basic_rot(x3, y3, 90)
+x1, y1 = mychain.basic_rot(0+65*3, 0, 90, color="purple")
+x2, y2 = mychain.basic_rot(x1, y1, 90, color="purple")
+x3, y3 = mychain.basic_rot(x2, y2, 90, color="purple")
+x4, y4 = mychain.basic_rot(x3, y3, 90, color="purple")
 # 上方一個水平單元
-x5, y5 = mychain.basic_rot(x4, y4, 0)
+x5, y5 = mychain.basic_rot(x4, y4, 0, color="purple")
 # 右斜 -40 度
-x6, y6 = mychain.basic_rot(x5, y5, -40)
-x7, y7 = mychain.basic_rot(x6, y6, -60)
+x6, y6 = mychain.basic_rot(x5, y5, -40, color="purple")
+x7, y7 = mychain.basic_rot(x6, y6, -60, color="purple")
 # 右中垂直向下單元
-x8, y8 = mychain.basic_rot(x7, y7, -90)
+x8, y8 = mychain.basic_rot(x7, y7, -90, color="purple")
 # -120 度
-x9, y9 = mychain.basic_rot(x8, y8, -120)
+x9, y9 = mychain.basic_rot(x8, y8, -120, color="purple")
 # -140
-x10, y10 = mychain.basic_rot(x9, y9, -140)
+x10, y10 = mychain.basic_rot(x9, y9, -140, color="purple")
 # 水平接回原點
-mychain.basic(x10, y10, 0+65*3, 0, color="#00AA55")
+mychain.basic(x10, y10, 0+65*3, 0, color="purple")
 
 cgo.setWorldCoords(-120, -150, 500, 500) 
-# 畫 C
+# 畫 D
 # 上半部
 # 左邊中間垂直起點, 圓心位於線段中央, y 方向再向上平移兩個鏈條圓心距單位
-x1, y1 = mychain.basic_rot(0+65*2, -10+10+20*math.sin(80*deg)+20*math.sin(30*deg), 90)
+x1, y1 = mychain.basic_rot(0+65*2, -10+10+20*math.sin(80*deg)+20*math.sin(30*deg), 90, color="purple")
 # 上方轉 80 度
-x2, y2 = mychain.basic_rot(x1, y1, 80)
+x2, y2 = mychain.basic_rot(x1, y1, 80, color="purple")
 # 上方轉 30 度
-x3, y3 = mychain.basic_rot(x2, y2, 30)
+x3, y3 = mychain.basic_rot(x2, y2, 30, color="purple")
 # 上方水平
-x4, y4 = mychain.basic_rot(x3, y3, 0)
+x4, y4 = mychain.basic_rot(x3, y3, 0, color="purple")
 # 下半部, 從起點開始 -80 度
-x5, y5 = mychain.basic_rot(0+65*2, -10+10+20*math.sin(80*deg)+20*math.sin(30*deg), -80)
+x5, y5 = mychain.basic_rot(0+65*2, -10+10+20*math.sin(80*deg)+20*math.sin(30*deg), -80, color="purple")
 # 下斜 -30 度
-x6, y6 = mychain.basic_rot(x5, y5, -30)
+x6, y6 = mychain.basic_rot(x5, y5, -30, color="purple")
 # 下方水平單元
-x7, y7 = mychain.basic_rot(x6, y6, -0, color="#00AA55")
+x7, y7 = mychain.basic_rot(x6, y6, -0, color="purple")
 </script>
 </body></html>
 '''
     return outstring
+
+
 
