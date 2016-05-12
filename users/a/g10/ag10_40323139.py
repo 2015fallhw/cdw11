@@ -19,506 +19,609 @@ def task1():
 <script type="text/javascript" src="http://cptocadp-2015fallhw.rhcloud.com/static/Cango-8v03.js"></script>
 <script type="text/javascript" src="http://cptocadp-2015fallhw.rhcloud.com/static/Cango2D-6v13.js"></script>
 <script type="text/javascript" src="http://cptocadp-2015fallhw.rhcloud.com/static/CangoAxes-1v33.js"></script>
-
+ 
 </head>
 <body>
-
+ 
 <script>
 window.onload=function(){
 brython(1);
 }
 </script>
-
-<canvas id="plotarea" width="3000" height="3000"></canvas>
-
+ 
+<canvas id="plotarea2" width="800" height="800"></canvas>
+ 
 <script type="text/python">
 from javascript import JSConstructor
+from browser import alert
 from browser import window
 import math
-
+ 
 cango = JSConstructor(window.Cango)
 cobj = JSConstructor(window.Cobj)
 shapedefs = window.shapeDefs
 obj2d = JSConstructor(window.Obj2D)
-cgo = cango("plotarea")
-
-cgo.setWorldCoords(-250, -4500, 5000, 5000) 
-
-# 決定要不要畫座標軸線
-#cgo.drawAxes(0, 5000, 0, 5000, {
-#    "strokeColor":"#aaaaaa",
-#   "fillColor": "#aaaaaa",
-#    "xTickInterval": 20,
-#    "xLabelInterval": 20,
-#    "yTickInterval": 20,
-#    "yLabelInterval": 20})
-        
-#cgo.drawText("使用 Cango 繪圖程式庫!", 0, 0, {"fontSize":60, "fontWeight": 1200, "lorg":5 })
-
+cgo = cango("plotarea2")
+ 
+cgo.setWorldCoords(-250, -250, 500, 500) 
+ 
+# 畫軸線
+cgo.drawAxes(0, 240, 0, 240, {
+    "strokeColor":"#aaaaaa",
+    "fillColor": "#aaaaaa",
+    "xTickInterval": 20,
+    "xLabelInterval": 20,
+    "yTickInterval": 20,
+    "yLabelInterval": 20})
+ 
 deg = math.pi/180  
-def O(x, y, rx, ry, rot, color, border, linewidth):
-    # 旋轉必須要針對相對中心 rot not working yet
-    chamber = "M -6.8397, -1.4894 \
-                     A 7, 7, 0, 1, 0, 6.8397, -1.4894 \
-                     A 40, 40, 0, 0, 1, 6.8397, -18.511 \
-                     A 7, 7, 0, 1, 0, -6.8397, -18.511 \
-                     A 40, 40, 0, 0, 1, -6.8397, -1.4894 z"
+ 
+# 將繪製鏈條輪廓的內容寫成 class 物件
+class chain():
+    # 輪廓的外型設為成員變數
+    chamber = "M -6.8397, -1.4894             A 7, 7, 0, 1, 0, 6.8397, -1.4894             A 40, 40, 0, 0, 1, 6.8397, -18.511             A 7, 7, 0, 1, 0, -6.8397, -18.511             A 40, 40, 0, 0, 1, -6.8397, -1.4894 z"
     cgoChamber = window.svgToCgoSVG(chamber)
-    cmbr = cobj(cgoChamber, "SHAPE", {
-            "fillColor": color,
-            "border": border,
-            "strokeColor": "tan",
-            "lineWidth": linewidth })
+ 
+    # 利用鏈條起點與終點定義繪圖, 使用內定的 color, border 與 linewidth 變數
+    def basic(self, x1, y1, x2, y2, color="green", border=True, linewidth=4, scale=1):
+        self.x1 = x1
+        self.y1 = y1
+        self.x2 = x2
+        self.y2 = y2
+        self.color = color
+        self.border = border
+        self.linewidth = linewidth
+        self.scale = scale
+        # 注意, cgo.Chamber 為成員變數
+        cmbr = cobj(self.cgoChamber, "SHAPE", {
+                "fillColor": color,
+                "border": border,
+                "strokeColor": "tan",
+                "lineWidth": linewidth })
+ 
+        # hole 為原點位置
+        hole = cobj(shapedefs.circle(4), "PATH")
+        cmbr.appendPath(hole)
+ 
+        # 複製 cmbr, 然後命名為 basic1
+        basic1 = cmbr.dup()
+        # 因為鏈條的角度由原點向下垂直, 所以必須轉 90 度, 再考量 atan2 的轉角
+        basic1.rotate(math.atan2(y2-y1, x2-x1)/deg+90)
+ 
+        # 放大 scale 倍
+        cgo.render(basic1, x1, y1, scale, 0)
+ 
+    # 利用鏈條起點與旋轉角度定義繪圖, 使用內定的 color, border 與 linewidth 變數
+    def basic_rot(self, x1, y1, rot, color="green", border=True, linewidth=4, scale=1):
+        self.x1 = x1
+        self.y1 = y1
+        self.rot = rot
+        self.color = color
+        self.border = border
+        self.linewidth = linewidth
+        self.scale = scale
+        # 注意, cgo.Chamber 為成員變數
+        cmbr = cobj(self.cgoChamber, "SHAPE", {
+                "fillColor": color,
+                "border": border,
+                "strokeColor": "tan",
+                "lineWidth": linewidth })
+ 
+        # hole 為原點位置
+        hole = cobj(shapedefs.circle(4), "PATH")
+        cmbr.appendPath(hole)
+        # 根據旋轉角度, 計算 x2 與 y2
+        x2 = x1 + 20*math.cos(rot*deg)
+        y2 = y1 + 20*math.sin(rot*deg)
+ 
+        # 複製 cmbr, 然後命名為 basic1
+        basic1 = cmbr.dup()
+        # 因為鏈條的角度由原點向下垂直, 所以必須轉 90 度, 再考量 atan2 的轉角
+        basic1.rotate(rot+90)
+ 
+        # 放大 scale 倍
+        cgo.render(basic1, x1, y1, scale, 0)
+ 
+        return x2, y2
+ 
+# 利用 chain class 建立案例, 對應到 mychain 變數
+mychain = chain()
+ 
 
-    # 複製 cmbr, 然後命名為 basic1
-    
-    # hole 為原點位置
-    hole = cobj(shapedefs.circle(4), "PATH")
-    cmbr.appendPath(hole)
+x1, y1 = mychain.basic_rot(0, 0, 90, color="green")
+x2, y2 = mychain.basic_rot(x1, y1, 90, color="green")
 
-    # 表示放大 3 倍
-    #cgo.render(cmbr, x, y, 3, rot)
-    # 放大 5 倍
-    cgo.render(cmbr, x, y, 5, rot)
+x3, y3 = mychain.basic_rot(x2, y2, 80, color="green")
+x4, y4 = mychain.basic_rot(x3, y3, 71, color="green")
 
-O(0, 0, 0, 0, 0, "blue", True, 4)
+x5, y5 = mychain.basic_rot(x4, y4, 0, color="green")
+
+x6, y6 = mychain.basic_rot(x5, y5, -71, color="green")
+x7, y7 = mychain.basic_rot(x6, y6, -80, color="green")
+
+x8, y8 = mychain.basic_rot(x7, y7, -90, color="green")
+x9, y9 = mychain.basic_rot(x8, y8, -90, color="green")
+
+x10, y10 = mychain.basic_rot(x8, y8, -180, color="green")
+mychain.basic(x10, y10, x1, y1, color="green")
+
+
+x1, y1 = mychain.basic_rot(65, 0, 90, color="green")
+x2, y2 = mychain.basic_rot(x1, y1, 90, color="green")
+
+x3, y3 = mychain.basic_rot(x2, y2, 80, color="green")
+x4, y4 = mychain.basic_rot(x3, y3, 71, color="green")
+
+x5, y5 = mychain.basic_rot(x4, y4, 0, color="green")
+
+x6, y6 = mychain.basic_rot(x5, y5, -71, color="green")
+x7, y7 = mychain.basic_rot(x6, y6, -80, color="green")
+
+x8, y8 = mychain.basic_rot(x7, y7, -90, color="green")
+x9, y9 = mychain.basic_rot(x8, y8, -90, color="green")
+
+x10, y10 = mychain.basic_rot(x8, y8, -180, color="green")
+mychain.basic(x10, y10, x1, y1, color="green")
+
+ 
+
+x1, y1 = mychain.basic_rot(130, 0, 90, color="green")
+x2, y2 = mychain.basic_rot(x1, y1, 90, color="green")
+
+x3, y3 = mychain.basic_rot(x2, y2, 80, color="green")
+x4, y4 = mychain.basic_rot(x3, y3, 71, color="green")
+
+x5, y5 = mychain.basic_rot(x4, y4, 0, color="green")
+
+x6, y6 = mychain.basic_rot(x5, y5, -71, color="green")
+x7, y7 = mychain.basic_rot(x6, y6, -80, color="green")
+
+x8, y8 = mychain.basic_rot(x7, y7, -90, color="green")
+x9, y9 = mychain.basic_rot(x8, y8, -90, color="green")
+
+x10, y10 = mychain.basic_rot(x8, y8, -180, color="green")
+mychain.basic(x10, y10, x1, y1, color="green")
+
+ 
+
+x1, y1 = mychain.basic_rot(195, 0, 90, color="green")
+x2, y2 = mychain.basic_rot(x1, y1, 90, color="green")
+
+x3, y3 = mychain.basic_rot(x2, y2, 80, color="green")
+x4, y4 = mychain.basic_rot(x3, y3, 71, color="green")
+
+x5, y5 = mychain.basic_rot(x4, y4, 0, color="green")
+
+x6, y6 = mychain.basic_rot(x5, y5, -71, color="green")
+x7, y7 = mychain.basic_rot(x6, y6, -80, color="green")
+
+x8, y8 = mychain.basic_rot(x7, y7, -90, color="green")
+x9, y9 = mychain.basic_rot(x8, y8, -90, color="green")
+
+x10, y10 = mychain.basic_rot(x8, y8, -180, color="green")
+mychain.basic(x10, y10, x1, y1, color="green")
+
+ 
 </script>
-<!-- 以協同方式加上 40323139 的 A 程式碼 -->
-<script type="text/python" src="/ag10_40323139/39A2"></script>
-
-<!-- 以協同方式加上 40323139 的 A 程式碼 -->
-<script type="text/python" src="/ag10_40323139/39A3"></script>
-
-<!-- 以協同方式加上 40323139 的 A 程式碼 -->
-<script type="text/python" src="/ag10_40323139/39A4"></script>
-
-<!-- 以協同方式加上 40323139 的 A 程式碼 -->
-<script type="text/python" src="/ag10_40323139/39A5"></script>
 </body>
 </html>
+
 '''
     return outstring
     
-@ag10_40323139.route('/39A2')
+@ag10_40323139.route('/39B')
 def task2():
     outstring = '''
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>網際 2D 繪圖</title>
+    <!-- IE 9: display inline SVG -->
+    <meta http-equiv="X-UA-Compatible" content="IE=9">
+<script type="text/javascript" src="http://brython.info/src/brython_dist.js"></script>
+<script type="text/javascript" src="http://cptocadp-2015fallhw.rhcloud.com/static/Cango-8v03.js"></script>
+<script type="text/javascript" src="http://cptocadp-2015fallhw.rhcloud.com/static/Cango2D-6v13.js"></script>
+<script type="text/javascript" src="http://cptocadp-2015fallhw.rhcloud.com/static/CangoAxes-1v33.js"></script>
+ 
+</head>
+<body>
+ 
+<script>
+window.onload=function(){
+brython(1);
+}
+</script>
+ 
+<canvas id="plotarea2" width="800" height="800"></canvas>
+ 
+<script type="text/python">
 from javascript import JSConstructor
+from browser import alert
 from browser import window
 import math
-
+ 
 cango = JSConstructor(window.Cango)
 cobj = JSConstructor(window.Cobj)
 shapedefs = window.shapeDefs
 obj2d = JSConstructor(window.Obj2D)
-cgo = cango("plotarea")
-
-cgo.setWorldCoords(-250, -4500, 5000, 5000) 
-
-# 決定要不要畫座標軸線
-#cgo.drawAxes(0, 5000, 0, 5000, {
-#    "strokeColor":"#aaaaaa",
-#   "fillColor": "#aaaaaa",
-#    "xTickInterval": 20,
-#    "xLabelInterval": 20,
-#    "yTickInterval": 20,
-#    "yLabelInterval": 20})
-        
-#cgo.drawText("使用 Cango 繪圖程式庫!", 0, 0, {"fontSize":60, "fontWeight": 1200, "lorg":5 })
-
+cgo = cango("plotarea2")
+ 
+cgo.setWorldCoords(-250, -250, 500, 500) 
+ 
+# 畫軸線
+cgo.drawAxes(0, 240, 0, 240, {
+    "strokeColor":"#aaaaaa",
+    "fillColor": "#aaaaaa",
+    "xTickInterval": 20,
+    "xLabelInterval": 20,
+    "yTickInterval": 20,
+    "yLabelInterval": 20})
+ 
 deg = math.pi/180  
-def O(x, y, rx, ry, rot, color, border, linewidth):
-    # 旋轉必須要針對相對中心 rot not working yet
-    chamber = "M -6.8397, -1.4894 \
-                     A 7, 7, 0, 1, 0, 6.8397, -1.4894 \
-                     A 40, 40, 0, 0, 1, 6.8397, -18.511 \
-                     A 7, 7, 0, 1, 0, -6.8397, -18.511 \
-                     A 40, 40, 0, 0, 1, -6.8397, -1.4894 z"
+ 
+# 將繪製鏈條輪廓的內容寫成 class 物件
+class chain():
+    # 輪廓的外型設為成員變數
+    chamber = "M -6.8397, -1.4894             A 7, 7, 0, 1, 0, 6.8397, -1.4894             A 40, 40, 0, 0, 1, 6.8397, -18.511             A 7, 7, 0, 1, 0, -6.8397, -18.511             A 40, 40, 0, 0, 1, -6.8397, -1.4894 z"
     cgoChamber = window.svgToCgoSVG(chamber)
-    cmbr = cobj(cgoChamber, "SHAPE", {
-            "fillColor": color,
-            "border": border,
-            "strokeColor": "tan",
-            "lineWidth": linewidth })
+ 
+    # 利用鏈條起點與終點定義繪圖, 使用內定的 color, border 與 linewidth 變數
+    def basic(self, x1, y1, x2, y2, color="green", border=True, linewidth=4, scale=1):
+        self.x1 = x1
+        self.y1 = y1
+        self.x2 = x2
+        self.y2 = y2
+        self.color = color
+        self.border = border
+        self.linewidth = linewidth
+        self.scale = scale
+        # 注意, cgo.Chamber 為成員變數
+        cmbr = cobj(self.cgoChamber, "SHAPE", {
+                "fillColor": color,
+                "border": border,
+                "strokeColor": "tan",
+                "lineWidth": linewidth })
+ 
+        # hole 為原點位置
+        hole = cobj(shapedefs.circle(4), "PATH")
+        cmbr.appendPath(hole)
+ 
+        # 複製 cmbr, 然後命名為 basic1
+        basic1 = cmbr.dup()
+        # 因為鏈條的角度由原點向下垂直, 所以必須轉 90 度, 再考量 atan2 的轉角
+        basic1.rotate(math.atan2(y2-y1, x2-x1)/deg+90)
+ 
+        # 放大 scale 倍
+        cgo.render(basic1, x1, y1, scale, 0)
+ 
+    # 利用鏈條起點與旋轉角度定義繪圖, 使用內定的 color, border 與 linewidth 變數
+    def basic_rot(self, x1, y1, rot, color="green", border=True, linewidth=4, scale=1):
+        self.x1 = x1
+        self.y1 = y1
+        self.rot = rot
+        self.color = color
+        self.border = border
+        self.linewidth = linewidth
+        self.scale = scale
+        # 注意, cgo.Chamber 為成員變數
+        cmbr = cobj(self.cgoChamber, "SHAPE", {
+                "fillColor": color,
+                "border": border,
+                "strokeColor": "tan",
+                "lineWidth": linewidth })
+ 
+        # hole 為原點位置
+        hole = cobj(shapedefs.circle(4), "PATH")
+        cmbr.appendPath(hole)
+        # 根據旋轉角度, 計算 x2 與 y2
+        x2 = x1 + 20*math.cos(rot*deg)
+        y2 = y1 + 20*math.sin(rot*deg)
+ 
+        # 複製 cmbr, 然後命名為 basic1
+        basic1 = cmbr.dup()
+        # 因為鏈條的角度由原點向下垂直, 所以必須轉 90 度, 再考量 atan2 的轉角
+        basic1.rotate(rot+90)
+ 
+        # 放大 scale 倍
+        cgo.render(basic1, x1, y1, scale, 0)
+ 
+        return x2, y2
+ 
+# 利用 chain class 建立案例, 對應到 mychain 變數
+mychain = chain()
+ 
 
-    # 複製 cmbr, 然後命名為 basic1
-    basic1 = cmbr.dup()
-    basic1.rotate(0)
-    basic1.translate(0, 20)
-    
-    basic2 = cmbr.dup()
-    basic2.rotate(0)
-    basic2.translate(0, 40)
-    
-    basic3 = cmbr.dup()
-    basic3.rotate(90)
-    basic3.translate(0, 0)
-    
-    basic4 = cmbr.dup()
-    basic4.rotate(90)
-    basic4.translate(20, 0)
-    
-    basic5 = cmbr.dup()
-    basic5.rotate(0)
-    basic5.translate(40, 0)
-    
-    basic6 = cmbr.dup()
-    basic6.rotate(0)
-    basic6.translate(40, 20)
-    
-    basic7 = cmbr.dup()
-    basic7.rotate(0)
-    basic7.translate(40, 40)
-    
-    basic8 = cmbr.dup()
-    basic8.rotate(150)
-    basic8.translate(0, 40)
-    
-    basic9 = cmbr.dup()
-    basic9.rotate(210)
-    basic9.translate(40, 40)
-    
-    basic10 = cmbr.dup()
-    basic10.rotate(90)
-    basic10.translate(20*math.cos(60*deg), (20*math.sin(60*deg)+40))
-    
-    cmbr.appendPath(basic1)
-    cmbr.appendPath(basic2)
-    cmbr.appendPath(basic3)
-    cmbr.appendPath(basic4)
-    cmbr.appendPath(basic5)
-    cmbr.appendPath(basic6)
-    cmbr.appendPath(basic7)
-    cmbr.appendPath(basic8)
-    cmbr.appendPath(basic9)
-    cmbr.appendPath(basic10)
-    
-    # hole 為原點位置
-    hole = cobj(shapedefs.circle(4), "PATH")
-    cmbr.appendPath(hole)
 
-    # 表示放大 3 倍
-    #cgo.render(cmbr, x, y, 3, rot)
-    # 放大 5 倍
-    cgo.render(cmbr, x, y, 5, rot)
+x1, y1 = mychain.basic_rot(0, 0, 90, color="black")
+x2, y2 = mychain.basic_rot(x1, y1, 90, color="black")
+x3, y3 = mychain.basic_rot(x2, y2, 90, color="black")
+x4, y4 = mychain.basic_rot(x3, y3, 90, color="black")
 
-O(350, 0, 0, 0, 0, "yellow", True, 4)
+x5, y5 = mychain.basic_rot(x4, y4, 0, color="black")
+
+x6, y6 = mychain.basic_rot(x5, y5, -30, color="black")
+
+x7, y7 = mychain.basic_rot(x6, y6, -90, color="black")
+
+x8, y8 = mychain.basic_rot(x7, y7, 210, color="black")
+
+mychain.basic(x8, y8, x2, y2, color="black")
+
+x10, y10 = mychain.basic_rot(x8, y8, -30, color="black")
+
+x11, y11 = mychain.basic_rot(x10, y10, -90, color="black")
+
+x12, y12 = mychain.basic_rot(x11, y11, 210, color="black")
+
+mychain.basic(x12,y12, 0, 0, color="black")
+
+
+x1, y1 = mychain.basic_rot(65, 0, 90, color="green")
+x2, y2 = mychain.basic_rot(x1, y1, 90, color="green")
+
+x3, y3 = mychain.basic_rot(x2, y2, 80, color="green")
+x4, y4 = mychain.basic_rot(x3, y3, 71, color="green")
+
+x5, y5 = mychain.basic_rot(x4, y4, 0, color="green")
+
+x6, y6 = mychain.basic_rot(x5, y5, -71, color="green")
+x7, y7 = mychain.basic_rot(x6, y6, -80, color="green")
+
+x8, y8 = mychain.basic_rot(x7, y7, -90, color="green")
+x9, y9 = mychain.basic_rot(x8, y8, -90, color="green")
+
+x10, y10 = mychain.basic_rot(x8, y8, -180, color="green")
+mychain.basic(x10, y10, x1, y1, color="green")
+
+ 
+
+
+x1, y1 = mychain.basic_rot(130, 0, 90, color="purple")
+x2, y2 = mychain.basic_rot(x1, y1, 90, color="purple")
+x3, y3 = mychain.basic_rot(x2, y2, 90, color="purple")
+x4, y4 = mychain.basic_rot(x3, y3, 90, color="purple")
+x5, y5 = mychain.basic_rot(x4, y4, 0, color="purple")
+
+x6, y6 = mychain.basic_rot(x5, y5, -40, color="purple")
+x7, y7 = mychain.basic_rot(x6, y6, -60, color="purple")
+
+x8, y8 = mychain.basic_rot(x7, y7, -90, color="purple")
+
+x9, y9 = mychain.basic_rot(x8, y8, -120, color="purple")
+
+x10, y10 = mychain.basic_rot(x9, y9, -140, color="purple")
+
+mychain.basic(x10, y10, 0+130, 0, color="purple")
+
+ 
+x1, y1 = mychain.basic_rot(195, -10+10+20*math.sin(80*deg)+20*math.sin(30*deg), 90, color="blue")
+
+x2, y2 = mychain.basic_rot(x1, y1, 80, color="blue")
+
+x3, y3 = mychain.basic_rot(x2, y2, 30, color="blue")
+
+x4, y4 = mychain.basic_rot(x3, y3, 0, color="blue")
+
+x5, y5 = mychain.basic_rot(0+195, -10+10+20*math.sin(80*deg)+20*math.sin(30*deg), -80, color="blue")
+
+x6, y6 = mychain.basic_rot(x5, y5, -30, color="blue")
+
+x7, y7 = mychain.basic_rot(x6, y6, -0, color="blue")
+ 
+</script>
+</body>
+</html>
+
 '''
     return outstring
     
-@ag10_40323139.route('/39A3')
+@ag10_40323139.route('/39C')
 def task3():
     outstring = '''
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>網際 2D 繪圖</title>
+    <!-- IE 9: display inline SVG -->
+    <meta http-equiv="X-UA-Compatible" content="IE=9">
+<script type="text/javascript" src="http://brython.info/src/brython_dist.js"></script>
+<script type="text/javascript" src="http://cptocadp-2015fallhw.rhcloud.com/static/Cango-8v03.js"></script>
+<script type="text/javascript" src="http://cptocadp-2015fallhw.rhcloud.com/static/Cango2D-6v13.js"></script>
+<script type="text/javascript" src="http://cptocadp-2015fallhw.rhcloud.com/static/CangoAxes-1v33.js"></script>
+ 
+</head>
+<body>
+ 
+<script>
+window.onload=function(){
+brython(1);
+}
+</script>
+ 
+<canvas id="plotarea2" width="800" height="800"></canvas>
+ 
+<script type="text/python">
 from javascript import JSConstructor
+from browser import alert
 from browser import window
 import math
-
+ 
 cango = JSConstructor(window.Cango)
 cobj = JSConstructor(window.Cobj)
 shapedefs = window.shapeDefs
 obj2d = JSConstructor(window.Obj2D)
-cgo = cango("plotarea")
-
-cgo.setWorldCoords(-250, -4500, 5000, 5000) 
-
-# 決定要不要畫座標軸線
-#cgo.drawAxes(0, 5000, 0, 5000, {
-#    "strokeColor":"#aaaaaa",
-#   "fillColor": "#aaaaaa",
-#    "xTickInterval": 20,
-#    "xLabelInterval": 20,
-#    "yTickInterval": 20,
-#    "yLabelInterval": 20})
-        
-#cgo.drawText("使用 Cango 繪圖程式庫!", 0, 0, {"fontSize":60, "fontWeight": 1200, "lorg":5 })
-
+cgo = cango("plotarea2")
+ 
+cgo.setWorldCoords(-250, -250, 500, 500) 
+ 
+# 畫軸線
+cgo.drawAxes(0, 240, 0, 240, {
+    "strokeColor":"#aaaaaa",
+    "fillColor": "#aaaaaa",
+    "xTickInterval": 20,
+    "xLabelInterval": 20,
+    "yTickInterval": 20,
+    "yLabelInterval": 20})
+ 
 deg = math.pi/180  
-def O(x, y, rx, ry, rot, color, border, linewidth):
-    # 旋轉必須要針對相對中心 rot not working yet
-    chamber = "M -6.8397, -1.4894 \
-                     A 7, 7, 0, 1, 0, 6.8397, -1.4894 \
-                     A 40, 40, 0, 0, 1, 6.8397, -18.511 \
-                     A 7, 7, 0, 1, 0, -6.8397, -18.511 \
-                     A 40, 40, 0, 0, 1, -6.8397, -1.4894 z"
+ 
+# 將繪製鏈條輪廓的內容寫成 class 物件
+class chain():
+    # 輪廓的外型設為成員變數
+    chamber = "M -6.8397, -1.4894             A 7, 7, 0, 1, 0, 6.8397, -1.4894             A 40, 40, 0, 0, 1, 6.8397, -18.511             A 7, 7, 0, 1, 0, -6.8397, -18.511             A 40, 40, 0, 0, 1, -6.8397, -1.4894 z"
     cgoChamber = window.svgToCgoSVG(chamber)
-    cmbr = cobj(cgoChamber, "SHAPE", {
-            "fillColor": color,
-            "border": border,
-            "strokeColor": "tan",
-            "lineWidth": linewidth })
+ 
+    # 利用鏈條起點與終點定義繪圖, 使用內定的 color, border 與 linewidth 變數
+    def basic(self, x1, y1, x2, y2, color="green", border=True, linewidth=4, scale=1):
+        self.x1 = x1
+        self.y1 = y1
+        self.x2 = x2
+        self.y2 = y2
+        self.color = color
+        self.border = border
+        self.linewidth = linewidth
+        self.scale = scale
+        # 注意, cgo.Chamber 為成員變數
+        cmbr = cobj(self.cgoChamber, "SHAPE", {
+                "fillColor": color,
+                "border": border,
+                "strokeColor": "tan",
+                "lineWidth": linewidth })
+ 
+        # hole 為原點位置
+        hole = cobj(shapedefs.circle(4), "PATH")
+        cmbr.appendPath(hole)
+ 
+        # 複製 cmbr, 然後命名為 basic1
+        basic1 = cmbr.dup()
+        # 因為鏈條的角度由原點向下垂直, 所以必須轉 90 度, 再考量 atan2 的轉角
+        basic1.rotate(math.atan2(y2-y1, x2-x1)/deg+90)
+ 
+        # 放大 scale 倍
+        cgo.render(basic1, x1, y1, scale, 0)
+ 
+    # 利用鏈條起點與旋轉角度定義繪圖, 使用內定的 color, border 與 linewidth 變數
+    def basic_rot(self, x1, y1, rot, color="green", border=True, linewidth=4, scale=1):
+        self.x1 = x1
+        self.y1 = y1
+        self.rot = rot
+        self.color = color
+        self.border = border
+        self.linewidth = linewidth
+        self.scale = scale
+        # 注意, cgo.Chamber 為成員變數
+        cmbr = cobj(self.cgoChamber, "SHAPE", {
+                "fillColor": color,
+                "border": border,
+                "strokeColor": "tan",
+                "lineWidth": linewidth })
+ 
+        # hole 為原點位置
+        hole = cobj(shapedefs.circle(4), "PATH")
+        cmbr.appendPath(hole)
+        # 根據旋轉角度, 計算 x2 與 y2
+        x2 = x1 + 20*math.cos(rot*deg)
+        y2 = y1 + 20*math.sin(rot*deg)
+ 
+        # 複製 cmbr, 然後命名為 basic1
+        basic1 = cmbr.dup()
+        # 因為鏈條的角度由原點向下垂直, 所以必須轉 90 度, 再考量 atan2 的轉角
+        basic1.rotate(rot+90)
+ 
+        # 放大 scale 倍
+        cgo.render(basic1, x1, y1, scale, 0)
+ 
+        return x2, y2
+ 
+# 利用 chain class 建立案例, 對應到 mychain 變數
+mychain = chain()
+ 
 
-    # 複製 cmbr, 然後命名為 basic1
-    basic1 = cmbr.dup()
-    basic1.rotate(0)
-    basic1.translate(0, 20)
-    
-    basic2 = cmbr.dup()
-    basic2.rotate(0)
-    basic2.translate(0, 40)
-    
-    basic3 = cmbr.dup()
-    basic3.rotate(90)
-    basic3.translate(0, 0)
-    
-    basic4 = cmbr.dup()
-    basic4.rotate(90)
-    basic4.translate(20, 0)
-    
-    basic5 = cmbr.dup()
-    basic5.rotate(0)
-    basic5.translate(40, 0)
-    
-    basic6 = cmbr.dup()
-    basic6.rotate(0)
-    basic6.translate(40, 20)
-    
-    basic7 = cmbr.dup()
-    basic7.rotate(0)
-    basic7.translate(40, 40)
-    
-    basic8 = cmbr.dup()
-    basic8.rotate(150)
-    basic8.translate(0, 40)
-    
-    basic9 = cmbr.dup()
-    basic9.rotate(210)
-    basic9.translate(40, 40)
-    
-    basic10 = cmbr.dup()
-    basic10.rotate(90)
-    basic10.translate(20*math.cos(60*deg), (20*math.sin(60*deg)+40))
-    
-    cmbr.appendPath(basic1)
-    cmbr.appendPath(basic2)
-    cmbr.appendPath(basic3)
-    cmbr.appendPath(basic4)
-    cmbr.appendPath(basic5)
-    cmbr.appendPath(basic6)
-    cmbr.appendPath(basic7)
-    cmbr.appendPath(basic8)
-    cmbr.appendPath(basic9)
-    cmbr.appendPath(basic10)
-    
-    # hole 為原點位置
-    hole = cobj(shapedefs.circle(4), "PATH")
-    cmbr.appendPath(hole)
+x1, y1 = mychain.basic_rot(0, 110, 90, color="green")
+x2, y2 = mychain.basic_rot(x1, y1, 90, color="green")
 
-    # 表示放大 3 倍
-    #cgo.render(cmbr, x, y, 3, rot)
-    # 放大 5 倍
-    cgo.render(cmbr, x, y, 5, rot)
+x3, y3 = mychain.basic_rot(x2, y2, 80, color="green")
+x4, y4 = mychain.basic_rot(x3, y3, 71, color="green")
 
-O(700, 0, 0, 0, 0, "white", True, 4)
-'''
-    return outstring
-    
-@ag10_40323139.route('/39A4')
-def task4():
-    outstring = '''
-from javascript import JSConstructor
-from browser import window
-import math
+x5, y5 = mychain.basic_rot(x4, y4, 0, color="green")
 
-cango = JSConstructor(window.Cango)
-cobj = JSConstructor(window.Cobj)
-shapedefs = window.shapeDefs
-obj2d = JSConstructor(window.Obj2D)
-cgo = cango("plotarea")
+x6, y6 = mychain.basic_rot(x5, y5, -71, color="green")
+x7, y7 = mychain.basic_rot(x6, y6, -80, color="green")
 
-cgo.setWorldCoords(-250, -4500, 5000, 5000) 
+x8, y8 = mychain.basic_rot(x7, y7, -90, color="green")
+x9, y9 = mychain.basic_rot(x8, y8, -90, color="green")
 
-# 決定要不要畫座標軸線
-#cgo.drawAxes(0, 5000, 0, 5000, {
-#    "strokeColor":"#aaaaaa",
-#   "fillColor": "#aaaaaa",
-#    "xTickInterval": 20,
-#    "xLabelInterval": 20,
-#    "yTickInterval": 20,
-#    "yLabelInterval": 20})
-        
-#cgo.drawText("使用 Cango 繪圖程式庫!", 0, 0, {"fontSize":60, "fontWeight": 1200, "lorg":5 })
+x10, y10 = mychain.basic_rot(x8, y8, -180, color="green")
+mychain.basic(x10, y10, x1, y1, color="green")
 
-deg = math.pi/180  
-def O(x, y, rx, ry, rot, color, border, linewidth):
-    # 旋轉必須要針對相對中心 rot not working yet
-    chamber = "M -6.8397, -1.4894 \
-                     A 7, 7, 0, 1, 0, 6.8397, -1.4894 \
-                     A 40, 40, 0, 0, 1, 6.8397, -18.511 \
-                     A 7, 7, 0, 1, 0, -6.8397, -18.511 \
-                     A 40, 40, 0, 0, 1, -6.8397, -1.4894 z"
-    cgoChamber = window.svgToCgoSVG(chamber)
-    cmbr = cobj(cgoChamber, "SHAPE", {
-            "fillColor": color,
-            "border": border,
-            "strokeColor": "tan",
-            "lineWidth": linewidth })
 
-    # 複製 cmbr, 然後命名為 basic1
-    basic1 = cmbr.dup()
-    basic1.rotate(0)
-    basic1.translate(0, 20)
-    
-    basic2 = cmbr.dup()
-    basic2.rotate(0)
-    basic2.translate(0, 40)
-    
-    basic3 = cmbr.dup()
-    basic3.rotate(90)
-    basic3.translate(0, 0)
-    
-    basic4 = cmbr.dup()
-    basic4.rotate(90)
-    basic4.translate(20, 0)
-    
-    basic5 = cmbr.dup()
-    basic5.rotate(0)
-    basic5.translate(40, 0)
-    
-    basic6 = cmbr.dup()
-    basic6.rotate(0)
-    basic6.translate(40, 20)
-    
-    basic7 = cmbr.dup()
-    basic7.rotate(0)
-    basic7.translate(40, 40)
-    
-    basic8 = cmbr.dup()
-    basic8.rotate(150)
-    basic8.translate(0, 40)
-    
-    basic9 = cmbr.dup()
-    basic9.rotate(210)
-    basic9.translate(40, 40)
-    
-    basic10 = cmbr.dup()
-    basic10.rotate(90)
-    basic10.translate(20*math.cos(60*deg), (20*math.sin(60*deg)+40))
-    
-    cmbr.appendPath(basic1)
-    cmbr.appendPath(basic2)
-    cmbr.appendPath(basic3)
-    cmbr.appendPath(basic4)
-    cmbr.appendPath(basic5)
-    cmbr.appendPath(basic6)
-    cmbr.appendPath(basic7)
-    cmbr.appendPath(basic8)
-    cmbr.appendPath(basic9)
-    cmbr.appendPath(basic10)
-    
-    # hole 為原點位置
-    hole = cobj(shapedefs.circle(4), "PATH")
-    cmbr.appendPath(hole)
 
-    # 表示放大 3 倍
-    #cgo.render(cmbr, x, y, 3, rot)
-    # 放大 5 倍
-    cgo.render(cmbr, x, y, 5, rot)
+x1, y1 = mychain.basic_rot(0, 10, 90, color="red")
+x2, y2 = mychain.basic_rot(x1, y1, 90, color="red")
+x3, y3 = mychain.basic_rot(x2, y2, 90, color="red")
+x4, y4 = mychain.basic_rot(x3, y3, 90, color="red")
 
-O(1050, 0, 0, 0, 0, "black", True, 4)
-'''
-    return outstring
-    
-@ag10_40323139.route('/39A5')
-def task5():
-    outstring = '''
-from javascript import JSConstructor
-from browser import window
-import math
+x5, y5 = mychain.basic_rot(x4, y4, 0, color="red")
 
-cango = JSConstructor(window.Cango)
-cobj = JSConstructor(window.Cobj)
-shapedefs = window.shapeDefs
-obj2d = JSConstructor(window.Obj2D)
-cgo = cango("plotarea")
+x6, y6 = mychain.basic_rot(x5, y5, -30, color="red")
 
-cgo.setWorldCoords(-250, -4500, 5000, 5000) 
+x7, y7 = mychain.basic_rot(x6, y6, -90, color="red")
 
-# 決定要不要畫座標軸線
-#cgo.drawAxes(0, 5000, 0, 5000, {
-#    "strokeColor":"#aaaaaa",
-#   "fillColor": "#aaaaaa",
-#    "xTickInterval": 20,
-#    "xLabelInterval": 20,
-#    "yTickInterval": 20,
-#    "yLabelInterval": 20})
-        
-#cgo.drawText("使用 Cango 繪圖程式庫!", 0, 0, {"fontSize":60, "fontWeight": 1200, "lorg":5 })
+x8, y8 = mychain.basic_rot(x7, y7, 210, color="red")
 
-deg = math.pi/180  
-def O(x, y, rx, ry, rot, color, border, linewidth):
-    # 旋轉必須要針對相對中心 rot not working yet
-    chamber = "M -6.8397, -1.4894 \
-                     A 7, 7, 0, 1, 0, 6.8397, -1.4894 \
-                     A 40, 40, 0, 0, 1, 6.8397, -18.511 \
-                     A 7, 7, 0, 1, 0, -6.8397, -18.511 \
-                     A 40, 40, 0, 0, 1, -6.8397, -1.4894 z"
-    cgoChamber = window.svgToCgoSVG(chamber)
-    cmbr = cobj(cgoChamber, "SHAPE", {
-            "fillColor": color,
-            "border": border,
-            "strokeColor": "tan",
-            "lineWidth": linewidth })
+mychain.basic(x8, y8, x2, y2, color="red")
 
-    # 複製 cmbr, 然後命名為 basic1
-    basic1 = cmbr.dup()
-    basic1.rotate(0)
-    basic1.translate(0, 20)
-    
-    basic2 = cmbr.dup()
-    basic2.rotate(0)
-    basic2.translate(0, 40)
-    
-    basic3 = cmbr.dup()
-    basic3.rotate(90)
-    basic3.translate(0, 0)
-    
-    basic4 = cmbr.dup()
-    basic4.rotate(90)
-    basic4.translate(20, 0)
-    
-    basic5 = cmbr.dup()
-    basic5.rotate(0)
-    basic5.translate(40, 0)
-    
-    basic6 = cmbr.dup()
-    basic6.rotate(0)
-    basic6.translate(40, 20)
-    
-    basic7 = cmbr.dup()
-    basic7.rotate(0)
-    basic7.translate(40, 40)
-    
-    basic8 = cmbr.dup()
-    basic8.rotate(150)
-    basic8.translate(0, 40)
-    
-    basic9 = cmbr.dup()
-    basic9.rotate(210)
-    basic9.translate(40, 40)
-    
-    basic10 = cmbr.dup()
-    basic10.rotate(90)
-    basic10.translate(20*math.cos(60*deg), (20*math.sin(60*deg)+40))
-    
-    cmbr.appendPath(basic1)
-    cmbr.appendPath(basic2)
-    cmbr.appendPath(basic3)
-    cmbr.appendPath(basic4)
-    cmbr.appendPath(basic5)
-    cmbr.appendPath(basic6)
-    cmbr.appendPath(basic7)
-    cmbr.appendPath(basic8)
-    cmbr.appendPath(basic9)
-    cmbr.appendPath(basic10)
-    
-    # hole 為原點位置
-    hole = cobj(shapedefs.circle(4), "PATH")
-    cmbr.appendPath(hole)
+x10, y10 = mychain.basic_rot(x8, y8, -30, color="red")
 
-    # 表示放大 3 倍
-    #cgo.render(cmbr, x, y, 3, rot)
-    # 放大 5 倍
-    cgo.render(cmbr, x, y, 5, rot)
+x11, y11 = mychain.basic_rot(x10, y10, -90, color="red")
 
-O(0, 0, 0, 0, 0, "purple", True, 4)
+x12, y12 = mychain.basic_rot(x11, y11, 210, color="red")
+
+mychain.basic(x12,y12, 0, 10,color="red")
+
+
+x1, y1 = mychain.basic_rot(0, -65, 90, color="yellow")
+
+x2, y2 = mychain.basic_rot(x1, y1, 80, color="yellow")
+
+x3, y3 = mychain.basic_rot(x2, y2, 30, color="yellow")
+
+x4, y4 = mychain.basic_rot(x3, y3, 0, color="yellow")
+
+x5, y5 = mychain.basic_rot(0, -65, -80, color="yellow")
+
+x6, y6 = mychain.basic_rot(x5, y5, -30, color="yellow")
+
+x7, y7 = mychain.basic_rot(x6, y6, -0, color="yellow")
+
+ 
+
+x1, y1 = mychain.basic_rot(0, -200, 90, color="blue")
+x2, y2 = mychain.basic_rot(x1, y1, 90, color="blue")
+x3, y3 = mychain.basic_rot(x2, y2, 90, color="blue")
+x4, y4 = mychain.basic_rot(x3, y3, 90, color="blue")
+
+x5, y5 = mychain.basic_rot(x4, y4, 0, color="blue")
+
+x6, y6 = mychain.basic_rot(x5, y5, -40, color="blue")
+x7, y7 = mychain.basic_rot(x6, y6, -60, color="blue")
+
+x8, y8 = mychain.basic_rot(x7, y7, -90, color="blue")
+
+x9, y9 = mychain.basic_rot(x8, y8, -120, color="blue")
+
+x10, y10 = mychain.basic_rot(x9, y9, -140, color="blue")
+
+mychain.basic(x10, y10, 0, -200, color="blue")
+ 
+</script>
+</body>
+</html>
+
 '''
     return outstring
