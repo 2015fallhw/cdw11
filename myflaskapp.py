@@ -436,7 +436,7 @@ app.register_blueprint(users.a.g1.ag1_40323105.ag1_40323105)
 app.register_blueprint(users.b.g9.bg9_40323250.bg9_40323250)
 #bg1
 app.register_blueprint(users.b.g1.bg1_40123156.bg1_40123156)
-app.register_blueprint(users.b.g1.bg1_40123156_2.bg1)
+app.register_blueprint(users.b.g1.bg1_40123156_2.bg1_40123156_2)
 app.register_blueprint(users.b.g1.bg1_40123144.bg1_40123144)
 app.register_blueprint(users.b.g1.bg1_40123144_2.bg40123144)
 #bg2
