@@ -48,16 +48,13 @@ import users.b.g11.bg11_40323245
 import users.b.g11.bg11_40323252
 #bg101
 import users.b.g101.b40123200
-<<<<<<< HEAD
 #ag8
 import users.a.g8.a40323143
 import users.a.g8.a40323154
 #ag10
 import users.a.g10.a40323139
-=======
 #ag100
 import users.a.g100.cdw13.a40123100
->>>>>>> ea1038ee2b08d8a58b135146d003fee539f2300d
 
 # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
 _curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
@@ -469,15 +466,14 @@ app.register_blueprint(users.b.g11.bg11_40323245.bg11_40323245)
 app.register_blueprint(users.b.g11.bg11_40323252.bg11_40323252)
 #bg101
 app.register_blueprint(users.b.g101.b40123200.bg101)
-<<<<<<< HEAD
+
 #ag8
+app.register_blueprint(users.a.g8.a40323143.ag8_40323143)
 app.register_blueprint(users.a.g8.a40323154.ag8_40323154)
 #ag10
 app.register_blueprint(users.a.g10.a40323139.ag10_40323139_1)
-=======
 #ag100
 app.register_blueprint(users.a.g100.cdw13.a40123100.ag100)
->>>>>>> ea1038ee2b08d8a58b135146d003fee539f2300d
 
 
 
