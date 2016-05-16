@@ -378,10 +378,14 @@ app.register_blueprint(users.b.g11.bg11_40323245.bg11_40323245)
 app.register_blueprint(users.b.g11.bg11_40323252.bg11_40323252)
 #bg101
 app.register_blueprint(users.b.g101.b40123200.bg101)
+
 #ag8
+app.register_blueprint(users.a.g8.a40323143.ag8_40323143)
 app.register_blueprint(users.a.g8.a40323154.ag8_40323154)
 #ag10
 app.register_blueprint(users.a.g10.a40323139.ag10_40323139_1)
+#ag100
+app.register_blueprint(users.a.g100.cdw13.a40123100.ag100)
 
 
 
@@ -566,7 +570,8 @@ import users.a.g8.a40323143
 import users.a.g8.a40323154
 #ag10
 import users.a.g10.a40323139
-
+#ag100
+import users.a.g100.cdw13.a40123100
 # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
 _curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
 # 設定在雲端與近端的資料儲存目錄
@@ -592,7 +597,6 @@ app = Flask(__name__)
 # In order to use sessions you have to set a secret key
 # set the secret key.  keep this really secret:
 app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
-
 
 
 
