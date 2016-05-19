@@ -28,9 +28,15 @@
 </v>
 </v>
 <v t="amd.20160501215545.1" a="E"><vh>wsgi 程式部份</vh>
+<<<<<<< HEAD
 <v t="leo.20160519093659.1"><vh>@clean b40123224_cdw11.py</vh>
 <v t="leo.20160519094037.1"><vh>b40123224_cdw11 declarations</vh></v>
 <v t="leo.20160519094037.2"><vh>class chain</vh>
+=======
+<v t="leo.20160519093659.1" a="E"><vh>@clean b40123224_cdw11.py</vh>
+<v t="leo.20160519094037.1"><vh>b40123224_cdw11 declarations</vh></v>
+<v t="leo.20160519094037.2" a="E"><vh>class chain</vh>
+>>>>>>> c3676349704b725c7ac2baeb6932652e99d6fe6c
 <v t="leo.20160519094037.3"><vh>__init__</vh></v>
 <v t="leo.20160519094037.4"><vh>basic</vh></v>
 <v t="leo.20160519094037.5"><vh>basic_rot</vh></v>
@@ -64,14 +70,18 @@
 <v t="leo.20160519094037.32"><vh>snap_link</vh></v>
 <v t="leo.20160519094037.33"><vh>snap_gear</vh></v>
 </v>
+<<<<<<< HEAD
 <v t="leo.20160512092701.1" a="E"><vh>@clean 40123224_cdw11.py</vh>
+=======
+<v t="leo.20160512092701.1"><vh>@clean 40123224_cdw11.py</vh>
+>>>>>>> c3676349704b725c7ac2baeb6932652e99d6fe6c
 <v t="leo.20160512093340.1"><vh>40123224_cdw11 declarations</vh></v>
 <v t="leo.20160512093340.2"><vh>a</vh></v>
 <v t="leo.20160512093340.3"><vh>draw_a</vh></v>
 <v t="leo.20160512093340.4"><vh>circle36</vh></v>
 <v t="leo.20160512093340.5"><vh>drawcircle36</vh></v>
 </v>
-<v t="amd.20160501221015.1" a="E"><vh>@path ./../../../</vh>
+<v t="amd.20160501221015.1"><vh>@path ./../../../</vh>
 <v t="amd.20160501221001.1" a="E"><vh>@clean myflaskapp.py</vh>
 <v t="amd.20160501221001.2"><vh>myflaskapp declarations</vh></v>
 <v t="amd.20160501221001.3"><vh>index</vh></v>
