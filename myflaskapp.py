@@ -20,6 +20,7 @@ import init
 #import users.b.g9.bg9_40323250
 #import users.a.g8.ag8_40323123
 #bg1
+<<<<<<< HEAD
 #import users.b.g1.bg1_40123156
 #import users.b.g1.bg1_40123156_2
 #import users.b.g1.bg1_40123144
@@ -40,12 +41,46 @@ import init
 #bg5
 #import users.b.g5.b40323206_cdw11_1
 #import users.b.g5.b40323204_cdw11_1
+=======
+import users.b.g1.bg1_40123156
+import users.b.g1.bg1_40123156_2
+import users.b.g1.bg1_40123144
+import users.b.g1.bg1_40123144_2
+import users.b.g1.b40123131_cdw11
+import users.b.g1.b40123131_cdw12
+import users.b.g1.bg1_40123134
+import users.b.g1.bg1_40123134_2
+#bg2
+import users.b.g2.bg2_40123235
+import users.b.g2.bg2_40123235_cdw12
+import users.b.g2.bg2_40123202
+import users.b.g2.bg2_40123202_1
+#bg4
+import users.b.g4.bg4_40323203
+import users.b.g4.bg4_40323205
+import users.b.g4.bg4_40323208
+#bg8
+import users.b.g8.bg8_40323213
+import users.b.g4.bg4_40323202
+import users.b.g4.b40323201_cdw11
 
 #bg5
 #import users.b.g5.b40323206_cdw11_1
+import users.b.g5.b40323204_cdw11_1
+>>>>>>> a184c52b42bb7ff3d8dcff399c4b6f31e5f5139b
+
+
+#bg5
+#import users.b.g5.b40323206_cdw11_1
+<<<<<<< HEAD
 #import users.b.g5.b40323204_cdw11_1
 #import users.b.g5.b40323204_cdw11_2
 #import users.b.g5.b40323206_cdw11_2
+=======
+import users.b.g5.b40323204_cdw11_1
+import users.b.g5.b40323204_cdw11_2
+import users.b.g5.b40323206_cdw11_2
+>>>>>>> a184c52b42bb7ff3d8dcff399c4b6f31e5f5139b
 #bg11
 #import users.b.g11.bg11_40323245
 #import users.b.g11.bg11_40323252
@@ -58,9 +93,21 @@ import init
 #import users.a.g10.a40323139
 #import users.a.g10.a40323141
 #bg3
+<<<<<<< HEAD
 #import users.b.g10.b40123224
 #import users.b.g10.b40123250
 #import users.b.g10.b40123242
+=======
+
+#import users.b.g3.b40123224
+#import users.b.g3.b40123250
+#import users.b.g3.b40123242
+
+#import users.b.g3.b40123224
+#import users.b.g3.b40123250
+#import users.b.g3.b40123242
+
+>>>>>>> a184c52b42bb7ff3d8dcff399c4b6f31e5f5139b
 #ag100
 #import users.a.g100.cdw13.a40123100
 #bg6
@@ -453,6 +500,7 @@ if __name__ == "__main__":
 
 #app.register_blueprint(users.b.g9.bg9_40323250.bg9_40323250)
 #bg1
+<<<<<<< HEAD
 #app.register_blueprint(users.b.g1.bg1_40123156.bg1_40123156)
 #app.register_blueprint(users.b.g1.bg1_40123156_2.bg1_40123156_2)
 #app.register_blueprint(users.b.g1.bg1_40123144.bg1_40123144)
@@ -466,14 +514,46 @@ if __name__ == "__main__":
 #bg4
 #app.register_blueprint(users.b.g4.bg4_40323203.bg4_40323203)
 #app.register_blueprint(users.b.g4.bg4_40323205.bg4_40323205)
+=======
+app.register_blueprint(users.b.g1.bg1_40123156.bg1_40123156)
+app.register_blueprint(users.b.g1.bg1_40123156_2.bg1_40123156_2)
+app.register_blueprint(users.b.g1.bg1_40123144.bg1_40123144)
+app.register_blueprint(users.b.g1.bg1_40123144_2.bg40123144)
+
+app.register_blueprint(users.b.g1.b40123131_cdw11.bg1_40123131)
+app.register_blueprint(users.b.g1.b40123131_cdw12.bg1)
+app.register_blueprint(users.b.g1.bg1_40123134.bg1_40123134)
+app.register_blueprint(users.b.g1.bg1_40123134_2.bg1_40123134_2)
+
+
+#app.register_blueprint(users.b.g1.bg1_40123131.bg1_40123131)
+#app.register_blueprint(users.b.g1.bg1_40123131_2.bg40123131)
+
+
+#bg2
+app.register_blueprint(users.b.g2.bg2_40123235.bg2_40123235)
+app.register_blueprint(users.b.g2.bg2_40123202.bg2_40123202)
+app.register_blueprint(users.b.g2.bg2_40123235_cdw12.b40123235)
+app.register_blueprint(users.b.g2.bg2_40123202_1.b40123202)
+#bg4
+app.register_blueprint(users.b.g4.bg4_40323203.bg4_40323203)
+app.register_blueprint(users.b.g4.bg4_40323205.bg4_40323205)
+app.register_blueprint(users.b.g4.bg4_40323208.bg4_40323208)
+>>>>>>> a184c52b42bb7ff3d8dcff399c4b6f31e5f5139b
 #bg8
 #app.register_blueprint(users.b.g8.bg8_40323213.bg8_40323213)
 #app.register_blueprint(users.b.g4.bg4_40323202.bg4_40323202)
 #app.register_blueprint(users.b.g4.b40323201_cdw11.b40323201)
 #bg5
+<<<<<<< HEAD
 #app.register_blueprint(users.b.g5.b40323204_cdw11_1.bg5_40323204_1)
 #app.register_blueprint(users.b.g5.b40323206_cdw11_1.bg5_40323206_1)
 #app.register_blueprint(users.b.g5.b40323206_cdw11_2.bg5_40323206_2)
+=======
+app.register_blueprint(users.b.g5.b40323204_cdw11_1.bg5_40323204_1)
+#app.register_blueprint(users.b.g5.b40323206_cdw11_1.bg5_40323206_1)
+app.register_blueprint(users.b.g5.b40323206_cdw11_2.bg5_40323206_2)
+>>>>>>> a184c52b42bb7ff3d8dcff399c4b6f31e5f5139b
 #bg11
 #app.register_blueprint(users.b.g11.bg11_40323245.bg11_40323245)
 #app.register_blueprint(users.b.g11.bg11_40323252.bg11_40323252)
@@ -491,9 +571,22 @@ if __name__ == "__main__":
 #app.register_blueprint(users.a.g100.cdw13.a40123100.ag100)
 
 #bg3
+<<<<<<< HEAD
 #app.register_blueprint(users.b.g3.bg3_40123224.bg3_40123224)
 #app.register_blueprint(users.b.g2.bg3_40123250.bg3_40123250)
 #app.register_blueprint(users.b.g2.bg3_40123250.bg3_40123242)
+=======
+
+#app.register_blueprint(users.b.g3.bg3_40123224.bg3_40123224)
+#app.register_blueprint(users.b.g3.bg3_40123250.bg3_40123250)
+#app.register_blueprint(users.b.g3.bg3_40123250.bg3_40123242)
+
+app.register_blueprint(users.b.g3.bg3_40123224.bg3_40123224)
+app.register_blueprint(users.b.g3.bg3_40123250.bg3_40123250)
+app.register_blueprint(users.b.g3.bg3_40123250.bg3_40123242)
+
+
+>>>>>>> a184c52b42bb7ff3d8dcff399c4b6f31e5f5139b
 
 #bg6
 app.register_blueprint(users.b.g6.bg6_40323248.bg6_40323248)

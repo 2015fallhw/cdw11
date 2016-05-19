@@ -326,17 +326,17 @@ x1, y1 = mychain.basic_rot('''+str(x)+","+str(y)+", "+str(first_degree)+''', Tru
         #if i < 7 or i > 23:        
         if i <= 7 or i >= 23:
             # virautl chain
-            outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+", 90-"+str(i*degree)+", True) \n"
+            outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+", 180-"+str(i*degree)+", True) \n"
             #outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+", 90-"+str(i*degree)+") \n"
         else:
-            outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+", 90-"+str(i*degree)+") \n"
+            outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+", 180-"+str(i*degree)+") \n"
  
-    p = -150
-    k = 0
+    p = 73.5
+    k = -185
     degree = 20
     # 70, 50, 30, 10
     # 從 i=5 開始, 就是 virautl chain
-    first_degree = 90 - degree
+    first_degree = 180 - degree
     repeat = 360 / degree
     # 第1節不是 virtual chain
     outstring += '''
@@ -347,14 +347,14 @@ p1, k1 = mychain.basic_rot('''+str(p)+","+str(k)+", "+str(first_degree)+''')
     for i in range(2, int(repeat)+1):
         if i >= 5 and i <= 13:
             # virautl chain
-            outstring += "p"+str(i)+", k"+str(i)+"=mychain.basic_rot(p"+str(i-1)+", k"+str(i-1)+", 90-"+str(i*degree)+", True) \n"
-            #outstring += "p"+str(i)+", k"+str(i)+"=mychain.basic_rot(p"+str(i-1)+", k"+str(i-1)+", 90-"+str(i*degree)+") \n"
+            outstring += "p"+str(i)+", k"+str(i)+"=mychain.basic_rot(p"+str(i-1)+", k"+str(i-1)+", 180-"+str(i*degree)+", True) \n"
+            #outstring += "p"+str(i)+", k"+str(i)+"=mychain.basic_rot(p"+str(i-1)+", k"+str(i-1)+", 0-"+str(i*degree)+") \n"
         else:
-            outstring += "p"+str(i)+", k"+str(i)+"=mychain.basic_rot(p"+str(i-1)+", k"+str(i-1)+", 90-"+str(i*degree)+") \n"
+            outstring += "p"+str(i)+", k"+str(i)+"=mychain.basic_rot(p"+str(i-1)+", k"+str(i-1)+", 180-"+str(i*degree)+") \n"
  
     # 上段連接直線
     # 從 p5, k5 作為起點
-    first_degree = 10
+    first_degree = 100
     repeat = 11
     outstring += '''
 m1, n1 = mychain.basic_rot(p4, k4, '''+str(first_degree)+''')
@@ -364,7 +364,7 @@ m1, n1 = mychain.basic_rot(p4, k4, '''+str(first_degree)+''')
  
     # 下段連接直線
     # 從 p12, k12 作為起點
-    first_degree = -10
+    first_degree = 80
     repeat = 11
     outstring += '''
 r1, s1 = mychain.basic_rot(p13, k13, '''+str(first_degree)+''')
