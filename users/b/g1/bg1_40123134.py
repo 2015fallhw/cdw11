@@ -1,7 +1,7 @@
 # 各組分別在各自的 .py 程式中建立應用程式 (第1步/總共3步)
 from flask import Blueprint, render_template, make_response
 
-# 利用 Blueprint建立 ag1, 並且 url 前綴為 /ag1, 並設定 template 存放目錄
+# 利用 Blueprint建立 bg1, 並且 url 前綴為 /bg1, 並設定 template 存放目錄
 bg1_40123134 = Blueprint('bg1_40123134', __name__, url_prefix='/bg1_40123134', template_folder='templates')
 
 

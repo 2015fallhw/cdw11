@@ -87,6 +87,12 @@
 </v>
 </v>
 </v>
+<v t="leo.20160519112445.2" a="E"><vh>Recovered Nodes</vh>
+<v t="leo.20160519112445.3"><vh>Recovered node "bg1_40123134 declarations" from @clean bg1_40123134.py</vh>
+<v t="leo.20160519112445.4"><vh>old:bg1_40123134 declarations</vh></v>
+<v t="leo.20160519112445.5"><vh>new:bg1_40123134 declarations</vh></v>
+</v>
+</v>
 </vnodes>
 <tnodes>
 <t tx="amd.20160501215436.2"></t>
@@ -138,15 +144,22 @@ app.register_blueprint(users.b.g1.bg1_40123156.bg1_40123156)
 app.register_blueprint(users.b.g1.bg1_40123156_2.bg1_40123156_2)
 app.register_blueprint(users.b.g1.bg1_40123144.bg1_40123144)
 app.register_blueprint(users.b.g1.bg1_40123144_2.bg40123144)
+&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
 app.register_blueprint(users.b.g1.b40123131_cdw11.bg1_40123131)
 app.register_blueprint(users.b.g1.b40123131_cdw12.bg1)
 app.register_blueprint(users.b.g1.bg1_40123134.bg1_40123134)
 app.register_blueprint(users.b.g1.bg1_40123134_2.bg1_40123134_2)
 
+=======
+#app.register_blueprint(users.b.g1.bg1_40123131.bg1_40123131)
+#app.register_blueprint(users.b.g1.bg1_40123131_2.bg40123131)
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; 1873cd1694f9bc5a1693ae497c1547503543ad0c
 
 #bg2
 app.register_blueprint(users.b.g2.bg2_40123235.bg2_40123235)
 app.register_blueprint(users.b.g2.bg2_40123202.bg2_40123202)
+app.register_blueprint(users.b.g2.bg2_40123235_cdw12.b40123235)
+app.register_blueprint(users.b.g2.bg2_40123202_1.b40123202)
 #bg4
 app.register_blueprint(users.b.g4.bg4_40323203.bg4_40323203)
 app.register_blueprint(users.b.g4.bg4_40323205.bg4_40323205)
@@ -176,9 +189,15 @@ app.register_blueprint(users.a.g10.a40323141.ag10_40323141_1)
 app.register_blueprint(users.a.g100.cdw13.a40123100.ag100)
 
 #bg3
+&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
 #app.register_blueprint(users.b.g3.bg3_40123224.bg3_40123224)
 #app.register_blueprint(users.b.g3.bg3_40123250.bg3_40123250)
 #app.register_blueprint(users.b.g3.bg3_40123250.bg3_40123242)
+=======
+app.register_blueprint(users.b.g3.bg3_40123224.bg3_40123224)
+app.register_blueprint(users.b.g3.bg3_40123250.bg3_40123250)
+app.register_blueprint(users.b.g3.bg3_40123250.bg3_40123242)
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; 1873cd1694f9bc5a1693ae497c1547503543ad0c
 
 
 </t>
@@ -333,14 +352,21 @@ import users.b.g1.bg1_40123156
 import users.b.g1.bg1_40123156_2
 import users.b.g1.bg1_40123144
 import users.b.g1.bg1_40123144_2
+&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
 import users.b.g1.b40123131_cdw11
 import users.b.g1.b40123131_cdw12
 import users.b.g1.bg1_40123134
 import users.b.g1.bg1_40123134_2
+=======
+#import users.b.g1.bg1_40123131
+#import users.b.g1.bg1_40123131_2
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; 1873cd1694f9bc5a1693ae497c1547503543ad0c
 
 #bg2
 import users.b.g2.bg2_40123235
+import users.b.g2.bg2_40123235_cdw12
 import users.b.g2.bg2_40123202
+import users.b.g2.bg2_40123202_1
 #bg4
 import users.b.g4.bg4_40323203
 import users.b.g4.bg4_40323205
@@ -349,9 +375,12 @@ import users.b.g4.bg4_40323208
 import users.b.g8.bg8_40323213
 import users.b.g4.bg4_40323202
 import users.b.g4.b40323201_cdw11
+&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
 #bg5
 #import users.b.g5.b40323206_cdw11_1
 import users.b.g5.b40323204_cdw11_1
+=======
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; 1873cd1694f9bc5a1693ae497c1547503543ad0c
 
 #bg5
 #import users.b.g5.b40323206_cdw11_1
@@ -370,9 +399,15 @@ import users.a.g8.a40323154
 import users.a.g10.a40323139
 import users.a.g10.a40323141
 #bg3
+&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
 #import users.b.g3.b40123224
 #import users.b.g3.b40123250
 #import users.b.g3.b40123242
+=======
+import users.b.g3.b40123224
+import users.b.g3.b40123250
+import users.b.g3.b40123242
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; 1873cd1694f9bc5a1693ae497c1547503543ad0c
 #ag100
 import users.a.g100.cdw13.a40123100
 # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
@@ -642,7 +677,7 @@ def send_blog():
 <t tx="leo.20160505180755.1"># 各組分別在各自的 .py 程式中建立應用程式 (第1步/總共3步)
 from flask import Blueprint, render_template, make_response
 
-# 利用 Blueprint建立 ag1, 並且 url 前綴為 /ag1, 並設定 template 存放目錄
+# 利用 Blueprint建立 bg1, 並且 url 前綴為 /bg1, 並設定 template 存放目錄
 bg1_40123134 = Blueprint('bg1_40123134', __name__, url_prefix='/bg1_40123134', template_folder='templates')
 
 
@@ -1618,7 +1653,7 @@ def drawcircle():
 <t tx="leo.20160512112035.23">@bg1_40123134_2.route('/circle1/&lt;degree&gt;', defaults={'x': 0, 'y': 0})
 @bg1_40123134_2.route('/circle1/&lt;x&gt;/&lt;degree&gt;', defaults={'y': 0})
 @bg1_40123134_2.route('/circle1/&lt;x&gt;/&lt;y&gt;/&lt;degree&gt;')
-#@bg1_40123134_2.route('/circle1/&lt;int:x&gt;/&lt;int:y&gt;/&lt;int:degree&gt;')
+#@bg1_40123130_2.route('/circle1/&lt;int:x&gt;/&lt;int:y&gt;/&lt;int:degree&gt;')
 def drawcircle1(x,y,degree):
     return head_str + chain_str + circle1(int(x), int(y), int(degree)) + tail_str
  
@@ -2078,6 +2113,42 @@ r1, s1 = mychain.basic_rot(p13, k13, '''+str(first_degree)+''')
 
 2016/05/12
 新增 bg1_40123156_2.py (已修改myflaskapp.py )
+</t>
+<t tx="leo.20160519112445.2"></t>
+<t tx="leo.20160519112445.3">(uncached) leo.20160505180755.1
+Diff...
+  # 各組分別在各自的 .py 程式中建立應用程式 (第1步/總共3步)
+  from flask import Blueprint, render_template, make_response
+  
+- # 利用 Blueprint建立 bg1, 並且 url 前綴為 /bg1, 並設定 template 存放目錄
+?                  ^                ^
++ # 利用 Blueprint建立 ag1, 並且 url 前綴為 /ag1, 並設定 template 存放目錄
+?                  ^                ^
+  bg1_40123134 = Blueprint('bg1_40123134', __name__, url_prefix='/bg1_40123134', template_folder='templates')
+  
+  
+  
+  
+</t>
+<t tx="leo.20160519112445.4"># 各組分別在各自的 .py 程式中建立應用程式 (第1步/總共3步)
+from flask import Blueprint, render_template, make_response
+
+# 利用 Blueprint建立 ag1, 並且 url 前綴為 /ag1, 並設定 template 存放目錄
+bg1_40123134 = Blueprint('bg1_40123134', __name__, url_prefix='/bg1_40123134', template_folder='templates')
+
+
+
+
+</t>
+<t tx="leo.20160519112445.5"># 各組分別在各自的 .py 程式中建立應用程式 (第1步/總共3步)
+from flask import Blueprint, render_template, make_response
+
+# 利用 Blueprint建立 bg1, 並且 url 前綴為 /bg1, 並設定 template 存放目錄
+bg1_40123134 = Blueprint('bg1_40123134', __name__, url_prefix='/bg1_40123134', template_folder='templates')
+
+
+
+
 </t>
 </tnodes>
 </leo_file>
