@@ -64,7 +64,7 @@
 <v t="leo.20160519094037.32"><vh>snap_link</vh></v>
 <v t="leo.20160519094037.33"><vh>snap_gear</vh></v>
 </v>
-<v t="leo.20160512092701.1"><vh>@clean 40123224_cdw11.py</vh>
+<v t="leo.20160512092701.1" a="E"><vh>@clean 40123224_cdw11.py</vh>
 <v t="leo.20160512093340.1"><vh>40123224_cdw11 declarations</vh></v>
 <v t="leo.20160512093340.2"><vh>a</vh></v>
 <v t="leo.20160512093340.3"><vh>draw_a</vh></v>
@@ -72,7 +72,7 @@
 <v t="leo.20160512093340.5"><vh>drawcircle36</vh></v>
 </v>
 <v t="amd.20160501221015.1" a="E"><vh>@path ./../../../</vh>
-<v t="amd.20160501221001.1"><vh>@clean myflaskapp.py</vh>
+<v t="amd.20160501221001.1" a="E"><vh>@clean myflaskapp.py</vh>
 <v t="amd.20160501221001.2"><vh>myflaskapp declarations</vh></v>
 <v t="amd.20160501221001.3"><vh>index</vh></v>
 <v t="amd.20160501221001.4"><vh>user</vh></v>
@@ -191,8 +191,8 @@ app.register_blueprint(users.a.g100.cdw13.a40123100.ag100)
 
 #bg3
 app.register_blueprint(users.b.g3.bg3_40123224.bg3_40123224)
-app.register_blueprint(users.b.g2.bg3_40123250.bg3_40123250)
-app.register_blueprint(users.b.g2.bg3_40123250.bg3_40123242)
+app.register_blueprint(users.b.g3.bg3_40123250.bg3_40123250)
+app.register_blueprint(users.b.g3.bg3_40123250.bg3_40123242)
 
 
 </t>
@@ -381,9 +381,9 @@ import users.a.g8.a40323154
 import users.a.g10.a40323139
 import users.a.g10.a40323141
 #bg3
-import users.b.g10.b40123224
-import users.b.g10.b40123250
-import users.b.g10.b40123242
+import users.b.g3.b40123224
+import users.b.g3.b40123250
+import users.b.g3.b40123242
 #ag100
 import users.a.g100.cdw13.a40123100
 # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
