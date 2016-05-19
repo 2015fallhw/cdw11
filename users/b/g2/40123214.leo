@@ -27,6 +27,7 @@
 </v>
 </v>
 <v t="amd.20160501215545.1" a="E"><vh>wsgi 程式部份</vh>
+<v t="leo.20160511132100.1"><vh>@edit bg2_40123214.py</vh></v>
 <v t="amd.20160501221015.1" a="E"><vh>@path ./../../../</vh>
 <v t="amd.20160501221001.1" a="E"><vh>@clean myflaskapp.py</vh>
 <v t="amd.20160501221001.2"><vh>myflaskapp declarations</vh></v>
@@ -78,16 +79,36 @@ g.es("admin pelican 近端執行完畢")
 @others
 if __name__ == "__main__":
     app.run()
-    
-app.register_blueprint(users.a.g10.ag10_40323139.ag10_40323139)
-app.register_blueprint(users.a.g8.ag8_40323131_task1.ag8_40323131)
 app.register_blueprint(users.a.g4.ag4_40323138.ag4_40323138)
-&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
-app.register_blueprint(users.b.g9.bg9_40323218.bg9_40323218)
-=======
-app.register_blueprint(users.b.g9.bg9_40323250.bg9_40323250)
-&gt;&gt;&gt;&gt;&gt;&gt;&gt; 66b1338a18160a96e12e9c001210eefb19fbf945
+app.register_blueprint(users.a.g10.ag10_40323141_task1.ag10_40323141)    
+app.register_blueprint(users.a.g9.ag9_40323132task.ag9_40323132)
+app.register_blueprint(users.a.g10.ag10_40323139.ag10_40323139)
+app.register_blueprint(users.a.g5.ag5_40323113task1.ag5_40323113)
+app.register_blueprint(users.a.g8.ag8_40323131_task1.ag8_40323131)
+app.register_blueprint(users.a.g4.ag4_40323138_task2bacd.ag4_40323138bacd)
+app.register_blueprint(users.a.g4.ag4_40323138_task3abcd.ag4_40323138task3)
+app.register_blueprint(users.a.g8.ag8_40323123.ag8_40323123)
+app.register_blueprint(users.a.g10.ag10_40323129_task1.ag10_40323129)
+app.register_blueprint(users.a.g2.ag2_40323120.ag2_40323120)
+app.register_blueprint(users.a.g1.ag1_40323105.ag1_40323105)
 
+
+
+app.register_blueprint(users.b.g9.bg9_40323250.bg9_40323250)
+app.register_blueprint(users.b.g1.bg1_40123156.bg1_40123156)
+#bg2
+app.register_blueprint(users.b.g2.bg2_40123235.bg2_40123235)
+app.register_blueprint(users.b.g2.bg2_40123202.bg2_40123202)
+app.register_blueprint(users.b.g2.bg2_40123232.bg2_40123232)
+app.register_blueprint(users.b.g2.bg2_40123214.bg2_40123214)
+app.register_blueprint(users.b.g2.bg2_40123226.bg2_40123226)
+app.register_blueprint(users.b.g2.bg2_40123217.bg2_40123217)
+app.register_blueprint(users.b.g2.bg2_40123244.bg2_40123244)
+#bg4
+app.register_blueprint(users.b.g4.bg4_40323203.bg4_40323203)
+#bg11
+app.register_blueprint(users.b.g11.bg11_40323245.bg11_40323245)
+app.register_blueprint(users.b.g11.bg11_40323252.bg11_40323252)
 
 
 </t>
@@ -223,15 +244,33 @@ import math
 import os
 # init.py 為自行建立的起始物件
 import init
-
+import users.a.g1.ag1_40323105
+import users.a.g2.ag2_40323120
+import users.a.g10.ag10_40323129_task1
+import users.a.g10.ag10_40323141_task1
 import users.a.g10.ag10_40323139
+import users.a.g9.ag9_40323132task
+import users.a.g5.ag5_40323113task1
 import users.a.g4.ag4_40323138
+import users.a.g4.ag4_40323138_task2bacd
+import users.a.g4.ag4_40323138_task3abcd
 import users.a.g8.ag8_40323131_task1
-&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
-import users.b.g9.bg9_40323218
-=======
 import users.b.g9.bg9_40323250
-&gt;&gt;&gt;&gt;&gt;&gt;&gt; 66b1338a18160a96e12e9c001210eefb19fbf945
+import users.b.g1.bg1_40123156
+import users.a.g8.ag8_40323123
+#bg2
+import users.b.g2.bg2_40123235
+import users.b.g2.bg2_40123202
+import users.b.g2.bg2_40123232
+import users.b.g2.bg2_40123214
+import users.b.g2.bg2_40123226
+import users.b.g2.bg2_40123217
+import users.b.g2.bg2_40123244
+#bg4
+import users.b.g4.bg4_40323203
+#bg11
+import users.b.g11.bg11_40323245
+import users.b.g11.bg11_40323252
 # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
 _curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
 # 設定在雲端與近端的資料儲存目錄

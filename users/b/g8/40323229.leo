@@ -49,15 +49,12 @@
 </v>
 </v>
 </v>
-<<<<<<< HEAD
-=======
 <v t="leo.20160505085548.2" a="E"><vh>Recovered Nodes</vh>
 <v t="leo.20160505085548.3"><vh>Recovered node "myflaskapp declarations" from @clean myflaskapp.py</vh>
 <v t="leo.20160505085548.4"><vh>old:myflaskapp declarations</vh></v>
 <v t="leo.20160505085548.5"><vh>new:myflaskapp declarations</vh></v>
 </v>
 </v>
->>>>>>> bfa97b0a8c8101f990cbf1af253e0113dd7129ad
 </vnodes>
 <tnodes>
 <t tx="amd.20160501215436.2"></t>
@@ -492,8 +489,6 @@ def send_blog():
   return app.send_static_file('blog/index.html')
 
 </t>
-<<<<<<< HEAD
-=======
 <t tx="leo.20160505085548.2"></t>
 <t tx="leo.20160505085548.3">(uncached) amd.20160501221001.2
 Diff...
@@ -628,6 +623,5 @@ app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
 
 
 </t>
->>>>>>> bfa97b0a8c8101f990cbf1af253e0113dd7129ad
 </tnodes>
 </leo_file>
