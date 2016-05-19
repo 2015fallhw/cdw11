@@ -24,14 +24,22 @@ import users.b.g1.bg1_40123156
 import users.b.g1.bg1_40123156_2
 import users.b.g1.bg1_40123144
 import users.b.g1.bg1_40123144_2
+<<<<<<< HEAD
 #import users.b.g1.bg1_40123131
 #import users.b.g1.bg1_40123131_2
+=======
+import users.b.g1.b40123131_cdw11
+import users.b.g1.b40123131_cdw12
+
+>>>>>>> 6875cdb28f70fbc52a2d7d48bcaae0b7314e1508
 
 #bg2
 import users.b.g2.bg2_40123235
 import users.b.g2.bg2_40123202
 #bg4
 import users.b.g4.bg4_40323203
+import users.b.g4.bg4_40323205
+import users.b.g4.bg4_40323208
 #bg8
 import users.b.g8.bg8_40323213
 import users.b.g4.bg4_40323202
@@ -39,7 +47,6 @@ import users.b.g4.b40323201_cdw11
 #bg5
 import users.b.g5.b40323206_cdw11_1
 import users.b.g5.b40323204_cdw11_1
-import users.b.g4.bg4_40323205
 
 #bg5
 import users.b.g5.b40323206_cdw11_1
@@ -57,7 +64,10 @@ import users.a.g8.a40323154
 #ag10
 import users.a.g10.a40323139
 import users.a.g10.a40323141
-
+#bg3
+import users.b.g3.b40123224
+import users.b.g3.b40123250
+import users.b.g3.b40123242
 #ag100
 import users.a.g100.cdw13.a40123100
 # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
@@ -451,19 +461,25 @@ app.register_blueprint(users.b.g1.bg1_40123156.bg1_40123156)
 app.register_blueprint(users.b.g1.bg1_40123156_2.bg1_40123156_2)
 app.register_blueprint(users.b.g1.bg1_40123144.bg1_40123144)
 app.register_blueprint(users.b.g1.bg1_40123144_2.bg40123144)
+<<<<<<< HEAD
 #app.register_blueprint(users.b.g1.bg1_40123131.bg1_40123131)
 #app.register_blueprint(users.b.g1.bg1_40123131_2.bg40123131)
+=======
+app.register_blueprint(users.b.g1.b40123131_cdw11.bg1_40123131)
+app.register_blueprint(users.b.g1.b40123131_cdw12.bg1)
+>>>>>>> 6875cdb28f70fbc52a2d7d48bcaae0b7314e1508
 
 #bg2
 app.register_blueprint(users.b.g2.bg2_40123235.bg2_40123235)
 app.register_blueprint(users.b.g2.bg2_40123202.bg2_40123202)
 #bg4
 app.register_blueprint(users.b.g4.bg4_40323203.bg4_40323203)
+app.register_blueprint(users.b.g4.bg4_40323205.bg4_40323205)
+app.register_blueprint(users.b.g4.bg4_40323208.bg4_40323208)
 #bg8
 app.register_blueprint(users.b.g8.bg8_40323213.bg8_40323213)
 app.register_blueprint(users.b.g4.bg4_40323202.bg4_40323202)
 app.register_blueprint(users.b.g4.b40323201_cdw11.b40323201)
-app.register_blueprint(users.b.g4.bg4_40323205.bg4_40323205)
 #bg5
 app.register_blueprint(users.b.g5.b40323204_cdw11_1.bg5_40323204_1)
 app.register_blueprint(users.b.g5.b40323206_cdw11_1.bg5_40323206_1)
@@ -484,5 +500,9 @@ app.register_blueprint(users.a.g10.a40323141.ag10_40323141_1)
 #ag100
 app.register_blueprint(users.a.g100.cdw13.a40123100.ag100)
 
+#bg3
+app.register_blueprint(users.b.g3.bg3_40123224.bg3_40123224)
+app.register_blueprint(users.b.g3.bg3_40123250.bg3_40123250)
+app.register_blueprint(users.b.g3.bg3_40123250.bg3_40123242)
 
 
