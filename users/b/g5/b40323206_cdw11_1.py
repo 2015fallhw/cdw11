@@ -1,6 +1,6 @@
 from flask import Blueprint, request
  
-bg5_40323206_1 = Blueprint('bg5_40323206_1', __name__, url_prefix='/bg5_40323206_1', template_folder='templates')
+bg5_40323206 = Blueprint('bg5_40323206', __name__, url_prefix='/bg5_40323206', template_folder='templates')
 
  
 head_str = '''
@@ -163,10 +163,10 @@ mychain.basic(x10, y10, x1, y1)
  
     return outstring
     
-@bg5_40323206_1.route('/a')
+@bg5.route('/a')
 def draw_a():
     return head_str + chain_str + a(0, 0) + tail_str
-def circle36(x, y, degree=10):
+    def circle36(x, y, degree=10):
     # 20 為鏈條輪廓之圓距
     # chain 所圍之圓圈半徑為 20/2/math.asin(degree*math.pi/180/2)
     # degree = math.asin(20/2/radius)*180/math.pi
@@ -182,9 +182,9 @@ x1, y1 = mychain.basic_rot('''+str(x)+","+str(y)+", "+str(first_degree)+''')
         outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+", 90-"+str(i*degree)+") \n"
     return outstring
     
-@bg5_40323206_1.route('/circle36/<degree>', defaults={'x': 0, 'y': 0})
-@bg5_40323206_1.route('/circle36/<x>/<degree>', defaults={'y': 0})
-@bg5_40323206_1.route('/circle36/<x>/<y>/<degree>')
-#@bg5_40323206_1.route('/circle36/<int:x>/<int:y>/<int:degree>')
+@ag100.route('/circle36/<degree>', defaults={'x': 0, 'y': 0})
+@ag100.route('/circle36/<x>/<degree>', defaults={'y': 0})
+@ag100.route('/circle36/<x>/<y>/<degree>')
+#@ag100.route('/circle36/<int:x>/<int:y>/<int:degree>')
 def drawcircle36(x,y,degree):
     return head_str + chain_str + circle36(int(x), int(y), int(degree)) + tail_str
