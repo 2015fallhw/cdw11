@@ -1,6 +1,6 @@
 from flask import Blueprint, request
  
-bg5_40323206_2 = Blueprint('bg5_40323206_2', __name__, url_prefix='/bg5_40323206_2', template_folder='templates')
+bg5_40323253_1 = Blueprint('bg5_40323253_1', __name__, url_prefix='/bg5_40323253_1', template_folder='templates')
  
 head_str = '''
 <!DOCTYPE html>
@@ -389,12 +389,12 @@ def eighteenthirty(x, y):
     # 20 為鏈條兩圓距
     # chain 所圍之圓圈半徑為 20/2/math.asin(degree*math.pi/180/2)
     # degree = math.asin(20/2/radius)*180/math.pi
-    x = 50
-    y = 0
+    #x = 50
+    #y = 0
     degree = 20
     first_degree = 20.78
-    startx = -233.06+100
-    starty = 49.48
+    startx = -233.06+100+x
+    starty = 49.48+y
     repeat = 360 / degree
     # 先畫出左邊第一關鍵節
     outstring = '''
@@ -415,8 +415,8 @@ x1, y1 = mychain.basic_rot('''+str(startx)+","+str(starty)+", "+str(first_degree
     # 接著處理右邊的非虛擬鍊條
     # 先畫出右邊第一關鍵節
  
-    p = -17.89+100
-    k = 93.98
+    p = -17.89+100+x
+    k = 93.98+y
     degree = 12
     first_degree = 4.78
     repeat = 360 / degree
@@ -457,50 +457,50 @@ r1, s1 = mychain.basic_rot(x11, y11, '''+str(first_degree)+''')
     return outstring
  
  
-@bg5_40323206_2.route('/a')
+@bg5_40323253_1.route('/a')
 def draw_a():
     return head_str + chain_str + a(0, 0) + tail_str
  
  
-@bg5_40323206_2.route('/b')
+@bg5_40323253_1.route('/b')
 def draw_b():
    # 每個橫向字元距離為 65 pixels, 上下字距則為 110 pixels
     return head_str + chain_str + b(0+65, 0) + tail_str
  
  
-@bg5_40323206_2.route('/c')
+@bg5_40323253_1.route('/c')
 def draw_c():
     # 每個橫向字元距離為 65 pixels
     return head_str + chain_str + c(0+65*2, 0) + tail_str
  
  
-@bg5_40323206_2.route('/d')
+@bg5_40323253_1.route('/d')
 def draw_d():
     return head_str + chain_str + d(0+65*3, 0) + tail_str
  
  
-@bg5_40323206_2.route('/ab')
+@bg5_40323253_1.route('/ab')
 def draw_ab():
     #return head_str + chain_str + a(0, 0) + b(0+65, 0) + tail_str
     return head_str + chain_str + a(0, 0) + b(0, 0-110) + tail_str
  
  
-@bg5_40323206_2.route('/ac')
+@bg5_40323253_1.route('/ac')
 def draw_ac():
     return head_str + chain_str + a(0, 0) + c(0+65, 0) + tail_str
  
  
-@bg5_40323206_2.route('/bc')
+@bg5_40323253_1.route('/bc')
 def draw_bc():
     return head_str + chain_str + b(0, 0) + c(0+65, 0) + tail_str
  
  
-@bg5_40323206_2.route('/abc')
+@bg5_40323253_1.route('/abc')
 def draw_abc():
     return head_str + chain_str + a(0, 0) + b(0+65, 0) + c(0+65*2, 0) + tail_str
  
  
-@bg5_40323206_2.route('/aaaa')
+@bg5_40323253_1.route('/aaaa')
 def draw_aaaa():
     outstring = head_str + chain_str
     scale = 2
@@ -511,51 +511,51 @@ def draw_aaaa():
     #return head_str + chain_str + a(0, 0, scale=1) + a(0+65, 0, scale=0.8, color="red") + a(0+65*2, 0, scale=0.6) + a(0+65*3, 0, scale=0.4, color="red") + tail_str
  
  
-@bg5_40323206_2.route('/badc')
+@bg5_40323253_1.route('/badc')
 def draw_badc():
     return head_str + chain_str + b(0, 0) + a(0+65, 0) + d(0+65*2, 0) + c(0+65*3, 0) + tail_str
  
  
-@bg5_40323206_2.route('/abcd')
+@bg5_40323253_1.route('/abcd')
 def draw_abcd():
     #return head_str + chain_str + a(0, 0) + b(0+65, 0) + c(0+65*2, 0) + d(0+65*3, 0) + tail_str
     return head_str + chain_str + a(0, 110) + b(0, 110-110) + c(0, 110-110*2) + d(0, 110-110*3) + tail_str
  
  
-@bg5_40323206_2.route('/circle')
+@bg5_40323253_1.route('/circle')
 def drawcircle():
     return head_str + chain_str + circle(0, 0) + tail_str
  
  
-@bg5_40323206_2.route('/circle1/<degree>', defaults={'x': 0, 'y': 0})
-@bg5_40323206_2.route('/circle1/<x>/<degree>', defaults={'y': 0})
-@bg5_40323206_2.route('/circle1/<x>/<y>/<degree>')
-#@bg5_40323206_2.route('/circle1/<int:x>/<int:y>/<int:degree>')
+@bg5_40323253_1.route('/circle1/<degree>', defaults={'x': 0, 'y': 0})
+@bg5_40323253_1.route('/circle1/<x>/<degree>', defaults={'y': 0})
+@bg5_40323253_1.route('/circle1/<x>/<y>/<degree>')
+#@bg5_40323253_1.route('/circle1/<int:x>/<int:y>/<int:degree>')
 def drawcircle1(x,y,degree):
     return head_str + chain_str + circle1(int(x), int(y), int(degree)) + tail_str
  
  
-@bg5_40323206_2.route('/circle2/<degree>', defaults={'x': 0, 'y': 0})
-@bg5_40323206_2.route('/circle2/<x>/<degree>', defaults={'y': 0})
-@bg5_40323206_2.route('/circle2/<x>/<y>/<degree>')
-#@bg5_40323206_2.route('/circle2/<int:x>/<int:y>/<int:degree>')
+@bg5_40323253_1.route('/circle2/<degree>', defaults={'x': 0, 'y': 0})
+@bg5_40323253_1.route('/circle2/<x>/<degree>', defaults={'y': 0})
+@bg5_40323253_1.route('/circle2/<x>/<y>/<degree>')
+#@bg5_40323253_1.route('/circle2/<int:x>/<int:y>/<int:degree>')
 def drawcircle2(x,y,degree):
     return head_str + chain_str + circle2(int(x), int(y), int(degree)) + tail_str
  
  
-@bg5_40323206_2.route('/twocircle/<x>/<y>')
-@bg5_40323206_2.route('/twocircle', defaults={'x':0, 'y':0})
+@bg5_40323253_1.route('/twocircle/<x>/<y>')
+@bg5_40323253_1.route('/twocircle', defaults={'x':0, 'y':0})
 def drawtwocircle(x,y):
     return head_str + chain_str + twocircle(int(x), int(y)) + tail_str
  
  
-@bg5_40323206_2.route('/eighteenthirty/<x>/<y>')
-@bg5_40323206_2.route('/eighteenthirty', defaults={'x':0, 'y':0})
-def draweithteenthirty(x,y):
+@bg5_40323253_1.route('/eighteenthirty/<x>/<y>')
+@bg5_40323253_1.route('/eighteenthirty', defaults={'x':0, 'y':0})
+def draweithteenthirdy(x,y):
     return head_str + chain_str + eighteenthirty(int(x), int(y)) + tail_str
  
  
-@bg5_40323206_2.route('/snap')
+@bg5_40323253_1.route('/snap')
 # http://svg.dabbles.info/snaptut-base
 def snap():
     outstring = '''
@@ -634,7 +634,7 @@ document['tux'].bind('mouseleave', hoverout)
     return outstring
  
  
-@bg5_40323206_2.route('/snap_link')
+@bg5_40323253_1.route('/snap_link')
 # http://svg.dabbles.info/
 def snap_link():
     outstring = '''
@@ -716,7 +716,7 @@ g4.animate( { 'transform' : 'r360,25,25' },4000)
     return outstring
  
  
-@bg5_40323206_2.route('/snap_gear')
+@bg5_40323253_1.route('/snap_gear')
 def snap_gear():
     outstring = '''
 <!DOCTYPE html>
