@@ -21,14 +21,14 @@
 <v t="amd.20160501220029.2"><vh>@button local pelican</vh></v>
 </v>
 <v t="amd.20160501215942.1" a="E"><vh>@path content/b/g11</vh>
-<v t="leo.20160505085006.1"><vh>@edit 40323245-20160519.md</vh></v>
+<v t="leo.20160505085006.1"><vh>@edit 40323252-20160510.md</vh></v>
 </v>
 </v>
 </v>
 </v>
 <v t="amd.20160501215545.1" a="E"><vh>wsgi 程式部份</vh>
-<v t="leo.20160512105051.1" a="E"><vh>@clean bg11_40323245_1.py</vh>
-<v t="leo.20160512111926.1"><vh>bg11_40323245_1 declarations</vh></v>
+<v t="leo.20160512105051.1" a="E"><vh>@clean b40323252.py</vh>
+<v t="leo.20160512111926.1"><vh>b40323252 declarations</vh></v>
 <v t="leo.20160512111926.2"><vh>a</vh></v>
 <v t="leo.20160512111926.3"><vh>b</vh></v>
 <v t="leo.20160512111926.4"><vh>c</vh></v>
@@ -58,8 +58,8 @@
 <v t="leo.20160512111926.28"><vh>snap_link</vh></v>
 <v t="leo.20160512111926.29"><vh>snap_gear</vh></v>
 </v>
-<v t="leo.20160505091608.1"><vh>@edit bg11_40323245.py</vh></v>
-<v t="amd.20160501221015.1" a="E"><vh>@path ./../../../</vh>
+<v t="leo.20160505091608.1"><vh>@edit bg11_40323252.py</vh></v>
+<v t="amd.20160501221015.1"><vh>@path ./../../../</vh>
 <v t="amd.20160501221001.1" a="E"><vh>@clean myflaskapp.py</vh>
 <v t="amd.20160501221001.2"><vh>myflaskapp declarations</vh></v>
 <v t="amd.20160501221001.3"><vh>index</vh></v>
@@ -79,6 +79,12 @@
 <v t="amd.20160501230850.1"><vh>send_blog</vh></v>
 <v t="amd.20160501225844.1"><vh>send_file</vh></v>
 </v>
+</v>
+</v>
+<v t="leo.20160519213444.2" a="E"><vh>Recovered Nodes</vh>
+<v t="leo.20160519213444.3"><vh>Recovered node "eighteenthirty" from @clean b40323252.py</vh>
+<v t="leo.20160519213444.4"><vh>old:eighteenthirty</vh></v>
+<v t="leo.20160519213444.5"><vh>new:eighteenthirty</vh></v>
 </v>
 </v>
 </vnodes>
@@ -171,7 +177,6 @@ app.register_blueprint(users.b.g5.b40323206_cdw11_2.bg5_40323206_2)
 #bg11
 app.register_blueprint(users.b.g11.bg11_40323245.bg11_40323245)
 app.register_blueprint(users.b.g11.bg11_40323252.bg11_40323252)
-app.register_blueprint(users.b.g11.bg11_40323245_1.bg11)
 #bg101
 app.register_blueprint(users.b.g101.b40123200.bg101)
 
@@ -388,7 +393,6 @@ import users.b.g5.b40323206_cdw11_2
 #bg11
 import users.b.g11.bg11_40323245
 import users.b.g11.bg11_40323252
-import users.b.g11.bg11_40323245_1
 #bg101
 import users.b.g101.b40123200
 #ag8
@@ -824,9 +828,9 @@ class chain():
     #x = 50
     #y = 0
     degree = 20
-    first_degree = 20.78 +90
-    startx = -48.57+100+x
-    starty = -58.70-50+y
+    first_degree = 20.78
+    startx = -233.06+100+x
+    starty = 49.48+y
     repeat = 360 / degree
     # 先畫出左邊第一關鍵節
     outstring = '''
@@ -847,10 +851,10 @@ x1, y1 = mychain.basic_rot('''+str(startx)+","+str(starty)+", "+str(first_degree
     # 接著處理右邊的非虛擬鍊條
     # 先畫出右邊第一關鍵節
  
-    p = -93.98+100+x
-    k = 161.77-50+y
+    p = -17.89+100+x
+    k = 93.98+y
     degree = 12
-    first_degree = 4.78+90
+    first_degree = 4.78
     repeat = 360 / degree
     # 第1節不是 virtual chain
     outstring += '''
@@ -868,7 +872,7 @@ p1, k1 = mychain.basic_rot('''+str(p)+","+str(k)+", "+str(first_degree)+''')
  
     # 上段連接直線
     # 從 x1, y1 作為起點
-    first_degree = 10.78+90
+    first_degree = 10.78
     repeat = 10
     outstring += '''
 m1, n1 = mychain.basic_rot(x1, y1, '''+str(first_degree)+''')
@@ -878,7 +882,7 @@ m1, n1 = mychain.basic_rot(x1, y1, '''+str(first_degree)+''')
  
     # 下段連接直線
     # 從 x11, y11 作為起點
-    first_degree = -10.78+90.5
+    first_degree = -10.78
     repeat = 10
     outstring += '''
 r1, s1 = mychain.basic_rot(x11, y11, '''+str(first_degree)+''')
@@ -1457,6 +1461,265 @@ r1, s1 = mychain.basic_rot(p13, k13, '''+str(first_degree)+''')
     outstring += "mychain.basic(x22, y22, r11, s11)\n"
  
     return outstring
+</t>
+<t tx="leo.20160519213444.2"></t>
+<t tx="leo.20160519213444.3">(uncached) leo.20160512111926.10
+Diff...
+  def eighteenthirty(x, y):
+      '''
+  從圖解法與符號式解法得到的兩條外切線座標點
+  (-203.592946177111, 0.0), (0.0, 0.0), (-214.364148466539, 56.5714145924675), (-17.8936874260919, 93.9794075692901)
+  (-203.592946177111, 0.0), (0.0, 0.0), (-214.364148466539, -56.5714145924675), (-17.8936874260919, -93.9794075692901)
+  左邊關鍵鍊條起點 (-233.06, 49.48), 角度 20.78, 圓心 (-203.593, 0.0)
+  右邊關鍵鍊條起點 (-17.89, 93.9), 角度 4.78, 圓心 (0, 0)
+      '''
+      # 20 為鏈條兩圓距
+      # chain 所圍之圓圈半徑為 20/2/math.asin(degree*math.pi/180/2)
+      # degree = math.asin(20/2/radius)*180/math.pi
+      #x = 50
+      #y = 0
+      degree = 20
+-     first_degree = 20.78
++     first_degree = 20.78 +90
+?                         ++++
+-     startx = -233.06+100+x
+?               ^^^ ^^
++     startx = -48.57+100+x
+?               ^^ ^^
+-     starty = 49.48+y
++     starty = -58.70-50+y
+      repeat = 360 / degree
+      # 先畫出左邊第一關鍵節
+      outstring = '''
+  mychain = chain()
+   
+  x1, y1 = mychain.basic_rot('''+str(startx)+","+str(starty)+", "+str(first_degree)+''')
+   
+  '''
+      # 接著繪製左邊的非虛擬鍊條
+      for i in range(2, int(repeat)+1):
+          if i &gt;=2 and i &lt;=11:
+              # virautl chain
+              #outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+","+str(first_degree+degree-i*degree)+") \n"
+              outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+","+str(first_degree+degree-i*degree)+", True) \n"
+          else:
+              outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+","+str(first_degree+degree-i*degree)+") \n"
+   
+      # 接著處理右邊的非虛擬鍊條
+      # 先畫出右邊第一關鍵節
+   
+-     p = -17.89+100+x
+?          ^^  -
++     p = -93.98+100+x
+?          ^^ +
+-     k = 93.98+y
++     k = 161.77-50+y
+      degree = 12
+-     first_degree = 4.78
++     first_degree = 4.78+90
+?                        +++
+      repeat = 360 / degree
+      # 第1節不是 virtual chain
+      outstring += '''
+  #mychain = chain()
+   
+  p1, k1 = mychain.basic_rot('''+str(p)+","+str(k)+", "+str(first_degree)+''')
+  '''
+      for i in range(2, int(repeat)+1):
+          if i &gt;=18:
+              # virautl chain
+              outstring += "p"+str(i)+", k"+str(i)+"=mychain.basic_rot(p"+str(i-1)+", k"+str(i-1)+","+str(first_degree+degree-i*degree)+", True) \n"
+              #outstring += "p"+str(i)+", k"+str(i)+"=mychain.basic_rot(p"+str(i-1)+", k"+str(i-1)+","+str(first_degree+degree-i*degree)+") \n"
+          else:
+              outstring += "p"+str(i)+", k"+str(i)+"=mychain.basic_rot(p"+str(i-1)+", k"+str(i-1)+","+str(first_degree+degree-i*degree)+") \n"
+   
+      # 上段連接直線
+      # 從 x1, y1 作為起點
+-     first_degree = 10.78
++     first_degree = 10.78+90
+?                         +++
+      repeat = 10
+      outstring += '''
+  m1, n1 = mychain.basic_rot(x1, y1, '''+str(first_degree)+''')
+  '''
+      for i in range(2, int(repeat)+1):
+          outstring += "m"+str(i)+", n"+str(i)+"=mychain.basic_rot(m"+str(i-1)+", n"+str(i-1)+", "+str(first_degree)+")\n"
+   
+      # 下段連接直線
+      # 從 x11, y11 作為起點
+-     first_degree = -10.78
++     first_degree = -10.78+90.5
+?                          +++++
+      repeat = 10
+      outstring += '''
+  r1, s1 = mychain.basic_rot(x11, y11, '''+str(first_degree)+''')
+  '''
+      for i in range(2, int(repeat)+1):
+          outstring += "r"+str(i)+", s"+str(i)+"=mychain.basic_rot(r"+str(i-1)+", s"+str(i-1)+", "+str(first_degree)+")\n"
+   
+      return outstring
+   
+   
+</t>
+<t tx="leo.20160519213444.4">def eighteenthirty(x, y):
+    '''
+從圖解法與符號式解法得到的兩條外切線座標點
+(-203.592946177111, 0.0), (0.0, 0.0), (-214.364148466539, 56.5714145924675), (-17.8936874260919, 93.9794075692901)
+(-203.592946177111, 0.0), (0.0, 0.0), (-214.364148466539, -56.5714145924675), (-17.8936874260919, -93.9794075692901)
+左邊關鍵鍊條起點 (-233.06, 49.48), 角度 20.78, 圓心 (-203.593, 0.0)
+右邊關鍵鍊條起點 (-17.89, 93.9), 角度 4.78, 圓心 (0, 0)
+    '''
+    # 20 為鏈條兩圓距
+    # chain 所圍之圓圈半徑為 20/2/math.asin(degree*math.pi/180/2)
+    # degree = math.asin(20/2/radius)*180/math.pi
+    #x = 50
+    #y = 0
+    degree = 20
+    first_degree = 20.78 +90
+    startx = -48.57+100+x
+    starty = -58.70-50+y
+    repeat = 360 / degree
+    # 先畫出左邊第一關鍵節
+    outstring = '''
+mychain = chain()
+ 
+x1, y1 = mychain.basic_rot('''+str(startx)+","+str(starty)+", "+str(first_degree)+''')
+ 
+'''
+    # 接著繪製左邊的非虛擬鍊條
+    for i in range(2, int(repeat)+1):
+        if i &gt;=2 and i &lt;=11:
+            # virautl chain
+            #outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+","+str(first_degree+degree-i*degree)+") \n"
+            outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+","+str(first_degree+degree-i*degree)+", True) \n"
+        else:
+            outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+","+str(first_degree+degree-i*degree)+") \n"
+ 
+    # 接著處理右邊的非虛擬鍊條
+    # 先畫出右邊第一關鍵節
+ 
+    p = -93.98+100+x
+    k = 161.77-50+y
+    degree = 12
+    first_degree = 4.78+90
+    repeat = 360 / degree
+    # 第1節不是 virtual chain
+    outstring += '''
+#mychain = chain()
+ 
+p1, k1 = mychain.basic_rot('''+str(p)+","+str(k)+", "+str(first_degree)+''')
+'''
+    for i in range(2, int(repeat)+1):
+        if i &gt;=18:
+            # virautl chain
+            outstring += "p"+str(i)+", k"+str(i)+"=mychain.basic_rot(p"+str(i-1)+", k"+str(i-1)+","+str(first_degree+degree-i*degree)+", True) \n"
+            #outstring += "p"+str(i)+", k"+str(i)+"=mychain.basic_rot(p"+str(i-1)+", k"+str(i-1)+","+str(first_degree+degree-i*degree)+") \n"
+        else:
+            outstring += "p"+str(i)+", k"+str(i)+"=mychain.basic_rot(p"+str(i-1)+", k"+str(i-1)+","+str(first_degree+degree-i*degree)+") \n"
+ 
+    # 上段連接直線
+    # 從 x1, y1 作為起點
+    first_degree = 10.78+90
+    repeat = 10
+    outstring += '''
+m1, n1 = mychain.basic_rot(x1, y1, '''+str(first_degree)+''')
+'''
+    for i in range(2, int(repeat)+1):
+        outstring += "m"+str(i)+", n"+str(i)+"=mychain.basic_rot(m"+str(i-1)+", n"+str(i-1)+", "+str(first_degree)+")\n"
+ 
+    # 下段連接直線
+    # 從 x11, y11 作為起點
+    first_degree = -10.78+90.5
+    repeat = 10
+    outstring += '''
+r1, s1 = mychain.basic_rot(x11, y11, '''+str(first_degree)+''')
+'''
+    for i in range(2, int(repeat)+1):
+        outstring += "r"+str(i)+", s"+str(i)+"=mychain.basic_rot(r"+str(i-1)+", s"+str(i-1)+", "+str(first_degree)+")\n"
+ 
+    return outstring
+ 
+ 
+</t>
+<t tx="leo.20160519213444.5">def eighteenthirty(x, y):
+    '''
+從圖解法與符號式解法得到的兩條外切線座標點
+(-203.592946177111, 0.0), (0.0, 0.0), (-214.364148466539, 56.5714145924675), (-17.8936874260919, 93.9794075692901)
+(-203.592946177111, 0.0), (0.0, 0.0), (-214.364148466539, -56.5714145924675), (-17.8936874260919, -93.9794075692901)
+左邊關鍵鍊條起點 (-233.06, 49.48), 角度 20.78, 圓心 (-203.593, 0.0)
+右邊關鍵鍊條起點 (-17.89, 93.9), 角度 4.78, 圓心 (0, 0)
+    '''
+    # 20 為鏈條兩圓距
+    # chain 所圍之圓圈半徑為 20/2/math.asin(degree*math.pi/180/2)
+    # degree = math.asin(20/2/radius)*180/math.pi
+    #x = 50
+    #y = 0
+    degree = 20
+    first_degree = 20.78
+    startx = -233.06+100+x
+    starty = 49.48+y
+    repeat = 360 / degree
+    # 先畫出左邊第一關鍵節
+    outstring = '''
+mychain = chain()
+ 
+x1, y1 = mychain.basic_rot('''+str(startx)+","+str(starty)+", "+str(first_degree)+''')
+ 
+'''
+    # 接著繪製左邊的非虛擬鍊條
+    for i in range(2, int(repeat)+1):
+        if i &gt;=2 and i &lt;=11:
+            # virautl chain
+            #outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+","+str(first_degree+degree-i*degree)+") \n"
+            outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+","+str(first_degree+degree-i*degree)+", True) \n"
+        else:
+            outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+","+str(first_degree+degree-i*degree)+") \n"
+ 
+    # 接著處理右邊的非虛擬鍊條
+    # 先畫出右邊第一關鍵節
+ 
+    p = -17.89+100+x
+    k = 93.98+y
+    degree = 12
+    first_degree = 4.78
+    repeat = 360 / degree
+    # 第1節不是 virtual chain
+    outstring += '''
+#mychain = chain()
+ 
+p1, k1 = mychain.basic_rot('''+str(p)+","+str(k)+", "+str(first_degree)+''')
+'''
+    for i in range(2, int(repeat)+1):
+        if i &gt;=18:
+            # virautl chain
+            outstring += "p"+str(i)+", k"+str(i)+"=mychain.basic_rot(p"+str(i-1)+", k"+str(i-1)+","+str(first_degree+degree-i*degree)+", True) \n"
+            #outstring += "p"+str(i)+", k"+str(i)+"=mychain.basic_rot(p"+str(i-1)+", k"+str(i-1)+","+str(first_degree+degree-i*degree)+") \n"
+        else:
+            outstring += "p"+str(i)+", k"+str(i)+"=mychain.basic_rot(p"+str(i-1)+", k"+str(i-1)+","+str(first_degree+degree-i*degree)+") \n"
+ 
+    # 上段連接直線
+    # 從 x1, y1 作為起點
+    first_degree = 10.78
+    repeat = 10
+    outstring += '''
+m1, n1 = mychain.basic_rot(x1, y1, '''+str(first_degree)+''')
+'''
+    for i in range(2, int(repeat)+1):
+        outstring += "m"+str(i)+", n"+str(i)+"=mychain.basic_rot(m"+str(i-1)+", n"+str(i-1)+", "+str(first_degree)+")\n"
+ 
+    # 下段連接直線
+    # 從 x11, y11 作為起點
+    first_degree = -10.78
+    repeat = 10
+    outstring += '''
+r1, s1 = mychain.basic_rot(x11, y11, '''+str(first_degree)+''')
+'''
+    for i in range(2, int(repeat)+1):
+        outstring += "r"+str(i)+", s"+str(i)+"=mychain.basic_rot(r"+str(i-1)+", s"+str(i-1)+", "+str(first_degree)+")\n"
+ 
+    return outstring
+ 
+ 
 </t>
 </tnodes>
 </leo_file>
