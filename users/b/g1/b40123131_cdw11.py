@@ -1,6 +1,6 @@
 from flask import Blueprint, request
  
-bg1_40123133 = Blueprint('bg1_40123133', __name__, url_prefix='/bg1_40123133', template_folder='templates')
+bg1_40123131 = Blueprint('bg1_40123131', __name__, url_prefix='/bg1_40123131', template_folder='templates')
  
 head_str = '''
 <!DOCTYPE html>
@@ -162,7 +162,7 @@ mychain.basic(x10, y10, x1, y1)
  
     return outstring
     
-@bg1_40123133.route('/a')
+@bg1_40123131.route('/a')
 def draw_a():
     return head_str + chain_str + a(0, 0) + tail_str
     
@@ -182,9 +182,9 @@ x1, y1 = mychain.basic_rot('''+str(x)+","+str(y)+", "+str(first_degree)+''')
         outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+", 90-"+str(i*degree)+") \n"
     return outstring
     
-@bg1_40123133.route('/circle36/<degree>', defaults={'x': 0, 'y': 0})
-@bg1_40123133.route('/circle36/<x>/<degree>', defaults={'y': 0})
-@bg1_40123133.route('/circle36/<x>/<y>/<degree>')
-#@bg1_40123133.route('/circle36/<int:x>/<int:y>/<int:degree>')
+@bg1_40123131.route('/circle36/<degree>', defaults={'x': 0, 'y': 0})
+@bg1_40123131.route('/circle36/<x>/<degree>', defaults={'y': 0})
+@bg1_40123131.route('/circle36/<x>/<y>/<degree>')
+#@bg1_40123131.route('/circle36/<int:x>/<int:y>/<int:degree>')
 def drawcircle36(x,y,degree):
     return head_str + chain_str + circle36(int(x), int(y), int(degree)) + tail_str
