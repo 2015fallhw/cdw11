@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <feed xmlns="http://www.w3.org/2005/Atom"><title>CDW11 網頁 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/bg11.atom.xml" rel="self"></link><id>./</id><updated>2016-05-19T09:24:17+08:00</updated><entry><title>40323252 cdw11報告</title><link href="./40323252-cdw11bao-gao.html" rel="alternate"></link><updated>2016-05-19T09:24:17+08:00</updated><author><name>40323252</name></author><id>tag:,2016-05-19:./40323252-cdw11bao-gao.html</id><summary type="html">&lt;p&gt;cdw11
 =======
 <<<<<<< HEAD
@@ -20,13 +21,24 @@
 =======
 123&lt;/p&gt;</summary><category term="40323245"></category></entry><entry><title>40323245 cdw11報告-1</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323245-cdw11bao-gao-1.html" rel="alternate"></link><updated>2016-05-12T08:50:49+08:00</updated><author><name>40323245</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-05-12:static/blog/40323245-cdw11bao-gao-1.html</id><summary type="html">&lt;p&gt;cdw11
 =======
+<feed xmlns="http://www.w3.org/2005/Atom"><title>CDW11 網頁 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/bg11.atom.xml" rel="self"></link><id>./</id><updated>2016-05-19T09:10:11+08:00</updated><entry><title>40323245 cdw11報告</title><link href="./40323245-cdw11bao-gao.html" rel="alternate"></link><updated>2016-05-19T09:10:11+08:00</updated><author><name>40323245</name></author><id>tag:,2016-05-19:./40323245-cdw11bao-gao.html</id><summary type="html">&lt;p&gt;cdw11內容規畫 :&lt;br /&gt;
+
+123&lt;/p&gt;</summary><category term="40323245"></category></entry><entry><title>40323252 cdw11報告</title><link href="./40323252-cdw11bao-gao.html" rel="alternate"></link><updated>2016-05-19T09:10:11+08:00</updated><author><name>40323252</name></author><id>tag:,2016-05-19:./40323252-cdw11bao-gao.html</id><summary type="html">&lt;p&gt;cdw11
+&lt;/p&gt;
+&lt;p&gt;編輯123&lt;/p&gt;</summary><category term="4032352"></category></entry><entry><title>40323245 cdw11報告-1</title><link href="./40323245-cdw11bao-gao-1.html" rel="alternate"></link><updated>2016-05-19T09:10:11+08:00</updated><author><name>40323245</name></author><id>tag:,2016-05-19:./40323245-cdw11bao-gao-1.html</id><summary type="html">&lt;p&gt;cdw11
+>>>>>>> 1873cd1694f9bc5a1693ae497c1547503543ad0c
+=======
 <feed xmlns="http://www.w3.org/2005/Atom"><title>CDW11 網頁 (虎尾科大MDE)</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/" rel="alternate"></link><link href="http://cdw11-ag100.rhcloud.com/static/blog/feeds/bg11.atom.xml" rel="self"></link><id>http://cdw11-ag100.rhcloud.com/static/blog/</id><updated>2016-05-19T09:38:39+08:00</updated><entry><title>40323245 cdw11報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323245-cdw11bao-gao.html" rel="alternate"></link><updated>2016-05-19T09:38:39+08:00</updated><author><name>40323245</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-05-19:static/blog/40323245-cdw11bao-gao.html</id><summary type="html">&lt;p&gt;cdw11內容規畫 :&lt;br /&gt;
 
 123&lt;/p&gt;</summary><category term="40323245"></category></entry><entry><title>40323252 cdw11報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323252-cdw11bao-gao.html" rel="alternate"></link><updated>2016-05-19T09:38:39+08:00</updated><author><name>40323252</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-05-19:static/blog/40323252-cdw11bao-gao.html</id><summary type="html">&lt;p&gt;cdw11
 &lt;/p&gt;
 &lt;p&gt;編輯123&lt;/p&gt;</summary><category term="4032352"></category></entry><entry><title>40323245 cdw11報告-1</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323245-cdw11bao-gao-1.html" rel="alternate"></link><updated>2016-05-19T09:38:39+08:00</updated><author><name>40323245</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-05-19:static/blog/40323245-cdw11bao-gao-1.html</id><summary type="html">&lt;p&gt;cdw11
+<<<<<<< HEAD
 >>>>>>> 6875cdb28f70fbc52a2d7d48bcaae0b7314e1508
 >>>>>>> a957b20c7ec8333a523322b7aae08a030b6def75
 >>>>>>> 2fc3f66bf80ccda38815d7f8b9703e4bd35c4cfb
+=======
+>>>>>>> 8d3fc7d30b0df07d0897d226780741d0030e8968
+>>>>>>> 1873cd1694f9bc5a1693ae497c1547503543ad0c
 &lt;/p&gt;
 &lt;p&gt;編輯&lt;/p&gt;</summary><category term="4032345"></category></entry></feed>
