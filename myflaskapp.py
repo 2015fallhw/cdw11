@@ -24,9 +24,14 @@ import users.b.g1.bg1_40123156
 import users.b.g1.bg1_40123156_2
 import users.b.g1.bg1_40123144
 import users.b.g1.bg1_40123144_2
+<<<<<<< HEAD
+#import users.b.g1.bg1_40123131
+#import users.b.g1.bg1_40123131_2
+=======
 import users.b.g1.b40123131_cdw11
 import users.b.g1.b40123131_cdw12
 
+>>>>>>> 6875cdb28f70fbc52a2d7d48bcaae0b7314e1508
 
 #bg2
 import users.b.g2.bg2_40123235
@@ -456,8 +461,13 @@ app.register_blueprint(users.b.g1.bg1_40123156.bg1_40123156)
 app.register_blueprint(users.b.g1.bg1_40123156_2.bg1_40123156_2)
 app.register_blueprint(users.b.g1.bg1_40123144.bg1_40123144)
 app.register_blueprint(users.b.g1.bg1_40123144_2.bg40123144)
+<<<<<<< HEAD
+#app.register_blueprint(users.b.g1.bg1_40123131.bg1_40123131)
+#app.register_blueprint(users.b.g1.bg1_40123131_2.bg40123131)
+=======
 app.register_blueprint(users.b.g1.b40123131_cdw11.bg1_40123131)
 app.register_blueprint(users.b.g1.b40123131_cdw12.bg1)
+>>>>>>> 6875cdb28f70fbc52a2d7d48bcaae0b7314e1508
 
 #bg2
 app.register_blueprint(users.b.g2.bg2_40123235.bg2_40123235)
