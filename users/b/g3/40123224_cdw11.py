@@ -197,10 +197,10 @@ x1, y1 = mychain.basic_rot('''+str(x)+","+str(y)+", "+str(first_degree)+''')
 
 
 
+
 @ag100.route('/circle36/<degree>', defaults={'x': 0, 'y': 0})
 @ag100.route('/circle36/<x>/<degree>', defaults={'y': 0})
 @ag100.route('/circle36/<x>/<y>/<degree>')
 #@ag100.route('/circle36/<int:x>/<int:y>/<int:degree>')
 def drawcircle36(x,y,degree):
     return head_str + chain_str + circle36(int(x), int(y), int(degree)) + tail_str
-
