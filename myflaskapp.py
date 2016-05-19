@@ -64,13 +64,9 @@ import users.a.g8.a40323154
 import users.a.g10.a40323139
 import users.a.g10.a40323141
 #bg3
-
 #import users.b.g3.b40123224
-#import users.b.g3.b40123250
-#import users.b.g3.b40123242
-
-#import users.b.g3.b40123224
-#import users.b.g3.b40123250
+import users.b.g3.bg3_40123250
+import users.b.g3.bg3_40123250_cdw11
 #import users.b.g3.b40123242
 
 #ag100
@@ -513,12 +509,10 @@ app.register_blueprint(users.a.g100.cdw13.a40123100.ag100)
 #bg3
 
 #app.register_blueprint(users.b.g3.bg3_40123224.bg3_40123224)
-#app.register_blueprint(users.b.g3.bg3_40123250.bg3_40123250)
+app.register_blueprint(users.b.g3.bg3_40123250.bg3_40123250)
+app.register_blueprint(users.b.g3.bg3_40123250_cdw11.b40123250)
 #app.register_blueprint(users.b.g3.bg3_40123250.bg3_40123242)
 
-app.register_blueprint(users.b.g3.bg3_40123224.bg3_40123224)
-app.register_blueprint(users.b.g3.bg3_40123250.bg3_40123250)
-app.register_blueprint(users.b.g3.bg3_40123250.bg3_40123242)
 
 
 
