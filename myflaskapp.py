@@ -36,6 +36,8 @@ import users.b.g1.b40123131_cdw11
 import users.b.g1.b40123131_cdw12
 import users.b.g1.bg1_40123134
 import users.b.g1.bg1_40123134_2
+import users.b.g1.b40123133_cdw11
+import users.b.g1.b40123133_cdw12
 #bg2
 import users.b.g2.bg2_40123235
 import users.b.g2.bg2_40123235_cdw12
@@ -487,8 +489,8 @@ app.register_blueprint(users.b.g1.b40123131_cdw11.bg1_40123131)
 app.register_blueprint(users.b.g1.b40123131_cdw12.bg1)
 app.register_blueprint(users.b.g1.bg1_40123134.bg1_40123134)
 app.register_blueprint(users.b.g1.bg1_40123134_2.bg1_40123134_2)
-
-
+app.register_blueprint(users.b.g1.b40123133_cdw11.bg1_40123133)
+app.register_blueprint(users.b.g1.b40123133_cdw12.bg1_40123133_2)
 #app.register_blueprint(users.b.g1.bg1_40123131.bg1_40123131)
 #app.register_blueprint(users.b.g1.bg1_40123131_2.bg40123131)
 
