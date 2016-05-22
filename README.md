@@ -14,7 +14,3 @@ http://cdw11-ag100.rhcloud.com/images/cdw11_4a.png
 http://cdw11-ag100.rhcloud.com/images/cdw11_badc.png
 
 http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png
-
-
-
-
