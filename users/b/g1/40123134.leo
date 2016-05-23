@@ -34,8 +34,8 @@
 <v t="leo.20160505180755.3"><vh>two</vh></v>
 <v t="leo.20160505180755.4"><vh>three</vh></v>
 </v>
-<v t="leo.20160512105545.1"><vh>@clean bg1_40123134_2.py</vh>
-<v t="leo.20160512112035.1"><vh>bg1_40123156_2 declarations</vh></v>
+<v t="leo.20160512105545.1" a="E"><vh>@clean bg1_40123134_2.py</vh>
+<v t="leo.20160512112035.1"><vh>bg1_40123134_2 declarations</vh></v>
 <v t="leo.20160512112035.2"><vh>a</vh></v>
 <v t="leo.20160512112035.3"><vh>b</vh></v>
 <v t="leo.20160512112035.4"><vh>c</vh></v>
@@ -87,12 +87,6 @@
 </v>
 </v>
 </v>
-<v t="leo.20160519112445.2" a="E"><vh>Recovered Nodes</vh>
-<v t="leo.20160519112445.3"><vh>Recovered node "bg1_40123134 declarations" from @clean bg1_40123134.py</vh>
-<v t="leo.20160519112445.4"><vh>old:bg1_40123134 declarations</vh></v>
-<v t="leo.20160519112445.5"><vh>new:bg1_40123134 declarations</vh></v>
-</v>
-</v>
 </vnodes>
 <tnodes>
 <t tx="amd.20160501215436.2"></t>
@@ -135,25 +129,35 @@ app.register_blueprint(users.a.g8.ag8_40323123.ag8_40323123)
 app.register_blueprint(users.a.g10.ag10_40323129_task1.ag10_40323129)
 app.register_blueprint(users.a.g2.ag2_40323120.ag2_40323120)
 app.register_blueprint(users.a.g1.ag1_40323105.ag1_40323105)
-
-
+app.register_blueprint(users.a.g1.a40223153.ag1_40223153)
+app.register_blueprint(users.a.g3.ag3_40323108.ag3_40323108)
+app.register_blueprint(users.a.g3.ag3_40323108_task2bacd.ag3_40323108bacd)
+app.register_blueprint(users.a.g3.ag3_40323108_task3abcd.ag3_40323108task3)
 
 app.register_blueprint(users.b.g9.bg9_40323250.bg9_40323250)
 #bg1
 app.register_blueprint(users.b.g1.bg1_40123156.bg1_40123156)
 app.register_blueprint(users.b.g1.bg1_40123156_2.bg1_40123156_2)
+
+app.register_blueprint(users.b.g1.bg1_40123129.bg1_40123129)
+app.register_blueprint(users.b.g1.bg1_40123129_2.bg1_40123129_2)
+
 app.register_blueprint(users.b.g1.bg1_40123144.bg1_40123144)
 app.register_blueprint(users.b.g1.bg1_40123144_2.bg40123144)
-&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+#app.register_blueprint(users.b.g1.bg1_40123131.bg1_40123131)
+#app.register_blueprint(users.b.g1.bg1_40123131_2.bg40123131)
+app.register_blueprint(users.b.g1.b40123131_cdw11.bg1_40123131)
+app.register_blueprint(users.b.g1.b40123131_cdw12.bg1)
+
 app.register_blueprint(users.b.g1.b40123131_cdw11.bg1_40123131)
 app.register_blueprint(users.b.g1.b40123131_cdw12.bg1)
 app.register_blueprint(users.b.g1.bg1_40123134.bg1_40123134)
 app.register_blueprint(users.b.g1.bg1_40123134_2.bg1_40123134_2)
-
-=======
+app.register_blueprint(users.b.g1.b40123133_cdw11.bg1_40123133)
+app.register_blueprint(users.b.g1.b40123133_cdw12.bg1_40123133_2)
 #app.register_blueprint(users.b.g1.bg1_40123131.bg1_40123131)
 #app.register_blueprint(users.b.g1.bg1_40123131_2.bg40123131)
-&gt;&gt;&gt;&gt;&gt;&gt;&gt; 1873cd1694f9bc5a1693ae497c1547503543ad0c
+
 
 #bg2
 app.register_blueprint(users.b.g2.bg2_40123235.bg2_40123235)
@@ -175,6 +179,7 @@ app.register_blueprint(users.b.g5.b40323206_cdw11_2.bg5_40323206_2)
 #bg11
 app.register_blueprint(users.b.g11.bg11_40323245.bg11_40323245)
 app.register_blueprint(users.b.g11.bg11_40323252.bg11_40323252)
+app.register_blueprint(users.b.g11.bg11_40323245_1.bg11)
 #bg101
 app.register_blueprint(users.b.g101.b40123200.bg101)
 
@@ -183,21 +188,22 @@ app.register_blueprint(users.a.g8.a40323143.ag8_40323143)
 app.register_blueprint(users.a.g8.a40323154.ag8_40323154)
 #ag10
 app.register_blueprint(users.a.g10.a40323139.ag10_40323139_1)
-app.register_blueprint(users.a.g10.a40323141.ag10_40323141_1)
-
+#app.register_blueprint(users.a.g10.a40323141.ag10_40323141_1)
+#ag3
+app.register_blueprint(users.a.g3.a40323108.ag3_40323108_1)
 #ag100
 app.register_blueprint(users.a.g100.cdw13.a40123100.ag100)
 
 #bg3
-&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
 #app.register_blueprint(users.b.g3.bg3_40123224.bg3_40123224)
-#app.register_blueprint(users.b.g3.bg3_40123250.bg3_40123250)
+#app.register_blueprint(users.b.g3.bg3_.bg3_40123250)
 #app.register_blueprint(users.b.g3.bg3_40123250.bg3_40123242)
-=======
-app.register_blueprint(users.b.g3.bg3_40123224.bg3_40123224)
+
+app.register_blueprint(users.b.g3.bg3_40123224_cdw11.b40123224)
 app.register_blueprint(users.b.g3.bg3_40123250.bg3_40123250)
-app.register_blueprint(users.b.g3.bg3_40123250.bg3_40123242)
-&gt;&gt;&gt;&gt;&gt;&gt;&gt; 1873cd1694f9bc5a1693ae497c1547503543ad0c
+app.register_blueprint(users.b.g3.bg3_40123250_cdw11.b40123250)
+#app.register_blueprint(users.b.g3.bg3_40123250.bg3_40123242)
+
 
 
 </t>
@@ -347,21 +353,28 @@ import users.a.g4.ag4_40323138_task3abcd
 import users.a.g8.ag8_40323131_task1
 import users.b.g9.bg9_40323250
 import users.a.g8.ag8_40323123
+import users.a.g1.a40223153
+import users.a.g3.ag3_40323108
+import users.a.g3.ag3_40323108_task2bacd
+import users.a.g3.ag3_40323108_task3abcd
 #bg1
 import users.b.g1.bg1_40123156
 import users.b.g1.bg1_40123156_2
+import users.b.g1.bg1_40123129
+import users.b.g1.bg1_40123129_2
 import users.b.g1.bg1_40123144
 import users.b.g1.bg1_40123144_2
-&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+#import users.b.g1.bg1_40123131
+#import users.b.g1.bg1_40123131_2
+import users.b.g1.b40123131_cdw11
+import users.b.g1.b40123131_cdw12
+
 import users.b.g1.b40123131_cdw11
 import users.b.g1.b40123131_cdw12
 import users.b.g1.bg1_40123134
 import users.b.g1.bg1_40123134_2
-=======
-#import users.b.g1.bg1_40123131
-#import users.b.g1.bg1_40123131_2
-&gt;&gt;&gt;&gt;&gt;&gt;&gt; 1873cd1694f9bc5a1693ae497c1547503543ad0c
-
+import users.b.g1.b40123133_cdw11
+import users.b.g1.b40123133_cdw12
 #bg2
 import users.b.g2.bg2_40123235
 import users.b.g2.bg2_40123235_cdw12
@@ -375,12 +388,11 @@ import users.b.g4.bg4_40323208
 import users.b.g8.bg8_40323213
 import users.b.g4.bg4_40323202
 import users.b.g4.b40323201_cdw11
-&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+
 #bg5
 #import users.b.g5.b40323206_cdw11_1
 import users.b.g5.b40323204_cdw11_1
-=======
-&gt;&gt;&gt;&gt;&gt;&gt;&gt; 1873cd1694f9bc5a1693ae497c1547503543ad0c
+
 
 #bg5
 #import users.b.g5.b40323206_cdw11_1
@@ -390,6 +402,7 @@ import users.b.g5.b40323206_cdw11_2
 #bg11
 import users.b.g11.bg11_40323245
 import users.b.g11.bg11_40323252
+import users.b.g11.bg11_40323245_1
 #bg101
 import users.b.g101.b40123200
 #ag8
@@ -399,15 +412,16 @@ import users.a.g8.a40323154
 import users.a.g10.a40323139
 import users.a.g10.a40323141
 #bg3
-&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
 #import users.b.g3.b40123224
 #import users.b.g3.b40123250
 #import users.b.g3.b40123242
-=======
-import users.b.g3.b40123224
-import users.b.g3.b40123250
-import users.b.g3.b40123242
-&gt;&gt;&gt;&gt;&gt;&gt;&gt; 1873cd1694f9bc5a1693ae497c1547503543ad0c
+import users.b.g3.bg3_40123224
+import users.b.g3.bg3_40123224_cdw11
+import users.b.g3.bg3_40123250
+import users.b.g3.bg3_40123250_cdw11
+#import users.b.g3.b40123242
+#ag3
+import users.a.g3.a40323108
 #ag100
 import users.a.g100.cdw13.a40123100
 # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
@@ -435,7 +449,6 @@ app = Flask(__name__)
 # In order to use sessions you have to set a secret key
 # set the secret key.  keep this really secret:
 app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
-
 
 
 
@@ -2110,43 +2123,6 @@ r1, s1 = mychain.basic_rot(p13, k13, '''+str(first_degree)+''')
 @edit
 @auto
 @clean
-
-2016/05/12
-新增 bg1_40123156_2.py (已修改myflaskapp.py )
-</t>
-<t tx="leo.20160519112445.2"></t>
-<t tx="leo.20160519112445.3">(uncached) leo.20160505180755.1
-Diff...
-  # 各組分別在各自的 .py 程式中建立應用程式 (第1步/總共3步)
-  from flask import Blueprint, render_template, make_response
-  
-- # 利用 Blueprint建立 bg1, 並且 url 前綴為 /bg1, 並設定 template 存放目錄
-?                  ^                ^
-+ # 利用 Blueprint建立 ag1, 並且 url 前綴為 /ag1, 並設定 template 存放目錄
-?                  ^                ^
-  bg1_40123134 = Blueprint('bg1_40123134', __name__, url_prefix='/bg1_40123134', template_folder='templates')
-  
-  
-  
-  
-</t>
-<t tx="leo.20160519112445.4"># 各組分別在各自的 .py 程式中建立應用程式 (第1步/總共3步)
-from flask import Blueprint, render_template, make_response
-
-# 利用 Blueprint建立 ag1, 並且 url 前綴為 /ag1, 並設定 template 存放目錄
-bg1_40123134 = Blueprint('bg1_40123134', __name__, url_prefix='/bg1_40123134', template_folder='templates')
-
-
-
-
-</t>
-<t tx="leo.20160519112445.5"># 各組分別在各自的 .py 程式中建立應用程式 (第1步/總共3步)
-from flask import Blueprint, render_template, make_response
-
-# 利用 Blueprint建立 bg1, 並且 url 前綴為 /bg1, 並設定 template 存放目錄
-bg1_40123134 = Blueprint('bg1_40123134', __name__, url_prefix='/bg1_40123134', template_folder='templates')
-
-
 
 
 </t>

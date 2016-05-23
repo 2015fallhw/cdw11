@@ -530,7 +530,7 @@ app.register_blueprint(users.a.g8.a40323143.ag8_40323143)
 app.register_blueprint(users.a.g8.a40323154.ag8_40323154)
 #ag10
 app.register_blueprint(users.a.g10.a40323139.ag10_40323139_1)
-app.register_blueprint(users.a.g10.a40323141.ag10_40323141_1)
+#app.register_blueprint(users.a.g10.a40323141.ag10_40323141_1)
 #ag3
 app.register_blueprint(users.a.g3.a40323108.ag3_40323108_1)
 #ag100
