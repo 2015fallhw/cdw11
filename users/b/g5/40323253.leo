@@ -27,38 +27,38 @@
 </v>
 </v>
 <v t="amd.20160501215545.1" a="E"><vh>wsgi 程式部份</vh>
-<v t="leo.20160512142003.1" a="E"><vh>@clean bg5_40323253_1.py</vh>
-<v t="leo.20160512142214.1"><vh>bg5_40323253_1 declarations</vh></v>
-<v t="leo.20160512142214.2"><vh>a</vh></v>
-<v t="leo.20160512142214.3"><vh>b</vh></v>
-<v t="leo.20160512142214.4"><vh>c</vh></v>
-<v t="leo.20160512142214.5"><vh>d</vh></v>
-<v t="leo.20160512142214.6"><vh>circle</vh></v>
-<v t="leo.20160512142214.7"><vh>circle1</vh></v>
-<v t="leo.20160512142214.8"><vh>circle2</vh></v>
-<v t="leo.20160512142214.9"><vh>twocircle</vh></v>
-<v t="leo.20160512142214.10"><vh>eighteenthirty</vh></v>
-<v t="leo.20160512142214.11"><vh>draw_a</vh></v>
-<v t="leo.20160512142214.12"><vh>draw_b</vh></v>
-<v t="leo.20160512142214.13"><vh>draw_c</vh></v>
-<v t="leo.20160512142214.14"><vh>draw_d</vh></v>
-<v t="leo.20160512142214.15"><vh>draw_ab</vh></v>
-<v t="leo.20160512142214.16"><vh>draw_ac</vh></v>
-<v t="leo.20160512142214.17"><vh>draw_bc</vh></v>
-<v t="leo.20160512142214.18"><vh>draw_abc</vh></v>
-<v t="leo.20160512142214.19"><vh>draw_aaaa</vh></v>
-<v t="leo.20160512142214.20"><vh>draw_badc</vh></v>
-<v t="leo.20160512142214.21"><vh>draw_abcd</vh></v>
-<v t="leo.20160512142214.22"><vh>drawcircle</vh></v>
-<v t="leo.20160512142214.23"><vh>drawcircle1</vh></v>
-<v t="leo.20160512142214.24"><vh>drawcircle2</vh></v>
-<v t="leo.20160512142214.25"><vh>drawtwocircle</vh></v>
-<v t="leo.20160512142214.26"><vh>draweithteenthirdy</vh></v>
-<v t="leo.20160512142214.27"><vh>snap</vh></v>
-<v t="leo.20160512142214.28"><vh>snap_link</vh></v>
-<v t="leo.20160512142214.29"><vh>snap_gear</vh></v>
+<v t="leo.20160526094645.1" a="E"><vh>@clean bg5_40323253_1.py</vh>
+<v t="leo.20160526094848.1"><vh>bg5_40323253_1 declarations</vh></v>
+<v t="leo.20160526094848.2"><vh>a</vh></v>
+<v t="leo.20160526094848.3"><vh>b</vh></v>
+<v t="leo.20160526094848.4"><vh>c</vh></v>
+<v t="leo.20160526094848.5"><vh>d</vh></v>
+<v t="leo.20160526094848.6"><vh>circle</vh></v>
+<v t="leo.20160526094848.7"><vh>circle1</vh></v>
+<v t="leo.20160526094848.8"><vh>circle2</vh></v>
+<v t="leo.20160526094848.9"><vh>twocircle</vh></v>
+<v t="leo.20160526094848.10"><vh>eighteenthirty</vh></v>
+<v t="leo.20160526094848.11"><vh>draw_a</vh></v>
+<v t="leo.20160526094848.12"><vh>draw_b</vh></v>
+<v t="leo.20160526094848.13"><vh>draw_c</vh></v>
+<v t="leo.20160526094848.14"><vh>draw_d</vh></v>
+<v t="leo.20160526094848.15"><vh>draw_ab</vh></v>
+<v t="leo.20160526094848.16"><vh>draw_ac</vh></v>
+<v t="leo.20160526094848.17"><vh>draw_bc</vh></v>
+<v t="leo.20160526094848.18"><vh>draw_abc</vh></v>
+<v t="leo.20160526094848.19"><vh>draw_aaaa</vh></v>
+<v t="leo.20160526094848.20"><vh>draw_badc</vh></v>
+<v t="leo.20160526094848.21"><vh>draw_abcd</vh></v>
+<v t="leo.20160526094848.22"><vh>drawcircle</vh></v>
+<v t="leo.20160526094848.23"><vh>drawcircle1</vh></v>
+<v t="leo.20160526094848.24"><vh>drawcircle2</vh></v>
+<v t="leo.20160526094848.25"><vh>drawtwocircle</vh></v>
+<v t="leo.20160526094848.26"><vh>draweithteenthirdy</vh></v>
+<v t="leo.20160526094848.27"><vh>snap</vh></v>
+<v t="leo.20160526094848.28"><vh>snap_link</vh></v>
+<v t="leo.20160526094848.29"><vh>snap_gear</vh></v>
 </v>
-<v t="leo.20160505115812.1" a="E"><vh>@clean bg5_40323253.py</vh>
+<v t="leo.20160505115812.1"><vh>@clean bg5_40323253.py</vh>
 <v t="leo.20160505115812.2"><vh>bg5_40323253 declarations</vh></v>
 <v t="leo.20160505115812.3"><vh>a</vh></v>
 <v t="leo.20160505115812.4"><vh>draw_a</vh></v>
@@ -116,16 +116,103 @@ g.es("admin pelican 近端執行完畢")
 @others
 if __name__ == "__main__":
     app.run()
-    
+app.register_blueprint(users.a.g4.ag4_40323138.ag4_40323138)
+app.register_blueprint(users.a.g10.ag10_40323141_task1.ag10_40323141)    
+app.register_blueprint(users.a.g9.ag9_40323132task.ag9_40323132)
+app.register_blueprint(users.a.g10.ag10_40323139.ag10_40323139)
+app.register_blueprint(users.a.g5.ag5_40323113task1.ag5_40323113)
+app.register_blueprint(users.a.g5.ag5_40123145task1.ag5_40123145)
+app.register_blueprint(users.a.g8.ag8_40323131_task1.ag8_40323131)
+app.register_blueprint(users.a.g4.ag4_40323138_task2bacd.ag4_40323138bacd)
+app.register_blueprint(users.a.g4.ag4_40323138_task3abcd.ag4_40323138task3)
+app.register_blueprint(users.a.g8.ag8_40323123.ag8_40323123)
+app.register_blueprint(users.a.g10.ag10_40323129_task1.ag10_40323129)
+app.register_blueprint(users.a.g2.ag2_40323120.ag2_40323120)
+app.register_blueprint(users.a.g1.ag1_40323105.ag1_40323105)
+app.register_blueprint(users.a.g1.a40223153.ag1_40223153)
+app.register_blueprint(users.a.g3.ag3_40323108.ag3_40323108)
+app.register_blueprint(users.a.g3.ag3_40323108_task2bacd.ag3_40323108bacd)
+app.register_blueprint(users.a.g3.ag3_40323108_task3abcd.ag3_40323108task3)
 
+app.register_blueprint(users.b.g9.bg9_40323250.bg9_40323250)
+#bg1
+app.register_blueprint(users.b.g1.bg1_40123156.bg1_40123156)
+app.register_blueprint(users.b.g1.bg1_40123156_2.bg1_40123156_2)
+
+app.register_blueprint(users.b.g1.bg1_40123129.bg1_40123129)
+app.register_blueprint(users.b.g1.bg1_40123129_2.bg1_40123129_2)
+
+app.register_blueprint(users.b.g1.bg1_40123144.bg1_40123144)
+app.register_blueprint(users.b.g1.bg1_40123144_2.bg40123144)
+#app.register_blueprint(users.b.g1.bg1_40123131.bg1_40123131)
+#app.register_blueprint(users.b.g1.bg1_40123131_2.bg40123131)
+app.register_blueprint(users.b.g1.b40123131_cdw11.bg1_40123131)
+app.register_blueprint(users.b.g1.b40123131_cdw12.bg1)
+
+app.register_blueprint(users.b.g1.b40123131_cdw11.bg1_40123131)
+app.register_blueprint(users.b.g1.b40123131_cdw12.bg1)
+app.register_blueprint(users.b.g1.bg1_40123134.bg1_40123134)
+app.register_blueprint(users.b.g1.bg1_40123134_2.bg1_40123134_2)
+app.register_blueprint(users.b.g1.bg1_40123134_3.bg1_40123134_3)
+app.register_blueprint(users.b.g1.b40123133_cdw11.bg1_40123133)
+app.register_blueprint(users.b.g1.b40123133_cdw12.bg1_40123133_2)
+#app.register_blueprint(users.b.g1.bg1_40123131.bg1_40123131)
+#app.register_blueprint(users.b.g1.bg1_40123131_2.bg40123131)
+
+
+#bg2
+app.register_blueprint(users.b.g2.bg2_40123235.bg2_40123235)
+app.register_blueprint(users.b.g2.bg2_40123202.bg2_40123202)
+app.register_blueprint(users.b.g2.bg2_40123235_cdw12.b40123235)
+app.register_blueprint(users.b.g2.bg2_40123202_1.b40123202)
+app.register_blueprint(users.b.g2.bg2_40123226_cdw12.b40123226)
+app.register_blueprint(users.b.g2.bg2_40123232_cdw12.b40123232)
+app.register_blueprint(users.b.g2.bg2_40123214_cdw12.b40123214)
+app.register_blueprint(users.b.g2.bg2_40123217_cdw12.b40123217)
+app.register_blueprint(users.b.g2.bg2_40123244_cdw12.b40123244)
+#bg4
+app.register_blueprint(users.b.g4.bg4_40323203.bg4_40323203)
+app.register_blueprint(users.b.g4.bg4_40323205.bg4_40323205)
+app.register_blueprint(users.b.g4.bg4_40323208.bg4_40323208)
+#bg8
+app.register_blueprint(users.b.g8.bg8_40323213.bg8_40323213)
+app.register_blueprint(users.b.g4.bg4_40323202.bg4_40323202)
+app.register_blueprint(users.b.g4.b40323201_cdw11.b40323201)
+#bg5
 app.register_blueprint(users.b.g5.b40323204_cdw11_1.bg5_40323204_1)
-#app.register_blueprint(users.b.g5.b40323204_cdw11_2.bg5_40323204_1)
-app.register_blueprint(users.b.g5.b40323204_cdw11.bg5_40323204)
+#app.register_blueprint(users.b.g5.b40323206_cdw11_1.bg5_40323206_1)
+app.register_blueprint(users.b.g5.b40323206_cdw11_2.bg5_40323206_2)
 app.register_blueprint(users.b.g5.bg5_40323253.bg5_40323253)
 app.register_blueprint(users.b.g5.bg5_40323253_1.bg5_40323253_1)
+#bg11
+app.register_blueprint(users.b.g11.bg11_40323245.bg11_40323245)
+app.register_blueprint(users.b.g11.bg11_40323252.bg11_40323252)
+app.register_blueprint(users.b.g11.bg11_40323245_1.bg11)
+#bg101
+app.register_blueprint(users.b.g101.b40123200.bg101)
+
+#ag8
+app.register_blueprint(users.a.g8.a40323143.ag8_40323143)
+app.register_blueprint(users.a.g8.a40323154.ag8_40323154)
+#ag10
+app.register_blueprint(users.a.g10.a40323139.ag10_40323139_1)
+#app.register_blueprint(users.a.g10.a40323141.ag10_40323141_1)
+#ag3
+app.register_blueprint(users.a.g3.a40323108.ag3_40323108_1)
+#ag100
+app.register_blueprint(users.a.g100.cdw13.a40123100.ag100)
+
+#bg3
+#app.register_blueprint(users.b.g3.bg3_40123224.bg3_40123224)
+#app.register_blueprint(users.b.g3.bg3_.bg3_40123250)
+#app.register_blueprint(users.b.g3.bg3_40123250.bg3_40123242)
+app.register_blueprint(users.b.g3.bg3_40123224_cdw11.b40123224)
+app.register_blueprint(users.b.g3.bg3_40123250.bg3_40123250)
+app.register_blueprint(users.b.g3.bg3_40123250_cdw11.b40123250)
+#app.register_blueprint(users.b.g3.bg3_40123250.bg3_40123242)
+app.register_blueprint(users.b.g3.bg3_40123242_cdw12.b40123242)
 
 
-  
 
 </t>
 <t tx="amd.20160501221001.10">@app.route('/fileaxupload', methods=['POST'])
@@ -260,13 +347,100 @@ import math
 import os
 # init.py 為自行建立的起始物件
 import init
+import users.a.g1.ag1_40323105
+import users.a.g2.ag2_40323120
+import users.a.g10.ag10_40323129_task1
+import users.a.g10.ag10_40323141_task1
+import users.a.g10.ag10_40323139
+import users.a.g9.ag9_40323132task
+import users.a.g5.ag5_40323113task1
+import users.a.g5.ag5_40123145task1
+import users.a.g4.ag4_40323138
+import users.a.g4.ag4_40323138_task2bacd
+import users.a.g4.ag4_40323138_task3abcd
+import users.a.g8.ag8_40323131_task1
+import users.b.g9.bg9_40323250
+import users.a.g8.ag8_40323123
+import users.a.g1.a40223153
+import users.a.g3.ag3_40323108
+import users.a.g3.ag3_40323108_task2bacd
+import users.a.g3.ag3_40323108_task3abcd
+#bg1
+import users.b.g1.bg1_40123156
+import users.b.g1.bg1_40123156_2
+import users.b.g1.bg1_40123129
+import users.b.g1.bg1_40123129_2
+import users.b.g1.bg1_40123144
+import users.b.g1.bg1_40123144_2
+#import users.b.g1.bg1_40123131
+#import users.b.g1.bg1_40123131_2
+import users.b.g1.b40123131_cdw11
+import users.b.g1.b40123131_cdw12
+
+import users.b.g1.b40123131_cdw11
+import users.b.g1.b40123131_cdw12
+import users.b.g1.bg1_40123134
+import users.b.g1.bg1_40123134_2
+import users.b.g1.bg1_40123134_3
+import users.b.g1.b40123133_cdw11
+import users.b.g1.b40123133_cdw12
+#bg2
+import users.b.g2.bg2_40123235
+import users.b.g2.bg2_40123235_cdw12
+import users.b.g2.bg2_40123202
+import users.b.g2.bg2_40123202_1
+import users.b.g2.bg2_40123226_cdw12
+import users.b.g2.bg2_40123232_cdw12
+import users.b.g2.bg2_40123214_cdw12
+import users.b.g2.bg2_40123217_cdw12
+import users.b.g2.bg2_40123244_cdw12
+#bg4
+import users.b.g4.bg4_40323203
+import users.b.g4.bg4_40323205
+import users.b.g4.bg4_40323208
+#bg8
+import users.b.g8.bg8_40323213
+import users.b.g4.bg4_40323202
+import users.b.g4.b40323201_cdw11
+
+#bg5
+#import users.b.g5.b40323206_cdw11_1
+import users.b.g5.b40323204_cdw11_1
 
 
-import users.b.g5.b40323204_cdw11
+#bg5
+#import users.b.g5.b40323206_cdw11_1
 import users.b.g5.b40323204_cdw11_1
 import users.b.g5.b40323204_cdw11_2
+import users.b.g5.b40323206_cdw11_2
 import users.b.g5.bg5_40323253
 import users.b.g5.bg5_40323253_1
+#bg11
+import users.b.g11.bg11_40323245
+import users.b.g11.bg11_40323252
+import users.b.g11.bg11_40323245_1
+#bg101
+import users.b.g101.b40123200
+#ag8
+import users.a.g8.a40323143
+import users.a.g8.a40323154
+#ag10
+import users.a.g10.a40323139
+import users.a.g10.a40323141
+#bg3
+#import users.b.g3.b40123224
+#import users.b.g3.b40123250
+#import users.b.g3.b40123242
+import users.b.g3.bg3_40123224
+import users.b.g3.bg3_40123224_cdw11
+import users.b.g3.bg3_40123250
+import users.b.g3.bg3_40123250_cdw11
+#import users.b.g3.b40123242
+import users.b.g3.bg3_40123242_cdw12
+#ag3
+import users.a.g3.a40323108
+#ag100
+import users.a.g100.cdw13.a40123100
 # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
 _curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
 # 設定在雲端與近端的資料儲存目錄
@@ -292,8 +466,6 @@ app = Flask(__name__)
 # In order to use sessions you have to set a secret key
 # set the secret key.  keep this really secret:
 app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
-
-
 
 
 
@@ -726,11 +898,11 @@ x1, y1 = mychain.basic_rot('''+str(x)+","+str(y)+", "+str(first_degree)+''')
 #@ag100.route('/circle36/&lt;int:x&gt;/&lt;int:y&gt;/&lt;int:degree&gt;')
 def drawcircle36(x,y,degree):
     return head_str + chain_str + circle36(int(x), int(y), int(degree)) + tail_str</t>
-<t tx="leo.20160512142003.1">@language python
+<t tx="leo.20160526094645.1">@language python
 @tabwidth -4
 @others
 </t>
-<t tx="leo.20160512142214.1">from flask import Blueprint, request
+<t tx="leo.20160526094848.1">from flask import Blueprint, request
  
 bg5_40323253_1 = Blueprint('bg5_40323253_1', __name__, url_prefix='/bg5_40323253_1', template_folder='templates')
  
@@ -868,7 +1040,7 @@ class chain():
 '''
  
 </t>
-<t tx="leo.20160512142214.10">def eighteenthirty(x, y):
+<t tx="leo.20160526094848.10">def eighteenthirty(x, y):
     '''
 從圖解法與符號式解法得到的兩條外切線座標點
 (-203.592946177111, 0.0), (0.0, 0.0), (-214.364148466539, 56.5714145924675), (-17.8936874260919, 93.9794075692901)
@@ -879,12 +1051,12 @@ class chain():
     # 20 為鏈條兩圓距
     # chain 所圍之圓圈半徑為 20/2/math.asin(degree*math.pi/180/2)
     # degree = math.asin(20/2/radius)*180/math.pi
-    #x = 50
-    #y = 0
+    x = 50
+    y = 0
     degree = 20
-    first_degree = 20.78
-    startx = -233.06+100+x
-    starty = 49.48+y
+    first_degree = 20.78+90
+    startx = -33
+    starty = -150
     repeat = 360 / degree
     # 先畫出左邊第一關鍵節
     outstring = '''
@@ -905,10 +1077,10 @@ x1, y1 = mychain.basic_rot('''+str(startx)+","+str(starty)+", "+str(first_degree
     # 接著處理右邊的非虛擬鍊條
     # 先畫出右邊第一關鍵節
  
-    p = -17.89+100+x
-    k = 93.98+y
+    p = -75
+    k = 70
     degree = 12
-    first_degree = 4.78
+    first_degree = 4.78+92
     repeat = 360 / degree
     # 第1節不是 virtual chain
     outstring += '''
@@ -926,7 +1098,7 @@ p1, k1 = mychain.basic_rot('''+str(p)+","+str(k)+", "+str(first_degree)+''')
  
     # 上段連接直線
     # 從 x1, y1 作為起點
-    first_degree = 10.78
+    first_degree = 10.78+89
     repeat = 10
     outstring += '''
 m1, n1 = mychain.basic_rot(x1, y1, '''+str(first_degree)+''')
@@ -936,7 +1108,7 @@ m1, n1 = mychain.basic_rot(x1, y1, '''+str(first_degree)+''')
  
     # 下段連接直線
     # 從 x11, y11 作為起點
-    first_degree = -10.78
+    first_degree = -10.78+90
     repeat = 10
     outstring += '''
 r1, s1 = mychain.basic_rot(x11, y11, '''+str(first_degree)+''')
@@ -948,58 +1120,58 @@ r1, s1 = mychain.basic_rot(x11, y11, '''+str(first_degree)+''')
  
  
 </t>
-<t tx="leo.20160512142214.11">@bg5_40323253_1.route('/a')
+<t tx="leo.20160526094848.11">@bg5_40323253_1.route('/a')
 def draw_a():
     return head_str + chain_str + a(0, 0) + tail_str
  
  
 </t>
-<t tx="leo.20160512142214.12">@bg5_40323253_1.route('/b')
+<t tx="leo.20160526094848.12">@bg5_40323253_1.route('/b')
 def draw_b():
    # 每個橫向字元距離為 65 pixels, 上下字距則為 110 pixels
     return head_str + chain_str + b(0+65, 0) + tail_str
  
  
 </t>
-<t tx="leo.20160512142214.13">@bg5_40323253_1.route('/c')
+<t tx="leo.20160526094848.13">@bg5_40323253_1.route('/c')
 def draw_c():
     # 每個橫向字元距離為 65 pixels
     return head_str + chain_str + c(0+65*2, 0) + tail_str
  
  
 </t>
-<t tx="leo.20160512142214.14">@bg5_40323253_1.route('/d')
+<t tx="leo.20160526094848.14">@bg5_40323253_1.route('/d')
 def draw_d():
     return head_str + chain_str + d(0+65*3, 0) + tail_str
  
  
 </t>
-<t tx="leo.20160512142214.15">@bg5_40323253_1.route('/ab')
+<t tx="leo.20160526094848.15">@bg5_40323253_1.route('/ab')
 def draw_ab():
     #return head_str + chain_str + a(0, 0) + b(0+65, 0) + tail_str
     return head_str + chain_str + a(0, 0) + b(0, 0-110) + tail_str
  
  
 </t>
-<t tx="leo.20160512142214.16">@bg5_40323253_1.route('/ac')
+<t tx="leo.20160526094848.16">@bg5_40323253_1.route('/ac')
 def draw_ac():
     return head_str + chain_str + a(0, 0) + c(0+65, 0) + tail_str
  
  
 </t>
-<t tx="leo.20160512142214.17">@bg5_40323253_1.route('/bc')
+<t tx="leo.20160526094848.17">@bg5_40323253_1.route('/bc')
 def draw_bc():
     return head_str + chain_str + b(0, 0) + c(0+65, 0) + tail_str
  
  
 </t>
-<t tx="leo.20160512142214.18">@bg5_40323253_1.route('/abc')
+<t tx="leo.20160526094848.18">@bg5_40323253_1.route('/abc')
 def draw_abc():
     return head_str + chain_str + a(0, 0) + b(0+65, 0) + c(0+65*2, 0) + tail_str
  
  
 </t>
-<t tx="leo.20160512142214.19">@bg5_40323253_1.route('/aaaa')
+<t tx="leo.20160526094848.19">@bg5_40323253_1.route('/aaaa')
 def draw_aaaa():
     outstring = head_str + chain_str
     scale = 2
@@ -1011,7 +1183,7 @@ def draw_aaaa():
  
  
 </t>
-<t tx="leo.20160512142214.2"># 傳繪 A 函式內容
+<t tx="leo.20160526094848.2"># 傳繪 A 函式內容
 def a(x, y, scale=1, color="green"):
     outstring = '''
 # 利用 chain class 建立案例, 對應到 mychain 變數
@@ -1041,26 +1213,26 @@ mychain.basic(x10, y10, x1, y1)
  
  
 </t>
-<t tx="leo.20160512142214.20">@bg5_40323253_1.route('/badc')
+<t tx="leo.20160526094848.20">@bg5_40323253_1.route('/badc')
 def draw_badc():
     return head_str + chain_str + b(0, 0) + a(0+65, 0) + d(0+65*2, 0) + c(0+65*3, 0) + tail_str
  
  
 </t>
-<t tx="leo.20160512142214.21">@bg5_40323253_1.route('/abcd')
+<t tx="leo.20160526094848.21">@bg5_40323253_1.route('/abcd')
 def draw_abcd():
     #return head_str + chain_str + a(0, 0) + b(0+65, 0) + c(0+65*2, 0) + d(0+65*3, 0) + tail_str
     return head_str + chain_str + a(0, 110) + b(0, 110-110) + c(0, 110-110*2) + d(0, 110-110*3) + tail_str
  
  
 </t>
-<t tx="leo.20160512142214.22">@bg5_40323253_1.route('/circle')
+<t tx="leo.20160526094848.22">@bg5_40323253_1.route('/circle')
 def drawcircle():
     return head_str + chain_str + circle(0, 0) + tail_str
  
  
 </t>
-<t tx="leo.20160512142214.23">@bg5_40323253_1.route('/circle1/&lt;degree&gt;', defaults={'x': 0, 'y': 0})
+<t tx="leo.20160526094848.23">@bg5_40323253_1.route('/circle1/&lt;degree&gt;', defaults={'x': 0, 'y': 0})
 @bg5_40323253_1.route('/circle1/&lt;x&gt;/&lt;degree&gt;', defaults={'y': 0})
 @bg5_40323253_1.route('/circle1/&lt;x&gt;/&lt;y&gt;/&lt;degree&gt;')
 #@bg5_40323253_1.route('/circle1/&lt;int:x&gt;/&lt;int:y&gt;/&lt;int:degree&gt;')
@@ -1069,7 +1241,7 @@ def drawcircle1(x,y,degree):
  
  
 </t>
-<t tx="leo.20160512142214.24">@bg5_40323253_1.route('/circle2/&lt;degree&gt;', defaults={'x': 0, 'y': 0})
+<t tx="leo.20160526094848.24">@bg5_40323253_1.route('/circle2/&lt;degree&gt;', defaults={'x': 0, 'y': 0})
 @bg5_40323253_1.route('/circle2/&lt;x&gt;/&lt;degree&gt;', defaults={'y': 0})
 @bg5_40323253_1.route('/circle2/&lt;x&gt;/&lt;y&gt;/&lt;degree&gt;')
 #@bg5_40323253_1.route('/circle2/&lt;int:x&gt;/&lt;int:y&gt;/&lt;int:degree&gt;')
@@ -1078,21 +1250,21 @@ def drawcircle2(x,y,degree):
  
  
 </t>
-<t tx="leo.20160512142214.25">@bg5_40323253_1.route('/twocircle/&lt;x&gt;/&lt;y&gt;')
+<t tx="leo.20160526094848.25">@bg5_40323253_1.route('/twocircle/&lt;x&gt;/&lt;y&gt;')
 @bg5_40323253_1.route('/twocircle', defaults={'x':0, 'y':0})
 def drawtwocircle(x,y):
     return head_str + chain_str + twocircle(int(x), int(y)) + tail_str
  
  
 </t>
-<t tx="leo.20160512142214.26">@bg5_40323253_1.route('/eighteenthirty/&lt;x&gt;/&lt;y&gt;')
+<t tx="leo.20160526094848.26">@bg5_40323253_1.route('/eighteenthirty/&lt;x&gt;/&lt;y&gt;')
 @bg5_40323253_1.route('/eighteenthirty', defaults={'x':0, 'y':0})
 def draweithteenthirdy(x,y):
     return head_str + chain_str + eighteenthirty(int(x), int(y)) + tail_str
  
  
 </t>
-<t tx="leo.20160512142214.27">@bg5_40323253_1.route('/snap')
+<t tx="leo.20160526094848.27">@bg5_40323253_1.route('/snap')
 # http://svg.dabbles.info/snaptut-base
 def snap():
     outstring = '''
@@ -1172,7 +1344,7 @@ document['tux'].bind('mouseleave', hoverout)
  
  
 </t>
-<t tx="leo.20160512142214.28">@bg5_40323253_1.route('/snap_link')
+<t tx="leo.20160526094848.28">@bg5_40323253_1.route('/snap_link')
 # http://svg.dabbles.info/
 def snap_link():
     outstring = '''
@@ -1255,7 +1427,7 @@ g4.animate( { 'transform' : 'r360,25,25' },4000)
  
  
 </t>
-<t tx="leo.20160512142214.29">@bg5_40323253_1.route('/snap_gear')
+<t tx="leo.20160526094848.29">@bg5_40323253_1.route('/snap_gear')
 def snap_gear():
     outstring = '''
 &lt;!DOCTYPE html&gt;
@@ -1294,7 +1466,7 @@ s.line(0, 0, 100, 100).attr({ 'fill': "silver", 'stroke': "black", 'strokeWidth'
 &lt;/html&gt;
 '''
     return outstring</t>
-<t tx="leo.20160512142214.3"># 傳繪 B 函式內容
+<t tx="leo.20160526094848.3"># 傳繪 B 函式內容
 def b(x, y):
     outstring = '''
 # 利用 chain class 建立案例, 對應到 mychain 變數
@@ -1331,7 +1503,7 @@ mychain.basic(x12,y12, '''+str(x)+","+str(y)+''')
     return outstring
  
 </t>
-<t tx="leo.20160512142214.4"># 傳繪 C 函式內容
+<t tx="leo.20160526094848.4"># 傳繪 C 函式內容
 def c(x, y):
     outstring = '''
 # 利用 chain class 建立案例, 對應到 mychain 變數
@@ -1360,7 +1532,7 @@ x7, y7 = mychain.basic_rot(x6, y6, -0)
  
  
 </t>
-<t tx="leo.20160512142214.5"># 傳繪 D 函式內容
+<t tx="leo.20160526094848.5"># 傳繪 D 函式內容
 def d(x, y):
     outstring = '''
 # 利用 chain class 建立案例, 對應到 mychain 變數
@@ -1391,7 +1563,7 @@ mychain.basic(x10, y10, '''+str(x)+","+str(y)+''')
     return outstring
  
 </t>
-<t tx="leo.20160512142214.6">def circle(x, y):
+<t tx="leo.20160526094848.6">def circle(x, y):
     outstring = '''
 mychain = chain()
  
@@ -1402,7 +1574,7 @@ x1, y1 = mychain.basic_rot('''+str(x)+","+str(y)+''', 50)
     return outstring
  
 </t>
-<t tx="leo.20160512142214.7">def circle1(x, y, degree=10):
+<t tx="leo.20160526094848.7">def circle1(x, y, degree=10):
     # 20 為鏈條兩圓距
     # chain 所圍之圓圈半徑為 20/2/math.asin(degree*math.pi/180/2)
     # degree = math.asin(20/2/radius)*180/math.pi
@@ -1420,7 +1592,7 @@ x1, y1 = mychain.basic_rot('''+str(x)+","+str(y)+", "+str(first_degree)+''')
  
  
 </t>
-<t tx="leo.20160512142214.8">def circle2(x, y, degree=10):
+<t tx="leo.20160526094848.8">def circle2(x, y, degree=10):
     # 20 為鏈條兩圓距
     # chain 所圍之圓圈半徑為 20/2/math.asin(degree*math.pi/180/2)
     # degree = math.asin(20/2/radius)*180/math.pi
@@ -1439,7 +1611,7 @@ x1, y1 = mychain.basic_rot('''+str(x)+","+str(y)+", "+str(first_degree)+''')
  
  
 </t>
-<t tx="leo.20160512142214.9">def twocircle(x, y):
+<t tx="leo.20160526094848.9">def twocircle(x, y):
     # 20 為鏈條兩圓距
     # chain 所圍之圓圈半徑為 20/2/math.asin(degree*math.pi/180/2)
     # degree = math.asin(20/2/radius)*180/math.pi
