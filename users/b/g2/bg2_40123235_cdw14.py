@@ -1,5 +1,12 @@
-@g1app.route('/threegear', defaults={'n1':15,'n2':20,'n3':18})
-@g1app.route('/threegear/<n1>/<n2>/<n3>')
+from flask import Blueprint, render_template
+
+# 這裡設定的 template_folder 為 template 搜尋目錄, 表示位於 user/g1/templates 目錄中
+# 但是若 wcmw14/templates 目錄中有相同名稱的 template file, 則優先取外部的檔案
+# 這樣的設計希望可以在統整各藍圖時, 可以隨時根據需要改寫 template 配置
+b40123235_1 = Blueprint('b40123235_1', __name__, url_prefix='/b40123235_1', template_folder='templates')
+
+@b40123235_1.route('/threegear', defaults={'n1':15,'n2':20,'n3':18})
+@b40123235_1.route('/threegear/<n1>/<n2>/<n3>')
 def threegear(n1, n2, n3):
     # 真正最後的架構應該要在函式中準備繪圖所需的資料, 然後用 template 呈現內容
     title = "網際 2D 繪圖"
