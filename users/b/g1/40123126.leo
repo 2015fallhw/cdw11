@@ -13,10 +13,9 @@
 <v t="leo.20160512114644.1"><vh>40123156的筆記</vh></v>
 <v t="amd.20160501215436.2" a="E"><vh>pelican 部份</vh>
 <v t="amd.20160501215942.1" a="E"><vh>@path ./../../../static/content/b/g1</vh>
-<v t="amd.20160501215720.1"><vh>@edit 40123156-20160505.md</vh></v>
-<v t="leo.20160526101309.1"><vh>@edit 40123156-20160519.md</vh></v>
+<v t="amd.20160501215720.1"><vh>@edit 40123126-20160505.md</vh></v>
 </v>
-<v t="amd.20160501215558.1"><vh>@path ./../../../</vh>
+<v t="amd.20160501215558.1" a="E"><vh>@path ./../../../</vh>
 <v t="amd.20160501223113.1"><vh>@edit README.md</vh></v>
 <v t="amd.20160501215634.1"><vh>@path static</vh>
 <v t="amd.20160501220009.1"><vh>假如要送到 gh-pages 分支, 使用下列按鈕</vh>
@@ -28,15 +27,15 @@
 </v>
 </v>
 </v>
-<v t="amd.20160501215545.1"><vh>wsgi 程式部份</vh>
-<v t="leo.20160505180155.1"><vh>@clean bg1_40123156.py</vh>
-<v t="leo.20160505180755.1"><vh>bg1_40123156 declarations</vh></v>
+<v t="amd.20160501215545.1" a="E"><vh>wsgi 程式部份</vh>
+<v t="leo.20160505180155.1" a="E"><vh>@clean bg1_40123126.py</vh>
+<v t="leo.20160505180755.1"><vh>bg1_40123126 declarations</vh></v>
 <v t="leo.20160505180755.2"><vh>one</vh></v>
 <v t="leo.20160505180755.3"><vh>two</vh></v>
 <v t="leo.20160505180755.4"><vh>three</vh></v>
 </v>
-<v t="leo.20160512105545.1"><vh>@clean bg1_40123156_2.py</vh>
-<v t="leo.20160512112035.1"><vh>bg1_40123156_2 declarations</vh></v>
+<v t="leo.20160512105545.1" a="E"><vh>@clean bg1_40123126_2.py</vh>
+<v t="leo.20160512112035.1"><vh>bg1_40123126_2 declarations</vh></v>
 <v t="leo.20160512112035.2"><vh>a</vh></v>
 <v t="leo.20160512112035.3"><vh>b</vh></v>
 <v t="leo.20160512112035.4"><vh>c</vh></v>
@@ -66,7 +65,7 @@
 <v t="leo.20160512112035.28"><vh>snap_link</vh></v>
 <v t="leo.20160512112035.29"><vh>snap_gear</vh></v>
 </v>
-<v t="amd.20160501221015.1"><vh>@path ./../../../</vh>
+<v t="amd.20160501221015.1" a="E"><vh>@path ./../../../</vh>
 <v t="amd.20160501221001.1" a="E"><vh>@clean myflaskapp.py</vh>
 <v t="amd.20160501221001.2"><vh>myflaskapp declarations</vh></v>
 <v t="amd.20160501221001.3"><vh>index</vh></v>
@@ -88,10 +87,10 @@
 </v>
 </v>
 </v>
-<v t="leo.20160526100610.1" a="E"><vh>Recovered Nodes</vh>
-<v t="leo.20160526100610.2"><vh>Recovered node "myflaskapp declarations" from @clean myflaskapp.py</vh>
-<v t="leo.20160526100610.3"><vh>old:myflaskapp declarations</vh></v>
-<v t="leo.20160526100610.4"><vh>new:myflaskapp declarations</vh></v>
+<v t="leo.20160526100609.2" a="E"><vh>Recovered Nodes</vh>
+<v t="leo.20160526100609.3"><vh>Recovered node "myflaskapp declarations" from @clean myflaskapp.py</vh>
+<v t="leo.20160526100609.4"><vh>old:myflaskapp declarations</vh></v>
+<v t="leo.20160526100609.5"><vh>new:myflaskapp declarations</vh></v>
 </v>
 </v>
 </vnodes>
@@ -166,6 +165,8 @@ app.register_blueprint(users.b.g1.b40123133_cdw12.bg1_40123133_2)
 #app.register_blueprint(users.b.g1.bg1_40123131.bg1_40123131)
 #app.register_blueprint(users.b.g1.bg1_40123131_2.bg40123131)
 
+app.register_blueprint(users.b.g1.bg1_40123126.bg1_40123126)
+app.register_blueprint(users.b.g1.bg1_40123126_2.bg1_40123126_2)
 
 #bg2
 app.register_blueprint(users.b.g2.bg2_40123235.bg2_40123235)
@@ -389,6 +390,8 @@ import users.b.g1.bg1_40123134_2
 import users.b.g1.bg1_40123134_3
 import users.b.g1.b40123133_cdw11
 import users.b.g1.b40123133_cdw12
+import users.b.g1.bg1_40123126
+import users.b.g1.bg1_40123126_2
 #bg2
 import users.b.g2.bg2_40123235
 import users.b.g2.bg2_40123235_cdw12
@@ -711,13 +714,13 @@ def send_blog():
 from flask import Blueprint, render_template, make_response
 
 # 利用 Blueprint建立 ag1, 並且 url 前綴為 /ag1, 並設定 template 存放目錄
-bg1_40123156 = Blueprint('bg1_40123156', __name__, url_prefix='/bg1_40123156', template_folder='templates')
+bg1_40123126 = Blueprint('bg1_40123126', __name__, url_prefix='/bg1_40123126', template_folder='templates')
 
 
 
 
 </t>
-<t tx="leo.20160505180755.2">@bg1_40123156.route('/one')
+<t tx="leo.20160505180755.2">@bg1_40123126.route('/one')
 def one():
     outstring = '''
 &lt;!DOCTYPE html&gt;
@@ -924,7 +927,7 @@ mychain.basic(x10, y10, x1, y1, color="green")
     
 
 </t>
-<t tx="leo.20160505180755.3">@bg1_40123156.route('/two')
+<t tx="leo.20160505180755.3">@bg1_40123126.route('/two')
 def two():
     outstring = '''
 &lt;!DOCTYPE html&gt;
@@ -1137,7 +1140,7 @@ mychain.basic(x10, y10, 0+65*3, 0, color="green")
 
 
 </t>
-<t tx="leo.20160505180755.4">@bg1_40123156.route('/three')
+<t tx="leo.20160505180755.4">@bg1_40123126.route('/three')
 def three():
     outstring = '''
 &lt;!DOCTYPE html&gt;
@@ -1355,7 +1358,7 @@ x7, y7 = mychain.basic_rot(x6, y6, -0, color="green")
 </t>
 <t tx="leo.20160512112035.1">from flask import Blueprint, request
  
-bg1_40123156_2 = Blueprint('bg1_40123156_2', __name__, url_prefix='/bg1_40123156_2', template_folder='templates')
+bg1_40123126_2 = Blueprint('bg1_40123126_2', __name__, url_prefix='/bg1_40123126_2', template_folder='templates')
  
 head_str = '''
 &lt;!DOCTYPE html&gt;
@@ -1571,58 +1574,58 @@ r1, s1 = mychain.basic_rot(x11, y11, '''+str(first_degree)+''')
  
  
 </t>
-<t tx="leo.20160512112035.11">@bg1_40123156_2.route('/a')
+<t tx="leo.20160512112035.11">@bg1_40123126_2.route('/a')
 def draw_a():
     return head_str + chain_str + a(0, 0) + tail_str
  
  
 </t>
-<t tx="leo.20160512112035.12">@bg1_40123156_2.route('/b')
+<t tx="leo.20160512112035.12">@bg1_40123126_2.route('/b')
 def draw_b():
    # 每個橫向字元距離為 65 pixels, 上下字距則為 110 pixels
     return head_str + chain_str + b(0+65, 0) + tail_str
  
  
 </t>
-<t tx="leo.20160512112035.13">@bg1_40123156_2.route('/c')
+<t tx="leo.20160512112035.13">@bg1_40123126_2.route('/c')
 def draw_c():
     # 每個橫向字元距離為 65 pixels
     return head_str + chain_str + c(0+65*2, 0) + tail_str
  
  
 </t>
-<t tx="leo.20160512112035.14">@bg1_40123156_2.route('/d')
+<t tx="leo.20160512112035.14">@bg1_40123126_2.route('/d')
 def draw_d():
     return head_str + chain_str + d(0+65*3, 0) + tail_str
  
  
 </t>
-<t tx="leo.20160512112035.15">@bg1_40123156_2.route('/ab')
+<t tx="leo.20160512112035.15">@bg1_40123126_2.route('/ab')
 def draw_ab():
     #return head_str + chain_str + a(0, 0) + b(0+65, 0) + tail_str
     return head_str + chain_str + a(0, 0) + b(0, 0-110) + tail_str
  
  
 </t>
-<t tx="leo.20160512112035.16">@bg1_40123156_2.route('/ac')
+<t tx="leo.20160512112035.16">@bg1_40123126_2.route('/ac')
 def draw_ac():
     return head_str + chain_str + a(0, 0) + c(0+65, 0) + tail_str
  
  
 </t>
-<t tx="leo.20160512112035.17">@bg1_40123156_2.route('/bc')
+<t tx="leo.20160512112035.17">@bg1_40123126_2.route('/bc')
 def draw_bc():
     return head_str + chain_str + b(0, 0) + c(0+65, 0) + tail_str
  
  
 </t>
-<t tx="leo.20160512112035.18">@bg1_40123156_2.route('/abc')
+<t tx="leo.20160512112035.18">@bg1_40123126_2.route('/abc')
 def draw_abc():
     return head_str + chain_str + a(0, 0) + b(0+65, 0) + c(0+65*2, 0) + tail_str
  
  
 </t>
-<t tx="leo.20160512112035.19">@bg1_40123156_2.route('/aaaa')
+<t tx="leo.20160512112035.19">@bg1_40123126_2.route('/aaaa')
 def draw_aaaa():
     outstring = head_str + chain_str
     scale = 2
@@ -1664,58 +1667,58 @@ mychain.basic(x10, y10, x1, y1)
  
  
 </t>
-<t tx="leo.20160512112035.20">@bg1_40123156_2.route('/badc')
+<t tx="leo.20160512112035.20">@bg1_40123126_2.route('/badc')
 def draw_badc():
     return head_str + chain_str + b(0, 0) + a(0+65, 0) + d(0+65*2, 0) + c(0+65*3, 0) + tail_str
  
  
 </t>
-<t tx="leo.20160512112035.21">@bg1_40123156_2.route('/abcd')
+<t tx="leo.20160512112035.21">@bg1_40123126_2.route('/abcd')
 def draw_abcd():
     #return head_str + chain_str + a(0, 0) + b(0+65, 0) + c(0+65*2, 0) + d(0+65*3, 0) + tail_str
     return head_str + chain_str + a(0, 110) + b(0, 110-110) + c(0, 110-110*2) + d(0, 110-110*3) + tail_str
  
  
 </t>
-<t tx="leo.20160512112035.22">@bg1_40123156_2.route('/circle')
+<t tx="leo.20160512112035.22">@bg1_40123126_2.route('/circle')
 def drawcircle():
     return head_str + chain_str + circle(0, 0) + tail_str
  
  
 </t>
-<t tx="leo.20160512112035.23">@bg1_40123156_2.route('/circle1/&lt;degree&gt;', defaults={'x': 0, 'y': 0})
-@bg1_40123156_2.route('/circle1/&lt;x&gt;/&lt;degree&gt;', defaults={'y': 0})
-@bg1_40123156_2.route('/circle1/&lt;x&gt;/&lt;y&gt;/&lt;degree&gt;')
-#@bg1_40123156_2.route('/circle1/&lt;int:x&gt;/&lt;int:y&gt;/&lt;int:degree&gt;')
+<t tx="leo.20160512112035.23">@bg1_40123126_2.route('/circle1/&lt;degree&gt;', defaults={'x': 0, 'y': 0})
+@bg1_40123126_2.route('/circle1/&lt;x&gt;/&lt;degree&gt;', defaults={'y': 0})
+@bg1_40123126_2.route('/circle1/&lt;x&gt;/&lt;y&gt;/&lt;degree&gt;')
+#@bg1_40123126_2.route('/circle1/&lt;int:x&gt;/&lt;int:y&gt;/&lt;int:degree&gt;')
 def drawcircle1(x,y,degree):
     return head_str + chain_str + circle1(int(x), int(y), int(degree)) + tail_str
  
  
 </t>
-<t tx="leo.20160512112035.24">@bg1_40123156_2.route('/circle2/&lt;degree&gt;', defaults={'x': 0, 'y': 0})
-@bg1_40123156_2.route('/circle2/&lt;x&gt;/&lt;degree&gt;', defaults={'y': 0})
-@bg1_40123156_2.route('/circle2/&lt;x&gt;/&lt;y&gt;/&lt;degree&gt;')
-#@bg1_40123156_2.route('/circle2/&lt;int:x&gt;/&lt;int:y&gt;/&lt;int:degree&gt;')
+<t tx="leo.20160512112035.24">@bg1_40123126_2.route('/circle2/&lt;degree&gt;', defaults={'x': 0, 'y': 0})
+@bg1_40123126_2.route('/circle2/&lt;x&gt;/&lt;degree&gt;', defaults={'y': 0})
+@bg1_40123126_2.route('/circle2/&lt;x&gt;/&lt;y&gt;/&lt;degree&gt;')
+#@bg1_40123126_2.route('/circle2/&lt;int:x&gt;/&lt;int:y&gt;/&lt;int:degree&gt;')
 def drawcircle2(x,y,degree):
     return head_str + chain_str + circle2(int(x), int(y), int(degree)) + tail_str
  
  
 </t>
-<t tx="leo.20160512112035.25">@bg1_40123156_2.route('/twocircle/&lt;x&gt;/&lt;y&gt;')
-@bg1_40123156_2.route('/twocircle', defaults={'x':0, 'y':0})
+<t tx="leo.20160512112035.25">@bg1_40123126_2.route('/twocircle/&lt;x&gt;/&lt;y&gt;')
+@bg1_40123126_2.route('/twocircle', defaults={'x':0, 'y':0})
 def drawtwocircle(x,y):
     return head_str + chain_str + twocircle(int(x), int(y)) + tail_str
  
  
 </t>
-<t tx="leo.20160512112035.26">@bg1_40123156_2.route('/eighteenthirty/&lt;x&gt;/&lt;y&gt;')
-@bg1_40123156_2.route('/eighteenthirty', defaults={'x':0, 'y':0})
+<t tx="leo.20160512112035.26">@bg1_40123126_2.route('/eighteenthirty/&lt;x&gt;/&lt;y&gt;')
+@bg1_40123126_2.route('/eighteenthirty', defaults={'x':0, 'y':0})
 def draweithteenthirdy(x,y):
     return head_str + chain_str + eighteenthirty(int(x), int(y)) + tail_str
  
  
 </t>
-<t tx="leo.20160512112035.27">@bg1_40123156_2.route('/snap')
+<t tx="leo.20160512112035.27">@bg1_40123126_2.route('/snap')
 # http://svg.dabbles.info/snaptut-base
 def snap():
     outstring = '''
@@ -1795,7 +1798,7 @@ document['tux'].bind('mouseleave', hoverout)
  
  
 </t>
-<t tx="leo.20160512112035.28">@bg1_40123156_2.route('/snap_link')
+<t tx="leo.20160512112035.28">@bg1_40123126_2.route('/snap_link')
 # http://svg.dabbles.info/
 def snap_link():
     outstring = '''
@@ -1878,7 +1881,7 @@ g4.animate( { 'transform' : 'r360,25,25' },4000)
  
  
 </t>
-<t tx="leo.20160512112035.29">@bg1_40123156_2.route('/snap_gear')
+<t tx="leo.20160512112035.29">@bg1_40123126_2.route('/snap_gear')
 def snap_gear():
     outstring = '''
 &lt;!DOCTYPE html&gt;
@@ -2137,7 +2140,8 @@ r1, s1 = mychain.basic_rot(p13, k13, '''+str(first_degree)+''')
     # 下段右方接點為 x22, y22, 左側則為 r11, s11
     outstring += "mychain.basic(x22, y22, r11, s11)\n"
  
-    return outstring</t>
+    return outstring
+</t>
 <t tx="leo.20160512114644.1">LEO 指令
 @edit
 @auto
@@ -2145,11 +2149,9 @@ r1, s1 = mychain.basic_rot(p13, k13, '''+str(first_degree)+''')
 
 2016/05/12
 新增 bg1_40123156_2.py (已修改myflaskapp.py )
-
-2016/05/26
-新增 40123156-20160519.md 當作第13週心得</t>
-<t tx="leo.20160526100610.1"></t>
-<t tx="leo.20160526100610.2">(uncached) amd.20160501221001.2
+</t>
+<t tx="leo.20160526100609.2"></t>
+<t tx="leo.20160526100609.3">(uncached) amd.20160501221001.2
 Diff...
   # coding: utf-8
   from flask import Flask, send_from_directory, request, redirect, render_template, session, make_response
@@ -2284,7 +2286,7 @@ Diff...
   
 + 
 </t>
-<t tx="leo.20160526100610.3"># coding: utf-8
+<t tx="leo.20160526100609.4"># coding: utf-8
 from flask import Flask, send_from_directory, request, redirect, render_template, session, make_response
 import random
 import math
@@ -2399,7 +2401,7 @@ app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
 
 
 </t>
-<t tx="leo.20160526100610.4"># coding: utf-8
+<t tx="leo.20160526100609.5"># coding: utf-8
 from flask import Flask, send_from_directory, request, redirect, render_template, session, make_response
 import random
 import math
