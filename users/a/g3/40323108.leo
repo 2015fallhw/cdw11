@@ -10,24 +10,24 @@
 <preferences/>
 <find_panel_settings/>
 <vnodes>
-<v t="amd.20160501215436.2" a="E"><vh>pelican 部份</vh>
-<v t="amd.20160501215558.1" a="E"><vh>@path ./../../../</vh>
-<v t="amd.20160501223113.1"><vh>@edit README.md</vh></v>
-<v t="amd.20160501215634.1" a="E"><vh>@path static</vh>
-<v t="amd.20160501220009.1" a="E"><vh>假如要送到 gh-pages 分支, 使用下列按鈕</vh>
-<v t="amd.20160501220009.2"><vh>@button gh-pages pelican</vh></v>
+<v t="123.20160522150621.1" a="E"><vh>pelican 部份</vh>
+<v t="123.20160522150621.2" a="E"><vh>@path ./../../../</vh>
+<v t="123.20160522150621.3"><vh>@edit README.md</vh></v>
+<v t="123.20160522150621.4" a="E"><vh>@path static</vh>
+<v t="123.20160522150621.5" a="E"><vh>假如要送到 gh-pages 分支, 使用下列按鈕</vh>
+<v t="123.20160522150621.6"><vh>@button gh-pages pelican</vh></v>
 </v>
-<v t="amd.20160501220029.1" a="E"><vh>假如要在近端檢視, 使用下列按鈕</vh>
-<v t="amd.20160501220029.2"><vh>@button local pelican</vh></v>
+<v t="123.20160522150621.7" a="E"><vh>假如要在近端檢視, 使用下列按鈕</vh>
+<v t="123.20160522150621.8"><vh>@button local pelican</vh></v>
 </v>
-<v t="amd.20160501215942.1" a="E"><vh>@path content/a/g3</vh>
-<v t="amd.20160501215720.1"><vh>@edit 40323108-20160508.md</vh></v>
-</v>
-</v>
+<v t="123.20160522150621.9" a="E"><vh>@path content/a/g3</vh>
+<v t="123.20160522150621.10"><vh>@edit 40323108-20160508.md</vh></v>
 </v>
 </v>
-<v t="amd.20160501215545.1" a="E"><vh>wsgi 程式部份</vh>
-<v t="amd.20160501221015.1"><vh>@path ./../../../</vh>
+</v>
+</v>
+<v t="amd.20160501215545.1"><vh>wsgi 程式部份</vh>
+<v t="amd.20160501221015.1" a="E"><vh>@path ./../../../</vh>
 <v t="amd.20160501221001.1" a="E"><vh>@clean myflaskapp.py</vh>
 <v t="amd.20160501221001.2"><vh>myflaskapp declarations</vh></v>
 <v t="amd.20160501221001.3"><vh>index</vh></v>
@@ -49,10 +49,10 @@
 </v>
 </v>
 </v>
-<v t="123.20160523014122.1"><vh>@edit ag3_40323108_task3abcd.py</vh></v>
-<v t="123.20160523014116.1"><vh>@edit ag3_40323108.py</vh></v>
-<v t="123.20160523014129.1"><vh>@edit ag3_40323108_task2bacd.py</vh></v>
-<v t="123.20160502103535.2"><vh>Recovered Nodes</vh>
+<v t="123.20160522144652.1"><vh>@edit ag3_40323108.py</vh></v>
+<v t="123.20160522144707.1"><vh>@edit ag3_40323108_task3abcd.py</vh></v>
+<v t="123.20160522144700.1"><vh>@edit ag3_40323108_task2bacd.py</vh></v>
+<v t="123.20160502103535.2" a="E"><vh>Recovered Nodes</vh>
 <v t="123.20160502103535.3"><vh>Recovered node "myflaskapp declarations" from @clean myflaskapp.py</vh>
 <v t="123.20160502103535.4"><vh>old:myflaskapp declarations</vh></v>
 <v t="123.20160502103535.5"><vh>new:myflaskapp declarations</vh></v>
@@ -70,10 +70,10 @@
 <v t="123.20160507192922.4"><vh>new:myflaskapp declarations</vh></v>
 </v>
 </v>
-<v t="123.20160523014034.2" a="E"><vh>Recovered Nodes</vh>
-<v t="123.20160523014034.3"><vh>Recovered node "myflaskapp declarations" from @clean myflaskapp.py</vh>
-<v t="123.20160523014034.4"><vh>old:myflaskapp declarations</vh></v>
-<v t="123.20160523014034.5"><vh>new:myflaskapp declarations</vh></v>
+<v t="123.20160522144536.2" a="E"><vh>Recovered Nodes</vh>
+<v t="123.20160522144536.3"><vh>Recovered node "myflaskapp declarations" from @clean myflaskapp.py</vh>
+<v t="123.20160522144536.4"><vh>old:myflaskapp declarations</vh></v>
+<v t="123.20160522144536.5"><vh>new:myflaskapp declarations</vh></v>
 </v>
 </v>
 </vnodes>
@@ -507,8 +507,8 @@ app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
 
 
 </t>
-<t tx="123.20160523014034.2"></t>
-<t tx="123.20160523014034.3">(uncached) amd.20160501221001.2
+<t tx="123.20160522144536.2"></t>
+<t tx="123.20160522144536.3">(uncached) amd.20160501221001.2
 Diff...
   # coding: utf-8
   from flask import Flask, send_from_directory, request, redirect, render_template, session, make_response
@@ -525,19 +525,83 @@ Diff...
   import users.a.g10.ag10_40323139
   import users.a.g9.ag9_40323132task
   import users.a.g5.ag5_40323113task1
+- import users.a.g5.ag5_40123145task1
   import users.a.g4.ag4_40323138
   import users.a.g4.ag4_40323138_task2bacd
   import users.a.g4.ag4_40323138_task3abcd
   import users.a.g8.ag8_40323131_task1
   import users.b.g9.bg9_40323250
-  import users.b.g11.bg11_40323245
-  import users.b.g1.bg1_40123156
 - import users.a.g8.ag8_40323123
+?              ^  ^ ^ ^      - ^
++ import users.b.g11.bg11_40323245
+?              ^  ^^ ^ ^^       ^^
+- import users.a.g1.a40223153
+- #bg1
+  import users.b.g1.bg1_40123156
+- import users.b.g1.bg1_40123156_2
+- import users.b.g1.bg1_40123129
+- import users.b.g1.bg1_40123129_2
+- import users.b.g1.bg1_40123144
+- import users.b.g1.bg1_40123144_2
+- #import users.b.g1.bg1_40123131
+- #import users.b.g1.bg1_40123131_2
+- import users.b.g1.b40123131_cdw11
+- import users.b.g1.b40123131_cdw12
+- 
+- import users.b.g1.b40123131_cdw11
+- import users.b.g1.b40123131_cdw12
+- import users.b.g1.bg1_40123134
+- import users.b.g1.bg1_40123134_2
+- import users.b.g1.b40123133_cdw11
+- import users.b.g1.b40123133_cdw12
   #bg2
   import users.b.g2.bg2_40123235
+- import users.b.g2.bg2_40123235_cdw12
   import users.b.g2.bg2_40123202
+- import users.b.g2.bg2_40123202_1
 - #bg4
 - import users.b.g4.bg4_40323203
+- import users.b.g4.bg4_40323205
+- import users.b.g4.bg4_40323208
+- #bg8
+- import users.b.g8.bg8_40323213
+- import users.b.g4.bg4_40323202
+- import users.b.g4.b40323201_cdw11
+- 
+- #bg5
+- #import users.b.g5.b40323206_cdw11_1
+- import users.b.g5.b40323204_cdw11_1
+- 
+- 
+- #bg5
+- #import users.b.g5.b40323206_cdw11_1
+- import users.b.g5.b40323204_cdw11_1
+- import users.b.g5.b40323204_cdw11_2
+- import users.b.g5.b40323206_cdw11_2
+- #bg11
+- import users.b.g11.bg11_40323245
+- import users.b.g11.bg11_40323252
+- import users.b.g11.bg11_40323245_1
+- #bg101
+- import users.b.g101.b40123200
+- #ag8
+- import users.a.g8.a40323143
+- import users.a.g8.a40323154
+- #ag10
+- import users.a.g10.a40323139
+- import users.a.g10.a40323141
+- #bg3
+- #import users.b.g3.b40123224
+- #import users.b.g3.b40123250
+- #import users.b.g3.b40123242
+- import users.b.g3.bg3_40123224
+- import users.b.g3.bg3_40123224_cdw11
+- import users.b.g3.bg3_40123250
+- import users.b.g3.bg3_40123250_cdw11
+- #import users.b.g3.b40123242
+- 
+- #ag100
+- import users.a.g100.cdw13.a40123100
   # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
   _curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
   # 設定在雲端與近端的資料儲存目錄
@@ -569,10 +633,10 @@ Diff...
   
   
   
-  
-  
++ 
++ 
 </t>
-<t tx="123.20160523014034.4"># coding: utf-8
+<t tx="123.20160522144536.4"># coding: utf-8
 from flask import Flask, send_from_directory, request, redirect, render_template, session, make_response
 import random
 import math
@@ -628,7 +692,7 @@ app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
 
 
 </t>
-<t tx="123.20160523014034.5"># coding: utf-8
+<t tx="123.20160522144536.5"># coding: utf-8
 from flask import Flask, send_from_directory, request, redirect, render_template, session, make_response
 import random
 import math
@@ -642,19 +706,80 @@ import users.a.g10.ag10_40323141_task1
 import users.a.g10.ag10_40323139
 import users.a.g9.ag9_40323132task
 import users.a.g5.ag5_40323113task1
+import users.a.g5.ag5_40123145task1
 import users.a.g4.ag4_40323138
 import users.a.g4.ag4_40323138_task2bacd
 import users.a.g4.ag4_40323138_task3abcd
 import users.a.g8.ag8_40323131_task1
 import users.b.g9.bg9_40323250
-import users.b.g11.bg11_40323245
-import users.b.g1.bg1_40123156
 import users.a.g8.ag8_40323123
+import users.a.g1.a40223153
+#bg1
+import users.b.g1.bg1_40123156
+import users.b.g1.bg1_40123156_2
+import users.b.g1.bg1_40123129
+import users.b.g1.bg1_40123129_2
+import users.b.g1.bg1_40123144
+import users.b.g1.bg1_40123144_2
+#import users.b.g1.bg1_40123131
+#import users.b.g1.bg1_40123131_2
+import users.b.g1.b40123131_cdw11
+import users.b.g1.b40123131_cdw12
+
+import users.b.g1.b40123131_cdw11
+import users.b.g1.b40123131_cdw12
+import users.b.g1.bg1_40123134
+import users.b.g1.bg1_40123134_2
+import users.b.g1.b40123133_cdw11
+import users.b.g1.b40123133_cdw12
 #bg2
 import users.b.g2.bg2_40123235
+import users.b.g2.bg2_40123235_cdw12
 import users.b.g2.bg2_40123202
+import users.b.g2.bg2_40123202_1
 #bg4
 import users.b.g4.bg4_40323203
+import users.b.g4.bg4_40323205
+import users.b.g4.bg4_40323208
+#bg8
+import users.b.g8.bg8_40323213
+import users.b.g4.bg4_40323202
+import users.b.g4.b40323201_cdw11
+
+#bg5
+#import users.b.g5.b40323206_cdw11_1
+import users.b.g5.b40323204_cdw11_1
+
+
+#bg5
+#import users.b.g5.b40323206_cdw11_1
+import users.b.g5.b40323204_cdw11_1
+import users.b.g5.b40323204_cdw11_2
+import users.b.g5.b40323206_cdw11_2
+#bg11
+import users.b.g11.bg11_40323245
+import users.b.g11.bg11_40323252
+import users.b.g11.bg11_40323245_1
+#bg101
+import users.b.g101.b40123200
+#ag8
+import users.a.g8.a40323143
+import users.a.g8.a40323154
+#ag10
+import users.a.g10.a40323139
+import users.a.g10.a40323141
+#bg3
+#import users.b.g3.b40123224
+#import users.b.g3.b40123250
+#import users.b.g3.b40123242
+import users.b.g3.bg3_40123224
+import users.b.g3.bg3_40123224_cdw11
+import users.b.g3.bg3_40123250
+import users.b.g3.bg3_40123250_cdw11
+#import users.b.g3.b40123242
+
+#ag100
+import users.a.g100.cdw13.a40123100
 # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
 _curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
 # 設定在雲端與近端的資料儲存目錄
@@ -686,24 +811,20 @@ app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
 
 
 
-
-
 </t>
-<t tx="amd.20160501215436.2"></t>
-<t tx="amd.20160501215545.1"></t>
-<t tx="amd.20160501215558.1"></t>
-<t tx="amd.20160501215634.1"></t>
-<t tx="amd.20160501215942.1"></t>
-<t tx="amd.20160501220009.1"></t>
-<t tx="amd.20160501220009.2">@language python
+<t tx="123.20160522150621.1"></t>
+<t tx="123.20160522150621.2"></t>
+<t tx="123.20160522150621.4"></t>
+<t tx="123.20160522150621.5"></t>
+<t tx="123.20160522150621.6">@language python
 import os
 #os.system("pelican content -o ./ -s publishconf.py -t theme/pelican-bootstrap3")
 os.system("pelican content -o blog -s publishconf.py")
 g.es("admin pelican 執行完畢")
 
 </t>
-<t tx="amd.20160501220029.1"></t>
-<t tx="amd.20160501220029.2">@language python
+<t tx="123.20160522150621.7"></t>
+<t tx="123.20160522150621.8">@language python
 import os
 #os.system("pelican content -o output -s local_publishconf.py -t theme/pelican-bootstrap3")
 os.system("pelican content -o blog -s local_publishconf.py")
@@ -711,6 +832,8 @@ g.es("admin pelican 近端執行完畢")
 
 
 </t>
+<t tx="123.20160522150621.9"></t>
+<t tx="amd.20160501215545.1"></t>
 <t tx="amd.20160501221001.1">@language python
 @tabwidth -4
 @others
@@ -721,6 +844,7 @@ app.register_blueprint(users.a.g10.ag10_40323141_task1.ag10_40323141)
 app.register_blueprint(users.a.g9.ag9_40323132task.ag9_40323132)
 app.register_blueprint(users.a.g10.ag10_40323139.ag10_40323139)
 app.register_blueprint(users.a.g5.ag5_40323113task1.ag5_40323113)
+app.register_blueprint(users.a.g5.ag5_40123145task1.ag5_40123145)
 app.register_blueprint(users.a.g8.ag8_40323131_task1.ag8_40323131)
 app.register_blueprint(users.a.g4.ag4_40323138_task2bacd.ag4_40323138bacd)
 app.register_blueprint(users.a.g4.ag4_40323138_task3abcd.ag4_40323138task3)
@@ -728,20 +852,80 @@ app.register_blueprint(users.a.g8.ag8_40323123.ag8_40323123)
 app.register_blueprint(users.a.g10.ag10_40323129_task1.ag10_40323129)
 app.register_blueprint(users.a.g2.ag2_40323120.ag2_40323120)
 app.register_blueprint(users.a.g1.ag1_40323105.ag1_40323105)
+app.register_blueprint(users.a.g1.a40223153.ag1_40223153)
 app.register_blueprint(users.a.g3.ag3_40323108.ag3_40323108)
 app.register_blueprint(users.a.g3.ag3_40323108_task2bacd.ag3_40323108bacd)
 app.register_blueprint(users.a.g3.ag3_40323108_task3abcd.ag3_40323108task3)
 
-
-
 app.register_blueprint(users.b.g9.bg9_40323250.bg9_40323250)
-app.register_blueprint(users.b.g11.bg11_40323245.bg11_40323245)
+#bg1
 app.register_blueprint(users.b.g1.bg1_40123156.bg1_40123156)
+app.register_blueprint(users.b.g1.bg1_40123156_2.bg1_40123156_2)
+
+app.register_blueprint(users.b.g1.bg1_40123129.bg1_40123129)
+app.register_blueprint(users.b.g1.bg1_40123129_2.bg1_40123129_2)
+
+app.register_blueprint(users.b.g1.bg1_40123144.bg1_40123144)
+app.register_blueprint(users.b.g1.bg1_40123144_2.bg40123144)
+#app.register_blueprint(users.b.g1.bg1_40123131.bg1_40123131)
+#app.register_blueprint(users.b.g1.bg1_40123131_2.bg40123131)
+app.register_blueprint(users.b.g1.b40123131_cdw11.bg1_40123131)
+app.register_blueprint(users.b.g1.b40123131_cdw12.bg1)
+
+app.register_blueprint(users.b.g1.b40123131_cdw11.bg1_40123131)
+app.register_blueprint(users.b.g1.b40123131_cdw12.bg1)
+app.register_blueprint(users.b.g1.bg1_40123134.bg1_40123134)
+app.register_blueprint(users.b.g1.bg1_40123134_2.bg1_40123134_2)
+app.register_blueprint(users.b.g1.b40123133_cdw11.bg1_40123133)
+app.register_blueprint(users.b.g1.b40123133_cdw12.bg1_40123133_2)
+#app.register_blueprint(users.b.g1.bg1_40123131.bg1_40123131)
+#app.register_blueprint(users.b.g1.bg1_40123131_2.bg40123131)
+
+
 #bg2
 app.register_blueprint(users.b.g2.bg2_40123235.bg2_40123235)
 app.register_blueprint(users.b.g2.bg2_40123202.bg2_40123202)
+app.register_blueprint(users.b.g2.bg2_40123235_cdw12.b40123235)
+app.register_blueprint(users.b.g2.bg2_40123202_1.b40123202)
 #bg4
 app.register_blueprint(users.b.g4.bg4_40323203.bg4_40323203)
+app.register_blueprint(users.b.g4.bg4_40323205.bg4_40323205)
+app.register_blueprint(users.b.g4.bg4_40323208.bg4_40323208)
+#bg8
+app.register_blueprint(users.b.g8.bg8_40323213.bg8_40323213)
+app.register_blueprint(users.b.g4.bg4_40323202.bg4_40323202)
+app.register_blueprint(users.b.g4.b40323201_cdw11.b40323201)
+#bg5
+app.register_blueprint(users.b.g5.b40323204_cdw11_1.bg5_40323204_1)
+#app.register_blueprint(users.b.g5.b40323206_cdw11_1.bg5_40323206_1)
+app.register_blueprint(users.b.g5.b40323206_cdw11_2.bg5_40323206_2)
+#bg11
+app.register_blueprint(users.b.g11.bg11_40323245.bg11_40323245)
+app.register_blueprint(users.b.g11.bg11_40323252.bg11_40323252)
+app.register_blueprint(users.b.g11.bg11_40323245_1.bg11)
+#bg101
+app.register_blueprint(users.b.g101.b40123200.bg101)
+
+#ag8
+app.register_blueprint(users.a.g8.a40323143.ag8_40323143)
+app.register_blueprint(users.a.g8.a40323154.ag8_40323154)
+#ag10
+app.register_blueprint(users.a.g10.a40323139.ag10_40323139_1)
+app.register_blueprint(users.a.g10.a40323141.ag10_40323141_1)
+
+#ag100
+app.register_blueprint(users.a.g100.cdw13.a40123100.ag100)
+
+#bg3
+#app.register_blueprint(users.b.g3.bg3_40123224.bg3_40123224)
+#app.register_blueprint(users.b.g3.bg3_.bg3_40123250)
+#app.register_blueprint(users.b.g3.bg3_40123250.bg3_40123242)
+
+app.register_blueprint(users.b.g3.bg3_40123224_cdw11.b40123224)
+app.register_blueprint(users.b.g3.bg3_40123250.bg3_40123250)
+app.register_blueprint(users.b.g3.bg3_40123250_cdw11.b40123250)
+#app.register_blueprint(users.b.g3.bg3_40123250.bg3_40123242)
+
 
 
 </t>
@@ -884,22 +1068,83 @@ import users.a.g10.ag10_40323141_task1
 import users.a.g10.ag10_40323139
 import users.a.g9.ag9_40323132task
 import users.a.g5.ag5_40323113task1
+import users.a.g5.ag5_40123145task1
 import users.a.g4.ag4_40323138
 import users.a.g4.ag4_40323138_task2bacd
 import users.a.g4.ag4_40323138_task3abcd
 import users.a.g8.ag8_40323131_task1
 import users.b.g9.bg9_40323250
-import users.b.g11.bg11_40323245
-import users.b.g1.bg1_40123156
 import users.a.g8.ag8_40323123
+import users.a.g1.a40223153
 import users.a.g3.ag3_40323108
 import users.a.g3.ag3_40323108_task2bacd
 import users.a.g3.ag3_40323108_task3abcd
+#bg1
+import users.b.g1.bg1_40123156
+import users.b.g1.bg1_40123156_2
+import users.b.g1.bg1_40123129
+import users.b.g1.bg1_40123129_2
+import users.b.g1.bg1_40123144
+import users.b.g1.bg1_40123144_2
+#import users.b.g1.bg1_40123131
+#import users.b.g1.bg1_40123131_2
+import users.b.g1.b40123131_cdw11
+import users.b.g1.b40123131_cdw12
+
+import users.b.g1.b40123131_cdw11
+import users.b.g1.b40123131_cdw12
+import users.b.g1.bg1_40123134
+import users.b.g1.bg1_40123134_2
+import users.b.g1.b40123133_cdw11
+import users.b.g1.b40123133_cdw12
 #bg2
 import users.b.g2.bg2_40123235
+import users.b.g2.bg2_40123235_cdw12
 import users.b.g2.bg2_40123202
+import users.b.g2.bg2_40123202_1
 #bg4
 import users.b.g4.bg4_40323203
+import users.b.g4.bg4_40323205
+import users.b.g4.bg4_40323208
+#bg8
+import users.b.g8.bg8_40323213
+import users.b.g4.bg4_40323202
+import users.b.g4.b40323201_cdw11
+
+#bg5
+#import users.b.g5.b40323206_cdw11_1
+import users.b.g5.b40323204_cdw11_1
+
+
+#bg5
+#import users.b.g5.b40323206_cdw11_1
+import users.b.g5.b40323204_cdw11_1
+import users.b.g5.b40323204_cdw11_2
+import users.b.g5.b40323206_cdw11_2
+#bg11
+import users.b.g11.bg11_40323245
+import users.b.g11.bg11_40323252
+import users.b.g11.bg11_40323245_1
+#bg101
+import users.b.g101.b40123200
+#ag8
+import users.a.g8.a40323143
+import users.a.g8.a40323154
+#ag10
+import users.a.g10.a40323139
+import users.a.g10.a40323141
+#bg3
+#import users.b.g3.b40123224
+#import users.b.g3.b40123250
+#import users.b.g3.b40123242
+import users.b.g3.bg3_40123224
+import users.b.g3.bg3_40123224_cdw11
+import users.b.g3.bg3_40123250
+import users.b.g3.bg3_40123250_cdw11
+#import users.b.g3.b40123242
+
+#ag100
+import users.a.g100.cdw13.a40123100
 # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
 _curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
 # 設定在雲端與近端的資料儲存目錄
@@ -925,8 +1170,6 @@ app = Flask(__name__)
 # In order to use sessions you have to set a secret key
 # set the secret key.  keep this really secret:
 app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
-
-
 
 
 
