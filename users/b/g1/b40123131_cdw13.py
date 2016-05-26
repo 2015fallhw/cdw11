@@ -1,6 +1,6 @@
 from flask import Blueprint, request
  
-bg5_40323253_1 = Blueprint('bg5_40323253_1', __name__, url_prefix='/bg5_40323253_1', template_folder='templates')
+b40123131_cdw13 = Blueprint('b40123131_cdw13', __name__, url_prefix='/b40123131_cdw13', template_folder='templates')
  
 head_str = '''
 <!DOCTYPE html>
@@ -326,17 +326,17 @@ x1, y1 = mychain.basic_rot('''+str(x)+","+str(y)+", "+str(first_degree)+''', Tru
         #if i < 7 or i > 23:        
         if i <= 7 or i >= 23:
             # virautl chain
-            outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+", 90-"+str(i*degree)+", True) \n"
+            outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+", 180-"+str(i*degree)+", True) \n"
             #outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+", 90-"+str(i*degree)+") \n"
         else:
-            outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+", 90-"+str(i*degree)+") \n"
+            outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+", 180-"+str(i*degree)+") \n"
  
-    p = -150
-    k = 0
+    p = 73.5
+    k = -185
     degree = 20
     # 70, 50, 30, 10
     # 從 i=5 開始, 就是 virautl chain
-    first_degree = 90 - degree
+    first_degree = 180 - degree
     repeat = 360 / degree
     # 第1節不是 virtual chain
     outstring += '''
@@ -347,14 +347,14 @@ p1, k1 = mychain.basic_rot('''+str(p)+","+str(k)+", "+str(first_degree)+''')
     for i in range(2, int(repeat)+1):
         if i >= 5 and i <= 13:
             # virautl chain
-            outstring += "p"+str(i)+", k"+str(i)+"=mychain.basic_rot(p"+str(i-1)+", k"+str(i-1)+", 90-"+str(i*degree)+", True) \n"
-            #outstring += "p"+str(i)+", k"+str(i)+"=mychain.basic_rot(p"+str(i-1)+", k"+str(i-1)+", 90-"+str(i*degree)+") \n"
+            outstring += "p"+str(i)+", k"+str(i)+"=mychain.basic_rot(p"+str(i-1)+", k"+str(i-1)+", 180-"+str(i*degree)+", True) \n"
+            #outstring += "p"+str(i)+", k"+str(i)+"=mychain.basic_rot(p"+str(i-1)+", k"+str(i-1)+", 0-"+str(i*degree)+") \n"
         else:
-            outstring += "p"+str(i)+", k"+str(i)+"=mychain.basic_rot(p"+str(i-1)+", k"+str(i-1)+", 90-"+str(i*degree)+") \n"
+            outstring += "p"+str(i)+", k"+str(i)+"=mychain.basic_rot(p"+str(i-1)+", k"+str(i-1)+", 180-"+str(i*degree)+") \n"
  
     # 上段連接直線
     # 從 p5, k5 作為起點
-    first_degree = 10
+    first_degree = 100
     repeat = 11
     outstring += '''
 m1, n1 = mychain.basic_rot(p4, k4, '''+str(first_degree)+''')
@@ -364,7 +364,7 @@ m1, n1 = mychain.basic_rot(p4, k4, '''+str(first_degree)+''')
  
     # 下段連接直線
     # 從 p12, k12 作為起點
-    first_degree = -10
+    first_degree = 80
     repeat = 11
     outstring += '''
 r1, s1 = mychain.basic_rot(p13, k13, '''+str(first_degree)+''')
@@ -392,9 +392,9 @@ def eighteenthirty(x, y):
     x = 50
     y = 0
     degree = 20
-    first_degree = 20.78+90
-    startx = -33
-    starty = -150
+    first_degree = 20.78
+    startx = -233.06+100
+    starty = 49.48
     repeat = 360 / degree
     # 先畫出左邊第一關鍵節
     outstring = '''
@@ -408,17 +408,17 @@ x1, y1 = mychain.basic_rot('''+str(startx)+","+str(starty)+", "+str(first_degree
         if i >=2 and i <=11:
             # virautl chain
             #outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+","+str(first_degree+degree-i*degree)+") \n"
-            outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+","+str(first_degree+degree-i*degree)+", True) \n"
+            outstring += "x"+str(i)+", -50"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", -50"+str(i-1)+","+str(first_degree+degree-i*degree)+", True) \n"
         else:
-            outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+","+str(first_degree+degree-i*degree)+") \n"
+            outstring += "x"+str(i)+", -50"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", -50"+str(i-1)+","+str(first_degree+degree-i*degree)+") \n"
  
     # 接著處理右邊的非虛擬鍊條
     # 先畫出右邊第一關鍵節
  
-    p = -75
-    k = 70
+    p = -17.89
+    k = 93.98
     degree = 12
-    first_degree = 4.78+92
+    first_degree = 4.78
     repeat = 360 / degree
     # 第1節不是 virtual chain
     outstring += '''
@@ -436,7 +436,7 @@ p1, k1 = mychain.basic_rot('''+str(p)+","+str(k)+", "+str(first_degree)+''')
  
     # 上段連接直線
     # 從 x1, y1 作為起點
-    first_degree = 10.78+89
+    first_degree = 10.78
     repeat = 10
     outstring += '''
 m1, n1 = mychain.basic_rot(x1, y1, '''+str(first_degree)+''')
@@ -446,7 +446,7 @@ m1, n1 = mychain.basic_rot(x1, y1, '''+str(first_degree)+''')
  
     # 下段連接直線
     # 從 x11, y11 作為起點
-    first_degree = -10.78+90
+    first_degree = -10.78
     repeat = 10
     outstring += '''
 r1, s1 = mychain.basic_rot(x11, y11, '''+str(first_degree)+''')
@@ -457,50 +457,50 @@ r1, s1 = mychain.basic_rot(x11, y11, '''+str(first_degree)+''')
     return outstring
  
  
-@bg5_40323253_1.route('/a')
+@b40123131_cdw13.route('/a')
 def draw_a():
     return head_str + chain_str + a(0, 0) + tail_str
  
  
-@bg5_40323253_1.route('/b')
+@b40123131_cdw13.route('/b')
 def draw_b():
    # 每個橫向字元距離為 65 pixels, 上下字距則為 110 pixels
     return head_str + chain_str + b(0+65, 0) + tail_str
  
  
-@bg5_40323253_1.route('/c')
+@b40123131_cdw13.route('/c')
 def draw_c():
     # 每個橫向字元距離為 65 pixels
     return head_str + chain_str + c(0+65*2, 0) + tail_str
  
  
-@bg5_40323253_1.route('/d')
+@b40123131_cdw13.route('/d')
 def draw_d():
     return head_str + chain_str + d(0+65*3, 0) + tail_str
  
  
-@bg5_40323253_1.route('/ab')
+@b40123131_cdw13.route('/ab')
 def draw_ab():
     #return head_str + chain_str + a(0, 0) + b(0+65, 0) + tail_str
     return head_str + chain_str + a(0, 0) + b(0, 0-110) + tail_str
  
  
-@bg5_40323253_1.route('/ac')
+@b40123131_cdw13.route('/ac')
 def draw_ac():
     return head_str + chain_str + a(0, 0) + c(0+65, 0) + tail_str
  
  
-@bg5_40323253_1.route('/bc')
+@b40123131_cdw13.route('/bc')
 def draw_bc():
     return head_str + chain_str + b(0, 0) + c(0+65, 0) + tail_str
  
  
-@bg5_40323253_1.route('/abc')
+@b40123131_cdw13.route('/abc')
 def draw_abc():
     return head_str + chain_str + a(0, 0) + b(0+65, 0) + c(0+65*2, 0) + tail_str
  
  
-@bg5_40323253_1.route('/aaaa')
+@b40123131_cdw13.route('/aaaa')
 def draw_aaaa():
     outstring = head_str + chain_str
     scale = 2
@@ -511,51 +511,51 @@ def draw_aaaa():
     #return head_str + chain_str + a(0, 0, scale=1) + a(0+65, 0, scale=0.8, color="red") + a(0+65*2, 0, scale=0.6) + a(0+65*3, 0, scale=0.4, color="red") + tail_str
  
  
-@bg5_40323253_1.route('/badc')
+@b40123131_cdw13.route('/badc')
 def draw_badc():
     return head_str + chain_str + b(0, 0) + a(0+65, 0) + d(0+65*2, 0) + c(0+65*3, 0) + tail_str
  
  
-@bg5_40323253_1.route('/abcd')
+@b40123131_cdw13.route('/abcd')
 def draw_abcd():
     #return head_str + chain_str + a(0, 0) + b(0+65, 0) + c(0+65*2, 0) + d(0+65*3, 0) + tail_str
     return head_str + chain_str + a(0, 110) + b(0, 110-110) + c(0, 110-110*2) + d(0, 110-110*3) + tail_str
  
  
-@bg5_40323253_1.route('/circle')
+@b40123131_cdw13.route('/circle')
 def drawcircle():
     return head_str + chain_str + circle(0, 0) + tail_str
  
  
-@bg5_40323253_1.route('/circle1/<degree>', defaults={'x': 0, 'y': 0})
-@bg5_40323253_1.route('/circle1/<x>/<degree>', defaults={'y': 0})
-@bg5_40323253_1.route('/circle1/<x>/<y>/<degree>')
-#@bg5_40323253_1.route('/circle1/<int:x>/<int:y>/<int:degree>')
+@b40123131_cdw13.route('/circle1/<degree>', defaults={'x': 0, 'y': 0})
+@b40123131_cdw13.route('/circle1/<x>/<degree>', defaults={'y': 0})
+@b40123131_cdw13.route('/circle1/<x>/<y>/<degree>')
+#@b40123131_cdw13.route('/circle1/<int:x>/<int:y>/<int:degree>')
 def drawcircle1(x,y,degree):
     return head_str + chain_str + circle1(int(x), int(y), int(degree)) + tail_str
  
  
-@bg5_40323253_1.route('/circle2/<degree>', defaults={'x': 0, 'y': 0})
-@bg5_40323253_1.route('/circle2/<x>/<degree>', defaults={'y': 0})
-@bg5_40323253_1.route('/circle2/<x>/<y>/<degree>')
-#@bg5_40323253_1.route('/circle2/<int:x>/<int:y>/<int:degree>')
+@b40123131_cdw13.route('/circle2/<degree>', defaults={'x': 0, 'y': 0})
+@b40123131_cdw13.route('/circle2/<x>/<degree>', defaults={'y': 0})
+@b40123131_cdw13.route('/circle2/<x>/<y>/<degree>')
+#@b40123131_cdw13.route('/circle2/<int:x>/<int:y>/<int:degree>')
 def drawcircle2(x,y,degree):
     return head_str + chain_str + circle2(int(x), int(y), int(degree)) + tail_str
  
  
-@bg5_40323253_1.route('/twocircle/<x>/<y>')
-@bg5_40323253_1.route('/twocircle', defaults={'x':0, 'y':0})
+@b40123131_cdw13.route('/twocircle/<x>/<y>')
+@b40123131_cdw13.route('/twocircle', defaults={'x':0, 'y':0})
 def drawtwocircle(x,y):
     return head_str + chain_str + twocircle(int(x), int(y)) + tail_str
  
  
-@bg5_40323253_1.route('/eighteenthirty/<x>/<y>')
-@bg5_40323253_1.route('/eighteenthirty', defaults={'x':0, 'y':0})
+@b40123131_cdw13.route('/eighteenthirty/<x>/<y>')
+@b40123131_cdw13.route('/eighteenthirty', defaults={'x':0, 'y':0})
 def draweithteenthirdy(x,y):
     return head_str + chain_str + eighteenthirty(int(x), int(y)) + tail_str
  
  
-@bg5_40323253_1.route('/snap')
+@b40123131_cdw13.route('/snap')
 # http://svg.dabbles.info/snaptut-base
 def snap():
     outstring = '''
@@ -634,7 +634,7 @@ document['tux'].bind('mouseleave', hoverout)
     return outstring
  
  
-@bg5_40323253_1.route('/snap_link')
+@b40123131_cdw13.route('/snap_link')
 # http://svg.dabbles.info/
 def snap_link():
     outstring = '''
@@ -716,7 +716,7 @@ g4.animate( { 'transform' : 'r360,25,25' },4000)
     return outstring
  
  
-@bg5_40323253_1.route('/snap_gear')
+@b40123131_cdw13.route('/snap_gear')
 def snap_gear():
     outstring = '''
 <!DOCTYPE html>
