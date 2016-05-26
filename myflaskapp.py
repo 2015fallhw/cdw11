@@ -388,7 +388,7 @@ if __name__ == "__main__":
 app.register_blueprint(users.a.g10.ag10_40323139.ag10_40323139)
 app.register_blueprint(users.a.g8.ag8_40323131_task1.ag8_40323131)
 app.register_blueprint(users.a.g4.ag4_40323138.ag4_40323138)
-app.register_blueprint(users.b.g9.bg9_40323218.bg9_40323218)
+#app.register_blueprint(users.b.g9.bg9_40323218.bg9_40323218)
 app.register_blueprint(users.b.g9.bg9_40323250.bg9_40323250)
 #bg4
 app.register_blueprint(users.b.g4.bg4_40123128_cdw11.bg4_40123128)

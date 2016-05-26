@@ -1,4 +1,3 @@
-anguage python
 # 各組分別在各自的 .py 程式中建立應用程式 (第1步/總共3步)
 from flask import Blueprint, render_template, make_response
 
