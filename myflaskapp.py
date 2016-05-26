@@ -93,6 +93,8 @@ import users.b.g3.bg3_40123224
 import users.b.g3.bg3_40123224_cdw11
 import users.b.g3.bg3_40123250
 import users.b.g3.bg3_40123250_cdw11
+import users.b.g3.bg3_40123250_cdw14
+
 #import users.b.g3.b40123242
 import users.b.g3.bg3_40123242_cdw12
 #ag3
@@ -562,6 +564,8 @@ app.register_blueprint(users.b.g3.bg3_40123250.bg3_40123250)
 app.register_blueprint(users.b.g3.bg3_40123250_cdw11.b40123250)
 #app.register_blueprint(users.b.g3.bg3_40123250.bg3_40123242)
 app.register_blueprint(users.b.g3.bg3_40123242_cdw12.b40123242)
+app.register_blueprint(users.b.g3.bg3_40123250_cdw14.b40123250_1)
+
 
 
 
