@@ -519,13 +519,11 @@ app.register_blueprint(users.b.g1.bg1_40123126_2.bg1_40123126_2)
 app.register_blueprint(users.b.g2.bg2_40123235.bg2_40123235)
 app.register_blueprint(users.b.g2.bg2_40123202.bg2_40123202)
 app.register_blueprint(users.b.g2.bg2_40123235_cdw12.b40123235)
-<<<<<<< HEAD
+
 app.register_blueprint(users.b.g2.bg2_40123202_cdw13.b40123202)
 app.register_blueprint(users.b.g2.bg2_40123202_cdw14.bg2_40123202_cdw14)
-=======
 app.register_blueprint(users.b.g2.bg2_40123235_cdw14.b40123235_1)
-app.register_blueprint(users.b.g2.bg2_40123202_1.b40123202)
->>>>>>> 201b49b2317490e5c6e34954a71d710c80b41079
+#app.register_blueprint(users.b.g2.bg2_40123202_1.b40123202)
 app.register_blueprint(users.b.g2.bg2_40123226_cdw12.b40123226)
 app.register_blueprint(users.b.g2.bg2_40123232_cdw12.b40123232)
 app.register_blueprint(users.b.g2.bg2_40123214_cdw12.b40123214)
