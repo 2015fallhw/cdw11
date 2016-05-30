@@ -80,6 +80,9 @@ import users.b.g11.bg11_40323252
 import users.b.g11.bg11_40323245_1
 #bg101
 import users.b.g101.b40123200
+#ag7
+import users.a.g7.ag7_40123149_1
+import users.a.g7.ag7_40123149_2
 #ag8
 import users.a.g8.a40323143
 import users.a.g8.a40323154
@@ -548,6 +551,9 @@ app.register_blueprint(users.b.g11.bg11_40323245_1.bg11)
 #bg101
 app.register_blueprint(users.b.g101.b40123200.bg101)
 
+#ag7
+app.register_blueprint(users.a.g7.ag7_40123149_1.ag7_40123149_1)
+app.register_blueprint(users.a.g7.ag7_40123149_2.ag7_40123149_2)
 #ag8
 app.register_blueprint(users.a.g8.a40323143.ag8_40323143)
 app.register_blueprint(users.a.g8.a40323154.ag8_40323154)
