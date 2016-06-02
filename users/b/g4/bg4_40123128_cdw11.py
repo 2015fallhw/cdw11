@@ -755,3 +755,4 @@ s.line(0, 0, 100, 100).attr({ 'fill': "silver", 'stroke': "black", 'strokeWidth'
 </html>
 '''
     return outstring
+   

@@ -34,7 +34,7 @@
 <v t="leo.20160602091746.3"><vh>taskbacd</vh></v>
 <v t="leo.20160602091746.4"><vh>taskabcd</vh></v>
 </v>
-<v t="leo.20160519113049.1" a="E"><vh>@clean bg4_40123128_cdw11.py</vh>
+<v t="leo.20160519113049.1"><vh>@clean bg4_40123128_cdw11.py</vh>
 <v t="leo.20160602091804.1"><vh>bg4_40123128_cdw11 declarations</vh></v>
 <v t="leo.20160602091804.2"><vh>a</vh></v>
 <v t="leo.20160602091804.3"><vh>b</vh></v>
@@ -1238,7 +1238,7 @@ app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
 <t tx="leo.20160519113049.1">@language python
 @tabwidth -4
 @others
-</t>
+   </t>
 <t tx="leo.20160525150619.2"></t>
 <t tx="leo.20160525150619.3">(uncached) amd.20160501221001.2
 Diff...
