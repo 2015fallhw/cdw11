@@ -1,0 +1,38 @@
+from sympy import *
+import math
+# center of left circle
+x1 = Symbol('x1')
+y1 = Symbol('y1')
+# center of right circle
+x2 = Symbol('x2')
+y2 = Symbol('y2')
+# left tangent points
+x3 = Symbol('x3')
+y3 = Symbol('y3')
+# right tangent points
+x4 = Symbol('x4')
+y4 = Symbol('y4')
+
+chainlength = 20
+leftdegree = 20
+rightdegree = 12
+leftr = chainlength/2/math.sin(leftdegree*math.pi/180/2)
+rightr = chainlength/2/math.sin(rightdegree*math.pi/180/2)
+#print(leftr,"\n",rightr)
+# tangent line is 10 sets of chain
+len34 = 10*chainlength
+# (x3-x4)**2+(y3-y4)**2-len34**2 表示 (x3, y3) 與 (x4, y4)距離 len34
+# (x1-x3)**2+(y1-y3)**2-(leftr)**2 表示 (x1, y1) 與 (x3, y3) 距離為左圓半徑
+# (x2-x4)**2+(y2-y4)**2-(rightr)**2 表示 (x2, y2) 與 (x4, y4) 距離為右圓半徑
+# (x1-x4)**2+(y1-y4)**2-len34**2-(leftr)**2 表示左圓心與兩個相切點所圍成直角三角形邊長關係
+# (x2-x3)**2+(y2-y3)**2-len34**2-(rightr)**2 表示右圓心與兩個相切點所圍成直角三角形邊長關係
+
+answer = solve([(x3-x4)**2+(y3-y4)**2-len34**2, \
+(x1-x3)**2+(y1-y3)**2-(leftr)**2, \
+(x2-x4)**2+(y2-y4)**2-(rightr)**2, \
+(x1-x4)**2+(y1-y4)**2-len34**2-(leftr)**2, \
+(x2-x3)**2+(y2-y3)**2-len34**2-(rightr)**2, y1, x2, y2], \
+[x1, y1, x2, y2, x3, y3, x4, y4])
+
+for i in range(len(answer)):
+    print(answer[i])

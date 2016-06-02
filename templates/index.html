@@ -1,0 +1,9 @@
+spring 正確答案為: {{ answer }}
+<br />
+次數: {{ count }}
+<br />
+{# 一旦使用者送出表單, 就交由 /docheck 處理後續表單內容處理, 並且導向條件判斷迴圈, 並回覆結果 #}
+<form method="POST" action="/docheck">
+請輸入您所猜的整數:<input type="text" name="guess"><br />
+<input type="submit" value="send">
+</form>

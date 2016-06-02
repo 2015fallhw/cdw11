@@ -1,0 +1,11 @@
+{# 需要從 render_template 呼叫中取得 guess, count 與 answer 變數值 #}
+猜的數字為: {{ guess }}
+<br />
+已經猜了幾次: {{ count }}
+<br />
+正確答案: {{ answer }}
+<br />
+<form method="POST" action="/docheck">
+請輸入您所猜的整數:<input type="text" name="guess"><br />
+<input type="submit" value="send">
+</form>

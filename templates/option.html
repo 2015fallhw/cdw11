@@ -1,0 +1,104 @@
+{% block content %}
+    <h2>分組與排座位<h2>
+    <table>
+    <form action="/optionaction" method="POST">
+   <tr>
+    <td  colspan="8">
+    <label>2a 基本資料:</label><br />
+    <textarea name="data_a" cols="70" rows="15">
+40323101,40323102,40323103,40323108,40323124,40123254,
+40323109,40323130,40323135,40323136,40323138,40323144,
+40323111,40323117,40323118,40323119,40323120,40323122,
+40323113,40323116,40323121,40323151,40123145,
+40323112,40323133,40323147,40323152,40323155,40323156,
+40323105,40323106,40323107,40323146,40223153,40023139,40323148
+40123119,40123141,40123149,40123216,40123227,40123255,40023234
+40323125,40323126,40323132,40323149,40323150,40323153,
+40323123,40323131,40323137,40323143,40323145,40323154,
+40323127,40323128,40323139,40323141,40323115,40123218,
+</textarea>
+    </td>
+    </tr>
+    <tr>
+    <td  colspan="8">
+    <label>2b 基本資料:</label><br />
+    <textarea name="data_b" cols="70" rows="15">
+40323201,40323202,40323203,40323205,40323208,40123128,40123158
+40323214,40323250,40323231,40323230,40323233,40323218,40323232
+40323204,40323206,40323217,40323251,40323253,40323255,
+40123224,40123239,40123242,40123250,40323234,40323238,
+40323222,40323227,40323241,40323243,40323249,40328242,40328245
+40123126,40123131,40123129,40123133,40123134,40123144,40123156
+40123202,40123214,40123217,40123226,40123232,40123235,40123244
+40323213,40323226,40323229,40323237,40323239,40323242,40323244
+40323212,40323216,40323219,40323236,40323254,40323256,
+40323210,40323211,40323220,40323235,40323248,40323215,
+40323223,40323225,40323240,40323245,40323247,40323252,
+</textarea>
+    </td>
+    </tr>
+    <tr>
+    <td>
+    <label>班級選擇:</label>
+        <select name="option3" width="300px">
+        {# 注意要使用 set 設定變數值 #}
+        {% set count = 0 %}
+        {% for element in option_list3 %}
+            {% set count = count + 1 %}
+            {# 以第1個選項作為 default #}
+            {% if count == 1 %}
+                <option value="{{ element }}" SELECTED>{{ element }}</option>
+            {% else %}
+                <option value="{{ element }}">{{ element }}</option>
+            {% endif %}
+        {% endfor %}
+        </select>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+    <td>
+    <label>組內排序方法:</label>
+        <select name="option1" width="300px">
+        {# 注意要使用 set 設定變數值 #}
+        {% set count = 0 %}
+        {% for element in option_list1 %}
+            {% set count = count + 1 %}
+            {# 以第1個選項作為 default #}
+            {% if count == 1 %}
+                <option value="{{ element }}" SELECTED>{{ element }}</option>
+            {% else %}
+                <option value="{{ element }}">{{ element }}</option>
+            {% endif %}
+        {% endfor %}
+        </select>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        <label>各組間組長排序方法:</label>
+            <select name="option2" width="300px">
+        {# 注意要使用 set 設定變數值 #}
+        {% set count = 0 %}
+            {% for element in option_list2 %}
+            {% set count = count + 1 %}
+            {# 以第1個選項作為 default #}
+            {% if count == 1 %}
+                <option value="{{ element }}" SELECTED>{{ element }}</option>
+            {% else %}
+                <option value="{{ element }}">{{ element }}</option>
+            {% endif %}
+        {% endfor %}
+            </select>
+        </td>
+        <td>
+            <input class="button1" type="submit" value="Select">
+        </td>
+    </tr>
+        </form></table>
+
+  </div>
+{% endblock content %}
