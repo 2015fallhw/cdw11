@@ -20,9 +20,6 @@ import users.a.g8.ag8_40323131_task1
 import users.b.g9.bg9_40323250
 import users.a.g8.ag8_40323123
 import users.a.g1.a40223153
-import users.a.g3.ag3_40323108
-import users.a.g3.ag3_40323108_task2bacd
-import users.a.g3.ag3_40323108_task3abcd
 #bg1
 import users.b.g1.bg1_40123156
 import users.b.g1.bg1_40123156_2
@@ -30,30 +27,20 @@ import users.b.g1.bg1_40123129
 import users.b.g1.bg1_40123129_2
 import users.b.g1.bg1_40123144
 import users.b.g1.bg1_40123144_2
+#import users.b.g1.bg1_40123131
+#import users.b.g1.bg1_40123131_2
 import users.b.g1.b40123131_cdw11
 import users.b.g1.b40123131_cdw12
-import users.b.g1.b40123131_cdw13
 
 import users.b.g1.b40123131_cdw11
 import users.b.g1.b40123131_cdw12
 import users.b.g1.bg1_40123134
 import users.b.g1.bg1_40123134_2
-import users.b.g1.bg1_40123134_3
-import users.b.g1.b40123133_cdw11
-import users.b.g1.b40123133_cdw12
-import users.b.g1.bg1_40123126
-import users.b.g1.bg1_40123126_2
 #bg2
 import users.b.g2.bg2_40123235
 import users.b.g2.bg2_40123235_cdw12
-import users.b.g2.bg2_40123235_cdw14
 import users.b.g2.bg2_40123202
 import users.b.g2.bg2_40123202_1
-import users.b.g2.bg2_40123226_cdw12
-import users.b.g2.bg2_40123232_cdw12
-import users.b.g2.bg2_40123214_cdw12
-import users.b.g2.bg2_40123217_cdw12
-import users.b.g2.bg2_40123244_cdw12
 #bg4
 import users.b.g4.bg4_40323203
 import users.b.g4.bg4_40323205
@@ -93,12 +80,8 @@ import users.b.g3.bg3_40123224
 import users.b.g3.bg3_40123224_cdw11
 import users.b.g3.bg3_40123250
 import users.b.g3.bg3_40123250_cdw11
-import users.b.g3.bg3_40123250_cdw14
-import users.b.g3.bg3_40123224_cdw14
 #import users.b.g3.b40123242
-import users.b.g3.bg3_40123242_cdw12
-#ag3
-import users.a.g3.a40323108
+
 #ag100
 import users.a.g100.cdw13.a40123100
 # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
@@ -483,9 +466,7 @@ app.register_blueprint(users.a.g10.ag10_40323129_task1.ag10_40323129)
 app.register_blueprint(users.a.g2.ag2_40323120.ag2_40323120)
 app.register_blueprint(users.a.g1.ag1_40323105.ag1_40323105)
 app.register_blueprint(users.a.g1.a40223153.ag1_40223153)
-app.register_blueprint(users.a.g3.ag3_40323108.ag3_40323108)
-app.register_blueprint(users.a.g3.ag3_40323108_task2bacd.ag3_40323108bacd)
-app.register_blueprint(users.a.g3.ag3_40323108_task3abcd.ag3_40323108task3)
+
 
 app.register_blueprint(users.b.g9.bg9_40323250.bg9_40323250)
 #bg1
@@ -497,34 +478,26 @@ app.register_blueprint(users.b.g1.bg1_40123129_2.bg1_40123129_2)
 
 app.register_blueprint(users.b.g1.bg1_40123144.bg1_40123144)
 app.register_blueprint(users.b.g1.bg1_40123144_2.bg40123144)
+#app.register_blueprint(users.b.g1.bg1_40123131.bg1_40123131)
+#app.register_blueprint(users.b.g1.bg1_40123131_2.bg40123131)
 app.register_blueprint(users.b.g1.b40123131_cdw11.bg1_40123131)
 app.register_blueprint(users.b.g1.b40123131_cdw12.bg1)
-app.register_blueprint(users.b.g1.b40123131_cdw13.b40123131_cdw13)
 
 app.register_blueprint(users.b.g1.b40123131_cdw11.bg1_40123131)
 app.register_blueprint(users.b.g1.b40123131_cdw12.bg1)
 app.register_blueprint(users.b.g1.bg1_40123134.bg1_40123134)
 app.register_blueprint(users.b.g1.bg1_40123134_2.bg1_40123134_2)
-app.register_blueprint(users.b.g1.bg1_40123134_3.bg1_40123134_3)
-app.register_blueprint(users.b.g1.b40123133_cdw11.bg1_40123133)
-app.register_blueprint(users.b.g1.b40123133_cdw12.bg1_40123133_2)
+
+
 #app.register_blueprint(users.b.g1.bg1_40123131.bg1_40123131)
 #app.register_blueprint(users.b.g1.bg1_40123131_2.bg40123131)
 
-app.register_blueprint(users.b.g1.bg1_40123126.bg1_40123126)
-app.register_blueprint(users.b.g1.bg1_40123126_2.bg1_40123126_2)
 
 #bg2
 app.register_blueprint(users.b.g2.bg2_40123235.bg2_40123235)
 app.register_blueprint(users.b.g2.bg2_40123202.bg2_40123202)
 app.register_blueprint(users.b.g2.bg2_40123235_cdw12.b40123235)
-app.register_blueprint(users.b.g2.bg2_40123235_cdw14.b40123235_1)
 app.register_blueprint(users.b.g2.bg2_40123202_1.b40123202)
-app.register_blueprint(users.b.g2.bg2_40123226_cdw12.b40123226)
-app.register_blueprint(users.b.g2.bg2_40123232_cdw12.b40123232)
-app.register_blueprint(users.b.g2.bg2_40123214_cdw12.b40123214)
-app.register_blueprint(users.b.g2.bg2_40123217_cdw12.b40123217)
-app.register_blueprint(users.b.g2.bg2_40123244_cdw12.b40123244)
 #bg4
 app.register_blueprint(users.b.g4.bg4_40323203.bg4_40323203)
 app.register_blueprint(users.b.g4.bg4_40323205.bg4_40323205)
@@ -549,9 +522,8 @@ app.register_blueprint(users.a.g8.a40323143.ag8_40323143)
 app.register_blueprint(users.a.g8.a40323154.ag8_40323154)
 #ag10
 app.register_blueprint(users.a.g10.a40323139.ag10_40323139_1)
-#app.register_blueprint(users.a.g10.a40323141.ag10_40323141_1)
-#ag3
-app.register_blueprint(users.a.g3.a40323108.ag3_40323108_1)
+app.register_blueprint(users.a.g10.a40323141.ag10_40323141_1)
+
 #ag100
 app.register_blueprint(users.a.g100.cdw13.a40123100.ag100)
 
@@ -559,13 +531,11 @@ app.register_blueprint(users.a.g100.cdw13.a40123100.ag100)
 #app.register_blueprint(users.b.g3.bg3_40123224.bg3_40123224)
 #app.register_blueprint(users.b.g3.bg3_.bg3_40123250)
 #app.register_blueprint(users.b.g3.bg3_40123250.bg3_40123242)
+
 app.register_blueprint(users.b.g3.bg3_40123224_cdw11.b40123224)
 app.register_blueprint(users.b.g3.bg3_40123250.bg3_40123250)
 app.register_blueprint(users.b.g3.bg3_40123250_cdw11.b40123250)
 #app.register_blueprint(users.b.g3.bg3_40123250.bg3_40123242)
-app.register_blueprint(users.b.g3.bg3_40123242_cdw12.b40123242)
-app.register_blueprint(users.b.g3.bg3_40123250_cdw14.b40123250_1)
-app.register_blueprint(users.b.g3.bg3_40123224_cdw14.b40123224_1)
 
 
 
