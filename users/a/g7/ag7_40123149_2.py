@@ -9,7 +9,6 @@ ag7_40123149_2 = Blueprint('ag7_40123149_2', __name__, url_prefix='/ag7_40123149
 def one():
     outstring = '''
 
-
 <!DOCTYPE html>
 <html>
 <head>
