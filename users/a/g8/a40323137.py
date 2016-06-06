@@ -1,6 +1,6 @@
 from flask import Blueprint, request
  
-ag8_40323143 = Blueprint('ag8_40323143', __name__, url_prefix='/ag8_40323143', template_folder='templates')
+ag8_40323137 = Blueprint('ag8_40323137', __name__, url_prefix='/ag8_40323137', template_folder='templates')
  
 head_str = '''
 <!DOCTYPE html>
@@ -457,50 +457,50 @@ r1, s1 = mychain.basic_rot(x11, y11, '''+str(first_degree)+''')
     return outstring
  
  
-@ag8_40323143.route('/a')
+@ag8_40323137.route('/a')
 def draw_a():
     return head_str + chain_str + a(0, 0) + tail_str
  
  
-@ag8_40323143.route('/b')
+@ag8_40323137.route('/b')
 def draw_b():
    # 每個橫向字元距離為 65 pixels, 上下字距則為 110 pixels
     return head_str + chain_str + b(0+65, 0) + tail_str
  
  
-@ag8_40323143.route('/c')
+@ag8_40323137.route('/c')
 def draw_c():
     # 每個橫向字元距離為 65 pixels
     return head_str + chain_str + c(0+65*2, 0) + tail_str
  
  
-@ag8_40323143.route('/d')
+@ag8_40323137.route('/d')
 def draw_d():
     return head_str + chain_str + d(0+65*3, 0) + tail_str
  
  
-@ag8_40323143.route('/ab')
+@ag8_40323137.route('/ab')
 def draw_ab():
     #return head_str + chain_str + a(0, 0) + b(0+65, 0) + tail_str
     return head_str + chain_str + a(0, 0) + b(0, 0-110) + tail_str
  
  
-@ag8_40323143.route('/ac')
+@ag8_40323137.route('/ac')
 def draw_ac():
     return head_str + chain_str + a(0, 0) + c(0+65, 0) + tail_str
  
  
-@ag8_40323143.route('/bc')
+@ag8_40323137.route('/bc')
 def draw_bc():
     return head_str + chain_str + b(0, 0) + c(0+65, 0) + tail_str
  
  
-@ag8_40323143.route('/abc')
+@ag8_40323137.route('/abc')
 def draw_abc():
     return head_str + chain_str + a(0, 0) + b(0+65, 0) + c(0+65*2, 0) + tail_str
  
  
-@ag8_40323143.route('/aaaa')
+@ag8_40323137.route('/aaaa')
 def draw_aaaa():
     outstring = head_str + chain_str
     scale = 2
@@ -511,51 +511,51 @@ def draw_aaaa():
     #return head_str + chain_str + a(0, 0, scale=1) + a(0+65, 0, scale=0.8, color="red") + a(0+65*2, 0, scale=0.6) + a(0+65*3, 0, scale=0.4, color="red") + tail_str
  
  
-@ag8_40323143.route('/badc')
+@ag8_40323137.route('/badc')
 def draw_badc():
     return head_str + chain_str + b(0, 0) + a(0+65, 0) + d(0+65*2, 0) + c(0+65*3, 0) + tail_str
  
  
-@ag8_40323143.route('/abcd')
+@ag8_40323137.route('/abcd')
 def draw_abcd():
     #return head_str + chain_str + a(0, 0) + b(0+65, 0) + c(0+65*2, 0) + d(0+65*3, 0) + tail_str
     return head_str + chain_str + a(0, 110) + b(0, 110-110) + c(0, 110-110*2) + d(0, 110-110*3) + tail_str
  
  
-@ag8_40323143.route('/circle')
+@ag8_40323137.route('/circle')
 def drawcircle():
     return head_str + chain_str + circle(0, 0) + tail_str
  
  
-@ag8_40323143.route('/circle1/<degree>', defaults={'x': 0, 'y': 0})
-@ag8_40323143.route('/circle1/<x>/<degree>', defaults={'y': 0})
-@ag8_40323143.route('/circle1/<x>/<y>/<degree>')
-#@ag8_40323143.route('/circle1/<int:x>/<int:y>/<int:degree>')
+@ag8_40323137.route('/circle1/<degree>', defaults={'x': 0, 'y': 0})
+@ag8_40323137.route('/circle1/<x>/<degree>', defaults={'y': 0})
+@ag8_40323137.route('/circle1/<x>/<y>/<degree>')
+#@ag8_40323137.route('/circle1/<int:x>/<int:y>/<int:degree>')
 def drawcircle1(x,y,degree):
     return head_str + chain_str + circle1(int(x), int(y), int(degree)) + tail_str
  
  
-@ag8_40323143.route('/circle2/<degree>', defaults={'x': 0, 'y': 0})
-@ag8_40323143.route('/circle2/<x>/<degree>', defaults={'y': 0})
-@ag8_40323143.route('/circle2/<x>/<y>/<degree>')
-#@ag8_40323143.route('/circle2/<int:x>/<int:y>/<int:degree>')
+@ag8_40323137.route('/circle2/<degree>', defaults={'x': 0, 'y': 0})
+@ag8_40323137.route('/circle2/<x>/<degree>', defaults={'y': 0})
+@ag8_40323137.route('/circle2/<x>/<y>/<degree>')
+#@ag8_40323137.route('/circle2/<int:x>/<int:y>/<int:degree>')
 def drawcircle2(x,y,degree):
     return head_str + chain_str + circle2(int(x), int(y), int(degree)) + tail_str
  
  
-@ag8_40323143.route('/twocircle/<x>/<y>')
-@ag8_40323143.route('/twocircle', defaults={'x':0, 'y':0})
+@ag8_40323137.route('/twocircle/<x>/<y>')
+@ag8_40323137.route('/twocircle', defaults={'x':0, 'y':0})
 def drawtwocircle(x,y):
     return head_str + chain_str + twocircle(int(x), int(y)) + tail_str
  
  
-@ag8_40323143.route('/eighteenthirty/<x>/<y>')
-@ag8_40323143.route('/eighteenthirty', defaults={'x':0, 'y':0})
+@ag8_40323137.route('/eighteenthirty/<x>/<y>')
+@ag8_40323137.route('/eighteenthirty', defaults={'x':0, 'y':0})
 def draweithteenthirdy(x,y):
     return head_str + chain_str + eighteenthirty(int(x), int(y)) + tail_str
  
  
-@ag8_40323143.route('/snap')
+@ag8_40323137.route('/snap')
 # http://svg.dabbles.info/snaptut-base
 def snap():
     outstring = '''
@@ -634,7 +634,7 @@ document['tux'].bind('mouseleave', hoverout)
     return outstring
  
  
-@ag8_40323143.route('/snap_link')
+@ag8_40323137.route('/snap_link')
 # http://svg.dabbles.info/
 def snap_link():
     outstring = '''
@@ -716,149 +716,42 @@ g4.animate( { 'transform' : 'r360,25,25' },4000)
     return outstring
  
  
-@ag8_40323143.route('/gear')
+@ag8_40323137.route('/snap_gear')
 def snap_gear():
     outstring = '''
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>網際 gear 繪圖</title>
+    <title>網際 snap 繪圖</title>
     <!-- IE 9: display inline SVG -->
     <meta http-equiv="X-UA-Compatible" content="IE=9">
-   <script type="text/javascript" src="http://brython.info/src/brython_dist.js"></script>
-<script type="text/javascript" src="http://2015fallhw.github.io/cptocadp/static/Cango-8v03.js"></script>
-<script type="text/javascript" src="http://2015fallhw.github.io/cptocadp/static/Cango2D-7v01-min.js"></script>
-<script type="text/javascript" src="http://2015fallhw.github.io/cptocadp/static/gearUtils-05.js"></script>
-
+    <script type="text/javascript" src="http://brython.info/src/brython_dist.js"></script>
+    <script type="text/javascript" src="/static/snap.svg-min.js"></script>
+ 
     <script>
-        window.onload=function(){
-        brython(1);
-        }
+    window.onload=function(){
+    brython(1);
+    }
     </script>
 </head>
 <body>
  
-<canvas id='gear1' width='800' height='750'></canvas>
- 
+<svg width="800" height="800" viewBox="0 0 800 800" id="svgout"></svg>
  
 <script type="text/python">
-# 將 導入的 document 設為 doc 主要原因在於與舊程式碼相容
-from browser import document as doc
-# 由於 Python3 與 Javascript 程式碼已經不再混用, 因此來自 Javascript 的變數, 必須居中透過 window 物件轉換
-from browser import window
-# 針對 Javascript 既有的物件, 則必須透過 JSConstructor 轉換
 from javascript import JSConstructor
-import math
+from browser import alert
+from browser import window, document
  
-# 主要用來取得畫布大小
-canvas = doc["gear1"]
-# 此程式採用 Cango Javascript 程式庫繪圖, 因此無需 ctx
-#ctx = canvas.getContext("2d")
-# 針對類別的轉換, 將 Cango.js 中的 Cango 物件轉為 Python cango 物件
-cango = JSConstructor(window.Cango)
-# 針對變數的轉換, shapeDefs 在 Cango 中資料型別為變數, 可以透過 window 轉換
-shapedefs = window.shapeDefs
-# 目前 Cango 結合 Animation 在 Brython 尚無法運作, 此刻只能繪製靜態圖形
-# in CangoAnimation.js
-#interpolate1 = window.interpolate
-# Cobi 與 createGearTooth 都是 Cango Javascript 程式庫中的物件
-cobj = JSConstructor(window.Cobj)
-creategeartooth = JSConstructor(window.createGearTooth)
+# 透過 window 與 JSConstructor 從 Brython 物件 snap 擷取 Snap 物件的內容
+snap = JSConstructor(window.Snap)
  
-# 經由 Cango 轉換成 Brython 的 cango, 指定將圖畫在 id="plotarea" 的 canvas 上
-cgo = cango("gear1")
-
-######################################
-# 畫正齒輪輪廓
-#####################################
-def spur(cx, cy, m, n, pa, theta):
-    # n 為齒數
-    #n = 17
-    # pa 為壓力角
-    #pa = 25
-    # m 為模數, 根據畫布的寬度, 計算適合的模數大小
-    # Module = mm of pitch diameter per tooth
-    #m = 0.8*canvas.width/n
-    # pr 為節圓半徑
-    pr = n*m/2 # gear Pitch radius
-    # generate gear
-    data = creategeartooth(m, n, pa)
-    # Brython 程式中的 print 會將資料印在 Browser 的 console 區
-    #print(data)
- 
-    gearTooth = cobj(data, "SHAPE", {
-            "fillColor":"#ddd0dd",
-            "border": True,
-            "strokeColor": "#606060" })
-    #gearTooth.rotate(180/n) # rotate gear 1/2 tooth to mesh, 請注意 rotate 角度為 degree
-    # theta 為角度
-    gearTooth.rotate(theta) 
-    # 單齒的齒形資料經過旋轉後, 將資料複製到 gear 物件中
-    gear = gearTooth.dup()
-    # gear 為單一齒的輪廓資料
-    #cgo.render(gearTooth)
- 
-    # 利用單齒輪廓旋轉, 產生整個正齒輪外形
-    for i in range(1, n):
-        # 將 gearTooth 中的資料複製到 newTooth
-        newTooth = gearTooth.dup()
-        # 配合迴圈, newTooth 的齒形資料進行旋轉, 然後利用 appendPath 方法, 將資料併入 gear
-        newTooth.rotate(360*i/n)
-        # appendPath 為 Cango 程式庫中的方法, 第二個變數為 True, 表示要刪除最前頭的 Move to SVG Path 標註符號
-        gear.appendPath(newTooth, True) # trim move command = True
- 
-    # 建立軸孔
-    # add axle hole, hr 為 hole radius
-    hr = 0.6*pr # diameter of gear shaft
-    shaft = cobj(shapedefs.circle(hr), "PATH")
-    shaft.revWinding()
-    gear.appendPath(shaft) # retain the 'moveTo' command for shaft sub path
-    gear.translate(cx, cy)
-    # render 繪出靜態正齒輪輪廓
-    cgo.render(gear)
-    # 接著繪製齒輪的基準線
-    deg = math.pi/180
-    Line = cobj(['M', cx, cy, 'L', cx+pr*math.cos(theta*deg), cy+pr*math.sin(theta*deg)], "PATH", {
-          'strokeColor':'blue', 'lineWidth': 1})
-    cgo.render(Line)
- 
-# 3個齒輪的齒數
-n1 = 17
-n2 = 29
-n3 = 15
- 
-# m 為模數, 根據畫布的寬度, 計算適合的模數大小
-# Module = mm of pitch diameter per tooth
-# 利用 80% 的畫布寬度進行繪圖
-# 計算模數的對應尺寸
-m = canvas.width*0.8/(n1+n2+n3)
- 
-# 根據齒數與模組計算各齒輪的節圓半徑
-pr1 = n1*m/2
-pr2 = n2*m/2
-pr3 = n3*m/2
- 
-# 畫布左右兩側都保留畫布寬度的 10%
-# 依此計算對應的最左邊齒輪的軸心座標
-cx = canvas.width*0.1+pr1
-cy = canvas.height/2
- 
-# pa 為壓力角
-pa = 25
- 
-# 畫最左邊齒輪, 定位線旋轉角為 0, 軸心座標 (cx, cy)
-spur(cx, cy, m, n1, pa, 0)
-# 第2個齒輪將原始的定位線逆時鐘轉 180 度後, 與第1個齒輪正好齒頂與齒頂對齊
-# 只要第2個齒輪再逆時鐘或順時鐘轉動半齒的角度, 即可完成囓合
-# 每一個齒分別包括從齒根到齒頂的範圍, 涵蓋角度為 360/n, 因此所謂的半齒角度為 180/n
-spur(cx+pr1+pr2, cy, m, n2, pa, 180-180/n2)
-# 第2齒與第3齒的囓合, 首先假定第2齒的定位線在 theta 角為 0 的原始位置
-# 如此, 第3齒只要逆時鐘旋轉 180 度後, 再逆時鐘或順時鐘轉動半齒的角度, 即可與第2齒囓合
-# 但是第2齒為了與第一齒囓合時, 已經從原始定位線轉了 180-180/n2 度
-# 而當第2齒從與第3齒囓合的定位線, 逆時鐘旋轉 180-180/n2 角度後, 原先囓合的第3齒必須要再配合旋轉 (180-180/n2 )*n2/n3
-spur(cx+pr1+pr2+pr2+pr3, cy, m, n3, pa, 180-180/n3+(180-180/n2)*n2/n3)
+s = snap("#svgout")
+# 畫直線
+s.line(0, 0, 100, 100).attr({ 'fill': "silver", 'stroke': "black", 'strokeWidth': "1"  }).attr({ 'id': 'line1' })
 </script>
-
+</body>
+</html>
 '''
     return outstring
