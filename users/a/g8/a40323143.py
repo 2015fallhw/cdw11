@@ -716,6 +716,45 @@ g4.animate( { 'transform' : 'r360,25,25' },4000)
     return outstring
  
  
+@ag8_40323143.route('/snap_gear')
+def snap_gear():
+    outstring = '''
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>網際 snap 繪圖</title>
+    <!-- IE 9: display inline SVG -->
+    <meta http-equiv="X-UA-Compatible" content="IE=9">
+    <script type="text/javascript" src="http://brython.info/src/brython_dist.js"></script>
+    <script type="text/javascript" src="/static/snap.svg-min.js"></script>
+ 
+    <script>
+    window.onload=function(){
+    brython(1);
+    }
+    </script>
+</head>
+<body>
+ 
+<svg width="800" height="800" viewBox="0 0 800 800" id="svgout"></svg>
+ 
+<script type="text/python">
+from javascript import JSConstructor
+from browser import alert
+from browser import window, document
+ 
+# 透過 window 與 JSConstructor 從 Brython 物件 snap 擷取 Snap 物件的內容
+snap = JSConstructor(window.Snap)
+ 
+s = snap("#svgout")
+# 畫直線
+s.line(0, 0, 100, 100).attr({ 'fill': "silver", 'stroke': "black", 'strokeWidth': "1"  }).attr({ 'id': 'line1' })
+</script>
+</body>
+</html>
+'''
+    return outstring
 @ag8_40323143.route('/gear')
 def snap_gear():
     outstring = '''
