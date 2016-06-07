@@ -389,18 +389,12 @@ def eighteenthirty(x, y):
     # 20 為鏈條兩圓距
     # chain 所圍之圓圈半徑為 20/2/math.asin(degree*math.pi/180/2)
     # degree = math.asin(20/2/radius)*180/math.pi
-    #x = 50
-    #y = 0
+    x = 50
+    y = 0
     degree = 20
-<<<<<<< HEAD:users/b/g5/b40323206_cdw11_2.py
-    first_degree = 20.78 +90
-    startx = -233.06+100
-    starty = 49.48 -175
-=======
-    first_degree = 20.78
-    startx = -233.06+100+x
-    starty = 49.48+y
->>>>>>> 6875cdb28f70fbc52a2d7d48bcaae0b7314e1508:users/b/g5/bg5_40323253_1.py
+    first_degree = 20.78+90
+    startx = -33
+    starty = -150
     repeat = 360 / degree
     # 先畫出左邊第一關鍵節
     outstring = '''
@@ -421,15 +415,10 @@ x1, y1 = mychain.basic_rot('''+str(startx)+","+str(starty)+", "+str(first_degree
     # 接著處理右邊的非虛擬鍊條
     # 先畫出右邊第一關鍵節
  
-<<<<<<< HEAD:users/b/g5/b40323206_cdw11_2.py
-    p = -17.89 -159
-    k = 93.98
-=======
-    p = -17.89+100+x
-    k = 93.98+y
->>>>>>> 6875cdb28f70fbc52a2d7d48bcaae0b7314e1508:users/b/g5/bg5_40323253_1.py
+    p = -75
+    k = 70
     degree = 12
-    first_degree = 4.78 +90
+    first_degree = 4.78+92
     repeat = 360 / degree
     # 第1節不是 virtual chain
     outstring += '''
@@ -447,7 +436,7 @@ p1, k1 = mychain.basic_rot('''+str(p)+","+str(k)+", "+str(first_degree)+''')
  
     # 上段連接直線
     # 從 x1, y1 作為起點
-    first_degree = 10.78 +90
+    first_degree = 10.78+89
     repeat = 10
     outstring += '''
 m1, n1 = mychain.basic_rot(x1, y1, '''+str(first_degree)+''')
@@ -564,7 +553,7 @@ def drawtwocircle(x,y):
 @bg5_40323253_1.route('/eighteenthirty', defaults={'x':0, 'y':0})
 def draweithteenthirdy(x,y):
     return head_str + chain_str + eighteenthirty(int(x), int(y)) + tail_str
-    
+ 
  
 @bg5_40323253_1.route('/snap')
 # http://svg.dabbles.info/snaptut-base

@@ -23,12 +23,13 @@
 <v t="amd.20160501215942.1" a="E"><vh>@path content/b/g1</vh>
 <v t="amd.20160501215720.1"><vh>@edit 40123133-20160505.md</vh></v>
 <v t="leo.20160512090146.1"><vh>@edit 40123133-20160512.md</vh></v>
+<v t="leo.20160526101002.1"><vh>@edit 40123133-20160519.md</vh></v>
 </v>
 </v>
 </v>
 </v>
 <v t="amd.20160501215545.1" a="E"><vh>wsgi 程式部份</vh>
-<v t="leo.20160512105035.1"><vh>@clean b40123133_cdw12.py</vh>
+<v t="leo.20160512105035.1" a="E"><vh>@clean b40123133_cdw12.py</vh>
 <v t="leo.20160512112005.1"><vh>b40123133_cdw12 declarations</vh></v>
 <v t="leo.20160512112005.2"><vh>a</vh></v>
 <v t="leo.20160512112005.3"><vh>b</vh></v>
@@ -58,8 +59,9 @@
 <v t="leo.20160512112005.27"><vh>snap</vh></v>
 <v t="leo.20160512112005.28"><vh>snap_link</vh></v>
 <v t="leo.20160512112005.29"><vh>snap_gear</vh></v>
+<v t="leo.20160527132807.1"><vh>test_gear</vh></v>
 </v>
-<v t="leo.20160505100213.1"><vh>@clean b40123133_cdw11.py</vh>
+<v t="leo.20160505100213.1" a="E"><vh>@clean b40123133_cdw11.py</vh>
 <v t="leo.20160512112035.1"><vh>b40123133_cdw11 declarations</vh></v>
 <v t="leo.20160512112035.2"><vh>a</vh></v>
 <v t="leo.20160512112035.3"><vh>draw_a</vh></v>
@@ -100,6 +102,100 @@
 <v t="leo.20160512085317.4"><vh>new:myflaskapp declarations</vh></v>
 </v>
 </v>
+<v t="leo.20160520143059.1" a="E"><vh>Recovered Nodes</vh>
+<v t="leo.20160520143059.2"><vh>Recovered node "myflaskapp declarations" from @clean myflaskapp.py</vh>
+<v t="leo.20160520143059.3"><vh>old:myflaskapp declarations</vh></v>
+<v t="leo.20160520143059.4"><vh>new:myflaskapp declarations</vh></v>
+</v>
+</v>
+<v t="leo.20160526100650.2" a="E"><vh>Recovered Nodes</vh>
+<v t="leo.20160526100650.3"><vh>Recovered node "b40123133_cdw12 declarations" from @clean b40123133_cdw12.py</vh>
+<v t="leo.20160526100650.4"><vh>old:b40123133_cdw12 declarations</vh></v>
+<v t="leo.20160526100650.5"><vh>new:b40123133_cdw12 declarations</vh></v>
+</v>
+<v t="leo.20160526100650.6"><vh>Recovered node "draw_a" from @clean b40123133_cdw12.py</vh>
+<v t="leo.20160526100650.7"><vh>old:draw_a</vh></v>
+<v t="leo.20160526100650.8"><vh>new:draw_a</vh></v>
+</v>
+<v t="leo.20160526100650.9"><vh>Recovered node "draw_b" from @clean b40123133_cdw12.py</vh>
+<v t="leo.20160526100650.10"><vh>old:draw_b</vh></v>
+<v t="leo.20160526100650.11"><vh>new:draw_b</vh></v>
+</v>
+<v t="leo.20160526100650.12"><vh>Recovered node "draw_c" from @clean b40123133_cdw12.py</vh>
+<v t="leo.20160526100650.13"><vh>old:draw_c</vh></v>
+<v t="leo.20160526100650.14"><vh>new:draw_c</vh></v>
+</v>
+<v t="leo.20160526100650.15"><vh>Recovered node "draw_d" from @clean b40123133_cdw12.py</vh>
+<v t="leo.20160526100650.16"><vh>old:draw_d</vh></v>
+<v t="leo.20160526100650.17"><vh>new:draw_d</vh></v>
+</v>
+<v t="leo.20160526100650.18"><vh>Recovered node "draw_ab" from @clean b40123133_cdw12.py</vh>
+<v t="leo.20160526100650.19"><vh>old:draw_ab</vh></v>
+<v t="leo.20160526100650.20"><vh>new:draw_ab</vh></v>
+</v>
+<v t="leo.20160526100650.21"><vh>Recovered node "draw_ac" from @clean b40123133_cdw12.py</vh>
+<v t="leo.20160526100650.22"><vh>old:draw_ac</vh></v>
+<v t="leo.20160526100650.23"><vh>new:draw_ac</vh></v>
+</v>
+<v t="leo.20160526100650.24"><vh>Recovered node "draw_bc" from @clean b40123133_cdw12.py</vh>
+<v t="leo.20160526100650.25"><vh>old:draw_bc</vh></v>
+<v t="leo.20160526100650.26"><vh>new:draw_bc</vh></v>
+</v>
+<v t="leo.20160526100650.27"><vh>Recovered node "draw_abc" from @clean b40123133_cdw12.py</vh>
+<v t="leo.20160526100650.28"><vh>old:draw_abc</vh></v>
+<v t="leo.20160526100650.29"><vh>new:draw_abc</vh></v>
+</v>
+<v t="leo.20160526100650.30"><vh>Recovered node "draw_aaaa" from @clean b40123133_cdw12.py</vh>
+<v t="leo.20160526100650.31"><vh>old:draw_aaaa</vh></v>
+<v t="leo.20160526100650.32"><vh>new:draw_aaaa</vh></v>
+</v>
+<v t="leo.20160526100650.33"><vh>Recovered node "draw_badc" from @clean b40123133_cdw12.py</vh>
+<v t="leo.20160526100650.34"><vh>old:draw_badc</vh></v>
+<v t="leo.20160526100650.35"><vh>new:draw_badc</vh></v>
+</v>
+<v t="leo.20160526100650.36"><vh>Recovered node "draw_abcd" from @clean b40123133_cdw12.py</vh>
+<v t="leo.20160526100650.37"><vh>old:draw_abcd</vh></v>
+<v t="leo.20160526100650.38"><vh>new:draw_abcd</vh></v>
+</v>
+<v t="leo.20160526100650.39"><vh>Recovered node "drawcircle" from @clean b40123133_cdw12.py</vh>
+<v t="leo.20160526100650.40"><vh>old:drawcircle</vh></v>
+<v t="leo.20160526100650.41"><vh>new:drawcircle</vh></v>
+</v>
+<v t="leo.20160526100650.42"><vh>Recovered node "drawcircle1" from @clean b40123133_cdw12.py</vh>
+<v t="leo.20160526100650.43"><vh>old:drawcircle1</vh></v>
+<v t="leo.20160526100650.44"><vh>new:drawcircle1</vh></v>
+</v>
+<v t="leo.20160526100650.45"><vh>Recovered node "drawcircle2" from @clean b40123133_cdw12.py</vh>
+<v t="leo.20160526100650.46"><vh>old:drawcircle2</vh></v>
+<v t="leo.20160526100650.47"><vh>new:drawcircle2</vh></v>
+</v>
+<v t="leo.20160526100650.48"><vh>Recovered node "drawtwocircle" from @clean b40123133_cdw12.py</vh>
+<v t="leo.20160526100650.49"><vh>old:drawtwocircle</vh></v>
+<v t="leo.20160526100650.50"><vh>new:drawtwocircle</vh></v>
+</v>
+<v t="leo.20160526100650.51"><vh>Recovered node "draweithteenthirdy" from @clean b40123133_cdw12.py</vh>
+<v t="leo.20160526100650.52"><vh>old:draweithteenthirdy</vh></v>
+<v t="leo.20160526100650.53"><vh>new:draweithteenthirdy</vh></v>
+</v>
+<v t="leo.20160526100650.54"><vh>Recovered node "snap" from @clean b40123133_cdw12.py</vh>
+<v t="leo.20160526100650.55"><vh>old:snap</vh></v>
+<v t="leo.20160526100650.56"><vh>new:snap</vh></v>
+</v>
+<v t="leo.20160526100650.57"><vh>Recovered node "snap_link" from @clean b40123133_cdw12.py</vh>
+<v t="leo.20160526100650.58"><vh>old:snap_link</vh></v>
+<v t="leo.20160526100650.59"><vh>new:snap_link</vh></v>
+</v>
+<v t="leo.20160526100650.60"><vh>Recovered node "snap_gear" from @clean b40123133_cdw12.py</vh>
+<v t="leo.20160526100650.61"><vh>old:snap_gear</vh></v>
+<v t="leo.20160526100650.62"><vh>new:snap_gear</vh></v>
+</v>
+</v>
+<v t="leo.20160527132501.1" a="E"><vh>Recovered Nodes</vh>
+<v t="leo.20160527132501.2"><vh>Recovered node "myflaskapp declarations" from @clean myflaskapp.py</vh>
+<v t="leo.20160527132501.3"><vh>old:myflaskapp declarations</vh></v>
+<v t="leo.20160527132501.4"><vh>new:myflaskapp declarations</vh></v>
+</v>
+</v>
 </vnodes>
 <tnodes>
 <t tx="amd.20160501215436.2"></t>
@@ -134,6 +230,7 @@ app.register_blueprint(users.a.g10.ag10_40323141_task1.ag10_40323141)
 app.register_blueprint(users.a.g9.ag9_40323132task.ag9_40323132)
 app.register_blueprint(users.a.g10.ag10_40323139.ag10_40323139)
 app.register_blueprint(users.a.g5.ag5_40323113task1.ag5_40323113)
+app.register_blueprint(users.a.g5.ag5_40123145task1.ag5_40123145)
 app.register_blueprint(users.a.g8.ag8_40323131_task1.ag8_40323131)
 app.register_blueprint(users.a.g4.ag4_40323138_task2bacd.ag4_40323138bacd)
 app.register_blueprint(users.a.g4.ag4_40323138_task3abcd.ag4_40323138task3)
@@ -141,22 +238,98 @@ app.register_blueprint(users.a.g8.ag8_40323123.ag8_40323123)
 app.register_blueprint(users.a.g10.ag10_40323129_task1.ag10_40323129)
 app.register_blueprint(users.a.g2.ag2_40323120.ag2_40323120)
 app.register_blueprint(users.a.g1.ag1_40323105.ag1_40323105)
-
-
+app.register_blueprint(users.a.g1.a40223153.ag1_40223153)
+app.register_blueprint(users.a.g3.ag3_40323108.ag3_40323108)
+app.register_blueprint(users.a.g3.ag3_40323108_task2bacd.ag3_40323108bacd)
+app.register_blueprint(users.a.g3.ag3_40323108_task3abcd.ag3_40323108task3)
 
 app.register_blueprint(users.b.g9.bg9_40323250.bg9_40323250)
+#bg1
 app.register_blueprint(users.b.g1.bg1_40123156.bg1_40123156)
+app.register_blueprint(users.b.g1.bg1_40123156_2.bg1_40123156_2)
+
+app.register_blueprint(users.b.g1.bg1_40123129.bg1_40123129)
+app.register_blueprint(users.b.g1.bg1_40123129_2.bg1_40123129_2)
+
+app.register_blueprint(users.b.g1.bg1_40123144.bg1_40123144)
+app.register_blueprint(users.b.g1.bg1_40123144_2.bg40123144)
+app.register_blueprint(users.b.g1.b40123131_cdw11.bg1_40123131)
+app.register_blueprint(users.b.g1.b40123131_cdw12.bg1)
+app.register_blueprint(users.b.g1.b40123131_cdw13.b40123131_cdw13)
+
+app.register_blueprint(users.b.g1.b40123131_cdw11.bg1_40123131)
+app.register_blueprint(users.b.g1.b40123131_cdw12.bg1)
+app.register_blueprint(users.b.g1.bg1_40123134.bg1_40123134)
+app.register_blueprint(users.b.g1.bg1_40123134_2.bg1_40123134_2)
+app.register_blueprint(users.b.g1.bg1_40123134_3.bg1_40123134_3)
+app.register_blueprint(users.b.g1.b40123133_cdw11.bg1_40123133)
+app.register_blueprint(users.b.g1.b40123133_cdw12.bg1_40123133_2)
+#app.register_blueprint(users.b.g1.bg1_40123131.bg1_40123131)
+#app.register_blueprint(users.b.g1.bg1_40123131_2.bg40123131)
+
+app.register_blueprint(users.b.g1.bg1_40123126.bg1_40123126)
+app.register_blueprint(users.b.g1.bg1_40123126_2.bg1_40123126_2)
+
 #bg2
 app.register_blueprint(users.b.g2.bg2_40123235.bg2_40123235)
 app.register_blueprint(users.b.g2.bg2_40123202.bg2_40123202)
+app.register_blueprint(users.b.g2.bg2_40123235_cdw12.b40123235)
+&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+app.register_blueprint(users.b.g2.bg2_40123202_cdw13.b40123202)
+app.register_blueprint(users.b.g2.bg2_40123202_cdw14.bg2_40123202_cdw14)
+=======
+app.register_blueprint(users.b.g2.bg2_40123235_cdw14.b40123235_1)
+app.register_blueprint(users.b.g2.bg2_40123202_1.b40123202)
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; 201b49b2317490e5c6e34954a71d710c80b41079
+app.register_blueprint(users.b.g2.bg2_40123226_cdw12.b40123226)
+app.register_blueprint(users.b.g2.bg2_40123232_cdw12.b40123232)
+app.register_blueprint(users.b.g2.bg2_40123214_cdw12.b40123214)
+app.register_blueprint(users.b.g2.bg2_40123217_cdw12.b40123217)
+app.register_blueprint(users.b.g2.bg2_40123244_cdw12.b40123244)
 #bg4
 app.register_blueprint(users.b.g4.bg4_40323203.bg4_40323203)
+app.register_blueprint(users.b.g4.bg4_40323205.bg4_40323205)
+app.register_blueprint(users.b.g4.bg4_40323208.bg4_40323208)
+#bg8
+app.register_blueprint(users.b.g8.bg8_40323213.bg8_40323213)
+app.register_blueprint(users.b.g4.bg4_40323202.bg4_40323202)
+app.register_blueprint(users.b.g4.b40323201_cdw11.b40323201)
+#bg5
+app.register_blueprint(users.b.g5.b40323204_cdw11_1.bg5_40323204_1)
+#app.register_blueprint(users.b.g5.b40323206_cdw11_1.bg5_40323206_1)
+app.register_blueprint(users.b.g5.b40323206_cdw11_2.bg5_40323206_2)
 #bg11
 app.register_blueprint(users.b.g11.bg11_40323245.bg11_40323245)
 app.register_blueprint(users.b.g11.bg11_40323252.bg11_40323252)
-#bg1
-app.register_blueprint(users.b.g1.b40123133_cdw11.bg1_40123133)
-app.register_blueprint(users.b.g1.b40123133_cdw12.bg1)
+app.register_blueprint(users.b.g11.bg11_40323245_1.bg11)
+#bg101
+app.register_blueprint(users.b.g101.b40123200.bg101)
+
+#ag8
+app.register_blueprint(users.a.g8.a40323143.ag8_40323143)
+app.register_blueprint(users.a.g8.a40323154.ag8_40323154)
+#ag10
+app.register_blueprint(users.a.g10.a40323139.ag10_40323139_1)
+#app.register_blueprint(users.a.g10.a40323141.ag10_40323141_1)
+#ag3
+app.register_blueprint(users.a.g3.a40323108.ag3_40323108_1)
+#ag100
+app.register_blueprint(users.a.g100.cdw13.a40123100.ag100)
+
+#bg3
+#app.register_blueprint(users.b.g3.bg3_40123224.bg3_40123224)
+#app.register_blueprint(users.b.g3.bg3_.bg3_40123250)
+#app.register_blueprint(users.b.g3.bg3_40123250.bg3_40123242)
+app.register_blueprint(users.b.g3.bg3_40123224_cdw11.b40123224)
+app.register_blueprint(users.b.g3.bg3_40123250.bg3_40123250)
+app.register_blueprint(users.b.g3.bg3_40123250_cdw11.b40123250)
+#app.register_blueprint(users.b.g3.bg3_40123250.bg3_40123242)
+app.register_blueprint(users.b.g3.bg3_40123242_cdw12.b40123242)
+app.register_blueprint(users.b.g3.bg3_40123250_cdw14.b40123250_1)
+app.register_blueprint(users.b.g3.bg3_40123224_cdw14.b40123224_1)
+
+
+
 </t>
 <t tx="amd.20160501221001.10">@app.route('/fileaxupload', methods=['POST'])
 # ajax jquery chunked file upload for flask
@@ -297,24 +470,96 @@ import users.a.g10.ag10_40323141_task1
 import users.a.g10.ag10_40323139
 import users.a.g9.ag9_40323132task
 import users.a.g5.ag5_40323113task1
+import users.a.g5.ag5_40123145task1
 import users.a.g4.ag4_40323138
 import users.a.g4.ag4_40323138_task2bacd
 import users.a.g4.ag4_40323138_task3abcd
 import users.a.g8.ag8_40323131_task1
 import users.b.g9.bg9_40323250
-import users.b.g1.bg1_40123156
 import users.a.g8.ag8_40323123
+import users.a.g1.a40223153
+import users.a.g3.ag3_40323108
+import users.a.g3.ag3_40323108_task2bacd
+import users.a.g3.ag3_40323108_task3abcd
+#bg1
+import users.b.g1.bg1_40123156
+import users.b.g1.bg1_40123156_2
+import users.b.g1.bg1_40123129
+import users.b.g1.bg1_40123129_2
+import users.b.g1.bg1_40123144
+import users.b.g1.bg1_40123144_2
+import users.b.g1.b40123131_cdw11
+import users.b.g1.b40123131_cdw12
+import users.b.g1.b40123131_cdw13
+
+import users.b.g1.b40123131_cdw11
+import users.b.g1.b40123131_cdw12
+import users.b.g1.bg1_40123134
+import users.b.g1.bg1_40123134_2
+import users.b.g1.bg1_40123134_3
+import users.b.g1.b40123133_cdw11
+import users.b.g1.b40123133_cdw12
+import users.b.g1.bg1_40123126
+import users.b.g1.bg1_40123126_2
 #bg2
 import users.b.g2.bg2_40123235
+import users.b.g2.bg2_40123235_cdw12
+import users.b.g2.bg2_40123235_cdw14
 import users.b.g2.bg2_40123202
+import users.b.g2.bg2_40123202_cdw13
+import users.b.g2.bg2_40123202_cdw14
+import users.b.g2.bg2_40123226_cdw12
+import users.b.g2.bg2_40123232_cdw12
+import users.b.g2.bg2_40123214_cdw12
+import users.b.g2.bg2_40123217_cdw12
+import users.b.g2.bg2_40123244_cdw12
 #bg4
 import users.b.g4.bg4_40323203
+import users.b.g4.bg4_40323205
+import users.b.g4.bg4_40323208
+#bg8
+import users.b.g8.bg8_40323213
+import users.b.g4.bg4_40323202
+import users.b.g4.b40323201_cdw11
+
+#bg5
+#import users.b.g5.b40323206_cdw11_1
+import users.b.g5.b40323204_cdw11_1
+
+
+#bg5
+#import users.b.g5.b40323206_cdw11_1
+import users.b.g5.b40323204_cdw11_1
+import users.b.g5.b40323204_cdw11_2
+import users.b.g5.b40323206_cdw11_2
 #bg11
 import users.b.g11.bg11_40323245
 import users.b.g11.bg11_40323252
-#bg1
-import users.b.g1.b40123133_cdw12
-import users.b.g1.b40123133_cdw11
+import users.b.g11.bg11_40323245_1
+#bg101
+import users.b.g101.b40123200
+#ag8
+import users.a.g8.a40323143
+import users.a.g8.a40323154
+#ag10
+import users.a.g10.a40323139
+import users.a.g10.a40323141
+#bg3
+#import users.b.g3.b40123224
+#import users.b.g3.b40123250
+#import users.b.g3.b40123242
+import users.b.g3.bg3_40123224
+import users.b.g3.bg3_40123224_cdw11
+import users.b.g3.bg3_40123250
+import users.b.g3.bg3_40123250_cdw11
+import users.b.g3.bg3_40123250_cdw14
+import users.b.g3.bg3_40123224_cdw14
+#import users.b.g3.b40123242
+import users.b.g3.bg3_40123242_cdw12
+#ag3
+import users.a.g3.a40323108
+#ag100
+import users.a.g100.cdw13.a40123100
 # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
 _curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
 # 設定在雲端與近端的資料儲存目錄
@@ -340,8 +585,6 @@ app = Flask(__name__)
 # In order to use sessions you have to set a secret key
 # set the secret key.  keep this really secret:
 app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
-
-
 
 
 
@@ -931,7 +1174,7 @@ app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
 </t>
 <t tx="leo.20160512112005.1">from flask import Blueprint, request
  
-bg1 = Blueprint('bg1', __name__, url_prefix='/bg1', template_folder='templates')
+bg1_40123133_2 = Blueprint('bg1_40123133_2', __name__, url_prefix='/bg1_40123133_2', template_folder='templates')
  
 head_str = '''
 &lt;!DOCTYPE html&gt;
@@ -1147,58 +1390,58 @@ r1, s1 = mychain.basic_rot(x11, y11, '''+str(first_degree)+''')
  
  
 </t>
-<t tx="leo.20160512112005.11">@bg1.route('/a')
+<t tx="leo.20160512112005.11">@bg1_40123133_2.route('/a')
 def draw_a():
     return head_str + chain_str + a(0, 0) + tail_str
  
  
 </t>
-<t tx="leo.20160512112005.12">@bg1.route('/b')
+<t tx="leo.20160512112005.12">@bg1_40123133_2.route('/b')
 def draw_b():
    # 每個橫向字元距離為 65 pixels, 上下字距則為 110 pixels
     return head_str + chain_str + b(0+65, 0) + tail_str
  
  
 </t>
-<t tx="leo.20160512112005.13">@bg1.route('/c')
+<t tx="leo.20160512112005.13">@bg1_40123133_2.route('/c')
 def draw_c():
     # 每個橫向字元距離為 65 pixels
     return head_str + chain_str + c(0+65*2, 0) + tail_str
  
  
 </t>
-<t tx="leo.20160512112005.14">@bg1.route('/d')
+<t tx="leo.20160512112005.14">@bg1_40123133_2.route('/d')
 def draw_d():
     return head_str + chain_str + d(0+65*3, 0) + tail_str
  
  
 </t>
-<t tx="leo.20160512112005.15">@bg1.route('/ab')
+<t tx="leo.20160512112005.15">@bg1_40123133_2.route('/ab')
 def draw_ab():
     #return head_str + chain_str + a(0, 0) + b(0+65, 0) + tail_str
     return head_str + chain_str + a(0, 0) + b(0, 0-110) + tail_str
  
  
 </t>
-<t tx="leo.20160512112005.16">@bg1.route('/ac')
+<t tx="leo.20160512112005.16">@bg1_40123133_2.route('/ac')
 def draw_ac():
     return head_str + chain_str + a(0, 0) + c(0+65, 0) + tail_str
  
  
 </t>
-<t tx="leo.20160512112005.17">@bg1.route('/bc')
+<t tx="leo.20160512112005.17">@bg1_40123133_2.route('/bc')
 def draw_bc():
     return head_str + chain_str + b(0, 0) + c(0+65, 0) + tail_str
  
  
 </t>
-<t tx="leo.20160512112005.18">@bg1.route('/abc')
+<t tx="leo.20160512112005.18">@bg1_40123133_2.route('/abc')
 def draw_abc():
     return head_str + chain_str + a(0, 0) + b(0+65, 0) + c(0+65*2, 0) + tail_str
  
  
 </t>
-<t tx="leo.20160512112005.19">@bg1.route('/aaaa')
+<t tx="leo.20160512112005.19">@bg1_40123133_2.route('/aaaa')
 def draw_aaaa():
     outstring = head_str + chain_str
     scale = 2
@@ -1240,58 +1483,58 @@ mychain.basic(x10, y10, x1, y1)
  
  
 </t>
-<t tx="leo.20160512112005.20">@bg1.route('/badc')
+<t tx="leo.20160512112005.20">@bg1_40123133_2.route('/badc')
 def draw_badc():
     return head_str + chain_str + b(0, 0) + a(0+65, 0) + d(0+65*2, 0) + c(0+65*3, 0) + tail_str
  
  
 </t>
-<t tx="leo.20160512112005.21">@bg1.route('/abcd')
+<t tx="leo.20160512112005.21">@bg1_40123133_2.route('/abcd')
 def draw_abcd():
     #return head_str + chain_str + a(0, 0) + b(0+65, 0) + c(0+65*2, 0) + d(0+65*3, 0) + tail_str
     return head_str + chain_str + a(0, 110) + b(0, 110-110) + c(0, 110-110*2) + d(0, 110-110*3) + tail_str
  
  
 </t>
-<t tx="leo.20160512112005.22">@bg1.route('/circle')
+<t tx="leo.20160512112005.22">@bg1_40123133_2.route('/circle')
 def drawcircle():
     return head_str + chain_str + circle(0, 0) + tail_str
  
  
 </t>
-<t tx="leo.20160512112005.23">@bg1.route('/circle1/&lt;degree&gt;', defaults={'x': 0, 'y': 0})
-@bg1.route('/circle1/&lt;x&gt;/&lt;degree&gt;', defaults={'y': 0})
-@bg1.route('/circle1/&lt;x&gt;/&lt;y&gt;/&lt;degree&gt;')
-#@bg1.route('/circle1/&lt;int:x&gt;/&lt;int:y&gt;/&lt;int:degree&gt;')
+<t tx="leo.20160512112005.23">@bg1_40123133_2.route('/circle1/&lt;degree&gt;', defaults={'x': 0, 'y': 0})
+@bg1_40123133_2.route('/circle1/&lt;x&gt;/&lt;degree&gt;', defaults={'y': 0})
+@bg1_40123133_2.route('/circle1/&lt;x&gt;/&lt;y&gt;/&lt;degree&gt;')
+#@bg1_40123133_2.route('/circle1/&lt;int:x&gt;/&lt;int:y&gt;/&lt;int:degree&gt;')
 def drawcircle1(x,y,degree):
     return head_str + chain_str + circle1(int(x), int(y), int(degree)) + tail_str
  
  
 </t>
-<t tx="leo.20160512112005.24">@bg1.route('/circle2/&lt;degree&gt;', defaults={'x': 0, 'y': 0})
-@bg1.route('/circle2/&lt;x&gt;/&lt;degree&gt;', defaults={'y': 0})
-@bg1.route('/circle2/&lt;x&gt;/&lt;y&gt;/&lt;degree&gt;')
-#@bg1.route('/circle2/&lt;int:x&gt;/&lt;int:y&gt;/&lt;int:degree&gt;')
+<t tx="leo.20160512112005.24">@bg1_40123133_2.route('/circle2/&lt;degree&gt;', defaults={'x': 0, 'y': 0})
+@bg1_40123133_2.route('/circle2/&lt;x&gt;/&lt;degree&gt;', defaults={'y': 0})
+@bg1_40123133_2.route('/circle2/&lt;x&gt;/&lt;y&gt;/&lt;degree&gt;')
+#@bg1_40123133_2.route('/circle2/&lt;int:x&gt;/&lt;int:y&gt;/&lt;int:degree&gt;')
 def drawcircle2(x,y,degree):
     return head_str + chain_str + circle2(int(x), int(y), int(degree)) + tail_str
  
  
 </t>
-<t tx="leo.20160512112005.25">@bg1.route('/twocircle/&lt;x&gt;/&lt;y&gt;')
-@bg1.route('/twocircle', defaults={'x':0, 'y':0})
+<t tx="leo.20160512112005.25">@bg1_40123133_2.route('/twocircle/&lt;x&gt;/&lt;y&gt;')
+@bg1_40123133_2.route('/twocircle', defaults={'x':0, 'y':0})
 def drawtwocircle(x,y):
     return head_str + chain_str + twocircle(int(x), int(y)) + tail_str
  
  
 </t>
-<t tx="leo.20160512112005.26">@bg1.route('/eighteenthirty/&lt;x&gt;/&lt;y&gt;')
-@bg1.route('/eighteenthirty', defaults={'x':0, 'y':0})
+<t tx="leo.20160512112005.26">@bg1_40123133_2.route('/eighteenthirty/&lt;x&gt;/&lt;y&gt;')
+@bg1_40123133_2.route('/eighteenthirty', defaults={'x':0, 'y':0})
 def draweithteenthirdy(x,y):
     return head_str + chain_str + eighteenthirty(int(x), int(y)) + tail_str
  
  
 </t>
-<t tx="leo.20160512112005.27">@bg1.route('/snap')
+<t tx="leo.20160512112005.27">@bg1_40123133_2.route('/snap')
 # http://svg.dabbles.info/snaptut-base
 def snap():
     outstring = '''
@@ -1371,7 +1614,7 @@ document['tux'].bind('mouseleave', hoverout)
  
  
 </t>
-<t tx="leo.20160512112005.28">@bg1.route('/snap_link')
+<t tx="leo.20160512112005.28">@bg1_40123133_2.route('/snap_link')
 # http://svg.dabbles.info/
 def snap_link():
     outstring = '''
@@ -1454,7 +1697,7 @@ g4.animate( { 'transform' : 'r360,25,25' },4000)
  
  
 </t>
-<t tx="leo.20160512112005.29">@bg1.route('/snap_gear')
+<t tx="leo.20160512112005.29">@bg1_40123133_2.route('/snap_gear')
 def snap_gear():
     outstring = '''
 &lt;!DOCTYPE html&gt;
@@ -1662,17 +1905,17 @@ x1, y1 = mychain.basic_rot('''+str(x)+","+str(y)+", "+str(first_degree)+''', Tru
         #if i &lt; 7 or i &gt; 23:        
         if i &lt;= 7 or i &gt;= 23:
             # virautl chain
-            outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+", 90-"+str(i*degree)+", True) \n"
+            outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+", 180-"+str(i*degree)+", True) \n"
             #outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+", 90-"+str(i*degree)+") \n"
         else:
-            outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+", 90-"+str(i*degree)+") \n"
+            outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+", 180-"+str(i*degree)+") \n"
  
-    p = -150
-    k = 0
+    p = 73.5
+    k = -185
     degree = 20
     # 70, 50, 30, 10
     # 從 i=5 開始, 就是 virautl chain
-    first_degree = 90 - degree
+    first_degree = 180 - degree
     repeat = 360 / degree
     # 第1節不是 virtual chain
     outstring += '''
@@ -1683,14 +1926,14 @@ p1, k1 = mychain.basic_rot('''+str(p)+","+str(k)+", "+str(first_degree)+''')
     for i in range(2, int(repeat)+1):
         if i &gt;= 5 and i &lt;= 13:
             # virautl chain
-            outstring += "p"+str(i)+", k"+str(i)+"=mychain.basic_rot(p"+str(i-1)+", k"+str(i-1)+", 90-"+str(i*degree)+", True) \n"
-            #outstring += "p"+str(i)+", k"+str(i)+"=mychain.basic_rot(p"+str(i-1)+", k"+str(i-1)+", 90-"+str(i*degree)+") \n"
+            outstring += "p"+str(i)+", k"+str(i)+"=mychain.basic_rot(p"+str(i-1)+", k"+str(i-1)+", 180-"+str(i*degree)+", True) \n"
+            #outstring += "p"+str(i)+", k"+str(i)+"=mychain.basic_rot(p"+str(i-1)+", k"+str(i-1)+", 0-"+str(i*degree)+") \n"
         else:
-            outstring += "p"+str(i)+", k"+str(i)+"=mychain.basic_rot(p"+str(i-1)+", k"+str(i-1)+", 90-"+str(i*degree)+") \n"
+            outstring += "p"+str(i)+", k"+str(i)+"=mychain.basic_rot(p"+str(i-1)+", k"+str(i-1)+", 180-"+str(i*degree)+") \n"
  
     # 上段連接直線
     # 從 p5, k5 作為起點
-    first_degree = 10
+    first_degree = 100
     repeat = 11
     outstring += '''
 m1, n1 = mychain.basic_rot(p4, k4, '''+str(first_degree)+''')
@@ -1700,7 +1943,7 @@ m1, n1 = mychain.basic_rot(p4, k4, '''+str(first_degree)+''')
  
     # 下段連接直線
     # 從 p12, k12 作為起點
-    first_degree = -10
+    first_degree = 80
     repeat = 11
     outstring += '''
 r1, s1 = mychain.basic_rot(p13, k13, '''+str(first_degree)+''')
@@ -1910,5 +2153,2331 @@ x1, y1 = mychain.basic_rot('''+str(x)+","+str(y)+", "+str(first_degree)+''')
 def drawcircle36(x,y,degree):
     return head_str + chain_str + circle36(int(x), int(y), int(degree)) + tail_str
 </t>
+<t tx="leo.20160520143059.1"></t>
+<t tx="leo.20160520143059.2">(uncached) amd.20160501221001.2
+Diff...
+  # coding: utf-8
+  from flask import Flask, send_from_directory, request, redirect, render_template, session, make_response
+  import random
+  import math
+  import os
+  # init.py 為自行建立的起始物件
+  import init
+  import users.a.g1.ag1_40323105
+  import users.a.g2.ag2_40323120
+  import users.a.g10.ag10_40323129_task1
+  import users.a.g10.ag10_40323141_task1
+  import users.a.g10.ag10_40323139
+  import users.a.g9.ag9_40323132task
+  import users.a.g5.ag5_40323113task1
+- import users.a.g5.ag5_40123145task1
+  import users.a.g4.ag4_40323138
+  import users.a.g4.ag4_40323138_task2bacd
+  import users.a.g4.ag4_40323138_task3abcd
+  import users.a.g8.ag8_40323131_task1
+  import users.b.g9.bg9_40323250
++ import users.b.g1.bg1_40123156
+  import users.a.g8.ag8_40323123
+- import users.a.g1.a40223153
+- #bg1
+- import users.b.g1.bg1_40123156
+- import users.b.g1.bg1_40123156_2
+- import users.b.g1.bg1_40123129
+- import users.b.g1.bg1_40123129_2
+- import users.b.g1.bg1_40123144
+- import users.b.g1.bg1_40123144_2
+- #import users.b.g1.bg1_40123131
+- #import users.b.g1.bg1_40123131_2
+- import users.b.g1.b40123131_cdw11
+- import users.b.g1.b40123131_cdw12
+- 
+- import users.b.g1.b40123131_cdw11
+- import users.b.g1.b40123131_cdw12
+- import users.b.g1.bg1_40123134
+- import users.b.g1.bg1_40123134_2
+  #bg2
+  import users.b.g2.bg2_40123235
+- import users.b.g2.bg2_40123235_cdw12
+  import users.b.g2.bg2_40123202
+- import users.b.g2.bg2_40123202_1
+  #bg4
+  import users.b.g4.bg4_40323203
+- import users.b.g4.bg4_40323205
+- import users.b.g4.bg4_40323208
+- #bg8
+- import users.b.g8.bg8_40323213
+- import users.b.g4.bg4_40323202
+- import users.b.g4.b40323201_cdw11
+- 
+- #bg5
+- #import users.b.g5.b40323206_cdw11_1
+- import users.b.g5.b40323204_cdw11_1
+- 
+- 
+- #bg5
+- #import users.b.g5.b40323206_cdw11_1
+- import users.b.g5.b40323204_cdw11_1
+- import users.b.g5.b40323204_cdw11_2
+- import users.b.g5.b40323206_cdw11_2
+  #bg11
+  import users.b.g11.bg11_40323245
+  import users.b.g11.bg11_40323252
+- import users.b.g11.bg11_40323245_1
+- #bg101
+?     --
++ #bg1
+- import users.b.g101.b40123200
+?                  --        --
++ import users.b.g1.b40123133_cdw12
+?                         ++++++++
+- #ag8
+- import users.a.g8.a40323143
+- import users.a.g8.a40323154
+- #ag10
+- import users.a.g10.a40323139
+- import users.a.g10.a40323141
+- #bg3
+- #import users.b.g3.b40123224
+- #import users.b.g3.b40123250
+- #import users.b.g3.b40123242
+- import users.b.g3.bg3_40123224
+- import users.b.g3.bg3_40123224_cdw11
+?                 ^  ---     ^^^
++ import users.b.g1.b40123133_cdw11
+?                 ^       ^^^
+- import users.b.g3.bg3_40123250
+- import users.b.g3.bg3_40123250_cdw11
+- #import users.b.g3.b40123242
+- 
+- #ag100
+- import users.a.g100.cdw13.a40123100
+  # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
+  _curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
+  # 設定在雲端與近端的資料儲存目錄
+  if 'OPENSHIFT_REPO_DIR' in os.environ.keys():
+      # 表示程式在雲端執行
+      data_dir = os.environ['OPENSHIFT_DATA_DIR']
+      static_dir = os.environ['OPENSHIFT_REPO_DIR']+"/static"
+      download_dir = os.environ['OPENSHIFT_DATA_DIR']+"/downloads"
+  else:
+      # 表示程式在近端執行
+      data_dir = _curdir + "/local_data/"
+      static_dir = _curdir + "/static"
+      download_dir = _curdir + "/local_data/downloads/"
+  
+  # 利用 init.py 啟動, 建立所需的相關檔案
+  initobj = init.Init()
+  
+  # 必須先將 download_dir 設為 static_folder, 然後才可以用於 download 方法中的 app.static_folder 的呼叫
+  app = Flask(__name__)
+  #app.config['download_dir'] = download_dir
+  
+  # 使用 session 必須要設定 secret_key
+  # In order to use sessions you have to set a secret key
+  # set the secret key.  keep this really secret:
+  app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
+  
+  
+  
+  
+  
+  
++ 
++ 
+</t>
+<t tx="leo.20160520143059.3"># coding: utf-8
+from flask import Flask, send_from_directory, request, redirect, render_template, session, make_response
+import random
+import math
+import os
+# init.py 為自行建立的起始物件
+import init
+import users.a.g1.ag1_40323105
+import users.a.g2.ag2_40323120
+import users.a.g10.ag10_40323129_task1
+import users.a.g10.ag10_40323141_task1
+import users.a.g10.ag10_40323139
+import users.a.g9.ag9_40323132task
+import users.a.g5.ag5_40323113task1
+import users.a.g4.ag4_40323138
+import users.a.g4.ag4_40323138_task2bacd
+import users.a.g4.ag4_40323138_task3abcd
+import users.a.g8.ag8_40323131_task1
+import users.b.g9.bg9_40323250
+import users.b.g1.bg1_40123156
+import users.a.g8.ag8_40323123
+#bg2
+import users.b.g2.bg2_40123235
+import users.b.g2.bg2_40123202
+#bg4
+import users.b.g4.bg4_40323203
+#bg11
+import users.b.g11.bg11_40323245
+import users.b.g11.bg11_40323252
+#bg1
+import users.b.g1.b40123133_cdw12
+import users.b.g1.b40123133_cdw11
+# 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
+_curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
+# 設定在雲端與近端的資料儲存目錄
+if 'OPENSHIFT_REPO_DIR' in os.environ.keys():
+    # 表示程式在雲端執行
+    data_dir = os.environ['OPENSHIFT_DATA_DIR']
+    static_dir = os.environ['OPENSHIFT_REPO_DIR']+"/static"
+    download_dir = os.environ['OPENSHIFT_DATA_DIR']+"/downloads"
+else:
+    # 表示程式在近端執行
+    data_dir = _curdir + "/local_data/"
+    static_dir = _curdir + "/static"
+    download_dir = _curdir + "/local_data/downloads/"
+
+# 利用 init.py 啟動, 建立所需的相關檔案
+initobj = init.Init()
+
+# 必須先將 download_dir 設為 static_folder, 然後才可以用於 download 方法中的 app.static_folder 的呼叫
+app = Flask(__name__)
+#app.config['download_dir'] = download_dir
+
+# 使用 session 必須要設定 secret_key
+# In order to use sessions you have to set a secret key
+# set the secret key.  keep this really secret:
+app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
+
+
+
+
+
+
+
+
+</t>
+<t tx="leo.20160520143059.4"># coding: utf-8
+from flask import Flask, send_from_directory, request, redirect, render_template, session, make_response
+import random
+import math
+import os
+# init.py 為自行建立的起始物件
+import init
+import users.a.g1.ag1_40323105
+import users.a.g2.ag2_40323120
+import users.a.g10.ag10_40323129_task1
+import users.a.g10.ag10_40323141_task1
+import users.a.g10.ag10_40323139
+import users.a.g9.ag9_40323132task
+import users.a.g5.ag5_40323113task1
+import users.a.g5.ag5_40123145task1
+import users.a.g4.ag4_40323138
+import users.a.g4.ag4_40323138_task2bacd
+import users.a.g4.ag4_40323138_task3abcd
+import users.a.g8.ag8_40323131_task1
+import users.b.g9.bg9_40323250
+import users.a.g8.ag8_40323123
+import users.a.g1.a40223153
+#bg1
+import users.b.g1.bg1_40123156
+import users.b.g1.bg1_40123156_2
+import users.b.g1.bg1_40123129
+import users.b.g1.bg1_40123129_2
+import users.b.g1.bg1_40123144
+import users.b.g1.bg1_40123144_2
+#import users.b.g1.bg1_40123131
+#import users.b.g1.bg1_40123131_2
+import users.b.g1.b40123131_cdw11
+import users.b.g1.b40123131_cdw12
+
+import users.b.g1.b40123131_cdw11
+import users.b.g1.b40123131_cdw12
+import users.b.g1.bg1_40123134
+import users.b.g1.bg1_40123134_2
+#bg2
+import users.b.g2.bg2_40123235
+import users.b.g2.bg2_40123235_cdw12
+import users.b.g2.bg2_40123202
+import users.b.g2.bg2_40123202_1
+#bg4
+import users.b.g4.bg4_40323203
+import users.b.g4.bg4_40323205
+import users.b.g4.bg4_40323208
+#bg8
+import users.b.g8.bg8_40323213
+import users.b.g4.bg4_40323202
+import users.b.g4.b40323201_cdw11
+
+#bg5
+#import users.b.g5.b40323206_cdw11_1
+import users.b.g5.b40323204_cdw11_1
+
+
+#bg5
+#import users.b.g5.b40323206_cdw11_1
+import users.b.g5.b40323204_cdw11_1
+import users.b.g5.b40323204_cdw11_2
+import users.b.g5.b40323206_cdw11_2
+#bg11
+import users.b.g11.bg11_40323245
+import users.b.g11.bg11_40323252
+import users.b.g11.bg11_40323245_1
+#bg101
+import users.b.g101.b40123200
+#ag8
+import users.a.g8.a40323143
+import users.a.g8.a40323154
+#ag10
+import users.a.g10.a40323139
+import users.a.g10.a40323141
+#bg3
+#import users.b.g3.b40123224
+#import users.b.g3.b40123250
+#import users.b.g3.b40123242
+import users.b.g3.bg3_40123224
+import users.b.g3.bg3_40123224_cdw11
+import users.b.g3.bg3_40123250
+import users.b.g3.bg3_40123250_cdw11
+#import users.b.g3.b40123242
+
+#ag100
+import users.a.g100.cdw13.a40123100
+# 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
+_curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
+# 設定在雲端與近端的資料儲存目錄
+if 'OPENSHIFT_REPO_DIR' in os.environ.keys():
+    # 表示程式在雲端執行
+    data_dir = os.environ['OPENSHIFT_DATA_DIR']
+    static_dir = os.environ['OPENSHIFT_REPO_DIR']+"/static"
+    download_dir = os.environ['OPENSHIFT_DATA_DIR']+"/downloads"
+else:
+    # 表示程式在近端執行
+    data_dir = _curdir + "/local_data/"
+    static_dir = _curdir + "/static"
+    download_dir = _curdir + "/local_data/downloads/"
+
+# 利用 init.py 啟動, 建立所需的相關檔案
+initobj = init.Init()
+
+# 必須先將 download_dir 設為 static_folder, 然後才可以用於 download 方法中的 app.static_folder 的呼叫
+app = Flask(__name__)
+#app.config['download_dir'] = download_dir
+
+# 使用 session 必須要設定 secret_key
+# In order to use sessions you have to set a secret key
+# set the secret key.  keep this really secret:
+app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
+
+
+
+
+
+
+</t>
+<t tx="leo.20160526100650.10">@bg1.route('/b')
+def draw_b():
+   # 每個橫向字元距離為 65 pixels, 上下字距則為 110 pixels
+    return head_str + chain_str + b(0+65, 0) + tail_str
+ 
+ 
+</t>
+<t tx="leo.20160526100650.11">@bg1_40123133_2.route('/b')
+def draw_b():
+   # 每個橫向字元距離為 65 pixels, 上下字距則為 110 pixels
+    return head_str + chain_str + b(0+65, 0) + tail_str
+ 
+ 
+</t>
+<t tx="leo.20160526100650.12">(uncached) leo.20160512112005.13
+Diff...
+- @bg1_40123133_2.route('/c')
+?     -----------
++ @bg1.route('/c')
+  def draw_c():
+      # 每個橫向字元距離為 65 pixels
+      return head_str + chain_str + c(0+65*2, 0) + tail_str
+   
+   
+</t>
+<t tx="leo.20160526100650.13">@bg1.route('/c')
+def draw_c():
+    # 每個橫向字元距離為 65 pixels
+    return head_str + chain_str + c(0+65*2, 0) + tail_str
+ 
+ 
+</t>
+<t tx="leo.20160526100650.14">@bg1_40123133_2.route('/c')
+def draw_c():
+    # 每個橫向字元距離為 65 pixels
+    return head_str + chain_str + c(0+65*2, 0) + tail_str
+ 
+ 
+</t>
+<t tx="leo.20160526100650.15">(uncached) leo.20160512112005.14
+Diff...
+- @bg1_40123133_2.route('/d')
+?     -----------
++ @bg1.route('/d')
+  def draw_d():
+      return head_str + chain_str + d(0+65*3, 0) + tail_str
+   
+   
+</t>
+<t tx="leo.20160526100650.16">@bg1.route('/d')
+def draw_d():
+    return head_str + chain_str + d(0+65*3, 0) + tail_str
+ 
+ 
+</t>
+<t tx="leo.20160526100650.17">@bg1_40123133_2.route('/d')
+def draw_d():
+    return head_str + chain_str + d(0+65*3, 0) + tail_str
+ 
+ 
+</t>
+<t tx="leo.20160526100650.18">(uncached) leo.20160512112005.15
+Diff...
+- @bg1_40123133_2.route('/ab')
+?     -----------
++ @bg1.route('/ab')
+  def draw_ab():
+      #return head_str + chain_str + a(0, 0) + b(0+65, 0) + tail_str
+      return head_str + chain_str + a(0, 0) + b(0, 0-110) + tail_str
+   
+   
+</t>
+<t tx="leo.20160526100650.19">@bg1.route('/ab')
+def draw_ab():
+    #return head_str + chain_str + a(0, 0) + b(0+65, 0) + tail_str
+    return head_str + chain_str + a(0, 0) + b(0, 0-110) + tail_str
+ 
+ 
+</t>
+<t tx="leo.20160526100650.2"></t>
+<t tx="leo.20160526100650.20">@bg1_40123133_2.route('/ab')
+def draw_ab():
+    #return head_str + chain_str + a(0, 0) + b(0+65, 0) + tail_str
+    return head_str + chain_str + a(0, 0) + b(0, 0-110) + tail_str
+ 
+ 
+</t>
+<t tx="leo.20160526100650.21">(uncached) leo.20160512112005.16
+Diff...
+- @bg1_40123133_2.route('/ac')
+?     -----------
++ @bg1.route('/ac')
+  def draw_ac():
+      return head_str + chain_str + a(0, 0) + c(0+65, 0) + tail_str
+   
+   
+</t>
+<t tx="leo.20160526100650.22">@bg1.route('/ac')
+def draw_ac():
+    return head_str + chain_str + a(0, 0) + c(0+65, 0) + tail_str
+ 
+ 
+</t>
+<t tx="leo.20160526100650.23">@bg1_40123133_2.route('/ac')
+def draw_ac():
+    return head_str + chain_str + a(0, 0) + c(0+65, 0) + tail_str
+ 
+ 
+</t>
+<t tx="leo.20160526100650.24">(uncached) leo.20160512112005.17
+Diff...
+- @bg1_40123133_2.route('/bc')
+?     -----------
++ @bg1.route('/bc')
+  def draw_bc():
+      return head_str + chain_str + b(0, 0) + c(0+65, 0) + tail_str
+   
+   
+</t>
+<t tx="leo.20160526100650.25">@bg1.route('/bc')
+def draw_bc():
+    return head_str + chain_str + b(0, 0) + c(0+65, 0) + tail_str
+ 
+ 
+</t>
+<t tx="leo.20160526100650.26">@bg1_40123133_2.route('/bc')
+def draw_bc():
+    return head_str + chain_str + b(0, 0) + c(0+65, 0) + tail_str
+ 
+ 
+</t>
+<t tx="leo.20160526100650.27">(uncached) leo.20160512112005.18
+Diff...
+- @bg1_40123133_2.route('/abc')
+?     -----------
++ @bg1.route('/abc')
+  def draw_abc():
+      return head_str + chain_str + a(0, 0) + b(0+65, 0) + c(0+65*2, 0) + tail_str
+   
+   
+</t>
+<t tx="leo.20160526100650.28">@bg1.route('/abc')
+def draw_abc():
+    return head_str + chain_str + a(0, 0) + b(0+65, 0) + c(0+65*2, 0) + tail_str
+ 
+ 
+</t>
+<t tx="leo.20160526100650.29">@bg1_40123133_2.route('/abc')
+def draw_abc():
+    return head_str + chain_str + a(0, 0) + b(0+65, 0) + c(0+65*2, 0) + tail_str
+ 
+ 
+</t>
+<t tx="leo.20160526100650.3">(uncached) leo.20160512112005.1
+Diff...
+  from flask import Blueprint, request
+   
+- bg1_40123133_2 = Blueprint('bg1_40123133_2', __name__, url_prefix='/bg1_40123133_2', template_folder='templates')
+?    -----------                 -----------                             -----------
++ bg1 = Blueprint('bg1', __name__, url_prefix='/bg1', template_folder='templates')
+   
+  head_str = '''
+  &lt;!DOCTYPE html&gt;
+  &lt;html&gt;
+  &lt;head&gt;
+      &lt;meta charset="UTF-8"&gt;
+      &lt;title&gt;網際 2D 繪圖&lt;/title&gt;
+      &lt;!-- IE 9: display inline SVG --&gt;
+      &lt;meta http-equiv="X-UA-Compatible" content="IE=9"&gt;
+  &lt;script type="text/javascript" src="http://brython.info/src/brython_dist.js"&gt;&lt;/script&gt;
+  &lt;script type="text/javascript" src="http://cptocadp-2015fallhw.rhcloud.com/static/Cango-8v03.js"&gt;&lt;/script&gt;
+  &lt;script type="text/javascript" src="http://cptocadp-2015fallhw.rhcloud.com/static/Cango2D-6v13.js"&gt;&lt;/script&gt;
+  &lt;script type="text/javascript" src="http://cptocadp-2015fallhw.rhcloud.com/static/CangoAxes-1v33.js"&gt;&lt;/script&gt;
+   
+  &lt;/head&gt;
+  &lt;body&gt;
+   
+  &lt;script&gt;
+  window.onload=function(){
+  brython(1);
+  }
+  &lt;/script&gt;
+   
+  &lt;canvas id="plotarea" width="800" height="800"&gt;&lt;/canvas&gt;
+  '''
+   
+  tail_str = '''
+  &lt;/script&gt;
+  &lt;/body&gt;
+  &lt;/html&gt;
+  '''
+   
+  chain_str = '''
+  &lt;script type="text/python"&gt;
+  from javascript import JSConstructor
+  from browser import alert
+  from browser import window
+  import math
+   
+  cango = JSConstructor(window.Cango)
+  cobj = JSConstructor(window.Cobj)
+  shapedefs = window.shapeDefs
+  obj2d = JSConstructor(window.Obj2D)
+  cgo = cango("plotarea")
+   
+  cgo.setWorldCoords(-250, -250, 500, 500) 
+   
+  # 畫軸線
+  cgo.drawAxes(0, 240, 0, 240, {
+      "strokeColor":"#aaaaaa",
+      "fillColor": "#aaaaaa",
+      "xTickInterval": 20,
+      "xLabelInterval": 20,
+      "yTickInterval": 20,
+      "yLabelInterval": 20})
+   
+  deg = math.pi/180  
+   
+  # 將繪製鏈條輪廓的內容寫成 class 物件
+  class chain():
+      # 輪廓的外型設為 class variable
+      chamber = "M -6.8397, -1.4894 \
+              A 7, 7, 0, 1, 0, 6.8397, -1.4894 \
+              A 40, 40, 0, 0, 1, 6.8397, -18.511 \
+              A 7, 7, 0, 1, 0, -6.8397, -18.511 \
+              A 40, 40, 0, 0, 1, -6.8397, -1.4894 z"
+      #chamber = "M 0, 0 L 0, -20 z"
+      cgoChamber = window.svgToCgoSVG(chamber)
+   
+      def __init__(self, fillcolor="green", border=True, strokecolor= "tan", linewidth=2, scale=1):
+          self.fillcolor = fillcolor
+          self.border = border
+          self.strokecolor = strokecolor
+          self.linewidth = linewidth
+          self.scale = scale
+   
+      # 利用鏈條起點與終點定義繪圖
+      def basic(self, x1, y1, x2, y2):
+          self.x1 = x1
+          self.y1 = y1
+          self.x2 = x2
+          self.y2 = y2
+          # 注意, cgo.Chamber 為成員變數
+          cmbr = cobj(self.cgoChamber, "SHAPE", {
+                  "fillColor": self.fillcolor,
+                  "border": self.border,
+                  "strokeColor": self.strokecolor,
+                  "lineWidth": self.linewidth })
+   
+          # hole 為原點位置
+          hole = cobj(shapedefs.circle(4*self.scale), "PATH")
+          cmbr.appendPath(hole)
+   
+          # 複製 cmbr, 然後命名為 basic1
+          basic1 = cmbr.dup()
+          # 因為鏈條的角度由原點向下垂直, 所以必須轉 90 度, 再考量 atan2 的轉角
+          basic1.rotate(math.atan2(y2-y1, x2-x1)/deg+90)
+   
+          # 放大 scale 倍
+          cgo.render(basic1, x1, y1, self.scale, 0)
+   
+      # 利用鏈條起點與旋轉角度定義繪圖, 使用內定的 color, border 與 linewidth 變數
+      def basic_rot(self, x1, y1, rot, v=False):
+          # 若 v 為 True 則為虛擬 chain, 不 render
+          self.x1 = x1
+          self.y1 = y1
+          self.rot = rot
+          self.v = v
+          # 注意, cgoChamber 為成員變數
+          cmbr = cobj(self.cgoChamber, "SHAPE", {
+                  "fillColor": self.fillcolor,
+                  "border": self.border,
+                  "strokeColor": self.strokecolor,
+                  "lineWidth": self.linewidth })
+   
+          # hole0 為原點位置
+          hole = cobj(shapedefs.circle(4*self.scale), "PATH")
+          cmbr.appendPath(hole)
+          # 根據旋轉角度, 計算 x2 與 y2
+          x2 = x1 + 20*math.cos(rot*deg)*self.scale
+          y2 = y1 + 20*math.sin(rot*deg)*self.scale
+   
+          # 複製 cmbr, 然後命名為 basic1
+          basic1 = cmbr.dup()
+          # 因為鏈條的角度由原點向下垂直, 所以必須轉 90 度, 再考量 atan2 的轉角
+          basic1.rotate(rot+90)
+   
+          # 放大 scale 倍
+          if v == False:
+              cgo.render(basic1, x1, y1, self.scale, 0)
+   
+          return x2, y2
+  '''
+   
+</t>
+<t tx="leo.20160526100650.30">(uncached) leo.20160512112005.19
+Diff...
+- @bg1_40123133_2.route('/aaaa')
+?     -----------
++ @bg1.route('/aaaa')
+  def draw_aaaa():
+      outstring = head_str + chain_str
+      scale = 2
+      for i in range(20):
+          scale = scale*0.9
+          outstring +=  a(0+10*i, 0, scale=scale)
+      return outstring + tail_str
+      #return head_str + chain_str + a(0, 0, scale=1) + a(0+65, 0, scale=0.8, color="red") + a(0+65*2, 0, scale=0.6) + a(0+65*3, 0, scale=0.4, color="red") + tail_str
+   
+   
+</t>
+<t tx="leo.20160526100650.31">@bg1.route('/aaaa')
+def draw_aaaa():
+    outstring = head_str + chain_str
+    scale = 2
+    for i in range(20):
+        scale = scale*0.9
+        outstring +=  a(0+10*i, 0, scale=scale)
+    return outstring + tail_str
+    #return head_str + chain_str + a(0, 0, scale=1) + a(0+65, 0, scale=0.8, color="red") + a(0+65*2, 0, scale=0.6) + a(0+65*3, 0, scale=0.4, color="red") + tail_str
+ 
+ 
+</t>
+<t tx="leo.20160526100650.32">@bg1_40123133_2.route('/aaaa')
+def draw_aaaa():
+    outstring = head_str + chain_str
+    scale = 2
+    for i in range(20):
+        scale = scale*0.9
+        outstring +=  a(0+10*i, 0, scale=scale)
+    return outstring + tail_str
+    #return head_str + chain_str + a(0, 0, scale=1) + a(0+65, 0, scale=0.8, color="red") + a(0+65*2, 0, scale=0.6) + a(0+65*3, 0, scale=0.4, color="red") + tail_str
+ 
+ 
+</t>
+<t tx="leo.20160526100650.33">(uncached) leo.20160512112005.20
+Diff...
+- @bg1_40123133_2.route('/badc')
+?     -----------
++ @bg1.route('/badc')
+  def draw_badc():
+      return head_str + chain_str + b(0, 0) + a(0+65, 0) + d(0+65*2, 0) + c(0+65*3, 0) + tail_str
+   
+   
+</t>
+<t tx="leo.20160526100650.34">@bg1.route('/badc')
+def draw_badc():
+    return head_str + chain_str + b(0, 0) + a(0+65, 0) + d(0+65*2, 0) + c(0+65*3, 0) + tail_str
+ 
+ 
+</t>
+<t tx="leo.20160526100650.35">@bg1_40123133_2.route('/badc')
+def draw_badc():
+    return head_str + chain_str + b(0, 0) + a(0+65, 0) + d(0+65*2, 0) + c(0+65*3, 0) + tail_str
+ 
+ 
+</t>
+<t tx="leo.20160526100650.36">(uncached) leo.20160512112005.21
+Diff...
+- @bg1_40123133_2.route('/abcd')
+?     -----------
++ @bg1.route('/abcd')
+  def draw_abcd():
+      #return head_str + chain_str + a(0, 0) + b(0+65, 0) + c(0+65*2, 0) + d(0+65*3, 0) + tail_str
+      return head_str + chain_str + a(0, 110) + b(0, 110-110) + c(0, 110-110*2) + d(0, 110-110*3) + tail_str
+   
+   
+</t>
+<t tx="leo.20160526100650.37">@bg1.route('/abcd')
+def draw_abcd():
+    #return head_str + chain_str + a(0, 0) + b(0+65, 0) + c(0+65*2, 0) + d(0+65*3, 0) + tail_str
+    return head_str + chain_str + a(0, 110) + b(0, 110-110) + c(0, 110-110*2) + d(0, 110-110*3) + tail_str
+ 
+ 
+</t>
+<t tx="leo.20160526100650.38">@bg1_40123133_2.route('/abcd')
+def draw_abcd():
+    #return head_str + chain_str + a(0, 0) + b(0+65, 0) + c(0+65*2, 0) + d(0+65*3, 0) + tail_str
+    return head_str + chain_str + a(0, 110) + b(0, 110-110) + c(0, 110-110*2) + d(0, 110-110*3) + tail_str
+ 
+ 
+</t>
+<t tx="leo.20160526100650.39">(uncached) leo.20160512112005.22
+Diff...
+- @bg1_40123133_2.route('/circle')
+?     -----------
++ @bg1.route('/circle')
+  def drawcircle():
+      return head_str + chain_str + circle(0, 0) + tail_str
+   
+   
+</t>
+<t tx="leo.20160526100650.4">from flask import Blueprint, request
+ 
+bg1 = Blueprint('bg1', __name__, url_prefix='/bg1', template_folder='templates')
+ 
+head_str = '''
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;網際 2D 繪圖&lt;/title&gt;
+    &lt;!-- IE 9: display inline SVG --&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=9"&gt;
+&lt;script type="text/javascript" src="http://brython.info/src/brython_dist.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://cptocadp-2015fallhw.rhcloud.com/static/Cango-8v03.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://cptocadp-2015fallhw.rhcloud.com/static/Cango2D-6v13.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://cptocadp-2015fallhw.rhcloud.com/static/CangoAxes-1v33.js"&gt;&lt;/script&gt;
+ 
+&lt;/head&gt;
+&lt;body&gt;
+ 
+&lt;script&gt;
+window.onload=function(){
+brython(1);
+}
+&lt;/script&gt;
+ 
+&lt;canvas id="plotarea" width="800" height="800"&gt;&lt;/canvas&gt;
+'''
+ 
+tail_str = '''
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+'''
+ 
+chain_str = '''
+&lt;script type="text/python"&gt;
+from javascript import JSConstructor
+from browser import alert
+from browser import window
+import math
+ 
+cango = JSConstructor(window.Cango)
+cobj = JSConstructor(window.Cobj)
+shapedefs = window.shapeDefs
+obj2d = JSConstructor(window.Obj2D)
+cgo = cango("plotarea")
+ 
+cgo.setWorldCoords(-250, -250, 500, 500) 
+ 
+# 畫軸線
+cgo.drawAxes(0, 240, 0, 240, {
+    "strokeColor":"#aaaaaa",
+    "fillColor": "#aaaaaa",
+    "xTickInterval": 20,
+    "xLabelInterval": 20,
+    "yTickInterval": 20,
+    "yLabelInterval": 20})
+ 
+deg = math.pi/180  
+ 
+# 將繪製鏈條輪廓的內容寫成 class 物件
+class chain():
+    # 輪廓的外型設為 class variable
+    chamber = "M -6.8397, -1.4894 \
+            A 7, 7, 0, 1, 0, 6.8397, -1.4894 \
+            A 40, 40, 0, 0, 1, 6.8397, -18.511 \
+            A 7, 7, 0, 1, 0, -6.8397, -18.511 \
+            A 40, 40, 0, 0, 1, -6.8397, -1.4894 z"
+    #chamber = "M 0, 0 L 0, -20 z"
+    cgoChamber = window.svgToCgoSVG(chamber)
+ 
+    def __init__(self, fillcolor="green", border=True, strokecolor= "tan", linewidth=2, scale=1):
+        self.fillcolor = fillcolor
+        self.border = border
+        self.strokecolor = strokecolor
+        self.linewidth = linewidth
+        self.scale = scale
+ 
+    # 利用鏈條起點與終點定義繪圖
+    def basic(self, x1, y1, x2, y2):
+        self.x1 = x1
+        self.y1 = y1
+        self.x2 = x2
+        self.y2 = y2
+        # 注意, cgo.Chamber 為成員變數
+        cmbr = cobj(self.cgoChamber, "SHAPE", {
+                "fillColor": self.fillcolor,
+                "border": self.border,
+                "strokeColor": self.strokecolor,
+                "lineWidth": self.linewidth })
+ 
+        # hole 為原點位置
+        hole = cobj(shapedefs.circle(4*self.scale), "PATH")
+        cmbr.appendPath(hole)
+ 
+        # 複製 cmbr, 然後命名為 basic1
+        basic1 = cmbr.dup()
+        # 因為鏈條的角度由原點向下垂直, 所以必須轉 90 度, 再考量 atan2 的轉角
+        basic1.rotate(math.atan2(y2-y1, x2-x1)/deg+90)
+ 
+        # 放大 scale 倍
+        cgo.render(basic1, x1, y1, self.scale, 0)
+ 
+    # 利用鏈條起點與旋轉角度定義繪圖, 使用內定的 color, border 與 linewidth 變數
+    def basic_rot(self, x1, y1, rot, v=False):
+        # 若 v 為 True 則為虛擬 chain, 不 render
+        self.x1 = x1
+        self.y1 = y1
+        self.rot = rot
+        self.v = v
+        # 注意, cgoChamber 為成員變數
+        cmbr = cobj(self.cgoChamber, "SHAPE", {
+                "fillColor": self.fillcolor,
+                "border": self.border,
+                "strokeColor": self.strokecolor,
+                "lineWidth": self.linewidth })
+ 
+        # hole0 為原點位置
+        hole = cobj(shapedefs.circle(4*self.scale), "PATH")
+        cmbr.appendPath(hole)
+        # 根據旋轉角度, 計算 x2 與 y2
+        x2 = x1 + 20*math.cos(rot*deg)*self.scale
+        y2 = y1 + 20*math.sin(rot*deg)*self.scale
+ 
+        # 複製 cmbr, 然後命名為 basic1
+        basic1 = cmbr.dup()
+        # 因為鏈條的角度由原點向下垂直, 所以必須轉 90 度, 再考量 atan2 的轉角
+        basic1.rotate(rot+90)
+ 
+        # 放大 scale 倍
+        if v == False:
+            cgo.render(basic1, x1, y1, self.scale, 0)
+ 
+        return x2, y2
+'''
+ 
+</t>
+<t tx="leo.20160526100650.40">@bg1.route('/circle')
+def drawcircle():
+    return head_str + chain_str + circle(0, 0) + tail_str
+ 
+ 
+</t>
+<t tx="leo.20160526100650.41">@bg1_40123133_2.route('/circle')
+def drawcircle():
+    return head_str + chain_str + circle(0, 0) + tail_str
+ 
+ 
+</t>
+<t tx="leo.20160526100650.42">(uncached) leo.20160512112005.23
+Diff...
+- @bg1_40123133_2.route('/circle1/&lt;degree&gt;', defaults={'x': 0, 'y': 0})
+?     -----------
++ @bg1.route('/circle1/&lt;degree&gt;', defaults={'x': 0, 'y': 0})
+- @bg1_40123133_2.route('/circle1/&lt;x&gt;/&lt;degree&gt;', defaults={'y': 0})
+?     -----------
++ @bg1.route('/circle1/&lt;x&gt;/&lt;degree&gt;', defaults={'y': 0})
+- @bg1_40123133_2.route('/circle1/&lt;x&gt;/&lt;y&gt;/&lt;degree&gt;')
+?     -----------
++ @bg1.route('/circle1/&lt;x&gt;/&lt;y&gt;/&lt;degree&gt;')
+- #@bg1_40123133_2.route('/circle1/&lt;int:x&gt;/&lt;int:y&gt;/&lt;int:degree&gt;')
+?      -----------
++ #@bg1.route('/circle1/&lt;int:x&gt;/&lt;int:y&gt;/&lt;int:degree&gt;')
+  def drawcircle1(x,y,degree):
+      return head_str + chain_str + circle1(int(x), int(y), int(degree)) + tail_str
+   
+   
+</t>
+<t tx="leo.20160526100650.43">@bg1.route('/circle1/&lt;degree&gt;', defaults={'x': 0, 'y': 0})
+@bg1.route('/circle1/&lt;x&gt;/&lt;degree&gt;', defaults={'y': 0})
+@bg1.route('/circle1/&lt;x&gt;/&lt;y&gt;/&lt;degree&gt;')
+#@bg1.route('/circle1/&lt;int:x&gt;/&lt;int:y&gt;/&lt;int:degree&gt;')
+def drawcircle1(x,y,degree):
+    return head_str + chain_str + circle1(int(x), int(y), int(degree)) + tail_str
+ 
+ 
+</t>
+<t tx="leo.20160526100650.44">@bg1_40123133_2.route('/circle1/&lt;degree&gt;', defaults={'x': 0, 'y': 0})
+@bg1_40123133_2.route('/circle1/&lt;x&gt;/&lt;degree&gt;', defaults={'y': 0})
+@bg1_40123133_2.route('/circle1/&lt;x&gt;/&lt;y&gt;/&lt;degree&gt;')
+#@bg1_40123133_2.route('/circle1/&lt;int:x&gt;/&lt;int:y&gt;/&lt;int:degree&gt;')
+def drawcircle1(x,y,degree):
+    return head_str + chain_str + circle1(int(x), int(y), int(degree)) + tail_str
+ 
+ 
+</t>
+<t tx="leo.20160526100650.45">(uncached) leo.20160512112005.24
+Diff...
+- @bg1_40123133_2.route('/circle2/&lt;degree&gt;', defaults={'x': 0, 'y': 0})
+?     -----------
++ @bg1.route('/circle2/&lt;degree&gt;', defaults={'x': 0, 'y': 0})
+- @bg1_40123133_2.route('/circle2/&lt;x&gt;/&lt;degree&gt;', defaults={'y': 0})
+?     -----------
++ @bg1.route('/circle2/&lt;x&gt;/&lt;degree&gt;', defaults={'y': 0})
+- @bg1_40123133_2.route('/circle2/&lt;x&gt;/&lt;y&gt;/&lt;degree&gt;')
+?     -----------
++ @bg1.route('/circle2/&lt;x&gt;/&lt;y&gt;/&lt;degree&gt;')
+- #@bg1_40123133_2.route('/circle2/&lt;int:x&gt;/&lt;int:y&gt;/&lt;int:degree&gt;')
+?      -----------
++ #@bg1.route('/circle2/&lt;int:x&gt;/&lt;int:y&gt;/&lt;int:degree&gt;')
+  def drawcircle2(x,y,degree):
+      return head_str + chain_str + circle2(int(x), int(y), int(degree)) + tail_str
+   
+   
+</t>
+<t tx="leo.20160526100650.46">@bg1.route('/circle2/&lt;degree&gt;', defaults={'x': 0, 'y': 0})
+@bg1.route('/circle2/&lt;x&gt;/&lt;degree&gt;', defaults={'y': 0})
+@bg1.route('/circle2/&lt;x&gt;/&lt;y&gt;/&lt;degree&gt;')
+#@bg1.route('/circle2/&lt;int:x&gt;/&lt;int:y&gt;/&lt;int:degree&gt;')
+def drawcircle2(x,y,degree):
+    return head_str + chain_str + circle2(int(x), int(y), int(degree)) + tail_str
+ 
+ 
+</t>
+<t tx="leo.20160526100650.47">@bg1_40123133_2.route('/circle2/&lt;degree&gt;', defaults={'x': 0, 'y': 0})
+@bg1_40123133_2.route('/circle2/&lt;x&gt;/&lt;degree&gt;', defaults={'y': 0})
+@bg1_40123133_2.route('/circle2/&lt;x&gt;/&lt;y&gt;/&lt;degree&gt;')
+#@bg1_40123133_2.route('/circle2/&lt;int:x&gt;/&lt;int:y&gt;/&lt;int:degree&gt;')
+def drawcircle2(x,y,degree):
+    return head_str + chain_str + circle2(int(x), int(y), int(degree)) + tail_str
+ 
+ 
+</t>
+<t tx="leo.20160526100650.48">(uncached) leo.20160512112005.25
+Diff...
+- @bg1_40123133_2.route('/twocircle/&lt;x&gt;/&lt;y&gt;')
+?     -----------
++ @bg1.route('/twocircle/&lt;x&gt;/&lt;y&gt;')
+- @bg1_40123133_2.route('/twocircle', defaults={'x':0, 'y':0})
+?     -----------
++ @bg1.route('/twocircle', defaults={'x':0, 'y':0})
+  def drawtwocircle(x,y):
+      return head_str + chain_str + twocircle(int(x), int(y)) + tail_str
+   
+   
+</t>
+<t tx="leo.20160526100650.49">@bg1.route('/twocircle/&lt;x&gt;/&lt;y&gt;')
+@bg1.route('/twocircle', defaults={'x':0, 'y':0})
+def drawtwocircle(x,y):
+    return head_str + chain_str + twocircle(int(x), int(y)) + tail_str
+ 
+ 
+</t>
+<t tx="leo.20160526100650.5">from flask import Blueprint, request
+ 
+bg1_40123133_2 = Blueprint('bg1_40123133_2', __name__, url_prefix='/bg1_40123133_2', template_folder='templates')
+ 
+head_str = '''
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;網際 2D 繪圖&lt;/title&gt;
+    &lt;!-- IE 9: display inline SVG --&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=9"&gt;
+&lt;script type="text/javascript" src="http://brython.info/src/brython_dist.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://cptocadp-2015fallhw.rhcloud.com/static/Cango-8v03.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://cptocadp-2015fallhw.rhcloud.com/static/Cango2D-6v13.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://cptocadp-2015fallhw.rhcloud.com/static/CangoAxes-1v33.js"&gt;&lt;/script&gt;
+ 
+&lt;/head&gt;
+&lt;body&gt;
+ 
+&lt;script&gt;
+window.onload=function(){
+brython(1);
+}
+&lt;/script&gt;
+ 
+&lt;canvas id="plotarea" width="800" height="800"&gt;&lt;/canvas&gt;
+'''
+ 
+tail_str = '''
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+'''
+ 
+chain_str = '''
+&lt;script type="text/python"&gt;
+from javascript import JSConstructor
+from browser import alert
+from browser import window
+import math
+ 
+cango = JSConstructor(window.Cango)
+cobj = JSConstructor(window.Cobj)
+shapedefs = window.shapeDefs
+obj2d = JSConstructor(window.Obj2D)
+cgo = cango("plotarea")
+ 
+cgo.setWorldCoords(-250, -250, 500, 500) 
+ 
+# 畫軸線
+cgo.drawAxes(0, 240, 0, 240, {
+    "strokeColor":"#aaaaaa",
+    "fillColor": "#aaaaaa",
+    "xTickInterval": 20,
+    "xLabelInterval": 20,
+    "yTickInterval": 20,
+    "yLabelInterval": 20})
+ 
+deg = math.pi/180  
+ 
+# 將繪製鏈條輪廓的內容寫成 class 物件
+class chain():
+    # 輪廓的外型設為 class variable
+    chamber = "M -6.8397, -1.4894 \
+            A 7, 7, 0, 1, 0, 6.8397, -1.4894 \
+            A 40, 40, 0, 0, 1, 6.8397, -18.511 \
+            A 7, 7, 0, 1, 0, -6.8397, -18.511 \
+            A 40, 40, 0, 0, 1, -6.8397, -1.4894 z"
+    #chamber = "M 0, 0 L 0, -20 z"
+    cgoChamber = window.svgToCgoSVG(chamber)
+ 
+    def __init__(self, fillcolor="green", border=True, strokecolor= "tan", linewidth=2, scale=1):
+        self.fillcolor = fillcolor
+        self.border = border
+        self.strokecolor = strokecolor
+        self.linewidth = linewidth
+        self.scale = scale
+ 
+    # 利用鏈條起點與終點定義繪圖
+    def basic(self, x1, y1, x2, y2):
+        self.x1 = x1
+        self.y1 = y1
+        self.x2 = x2
+        self.y2 = y2
+        # 注意, cgo.Chamber 為成員變數
+        cmbr = cobj(self.cgoChamber, "SHAPE", {
+                "fillColor": self.fillcolor,
+                "border": self.border,
+                "strokeColor": self.strokecolor,
+                "lineWidth": self.linewidth })
+ 
+        # hole 為原點位置
+        hole = cobj(shapedefs.circle(4*self.scale), "PATH")
+        cmbr.appendPath(hole)
+ 
+        # 複製 cmbr, 然後命名為 basic1
+        basic1 = cmbr.dup()
+        # 因為鏈條的角度由原點向下垂直, 所以必須轉 90 度, 再考量 atan2 的轉角
+        basic1.rotate(math.atan2(y2-y1, x2-x1)/deg+90)
+ 
+        # 放大 scale 倍
+        cgo.render(basic1, x1, y1, self.scale, 0)
+ 
+    # 利用鏈條起點與旋轉角度定義繪圖, 使用內定的 color, border 與 linewidth 變數
+    def basic_rot(self, x1, y1, rot, v=False):
+        # 若 v 為 True 則為虛擬 chain, 不 render
+        self.x1 = x1
+        self.y1 = y1
+        self.rot = rot
+        self.v = v
+        # 注意, cgoChamber 為成員變數
+        cmbr = cobj(self.cgoChamber, "SHAPE", {
+                "fillColor": self.fillcolor,
+                "border": self.border,
+                "strokeColor": self.strokecolor,
+                "lineWidth": self.linewidth })
+ 
+        # hole0 為原點位置
+        hole = cobj(shapedefs.circle(4*self.scale), "PATH")
+        cmbr.appendPath(hole)
+        # 根據旋轉角度, 計算 x2 與 y2
+        x2 = x1 + 20*math.cos(rot*deg)*self.scale
+        y2 = y1 + 20*math.sin(rot*deg)*self.scale
+ 
+        # 複製 cmbr, 然後命名為 basic1
+        basic1 = cmbr.dup()
+        # 因為鏈條的角度由原點向下垂直, 所以必須轉 90 度, 再考量 atan2 的轉角
+        basic1.rotate(rot+90)
+ 
+        # 放大 scale 倍
+        if v == False:
+            cgo.render(basic1, x1, y1, self.scale, 0)
+ 
+        return x2, y2
+'''
+ 
+</t>
+<t tx="leo.20160526100650.50">@bg1_40123133_2.route('/twocircle/&lt;x&gt;/&lt;y&gt;')
+@bg1_40123133_2.route('/twocircle', defaults={'x':0, 'y':0})
+def drawtwocircle(x,y):
+    return head_str + chain_str + twocircle(int(x), int(y)) + tail_str
+ 
+ 
+</t>
+<t tx="leo.20160526100650.51">(uncached) leo.20160512112005.26
+Diff...
+- @bg1_40123133_2.route('/eighteenthirty/&lt;x&gt;/&lt;y&gt;')
+?     -----------
++ @bg1.route('/eighteenthirty/&lt;x&gt;/&lt;y&gt;')
+- @bg1_40123133_2.route('/eighteenthirty', defaults={'x':0, 'y':0})
+?     -----------
++ @bg1.route('/eighteenthirty', defaults={'x':0, 'y':0})
+  def draweithteenthirdy(x,y):
+      return head_str + chain_str + eighteenthirty(int(x), int(y)) + tail_str
+   
+   
+</t>
+<t tx="leo.20160526100650.52">@bg1.route('/eighteenthirty/&lt;x&gt;/&lt;y&gt;')
+@bg1.route('/eighteenthirty', defaults={'x':0, 'y':0})
+def draweithteenthirdy(x,y):
+    return head_str + chain_str + eighteenthirty(int(x), int(y)) + tail_str
+ 
+ 
+</t>
+<t tx="leo.20160526100650.53">@bg1_40123133_2.route('/eighteenthirty/&lt;x&gt;/&lt;y&gt;')
+@bg1_40123133_2.route('/eighteenthirty', defaults={'x':0, 'y':0})
+def draweithteenthirdy(x,y):
+    return head_str + chain_str + eighteenthirty(int(x), int(y)) + tail_str
+ 
+ 
+</t>
+<t tx="leo.20160526100650.54">(uncached) leo.20160512112005.27
+Diff...
+- @bg1_40123133_2.route('/snap')
+?     -----------
++ @bg1.route('/snap')
+  # http://svg.dabbles.info/snaptut-base
+  def snap():
+      outstring = '''
+  &lt;!DOCTYPE html&gt;
+  &lt;html&gt;
+  &lt;head&gt;
+      &lt;meta charset="UTF-8"&gt;
+      &lt;title&gt;網際 snap 繪圖&lt;/title&gt;
+      &lt;!-- IE 9: display inline SVG --&gt;
+      &lt;meta http-equiv="X-UA-Compatible" content="IE=9"&gt;
+      &lt;script type="text/javascript" src="http://brython.info/src/brython_dist.js"&gt;&lt;/script&gt;
+      &lt;script type="text/javascript" src="/static/snap.svg-min.js"&gt;&lt;/script&gt;
+   
+      &lt;script&gt;
+      window.onload=function(){
+      brython(1);
+      }
+      &lt;/script&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+   
+  &lt;svg width="800" height="800" viewBox="0 0 800 800" id="svgout"&gt;&lt;/svg&gt;
+   
+  &lt;script type="text/python"&gt;
+  from javascript import JSConstructor
+  from browser import alert
+  from browser import window, document
+   
+  # 透過 window 與 JSConstructor 從 Brython 物件 snap 擷取 Snap 物件的內容
+  snap = JSConstructor(window.Snap)
+   
+  s = snap("#svgout")
+  # 建立物件時, 同時設定 id 名稱
+  r = s.rect(10,10,100,100).attr({'id': 'rect'})
+  c = s.circle(100,100,50).attr({'id': 'circle'})
+  r.attr('fill', 'red')
+  c.attr({ 'fill': 'blue', 'stroke': 'black', 'strokeWidth': 10 })
+  r.attr({ 'stroke': '#123456', 'strokeWidth': 20 })
+  s.text(180,100, '點按一下圖形').attr({'fill' : 'blue',  'stroke': 'blue', 'stroke-width': 0.2 })
+   
+  g = s.group().attr({'id': 'tux'})
+   
+  def hoverover(ev):
+      g.animate({'transform': 's1.5r45,t180,20'}, 1000, window.mina.bounce)
+   
+  def hoverout(ev):
+      g.animate({'transform': 's1r0,t180,20'}, 1000, window.mina.bounce) 
+   
+  # callback 函式
+  def onSVGLoaded(data):
+      #s.append(data)
+      g.append(data)
+      #g.hover(hoverover, hoverout )
+      g.text(300,100, '拿滑鼠指向我')
+   
+  # 利用 window.Snap.load 載入 svg 檔案
+  tux = window.Snap.load("/static/Dreaming_tux.svg", onSVGLoaded)
+  g.transform('t180,20')
+   
+  # 與視窗事件對應的函式
+  def rtoyellow(ev):
+      r.attr('fill', 'yellow')
+   
+  def ctogreen(ev):
+      c.attr('fill', 'green')
+   
+  # 根據物件 id 綁定滑鼠事件執行對應函式
+  document['rect'].bind('click', rtoyellow)
+  document['circle'].bind('click', ctogreen)
+  document['tux'].bind('mouseover', hoverover)
+  document['tux'].bind('mouseleave', hoverout)
+  &lt;/script&gt;
+  &lt;/body&gt;
+  &lt;/html&gt;
+  '''
+      return outstring
+   
+   
+</t>
+<t tx="leo.20160526100650.55">@bg1.route('/snap')
+# http://svg.dabbles.info/snaptut-base
+def snap():
+    outstring = '''
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;網際 snap 繪圖&lt;/title&gt;
+    &lt;!-- IE 9: display inline SVG --&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=9"&gt;
+    &lt;script type="text/javascript" src="http://brython.info/src/brython_dist.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript" src="/static/snap.svg-min.js"&gt;&lt;/script&gt;
+ 
+    &lt;script&gt;
+    window.onload=function(){
+    brython(1);
+    }
+    &lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+ 
+&lt;svg width="800" height="800" viewBox="0 0 800 800" id="svgout"&gt;&lt;/svg&gt;
+ 
+&lt;script type="text/python"&gt;
+from javascript import JSConstructor
+from browser import alert
+from browser import window, document
+ 
+# 透過 window 與 JSConstructor 從 Brython 物件 snap 擷取 Snap 物件的內容
+snap = JSConstructor(window.Snap)
+ 
+s = snap("#svgout")
+# 建立物件時, 同時設定 id 名稱
+r = s.rect(10,10,100,100).attr({'id': 'rect'})
+c = s.circle(100,100,50).attr({'id': 'circle'})
+r.attr('fill', 'red')
+c.attr({ 'fill': 'blue', 'stroke': 'black', 'strokeWidth': 10 })
+r.attr({ 'stroke': '#123456', 'strokeWidth': 20 })
+s.text(180,100, '點按一下圖形').attr({'fill' : 'blue',  'stroke': 'blue', 'stroke-width': 0.2 })
+ 
+g = s.group().attr({'id': 'tux'})
+ 
+def hoverover(ev):
+    g.animate({'transform': 's1.5r45,t180,20'}, 1000, window.mina.bounce)
+ 
+def hoverout(ev):
+    g.animate({'transform': 's1r0,t180,20'}, 1000, window.mina.bounce) 
+ 
+# callback 函式
+def onSVGLoaded(data):
+    #s.append(data)
+    g.append(data)
+    #g.hover(hoverover, hoverout )
+    g.text(300,100, '拿滑鼠指向我')
+ 
+# 利用 window.Snap.load 載入 svg 檔案
+tux = window.Snap.load("/static/Dreaming_tux.svg", onSVGLoaded)
+g.transform('t180,20')
+ 
+# 與視窗事件對應的函式
+def rtoyellow(ev):
+    r.attr('fill', 'yellow')
+ 
+def ctogreen(ev):
+    c.attr('fill', 'green')
+ 
+# 根據物件 id 綁定滑鼠事件執行對應函式
+document['rect'].bind('click', rtoyellow)
+document['circle'].bind('click', ctogreen)
+document['tux'].bind('mouseover', hoverover)
+document['tux'].bind('mouseleave', hoverout)
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+'''
+    return outstring
+ 
+ 
+</t>
+<t tx="leo.20160526100650.56">@bg1_40123133_2.route('/snap')
+# http://svg.dabbles.info/snaptut-base
+def snap():
+    outstring = '''
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;網際 snap 繪圖&lt;/title&gt;
+    &lt;!-- IE 9: display inline SVG --&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=9"&gt;
+    &lt;script type="text/javascript" src="http://brython.info/src/brython_dist.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript" src="/static/snap.svg-min.js"&gt;&lt;/script&gt;
+ 
+    &lt;script&gt;
+    window.onload=function(){
+    brython(1);
+    }
+    &lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+ 
+&lt;svg width="800" height="800" viewBox="0 0 800 800" id="svgout"&gt;&lt;/svg&gt;
+ 
+&lt;script type="text/python"&gt;
+from javascript import JSConstructor
+from browser import alert
+from browser import window, document
+ 
+# 透過 window 與 JSConstructor 從 Brython 物件 snap 擷取 Snap 物件的內容
+snap = JSConstructor(window.Snap)
+ 
+s = snap("#svgout")
+# 建立物件時, 同時設定 id 名稱
+r = s.rect(10,10,100,100).attr({'id': 'rect'})
+c = s.circle(100,100,50).attr({'id': 'circle'})
+r.attr('fill', 'red')
+c.attr({ 'fill': 'blue', 'stroke': 'black', 'strokeWidth': 10 })
+r.attr({ 'stroke': '#123456', 'strokeWidth': 20 })
+s.text(180,100, '點按一下圖形').attr({'fill' : 'blue',  'stroke': 'blue', 'stroke-width': 0.2 })
+ 
+g = s.group().attr({'id': 'tux'})
+ 
+def hoverover(ev):
+    g.animate({'transform': 's1.5r45,t180,20'}, 1000, window.mina.bounce)
+ 
+def hoverout(ev):
+    g.animate({'transform': 's1r0,t180,20'}, 1000, window.mina.bounce) 
+ 
+# callback 函式
+def onSVGLoaded(data):
+    #s.append(data)
+    g.append(data)
+    #g.hover(hoverover, hoverout )
+    g.text(300,100, '拿滑鼠指向我')
+ 
+# 利用 window.Snap.load 載入 svg 檔案
+tux = window.Snap.load("/static/Dreaming_tux.svg", onSVGLoaded)
+g.transform('t180,20')
+ 
+# 與視窗事件對應的函式
+def rtoyellow(ev):
+    r.attr('fill', 'yellow')
+ 
+def ctogreen(ev):
+    c.attr('fill', 'green')
+ 
+# 根據物件 id 綁定滑鼠事件執行對應函式
+document['rect'].bind('click', rtoyellow)
+document['circle'].bind('click', ctogreen)
+document['tux'].bind('mouseover', hoverover)
+document['tux'].bind('mouseleave', hoverout)
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+'''
+    return outstring
+ 
+ 
+</t>
+<t tx="leo.20160526100650.57">(uncached) leo.20160512112005.28
+Diff...
+- @bg1_40123133_2.route('/snap_link')
+?     -----------
++ @bg1.route('/snap_link')
+  # http://svg.dabbles.info/
+  def snap_link():
+      outstring = '''
+  &lt;!DOCTYPE html&gt;
+  &lt;html&gt;
+  &lt;head&gt;
+      &lt;meta charset="UTF-8"&gt;
+      &lt;title&gt;網際 snap 繪圖&lt;/title&gt;
+      &lt;!-- IE 9: display inline SVG --&gt;
+      &lt;meta http-equiv="X-UA-Compatible" content="IE=9"&gt;
+      &lt;script type="text/javascript" src="http://brython.info/src/brython_dist.js"&gt;&lt;/script&gt;
+      &lt;script type="text/javascript" src="/static/snap.svg-min.js"&gt;&lt;/script&gt;
+   
+      &lt;script&gt;
+      window.onload=function(){
+      brython(1);
+      }
+      &lt;/script&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+   
+  &lt;svg width="800" height="800" viewBox="0 0 800 800" id="svgout"&gt;&lt;/svg&gt;
+   
+  &lt;script type="text/python"&gt;
+  from javascript import JSConstructor
+  from browser import alert
+  from browser import window, document
+   
+  # 透過 window 與 JSConstructor 從 Brython 物件 snap 擷取 Snap 物件的內容
+  snap = JSConstructor(window.Snap)
+   
+  # 使用 id 為 "svgout" 的 svg 標註進行繪圖
+  s = snap("#svgout")
+   
+  offsetY = 50
+   
+  # 是否標訂出繪圖範圍
+  #borderRect = s.rect(0,0,800,640,10,10).attr({ 'stroke': "silver", 'fill': "silver", 'strokeWidth': "3" })
+   
+  g = s.group().transform('t250,120')
+  r0 = s.rect(150,150,100,100,20,20).attr({ 'fill': "orange", 'opacity': "0.8", 'stroke': "black", 'strokeWidth': "2" })
+  c0 = s.circle(225,225,10).attr({ 'fill': "silver", 'stroke': "black", 'strokeWidth': "4"  }).attr({ 'id': 'c0' })
+  g0 = s.group( r0,c0 ).attr({ 'id': 'g0' })
+  #g0.animate({ 'transform' : 't250,120r360,225,225' },4000)
+  g0.appendTo( g )
+  g0.animate({ 'transform' : 'r360,225,225' },4000)
+  # 讓 g0 可以拖動
+  g0.drag()
+   
+  r1 = s.rect(100,100,100,100,20,20).attr({ 'fill': "red", 'opacity': "0.8", 'stroke': "black", 'strokeWidth': "2" })
+  c1 = s.circle(175,175,10).attr({ 'fill': "silver", 'stroke': "black" , 'strokeWidth': "4"}).attr({ 'id': 'c1' })
+  g1 = s.group( r1,c1 ).attr({ 'id': 'g1' })
+  g1.appendTo( g0 ).attr({ 'id': 'g1' })
+  g1.animate({ 'transform' : 'r360,175,175' },4000)
+   
+  r2 = s.rect(50,50,100,100,20,20).attr({ 'fill': "blue", 'opacity': "0.8", 'stroke': "black", 'strokeWidth': "2" })
+  c2 = s.circle(125,125,10).attr({ 'fill': "silver", 'stroke': "black", 'strokeWidth': "4" }).attr({ 'id': 'c2' })
+  g2 = s.group(r2,c2).attr({ 'id': 'g2' })
+   
+  g2.appendTo( g1 );
+  g2.animate( { 'transform' : 'r360,125,125' },4000);
+   
+  r3 = s.rect(0,0,100,100,20,20).attr({ 'fill': "yellow", 'opacity': "0.8", 'stroke': "black", 'strokeWidth': "2" })
+  c3 = s.circle(75,75,10).attr({ 'fill': "silver", 'stroke': "black", 'strokeWidth': "4" }).attr({ 'id': 'c3' })
+  g3 = s.group(r3,c3).attr({ 'id': 'g3' })
+   
+  g3.appendTo( g2 )
+  g3.animate( { 'transform' : 'r360,75,75' },4000)
+   
+  r4 = s.rect(-50,-50,100,100,20,20).attr({ 'fill': "green", 'opacity': "0.8", 'stroke': "black", 'strokeWidth': "2" })
+  c4 = s.circle(25,25,10).attr({ 'fill': "silver", 'stroke': "black", 'strokeWidth': "4" }).attr({ 'id': 'c4' })
+  g4 = s.group(r4,c4).attr({ 'id': 'g4' });
+  g4.appendTo( g3 )
+  g4.animate( { 'transform' : 'r360,25,25' },4000)
+  &lt;/script&gt;
+  &lt;/body&gt;
+  &lt;/html&gt;
+  '''
+      return outstring
+   
+   
+</t>
+<t tx="leo.20160526100650.58">@bg1.route('/snap_link')
+# http://svg.dabbles.info/
+def snap_link():
+    outstring = '''
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;網際 snap 繪圖&lt;/title&gt;
+    &lt;!-- IE 9: display inline SVG --&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=9"&gt;
+    &lt;script type="text/javascript" src="http://brython.info/src/brython_dist.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript" src="/static/snap.svg-min.js"&gt;&lt;/script&gt;
+ 
+    &lt;script&gt;
+    window.onload=function(){
+    brython(1);
+    }
+    &lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+ 
+&lt;svg width="800" height="800" viewBox="0 0 800 800" id="svgout"&gt;&lt;/svg&gt;
+ 
+&lt;script type="text/python"&gt;
+from javascript import JSConstructor
+from browser import alert
+from browser import window, document
+ 
+# 透過 window 與 JSConstructor 從 Brython 物件 snap 擷取 Snap 物件的內容
+snap = JSConstructor(window.Snap)
+ 
+# 使用 id 為 "svgout" 的 svg 標註進行繪圖
+s = snap("#svgout")
+ 
+offsetY = 50
+ 
+# 是否標訂出繪圖範圍
+#borderRect = s.rect(0,0,800,640,10,10).attr({ 'stroke': "silver", 'fill': "silver", 'strokeWidth': "3" })
+ 
+g = s.group().transform('t250,120')
+r0 = s.rect(150,150,100,100,20,20).attr({ 'fill': "orange", 'opacity': "0.8", 'stroke': "black", 'strokeWidth': "2" })
+c0 = s.circle(225,225,10).attr({ 'fill': "silver", 'stroke': "black", 'strokeWidth': "4"  }).attr({ 'id': 'c0' })
+g0 = s.group( r0,c0 ).attr({ 'id': 'g0' })
+#g0.animate({ 'transform' : 't250,120r360,225,225' },4000)
+g0.appendTo( g )
+g0.animate({ 'transform' : 'r360,225,225' },4000)
+# 讓 g0 可以拖動
+g0.drag()
+ 
+r1 = s.rect(100,100,100,100,20,20).attr({ 'fill': "red", 'opacity': "0.8", 'stroke': "black", 'strokeWidth': "2" })
+c1 = s.circle(175,175,10).attr({ 'fill': "silver", 'stroke': "black" , 'strokeWidth': "4"}).attr({ 'id': 'c1' })
+g1 = s.group( r1,c1 ).attr({ 'id': 'g1' })
+g1.appendTo( g0 ).attr({ 'id': 'g1' })
+g1.animate({ 'transform' : 'r360,175,175' },4000)
+ 
+r2 = s.rect(50,50,100,100,20,20).attr({ 'fill': "blue", 'opacity': "0.8", 'stroke': "black", 'strokeWidth': "2" })
+c2 = s.circle(125,125,10).attr({ 'fill': "silver", 'stroke': "black", 'strokeWidth': "4" }).attr({ 'id': 'c2' })
+g2 = s.group(r2,c2).attr({ 'id': 'g2' })
+ 
+g2.appendTo( g1 );
+g2.animate( { 'transform' : 'r360,125,125' },4000);
+ 
+r3 = s.rect(0,0,100,100,20,20).attr({ 'fill': "yellow", 'opacity': "0.8", 'stroke': "black", 'strokeWidth': "2" })
+c3 = s.circle(75,75,10).attr({ 'fill': "silver", 'stroke': "black", 'strokeWidth': "4" }).attr({ 'id': 'c3' })
+g3 = s.group(r3,c3).attr({ 'id': 'g3' })
+ 
+g3.appendTo( g2 )
+g3.animate( { 'transform' : 'r360,75,75' },4000)
+ 
+r4 = s.rect(-50,-50,100,100,20,20).attr({ 'fill': "green", 'opacity': "0.8", 'stroke': "black", 'strokeWidth': "2" })
+c4 = s.circle(25,25,10).attr({ 'fill': "silver", 'stroke': "black", 'strokeWidth': "4" }).attr({ 'id': 'c4' })
+g4 = s.group(r4,c4).attr({ 'id': 'g4' });
+g4.appendTo( g3 )
+g4.animate( { 'transform' : 'r360,25,25' },4000)
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+'''
+    return outstring
+ 
+ 
+</t>
+<t tx="leo.20160526100650.59">@bg1_40123133_2.route('/snap_link')
+# http://svg.dabbles.info/
+def snap_link():
+    outstring = '''
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;網際 snap 繪圖&lt;/title&gt;
+    &lt;!-- IE 9: display inline SVG --&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=9"&gt;
+    &lt;script type="text/javascript" src="http://brython.info/src/brython_dist.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript" src="/static/snap.svg-min.js"&gt;&lt;/script&gt;
+ 
+    &lt;script&gt;
+    window.onload=function(){
+    brython(1);
+    }
+    &lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+ 
+&lt;svg width="800" height="800" viewBox="0 0 800 800" id="svgout"&gt;&lt;/svg&gt;
+ 
+&lt;script type="text/python"&gt;
+from javascript import JSConstructor
+from browser import alert
+from browser import window, document
+ 
+# 透過 window 與 JSConstructor 從 Brython 物件 snap 擷取 Snap 物件的內容
+snap = JSConstructor(window.Snap)
+ 
+# 使用 id 為 "svgout" 的 svg 標註進行繪圖
+s = snap("#svgout")
+ 
+offsetY = 50
+ 
+# 是否標訂出繪圖範圍
+#borderRect = s.rect(0,0,800,640,10,10).attr({ 'stroke': "silver", 'fill': "silver", 'strokeWidth': "3" })
+ 
+g = s.group().transform('t250,120')
+r0 = s.rect(150,150,100,100,20,20).attr({ 'fill': "orange", 'opacity': "0.8", 'stroke': "black", 'strokeWidth': "2" })
+c0 = s.circle(225,225,10).attr({ 'fill': "silver", 'stroke': "black", 'strokeWidth': "4"  }).attr({ 'id': 'c0' })
+g0 = s.group( r0,c0 ).attr({ 'id': 'g0' })
+#g0.animate({ 'transform' : 't250,120r360,225,225' },4000)
+g0.appendTo( g )
+g0.animate({ 'transform' : 'r360,225,225' },4000)
+# 讓 g0 可以拖動
+g0.drag()
+ 
+r1 = s.rect(100,100,100,100,20,20).attr({ 'fill': "red", 'opacity': "0.8", 'stroke': "black", 'strokeWidth': "2" })
+c1 = s.circle(175,175,10).attr({ 'fill': "silver", 'stroke': "black" , 'strokeWidth': "4"}).attr({ 'id': 'c1' })
+g1 = s.group( r1,c1 ).attr({ 'id': 'g1' })
+g1.appendTo( g0 ).attr({ 'id': 'g1' })
+g1.animate({ 'transform' : 'r360,175,175' },4000)
+ 
+r2 = s.rect(50,50,100,100,20,20).attr({ 'fill': "blue", 'opacity': "0.8", 'stroke': "black", 'strokeWidth': "2" })
+c2 = s.circle(125,125,10).attr({ 'fill': "silver", 'stroke': "black", 'strokeWidth': "4" }).attr({ 'id': 'c2' })
+g2 = s.group(r2,c2).attr({ 'id': 'g2' })
+ 
+g2.appendTo( g1 );
+g2.animate( { 'transform' : 'r360,125,125' },4000);
+ 
+r3 = s.rect(0,0,100,100,20,20).attr({ 'fill': "yellow", 'opacity': "0.8", 'stroke': "black", 'strokeWidth': "2" })
+c3 = s.circle(75,75,10).attr({ 'fill': "silver", 'stroke': "black", 'strokeWidth': "4" }).attr({ 'id': 'c3' })
+g3 = s.group(r3,c3).attr({ 'id': 'g3' })
+ 
+g3.appendTo( g2 )
+g3.animate( { 'transform' : 'r360,75,75' },4000)
+ 
+r4 = s.rect(-50,-50,100,100,20,20).attr({ 'fill': "green", 'opacity': "0.8", 'stroke': "black", 'strokeWidth': "2" })
+c4 = s.circle(25,25,10).attr({ 'fill': "silver", 'stroke': "black", 'strokeWidth': "4" }).attr({ 'id': 'c4' })
+g4 = s.group(r4,c4).attr({ 'id': 'g4' });
+g4.appendTo( g3 )
+g4.animate( { 'transform' : 'r360,25,25' },4000)
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+'''
+    return outstring
+ 
+ 
+</t>
+<t tx="leo.20160526100650.6">(uncached) leo.20160512112005.11
+Diff...
+- @bg1_40123133_2.route('/a')
+?     -----------
++ @bg1.route('/a')
+  def draw_a():
+      return head_str + chain_str + a(0, 0) + tail_str
+   
+   
+</t>
+<t tx="leo.20160526100650.60">(uncached) leo.20160512112005.29
+Diff...
+- @bg1_40123133_2.route('/snap_gear')
+?     -----------
++ @bg1.route('/snap_gear')
+  def snap_gear():
+      outstring = '''
+  &lt;!DOCTYPE html&gt;
+  &lt;html&gt;
+  &lt;head&gt;
+      &lt;meta charset="UTF-8"&gt;
+      &lt;title&gt;網際 snap 繪圖&lt;/title&gt;
+      &lt;!-- IE 9: display inline SVG --&gt;
+      &lt;meta http-equiv="X-UA-Compatible" content="IE=9"&gt;
+      &lt;script type="text/javascript" src="http://brython.info/src/brython_dist.js"&gt;&lt;/script&gt;
+      &lt;script type="text/javascript" src="/static/snap.svg-min.js"&gt;&lt;/script&gt;
+   
+      &lt;script&gt;
+      window.onload=function(){
+      brython(1);
+      }
+      &lt;/script&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+   
+  &lt;svg width="800" height="800" viewBox="0 0 800 800" id="svgout"&gt;&lt;/svg&gt;
+   
+  &lt;script type="text/python"&gt;
+  from javascript import JSConstructor
+  from browser import alert
+  from browser import window, document
+   
+  # 透過 window 與 JSConstructor 從 Brython 物件 snap 擷取 Snap 物件的內容
+  snap = JSConstructor(window.Snap)
+   
+  s = snap("#svgout")
+  # 畫直線
+  s.line(0, 0, 100, 100).attr({ 'fill': "silver", 'stroke': "black", 'strokeWidth': "1"  }).attr({ 'id': 'line1' })
+  &lt;/script&gt;
+  &lt;/body&gt;
+  &lt;/html&gt;
+  '''
+      return outstring
+</t>
+<t tx="leo.20160526100650.61">@bg1.route('/snap_gear')
+def snap_gear():
+    outstring = '''
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;網際 snap 繪圖&lt;/title&gt;
+    &lt;!-- IE 9: display inline SVG --&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=9"&gt;
+    &lt;script type="text/javascript" src="http://brython.info/src/brython_dist.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript" src="/static/snap.svg-min.js"&gt;&lt;/script&gt;
+ 
+    &lt;script&gt;
+    window.onload=function(){
+    brython(1);
+    }
+    &lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+ 
+&lt;svg width="800" height="800" viewBox="0 0 800 800" id="svgout"&gt;&lt;/svg&gt;
+ 
+&lt;script type="text/python"&gt;
+from javascript import JSConstructor
+from browser import alert
+from browser import window, document
+ 
+# 透過 window 與 JSConstructor 從 Brython 物件 snap 擷取 Snap 物件的內容
+snap = JSConstructor(window.Snap)
+ 
+s = snap("#svgout")
+# 畫直線
+s.line(0, 0, 100, 100).attr({ 'fill': "silver", 'stroke': "black", 'strokeWidth': "1"  }).attr({ 'id': 'line1' })
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+'''
+    return outstring
+</t>
+<t tx="leo.20160526100650.62">@bg1_40123133_2.route('/snap_gear')
+def snap_gear():
+    outstring = '''
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;網際 snap 繪圖&lt;/title&gt;
+    &lt;!-- IE 9: display inline SVG --&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=9"&gt;
+    &lt;script type="text/javascript" src="http://brython.info/src/brython_dist.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript" src="/static/snap.svg-min.js"&gt;&lt;/script&gt;
+ 
+    &lt;script&gt;
+    window.onload=function(){
+    brython(1);
+    }
+    &lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+ 
+&lt;svg width="800" height="800" viewBox="0 0 800 800" id="svgout"&gt;&lt;/svg&gt;
+ 
+&lt;script type="text/python"&gt;
+from javascript import JSConstructor
+from browser import alert
+from browser import window, document
+ 
+# 透過 window 與 JSConstructor 從 Brython 物件 snap 擷取 Snap 物件的內容
+snap = JSConstructor(window.Snap)
+ 
+s = snap("#svgout")
+# 畫直線
+s.line(0, 0, 100, 100).attr({ 'fill': "silver", 'stroke': "black", 'strokeWidth': "1"  }).attr({ 'id': 'line1' })
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+'''
+    return outstring
+</t>
+<t tx="leo.20160526100650.7">@bg1.route('/a')
+def draw_a():
+    return head_str + chain_str + a(0, 0) + tail_str
+ 
+ 
+</t>
+<t tx="leo.20160526100650.8">@bg1_40123133_2.route('/a')
+def draw_a():
+    return head_str + chain_str + a(0, 0) + tail_str
+ 
+ 
+</t>
+<t tx="leo.20160526100650.9">(uncached) leo.20160512112005.12
+Diff...
+- @bg1_40123133_2.route('/b')
+?     -----------
++ @bg1.route('/b')
+  def draw_b():
+     # 每個橫向字元距離為 65 pixels, 上下字距則為 110 pixels
+      return head_str + chain_str + b(0+65, 0) + tail_str
+   
+   
+</t>
+<t tx="leo.20160527132501.1"></t>
+<t tx="leo.20160527132501.2">(uncached) amd.20160501221001.2
+Diff...
+  # coding: utf-8
+  from flask import Flask, send_from_directory, request, redirect, render_template, session, make_response
+  import random
+  import math
+  import os
+  # init.py 為自行建立的起始物件
+  import init
+  import users.a.g1.ag1_40323105
+  import users.a.g2.ag2_40323120
+  import users.a.g10.ag10_40323129_task1
+  import users.a.g10.ag10_40323141_task1
+  import users.a.g10.ag10_40323139
+  import users.a.g9.ag9_40323132task
+  import users.a.g5.ag5_40323113task1
+  import users.a.g5.ag5_40123145task1
+  import users.a.g4.ag4_40323138
+  import users.a.g4.ag4_40323138_task2bacd
+  import users.a.g4.ag4_40323138_task3abcd
+  import users.a.g8.ag8_40323131_task1
+  import users.b.g9.bg9_40323250
+  import users.a.g8.ag8_40323123
+  import users.a.g1.a40223153
+  import users.a.g3.ag3_40323108
+  import users.a.g3.ag3_40323108_task2bacd
+  import users.a.g3.ag3_40323108_task3abcd
+  #bg1
+  import users.b.g1.bg1_40123156
+  import users.b.g1.bg1_40123156_2
+  import users.b.g1.bg1_40123129
+  import users.b.g1.bg1_40123129_2
+  import users.b.g1.bg1_40123144
+  import users.b.g1.bg1_40123144_2
++ #import users.b.g1.bg1_40123131
++ #import users.b.g1.bg1_40123131_2
+  import users.b.g1.b40123131_cdw11
+  import users.b.g1.b40123131_cdw12
+- import users.b.g1.b40123131_cdw13
+  
+  import users.b.g1.b40123131_cdw11
+  import users.b.g1.b40123131_cdw12
+  import users.b.g1.bg1_40123134
+  import users.b.g1.bg1_40123134_2
+  import users.b.g1.bg1_40123134_3
+  import users.b.g1.b40123133_cdw11
+  import users.b.g1.b40123133_cdw12
+- import users.b.g1.bg1_40123126
+- import users.b.g1.bg1_40123126_2
+  #bg2
+  import users.b.g2.bg2_40123235
+  import users.b.g2.bg2_40123235_cdw12
+- import users.b.g2.bg2_40123235_cdw14
+  import users.b.g2.bg2_40123202
+- import users.b.g2.bg2_40123202_cdw13
+?                                --- -
++ import users.b.g2.bg2_40123202_1
+- import users.b.g2.bg2_40123202_cdw14
+  import users.b.g2.bg2_40123226_cdw12
+  import users.b.g2.bg2_40123232_cdw12
+  import users.b.g2.bg2_40123214_cdw12
+  import users.b.g2.bg2_40123217_cdw12
+  import users.b.g2.bg2_40123244_cdw12
+  #bg4
+  import users.b.g4.bg4_40323203
+  import users.b.g4.bg4_40323205
+  import users.b.g4.bg4_40323208
+  #bg8
+  import users.b.g8.bg8_40323213
+  import users.b.g4.bg4_40323202
+  import users.b.g4.b40323201_cdw11
+  
+  #bg5
+  #import users.b.g5.b40323206_cdw11_1
+  import users.b.g5.b40323204_cdw11_1
+  
+  
+  #bg5
+  #import users.b.g5.b40323206_cdw11_1
+  import users.b.g5.b40323204_cdw11_1
+  import users.b.g5.b40323204_cdw11_2
+  import users.b.g5.b40323206_cdw11_2
+  #bg11
+  import users.b.g11.bg11_40323245
+  import users.b.g11.bg11_40323252
+  import users.b.g11.bg11_40323245_1
+  #bg101
+  import users.b.g101.b40123200
+  #ag8
+  import users.a.g8.a40323143
+  import users.a.g8.a40323154
+  #ag10
+  import users.a.g10.a40323139
+  import users.a.g10.a40323141
+  #bg3
+  #import users.b.g3.b40123224
+  #import users.b.g3.b40123250
+  #import users.b.g3.b40123242
+  import users.b.g3.bg3_40123224
+  import users.b.g3.bg3_40123224_cdw11
+  import users.b.g3.bg3_40123250
+  import users.b.g3.bg3_40123250_cdw11
+- import users.b.g3.bg3_40123250_cdw14
+- import users.b.g3.bg3_40123224_cdw14
+  #import users.b.g3.b40123242
+  import users.b.g3.bg3_40123242_cdw12
+  #ag3
+  import users.a.g3.a40323108
+  #ag100
+  import users.a.g100.cdw13.a40123100
+  # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
+  _curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
+  # 設定在雲端與近端的資料儲存目錄
+  if 'OPENSHIFT_REPO_DIR' in os.environ.keys():
+      # 表示程式在雲端執行
+      data_dir = os.environ['OPENSHIFT_DATA_DIR']
+      static_dir = os.environ['OPENSHIFT_REPO_DIR']+"/static"
+      download_dir = os.environ['OPENSHIFT_DATA_DIR']+"/downloads"
+  else:
+      # 表示程式在近端執行
+      data_dir = _curdir + "/local_data/"
+      static_dir = _curdir + "/static"
+      download_dir = _curdir + "/local_data/downloads/"
+  
+  # 利用 init.py 啟動, 建立所需的相關檔案
+  initobj = init.Init()
+  
+  # 必須先將 download_dir 設為 static_folder, 然後才可以用於 download 方法中的 app.static_folder 的呼叫
+  app = Flask(__name__)
+  #app.config['download_dir'] = download_dir
+  
+  # 使用 session 必須要設定 secret_key
+  # In order to use sessions you have to set a secret key
+  # set the secret key.  keep this really secret:
+  app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
+  
+  
+  
+  
+  
+  
+</t>
+<t tx="leo.20160527132501.3"># coding: utf-8
+from flask import Flask, send_from_directory, request, redirect, render_template, session, make_response
+import random
+import math
+import os
+# init.py 為自行建立的起始物件
+import init
+import users.a.g1.ag1_40323105
+import users.a.g2.ag2_40323120
+import users.a.g10.ag10_40323129_task1
+import users.a.g10.ag10_40323141_task1
+import users.a.g10.ag10_40323139
+import users.a.g9.ag9_40323132task
+import users.a.g5.ag5_40323113task1
+import users.a.g5.ag5_40123145task1
+import users.a.g4.ag4_40323138
+import users.a.g4.ag4_40323138_task2bacd
+import users.a.g4.ag4_40323138_task3abcd
+import users.a.g8.ag8_40323131_task1
+import users.b.g9.bg9_40323250
+import users.a.g8.ag8_40323123
+import users.a.g1.a40223153
+import users.a.g3.ag3_40323108
+import users.a.g3.ag3_40323108_task2bacd
+import users.a.g3.ag3_40323108_task3abcd
+#bg1
+import users.b.g1.bg1_40123156
+import users.b.g1.bg1_40123156_2
+import users.b.g1.bg1_40123129
+import users.b.g1.bg1_40123129_2
+import users.b.g1.bg1_40123144
+import users.b.g1.bg1_40123144_2
+#import users.b.g1.bg1_40123131
+#import users.b.g1.bg1_40123131_2
+import users.b.g1.b40123131_cdw11
+import users.b.g1.b40123131_cdw12
+
+import users.b.g1.b40123131_cdw11
+import users.b.g1.b40123131_cdw12
+import users.b.g1.bg1_40123134
+import users.b.g1.bg1_40123134_2
+import users.b.g1.bg1_40123134_3
+import users.b.g1.b40123133_cdw11
+import users.b.g1.b40123133_cdw12
+#bg2
+import users.b.g2.bg2_40123235
+import users.b.g2.bg2_40123235_cdw12
+import users.b.g2.bg2_40123202
+import users.b.g2.bg2_40123202_1
+import users.b.g2.bg2_40123226_cdw12
+import users.b.g2.bg2_40123232_cdw12
+import users.b.g2.bg2_40123214_cdw12
+import users.b.g2.bg2_40123217_cdw12
+import users.b.g2.bg2_40123244_cdw12
+#bg4
+import users.b.g4.bg4_40323203
+import users.b.g4.bg4_40323205
+import users.b.g4.bg4_40323208
+#bg8
+import users.b.g8.bg8_40323213
+import users.b.g4.bg4_40323202
+import users.b.g4.b40323201_cdw11
+
+#bg5
+#import users.b.g5.b40323206_cdw11_1
+import users.b.g5.b40323204_cdw11_1
+
+
+#bg5
+#import users.b.g5.b40323206_cdw11_1
+import users.b.g5.b40323204_cdw11_1
+import users.b.g5.b40323204_cdw11_2
+import users.b.g5.b40323206_cdw11_2
+#bg11
+import users.b.g11.bg11_40323245
+import users.b.g11.bg11_40323252
+import users.b.g11.bg11_40323245_1
+#bg101
+import users.b.g101.b40123200
+#ag8
+import users.a.g8.a40323143
+import users.a.g8.a40323154
+#ag10
+import users.a.g10.a40323139
+import users.a.g10.a40323141
+#bg3
+#import users.b.g3.b40123224
+#import users.b.g3.b40123250
+#import users.b.g3.b40123242
+import users.b.g3.bg3_40123224
+import users.b.g3.bg3_40123224_cdw11
+import users.b.g3.bg3_40123250
+import users.b.g3.bg3_40123250_cdw11
+#import users.b.g3.b40123242
+import users.b.g3.bg3_40123242_cdw12
+#ag3
+import users.a.g3.a40323108
+#ag100
+import users.a.g100.cdw13.a40123100
+# 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
+_curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
+# 設定在雲端與近端的資料儲存目錄
+if 'OPENSHIFT_REPO_DIR' in os.environ.keys():
+    # 表示程式在雲端執行
+    data_dir = os.environ['OPENSHIFT_DATA_DIR']
+    static_dir = os.environ['OPENSHIFT_REPO_DIR']+"/static"
+    download_dir = os.environ['OPENSHIFT_DATA_DIR']+"/downloads"
+else:
+    # 表示程式在近端執行
+    data_dir = _curdir + "/local_data/"
+    static_dir = _curdir + "/static"
+    download_dir = _curdir + "/local_data/downloads/"
+
+# 利用 init.py 啟動, 建立所需的相關檔案
+initobj = init.Init()
+
+# 必須先將 download_dir 設為 static_folder, 然後才可以用於 download 方法中的 app.static_folder 的呼叫
+app = Flask(__name__)
+#app.config['download_dir'] = download_dir
+
+# 使用 session 必須要設定 secret_key
+# In order to use sessions you have to set a secret key
+# set the secret key.  keep this really secret:
+app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
+
+
+
+
+
+
+</t>
+<t tx="leo.20160527132501.4"># coding: utf-8
+from flask import Flask, send_from_directory, request, redirect, render_template, session, make_response
+import random
+import math
+import os
+# init.py 為自行建立的起始物件
+import init
+import users.a.g1.ag1_40323105
+import users.a.g2.ag2_40323120
+import users.a.g10.ag10_40323129_task1
+import users.a.g10.ag10_40323141_task1
+import users.a.g10.ag10_40323139
+import users.a.g9.ag9_40323132task
+import users.a.g5.ag5_40323113task1
+import users.a.g5.ag5_40123145task1
+import users.a.g4.ag4_40323138
+import users.a.g4.ag4_40323138_task2bacd
+import users.a.g4.ag4_40323138_task3abcd
+import users.a.g8.ag8_40323131_task1
+import users.b.g9.bg9_40323250
+import users.a.g8.ag8_40323123
+import users.a.g1.a40223153
+import users.a.g3.ag3_40323108
+import users.a.g3.ag3_40323108_task2bacd
+import users.a.g3.ag3_40323108_task3abcd
+#bg1
+import users.b.g1.bg1_40123156
+import users.b.g1.bg1_40123156_2
+import users.b.g1.bg1_40123129
+import users.b.g1.bg1_40123129_2
+import users.b.g1.bg1_40123144
+import users.b.g1.bg1_40123144_2
+import users.b.g1.b40123131_cdw11
+import users.b.g1.b40123131_cdw12
+import users.b.g1.b40123131_cdw13
+
+import users.b.g1.b40123131_cdw11
+import users.b.g1.b40123131_cdw12
+import users.b.g1.bg1_40123134
+import users.b.g1.bg1_40123134_2
+import users.b.g1.bg1_40123134_3
+import users.b.g1.b40123133_cdw11
+import users.b.g1.b40123133_cdw12
+import users.b.g1.bg1_40123126
+import users.b.g1.bg1_40123126_2
+#bg2
+import users.b.g2.bg2_40123235
+import users.b.g2.bg2_40123235_cdw12
+import users.b.g2.bg2_40123235_cdw14
+import users.b.g2.bg2_40123202
+import users.b.g2.bg2_40123202_cdw13
+import users.b.g2.bg2_40123202_cdw14
+import users.b.g2.bg2_40123226_cdw12
+import users.b.g2.bg2_40123232_cdw12
+import users.b.g2.bg2_40123214_cdw12
+import users.b.g2.bg2_40123217_cdw12
+import users.b.g2.bg2_40123244_cdw12
+#bg4
+import users.b.g4.bg4_40323203
+import users.b.g4.bg4_40323205
+import users.b.g4.bg4_40323208
+#bg8
+import users.b.g8.bg8_40323213
+import users.b.g4.bg4_40323202
+import users.b.g4.b40323201_cdw11
+
+#bg5
+#import users.b.g5.b40323206_cdw11_1
+import users.b.g5.b40323204_cdw11_1
+
+
+#bg5
+#import users.b.g5.b40323206_cdw11_1
+import users.b.g5.b40323204_cdw11_1
+import users.b.g5.b40323204_cdw11_2
+import users.b.g5.b40323206_cdw11_2
+#bg11
+import users.b.g11.bg11_40323245
+import users.b.g11.bg11_40323252
+import users.b.g11.bg11_40323245_1
+#bg101
+import users.b.g101.b40123200
+#ag8
+import users.a.g8.a40323143
+import users.a.g8.a40323154
+#ag10
+import users.a.g10.a40323139
+import users.a.g10.a40323141
+#bg3
+#import users.b.g3.b40123224
+#import users.b.g3.b40123250
+#import users.b.g3.b40123242
+import users.b.g3.bg3_40123224
+import users.b.g3.bg3_40123224_cdw11
+import users.b.g3.bg3_40123250
+import users.b.g3.bg3_40123250_cdw11
+import users.b.g3.bg3_40123250_cdw14
+import users.b.g3.bg3_40123224_cdw14
+#import users.b.g3.b40123242
+import users.b.g3.bg3_40123242_cdw12
+#ag3
+import users.a.g3.a40323108
+#ag100
+import users.a.g100.cdw13.a40123100
+# 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
+_curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
+# 設定在雲端與近端的資料儲存目錄
+if 'OPENSHIFT_REPO_DIR' in os.environ.keys():
+    # 表示程式在雲端執行
+    data_dir = os.environ['OPENSHIFT_DATA_DIR']
+    static_dir = os.environ['OPENSHIFT_REPO_DIR']+"/static"
+    download_dir = os.environ['OPENSHIFT_DATA_DIR']+"/downloads"
+else:
+    # 表示程式在近端執行
+    data_dir = _curdir + "/local_data/"
+    static_dir = _curdir + "/static"
+    download_dir = _curdir + "/local_data/downloads/"
+
+# 利用 init.py 啟動, 建立所需的相關檔案
+initobj = init.Init()
+
+# 必須先將 download_dir 設為 static_folder, 然後才可以用於 download 方法中的 app.static_folder 的呼叫
+app = Flask(__name__)
+#app.config['download_dir'] = download_dir
+
+# 使用 session 必須要設定 secret_key
+# In order to use sessions you have to set a secret key
+# set the secret key.  keep this really secret:
+app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
+
+
+
+
+
+
+</t>
+<t tx="leo.20160527132807.1">@bg1_40123133_2.route('/test_gear')
+def test_gear():
+    outstring = '''
+&lt;script type="text/javascript" src="http://brython.info/src/brython_dist.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://2015fallhw.github.io/cptocadp/static/Cango-8v03.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://2015fallhw.github.io/cptocadp/static/Cango2D-7v01-min.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://2015fallhw.github.io/cptocadp/static/gearUtils-05.js"&gt;&lt;/script&gt;
+ 
+&lt;script&gt;
+window.onload=function(){
+brython(1);
+}
+&lt;/script&gt;
+ 
+&lt;canvas id='gear1' width='800' height='750'&gt;&lt;/canvas&gt;
+ 
+&lt;script type="text/python"&gt;
+# 將 導入的 document 設為 doc 主要原因在於與舊程式碼相容
+from browser import document as doc
+# 由於 Python3 與 Javascript 程式碼已經不再混用, 因此來自 Javascript 的變數, 必須居中透過 window 物件轉換
+from browser import window
+# 針對 Javascript 既有的物件, 則必須透過 JSConstructor 轉換
+from javascript import JSConstructor
+import math
+ 
+# 主要用來取得畫布大小
+canvas = doc["gear1"]
+# 此程式採用 Cango Javascript 程式庫繪圖, 因此無需 ctx
+#ctx = canvas.getContext("2d")
+# 針對類別的轉換, 將 Cango.js 中的 Cango 物件轉為 Python cango 物件
+cango = JSConstructor(window.Cango)
+# 針對變數的轉換, shapeDefs 在 Cango 中資料型別為變數, 可以透過 window 轉換
+shapedefs = window.shapeDefs
+# 目前 Cango 結合 Animation 在 Brython 尚無法運作, 此刻只能繪製靜態圖形
+# in CangoAnimation.js
+#interpolate1 = window.interpolate
+# Cobi 與 createGearTooth 都是 Cango Javascript 程式庫中的物件
+cobj = JSConstructor(window.Cobj)
+creategeartooth = JSConstructor(window.createGearTooth)
+ 
+# 經由 Cango 轉換成 Brython 的 cango, 指定將圖畫在 id="plotarea" 的 canvas 上
+cgo = cango("gear1")
+ 
+######################################
+# 畫正齒輪輪廓
+#####################################
+def spur(cx, cy, m, n, pa, theta):
+    # n 為齒數
+    #n = 17
+    # pa 為壓力角
+    #pa = 25
+    # m 為模數, 根據畫布的寬度, 計算適合的模數大小
+    # Module = mm of pitch diameter per tooth
+    #m = 0.8*canvas.width/n
+    # pr 為節圓半徑
+    pr = n*m/2 # gear Pitch radius
+    # generate gear
+    data = creategeartooth(m, n, pa)
+    # Brython 程式中的 print 會將資料印在 Browser 的 console 區
+    #print(data)
+ 
+    gearTooth = cobj(data, "SHAPE", {
+            "fillColor":"#ddd0dd",
+            "border": True,
+            "strokeColor": "#606060" })
+    #gearTooth.rotate(180/n) # rotate gear 1/2 tooth to mesh, 請注意 rotate 角度為 degree
+    # theta 為角度
+    gearTooth.rotate(theta) 
+    # 單齒的齒形資料經過旋轉後, 將資料複製到 gear 物件中
+    gear = gearTooth.dup()
+    # gear 為單一齒的輪廓資料
+    #cgo.render(gearTooth)
+ 
+    # 利用單齒輪廓旋轉, 產生整個正齒輪外形
+    for i in range(1, n):
+        # 將 gearTooth 中的資料複製到 newTooth
+        newTooth = gearTooth.dup()
+        # 配合迴圈, newTooth 的齒形資料進行旋轉, 然後利用 appendPath 方法, 將資料併入 gear
+        newTooth.rotate(360*i/n)
+        # appendPath 為 Cango 程式庫中的方法, 第二個變數為 True, 表示要刪除最前頭的 Move to SVG Path 標註符號
+        gear.appendPath(newTooth, True) # trim move command = True
+ 
+    # 建立軸孔
+    # add axle hole, hr 為 hole radius
+    hr = 0.6*pr # diameter of gear shaft
+    shaft = cobj(shapedefs.circle(hr), "PATH")
+    shaft.revWinding()
+    gear.appendPath(shaft) # retain the 'moveTo' command for shaft sub path
+    gear.translate(cx, cy)
+    # render 繪出靜態正齒輪輪廓
+    cgo.render(gear)
+    # 接著繪製齒輪的基準線
+    deg = math.pi/180
+    Line = cobj(['M', cx, cy, 'L', cx+pr*math.cos(theta*deg), cy+pr*math.sin(theta*deg)], "PATH", {
+          'strokeColor':'blue', 'lineWidth': 1})
+    cgo.render(Line)
+ 
+# 3個齒輪的齒數
+n1 = 17
+n2 = 29
+n3 = 15
+n4 = 50
+ 
+# m 為模數, 根據畫布的寬度, 計算適合的模數大小
+# Module = mm of pitch diameter per tooth
+# 利用 80% 的畫布寬度進行繪圖
+# 計算模數的對應尺寸
+m = canvas.width*0.8/(n1+n2+n3+n4)
+ 
+# 根據齒數與模組計算各齒輪的節圓半徑
+pr1 = n1*m/2
+pr2 = n2*m/2
+pr3 = n3*m/2
+pr4 = n4*m/2
+ 
+# 畫布左右兩側都保留畫布寬度的 10%
+# 依此計算對應的最左邊齒輪的軸心座標
+cx = canvas.width*0.1+pr1
+cy = canvas.height/2
+ 
+# pa 為壓力角
+pa = 25
+ 
+# 畫最左邊齒輪, 定位線旋轉角為 0, 軸心座標 (cx, cy)
+spur(cx, cy, m, n1, pa, 0)
+# 第2個齒輪將原始的定位線逆時鐘轉 180 度後, 與第1個齒輪正好齒頂與齒頂對齊
+# 只要第2個齒輪再逆時鐘或順時鐘轉動半齒的角度, 即可完成囓合
+# 每一個齒分別包括從齒根到齒頂的範圍, 涵蓋角度為 360/n, 因此所謂的半齒角度為 180/n
+spur(cx+pr1+pr2, cy, m, n2, pa, 180-180/n2)
+# 第2齒與第3齒的囓合, 首先假定第2齒的定位線在 theta 角為 0 的原始位置
+# 如此, 第3齒只要逆時鐘旋轉 180 度後, 再逆時鐘或順時鐘轉動半齒的角度, 即可與第2齒囓合
+# 但是第2齒為了與第一齒囓合時, 已經從原始定位線轉了 180-180/n2 度
+# 而當第2齒從與第3齒囓合的定位線, 逆時鐘旋轉 180-180/n2 角度後, 原先囓合的第3齒必須要再配合旋轉 (180-180/n2 )*n2/n3
+spur(cx+pr1+pr2+pr2+pr3, cy, m, n3, pa, 180-180/n3+(180-180/n2)*n2/n3)
+spur(cx+pr1+pr2+pr2+pr3+pr3+pr4, cy, m, n4, pa, 180-180/n4+(180-180/n2)*n2*n3/n4)
+&lt;/script&gt;
+'''
+    return outstring</t>
 </tnodes>
 </leo_file>

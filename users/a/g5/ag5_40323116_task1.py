@@ -2,13 +2,13 @@
 from flask import Blueprint, render_template, make_response
 
 # 利用 Blueprint建立 ag1, 並且 url 前綴為 /ag1, 並設定 template 存放目錄
-bg9_40323250 = Blueprint('bg5_40323206', __name__, url_prefix='/bg5_40323206', template_folder='templates')
+ag5_40323116 = Blueprint('ag5_40323116', __name__, url_prefix='/ag5_40323116', template_folder='templates')
 
 
 
 
-@bg5_40323206.route('/task1')
-def task1():
+@ag5_40323116.route('/task1_16')
+def task1_16():
     outstring = '''
 <!DOCTYPE html>
 <html>
@@ -145,7 +145,7 @@ x8, y8 = mychain.basic_rot(x7, y7, -90)
 x9, y9 = mychain.basic_rot(x8, y8, -90)
 # 中間兩個水平單元
 x10, y10 = mychain.basic_rot(x8, y8, -180)
-mychain.basic(x10, y10, x1, y1, color="#FFFF33")
+mychain.basic(x10, y10, x1, y1, color="green")
 
 
 cgo.setWorldCoords(-315, -250, 500, 500) 
@@ -166,7 +166,7 @@ x8, y8 = mychain.basic_rot(x7, y7, -90)
 x9, y9 = mychain.basic_rot(x8, y8, -90)
 # 中間兩個水平單元
 x10, y10 = mychain.basic_rot(x8, y8, -180)
-mychain.basic(x10, y10, x1, y1, color="#FFFF33")
+mychain.basic(x10, y10, x1, y1, color="blue")
 
 cgo.setWorldCoords(-385, -250, 500, 500) 
 # 畫 A
@@ -186,7 +186,7 @@ x8, y8 = mychain.basic_rot(x7, y7, -90)
 x9, y9 = mychain.basic_rot(x8, y8, -90)
 # 中間兩個水平單元
 x10, y10 = mychain.basic_rot(x8, y8, -180)
-mychain.basic(x10, y10, x1, y1, color="#FFFF33")
+mychain.basic(x10, y10, x1, y1, color="red")
 
 cgo.setWorldCoords(-445, -250, 500, 500) 
 # 畫 A
@@ -206,15 +206,15 @@ x8, y8 = mychain.basic_rot(x7, y7, -90)
 x9, y9 = mychain.basic_rot(x8, y8, -90)
 # 中間兩個水平單元
 x10, y10 = mychain.basic_rot(x8, y8, -180)
-mychain.basic(x10, y10, x1, y1, color="#FFFF33")
+mychain.basic(x10, y10, x1, y1, color="green")
 </script>
 </body></html>
 '''
     return outstring
     
 
-@bg5_40323206.route('/task2')
-def task2():
+@ag5_40323116.route('/task1b')
+def task1():
     outstring = '''
 <!DOCTYPE html>
 <html>
@@ -357,7 +357,7 @@ x11, y11 = mychain.basic_rot(x10, y10, -90)
 # 右下斜 240 度
 x12, y12 = mychain.basic_rot(x11, y11, 210)
 # 水平接回起點
-mychain.basic(x12,y12, 0, 0, color="#009FCC")
+mychain.basic(x12,y12, 0, 0, color="green")
 
 cgo.setWorldCoords(-107.5, -250, 500, 500) 
 # 畫 A
@@ -377,7 +377,7 @@ x8, y8 = mychain.basic_rot(x7, y7, -90)
 x9, y9 = mychain.basic_rot(x8, y8, -90)
 # 中間兩個水平單元
 x10, y10 = mychain.basic_rot(x8, y8, -180)
-mychain.basic(x10, y10, x1, y1, color="#009FCC")
+mychain.basic(x10, y10, x1, y1, color="green")
 
 cgo.setWorldCoords(-50, -250, 500, 500) 
 # 畫 C
@@ -395,7 +395,7 @@ x5, y5 = mychain.basic_rot(0+65*2, -10+10+20*math.sin(80*deg)+20*math.sin(30*deg
 # 下斜 -30 度
 x6, y6 = mychain.basic_rot(x5, y5, -30)
 # 下方水平單元
-x7, y7 = mychain.basic_rot(x6, y6, -0, color="#009FCC")
+x7, y7 = mychain.basic_rot(x6, y6, -0, color="green")
 
 cgo.setWorldCoords(-55, -250, 500, 500) 
 # 畫 D
@@ -416,7 +416,7 @@ x9, y9 = mychain.basic_rot(x8, y8, -120)
 # -140
 x10, y10 = mychain.basic_rot(x9, y9, -140)
 # 水平接回原點
-mychain.basic(x10, y10, 0+65*3, 0, color="#009FCC")
+mychain.basic(x10, y10, 0+65*3, 0, color="green")
 
 </script>
 </body></html>
@@ -425,8 +425,8 @@ mychain.basic(x10, y10, 0+65*3, 0, color="#009FCC")
 
 
 
-@bg5_40323206.route('/task3')
-def task3():
+@ag5_40323116.route('/task1c')
+def task1c():
     outstring = '''
 <!DOCTYPE html>
 <html>
@@ -570,7 +570,7 @@ x11, y11 = mychain.basic_rot(x10, y10, -90)
 # 右下斜 240 度
 x12, y12 = mychain.basic_rot(x11, y11, 210)
 # 水平接回起點
-mychain.basic(x12,y12, 0, 0, color="#00AA55")
+mychain.basic(x12,y12, 0, 0, color="green")
 
 
 cgo.setWorldCoords(-247.5, -350, 500, 500) 
@@ -591,7 +591,7 @@ x8, y8 = mychain.basic_rot(x7, y7, -90)
 x9, y9 = mychain.basic_rot(x8, y8, -90)
 # 中間兩個水平單元
 x10, y10 = mychain.basic_rot(x8, y8, -180)
-mychain.basic(x10, y10, x1, y1, color="#00AA55")
+mychain.basic(x10, y10, x1, y1, color="green")
 
 cgo.setWorldCoords(-55, -50, 500, 500) 
 # 畫 D
@@ -612,7 +612,7 @@ x9, y9 = mychain.basic_rot(x8, y8, -120)
 # -140
 x10, y10 = mychain.basic_rot(x9, y9, -140)
 # 水平接回原點
-mychain.basic(x10, y10, 0+65*3, 0, color="#00AA55")
+mychain.basic(x10, y10, 0+65*3, 0, color="green")
 
 cgo.setWorldCoords(-120, -150, 500, 500) 
 # 畫 C
@@ -630,7 +630,7 @@ x5, y5 = mychain.basic_rot(0+65*2, -10+10+20*math.sin(80*deg)+20*math.sin(30*deg
 # 下斜 -30 度
 x6, y6 = mychain.basic_rot(x5, y5, -30)
 # 下方水平單元
-x7, y7 = mychain.basic_rot(x6, y6, -0, color="#00AA55")
+x7, y7 = mychain.basic_rot(x6, y6, -0, color="green")
 </script>
 </body></html>
 '''
