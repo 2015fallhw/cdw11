@@ -59,7 +59,7 @@ cgo.drawAxes(0, 240, 0, 240, {
  
 deg = math.pi/180  
  
-# 將繪製鏈條輪廓的內容寫成 class 物件
+# 將繪製鏈條輪廓的內容寫成 class  物件
 class chain():
     # 輪廓的外型設為 class variable
     chamber = "M -6.8397, -1.4894 \
