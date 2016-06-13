@@ -756,7 +756,7 @@ s.line(0, 0, 100, 100).attr({ 'fill': "silver", 'stroke': "black", 'strokeWidth'
 '''
     return outstring
 @ag8_40323143.route('/gear')
-def snap_gear():
+def gear():
     outstring = '''
 <!DOCTYPE html>
 <html>
