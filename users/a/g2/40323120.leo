@@ -62,128 +62,18 @@
 <v t="leo.20160613210101.5"><vh>new:myflaskapp declarations</vh></v>
 </v>
 </v>
+<v t="leo.20160615232929.2" a="E"><vh>Recovered Nodes</vh>
+<v t="leo.20160615232929.3"><vh>Recovered node "myflaskapp declarations" from @clean myflaskapp.py</vh>
+<v t="leo.20160615232929.4"><vh>old:myflaskapp declarations</vh></v>
+<v t="leo.20160615232929.5"><vh>new:myflaskapp declarations</vh></v>
+</v>
+</v>
 </vnodes>
 <tnodes>
 <t tx="amd.20160501215436.2"></t>
 <t tx="amd.20160501215545.1"></t>
 <t tx="amd.20160501215558.1"></t>
 <t tx="amd.20160501215634.1"></t>
-<t tx="amd.20160501215720.1">@language md
-Title: 40323120 cdw11 期末報告
-Category: ag2
-Tags: 40323120, cdw11
-Author: 40323120
-期末報告
-
-&lt;!-- PELICAN_END_SUMMARY --&gt;
-
-報告內容:
-
-前言:
-利用2D繪圖程式繪製出4個A、BACD及ABCD
-
-任務描述及執行說明:
-
-任務一(繪製出四個A):
-&lt;img src="http://i.imgur.com/D5uY4jn.png" width="100%" /&gt;
-
-首先在下圖圈起來地方的位置註冊藍圖及導入
-
-&lt;img src="http://i.imgur.com/2yfbmz5.png" width="100%" /&gt;
-&lt;img src="http://i.imgur.com/qnYr5OR.png" width="100%" /&gt;
-
-再來將2D繪圖程式打開，在要繪圖的資料夾底下輸入python wsgi.py執行
-
-&lt;img src="http://i.imgur.com/PA8yAqB.png" width="100%" /&gt;
-
-若是開啟成功，會出現上圖的圖示，若是失敗的話則會出現哪裡有錯誤，這個要再去找看看是哪裡出錯。
-在網頁輸入localhost:5000/下圖圈起來的位置1./位置2.
-
-&lt;img src="http://i.imgur.com/Nq14ERX.png" width="100%" /&gt;
-
-開啟之後會出現在這個位置底下的東西
-
-&lt;img src="http://i.imgur.com/Vx6bs2w.png" width="100%" /&gt;
-
-再來要說明如何繪製字母A，首先可以自行繪製，也可以從老師給的參數直接拿過來使用，
-接下來要說明的是如何從老師給的參數直接導入繪製出字母A、B、C及D
-可以從班級cdw2中取得這些參數，再將這些參數導入，而位置cdw2中的users底下的s2a中的g100裏頭的scrum1_task1.py然後用編輯器打開來
-
-&lt;img src="http://i.imgur.com/KBb1Hsl.png" width="100%" /&gt;
-
-複製a函式的參數，然後貼到自己位置的底下，記得要加上html的語法才可以跑出圖形，不然會只有文字檔而已
-
-html語法
-
-&lt;img src="http://i.imgur.com/Al7dH5J.png" width="100%" /&gt;
-&lt;img src="http://i.imgur.com/c3sTova.png" width="100%" /&gt;
-
-導入成功之後
-
-&lt;img src="http://i.imgur.com/Dbpjofv.png" width="100%" /&gt;
-
-接著再重複導入A函式，更改一下座標軸，紅色底線部分為座標軸的參數
-
-&lt;img src="http://i.imgur.com/IbbLkQl.png" width="100%" /&gt;
-
-導入四次A函式之後，及用座標軸調整之間的距離
-
-&lt;img src="http://i.imgur.com/Vx6bs2w.png" width="100%" /&gt;
-
-完成!
-
-任務二(依序排列BACD):
-&lt;img src="http://i.imgur.com/2WVFIXd.png" width="100%" /&gt;
-
-根據上面導入A函式的方法，只是換成導入B、C及D函式而已
-
-只是需要注意到的地方是導入的B函式的參數要更動一下
-
-&lt;img src="http://i.imgur.com/mYeY870.png" width="100%" /&gt;
-
-更動位置如下圖
-原本函式在圈起來的地方為0+65，要改成0
-
-&lt;img src="http://i.imgur.com/iTntgp2.png" width="100%" /&gt;
-
-改成0之後，所顯示的字母B的起始位置會在原點
-
-&lt;img src="http://i.imgur.com/1AH1Rwk.png" width="100%" /&gt;
-
-之後再依序導入A、C、D函式，再調整一下座標位置
-
-&lt;img src="http://i.imgur.com/2WVFIXd.png" width="100%" /&gt;
-
-完成!
-
-任務三(由上到下排序ABCD):
-
-依照上面所講的方法，再導入A、B、C及D函式，調整位置就可以完成了
-
-&lt;img src="http://i.imgur.com/lLNrLI8.png" width="100%" /&gt;
-
-
-結果說明:
-
-如何繪製出字母A是靠a函式裏頭的很多X、Y軸的參數，經過數學的運算，才會顯示出字母A的形狀，可是我們直接用導入的可能會無法理解裏頭的X、Y的參數更改的話，到底是影響到甚麼地方，這個是我們可以去思考的地方。
-
-其實除了用到座標軸參數去排列以外，也可以去更改它的鍊條顏色，只要在下圖的地方改成你要的顏色就可以了。
-
-&lt;img src="http://i.imgur.com/3mrClGf.png" width="100%" /&gt;
-
-&lt;img src="http://i.imgur.com/NTWQx3t.png" width="100%" /&gt;
-
-:
-
-基本上了解之後，至少知道修改哪邊的參數，會變成甚麼結果，還有出問題的時候大概要去從哪邊著手修改，但有些地方可能比較麻煩，還是需要23號同學的幫忙。
-
-pelican 網誌位置: &lt;a href="http://cdw11-2014w11.rhcloud.com/static/"&gt;http://cdw11-2014w11.rhcloud.com/static/&lt;/a&gt;
-
-分組程式: &lt;a href="http://cdw11-ag100.rhcloud.com/option"&gt;http://cdw11-ag100.rhcloud.com/option&lt;/a&gt;
-
-fileuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/fileuploadform"&gt;http://cdw11-ag100.rhcloud.com/fileuploadform&lt;/a&gt;
-
-imageuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/imageuploadform"&gt;http://cdw11-ag100.rhcloud.com/imageuploadform&lt;/a&gt;</t>
 <t tx="amd.20160501215942.1"></t>
 <t tx="amd.20160501220009.1"></t>
 <t tx="amd.20160501220009.2">@language python
@@ -228,6 +118,7 @@ app.register_blueprint(users.a.g1.a40323105_1.a40323105_1)
 
 
 app.register_blueprint(users.b.g9.bg9_40323250.bg9_40323250)
+app.register_blueprint(users.b.g9.bg9_40323250_2.bg9_40323250_2)
 #bg1
 app.register_blueprint(users.b.g1.bg1_40123156.bg1_40123156)
 app.register_blueprint(users.b.g1.bg1_40123156_2.bg1_40123156_2)
@@ -297,9 +188,9 @@ app.register_blueprint(users.a.g7.ag7_40123149_3.ag7_40123149_3)
 app.register_blueprint(users.a.g7.ag7_40123149_4.ag7_40123149_4)
 #ag7
 app.register_blueprint(users.a.g7.ag7_40123141_1.ag7_40123141_1)
-app.register_blueprint(users.a.g7.ag7_40123141_2.ag7_40123141_2)
-app.register_blueprint(users.a.g7.ag7_40123141_3.ag7_40123141_3)
-app.register_blueprint(users.a.g7.ag7_40123141_4.ag7_40123141_4)
+#app.register_blueprint(users.a.g7.ag7_40123141_2.ag7_40123141_2)
+#app.register_blueprint(users.a.g7.ag7_40123141_3.ag7_40123141_3)
+#app.register_blueprint(users.a.g7.ag7_40123141_4.ag7_40123141_4)
 #ag8
 app.register_blueprint(users.a.g8.a40323143.ag8_40323143)
 app.register_blueprint(users.a.g8.ag8_40323145.ag8_40323145)
@@ -472,6 +363,7 @@ import users.a.g4.ag4_40323138_task2bacd
 import users.a.g4.ag4_40323138_task3abcd
 import users.a.g8.ag8_40323131_task1
 import users.b.g9.bg9_40323250
+import users.b.g9.bg9_40323250_2
 import users.a.g8.ag8_40323123
 import users.a.g1.a40223153
 import users.a.g3.ag3_40323108
@@ -545,9 +437,9 @@ import users.a.g7.ag7_40123149_3
 import users.a.g7.ag7_40123149_4
 #ag7
 import users.a.g7.ag7_40123141_1
-import users.a.g7.ag7_40123141_2
-import users.a.g7.ag7_40123141_3
-import users.a.g7.ag7_40123141_4
+#import users.a.g7.ag7_40123141_2
+#import users.a.g7.ag7_40123141_3
+#import users.a.g7.ag7_40123141_4
 #ag8
 import users.a.g8.a40323143
 import users.a.g8.a40323154
@@ -1313,6 +1205,470 @@ import users.a.g7.ag7_40123141_1
 import users.a.g7.ag7_40123141_2
 import users.a.g7.ag7_40123141_3
 import users.a.g7.ag7_40123141_4
+#ag8
+import users.a.g8.a40323143
+import users.a.g8.a40323154
+import users.a.g8.ag8_40323145
+#ag10
+import users.a.g10.a40323139
+import users.a.g10.a40323141
+#bg3
+#import users.b.g3.b40123224
+#import users.b.g3.b40123250
+#import users.b.g3.b40123242
+import users.b.g3.bg3_40123224
+import users.b.g3.bg3_40123224_cdw11
+import users.b.g3.bg3_40123250
+import users.b.g3.bg3_40123250_cdw11
+import users.b.g3.bg3_40123250_cdw14
+import users.b.g3.bg3_40123224_cdw14
+#import users.b.g3.b40123242
+import users.b.g3.bg3_40123242_cdw12
+#ag3
+import users.a.g3.a40323108
+#ag100
+import users.a.g100.cdw13.a40123100
+# 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
+_curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
+# 設定在雲端與近端的資料儲存目錄
+if 'OPENSHIFT_REPO_DIR' in os.environ.keys():
+    # 表示程式在雲端執行
+    data_dir = os.environ['OPENSHIFT_DATA_DIR']
+    static_dir = os.environ['OPENSHIFT_REPO_DIR']+"/static"
+    download_dir = os.environ['OPENSHIFT_DATA_DIR']+"/downloads"
+else:
+    # 表示程式在近端執行
+    data_dir = _curdir + "/local_data/"
+    static_dir = _curdir + "/static"
+    download_dir = _curdir + "/local_data/downloads/"
+
+# 利用 init.py 啟動, 建立所需的相關檔案
+initobj = init.Init()
+
+# 必須先將 download_dir 設為 static_folder, 然後才可以用於 download 方法中的 app.static_folder 的呼叫
+app = Flask(__name__)
+#app.config['download_dir'] = download_dir
+
+# 使用 session 必須要設定 secret_key
+# In order to use sessions you have to set a secret key
+# set the secret key.  keep this really secret:
+app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
+
+
+
+
+
+
+</t>
+<t tx="leo.20160615232929.2"></t>
+<t tx="leo.20160615232929.3">(uncached) amd.20160501221001.2
+Diff...
+  # coding: utf-8
+  from flask import Flask, send_from_directory, request, redirect, render_template, session, make_response
+  import random
+  import math
+  import os
+  # init.py 為自行建立的起始物件
+  import init
+  import users.a.g1.ag1_40323105
+  import users.a.g2.ag2_40323120
+  import users.a.g10.ag10_40323129_task1
+  import users.a.g10.ag10_40323141_task1
+  import users.a.g10.ag10_40323139
+  import users.a.g9.ag9_40323132task
+  import users.a.g5.ag5_40323113task1
+  import users.a.g5.ag5_40123145task1
+  import users.a.g4.ag4_40323138
+  import users.a.g4.ag4_40323138_task2bacd
+  import users.a.g4.ag4_40323138_task3abcd
+  import users.a.g8.ag8_40323131_task1
+  import users.b.g9.bg9_40323250
+- import users.b.g9.bg9_40323250_2
+  import users.a.g8.ag8_40323123
+  import users.a.g1.a40223153
+  import users.a.g3.ag3_40323108
+  import users.a.g3.ag3_40323108_task2bacd
+  import users.a.g3.ag3_40323108_task3abcd
+  import users.a.g1.a40323105_1
+  #bg1
+  import users.b.g1.bg1_40123156
+  import users.b.g1.bg1_40123156_2
+  import users.b.g1.bg1_40123129
+  import users.b.g1.bg1_40123129_2
+  import users.b.g1.bg1_40123144
+  import users.b.g1.bg1_40123144_2
+  import users.b.g1.b40123131_cdw11
+  import users.b.g1.b40123131_cdw12
+  import users.b.g1.b40123131_cdw13
+  
+  import users.b.g1.b40123131_cdw11
+  import users.b.g1.b40123131_cdw12
+  import users.b.g1.bg1_40123134
+  import users.b.g1.bg1_40123134_2
+  import users.b.g1.bg1_40123134_3
+  import users.b.g1.b40123133_cdw11
+  import users.b.g1.b40123133_cdw12
+  import users.b.g1.bg1_40123126
+  import users.b.g1.bg1_40123126_2
+  #bg2
+  import users.b.g2.bg2_40123235
+  import users.b.g2.bg2_40123235_cdw12
+  import users.b.g2.bg2_40123235_cdw14
+  import users.b.g2.bg2_40123202
+  import users.b.g2.bg2_40123202_cdw13
+  import users.b.g2.bg2_40123202_cdw14
+  import users.b.g2.bg2_40123226_cdw12
+  import users.b.g2.bg2_40123232_cdw12
+  import users.b.g2.bg2_40123214_cdw12
+  import users.b.g2.bg2_40123217_cdw12
+  import users.b.g2.bg2_40123244_cdw12
+  #bg4
+  import users.b.g4.bg4_40323203
+  import users.b.g4.bg4_40323205
+  import users.b.g4.bg4_40323208
+  import users.b.g4.bg4_40123128
+  import users.b.g4.bg4_40123128_cdw11
+  import users.b.g4.bg4_40123128_cdw14
+  #bg8
+  import users.b.g8.bg8_40323213
+  import users.b.g4.bg4_40323202
+  import users.b.g4.b40323201_cdw11
+  
+  #bg5
+  #import users.b.g5.b40323206_cdw11_1
+  import users.b.g5.b40323204_cdw11_1
+  
+  
+  #bg5
+  #import users.b.g5.b40323206_cdw11_1
+  import users.b.g5.b40323204_cdw11_1
+  import users.b.g5.b40323204_cdw11_2
+  import users.b.g5.b40323206_cdw11_2
+  #bg11
+  import users.b.g11.bg11_40323245
+  import users.b.g11.bg11_40323252
+  import users.b.g11.bg11_40323245_1
+  #bg101
+  import users.b.g101.b40123200
+  #ag7
+  import users.a.g7.ag7_40123149_1
+  import users.a.g7.ag7_40123149_2
+  import users.a.g7.ag7_40123149_3
+  import users.a.g7.ag7_40123149_4
+  #ag7
+  import users.a.g7.ag7_40123141_1
+- #import users.a.g7.ag7_40123141_2
+? -
++ import users.a.g7.ag7_40123141_2
+- #import users.a.g7.ag7_40123141_3
+? -
++ import users.a.g7.ag7_40123141_3
+- #import users.a.g7.ag7_40123141_4
+? -
++ import users.a.g7.ag7_40123141_4
+  #ag8
+  import users.a.g8.a40323143
+  import users.a.g8.a40323154
+  import users.a.g8.ag8_40323145
+  #ag10
+  import users.a.g10.a40323139
+  import users.a.g10.a40323141
+  #bg3
+  #import users.b.g3.b40123224
+  #import users.b.g3.b40123250
+  #import users.b.g3.b40123242
+  import users.b.g3.bg3_40123224
+  import users.b.g3.bg3_40123224_cdw11
+  import users.b.g3.bg3_40123250
+  import users.b.g3.bg3_40123250_cdw11
+  import users.b.g3.bg3_40123250_cdw14
+  import users.b.g3.bg3_40123224_cdw14
+  #import users.b.g3.b40123242
+  import users.b.g3.bg3_40123242_cdw12
+  #ag3
+  import users.a.g3.a40323108
+  #ag100
+  import users.a.g100.cdw13.a40123100
+  # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
+  _curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
+  # 設定在雲端與近端的資料儲存目錄
+  if 'OPENSHIFT_REPO_DIR' in os.environ.keys():
+      # 表示程式在雲端執行
+      data_dir = os.environ['OPENSHIFT_DATA_DIR']
+      static_dir = os.environ['OPENSHIFT_REPO_DIR']+"/static"
+      download_dir = os.environ['OPENSHIFT_DATA_DIR']+"/downloads"
+  else:
+      # 表示程式在近端執行
+      data_dir = _curdir + "/local_data/"
+      static_dir = _curdir + "/static"
+      download_dir = _curdir + "/local_data/downloads/"
+  
+  # 利用 init.py 啟動, 建立所需的相關檔案
+  initobj = init.Init()
+  
+  # 必須先將 download_dir 設為 static_folder, 然後才可以用於 download 方法中的 app.static_folder 的呼叫
+  app = Flask(__name__)
+  #app.config['download_dir'] = download_dir
+  
+  # 使用 session 必須要設定 secret_key
+  # In order to use sessions you have to set a secret key
+  # set the secret key.  keep this really secret:
+  app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
+  
+  
+  
+  
+  
+  
+</t>
+<t tx="leo.20160615232929.4"># coding: utf-8
+from flask import Flask, send_from_directory, request, redirect, render_template, session, make_response
+import random
+import math
+import os
+# init.py 為自行建立的起始物件
+import init
+import users.a.g1.ag1_40323105
+import users.a.g2.ag2_40323120
+import users.a.g10.ag10_40323129_task1
+import users.a.g10.ag10_40323141_task1
+import users.a.g10.ag10_40323139
+import users.a.g9.ag9_40323132task
+import users.a.g5.ag5_40323113task1
+import users.a.g5.ag5_40123145task1
+import users.a.g4.ag4_40323138
+import users.a.g4.ag4_40323138_task2bacd
+import users.a.g4.ag4_40323138_task3abcd
+import users.a.g8.ag8_40323131_task1
+import users.b.g9.bg9_40323250
+import users.a.g8.ag8_40323123
+import users.a.g1.a40223153
+import users.a.g3.ag3_40323108
+import users.a.g3.ag3_40323108_task2bacd
+import users.a.g3.ag3_40323108_task3abcd
+import users.a.g1.a40323105_1
+#bg1
+import users.b.g1.bg1_40123156
+import users.b.g1.bg1_40123156_2
+import users.b.g1.bg1_40123129
+import users.b.g1.bg1_40123129_2
+import users.b.g1.bg1_40123144
+import users.b.g1.bg1_40123144_2
+import users.b.g1.b40123131_cdw11
+import users.b.g1.b40123131_cdw12
+import users.b.g1.b40123131_cdw13
+
+import users.b.g1.b40123131_cdw11
+import users.b.g1.b40123131_cdw12
+import users.b.g1.bg1_40123134
+import users.b.g1.bg1_40123134_2
+import users.b.g1.bg1_40123134_3
+import users.b.g1.b40123133_cdw11
+import users.b.g1.b40123133_cdw12
+import users.b.g1.bg1_40123126
+import users.b.g1.bg1_40123126_2
+#bg2
+import users.b.g2.bg2_40123235
+import users.b.g2.bg2_40123235_cdw12
+import users.b.g2.bg2_40123235_cdw14
+import users.b.g2.bg2_40123202
+import users.b.g2.bg2_40123202_cdw13
+import users.b.g2.bg2_40123202_cdw14
+import users.b.g2.bg2_40123226_cdw12
+import users.b.g2.bg2_40123232_cdw12
+import users.b.g2.bg2_40123214_cdw12
+import users.b.g2.bg2_40123217_cdw12
+import users.b.g2.bg2_40123244_cdw12
+#bg4
+import users.b.g4.bg4_40323203
+import users.b.g4.bg4_40323205
+import users.b.g4.bg4_40323208
+import users.b.g4.bg4_40123128
+import users.b.g4.bg4_40123128_cdw11
+import users.b.g4.bg4_40123128_cdw14
+#bg8
+import users.b.g8.bg8_40323213
+import users.b.g4.bg4_40323202
+import users.b.g4.b40323201_cdw11
+
+#bg5
+#import users.b.g5.b40323206_cdw11_1
+import users.b.g5.b40323204_cdw11_1
+
+
+#bg5
+#import users.b.g5.b40323206_cdw11_1
+import users.b.g5.b40323204_cdw11_1
+import users.b.g5.b40323204_cdw11_2
+import users.b.g5.b40323206_cdw11_2
+#bg11
+import users.b.g11.bg11_40323245
+import users.b.g11.bg11_40323252
+import users.b.g11.bg11_40323245_1
+#bg101
+import users.b.g101.b40123200
+#ag7
+import users.a.g7.ag7_40123149_1
+import users.a.g7.ag7_40123149_2
+import users.a.g7.ag7_40123149_3
+import users.a.g7.ag7_40123149_4
+#ag7
+import users.a.g7.ag7_40123141_1
+import users.a.g7.ag7_40123141_2
+import users.a.g7.ag7_40123141_3
+import users.a.g7.ag7_40123141_4
+#ag8
+import users.a.g8.a40323143
+import users.a.g8.a40323154
+import users.a.g8.ag8_40323145
+#ag10
+import users.a.g10.a40323139
+import users.a.g10.a40323141
+#bg3
+#import users.b.g3.b40123224
+#import users.b.g3.b40123250
+#import users.b.g3.b40123242
+import users.b.g3.bg3_40123224
+import users.b.g3.bg3_40123224_cdw11
+import users.b.g3.bg3_40123250
+import users.b.g3.bg3_40123250_cdw11
+import users.b.g3.bg3_40123250_cdw14
+import users.b.g3.bg3_40123224_cdw14
+#import users.b.g3.b40123242
+import users.b.g3.bg3_40123242_cdw12
+#ag3
+import users.a.g3.a40323108
+#ag100
+import users.a.g100.cdw13.a40123100
+# 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
+_curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
+# 設定在雲端與近端的資料儲存目錄
+if 'OPENSHIFT_REPO_DIR' in os.environ.keys():
+    # 表示程式在雲端執行
+    data_dir = os.environ['OPENSHIFT_DATA_DIR']
+    static_dir = os.environ['OPENSHIFT_REPO_DIR']+"/static"
+    download_dir = os.environ['OPENSHIFT_DATA_DIR']+"/downloads"
+else:
+    # 表示程式在近端執行
+    data_dir = _curdir + "/local_data/"
+    static_dir = _curdir + "/static"
+    download_dir = _curdir + "/local_data/downloads/"
+
+# 利用 init.py 啟動, 建立所需的相關檔案
+initobj = init.Init()
+
+# 必須先將 download_dir 設為 static_folder, 然後才可以用於 download 方法中的 app.static_folder 的呼叫
+app = Flask(__name__)
+#app.config['download_dir'] = download_dir
+
+# 使用 session 必須要設定 secret_key
+# In order to use sessions you have to set a secret key
+# set the secret key.  keep this really secret:
+app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
+
+
+
+
+
+
+</t>
+<t tx="leo.20160615232929.5"># coding: utf-8
+from flask import Flask, send_from_directory, request, redirect, render_template, session, make_response
+import random
+import math
+import os
+# init.py 為自行建立的起始物件
+import init
+import users.a.g1.ag1_40323105
+import users.a.g2.ag2_40323120
+import users.a.g10.ag10_40323129_task1
+import users.a.g10.ag10_40323141_task1
+import users.a.g10.ag10_40323139
+import users.a.g9.ag9_40323132task
+import users.a.g5.ag5_40323113task1
+import users.a.g5.ag5_40123145task1
+import users.a.g4.ag4_40323138
+import users.a.g4.ag4_40323138_task2bacd
+import users.a.g4.ag4_40323138_task3abcd
+import users.a.g8.ag8_40323131_task1
+import users.b.g9.bg9_40323250
+import users.b.g9.bg9_40323250_2
+import users.a.g8.ag8_40323123
+import users.a.g1.a40223153
+import users.a.g3.ag3_40323108
+import users.a.g3.ag3_40323108_task2bacd
+import users.a.g3.ag3_40323108_task3abcd
+import users.a.g1.a40323105_1
+#bg1
+import users.b.g1.bg1_40123156
+import users.b.g1.bg1_40123156_2
+import users.b.g1.bg1_40123129
+import users.b.g1.bg1_40123129_2
+import users.b.g1.bg1_40123144
+import users.b.g1.bg1_40123144_2
+import users.b.g1.b40123131_cdw11
+import users.b.g1.b40123131_cdw12
+import users.b.g1.b40123131_cdw13
+
+import users.b.g1.b40123131_cdw11
+import users.b.g1.b40123131_cdw12
+import users.b.g1.bg1_40123134
+import users.b.g1.bg1_40123134_2
+import users.b.g1.bg1_40123134_3
+import users.b.g1.b40123133_cdw11
+import users.b.g1.b40123133_cdw12
+import users.b.g1.bg1_40123126
+import users.b.g1.bg1_40123126_2
+#bg2
+import users.b.g2.bg2_40123235
+import users.b.g2.bg2_40123235_cdw12
+import users.b.g2.bg2_40123235_cdw14
+import users.b.g2.bg2_40123202
+import users.b.g2.bg2_40123202_cdw13
+import users.b.g2.bg2_40123202_cdw14
+import users.b.g2.bg2_40123226_cdw12
+import users.b.g2.bg2_40123232_cdw12
+import users.b.g2.bg2_40123214_cdw12
+import users.b.g2.bg2_40123217_cdw12
+import users.b.g2.bg2_40123244_cdw12
+#bg4
+import users.b.g4.bg4_40323203
+import users.b.g4.bg4_40323205
+import users.b.g4.bg4_40323208
+import users.b.g4.bg4_40123128
+import users.b.g4.bg4_40123128_cdw11
+import users.b.g4.bg4_40123128_cdw14
+#bg8
+import users.b.g8.bg8_40323213
+import users.b.g4.bg4_40323202
+import users.b.g4.b40323201_cdw11
+
+#bg5
+#import users.b.g5.b40323206_cdw11_1
+import users.b.g5.b40323204_cdw11_1
+
+
+#bg5
+#import users.b.g5.b40323206_cdw11_1
+import users.b.g5.b40323204_cdw11_1
+import users.b.g5.b40323204_cdw11_2
+import users.b.g5.b40323206_cdw11_2
+#bg11
+import users.b.g11.bg11_40323245
+import users.b.g11.bg11_40323252
+import users.b.g11.bg11_40323245_1
+#bg101
+import users.b.g101.b40123200
+#ag7
+import users.a.g7.ag7_40123149_1
+import users.a.g7.ag7_40123149_2
+import users.a.g7.ag7_40123149_3
+import users.a.g7.ag7_40123149_4
+#ag7
+import users.a.g7.ag7_40123141_1
+#import users.a.g7.ag7_40123141_2
+#import users.a.g7.ag7_40123141_3
+#import users.a.g7.ag7_40123141_4
 #ag8
 import users.a.g8.a40323143
 import users.a.g8.a40323154
