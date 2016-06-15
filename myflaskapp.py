@@ -18,15 +18,13 @@ import users.a.g4.ag4_40323138_task2bacd
 import users.a.g4.ag4_40323138_task3abcd
 import users.a.g8.ag8_40323131_task1
 import users.b.g9.bg9_40323250
+import users.b.g9.bg9_40323250_2
 import users.a.g8.ag8_40323123
 import users.a.g1.a40223153
 import users.a.g3.ag3_40323108
 import users.a.g3.ag3_40323108_task2bacd
 import users.a.g3.ag3_40323108_task3abcd
 import users.a.g1.a40323105_1
-import users.a.g5.a40323113
-import users.a.g10.a40323141
-
 #bg1
 import users.b.g1.bg1_40123156
 import users.b.g1.bg1_40123156_2
@@ -93,6 +91,10 @@ import users.a.g7.ag7_40123149_2
 import users.a.g7.ag7_40123149_3
 import users.a.g7.ag7_40123149_4
 #ag7
+import users.a.g7.ag7_40123141_1
+#import users.a.g7.ag7_40123141_2
+#import users.a.g7.ag7_40123141_3
+#import users.a.g7.ag7_40123141_4
 #ag8
 import users.a.g8.a40323143
 import users.a.g8.a40323154
@@ -502,10 +504,10 @@ app.register_blueprint(users.a.g3.ag3_40323108.ag3_40323108)
 app.register_blueprint(users.a.g3.ag3_40323108_task2bacd.ag3_40323108bacd)
 app.register_blueprint(users.a.g3.ag3_40323108_task3abcd.ag3_40323108task3)
 app.register_blueprint(users.a.g1.a40323105_1.a40323105_1)
-app.register_blueprint(users.a.g5.a40323113.ag5_40323113_1)
-app.register_blueprint(users.b.g9.bg9_40323250.bg9_40323250)
-app.register_blueprint(users.a.g10.a40323141.ag10_40323141_1)
 
+
+app.register_blueprint(users.b.g9.bg9_40323250.bg9_40323250)
+app.register_blueprint(users.b.g9.bg9_40323250_2.bg9_40323250_2)
 #bg1
 app.register_blueprint(users.b.g1.bg1_40123156.bg1_40123156)
 app.register_blueprint(users.b.g1.bg1_40123156_2.bg1_40123156_2)
@@ -574,6 +576,10 @@ app.register_blueprint(users.a.g7.ag7_40123149_2.ag7_40123149_2)
 app.register_blueprint(users.a.g7.ag7_40123149_3.ag7_40123149_3)
 app.register_blueprint(users.a.g7.ag7_40123149_4.ag7_40123149_4)
 #ag7
+app.register_blueprint(users.a.g7.ag7_40123141_1.ag7_40123141_1)
+#app.register_blueprint(users.a.g7.ag7_40123141_2.ag7_40123141_2)
+#app.register_blueprint(users.a.g7.ag7_40123141_3.ag7_40123141_3)
+#app.register_blueprint(users.a.g7.ag7_40123141_4.ag7_40123141_4)
 #ag8
 app.register_blueprint(users.a.g8.a40323143.ag8_40323143)
 app.register_blueprint(users.a.g8.ag8_40323145.ag8_40323145)
