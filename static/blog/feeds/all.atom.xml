@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <feed xmlns="http://www.w3.org/2005/Atom"><title>CDW11 網頁 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2016-06-16T08:32:16+08:00</updated><entry><title>40323245 cdw17報告</title><link href="./40323245-cdw17bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:32:16+08:00</updated><author><name>40323245</name></author><id>tag:,2016-06-16:./40323245-cdw17bao-gao.html</id><summary type="html">&lt;p&gt;cdw13 內容規畫 : 
 &lt;/p&gt;</summary><category term="40323245"></category></entry><entry><title>40323250 期末報告</title><link href="./40323250-qi-mo-bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:42+08:00</updated><author><name>40323250</name></author><id>tag:,2016-06-16:./40323250-qi-mo-bao-gao.html</id><summary type="html">&lt;p&gt;期末報告 (統整)
+=======
+<feed xmlns="http://www.w3.org/2005/Atom"><title>CDW11 網頁 (虎尾科大MDE)</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/" rel="alternate"></link><link href="http://cdw11-ag100.rhcloud.com/static/blog/feeds/all.atom.xml" rel="self"></link><id>http://cdw11-ag100.rhcloud.com/static/blog/</id><updated>2016-06-16T09:07:49+08:00</updated><entry><title>40323250 期末報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323250-qi-mo-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40323250</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40323250-qi-mo-bao-gao.html</id><summary type="html">&lt;p&gt;期末報告 (統整)
+>>>>>>> 2051aeae9eda47504ed61a7c0ffb0fe29673eb57
 
 &lt;h3&gt;鍊條上30下18齒&lt;/h3&gt;
 從老師的18及30齒中，找到eighteenthirty 或是 其他程式拿來修改，我是用eighteenthirty，然後將兩部分的鏈條分開，並定位到(0,0)位置，就可以開始計算需要移動的距離，就可以很容易的接合，但是修改容易寫程式難，還是要想辦法搞懂程式才行。
@@ -191,13 +195,18 @@ var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s)
 &lt;h3&gt;心得&lt;/h3&gt;
 &lt;h4&gt;期中以後，以程式繪圖的方法大概弄懂了，Onshape也開放了feature studio，畫圖的方式也近似於我們的畫法，還可以設定變數，現在連齒輪都能直接呼叫了。&lt;/h4&gt;
 &lt;/br&gt;
+<<<<<<< HEAD
 &lt;h4&gt;creo 2.0 已經正式被放棄，隨著時代的進步，我們要有更強的能力，而不是原地踏步&lt;/h4&gt;&lt;/p&gt;</summary><category term="40323250"></category></entry><entry><title>40323250 cdw13報告</title><link href="./40323250-cdw13bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:42+08:00</updated><author><name>40323250</name></author><id>tag:,2016-06-16:./40323250-cdw13bao-gao.html</id><summary type="html">&lt;p&gt;cdw13內容規畫 :&lt;br /&gt;
+=======
+&lt;h4&gt;creo 2.0 已經正式被放棄，隨著時代的進步，我們要有更強的能力，而不是原地踏步&lt;/h4&gt;&lt;/p&gt;</summary><category term="40323250"></category></entry><entry><title>40323250 cdw13報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323250-cdw13bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40323250</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40323250-cdw13bao-gao.html</id><summary type="html">&lt;p&gt;cdw13內容規畫 :&lt;br /&gt;
+>>>>>>> 2051aeae9eda47504ed61a7c0ffb0fe29673eb57
 
 &lt;h2&gt;將老師的鏈條轉90度&lt;/h2&gt;
 &lt;br/&gt;
 &lt;h3&gt;構想 : 將老師的eighteenthirty的起始角度轉90度之後，會有兩部分分開，只要將兩個圖形都定位到(0, 0)後，找到重疊的部分，再利用三角函數算出座標點差距，就可以接再一起了&lt;/h3&gt;
 &lt;br/&gt;
 &lt;h3&gt;完成圖:&lt;/h3&gt; 
+<<<<<<< HEAD
 &lt;img src="http://i.imgur.com/GrKllX7.png"&gt;  &lt;/p&gt;</summary><category term="40323250"></category></entry><entry><title>40323250 cdw11報告</title><link href="./40323250-cdw11bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:42+08:00</updated><author><name>40323250</name></author><id>tag:,2016-06-16:./40323250-cdw11bao-gao.html</id><summary type="html">&lt;p&gt;cdw11內容規畫 :&lt;br /&gt;
 
 &lt;h3&gt;利用老師開放之鍊條程式碼，嘗試做出兩個鍊條，並能透過6個參數調整外角、x座標及y座標。&lt;/h3&gt;
@@ -247,6 +256,15 @@ var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s)
 &lt;h3&gt;solvespace繪製鍊條。&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src="http://i.imgur.com/US1sPQv.png?1"&gt; &lt;/p&gt;</summary><category term="40323253"></category><category term="cdw11"></category></entry><entry><title>40323206 cdw11 報告</title><link href="./40323206-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:42+08:00</updated><author><name>40323206</name></author><id>tag:,2016-06-16:./40323206-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案  &lt;/p&gt;
+=======
+&lt;img src="http://i.imgur.com/GrKllX7.png"&gt;  &lt;/p&gt;</summary><category term="40323250"></category></entry><entry><title>40323250 cdw11報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323250-cdw11bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40323250</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40323250-cdw11bao-gao.html</id><summary type="html">&lt;p&gt;cdw11內容規畫 :&lt;br /&gt;
+
+&lt;h3&gt;利用老師開放之鍊條程式碼，嘗試做出兩個鍊條，並能透過6個參數調整外角、x座標及y座標。&lt;/h3&gt;
+&lt;br/&gt;
+&lt;h3&gt;完成圖:&lt;/h3&gt;
+&lt;img src="http://i.imgur.com/uFnrGsS.png"&gt; &lt;/p&gt;</summary><category term="40323250"></category></entry><entry><title>40323231 cdw11報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323231-cdw11bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40323231</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40323231-cdw11bao-gao.html</id><summary type="html">&lt;p&gt;cdw11
+&lt;/p&gt;
+&lt;p&gt;編輯&lt;/p&gt;</summary><category term="40323231"></category></entry><entry><title>40323218 cdw11 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323218-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40323218</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40323218-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
 
 
 &lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-ag100.rhcloud.com/static/"&gt;http://cdw11-ag100.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
@@ -256,7 +274,82 @@ var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s)
 &lt;p&gt;請各組在 CDW11 下課前完成下列3個圖形的零件組合繪圖:&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_4a.png" width="100%" /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_badc.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40323218"></category><category term="cdw11"></category></entry><entry><title>40323230 W11內容</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323230-w11nei-rong.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40323230</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40323230-w11nei-rong.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;p&gt;編輯&lt;/p&gt;</summary><category term="40323230"></category></entry><entry><title>40323229 cdw11 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323229-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40323229</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40323229-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+
+
+&lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-ag100.rhcloud.com/static/"&gt;http://cdw11-ag100.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;分組程式: &lt;a href="http://cdw11-ag100.rhcloud.com/option"&gt;http://cdw11-ag100.rhcloud.com/option&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;fileuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/fileuploadform"&gt;http://cdw11-ag100.rhcloud.com/fileuploadform&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;imageuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/imageuploadform"&gt;http://cdw11-ag100.rhcloud.com/imageuploadform&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;請各組在 CDW11 下課前完成下列3個圖形的零件組合繪圖:&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_4a.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_badc.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40323229"></category><category term="cdw11"></category></entry><entry><title>40323213 cdw11 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323213-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40323213</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40323213-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+
+
+&lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-ag100.rhcloud.com/static/"&gt;http://cdw11-ag100.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;分組程式: &lt;a href="http://cdw11-ag100.rhcloud.com/option"&gt;http://cdw11-ag100.rhcloud.com/option&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;fileuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/fileuploadform"&gt;http://cdw11-ag100.rhcloud.com/fileuploadform&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;imageuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/imageuploadform"&gt;http://cdw11-ag100.rhcloud.com/imageuploadform&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;請各組在 CDW11 下課前完成下列3個圖形的零件組合繪圖:&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_4a.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_badc.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40323213"></category><category term="cdw11"></category></entry><entry><title>40323253 期末報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323253-qi-mo-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40323253</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40323253-qi-mo-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+
+
+&lt;p&gt;pelican 網誌位置:&lt;a href="http://cdw11-ag100.rhcloud.com/static/"&gt;http://cdw11-ag100.rhcloud.com/static/ &lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;1.編輯LEO。&lt;/h2&gt;
+
+&lt;h4&gt;區域介紹&lt;/h4&gt;
+
+&lt;h2&gt;&lt;img src="http://i.imgur.com/5d2IZ6r.png?1"&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;h2&gt;2.建立py檔。&lt;/h2&gt;
+&lt;img src="http://i.imgur.com/b5QIUbL.png?1"&gt; 
+&lt;h4&gt;1.Ctrl+I 建立一個新的newHeadline。&lt;/h4&gt;
+&lt;h4&gt;2.將newHeadline改成@edit 檔名.py,記得前面不能是數字。&lt;/h4&gt;
+&lt;h4&gt;3.程式編輯好後，將edit改為auto並按右鍵選取Refresh from disk。&lt;/h4&gt;
+&lt;h4&gt;4.完成排版後再將auto改為clean儲存。&lt;/h4&gt;
+&lt;h4&gt;5.在近端執行python wsgi.py檢視畫布。&lt;/h4&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;h2&gt;3.建立OPENSHIFT。&lt;/h2&gt;
+&lt;h4&gt;呈現個人畫布所用&lt;/h4&gt;
+&lt;img src="http://i.imgur.com/8Zuh1a9.png?1"&gt; &lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;h2&gt;4.建立CDW11鑰匙。&lt;/h2&gt;
+&lt;h4&gt;可使用老師給的鑰匙,管理較為方便&lt;/h4&gt;
+&lt;img src="http://i.imgur.com/clRROpy.png?1"&gt; &lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;h2&gt;5.利用程式編輯，將水平鍊條改為垂直鍊條。&lt;/h2&gt;
+&lt;h3&gt;&lt;a href="http://cdw11-40323253.rhcloud.com/bg5_40323253_1/eighteenthirty"&gt;http://cdw11-40323253.rhcloud.com/bg5_40323253_1/eighteenthirty &lt;/a&gt;&lt;/h3&gt;
+&lt;img src="http://i.imgur.com/qzlmqzT.png?1"&gt; &lt;/p&gt;
+&lt;h2&gt;6.solvespace繪製鍊條。&lt;/h2&gt;
+
+&lt;h2&gt;&lt;img src="http://i.imgur.com/US1sPQv.png?1"&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;h2&gt;7.齒輪鍊條繪製。&lt;/h2&gt;
+&lt;h3&gt;&lt;a href="http://cdw11-40323253.rhcloud.com/bg5_40323253_2/a"&gt;http://cdw11-40323253.rhcloud.com/bg5_40323253_2/a &lt;/a&gt;&lt;/h3&gt;
+&lt;img src="http://i.imgur.com/jLmCunI.png?1"&gt; 
+&lt;img src="http://i.imgur.com/Gk2y57J.png?1"&gt; &lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;h2&gt;8.期末心得報告。&lt;/h2&gt;
+&lt;h3&gt;期中報告以後，我們開始往齒輪鍊條的方向前進，抓取老師給的程式進行編輯，我們必須考慮齒輪及鍊條的干涉和衝突，可利用solvespace畫圖計算數值，甚至以數學的方式取得精準的點位。編輯LEO方面，和期中類似，但是cdw11後的Github老師要求全班加為協同者，直接在Master進行協同，這樣我們的編輯將變得困難，我們必須排除同學們的各種衝突才能順利完成任務，若遠端被搞亂了我們也無法在遠端進行檢測，於是我們這組另外創了屬於我們g5組別的Github倉儲進行測試，此方法大大減低出錯的機率，且使任務進行的更加流暢。&lt;/h3&gt;
+&lt;h2&gt;自評 : 83分&lt;/h2&gt;&lt;/p&gt;</summary><category term="40323253"></category><category term="cdw11"></category></entry><entry><title>40323206 cdw11 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323206-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40323206</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40323206-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案  &lt;/p&gt;
+>>>>>>> 2051aeae9eda47504ed61a7c0ffb0fe29673eb57
+
+
+&lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-ag100.rhcloud.com/static/"&gt;http://cdw11-ag100.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;分組程式: &lt;a href="http://cdw11-ag100.rhcloud.com/option"&gt;http://cdw11-ag100.rhcloud.com/option&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;fileuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/fileuploadform"&gt;http://cdw11-ag100.rhcloud.com/fileuploadform&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;imageuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/imageuploadform"&gt;http://cdw11-ag100.rhcloud.com/imageuploadform&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;請各組在 CDW11 下課前完成下列3個圖形的零件組合繪圖:&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_4a.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_badc.png" width="100%" /&gt;&lt;/p&gt;
+<<<<<<< HEAD
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40323206"></category><category term="cdw11"></category></entry><entry><title>40323204 cdw11 報告</title><link href="./40323204-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:42+08:00</updated><author><name>40323204</name></author><id>tag:,2016-06-16:./40323204-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+=======
+&lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40323206"></category><category term="cdw11"></category></entry><entry><title>40323204 cdw11 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323204-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40323204</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40323204-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+>>>>>>> 2051aeae9eda47504ed61a7c0ffb0fe29673eb57
 
 
 &lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-ag100.rhcloud.com/static/blog/40323204-cdw11-bao-gao.html"&gt;http://cdw11-ag100.rhcloud.com/static/blog/40323204-cdw11-bao-gao.html&lt;/a&gt;&lt;/p&gt;
@@ -279,7 +372,11 @@ var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s)
 &lt;/blockquote&gt;
 &lt;/blockquote&gt;
 &lt;/blockquote&gt;
+<<<<<<< HEAD
 &lt;/blockquote&gt;</summary><category term="40323204"></category><category term="cdw11"></category></entry><entry><title>40323208 cdw11 報告</title><link href="./40323208-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:42+08:00</updated><author><name>40323208</name></author><id>tag:,2016-06-16:./40323208-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+=======
+&lt;/blockquote&gt;</summary><category term="40323204"></category><category term="cdw11"></category></entry><entry><title>40323208 cdw11 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323208-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40323208</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40323208-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+>>>>>>> 2051aeae9eda47504ed61a7c0ffb0fe29673eb57
 
 
 &lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-ag100.rhcloud.com/static/"&gt;http://cdw11-ag100.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
@@ -289,7 +386,11 @@ var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s)
 &lt;p&gt;請各組在 CDW11 下課前完成下列3個圖形的零件組合繪圖:&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://i.imgur.com/K0WRBYS.png" width="100%" /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://i.imgur.com/UcmBckI.png" width="100%" /&gt;&lt;/p&gt;
+<<<<<<< HEAD
 &lt;p&gt;&lt;img src="http://i.imgur.com/e4FKOZM.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40323208"></category><category term="cdw11"></category></entry><entry><title>40323205 cdw11 報告</title><link href="./40323205-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:42+08:00</updated><author><name>40323205</name></author><id>tag:,2016-06-16:./40323205-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+=======
+&lt;p&gt;&lt;img src="http://i.imgur.com/e4FKOZM.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40323208"></category><category term="cdw11"></category></entry><entry><title>40323205 cdw11 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323205-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40323205</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40323205-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+>>>>>>> 2051aeae9eda47504ed61a7c0ffb0fe29673eb57
 
 
 &lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-ag100.rhcloud.com/static/"&gt;http://cdw11-ag100.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
@@ -299,7 +400,11 @@ var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s)
 &lt;p&gt;請各組在 CDW11 下課前完成下列3個圖形的零件組合繪圖:&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://i.imgur.com/S8SqIu4.png" width="100%" /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://i.imgur.com/wirZ12c.png" width="100%" /&gt;&lt;/p&gt;
+<<<<<<< HEAD
 &lt;p&gt;&lt;img src="http://i.imgur.com/U71YEry.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40323205"></category><category term="cdw11"></category></entry><entry><title>40323203 cdw11 報告</title><link href="./40323203-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:42+08:00</updated><author><name>40323203</name></author><id>tag:,2016-06-16:./40323203-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+=======
+&lt;p&gt;&lt;img src="http://i.imgur.com/U71YEry.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40323205"></category><category term="cdw11"></category></entry><entry><title>40323203 cdw11 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323203-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40323203</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40323203-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+>>>>>>> 2051aeae9eda47504ed61a7c0ffb0fe29673eb57
 
 
 &lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-ag100.rhcloud.com/static/"&gt;http://cdw11-ag100.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
@@ -309,7 +414,11 @@ var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s)
 &lt;p&gt;請各組在 CDW11 下課前完成下列3個圖形的零件組合繪圖:&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_4a.png" width="100%" /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_badc.png" width="100%" /&gt;&lt;/p&gt;
+<<<<<<< HEAD
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40323203"></category><category term="cdw11"></category></entry><entry><title>40323202 cdw11 報告</title><link href="./40323202-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:42+08:00</updated><author><name>40323202</name></author><id>tag:,2016-06-16:./40323202-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+=======
+&lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40323203"></category><category term="cdw11"></category></entry><entry><title>40323202 cdw11 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323202-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40323202</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40323202-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+>>>>>>> 2051aeae9eda47504ed61a7c0ffb0fe29673eb57
 
 
 &lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-ag100.rhcloud.com/static/"&gt;http://cdw11-ag100.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
@@ -319,7 +428,11 @@ var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s)
 &lt;p&gt;請各組在 CDW11 下課前完成下列3個圖形的零件組合繪圖:&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_4a.png" width="100%" /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_badc.png" width="100%" /&gt;&lt;/p&gt;
+<<<<<<< HEAD
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40323202"></category><category term="cdw11"></category></entry><entry><title>40323201 cdw11 報告</title><link href="./40323201-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:42+08:00</updated><author><name>40323201</name></author><id>tag:,2016-06-16:./40323201-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+=======
+&lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40323202"></category><category term="cdw11"></category></entry><entry><title>40323201 cdw11 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323201-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40323201</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40323201-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+>>>>>>> 2051aeae9eda47504ed61a7c0ffb0fe29673eb57
 
 
 &lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-ag100.rhcloud.com/static/"&gt;http://cdw11-ag100.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
@@ -329,7 +442,11 @@ var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s)
 &lt;p&gt;請各組在 CDW11 下課前完成下列3個圖形的零件組合繪圖:&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_4a.png" width="100%" /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_badc.png" width="100%" /&gt;&lt;/p&gt;
+<<<<<<< HEAD
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40323201"></category><category term="cdw11"></category></entry><entry><title>40123128 cdw11 報告-1</title><link href="./40123128-cdw11-bao-gao-1.html" rel="alternate"></link><updated>2016-06-16T08:13:42+08:00</updated><author><name>40323199</name></author><id>tag:,2016-06-16:./40123128-cdw11-bao-gao-1.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+=======
+&lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40323201"></category><category term="cdw11"></category></entry><entry><title>40123128 cdw11 報告-1</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40123128-cdw11-bao-gao-1.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40323199</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40123128-cdw11-bao-gao-1.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+>>>>>>> 2051aeae9eda47504ed61a7c0ffb0fe29673eb57
 
 
 &lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-ag100.rhcloud.com/static/"&gt;http://cdw11-ag100.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
@@ -339,7 +456,11 @@ var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s)
 &lt;p&gt;請各組在 CDW11 下課前完成下列3個圖形的零件組合繪圖:&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_4a.png" width="100%" /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_badc.png" width="100%" /&gt;&lt;/p&gt;
+<<<<<<< HEAD
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40123128"></category><category term="cdw11"></category></entry><entry><title>40123128 cdw11 報告</title><link href="./40123128-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:42+08:00</updated><author><name>40323199</name></author><id>tag:,2016-06-16:./40123128-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+=======
+&lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40123128"></category><category term="cdw11"></category></entry><entry><title>40123128 cdw11 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40123128-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40323199</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40123128-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+>>>>>>> 2051aeae9eda47504ed61a7c0ffb0fe29673eb57
 
 
 &lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-ag100.rhcloud.com/static/"&gt;http://cdw11-ag100.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
@@ -349,7 +470,11 @@ var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s)
 &lt;p&gt;請各組在 CDW11 下課前完成下列3個圖形的零件組合繪圖:&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_4a.png" width="100%" /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_badc.png" width="100%" /&gt;&lt;/p&gt;
+<<<<<<< HEAD
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40123128"></category><category term="cdw11"></category></entry><entry><title>40123250 cdw11 報告-1</title><link href="./40123250-cdw11-bao-gao-1.html" rel="alternate"></link><updated>2016-06-16T08:13:42+08:00</updated><author><name>40323199</name></author><id>tag:,2016-06-16:./40123250-cdw11-bao-gao-1.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+=======
+&lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40123128"></category><category term="cdw11"></category></entry><entry><title>40123250 cdw11 報告-1</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40123250-cdw11-bao-gao-1.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40323199</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40123250-cdw11-bao-gao-1.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+>>>>>>> 2051aeae9eda47504ed61a7c0ffb0fe29673eb57
 
 
 &lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-ag100.rhcloud.com/static/"&gt;http://cdw11-ag100.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
@@ -359,7 +484,11 @@ var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s)
 &lt;p&gt;請各組在 CDW11 下課前完成下列3個圖形的零件組合繪圖:&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_4a.png" width="100%" /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_badc.png" width="100%" /&gt;&lt;/p&gt;
+<<<<<<< HEAD
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40123250"></category><category term="cdw11"></category></entry><entry><title>40123250 cdw11 報告</title><link href="./40123250-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:42+08:00</updated><author><name>40323199</name></author><id>tag:,2016-06-16:./40123250-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+=======
+&lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40123250"></category><category term="cdw11"></category></entry><entry><title>40123250 cdw11 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40123250-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40323199</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40123250-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+>>>>>>> 2051aeae9eda47504ed61a7c0ffb0fe29673eb57
 
 
 &lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-ag100.rhcloud.com/static/"&gt;http://cdw11-ag100.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
@@ -369,11 +498,19 @@ var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s)
 &lt;p&gt;請各組在 CDW11 下課前完成下列3個圖形的零件組合繪圖:&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_4a.png" width="100%" /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_badc.png" width="100%" /&gt;&lt;/p&gt;
+<<<<<<< HEAD
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40123250"></category><category term="cdw11"></category></entry><entry><title>40123242 cdw13 報告</title><link href="./40123242-cdw13-bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:42+08:00</updated><author><name>40123242</name></author><id>tag:,2016-06-16:./40123242-cdw13-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw13 協同專案&lt;/p&gt;
 
 
 &lt;p&gt;&lt;img src="http://i.imgur.com/lUIN0dU.png" width="100%" /&gt;&lt;/p&gt;
 &lt;p&gt;結果&lt;/p&gt;</summary><category term="40123242"></category><category term="cdw13"></category></entry><entry><title>40123242 cdw11 報告</title><link href="./40123242-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:41+08:00</updated><author><name>40123242</name></author><id>tag:,2016-06-16:./40123242-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+=======
+&lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40123250"></category><category term="cdw11"></category></entry><entry><title>40123242 cdw13 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40123242-cdw13-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40123242</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40123242-cdw13-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw13 協同專案&lt;/p&gt;
+
+
+&lt;p&gt;&lt;img src="http://i.imgur.com/lUIN0dU.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;結果&lt;/p&gt;</summary><category term="40123242"></category><category term="cdw13"></category></entry><entry><title>40123242 cdw11 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40123242-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40123242</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40123242-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+>>>>>>> 2051aeae9eda47504ed61a7c0ffb0fe29673eb57
 
 
 &lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-ag100.rhcloud.com/static/"&gt;http://cdw11-ag100.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
@@ -383,7 +520,11 @@ var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s)
 &lt;p&gt;請各組在 CDW11 下課前完成下列3個圖形的零件組合繪圖:&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_4a.png" width="100%" /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_badc.png" width="100%" /&gt;&lt;/p&gt;
+<<<<<<< HEAD
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40123242"></category><category term="cdw11"></category></entry><entry><title>40123239 cdw11 報告</title><link href="./40123239-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:41+08:00</updated><author><name>40123239</name></author><id>tag:,2016-06-16:./40123239-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+=======
+&lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40123242"></category><category term="cdw11"></category></entry><entry><title>40123239 cdw11 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40123239-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40123239</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40123239-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+>>>>>>> 2051aeae9eda47504ed61a7c0ffb0fe29673eb57
 
 
 &lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-ag100.rhcloud.com/static/"&gt;http://cdw11-ag100.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
@@ -393,9 +534,15 @@ var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s)
 &lt;p&gt;請各組在 CDW11 下課前完成下列3個圖形的零件組合繪圖:&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_4a.png" width="100%" /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_badc.png" width="100%" /&gt;&lt;/p&gt;
+<<<<<<< HEAD
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40123239"></category><category term="cdw11"></category></entry><entry><title>40123224 cdw11 報告-1</title><link href="./40123224-cdw11-bao-gao-1.html" rel="alternate"></link><updated>2016-06-16T08:13:41+08:00</updated><author><name>40123224</name></author><id>tag:,2016-06-16:./40123224-cdw11-bao-gao-1.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
 
 
+=======
+&lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40123239"></category><category term="cdw11"></category></entry><entry><title>40123224 cdw11 報告-1</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40123224-cdw11-bao-gao-1.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40123224</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40123224-cdw11-bao-gao-1.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+
+
+>>>>>>> 2051aeae9eda47504ed61a7c0ffb0fe29673eb57
 &lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-ag100.rhcloud.com/static/"&gt;http://cdw11-ag100.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;分組程式: &lt;a href="http://cdw11-ag100.rhcloud.com/option"&gt;http://cdw11-ag100.rhcloud.com/option&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;fileuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/fileuploadform"&gt;http://cdw11-ag100.rhcloud.com/fileuploadform&lt;/a&gt;&lt;/p&gt;
@@ -403,7 +550,11 @@ var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s)
 &lt;p&gt;請各組在 CDW11 下課前完成下列3個圖形的零件組合繪圖:&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_4a.png" width="100%" /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_badc.png" width="100%" /&gt;&lt;/p&gt;
+<<<<<<< HEAD
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40123224"></category><category term="cdw11"></category></entry><entry><title>40123224 cdw11 報告</title><link href="./40123224-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:41+08:00</updated><author><name>40123224</name></author><id>tag:,2016-06-16:./40123224-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+=======
+&lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40123224"></category><category term="cdw11"></category></entry><entry><title>40123224 cdw11 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40123224-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40123224</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40123224-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+>>>>>>> 2051aeae9eda47504ed61a7c0ffb0fe29673eb57
 
 
 &lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-ag100.rhcloud.com/static/"&gt;http://cdw11-ag100.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
@@ -413,7 +564,11 @@ var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s)
 &lt;p&gt;請各組在 CDW11 下課前完成下列3個圖形的零件組合繪圖:&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_4a.png" width="100%" /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_badc.png" width="100%" /&gt;&lt;/p&gt;
+<<<<<<< HEAD
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40123224"></category><category term="cdw11"></category></entry><entry><title>40123244 cdw13 報告</title><link href="./40123244-cdw13-bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:41+08:00</updated><author><name>40123244</name></author><id>tag:,2016-06-16:./40123244-cdw13-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw13 協同專案&lt;/p&gt;
+=======
+&lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40123224"></category><category term="cdw11"></category></entry><entry><title>40123244 cdw13 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40123244-cdw13-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40123244</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40123244-cdw13-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw13 協同專案&lt;/p&gt;
+>>>>>>> 2051aeae9eda47504ed61a7c0ffb0fe29673eb57
 
 
 &lt;p&gt;cdw13心得&lt;/p&gt;
@@ -421,6 +576,7 @@ var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s)
 &lt;p&gt;&lt;img src="http://i.imgur.com/ICP2Hrr.png" width="100%" /&gt;&lt;/p&gt;
 &lt;p&gt;大致修改上述座標點,X和Y軸及起始旋轉角度&lt;/p&gt;
 &lt;p&gt;成果圖&lt;/p&gt;
+<<<<<<< HEAD
 &lt;p&gt;&lt;img src="http://i.imgur.com/IBhD4AK.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40123244"></category><category term="cdw13"></category></entry><entry><title>40123244 cdw11 報告</title><link href="./40123244-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:41+08:00</updated><author><name>40123244</name></author><id>tag:,2016-06-16:./40123244-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
 
 
@@ -440,6 +596,9 @@ var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s)
 &lt;p&gt;4A 網誌位置: &lt;a href="http://python2-40123244.rhcloud.com/bg2_40123244//task4a"&gt;http://python2-40123244.rhcloud.com/bg2_40123244/task4a&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;BACD網誌位置: &lt;a href="http://python2-40123244.rhcloud.com/bg2_40123244/taskbacd"&gt;http://python2-40123244.rhcloud.com/bg2_40123244/taskbacd&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;上下ABCD網誌位置: &lt;a href="http://python2-40123244.rhcloud.com/bg2_40123244/taskabcd"&gt;http://python2-40123244.rhcloud.com/bg2_40123244/taskabcd&lt;/a&gt;&lt;/p&gt;</summary><category term="40123244"></category><category term="cdw11"></category></entry><entry><title>40123235 cdw13 報告</title><link href="./40123235-cdw13-bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:41+08:00</updated><author><name>40123235</name></author><id>tag:,2016-06-16:./40123235-cdw13-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw13 協同專案&lt;/p&gt;
+=======
+&lt;p&gt;&lt;img src="http://i.imgur.com/IBhD4AK.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40123244"></category><category term="cdw13"></category></entry><entry><title>40123235 cdw13 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40123235-cdw13-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40123235</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40123235-cdw13-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw13 協同專案&lt;/p&gt;
+>>>>>>> 2051aeae9eda47504ed61a7c0ffb0fe29673eb57
 
 
 &lt;p&gt;cdw13心得&lt;/p&gt;
@@ -447,6 +606,7 @@ var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s)
 &lt;p&gt;&lt;img src="http://i.imgur.com/ICP2Hrr.png" width="100%" /&gt;&lt;/p&gt;
 &lt;p&gt;大致修改上述座標點,X和Y軸及起始旋轉角度&lt;/p&gt;
 &lt;p&gt;成果圖&lt;/p&gt;
+<<<<<<< HEAD
 &lt;p&gt;&lt;img src="http://i.imgur.com/IBhD4AK.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40123235"></category><category term="cdw13"></category></entry><entry><title>40123235 cdw11 報告</title><link href="./40123235-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:41+08:00</updated><author><name>40123235</name></author><id>tag:,2016-06-16:./40123235-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
 
 
@@ -474,20 +634,25 @@ var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s)
 &lt;p&gt;&lt;img src="http://i.imgur.com/4wWnnCG.png" width="100%" /&gt;&lt;/p&gt;
 &lt;p&gt;大致修改座標點,及起始旋轉角度&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://i.imgur.com/8wdHreC.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40123232"></category><category term="cdw13"></category></entry><entry><title>40123232 cdw11 報告</title><link href="./40123232-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:41+08:00</updated><author><name>40123232</name></author><id>tag:,2016-06-16:./40123232-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+=======
+&lt;p&gt;&lt;img src="http://i.imgur.com/IBhD4AK.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40123235"></category><category term="cdw13"></category></entry><entry><title>40123244 cdw11 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40123244-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40123244</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40123244-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+>>>>>>> 2051aeae9eda47504ed61a7c0ffb0fe29673eb57
 
 
 &lt;p&gt;cdw11心得&lt;/p&gt;
 &lt;p&gt;先註冊藍圖及導入&lt;/p&gt;
-&lt;p&gt;&lt;img src="http://i.imgur.com/GE2lnu7.png" width="100%" /&gt;
-&lt;img src="http://i.imgur.com/nQowkLo.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/nKDcYc7.png" width="100%" /&gt;
+&lt;img src="http://i.imgur.com/wnhKQRl.png" width="100%" /&gt;&lt;/p&gt;
 &lt;p&gt;使用老師及同學提供及修改過的ABCD程式來達成此次練習&lt;/p&gt;
 &lt;p&gt;練習1:4A&lt;/p&gt;
 &lt;p&gt;直接以老師的原本程式的A來使用 修改起始坐標後來呈現 如圖&lt;/p&gt;
-&lt;p&gt;&lt;img src="http://i.imgur.com/kzmIMPi.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/h3nv1D5.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;每個A距離都取等距移動 最後1個A沒取等距因為會超出畫布範圍&lt;/p&gt;
 &lt;p&gt;完成後須先在近端執行可否運作&lt;/p&gt;
-&lt;p&gt;&lt;img src="http://i.imgur.com/NnYYEdz.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/3VrQYcH.png" width="100%" /&gt;&lt;/p&gt;
 &lt;p&gt;接下來BACD及從上到下ABCD都是相似作法&lt;/p&gt;
 &lt;p&gt;成果:&lt;/p&gt;
+<<<<<<< HEAD
 &lt;p&gt;4A 網誌位置: &lt;a href="http://cdw2g2-40123232.rhcloud.com/bg2_40123232/task4a"&gt;http://cdw2g2-40123232.rhcloud.com/bg2_40123232/task4a&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;BACD網誌位置: &lt;a href="http://cdw2g2-40123232.rhcloud.com/bg2_40123232/taskbacd"&gt;http://cdw2g2-40123232.rhcloud.com/bg2_40123232/taskbacd&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;上下ABCD網誌位置: &lt;a href="http://cdw2g2-40123232.rhcloud.com/bg2_40123232/taskabcd"&gt;http://cdw2g2-40123232.rhcloud.com/bg2_40123232/taskabcd&lt;/a&gt;&lt;/p&gt;</summary><category term="40123232"></category><category term="cdw11"></category></entry><entry><title>40123226 cdw13 報告</title><link href="./40123226-cdw13-bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:41+08:00</updated><author><name>40123226</name></author><id>tag:,2016-06-16:./40123226-cdw13-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw13 協同專案&lt;/p&gt;
@@ -504,6 +669,59 @@ var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s)
 &lt;p&gt;大致修改上述座標點,X和Y軸及起始旋轉角度&lt;/p&gt;
 &lt;p&gt;成果圖&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://i.imgur.com/IBhD4AK.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40123217"></category><category term="cdw13"></category></entry><entry><title>40123226 cdw11 報告</title><link href="./40123226-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:41+08:00</updated><author><name>40123226</name></author><id>tag:,2016-06-16:./40123226-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+=======
+&lt;p&gt;4A 網誌位置: &lt;a href="http://python2-40123244.rhcloud.com/bg2_40123244//task4a"&gt;http://python2-40123244.rhcloud.com/bg2_40123244/task4a&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;BACD網誌位置: &lt;a href="http://python2-40123244.rhcloud.com/bg2_40123244/taskbacd"&gt;http://python2-40123244.rhcloud.com/bg2_40123244/taskbacd&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;上下ABCD網誌位置: &lt;a href="http://python2-40123244.rhcloud.com/bg2_40123244/taskabcd"&gt;http://python2-40123244.rhcloud.com/bg2_40123244/taskabcd&lt;/a&gt;&lt;/p&gt;</summary><category term="40123244"></category><category term="cdw11"></category></entry><entry><title>40123235 cdw11 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40123235-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40123235</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40123235-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+
+
+&lt;p&gt;cdw11心得&lt;/p&gt;
+&lt;p&gt;先註冊藍圖及導入&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/nOT5RT8.png" width="100%" /&gt;
+&lt;img src="http://i.imgur.com/D5RKnuz.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;使用老師及同學提供及修改過的ABCD程式來達成此次練習&lt;/p&gt;
+&lt;p&gt;練習1:4A&lt;/p&gt;
+&lt;p&gt;直接以老師的原本程式的A來使用 修改起始坐標後來呈現 如圖&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/R1wntJU.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;每個A距離都取等距移動 最後1個A沒取等距因為會超出畫布範圍&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/17oZUdr.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;完成後須先在近端執行可否運作&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/AS6NZi9.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;接下來BACD及從上到下ABCD都是相似作法&lt;/p&gt;
+&lt;p&gt;成果:&lt;/p&gt;
+&lt;p&gt;4A 網誌位置: &lt;a href="http://40123235bg2-cadp13ag35.rhcloud.com/bg2_40123235/task4a"&gt;http://40123235bg2-cadp13ag35.rhcloud.com/bg2_40123235/task4a&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;BACD網誌位置: &lt;a href="http://40123235bg2-cadp13ag35.rhcloud.com/bg2_40123235/taskbacd"&gt;http://40123235bg2-cadp13ag35.rhcloud.com/bg2_40123235/taskbacd&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;上下ABCD網誌位置: &lt;a href="http://40123235bg2-cadp13ag35.rhcloud.com/bg2_40123235/taskabcd"&gt;http://40123235bg2-cadp13ag35.rhcloud.com/bg2_40123235/taskabcd&lt;/a&gt;&lt;/p&gt;</summary><category term="40123235"></category><category term="cdw11"></category></entry><entry><title>40123232 cdw13 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40123232-cdw13-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40123232</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40123232-cdw13-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw13 協同專案&lt;/p&gt;
+
+
+&lt;p&gt;cdw13心得&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/HzLDUVq.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/4wWnnCG.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;大致修改座標點,及起始旋轉角度&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/8wdHreC.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40123232"></category><category term="cdw13"></category></entry><entry><title>40123232 cdw11 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40123232-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40123232</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40123232-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+
+
+&lt;p&gt;cdw11心得&lt;/p&gt;
+&lt;p&gt;先註冊藍圖及導入&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/GE2lnu7.png" width="100%" /&gt;
+&lt;img src="http://i.imgur.com/nQowkLo.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;使用老師及同學提供及修改過的ABCD程式來達成此次練習&lt;/p&gt;
+&lt;p&gt;練習1:4A&lt;/p&gt;
+&lt;p&gt;直接以老師的原本程式的A來使用 修改起始坐標後來呈現 如圖&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/kzmIMPi.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;完成後須先在近端執行可否運作&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/NnYYEdz.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;接下來BACD及從上到下ABCD都是相似作法&lt;/p&gt;
+&lt;p&gt;成果:&lt;/p&gt;
+&lt;p&gt;4A 網誌位置: &lt;a href="http://cdw2g2-40123232.rhcloud.com/bg2_40123232/task4a"&gt;http://cdw2g2-40123232.rhcloud.com/bg2_40123232/task4a&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;BACD網誌位置: &lt;a href="http://cdw2g2-40123232.rhcloud.com/bg2_40123232/taskbacd"&gt;http://cdw2g2-40123232.rhcloud.com/bg2_40123232/taskbacd&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;上下ABCD網誌位置: &lt;a href="http://cdw2g2-40123232.rhcloud.com/bg2_40123232/taskabcd"&gt;http://cdw2g2-40123232.rhcloud.com/bg2_40123232/taskabcd&lt;/a&gt;&lt;/p&gt;</summary><category term="40123232"></category><category term="cdw11"></category></entry><entry><title>40123226 cdw13 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40123226-cdw13-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40123226</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40123226-cdw13-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw13 協同專案&lt;/p&gt;
+
+
+&lt;p&gt;cdw13心得&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/y5sQDxr.png" width="100%" /&gt;
+&lt;img src="http://i.imgur.com/qOqn5NP.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40123226"></category><category term="cdw13"></category></entry><entry><title>40123226 cdw11 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40123226-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40123226</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40123226-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+>>>>>>> 2051aeae9eda47504ed61a7c0ffb0fe29673eb57
 
 
 &lt;p&gt;cdw11心得&lt;/p&gt;
@@ -521,7 +739,19 @@ var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s)
 &lt;p&gt;成果:&lt;/p&gt;
 &lt;p&gt;4A 網誌位置: &lt;a href="http://cdw2bg2-40123226.rhcloud.com/bg2_40123226/task4a"&gt;http://cdw2bg2-40123226.rhcloud.com/bg2_40123226/task4a&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;BACD網誌位置: &lt;a href="http://cdw2bg2-40123226.rhcloud.com/bg2_40123226/taskbacd"&gt;http://cdw2bg2-40123226.rhcloud.com/bg2_40123226/taskbacd&lt;/a&gt;&lt;/p&gt;
+<<<<<<< HEAD
 &lt;p&gt;上下ABCD網誌位置: &lt;a href="http://cdw2bg2-40123226.rhcloud.com/bg2_40123226/taskabcd"&gt;http://cdw2bg2-40123226.rhcloud.com/bg2_40123226/taskabcd&lt;/a&gt;&lt;/p&gt;</summary><category term="40123226"></category><category term="cdw11"></category></entry><entry><title>40123217 cdw11 報告</title><link href="./40123217-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:41+08:00</updated><author><name>40123217</name></author><id>tag:,2016-06-16:./40123217-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+=======
+&lt;p&gt;上下ABCD網誌位置: &lt;a href="http://cdw2bg2-40123226.rhcloud.com/bg2_40123226/taskabcd"&gt;http://cdw2bg2-40123226.rhcloud.com/bg2_40123226/taskabcd&lt;/a&gt;&lt;/p&gt;</summary><category term="40123226"></category><category term="cdw11"></category></entry><entry><title>40123217 cdw13 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40123217-cdw13-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40123217</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40123217-cdw13-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw13 協同專案&lt;/p&gt;
+
+
+&lt;p&gt;cdw13心得&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/G5lGl49.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/ICP2Hrr.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;大致修改上述座標點,X和Y軸及起始旋轉角度&lt;/p&gt;
+&lt;p&gt;成果圖&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/IBhD4AK.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40123217"></category><category term="cdw13"></category></entry><entry><title>40123217 cdw11 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40123217-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40123217</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40123217-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+>>>>>>> 2051aeae9eda47504ed61a7c0ffb0fe29673eb57
 
 
 &lt;p&gt;cdw11心得&lt;/p&gt;
@@ -539,7 +769,11 @@ var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s)
 &lt;p&gt;成果:&lt;/p&gt;
 &lt;p&gt;4A 網誌位置: &lt;a href="http://cdw2bg2-40123226.rhcloud.com/bg2_40123226/task4a"&gt;http://cdw2bg2-40123226.rhcloud.com/bg2_40123226/task4a&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;BACD網誌位置: &lt;a href="http://cdw2bg2-40123226.rhcloud.com/bg2_40123226/taskbacd"&gt;http://cdw2bg2-40123226.rhcloud.com/bg2_40123226/taskbacd&lt;/a&gt;&lt;/p&gt;
+<<<<<<< HEAD
 &lt;p&gt;上下ABCD網誌位置: &lt;a href="http://cdw2bg2-40123226.rhcloud.com/bg2_40123226/taskabcd"&gt;http://cdw2bg2-40123226.rhcloud.com/bg2_40123226/taskabcd&lt;/a&gt;&lt;/p&gt;</summary><category term="40123217"></category><category term="cdw11"></category></entry><entry><title>40123214 cdw13 報告</title><link href="./40123214-cdw13-bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:41+08:00</updated><author><name>40123214</name></author><id>tag:,2016-06-16:./40123214-cdw13-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw13 協同專案&lt;/p&gt;
+=======
+&lt;p&gt;上下ABCD網誌位置: &lt;a href="http://cdw2bg2-40123226.rhcloud.com/bg2_40123226/taskabcd"&gt;http://cdw2bg2-40123226.rhcloud.com/bg2_40123226/taskabcd&lt;/a&gt;&lt;/p&gt;</summary><category term="40123217"></category><category term="cdw11"></category></entry><entry><title>40123214 cdw13 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40123214-cdw13-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40123214</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40123214-cdw13-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw13 協同專案&lt;/p&gt;
+>>>>>>> 2051aeae9eda47504ed61a7c0ffb0fe29673eb57
 
 
 &lt;p&gt;cdw13心得&lt;/p&gt;
@@ -547,7 +781,11 @@ var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s)
 &lt;p&gt;&lt;img src="http://i.imgur.com/ICP2Hrr.png" width="100%" /&gt;&lt;/p&gt;
 &lt;p&gt;大致修改上述座標點,X和Y軸及起始旋轉角度&lt;/p&gt;
 &lt;p&gt;成果圖&lt;/p&gt;
+<<<<<<< HEAD
 &lt;p&gt;&lt;img src="http://i.imgur.com/IBhD4AK.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40123214"></category><category term="cdw13"></category></entry><entry><title>40123214 cdw11 報告</title><link href="./40123214-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:41+08:00</updated><author><name>40123214</name></author><id>tag:,2016-06-16:./40123214-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+=======
+&lt;p&gt;&lt;img src="http://i.imgur.com/IBhD4AK.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40123214"></category><category term="cdw13"></category></entry><entry><title>40123214 cdw11 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40123214-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40123214</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40123214-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+>>>>>>> 2051aeae9eda47504ed61a7c0ffb0fe29673eb57
 
 
 &lt;p&gt;cdw11心得&lt;/p&gt;
@@ -565,6 +803,7 @@ var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s)
 &lt;p&gt;成果:&lt;/p&gt;
 &lt;p&gt;4A 網誌位置: &lt;a href="http://cdw11bg240123214-40123214.rhcloud.com/bg2_40123214/task4a"&gt;http://cdw11bg240123214-40123214.rhcloud.com/bg2_40123214/task4a&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;BACD網誌位置: &lt;a href="http://cdw11bg240123214-40123214.rhcloud.com/bg2_40123214/taskbacd"&gt;http://cdw11bg240123214-40123214.rhcloud.com/bg2_40123214/taskbacd&lt;/a&gt;&lt;/p&gt;
+<<<<<<< HEAD
 &lt;p&gt;上下ABCD網誌位置: &lt;a href="http://cdw11bg240123214-40123214.rhcloud.com/bg2_40123214/taskabcd"&gt;http://cdw11bg240123214-40123214.rhcloud.com/bg2_40123214/taskabcd&lt;/a&gt;&lt;/p&gt;</summary><category term="40123214"></category><category term="cdw11"></category></entry><entry><title>40123202 cdw14 報告</title><link href="./40123202-cdw14-bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:41+08:00</updated><author><name>40123202</name></author><id>tag:,2016-06-16:./40123202-cdw14-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw14 協同專案&lt;/p&gt;
 
 
@@ -574,6 +813,9 @@ var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s)
 &lt;p&gt;加入n4、pr4、spur(cx多加了pr4、改成n3)，也更改畫布大小。&lt;/p&gt;
 &lt;p&gt;後來老師重新上傳可以更改參數的版本，一樣是改成四個齒輪。&lt;/p&gt;
 &lt;p&gt;關於囓合部分，因為加了第四個齒輪上去，也就是n1-&amp;gt;n2-&amp;gt;n3-&amp;gt;n4之間，有齒數比，因此囓合的角度則可以從這之中發現關係。&lt;/p&gt;</summary><category term="40123202"></category><category term="cdw14"></category></entry><entry><title>40123202 cdw13 報告</title><link href="./40123202-cdw13-bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:41+08:00</updated><author><name>40123202</name></author><id>tag:,2016-06-16:./40123202-cdw13-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw13 協同專案&lt;/p&gt;
+=======
+&lt;p&gt;上下ABCD網誌位置: &lt;a href="http://cdw11bg240123214-40123214.rhcloud.com/bg2_40123214/taskabcd"&gt;http://cdw11bg240123214-40123214.rhcloud.com/bg2_40123214/taskabcd&lt;/a&gt;&lt;/p&gt;</summary><category term="40123214"></category><category term="cdw11"></category></entry><entry><title>40123202 cdw13 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40123202-cdw13-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40123202</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40123202-cdw13-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw13 協同專案&lt;/p&gt;
+>>>>>>> 2051aeae9eda47504ed61a7c0ffb0fe29673eb57
 
 
 &lt;p&gt;cdw13心得&lt;/p&gt;
@@ -584,9 +826,23 @@ var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s)
 &lt;p&gt;&lt;img src="http://i.imgur.com/G5lGl49.png" width="100%" /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://i.imgur.com/ICP2Hrr.png" width="100%" /&gt;&lt;/p&gt;
 &lt;p&gt;成果圖&lt;/p&gt;
+<<<<<<< HEAD
 &lt;p&gt;&lt;img src="http://i.imgur.com/IBhD4AK.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40123202"></category><category term="cdw13"></category></entry><entry><title>40123202 cdw11 報告</title><link href="./40123202-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:41+08:00</updated><author><name>40123202</name></author><id>tag:,2016-06-16:./40123202-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
 
 
+=======
+&lt;p&gt;&lt;img src="http://i.imgur.com/IBhD4AK.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40123202"></category><category term="cdw13"></category></entry><entry><title>40123202 cdw14 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40123202-cdw14-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40123202</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40123202-cdw14-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw14 協同專案&lt;/p&gt;
+
+
+&lt;p&gt;cdw14心得&lt;/p&gt;
+&lt;p&gt;這次是由老師給的"三個正齒輪嚙合"程式進行修改。&lt;/p&gt;
+&lt;p&gt;一開始的齒數是寫死的，因此我只將齒輪增加成四個。&lt;/p&gt;
+&lt;p&gt;加入n4、pr4、spur(cx多加了pr4、改成n3)，也更改畫布大小。&lt;/p&gt;
+&lt;p&gt;後來老師重新上傳可以更改參數的版本，一樣是改成四個齒輪。&lt;/p&gt;
+&lt;p&gt;關於囓合部分，因為加了第四個齒輪上去，也就是n1-&amp;gt;n2-&amp;gt;n3-&amp;gt;n4之間，有齒數比，因此囓合的角度則可以從這之中發現關係。&lt;/p&gt;</summary><category term="40123202"></category><category term="cdw14"></category></entry><entry><title>40123202 cdw11 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40123202-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40123202</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40123202-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+
+
+>>>>>>> 2051aeae9eda47504ed61a7c0ffb0fe29673eb57
 &lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-ag100.rhcloud.com/static/"&gt;http://cdw11-ag100.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;分組程式: &lt;a href="http://cdw11-ag100.rhcloud.com/option"&gt;http://cdw11-ag100.rhcloud.com/option&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;fileuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/fileuploadform"&gt;http://cdw11-ag100.rhcloud.com/fileuploadform&lt;/a&gt;&lt;/p&gt;
@@ -594,16 +850,25 @@ var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s)
 &lt;p&gt;請各組在 CDW11 下課前完成下列3個圖形的零件組合繪圖:&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_4a.png" width="100%" /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_badc.png" width="100%" /&gt;&lt;/p&gt;
+<<<<<<< HEAD
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40123202"></category><category term="cdw11"></category></entry><entry><title>40323252 cdw13報告</title><link href="./40323252-cdw13bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:41+08:00</updated><author><name>40323252</name></author><id>tag:,2016-06-16:./40323252-cdw13bao-gao.html</id><summary type="html">&lt;p&gt;cdw13
 &lt;/p&gt;
 &lt;p&gt;編輯&lt;/p&gt;</summary><category term="4032352"></category></entry><entry><title>40323252 cdw11報告</title><link href="./40323252-cdw11bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:41+08:00</updated><author><name>40323252</name></author><id>tag:,2016-06-16:./40323252-cdw11bao-gao.html</id><summary type="html">&lt;p&gt;cdw11
 &lt;/p&gt;
 &lt;p&gt;編輯123&lt;/p&gt;</summary><category term="4032352"></category></entry><entry><title>40323245 cdw13報告</title><link href="./40323245-cdw13bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:41+08:00</updated><author><name>40323245</name></author><id>tag:,2016-06-16:./40323245-cdw13bao-gao.html</id><summary type="html">&lt;p&gt;cdw13 內容規畫 : 
+=======
+&lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40123202"></category><category term="cdw11"></category></entry><entry><title>40323252 cdw13報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323252-cdw13bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40323252</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40323252-cdw13bao-gao.html</id><summary type="html">&lt;p&gt;cdw13
+&lt;/p&gt;
+&lt;p&gt;編輯&lt;/p&gt;</summary><category term="4032352"></category></entry><entry><title>40323252 cdw11報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323252-cdw11bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40323252</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40323252-cdw11bao-gao.html</id><summary type="html">&lt;p&gt;cdw11
+&lt;/p&gt;
+&lt;p&gt;編輯123&lt;/p&gt;</summary><category term="4032352"></category></entry><entry><title>40323245 cdw13報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323245-cdw13bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40323245</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40323245-cdw13bao-gao.html</id><summary type="html">&lt;p&gt;cdw13 內容規畫 : 
+>>>>>>> 2051aeae9eda47504ed61a7c0ffb0fe29673eb57
 &lt;/p&gt;
 &lt;h3&gt;本周作業為，將老師提供之鍊條，旋轉90度呈現站立狀態。&lt;/h3&gt;
 
 &lt;p&gt;&lt;br/&gt;
 &lt;h3&gt;完成圖:&lt;/h3&gt;
+<<<<<<< HEAD
 &lt;img src="http://i.imgur.com/Bx7pxhW.png"&gt; &lt;/p&gt;</summary><category term="40323245"></category></entry><entry><title>40323245 cdw12報告</title><link href="./40323245-cdw12bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:41+08:00</updated><author><name>40323245</name></author><id>tag:,2016-06-16:./40323245-cdw12bao-gao.html</id><summary type="html">&lt;p&gt;cdw12內容規畫 :&lt;br /&gt;
 
 12345&lt;/p&gt;</summary><category term="40323245"></category></entry><entry><title>40323245 cdw11報告</title><link href="./40323245-cdw11bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:41+08:00</updated><author><name>40323245</name></author><id>tag:,2016-06-16:./40323245-cdw11bao-gao.html</id><summary type="html">&lt;p&gt;cdw11內容規畫 : 
@@ -612,6 +877,16 @@ var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s)
 
 
 &lt;p&gt;啟動 cdw12 協同專案&lt;/p&gt;</summary><category term="40323299"></category><category term="cdw12"></category></entry><entry><title>40328245 cdw11 報告</title><link href="./40328245-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:41+08:00</updated><author><name>40328245</name></author><id>tag:,2016-06-16:./40328245-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+=======
+&lt;img src="http://i.imgur.com/Bx7pxhW.png"&gt; &lt;/p&gt;</summary><category term="40323245"></category></entry><entry><title>40323245 cdw11報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323245-cdw11bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40323245</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40323245-cdw11bao-gao.html</id><summary type="html">&lt;p&gt;cdw11內容規畫 : 
+&lt;/p&gt;
+&lt;p&gt;編輯&lt;/p&gt;</summary><category term="40323245"></category></entry><entry><title>40323245 cdw12報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323245-cdw12bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40323245</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40323245-cdw12bao-gao.html</id><summary type="html">&lt;p&gt;cdw12內容規畫 :&lt;br /&gt;
+
+12345&lt;/p&gt;</summary><category term="40323245"></category></entry><entry><title>40323299 cdw12 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323299-cdw12-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40323299</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40323299-cdw12-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw12 協同專案&lt;/p&gt;
+
+
+&lt;p&gt;啟動 cdw12 協同專案&lt;/p&gt;</summary><category term="40323299"></category><category term="cdw12"></category></entry><entry><title>40328245 cdw11 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40328245-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40328245</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40328245-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+>>>>>>> 2051aeae9eda47504ed61a7c0ffb0fe29673eb57
 
 
 &lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-ag100.rhcloud.com/static/"&gt;http://cdw11-ag100.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
@@ -621,7 +896,11 @@ var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s)
 &lt;p&gt;請各組在 CDW11 下課前完成下列3個圖形的零件組合繪圖:&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_4a.png" width="100%" /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_badc.png" width="100%" /&gt;&lt;/p&gt;
+<<<<<<< HEAD
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40328245"></category><category term="cdw11"></category></entry><entry><title>40328242 cdw11 報告</title><link href="./40328242-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:41+08:00</updated><author><name>40328242</name></author><id>tag:,2016-06-16:./40328242-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+=======
+&lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40328245"></category><category term="cdw11"></category></entry><entry><title>40328242 cdw11 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40328242-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40328242</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40328242-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+>>>>>>> 2051aeae9eda47504ed61a7c0ffb0fe29673eb57
 
 
 &lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-ag100.rhcloud.com/static/"&gt;http://cdw11-ag100.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
@@ -631,11 +910,26 @@ var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s)
 &lt;p&gt;請各組在 CDW11 下課前完成下列3個圖形的零件組合繪圖:&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_4a.png" width="100%" /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_badc.png" width="100%" /&gt;&lt;/p&gt;
+<<<<<<< HEAD
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40328242"></category><category term="cdw11"></category></entry><entry><title>40123156 cdw13 報告</title><link href="./40123156-cdw13-bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:41+08:00</updated><author><name>40123156</name></author><id>tag:,2016-06-16:./40123156-cdw13-bao-gao.html</id><summary type="html">&lt;p&gt;鍊條立直&lt;/p&gt;
 
+=======
+&lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40328242"></category><category term="cdw11"></category></entry><entry><title>40123156 cdw11 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40123156-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40123156</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40123156-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+
+
+&lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-ag100.rhcloud.com/static/"&gt;http://cdw11-ag100.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;分組程式: &lt;a href="http://cdw11-ag100.rhcloud.com/option"&gt;http://cdw11-ag100.rhcloud.com/option&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;fileuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/fileuploadform"&gt;http://cdw11-ag100.rhcloud.com/fileuploadform&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;imageuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/imageuploadform"&gt;http://cdw11-ag100.rhcloud.com/imageuploadform&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;請各組在 CDW11 下課前完成下列3個圖形的零件組合繪圖:&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_4a.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_badc.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40123156"></category><category term="cdw11"></category></entry><entry><title>40123156 cdw13 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40123156-cdw13-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40123156</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40123156-cdw13-bao-gao.html</id><summary type="html">&lt;p&gt;鍊條立直&lt;/p&gt;
+>>>>>>> 2051aeae9eda47504ed61a7c0ffb0fe29673eb57
 
 &lt;p&gt;&lt;img src="./../../../../local_data/bg1/twocircle.PNG" /&gt;&lt;/p&gt;</summary><category term="40123156"></category><category term="cdw11"></category></entry><entry><title>40123156 cdw11 報告</title><link href="./40123156-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:41+08:00</updated><author><name>40123156</name></author><id>tag:,2016-06-16:./40123156-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
 
+<<<<<<< HEAD
 
 &lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-ag100.rhcloud.com/static/"&gt;http://cdw11-ag100.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;分組程式: &lt;a href="http://cdw11-ag100.rhcloud.com/option"&gt;http://cdw11-ag100.rhcloud.com/option&lt;/a&gt;&lt;/p&gt;
@@ -648,6 +942,12 @@ var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s)
 
 
 &lt;p&gt;上傳測試以及嘗試解決衝突&lt;/p&gt;</summary><category term="40123144"></category><category term="cdw12"></category></entry><entry><title>40123134 cdw11 報告</title><link href="./40123134-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:41+08:00</updated><author><name>40123134</name></author><id>tag:,2016-06-16:./40123134-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+=======
+&lt;p&gt;&lt;img src="./../../../../local_data/bg1/twocircle.PNG" /&gt;&lt;/p&gt;</summary><category term="40123156"></category><category term="cdw11"></category></entry><entry><title>40123144 cdw12 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40123144-cdw12-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40123144</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40123144-cdw12-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw12 協同專案&lt;/p&gt;
+
+
+&lt;p&gt;上傳測試以及嘗試解決衝突&lt;/p&gt;</summary><category term="40123144"></category><category term="cdw12"></category></entry><entry><title>40123134 cdw11 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40123134-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40123134</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40123134-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+>>>>>>> 2051aeae9eda47504ed61a7c0ffb0fe29673eb57
 
 
 &lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-ag100.rhcloud.com/static/"&gt;http://cdw11-ag100.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
@@ -657,7 +957,11 @@ var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s)
 &lt;p&gt;請各組在 CDW11 下課前完成下列3個圖形的零件組合繪圖:&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_4a.png" width="100%" /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_badc.png" width="100%" /&gt;&lt;/p&gt;
+<<<<<<< HEAD
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40123134"></category><category term="cdw11"></category></entry><entry><title>40123133 cdw13 報告</title><link href="./40123133-cdw13-bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:41+08:00</updated><author><name>40123133</name></author><id>tag:,2016-06-16:./40123133-cdw13-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw12 協同專案&lt;/p&gt;
+=======
+&lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40123134"></category><category term="cdw11"></category></entry><entry><title>40123133 cdw13 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40123133-cdw13-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40123133</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40123133-cdw13-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw12 協同專案&lt;/p&gt;
+>>>>>>> 2051aeae9eda47504ed61a7c0ffb0fe29673eb57
 
 
 &lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-ag100.rhcloud.com/static/"&gt;http://cdw11-ag100.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
@@ -667,7 +971,11 @@ var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s)
 &lt;p&gt;請各組在 CDW11 下課前完成下列3個圖形的零件組合繪圖:&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_4a.png" width="100%" /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_badc.png" width="100%" /&gt;&lt;/p&gt;
+<<<<<<< HEAD
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40123133"></category><category term="cdw13"></category></entry><entry><title>40123133 cdw12 報告</title><link href="./40123133-cdw12-bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:41+08:00</updated><author><name>40123133</name></author><id>tag:,2016-06-16:./40123133-cdw12-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw12 協同專案&lt;/p&gt;
+=======
+&lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40123133"></category><category term="cdw13"></category></entry><entry><title>40123133 cdw11 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40123133-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40123133</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40123133-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+>>>>>>> 2051aeae9eda47504ed61a7c0ffb0fe29673eb57
 
 
 &lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-ag100.rhcloud.com/static/"&gt;http://cdw11-ag100.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
@@ -677,7 +985,11 @@ var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s)
 &lt;p&gt;請各組在 CDW11 下課前完成下列3個圖形的零件組合繪圖:&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_4a.png" width="100%" /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_badc.png" width="100%" /&gt;&lt;/p&gt;
+<<<<<<< HEAD
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40123133"></category><category term="cdw12"></category></entry><entry><title>40123133 cdw11 報告</title><link href="./40123133-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:41+08:00</updated><author><name>40123133</name></author><id>tag:,2016-06-16:./40123133-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+=======
+&lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40123133"></category><category term="cdw11"></category></entry><entry><title>40123133 cdw12 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40123133-cdw12-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40123133</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40123133-cdw12-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw12 協同專案&lt;/p&gt;
+>>>>>>> 2051aeae9eda47504ed61a7c0ffb0fe29673eb57
 
 
 &lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-ag100.rhcloud.com/static/"&gt;http://cdw11-ag100.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
@@ -687,7 +999,11 @@ var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s)
 &lt;p&gt;請各組在 CDW11 下課前完成下列3個圖形的零件組合繪圖:&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_4a.png" width="100%" /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_badc.png" width="100%" /&gt;&lt;/p&gt;
+<<<<<<< HEAD
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40123133"></category><category term="cdw11"></category></entry><entry><title>40123131 cdw12 報告</title><link href="./40123131-cdw12-bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:41+08:00</updated><author><name>40123131</name></author><id>tag:,2016-06-16:./40123131-cdw12-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw12 協同專案&lt;/p&gt;
+=======
+&lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40123133"></category><category term="cdw12"></category></entry><entry><title>40123131 cdw12 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40123131-cdw12-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40123131</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40123131-cdw12-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw12 協同專案&lt;/p&gt;
+>>>>>>> 2051aeae9eda47504ed61a7c0ffb0fe29673eb57
 
 
 &lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-ag100.rhcloud.com/static/"&gt;http://cdw11-ag100.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
@@ -697,7 +1013,11 @@ var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s)
 &lt;p&gt;請各組在 CDW11 下課前完成下列3個圖形的零件組合繪圖:&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_4a.png" width="100%" /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_badc.png" width="100%" /&gt;&lt;/p&gt;
+<<<<<<< HEAD
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40123131"></category><category term="cdw12"></category></entry><entry><title>40123131 cdw11 報告</title><link href="./40123131-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:40+08:00</updated><author><name>40123131</name></author><id>tag:,2016-06-16:./40123131-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+=======
+&lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40123131"></category><category term="cdw12"></category></entry><entry><title>40123131 cdw11 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40123131-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40123131</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40123131-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+>>>>>>> 2051aeae9eda47504ed61a7c0ffb0fe29673eb57
 
 
 &lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-ag100.rhcloud.com/static/"&gt;http://cdw11-ag100.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
@@ -707,7 +1027,11 @@ var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s)
 &lt;p&gt;請各組在 CDW11 下課前完成下列3個圖形的零件組合繪圖:&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_4a.png" width="100%" /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_badc.png" width="100%" /&gt;&lt;/p&gt;
+<<<<<<< HEAD
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40123131"></category><category term="cdw11"></category></entry><entry><title>40123129 cdw11 報告</title><link href="./40123129-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:40+08:00</updated><author><name>kmol</name></author><id>tag:,2016-06-16:./40123129-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+=======
+&lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40123131"></category><category term="cdw11"></category></entry><entry><title>40123129 cdw11 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40123129-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>kmol</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40123129-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+>>>>>>> 2051aeae9eda47504ed61a7c0ffb0fe29673eb57
 
 
 &lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-ag100.rhcloud.com/static/"&gt;http://cdw11-ag100.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
@@ -717,7 +1041,11 @@ var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s)
 &lt;p&gt;請各組在 CDW11 下課前完成下列3個圖形的零件組合繪圖:&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_4a.png" width="100%" /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_badc.png" width="100%" /&gt;&lt;/p&gt;
+<<<<<<< HEAD
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40123129"></category><category term="cdw11"></category></entry><entry><title>40123126 cdw11 報告</title><link href="./40123126-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:40+08:00</updated><author><name>40123126</name></author><id>tag:,2016-06-16:./40123126-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+=======
+&lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40123129"></category><category term="cdw11"></category></entry><entry><title>40123126 cdw11 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40123126-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40123126</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40123126-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+>>>>>>> 2051aeae9eda47504ed61a7c0ffb0fe29673eb57
 
 
 &lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-ag100.rhcloud.com/static/"&gt;http://cdw11-ag100.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
@@ -727,7 +1055,11 @@ var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s)
 &lt;p&gt;請各組在 CDW11 下課前完成下列3個圖形的零件組合繪圖:&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_4a.png" width="100%" /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_badc.png" width="100%" /&gt;&lt;/p&gt;
+<<<<<<< HEAD
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40123126"></category><category term="cdw11"></category></entry><entry><title>40323132 cdw11 報告</title><link href="./40323132-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:40+08:00</updated><author><name>40323132</name></author><id>tag:,2016-06-16:./40323132-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+=======
+&lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40123126"></category><category term="cdw11"></category></entry><entry><title>40323132 cdw11 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323132-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40323132</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40323132-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+>>>>>>> 2051aeae9eda47504ed61a7c0ffb0fe29673eb57
 
 
 &lt;p&gt;期中報告內容:
@@ -739,7 +1071,11 @@ var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s)
 &lt;p&gt;任務三ABCD由上到下&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://imgur.com/YflMzsg.png" width="100%" /&gt;&lt;/p&gt;
 &lt;p&gt;心得:剛開始覺得很複雜，而且很怕一不小心就會把網站弄掛掉，但是經過同學的熱心指導，終於進步了很多。
+<<<<<<< HEAD
 自評:68&lt;/p&gt;</summary><category term="40323132"></category><category term="cdw11"></category></entry><entry><title>40323154 cdw13 報告</title><link href="./40323154-cdw13-bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:40+08:00</updated><author><name>40323154</name></author><id>tag:,2016-06-16:./40323154-cdw13-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw13 協同專案&lt;/p&gt;
+=======
+自評:68&lt;/p&gt;</summary><category term="40323132"></category><category term="cdw11"></category></entry><entry><title>40323154 cdw13 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323154-cdw13-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40323154</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40323154-cdw13-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw13 協同專案&lt;/p&gt;
+>>>>>>> 2051aeae9eda47504ed61a7c0ffb0fe29673eb57
 
 
 &lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-ag100.rhcloud.com/static/"&gt;http://cdw11-ag100.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
@@ -749,7 +1085,11 @@ var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s)
 &lt;p&gt;請各組在 CDW11 下課前完成下列3個圖形的零件組合繪圖:&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_4a.png" width="100%" /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_badc.png" width="100%" /&gt;&lt;/p&gt;
+<<<<<<< HEAD
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40323154"></category><category term="cdw13"></category></entry><entry><title>40323143 cdw11 期末報告</title><link href="./40323143-cdw11-qi-mo-bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:40+08:00</updated><author><name>40323143</name></author><id>tag:,2016-06-16:./40323143-cdw11-qi-mo-bao-gao.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+=======
+&lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40323154"></category><category term="cdw13"></category></entry><entry><title>40323143 cdw11 期末報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323143-cdw11-qi-mo-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40323143</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40323143-cdw11-qi-mo-bao-gao.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+>>>>>>> 2051aeae9eda47504ed61a7c0ffb0fe29673eb57
 
 &lt;p&gt;期中報告內容:
 前言&lt;/p&gt;
@@ -760,7 +1100,11 @@ var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s)
 &lt;p&gt;組別 github 倉儲:&lt;a href="https://github.com/40323131/cdw2_g8"&gt;https://github.com/40323131/cdw2_g8&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;個人 github 倉儲:&lt;a href=" https://github.com/40323143/cdw11"&gt; https://github.com/40323143/cdw11&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;個人其他連結: 3D :
+<<<<<<< HEAD
 &lt;a href="https://cad.onshape.com/documents/ea1b4146750171b8d5980d78/w/bf2fb7ac158020c39327c4ab/e/abcdef53f62afc1cf2d37902"&gt;https://cad.onshape.com/documents/ea1b4146750171b8d5980d78/w/bf2fb7ac158020c39327c4ab/e/abcdef53f62afc1cf2d37902&lt;/a&gt;&lt;/p&gt;</summary><category term="40323143"></category><category term="cdw11"></category></entry><entry><title>40323143 cdw11 期中報告</title><link href="./40323143-cdw11-qi-zhong-bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:40+08:00</updated><author><name>40323143</name></author><id>tag:,2016-06-16:./40323143-cdw11-qi-zhong-bao-gao.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+=======
+&lt;a href="https://cad.onshape.com/documents/ea1b4146750171b8d5980d78/w/bf2fb7ac158020c39327c4ab/e/abcdef53f62afc1cf2d37902"&gt;https://cad.onshape.com/documents/ea1b4146750171b8d5980d78/w/bf2fb7ac158020c39327c4ab/e/abcdef53f62afc1cf2d37902&lt;/a&gt;&lt;/p&gt;</summary><category term="40323143"></category><category term="cdw11"></category></entry><entry><title>40323143 cdw11 期中報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323143-cdw11-qi-zhong-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40323143</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40323143-cdw11-qi-zhong-bao-gao.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+>>>>>>> 2051aeae9eda47504ed61a7c0ffb0fe29673eb57
 
 &lt;p&gt;期中報告內容:
 前言
@@ -784,6 +1128,7 @@ cdw11_abcd.png;:
 &lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-2014w11.rhcloud.com/static/"&gt;http://cdw11-2014w11.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;分組程式: &lt;a href="http://cdw11-ag100.rhcloud.com/option"&gt;http://cdw11-ag100.rhcloud.com/option&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;fileuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/fileuploadform"&gt;http://cdw11-ag100.rhcloud.com/fileuploadform&lt;/a&gt;&lt;/p&gt;
+<<<<<<< HEAD
 &lt;p&gt;imageuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/imageuploadform"&gt;http://cdw11-ag100.rhcloud.com/imageuploadform&lt;/a&gt;&lt;/p&gt;</summary><category term="40323143"></category><category term="cdw11"></category></entry><entry><title>40323131 cdw17 報告</title><link href="./40323131-cdw17-bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:40+08:00</updated><author><name>40323131</name></author><id>tag:,2016-06-16:./40323131-cdw17-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw17 協同專案&lt;/p&gt;
 
 
@@ -833,6 +1178,9 @@ cdw11_abcd.png;:
 囓合，先將兩條基準線接在一起之後，我們會發現兩齒式接在一起的，再來要偏轉一個齒的角度，才可以進行囓合。
 3D齒輪方面，由於Onshape上的Featurescript裡頭有內建的齒輪程式，所以我們只需要輸入齒輪的參數，就可以直接生成出來，但是齒數過多的話，它跑出來的齒型會有不正確的齒型，算是裡頭內建程式的錯誤，而至於囓合方面，其實就跟2D囓合原理一樣，而至於斜角的嚙合，首先要去推算出將基準線接在一起的轉角之後，再加上偏轉角，就可以進行囓合了，再來設定一下齒數比，之後試轉一下，就可以了。&lt;/p&gt;
 &lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-2014w11.rhcloud.com/static/"&gt;http://cdw11-2014w11.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;</summary><category term="40323131"></category><category term="cdw17"></category></entry><entry><title>40323137 cdw11 期中報告</title><link href="./40323137-cdw11-qi-zhong-bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:40+08:00</updated><author><name>40323137</name></author><id>tag:,2016-06-16:./40323137-cdw11-qi-zhong-bao-gao.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+=======
+&lt;p&gt;imageuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/imageuploadform"&gt;http://cdw11-ag100.rhcloud.com/imageuploadform&lt;/a&gt;&lt;/p&gt;</summary><category term="40323143"></category><category term="cdw11"></category></entry><entry><title>40323137 cdw11 期中報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323137-cdw11-qi-zhong-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40323137</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40323137-cdw11-qi-zhong-bao-gao.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+>>>>>>> 2051aeae9eda47504ed61a7c0ffb0fe29673eb57
 
 &lt;p&gt;期中報告內容:
 前言
@@ -856,6 +1204,7 @@ cdw11_abcd.png;:
 &lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-2014w11.rhcloud.com/static/"&gt;http://cdw11-2014w11.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;分組程式: &lt;a href="http://cdw11-ag100.rhcloud.com/option"&gt;http://cdw11-ag100.rhcloud.com/option&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;fileuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/fileuploadform"&gt;http://cdw11-ag100.rhcloud.com/fileuploadform&lt;/a&gt;&lt;/p&gt;
+<<<<<<< HEAD
 &lt;p&gt;imageuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/imageuploadform"&gt;http://cdw11-ag100.rhcloud.com/imageuploadform&lt;/a&gt;&lt;/p&gt;</summary><category term="40323137"></category><category term="cdw11"></category></entry><entry><title>40323131 cdw11 報告</title><link href="./40323131-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:39+08:00</updated><author><name>40323131</name></author><id>tag:,2016-06-16:./40323131-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
 
 
@@ -918,6 +1267,118 @@ cdw11_abcd.png;:
 &lt;p&gt;fileuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/fileuploadform"&gt;http://cdw11-ag100.rhcloud.com/fileuploadform&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;imageuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/imageuploadform"&gt;http://cdw11-ag100.rhcloud.com/imageuploadform&lt;/a&gt;&lt;/p&gt;</summary><category term="40323131"></category><category term="cdw11"></category></entry><entry><title>40323123 cdw11 期末報告</title><link href="./40323123-cdw11-qi-mo-bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:39+08:00</updated><author><name>40323123</name></author><id>tag:,2016-06-16:./40323123-cdw11-qi-mo-bao-gao.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
+=======
+&lt;p&gt;imageuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/imageuploadform"&gt;http://cdw11-ag100.rhcloud.com/imageuploadform&lt;/a&gt;&lt;/p&gt;</summary><category term="40323137"></category><category term="cdw11"></category></entry><entry><title>40323131 cdw17 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323131-cdw17-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40323131</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40323131-cdw17-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw17 協同專案&lt;/p&gt;
+
+
+&lt;p&gt;期末報告內容:&lt;/p&gt;
+&lt;p&gt;前言:
+完成網際2D鏈條組立、2D齒輪囓合及Onshape的3D齒輪囓合&lt;/p&gt;
+&lt;p&gt;任務描述及執行說明:&lt;/p&gt;
+&lt;p&gt;任務一(2D鏈條):&lt;/p&gt;
+&lt;p&gt;(左18齒右30齒)
+&lt;img src="http://i.imgur.com/ED7n4MC.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;轉90度(上30下18)
+&lt;img src="http://i.imgur.com/tTEKTQp.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;下圖為對鏈條程式碼的一些參數說明
+&lt;img src="http://i.imgur.com/znii2ZK.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;下圖為對(上30下18齒)的鏈條程式參數的說明，參數設定完成之後，再用for迴圈下去執行
+&lt;img src="http://i.imgur.com/vqz4sQZ.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/yIV3J6f.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/7AqlozY.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;2D齒輪囓合
+&lt;img src="http://i.imgur.com/5sqINqZ.png" width="100%" /&gt;
+要先將原本導入的資料庫，換成下圖的資料庫位置
+&lt;img src="http://i.imgur.com/wFxJ4wO.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/e0HVbrT.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/64MOjt8.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;Onshape 3D齒輪
+&lt;img src="http://i.imgur.com/4RbFG9z.png" width="100%" /&gt;
+這邊可以先計算兩齒輪囓合的中心距離，
+那如果要做斜的嚙合的話，要先加上旋轉的角度，
+先將起始位置決定好，再來要偏轉一個齒的角度
+&lt;img src="http://i.imgur.com/quDuScm.png" width="100%" /&gt;
+齒輪的特徵可以從裏頭進行呼叫，在下圖紅色框框處
+&lt;img src="http://i.imgur.com/d3pO0yi.png" width="100%" /&gt;
+在底下收尋spur，底下有齒輪的圖案
+&lt;img src="http://i.imgur.com/DM74Xhm.png" width="100%" /&gt;
+下圖是對齒輪的參數設定，當中的偏轉角是囓合的關鍵!!
+&lt;img src="http://i.imgur.com/LdncrST.png" width="100%" /&gt;
+再來是對齒輪進行組立並囓合，要先選取兩齒輪的軸心
+，再來要去算齒數比，兩兩進行囓合
+&lt;img src="http://i.imgur.com/oloIeoC.png" width="100%" /&gt;
+下圖是完成圖
+&lt;img src="http://i.imgur.com/1BGpM0g.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;心得:
+期末做的作業，鍊條跟齒輪，感覺上都還算是蠻有趣的，首先鏈條的組立，
+要先去用solvespace畫出並推算出鏈條的四個接點，再來用sympy幫忙算出點的座標，
+然後再用for迴圈下去跑，就可以完成了。
+齒輪方面，首先要先導入資料庫，然後再去跑齒輪的程式，當中我們將齒數、節圓半徑、壓力角拉出來當作變數，其中有畫一條齒輪的基準線是要用來做兩齒輪囓合的時候使用，當然3D方面也是用相同原理進行
+囓合，先將兩條基準線接在一起之後，我們會發現兩齒式接在一起的，再來要偏轉一個齒的角度，才可以進行囓合。
+3D齒輪方面，由於Onshape上的Featurescript裡頭有內建的齒輪程式，所以我們只需要輸入齒輪的參數，就可以直接生成出來，但是齒數過多的話，它跑出來的齒型會有不正確的齒型，算是裡頭內建程式的錯誤，而至於囓合方面，其實就跟2D囓合原理一樣，而至於斜角的嚙合，首先要去推算出將基準線接在一起的轉角之後，再加上偏轉角，就可以進行囓合了，再來設定一下齒數比，之後試轉一下，就可以了。&lt;/p&gt;
+&lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-2014w11.rhcloud.com/static/"&gt;http://cdw11-2014w11.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;</summary><category term="40323131"></category><category term="cdw17"></category></entry><entry><title>40323131 cdw11 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323131-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40323131</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40323131-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+
+
+&lt;p&gt;期中報告內容:&lt;/p&gt;
+&lt;p&gt;前言:
+利用2D繪圖程式繪製出4個A、BACD及ABCD&lt;/p&gt;
+&lt;p&gt;任務描述及執行說明:&lt;/p&gt;
+&lt;p&gt;任務一(繪製出四個A):
+&lt;img src="http://i.imgur.com/D5uY4jn.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;首先在下圖圈起來地方的位置註冊藍圖及導入&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/2yfbmz5.png" width="100%" /&gt;
+&lt;img src="http://i.imgur.com/qnYr5OR.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;再來將2D繪圖程式打開，在要繪圖的資料夾底下輸入python wsgi.py執行，若在 Linux 下要用 Python3 啟動:  python3 wsgi.py&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/PA8yAqB.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;若是開啟成功，會出現上圖的圖示，若是失敗的話則會出現哪裡有錯誤，這個要再去找看看是哪裡出錯。
+在網頁輸入localhost:5000/下圖圈起來的位置1./位置2.，當然這個名稱是自己定的，可以任意變更&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/Nq14ERX.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;開啟之後會出現在這個位置底下的東西&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/Vx6bs2w.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;再來要說明如何繪製字母A，首先可以自行繪製，也可以從老師給的參數直接拿過來使用，
+接下來要說明的是如何從老師給的參數直接導入繪製出字母A、B、C及D
+可以從班級cdw2中取得這些參數，再將這些參數導入，而位置cdw2中的users底下的s2a中的g100裏頭的scrum1_task1.py然後用編輯器打開來&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/KBb1Hsl.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;複製a函式的參數，然後貼到自己位置的底下，記得要加上html的語法才可以跑出圖形，不然會只有文字檔而已&lt;/p&gt;
+&lt;p&gt;html語法&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/Al7dH5J.png" width="100%" /&gt;
+&lt;img src="http://i.imgur.com/c3sTova.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;導入成功之後&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/Dbpjofv.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;接著再重複導入A函式，更改一下座標軸，紅色底線部分為座標軸的參數&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/IbbLkQl.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;導入四次A函式之後，及用座標軸調整之間的距離&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/Vx6bs2w.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;完成!&lt;/p&gt;
+&lt;p&gt;任務二(依序排列BACD):
+&lt;img src="http://i.imgur.com/2WVFIXd.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;根據上面導入A函式的方法，只是換成導入B、C及D函式而已&lt;/p&gt;
+&lt;p&gt;只是需要注意到的地方是導入的B函式的參數要更動一下&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/mYeY870.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;更動位置如下圖
+原本函式在圈起來的地方為0+65，要改成0&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/iTntgp2.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;改成0之後，所顯示的字母B的起始位置會在原點&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/1AH1Rwk.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;之後再依序導入A、C、D函式，再調整一下座標位置&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/2WVFIXd.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;完成!&lt;/p&gt;
+&lt;p&gt;任務三(由上到下排序ABCD):&lt;/p&gt;
+&lt;p&gt;依照上面所講的方法，再導入A、B、C及D函式，調整位置就可以完成了&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/lLNrLI8.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;結果說明:&lt;/p&gt;
+&lt;p&gt;如何繪製出字母A是靠a函式裏頭的很多X、Y軸的參數，經過數學的運算，才會顯示出字母A的形狀，可是我們直接用導入的可能會無法理解裏頭的X、Y的參數更改的話，到底是影響到甚麼地方，這個是我們可以去思考的地方。&lt;/p&gt;
+&lt;p&gt;其實除了用到座標軸參數去排列以外，也可以去更改它的鍊條顏色，只要在下圖的地方改成你要的顏色就可以了。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/3mrClGf.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/NTWQx3t.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;結論與討論:&lt;/p&gt;
+&lt;p&gt;基本上熟悉了之後，知道要去修改哪邊的參數，才會變成想要的結果，還有出問題的時候大概要去哪裡找問題，差不多都有了一些頭緒，只是有些地方可能比較麻煩，可是大致上還ok。&lt;/p&gt;
+&lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-2014w11.rhcloud.com/static/"&gt;http://cdw11-2014w11.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;分組程式: &lt;a href="http://cdw11-ag100.rhcloud.com/option"&gt;http://cdw11-ag100.rhcloud.com/option&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;fileuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/fileuploadform"&gt;http://cdw11-ag100.rhcloud.com/fileuploadform&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;imageuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/imageuploadform"&gt;http://cdw11-ag100.rhcloud.com/imageuploadform&lt;/a&gt;&lt;/p&gt;</summary><category term="40323131"></category><category term="cdw11"></category></entry><entry><title>40323123 cdw11 期末報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323123-cdw11-qi-mo-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40323123</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40323123-cdw11-qi-mo-bao-gao.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+>>>>>>> 2051aeae9eda47504ed61a7c0ffb0fe29673eb57
 &lt;p&gt;前言:
 在設定上的問題會以及Onshape的設定會有許多問題，要一一仔細的檢查，不然就無法讓齒輪旋轉。
 利用2D軟體進行輔助，進行圖解，讓我們可以算出他的切線的角度，以及該連接的角度&lt;/p&gt;
@@ -1056,6 +1517,7 @@ brython(1);
 &lt;/script&gt;
 
 &lt;canvas id='gear1' width='800' height='750'&gt;&lt;/canvas&gt;
+<<<<<<< HEAD
 
 &lt;script type="text/python"&gt;
 # 將 導入的 document 設為 doc 主要原因在於與舊程式碼相容
@@ -1114,6 +1576,66 @@ def spur(cx, cy, m, n, pa, theta):
     # gear 為單一齒的輪廓資料
     #cgo.render(gearTooth)
 
+=======
+
+&lt;script type="text/python"&gt;
+# 將 導入的 document 設為 doc 主要原因在於與舊程式碼相容
+from browser import document as doc
+# 由於 Python3 與 Javascript 程式碼已經不再混用, 因此來自 Javascript 的變數, 必須居中透過 window 物件轉換
+from browser import window
+# 針對 Javascript 既有的物件, 則必須透過 JSConstructor 轉換
+from javascript import JSConstructor
+import math
+
+# 主要用來取得畫布大小
+canvas = doc["gear1"]
+# 此程式採用 Cango Javascript 程式庫繪圖, 因此無需 ctx
+#ctx = canvas.getContext("2d")
+# 針對類別的轉換, 將 Cango.js 中的 Cango 物件轉為 Python cango 物件
+cango = JSConstructor(window.Cango)
+# 針對變數的轉換, shapeDefs 在 Cango 中資料型別為變數, 可以透過 window 轉換
+shapedefs = window.shapeDefs
+# 目前 Cango 結合 Animation 在 Brython 尚無法運作, 此刻只能繪製靜態圖形
+# in CangoAnimation.js
+#interpolate1 = window.interpolate
+# Cobi 與 createGearTooth 都是 Cango Javascript 程式庫中的物件
+cobj = JSConstructor(window.Cobj)
+creategeartooth = JSConstructor(window.createGearTooth)
+
+# 經由 Cango 轉換成 Brython 的 cango, 指定將圖畫在 id="plotarea" 的 canvas 上
+cgo = cango("gear1")
+
+######################################
+# 畫正齒輪輪廓
+#####################################
+def spur(cx, cy, m, n, pa, theta):
+    # n 為齒數
+    #n = 17
+    # pa 為壓力角
+    #pa = 25
+    # m 為模數, 根據畫布的寬度, 計算適合的模數大小
+    # Module = mm of pitch diameter per tooth
+    #m = 0.8*canvas.width/n
+    # pr 為節圓半徑
+    pr = n*m/2 # gear Pitch radius
+    # generate gear
+    data = creategeartooth(m, n, pa)
+    # Brython 程式中的 print 會將資料印在 Browser 的 console 區
+    #print(data)
+
+    gearTooth = cobj(data, "SHAPE", {
+            "fillColor":"#ddd0dd",
+            "border": True,
+            "strokeColor": "#606060" })
+    #gearTooth.rotate(180/n) # rotate gear 1/2 tooth to mesh, 請注意 rotate 角度為 degree
+    # theta 為角度
+    gearTooth.rotate(theta) 
+    # 單齒的齒形資料經過旋轉後, 將資料複製到 gear 物件中
+    gear = gearTooth.dup()
+    # gear 為單一齒的輪廓資料
+    #cgo.render(gearTooth)
+
+>>>>>>> 2051aeae9eda47504ed61a7c0ffb0fe29673eb57
     # 利用單齒輪廓旋轉, 產生整個正齒輪外形
     for i in range(1, n):
         # 將 gearTooth 中的資料複製到 newTooth
@@ -1200,7 +1722,11 @@ spur(cx+pr1+pr2+pr2+2*pr3+pr4+pr5,cy,m,n5,pa,180-180/n5+(180-180/n3)*n4/n5)
 &lt;p&gt;&lt;img src="http://i.imgur.com/2Nq2WW9.png"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://i.imgur.com/8PLq4Dz.png"&gt;&lt;/p&gt;
 &lt;p&gt;心得:
+<<<<<<< HEAD
 時代的演進，讓機械業也進入了協同的世界，雖然在電機和資工比起來，進入的時間真的算很慢了，不過也因為機械業是最龐大的產業，光是零組件就不知道可以比電機的零件多多少了，在這學期Onshape的出現，真的是翻轉了機械產業在SolidWork中的比例，未來不一定要靠安裝軟體才能使用3D軟體，現在應該已經有了在所有平台上面都可以畫出cad而不是被公司綁住買一些自己不需要的軟體，未來功能可能就是朝向付費取向，以及訂閱制，而不是買斷產品了。&lt;/p&gt;</summary><category term="40323123"></category><category term="cdw11"></category></entry><entry><title>40323123 cdw11 期中報告</title><link href="./40323123-cdw11-qi-zhong-bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:39+08:00</updated><author><name>40323123</name></author><id>tag:,2016-06-16:./40323123-cdw11-qi-zhong-bao-gao.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+=======
+時代的演進，讓機械業也進入了協同的世界，雖然在電機和資工比起來，進入的時間真的算很慢了，不過也因為機械業是最龐大的產業，光是零組件就不知道可以比電機的零件多多少了，在這學期Onshape的出現，真的是翻轉了機械產業在SolidWork中的比例，未來不一定要靠安裝軟體才能使用3D軟體，現在應該已經有了在所有平台上面都可以畫出cad而不是被公司綁住買一些自己不需要的軟體，未來功能可能就是朝向付費取向，以及訂閱制，而不是買斷產品了。&lt;/p&gt;</summary><category term="40323123"></category><category term="cdw11"></category></entry><entry><title>40323123 cdw11 期中報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323123-cdw11-qi-zhong-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40323123</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40323123-cdw11-qi-zhong-bao-gao.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+>>>>>>> 2051aeae9eda47504ed61a7c0ffb0fe29673eb57
 
 &lt;p&gt;前言:
 在使用github和openshift串流中，和使用設定，有許多的問題和設定上需要注意的地方，例如註冊帳號使用設定，要用到利用和值得設定，像藍圖註冊的帳號就是需要去想像，因此在未來設定上需要多加注意。&lt;/p&gt;
@@ -1227,7 +1753,11 @@ DACB :&lt;a href="http://cdw11-40323123.rhcloud.com/ag8_40323123/task1_25"&gt;ht
 &lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-2014w11.rhcloud.com/static/"&gt;http://cdw11-2014w11.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;分組程式: &lt;a href="http://cdw11-ag100.rhcloud.com/option"&gt;http://cdw11-ag100.rhcloud.com/option&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;fileuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/fileuploadform"&gt;http://cdw11-ag100.rhcloud.com/fileuploadform&lt;/a&gt;&lt;/p&gt;
+<<<<<<< HEAD
 &lt;p&gt;imageuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/imageuploadform"&gt;http://cdw11-ag100.rhcloud.com/imageuploadform&lt;/a&gt;&lt;/p&gt;</summary><category term="40323123"></category><category term="cdw11"></category></entry><entry><title>40123227 cdw11 報告</title><link href="./40123227-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:39+08:00</updated><author><name>40123227</name></author><id>tag:,2016-06-16:./40123227-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+=======
+&lt;p&gt;imageuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/imageuploadform"&gt;http://cdw11-ag100.rhcloud.com/imageuploadform&lt;/a&gt;&lt;/p&gt;</summary><category term="40323123"></category><category term="cdw11"></category></entry><entry><title>40123227 cdw11 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40123227-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40123227</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40123227-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+>>>>>>> 2051aeae9eda47504ed61a7c0ffb0fe29673eb57
 
 
 &lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-ag100.rhcloud.com/static/"&gt;http://cdw11-ag100.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
@@ -1237,7 +1767,11 @@ DACB :&lt;a href="http://cdw11-40323123.rhcloud.com/ag8_40323123/task1_25"&gt;ht
 &lt;p&gt;請各組在 CDW11 下課前完成下列3個圖形的零件組合繪圖:&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_4a.png" width="100%" /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_badc.png" width="100%" /&gt;&lt;/p&gt;
+<<<<<<< HEAD
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40123227"></category><category term="cdw11"></category></entry><entry><title>40123145 cdw11 報告</title><link href="./40123145-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:39+08:00</updated><author><name>40123145</name></author><id>tag:,2016-06-16:./40123145-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+=======
+&lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40123227"></category><category term="cdw11"></category></entry><entry><title>40123145 cdw11 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40123145-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40123145</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40123145-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+>>>>>>> 2051aeae9eda47504ed61a7c0ffb0fe29673eb57
 
 
 &lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-ag100.rhcloud.com/static/"&gt;http://cdw11-ag100.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
@@ -1247,7 +1781,11 @@ DACB :&lt;a href="http://cdw11-40323123.rhcloud.com/ag8_40323123/task1_25"&gt;ht
 &lt;p&gt;請各組在 CDW11 下課前完成下列3個圖形的零件組合繪圖:&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_4a.png" width="100%" /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_badc.png" width="100%" /&gt;&lt;/p&gt;
+<<<<<<< HEAD
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40123145"></category><category term="cdw11"></category></entry><entry><title>40323138 cdw11 報告</title><link href="./40323138-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:39+08:00</updated><author><name>40323138</name></author><id>tag:,2016-06-16:./40323138-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+=======
+&lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40123145"></category><category term="cdw11"></category></entry><entry><title>40323138 cdw11 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323138-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40323138</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40323138-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+>>>>>>> 2051aeae9eda47504ed61a7c0ffb0fe29673eb57
 
 
 &lt;p&gt;期中報告內容:
@@ -1292,7 +1830,11 @@ Y軸不分跟別改為60,120,180
 &lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-2014w11.rhcloud.com/static/"&gt;http://cdw11-2014w11.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;分組程式: &lt;a href="http://cdw11-ag100.rhcloud.com/option"&gt;http://cdw11-ag100.rhcloud.com/option&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;fileuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/fileuploadform"&gt;http://cdw11-ag100.rhcloud.com/fileuploadform&lt;/a&gt;&lt;/p&gt;
+<<<<<<< HEAD
 &lt;p&gt;imageuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/imageuploadform"&gt;http://cdw11-ag100.rhcloud.com/imageuploadform&lt;/a&gt;&lt;/p&gt;</summary><category term="40323138"></category><category term="cdw11"></category></entry><entry><title>40323109 cdw11 報告</title><link href="./40323109-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:39+08:00</updated><author><name>40323109</name></author><id>tag:,2016-06-16:./40323109-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+=======
+&lt;p&gt;imageuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/imageuploadform"&gt;http://cdw11-ag100.rhcloud.com/imageuploadform&lt;/a&gt;&lt;/p&gt;</summary><category term="40323138"></category><category term="cdw11"></category></entry><entry><title>40323109 cdw11 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323109-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40323109</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40323109-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+>>>>>>> 2051aeae9eda47504ed61a7c0ffb0fe29673eb57
 
 
 &lt;p&gt;期中報告內容:
@@ -1337,8 +1879,12 @@ Y軸不分跟別改為60,120,180
 &lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-2014w11.rhcloud.com/static/"&gt;http://cdw11-2014w11.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;分組程式: &lt;a href="http://cdw11-ag100.rhcloud.com/option"&gt;http://cdw11-ag100.rhcloud.com/option&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;fileuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/fileuploadform"&gt;http://cdw11-ag100.rhcloud.com/fileuploadform&lt;/a&gt;&lt;/p&gt;
+<<<<<<< HEAD
 &lt;p&gt;imageuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/imageuploadform"&gt;http://cdw11-ag100.rhcloud.com/imageuploadform&lt;/a&gt;&lt;/p&gt;</summary><category term="40323109"></category><category term="cdw11"></category></entry><entry><title>40323108 cdw13 報告</title><link href="./40323108-cdw13-bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:39+08:00</updated><author><name>40323108</name></author><id>tag:,2016-06-16:./40323108-cdw13-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw13 協同專案  &lt;/p&gt;
 </summary><category term="40323108"></category><category term="cdw13"></category></entry><entry><title>40323108 cdw11 期中報告</title><link href="./40323108-cdw11-qi-zhong-bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:39+08:00</updated><author><name>40323108</name></author><id>tag:,2016-06-16:./40323108-cdw11-qi-zhong-bao-gao.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+=======
+&lt;p&gt;imageuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/imageuploadform"&gt;http://cdw11-ag100.rhcloud.com/imageuploadform&lt;/a&gt;&lt;/p&gt;</summary><category term="40323109"></category><category term="cdw11"></category></entry><entry><title>40323108 cdw11 期中報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323108-cdw11-qi-zhong-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40323108</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40323108-cdw11-qi-zhong-bao-gao.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+>>>>>>> 2051aeae9eda47504ed61a7c0ffb0fe29673eb57
 
 &lt;p&gt;期中報告內容:
 前言:使用2D程式在LEO編輯,本周任務AAAA,BACD,及直式ABCD&lt;/p&gt;
@@ -1355,7 +1901,12 @@ Y軸不分跟別改為60,120,180
 &lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-2014w11.rhcloud.com/static/"&gt;http://cdw11-2014w11.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;分組程式: &lt;a href="http://cdw11-ag100.rhcloud.com/option"&gt;http://cdw11-ag100.rhcloud.com/option&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;fileuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/fileuploadform"&gt;http://cdw11-ag100.rhcloud.com/fileuploadform&lt;/a&gt;&lt;/p&gt;
+<<<<<<< HEAD
 &lt;p&gt;imageuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/imageuploadform"&gt;http://cdw11-ag100.rhcloud.com/imageuploadform&lt;/a&gt;&lt;/p&gt;</summary><category term="40323108"></category><category term="cdw11"></category></entry><entry><title>40323120 cdw11 期末報告</title><link href="./40323120-cdw11-qi-mo-bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:39+08:00</updated><author><name>40323120</name></author><id>tag:,2016-06-16:./40323120-cdw11-qi-mo-bao-gao.html</id><summary type="html">&lt;p&gt;期末報告&lt;/p&gt;
+=======
+&lt;p&gt;imageuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/imageuploadform"&gt;http://cdw11-ag100.rhcloud.com/imageuploadform&lt;/a&gt;&lt;/p&gt;</summary><category term="40323108"></category><category term="cdw11"></category></entry><entry><title>40323108 cdw13 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323108-cdw13-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40323108</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40323108-cdw13-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw13 協同專案  &lt;/p&gt;
+</summary><category term="40323108"></category><category term="cdw13"></category></entry><entry><title>40323120 cdw11 期末報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323120-cdw11-qi-mo-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40323120</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40323120-cdw11-qi-mo-bao-gao.html</id><summary type="html">&lt;p&gt;期末報告&lt;/p&gt;
+>>>>>>> 2051aeae9eda47504ed61a7c0ffb0fe29673eb57
 
 
 &lt;p&gt;報告內容:&lt;/p&gt;
@@ -1415,10 +1966,17 @@ Y軸不分跟別改為60,120,180
 &lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-2014w11.rhcloud.com/static/"&gt;http://cdw11-2014w11.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;分組程式: &lt;a href="http://cdw11-ag100.rhcloud.com/option"&gt;http://cdw11-ag100.rhcloud.com/option&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;fileuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/fileuploadform"&gt;http://cdw11-ag100.rhcloud.com/fileuploadform&lt;/a&gt;&lt;/p&gt;
+<<<<<<< HEAD
 &lt;p&gt;imageuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/imageuploadform"&gt;http://cdw11-ag100.rhcloud.com/imageuploadform&lt;/a&gt;&lt;/p&gt;</summary><category term="40323120"></category><category term="cdw11"></category></entry><entry><title>40323199 cdw13 報告</title><link href="./40323199-cdw13-bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:39+08:00</updated><author><name>40323199</name></author><id>tag:,2016-06-16:./40323199-cdw13-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw13 協同專案&lt;/p&gt;
 
 
 &lt;p&gt;啟動 cdw13 協同專案&lt;/p&gt;</summary><category term="40323199"></category><category term="cdw13"></category></entry><entry><title>40323199 cdw11 報告</title><link href="./40323199-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:39+08:00</updated><author><name>40323199</name></author><id>tag:,2016-06-16:./40323199-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+=======
+&lt;p&gt;imageuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/imageuploadform"&gt;http://cdw11-ag100.rhcloud.com/imageuploadform&lt;/a&gt;&lt;/p&gt;</summary><category term="40323120"></category><category term="cdw11"></category></entry><entry><title>40323199 cdw13 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323199-cdw13-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40323199</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40323199-cdw13-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw13 協同專案&lt;/p&gt;
+
+
+&lt;p&gt;啟動 cdw13 協同專案&lt;/p&gt;</summary><category term="40323199"></category><category term="cdw13"></category></entry><entry><title>40323199 cdw11 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323199-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40323199</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40323199-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+>>>>>>> 2051aeae9eda47504ed61a7c0ffb0fe29673eb57
 
 
 &lt;p&gt;pelican 網誌位置: &lt;a href="http:ag1_4022315311-ag100.rhcloud.com/static/"&gt;http:ag1_4022315311-ag100.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
@@ -1428,7 +1986,14 @@ Y軸不分跟別改為60,120,180
 &lt;p&gt;請各組在 CDW11 下課前完成下列3個圖形的零件組合繪圖:&lt;/p&gt;
 &lt;p&gt;&lt;img ag1_40223153http://cdw11-ag100.rhcloud.com/images/cdw11_4a.png" width="100%" /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;imag1_40223153="http://cdw11-ag100.rhcloud.com/images/cdw11_badc.png" width="100%" /&gt;&lt;/p&gt;
+<<<<<<< HEAD
 &lt;p&gt;&lt;ag1_40223153rc="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40323199"></category><category term="cdw11"></category></entry><entry><title>40223153 cdw13 報告-1</title><link href="./40223153-cdw13-bao-gao-1.html" rel="alternate"></link><updated>2016-06-16T08:13:39+08:00</updated><author><name>40223153</name></author><id>tag:,2016-06-16:./40223153-cdw13-bao-gao-1.html</id><summary type="html">&lt;p&gt;啟動 cdw13 協同專案&lt;/p&gt;
+=======
+&lt;p&gt;&lt;ag1_40223153rc="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40323199"></category><category term="cdw11"></category></entry><entry><title>40223153 cdw13 報告-1</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40223153-cdw13-bao-gao-1.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40223153</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40223153-cdw13-bao-gao-1.html</id><summary type="html">&lt;p&gt;啟動 cdw13 協同專案&lt;/p&gt;
+
+
+&lt;p&gt;啟動 cdw13 協同專案&lt;/p&gt;</summary><category term="40223153"></category><category term="cdw13"></category></entry><entry><title>40123149 cdw1 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40123149-cdw1-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40123149</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40123149-cdw1-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw1 協同專案&lt;/p&gt;
+>>>>>>> 2051aeae9eda47504ed61a7c0ffb0fe29673eb57
 
 
 &lt;p&gt;啟動 cdw13 協同專案&lt;/p&gt;</summary><category term="40223153"></category><category term="cdw13"></category></entry><entry><title>40223153 cdw11 報告-1</title><link href="./40223153-cdw11-bao-gao-1.html" rel="alternate"></link><updated>2016-06-16T08:13:39+08:00</updated><author><name>40223153</name></author><id>tag:,2016-06-16:./40223153-cdw11-bao-gao-1.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
@@ -1439,19 +2004,31 @@ Y軸不分跟別改為60,120,180
 &lt;p&gt;fileuploadform: &lt;a href="hag1_40223153/cdw11-ag100.rhcloud.com/fileuploadform"&gt;hag1_40223153/cdw11-ag100.rhcloud.com/fileuploadform&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;imageuploadform: &lt;a href=ag1_40223153://cdw11-ag100.rhcloud.com/imageuploadform"ag1_40223153://cdw11-ag100.rhcloud.com/imageuploadform&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;請各組在 CDW11 下課前完成下列3個圖形的零件組合繪圖:&lt;/p&gt;
+<<<<<<< HEAD
 &lt;p&gt;&lt;img ag1_40223153http://cdw11-ag100.rhcloud.com/images/cdw11_4a.png" width="100%" /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;imag1_40223153="http://cdw11-ag100.rhcloud.com/images/cdw11_badc.png" width="100%" /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;ag1_40223153rc="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40223153"></category><category term="cdw11"></category></entry><entry><title>40123149 cdw1 報告</title><link href="./40123149-cdw1-bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:39+08:00</updated><author><name>40123149</name></author><id>tag:,2016-06-16:./40123149-cdw1-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw1 協同專案&lt;/p&gt;
+=======
+&lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_4a.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_badc.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40123149"></category><category term="cdw1"></category></entry><entry><title>40223153 cdw11 報告-1</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40223153-cdw11-bao-gao-1.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40223153</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40223153-cdw11-bao-gao-1.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+>>>>>>> 2051aeae9eda47504ed61a7c0ffb0fe29673eb57
 
 
-&lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-ag100.rhcloud.com/static/"&gt;http://cdw11-ag100.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;分組程式: &lt;a href="http://cdw11-ag100.rhcloud.com/option"&gt;http://cdw11-ag100.rhcloud.com/option&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;fileuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/fileuploadform"&gt;http://cdw11-ag100.rhcloud.com/fileuploadform&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;imageuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/imageuploadform"&gt;http://cdw11-ag100.rhcloud.com/imageuploadform&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;pelican 網誌位置: &lt;a href="http:ag1_4022315311-ag100.rhcloud.com/static/"&gt;http:ag1_4022315311-ag100.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;分組程式: &lt;a href="httag1_40223153dw11-ag100.rhcloud.com/option"&gt;httag1_40223153dw11-ag100.rhcloud.com/option&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;fileuploadform: &lt;a href="hag1_40223153/cdw11-ag100.rhcloud.com/fileuploadform"&gt;hag1_40223153/cdw11-ag100.rhcloud.com/fileuploadform&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;imageuploadform: &lt;a href=ag1_40223153://cdw11-ag100.rhcloud.com/imageuploadform"ag1_40223153://cdw11-ag100.rhcloud.com/imageuploadform&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;請各組在 CDW11 下課前完成下列3個圖形的零件組合繪圖:&lt;/p&gt;
+<<<<<<< HEAD
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_4a.png" width="100%" /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_badc.png" width="100%" /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40123149"></category><category term="cdw1"></category></entry><entry><title>40323141 cdw11 報告</title><link href="./40323141-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:39+08:00</updated><author><name>40323141</name></author><id>tag:,2016-06-16:./40323141-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案  &lt;/p&gt;
+=======
+&lt;p&gt;&lt;img ag1_40223153http://cdw11-ag100.rhcloud.com/images/cdw11_4a.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;imag1_40223153="http://cdw11-ag100.rhcloud.com/images/cdw11_badc.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;ag1_40223153rc="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40223153"></category><category term="cdw11"></category></entry><entry><title>40323141 cdw11 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323141-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40323141</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40323141-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案  &lt;/p&gt;
+>>>>>>> 2051aeae9eda47504ed61a7c0ffb0fe29673eb57
 
 
 &lt;p&gt;期中報告內容:  &lt;/p&gt;
@@ -1499,7 +2076,11 @@ X位置0&lt;/p&gt;
 &lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-ag100.rhcloud.com/static/"&gt;http://cdw11-ag100.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;分組程式: &lt;a href="http://cdw11-ag100.rhcloud.com/option"&gt;http://cdw11-ag100.rhcloud.com/option&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;fileuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/fileuploadform"&gt;http://cdw11-ag100.rhcloud.com/fileuploadform&lt;/a&gt;&lt;/p&gt;
+<<<<<<< HEAD
 &lt;p&gt;imageuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/imageuploadform"&gt;http://cdw11-ag100.rhcloud.com/imageuploadform&lt;/a&gt;&lt;/p&gt;</summary><category term="40323141"></category><category term="cdw11"></category></entry><entry><title>40323139 cdw13 報告</title><link href="./40323139-cdw13-bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:39+08:00</updated><author><name>40323139</name></author><id>tag:,2016-06-16:./40323139-cdw13-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw13 協同專案  &lt;/p&gt;
+=======
+&lt;p&gt;imageuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/imageuploadform"&gt;http://cdw11-ag100.rhcloud.com/imageuploadform&lt;/a&gt;&lt;/p&gt;</summary><category term="40323141"></category><category term="cdw11"></category></entry><entry><title>40323139 cdw13 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323139-cdw13-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40323139</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40323139-cdw13-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw13 協同專案  &lt;/p&gt;
+>>>>>>> 2051aeae9eda47504ed61a7c0ffb0fe29673eb57
 
 
 &lt;p&gt;期中報告內容:  &lt;/p&gt;
@@ -1547,7 +2128,11 @@ X位置0&lt;/p&gt;
 &lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-ag100.rhcloud.com/static/"&gt;http://cdw11-ag100.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;分組程式: &lt;a href="http://cdw11-ag100.rhcloud.com/option"&gt;http://cdw11-ag100.rhcloud.com/option&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;fileuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/fileuploadform"&gt;http://cdw11-ag100.rhcloud.com/fileuploadform&lt;/a&gt;&lt;/p&gt;
+<<<<<<< HEAD
 &lt;p&gt;imageuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/imageuploadform"&gt;http://cdw11-ag100.rhcloud.com/imageuploadform&lt;/a&gt;&lt;/p&gt;</summary><category term="40323139"></category><category term="cdw13"></category><category term="ag10"></category></entry><entry><title>40323139 cdw11 報告</title><link href="./40323139-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:39+08:00</updated><author><name>40323139</name></author><id>tag:,2016-06-16:./40323139-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案  &lt;/p&gt;
+=======
+&lt;p&gt;imageuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/imageuploadform"&gt;http://cdw11-ag100.rhcloud.com/imageuploadform&lt;/a&gt;&lt;/p&gt;</summary><category term="40323139"></category><category term="cdw13"></category><category term="ag10"></category></entry><entry><title>40323139 cdw11 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323139-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40323139</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40323139-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案  &lt;/p&gt;
+>>>>>>> 2051aeae9eda47504ed61a7c0ffb0fe29673eb57
 
 
 &lt;p&gt;期中報告內容:  &lt;/p&gt;
@@ -1595,7 +2180,11 @@ X位置0&lt;/p&gt;
 &lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-ag100.rhcloud.com/static/"&gt;http://cdw11-ag100.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;分組程式: &lt;a href="http://cdw11-ag100.rhcloud.com/option"&gt;http://cdw11-ag100.rhcloud.com/option&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;fileuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/fileuploadform"&gt;http://cdw11-ag100.rhcloud.com/fileuploadform&lt;/a&gt;&lt;/p&gt;
+<<<<<<< HEAD
 &lt;p&gt;imageuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/imageuploadform"&gt;http://cdw11-ag100.rhcloud.com/imageuploadform&lt;/a&gt;&lt;/p&gt;</summary><category term="40323139"></category><category term="cdw11"></category></entry><entry><title>40323129 cdw11 報告</title><link href="./40323129-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:39+08:00</updated><author><name>40323129</name></author><id>tag:,2016-06-16:./40323129-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+=======
+&lt;p&gt;imageuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/imageuploadform"&gt;http://cdw11-ag100.rhcloud.com/imageuploadform&lt;/a&gt;&lt;/p&gt;</summary><category term="40323139"></category><category term="cdw11"></category></entry><entry><title>40323129 cdw11 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323129-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40323129</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40323129-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+>>>>>>> 2051aeae9eda47504ed61a7c0ffb0fe29673eb57
 
 
 &lt;p&gt;期中報告內容:&lt;/p&gt;
@@ -1610,7 +2199,11 @@ X位置0&lt;/p&gt;
 &lt;p&gt;請各組在 CDW11 下課前完成下列3個圖形的零件組合繪圖:&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_4a.png" width="100%" /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_badc.png" width="100%" /&gt;&lt;/p&gt;
+<<<<<<< HEAD
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40323129"></category><category term="cdw11"></category></entry><entry><title>40323105 final 報告</title><link href="./40323105-final-bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:39+08:00</updated><author><name>40323105</name></author><id>tag:,2016-06-16:./40323105-final-bao-gao.html</id><summary type="html">&lt;p&gt;1.繪出2D齒輪&lt;/p&gt;
+=======
+&lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40323129"></category><category term="cdw11"></category></entry><entry><title>40323105 final 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323105-final-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40323105</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40323105-final-bao-gao.html</id><summary type="html">&lt;p&gt;1.繪出2D齒輪&lt;/p&gt;
+>>>>>>> 2051aeae9eda47504ed61a7c0ffb0fe29673eb57
 &lt;p&gt;&lt;a href="http://cdw13-40323105.rhcloud.com/a40323105/ag1_2D"&gt;http://cdw13-40323105.rhcloud.com/a40323105/ag1_2D&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://imgur.com/t3D6G9C.jpg" width="100%" /&gt;&lt;/p&gt;
 &lt;p&gt;2.繪出3D嚙合齒輪&lt;/p&gt;
@@ -1630,7 +2223,11 @@ X位置0&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://cad.onshape.com/documents/3c6654b66598ba5c8b705139/w/5a56bdaca9b01b12352faf0e/e/58c7aa53c24011e473149e43"&gt;https://cad.onshape.com/documents/3c6654b66598ba5c8b705139/w/5a56bdaca9b01b12352faf0e/e/58c7aa53c24011e473149e43&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Tooth angle  必須要調整,不然在嚙合時會發生干涉&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://imgur.com/fR09Xp7.jpg" width="75%" /&gt;&lt;/p&gt;
+<<<<<<< HEAD
 &lt;p&gt;&lt;img src="http://imgur.com/xmPS6Ph.jpg" width="75%" /&gt;&lt;/p&gt;</summary><category term="40323105"></category><category term="cdw11"></category></entry><entry><title>40323105 cdw11 報告</title><link href="./40323105-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:39+08:00</updated><author><name>40323105</name></author><id>tag:,2016-06-16:./40323105-cdw11-bao-gao.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+=======
+&lt;p&gt;&lt;img src="http://imgur.com/xmPS6Ph.jpg" width="75%" /&gt;&lt;/p&gt;</summary><category term="40323105"></category><category term="cdw11"></category></entry><entry><title>40323105 cdw11 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323105-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40323105</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40323105-cdw11-bao-gao.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+>>>>>>> 2051aeae9eda47504ed61a7c0ffb0fe29673eb57
 
 &lt;p&gt;cdw11任務&lt;/p&gt;
 &lt;p&gt;1.繪出AAAA&lt;/p&gt;
@@ -1663,7 +2260,11 @@ X位置0&lt;/p&gt;
 &lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-ag100.rhcloud.com/static/"&gt;http://cdw11-ag100.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;分組程式: &lt;a href="http://cdw11-ag100.rhcloud.com/option"&gt;http://cdw11-ag100.rhcloud.com/option&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;fileuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/fileuploadform"&gt;http://cdw11-ag100.rhcloud.com/fileuploadform&lt;/a&gt;&lt;/p&gt;
+<<<<<<< HEAD
 &lt;p&gt;imageuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/imageuploadform"&gt;http://cdw11-ag100.rhcloud.com/imageuploadform&lt;/a&gt;&lt;/p&gt;</summary><category term="40323105"></category><category term="cdw11"></category></entry><entry><title>40323105 cdw11 期中報告</title><link href="./40323105-cdw11-qi-zhong-bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:39+08:00</updated><author><name>40323105</name></author><id>tag:,2016-06-16:./40323105-cdw11-qi-zhong-bao-gao.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+=======
+&lt;p&gt;imageuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/imageuploadform"&gt;http://cdw11-ag100.rhcloud.com/imageuploadform&lt;/a&gt;&lt;/p&gt;</summary><category term="40323105"></category><category term="cdw11"></category></entry><entry><title>40323105 cdw11 期中報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323105-cdw11-qi-zhong-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40323105</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40323105-cdw11-qi-zhong-bao-gao.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+>>>>>>> 2051aeae9eda47504ed61a7c0ffb0fe29673eb57
 
 &lt;p&gt;cdw11任務&lt;/p&gt;
 &lt;p&gt;1.繪出AAAA&lt;/p&gt;
@@ -1696,11 +2297,19 @@ X位置0&lt;/p&gt;
 &lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-ag100.rhcloud.com/static/"&gt;http://cdw11-ag100.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;分組程式: &lt;a href="http://cdw11-ag100.rhcloud.com/option"&gt;http://cdw11-ag100.rhcloud.com/option&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;fileuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/fileuploadform"&gt;http://cdw11-ag100.rhcloud.com/fileuploadform&lt;/a&gt;&lt;/p&gt;
+<<<<<<< HEAD
 &lt;p&gt;imageuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/imageuploadform"&gt;http://cdw11-ag100.rhcloud.com/imageuploadform&lt;/a&gt;&lt;/p&gt;</summary><category term="40323105"></category><category term="cdw11"></category></entry><entry><title>40223153 cdw13 報告</title><link href="./40223153-cdw13-bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:39+08:00</updated><author><name>40223153</name></author><id>tag:,2016-06-16:./40223153-cdw13-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw13 協同專案&lt;/p&gt;
 
 
 &lt;p&gt;啟動 cdw13 協同專案
 test123&lt;/p&gt;</summary><category term="40223153"></category><category term="cdw13"></category></entry><entry><title>40223153 cdw11 報告</title><link href="./40223153-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T08:13:39+08:00</updated><author><name>40223153</name></author><id>tag:,2016-06-16:./40223153-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+=======
+&lt;p&gt;imageuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/imageuploadform"&gt;http://cdw11-ag100.rhcloud.com/imageuploadform&lt;/a&gt;&lt;/p&gt;</summary><category term="40323105"></category><category term="cdw11"></category></entry><entry><title>40223153 cdw13 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40223153-cdw13-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40223153</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40223153-cdw13-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw13 協同專案&lt;/p&gt;
+
+
+&lt;p&gt;啟動 cdw13 協同專案
+test123&lt;/p&gt;</summary><category term="40223153"></category><category term="cdw13"></category></entry><entry><title>40223153 cdw11 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40223153-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T09:07:49+08:00</updated><author><name>40223153</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40223153-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+>>>>>>> 2051aeae9eda47504ed61a7c0ffb0fe29673eb57
 
 
 &lt;p&gt;pelican 網誌位置: &lt;a href="http:ag1_4022315311-ag100.rhcloud.com/static/"&gt;http:ag1_4022315311-ag100.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
