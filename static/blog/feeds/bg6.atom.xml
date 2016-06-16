@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>CDW11 網頁 (虎尾科大MDE)</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/" rel="alternate"></link><link href="http://cdw11-ag100.rhcloud.com/static/blog/feeds/bg6.atom.xml" rel="self"></link><id>http://cdw11-ag100.rhcloud.com/static/blog/</id><updated>2016-06-16T12:32:42+08:00</updated><entry><title>40323248 cdw11報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323248-cdw11bao-gao.html" rel="alternate"></link><updated>2016-06-16T12:32:42+08:00</updated><author><name>40323248</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40323248-cdw11bao-gao.html</id><summary type="html">&lt;p&gt;cdw14
+
+&lt;h3&gt; 網際 3D 正齒輪傳動模擬 ，利用Onshape 的正齒輪設計繪圖與組立, 3D 正齒輪傳動組立過程, 只有 Spur Gear 功能採用 Featurescript 編寫
+&lt;/h3&gt;
+&lt;br/&gt;
+&lt;h3&gt; 設定外框 及軸套
+&lt;/h3&gt;
+&lt;br/&gt;
+&lt;img src="http://i.imgur.com/5Jq1YIW.png"&gt; 
+&lt;br/&gt;
+&lt;h3&gt; 設定參數
+&lt;/h3&gt;
+&lt;br/&gt;
+&lt;img src="http://i.imgur.com/I0GtRYv.png"&gt; 
+&lt;br/&gt;
+&lt;h3&gt; 
+&lt;/h3&gt;齒輪接合
+&lt;br/&gt;
+&lt;img src="http://i.imgur.com/vsAUF5c.png"&gt; &lt;/p&gt;</summary><category term="40323248"></category></entry><entry><title>40323248 cdw11報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323248-cdw11bao-gao.html" rel="alternate"></link><updated>2016-06-16T12:32:42+08:00</updated><author><name>40323248</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40323248-cdw11bao-gao.html</id><summary type="html">&lt;p&gt;cdw13
+
+&lt;h3&gt; 執行網際 2D 正齒輪傳動協同繪圖,建置在個人的網頁空間中,
+以下為 15 齒輪組的囓合繪圖,
+&lt;/h3&gt;
+&lt;br/&gt;
+&lt;img src="http://i.imgur.com/XdeIDUv.png"&gt; &lt;/p&gt;</summary><category term="40323248"></category></entry><entry><title>40323248 cdw11報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323248-cdw11bao-gao.html" rel="alternate"></link><updated>2016-06-16T12:32:42+08:00</updated><author><name>40323248</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40323248-cdw11bao-gao.html</id><summary type="html">&lt;p&gt;cdw11
+&lt;/p&gt;
+&lt;h3&gt; 計算鏈條傳動對應的兩個節圓, 所產生的 8 個相切點座標, 兩個圓均位於同軸上, 左側小齒盤 18 齒, 而右側大齒盤 30 齒,將兩條外切線與兩條內切線所對應的 8 個切點座標與左側圓之圓心座標，再利用 Solvespace 標示出符合兩圓相切線的內切線, 與對應左側圓心位置，我覺得最難的部分是利用Solvespace計算出座標位置，只要沒有配合好鏈條位置，鏈條就會整個錯位。一開始覺得非常複雜，但是後來再經過同學的教導下，慢慢學到許多步驟及方法，後來就越來越得心應手如何去做。
+&lt;/h3&gt;
+
+&lt;p&gt;&lt;br/&gt;
+&lt;img src="http://i.imgur.com/cQkRl5L.png"&gt; &lt;/p&gt;</summary><category term="40323248"></category></entry><entry><title>40323248 cdw11報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323248-cdw11bao-gao.html" rel="alternate"></link><updated>2016-06-16T12:32:42+08:00</updated><author><name>40323248</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40323248-cdw11bao-gao.html</id><summary type="html">&lt;p&gt;cdw11
+&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/cQkRl5L.png"&gt; &lt;/p&gt;</summary><category term="40323248"></category></entry></feed>
