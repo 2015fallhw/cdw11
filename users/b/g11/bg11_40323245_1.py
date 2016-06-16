@@ -135,6 +135,7 @@ class chain():
         return x2, y2
 '''
  
+<<<<<<< HEAD
 @bg11.route('/gear')
 def gear():
     outstring = '''
@@ -340,6 +341,9 @@ gear.spur(cx+pr1+pr2+pr2+pr3, cy, m, n3, pa, 180-180/n3+(180-180/n2)*n2/n3)
 </script>
 '''
     return outstring
+=======
+
+>>>>>>> 92c4a94ad739182718a0e80be723957f07e6e52a
 # 傳繪 A 函式內容
 def a(x, y, scale=1, color="green"):
     outstring = '''
