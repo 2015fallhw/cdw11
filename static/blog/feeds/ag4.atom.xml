@@ -1,5 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>CDW11 網頁 (虎尾科大MDE)</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/" rel="alternate"></link><link href="http://cdw11-ag100.rhcloud.com/static/blog/feeds/ag4.atom.xml" rel="self"></link><id>http://cdw11-ag100.rhcloud.com/static/blog/</id><updated>2016-06-16T21:57:00+08:00</updated><entry><title>40323130 cdw17 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323130-cdw17-bao-gao.html" rel="alternate"></link><updated>2016-06-16T21:57:00+08:00</updated><author><name>40323130</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40323130-cdw17-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw17 協同專案&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>CDW11 網頁 (虎尾科大MDE)</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/" rel="alternate"></link><link href="http://cdw11-ag100.rhcloud.com/static/blog/feeds/ag4.atom.xml" rel="self"></link><id>http://cdw11-ag100.rhcloud.com/static/blog/</id><updated>2016-06-16T23:27:16+08:00</updated><entry><title>40323138 cdw11 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323138-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T23:27:16+08:00</updated><author><name>40323138</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40323138-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+
+
+&lt;p&gt;期中報告內容:
+前言:使用2D程式在LEO編輯,本周任務AAAA,BACD,及直式ABCD&lt;/p&gt;
+&lt;p&gt;任務一AAAA
+&lt;img src="http://imgur.com/XtaHxjh.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;註冊位置及匯入藍圖(如圖)
+&lt;img src="http://imgur.com/F83hvSN.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;完成後進入倉儲輸入指令wsgi.py
+&lt;img src="http://imgur.com/prjt0Kk.png" width="100%" /&gt;
+成功啟動http://127.0.0.1:5000/    反之註冊失敗或程式有錯或顯示失敗無法開啟http://localhost:5000/&lt;/p&gt;
+&lt;p&gt;後開起瀏覽器
+輸入http://localhost:5000/檔案名稱/圖名  如圖
+&lt;img src="http://imgur.com/pj0ClSG.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;圖名內容(AAAA)使用之前期中已經畫好的ABCD程式去做參數式的更改畫圖
+已經將ABCD程式分別 建檔  只需叫出程式去編輯即可
+&lt;img src="http://imgur.com/x92FChy.png" width="100%" /&gt;
+&lt;img src="http://imgur.com/fGKpfGP.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;導入HTML語法能在網路上顯示出來
+&lt;img src="http://imgur.com/MD0qU0J.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;複製A圖檔程式
+&lt;img src="http://imgur.com/uzjOomQ.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;在複製A圖 程式畫圖的部分 複製四個A
+因為位置不同 須改座標點
+&lt;img src="http://imgur.com/POjDqNW.png" width="100%" /&gt;
+Y軸不分跟別改為60,120,180
+即可完成
+&lt;img src="http://imgur.com/mUTazlS.png" width="100%" /&gt;
+完成後無誤推上github  再推上openshift去顯示做作品
+&lt;img src="http://imgur.com/dZgvliY.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;任務二BACD
+用同樣做法去做參數是繪圖即可完成
+&lt;img src="http://imgur.com/OuDBRvl.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;任務三ABCD由上到下
+用同樣做法去做參數是繪圖即可完成
+&lt;img src="http://imgur.com/YflMzsg.png" width="100%" /&gt;
+如老師說的  推至OpenShift即可完成作業交代
+所有協同內容衝突請直接在 github 倉儲中解決, OpenShift 對應平台僅用來執行本倉儲的最新程式版本&lt;/p&gt;
+&lt;p&gt;結果說明:
+裡面程式相當複雜，一開始沒有很用心去研究，而我又不是組長所以沒有很用心去研究，只好跳出來好好研究程式，研究程式在做什麼，研究到想不透時就去詢問40323131張元旭同學，問了蠻多地方的，要謝謝他的教導，到一定階段後發現其中的一些原理都差不多，後來越來越上手，有學習和了解該得如何去做參數式作圖的。
+。&lt;/p&gt;
+&lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-2014w11.rhcloud.com/static/"&gt;http://cdw11-2014w11.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;分組程式: &lt;a href="http://cdw11-ag100.rhcloud.com/option"&gt;http://cdw11-ag100.rhcloud.com/option&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;fileuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/fileuploadform"&gt;http://cdw11-ag100.rhcloud.com/fileuploadform&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;imageuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/imageuploadform"&gt;http://cdw11-ag100.rhcloud.com/imageuploadform&lt;/a&gt;&lt;/p&gt;</summary><category term="40323138"></category><category term="cdw11"></category></entry><entry><title>40323130 cdw17 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323130-cdw17-bao-gao.html" rel="alternate"></link><updated>2016-06-16T23:27:16+08:00</updated><author><name>40323130</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40323130-cdw17-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw17 協同專案&lt;/p&gt;
 
 
 &lt;p&gt;期末報告內容:&lt;/p&gt;
@@ -37,97 +82,7 @@
 &lt;p&gt;繪製4顆不同齒齒輪囓合:&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://cad.onshape.com/documents/2e49d57ffc7a17759d02ac6a/w/2c539d05cf7c08ef10a43bdb/e/792ece27d8554767d02e08e6"&gt;https://cad.onshape.com/documents/2e49d57ffc7a17759d02ac6a/w/2c539d05cf7c08ef10a43bdb/e/792ece27d8554767d02e08e6&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://i.imgur.com/Hu3TH2V.png" width="75%" /&gt;&lt;/p&gt;
-&lt;p&gt;心得:在2D鍊條的部分，花了很多時間才弄懂要如何畫出正確的圖形，還好有蔡俊佶同學教我，不然應該會卡關卡到期末吧~在3D齒輪的部分就學的不錯，除了囓合時花了點時間在調整齒輪跟轉速比之外，其他時間都蠻順利的，看到齒輪完美的模擬出結果時還挺開心的，不過大家好像都會這個部分...&lt;/p&gt;</summary><category term="40323130"></category><category term="cdw17"></category></entry><entry><title>40323138 cdw11 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323138-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T21:57:00+08:00</updated><author><name>40323138</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40323138-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
-
-
-&lt;p&gt;期中報告內容:
-前言:使用2D程式在LEO編輯,本周任務AAAA,BACD,及直式ABCD&lt;/p&gt;
-&lt;p&gt;任務一AAAA
-&lt;img src="http://imgur.com/XtaHxjh.png" width="100%" /&gt;&lt;/p&gt;
-&lt;p&gt;註冊位置及匯入藍圖(如圖)
-&lt;img src="http://imgur.com/F83hvSN.png" width="100%" /&gt;&lt;/p&gt;
-&lt;p&gt;完成後進入倉儲輸入指令wsgi.py
-&lt;img src="http://imgur.com/prjt0Kk.png" width="100%" /&gt;
-成功啟動http://127.0.0.1:5000/    反之註冊失敗或程式有錯或顯示失敗無法開啟http://localhost:5000/&lt;/p&gt;
-&lt;p&gt;後開起瀏覽器
-輸入http://localhost:5000/檔案名稱/圖名  如圖
-&lt;img src="http://imgur.com/pj0ClSG.png" width="100%" /&gt;&lt;/p&gt;
-&lt;p&gt;圖名內容(AAAA)使用之前期中已經畫好的ABCD程式去做參數式的更改畫圖
-已經將ABCD程式分別 建檔  只需叫出程式去編輯即可
-&lt;img src="http://imgur.com/x92FChy.png" width="100%" /&gt;
-&lt;img src="http://imgur.com/fGKpfGP.png" width="100%" /&gt;&lt;/p&gt;
-&lt;p&gt;導入HTML語法能在網路上顯示出來
-&lt;img src="http://imgur.com/MD0qU0J.png" width="100%" /&gt;&lt;/p&gt;
-&lt;p&gt;複製A圖檔程式
-&lt;img src="http://imgur.com/uzjOomQ.png" width="100%" /&gt;&lt;/p&gt;
-&lt;p&gt;在複製A圖 程式畫圖的部分 複製四個A
-因為位置不同 須改座標點
-&lt;img src="http://imgur.com/POjDqNW.png" width="100%" /&gt;
-Y軸不分跟別改為60,120,180
-即可完成
-&lt;img src="http://imgur.com/mUTazlS.png" width="100%" /&gt;
-完成後無誤推上github  再推上openshift去顯示做作品
-&lt;img src="http://imgur.com/dZgvliY.png" width="100%" /&gt;&lt;/p&gt;
-&lt;p&gt;任務二BACD
-用同樣做法去做參數是繪圖即可完成
-&lt;img src="http://imgur.com/OuDBRvl.png" width="100%" /&gt;&lt;/p&gt;
-&lt;p&gt;任務三ABCD由上到下
-用同樣做法去做參數是繪圖即可完成
-&lt;img src="http://imgur.com/YflMzsg.png" width="100%" /&gt;
-如老師說的  推至OpenShift即可完成作業交代
-所有協同內容衝突請直接在 github 倉儲中解決, OpenShift 對應平台僅用來執行本倉儲的最新程式版本&lt;/p&gt;
-&lt;p&gt;結果說明:
-裡面程式相當複雜，一開始沒有很用心去研究，而我又不是組長所以沒有很用心去研究，只好跳出來好好研究程式，研究程式在做什麼，研究到想不透時就去詢問40323131張元旭同學，問了蠻多地方的，要謝謝他的教導，到一定階段後發現其中的一些原理都差不多，後來越來越上手，有學習和了解該得如何去做參數式作圖的。
-。&lt;/p&gt;
-&lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-2014w11.rhcloud.com/static/"&gt;http://cdw11-2014w11.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;分組程式: &lt;a href="http://cdw11-ag100.rhcloud.com/option"&gt;http://cdw11-ag100.rhcloud.com/option&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;fileuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/fileuploadform"&gt;http://cdw11-ag100.rhcloud.com/fileuploadform&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;imageuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/imageuploadform"&gt;http://cdw11-ag100.rhcloud.com/imageuploadform&lt;/a&gt;&lt;/p&gt;</summary><category term="40323138"></category><category term="cdw11"></category></entry><entry><title>40323109 cdw11 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323109-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T21:57:00+08:00</updated><author><name>40323109</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40323109-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
-
-
-&lt;p&gt;期中報告內容:
-前言:使用2D程式在LEO編輯,本周任務AAAA,BACD,及直式ABCD&lt;/p&gt;
-&lt;p&gt;任務一AAAA
-&lt;img src="http://imgur.com/XtaHxjh.png" width="100%" /&gt;&lt;/p&gt;
-&lt;p&gt;註冊位置及匯入藍圖(如圖)
-&lt;img src="http://imgur.com/F83hvSN.png" width="100%" /&gt;&lt;/p&gt;
-&lt;p&gt;完成後進入倉儲輸入指令wsgi.py
-&lt;img src="http://imgur.com/prjt0Kk.png" width="100%" /&gt;
-成功啟動http://127.0.0.1:5000/    反之註冊失敗或程式有錯或顯示失敗無法開啟http://localhost:5000/&lt;/p&gt;
-&lt;p&gt;後開起瀏覽器
-輸入http://localhost:5000/檔案名稱/圖名  如圖
-&lt;img src="http://imgur.com/pj0ClSG.png" width="100%" /&gt;&lt;/p&gt;
-&lt;p&gt;圖名內容(AAAA)使用之前期中已經畫好的ABCD程式去做參數式的更改畫圖
-已經將ABCD程式分別 建檔  只需叫出程式去編輯即可
-&lt;img src="http://imgur.com/x92FChy.png" width="100%" /&gt;
-&lt;img src="http://imgur.com/fGKpfGP.png" width="100%" /&gt;&lt;/p&gt;
-&lt;p&gt;導入HTML語法能在網路上顯示出來
-&lt;img src="http://imgur.com/MD0qU0J.png" width="100%" /&gt;&lt;/p&gt;
-&lt;p&gt;複製A圖檔程式
-&lt;img src="http://imgur.com/uzjOomQ.png" width="100%" /&gt;&lt;/p&gt;
-&lt;p&gt;在複製A圖 程式畫圖的部分 複製四個A
-因為位置不同 須改座標點
-&lt;img src="http://imgur.com/POjDqNW.png" width="100%" /&gt;
-Y軸不分跟別改為60,120,180
-即可完成
-&lt;img src="http://imgur.com/mUTazlS.png" width="100%" /&gt;
-完成後無誤推上github  再推上openshift去顯示做作品
-&lt;img src="http://imgur.com/dZgvliY.png" width="100%" /&gt;&lt;/p&gt;
-&lt;p&gt;任務二BACD
-用同樣做法去做參數是繪圖即可完成
-&lt;img src="http://imgur.com/OuDBRvl.png" width="100%" /&gt;&lt;/p&gt;
-&lt;p&gt;任務三ABCD由上到下
-用同樣做法去做參數是繪圖即可完成
-&lt;img src="http://imgur.com/YflMzsg.png" width="100%" /&gt;
-如老師說的  推至OpenShift即可完成作業交代
-所有協同內容衝突請直接在 github 倉儲中解決, OpenShift 對應平台僅用來執行本倉儲的最新程式版本&lt;/p&gt;
-&lt;p&gt;結果說明:
-裡面程式相當複雜，一開始沒有很用心去研究，而我又不是組長所以沒有很用心去研究，只好跳出來好好研究程式，研究程式在做什麼，研究到想不透時就去詢問40323131張元旭同學，問了蠻多地方的，要謝謝他的教導，到一定階段後發現其中的一些原理都差不多，後來越來越上手，有學習和了解該得如何去做參數式作圖的。
-。&lt;/p&gt;
-&lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-2014w11.rhcloud.com/static/"&gt;http://cdw11-2014w11.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;分組程式: &lt;a href="http://cdw11-ag100.rhcloud.com/option"&gt;http://cdw11-ag100.rhcloud.com/option&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;fileuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/fileuploadform"&gt;http://cdw11-ag100.rhcloud.com/fileuploadform&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;imageuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/imageuploadform"&gt;http://cdw11-ag100.rhcloud.com/imageuploadform&lt;/a&gt;&lt;/p&gt;</summary><category term="40323109"></category><category term="cdw11"></category></entry><entry><title>40323130 cdw13 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323130-cdw13-bao-gao.html" rel="alternate"></link><updated>2016-06-16T21:57:00+08:00</updated><author><name>40323130</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40323130-cdw13-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw13 協同專案&lt;/p&gt;
+&lt;p&gt;心得:在2D鍊條的部分，花了很多時間才弄懂要如何畫出正確的圖形，還好有蔡俊佶同學教我，不然應該會卡關卡到期末吧~在3D齒輪的部分就學的不錯，除了囓合時花了點時間在調整齒輪跟轉速比之外，其他時間都蠻順利的，看到齒輪完美的模擬出結果時還挺開心的，不過大家好像都會這個部分...&lt;/p&gt;</summary><category term="40323130"></category><category term="cdw17"></category></entry><entry><title>40323130 cdw13 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323130-cdw13-bao-gao.html" rel="alternate"></link><updated>2016-06-16T23:27:16+08:00</updated><author><name>40323130</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40323130-cdw13-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw13 協同專案&lt;/p&gt;
 
 
 &lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-ag100.rhcloud.com/static/"&gt;http://cdw11-ag100.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
@@ -137,4 +92,49 @@ Y軸不分跟別改為60,120,180
 &lt;p&gt;請各組在 CDW11 下課前完成下列3個圖形的零件組合繪圖:&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_4a.png" width="100%" /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_badc.png" width="100%" /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40323130"></category><category term="cdw13"></category></entry></feed>
+&lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40323130"></category><category term="cdw13"></category></entry><entry><title>40323109 cdw11 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323109-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T23:27:16+08:00</updated><author><name>40323109</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40323109-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+
+
+&lt;p&gt;期中報告內容:
+前言:使用2D程式在LEO編輯,本周任務AAAA,BACD,及直式ABCD&lt;/p&gt;
+&lt;p&gt;任務一AAAA
+&lt;img src="http://imgur.com/XtaHxjh.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;註冊位置及匯入藍圖(如圖)
+&lt;img src="http://imgur.com/F83hvSN.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;完成後進入倉儲輸入指令wsgi.py
+&lt;img src="http://imgur.com/prjt0Kk.png" width="100%" /&gt;
+成功啟動http://127.0.0.1:5000/    反之註冊失敗或程式有錯或顯示失敗無法開啟http://localhost:5000/&lt;/p&gt;
+&lt;p&gt;後開起瀏覽器
+輸入http://localhost:5000/檔案名稱/圖名  如圖
+&lt;img src="http://imgur.com/pj0ClSG.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;圖名內容(AAAA)使用之前期中已經畫好的ABCD程式去做參數式的更改畫圖
+已經將ABCD程式分別 建檔  只需叫出程式去編輯即可
+&lt;img src="http://imgur.com/x92FChy.png" width="100%" /&gt;
+&lt;img src="http://imgur.com/fGKpfGP.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;導入HTML語法能在網路上顯示出來
+&lt;img src="http://imgur.com/MD0qU0J.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;複製A圖檔程式
+&lt;img src="http://imgur.com/uzjOomQ.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;在複製A圖 程式畫圖的部分 複製四個A
+因為位置不同 須改座標點
+&lt;img src="http://imgur.com/POjDqNW.png" width="100%" /&gt;
+Y軸不分跟別改為60,120,180
+即可完成
+&lt;img src="http://imgur.com/mUTazlS.png" width="100%" /&gt;
+完成後無誤推上github  再推上openshift去顯示做作品
+&lt;img src="http://imgur.com/dZgvliY.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;任務二BACD
+用同樣做法去做參數是繪圖即可完成
+&lt;img src="http://imgur.com/OuDBRvl.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;任務三ABCD由上到下
+用同樣做法去做參數是繪圖即可完成
+&lt;img src="http://imgur.com/YflMzsg.png" width="100%" /&gt;
+如老師說的  推至OpenShift即可完成作業交代
+所有協同內容衝突請直接在 github 倉儲中解決, OpenShift 對應平台僅用來執行本倉儲的最新程式版本&lt;/p&gt;
+&lt;p&gt;結果說明:
+裡面程式相當複雜，一開始沒有很用心去研究，而我又不是組長所以沒有很用心去研究，只好跳出來好好研究程式，研究程式在做什麼，研究到想不透時就去詢問40323131張元旭同學，問了蠻多地方的，要謝謝他的教導，到一定階段後發現其中的一些原理都差不多，後來越來越上手，有學習和了解該得如何去做參數式作圖的。
+。&lt;/p&gt;
+&lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-2014w11.rhcloud.com/static/"&gt;http://cdw11-2014w11.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;分組程式: &lt;a href="http://cdw11-ag100.rhcloud.com/option"&gt;http://cdw11-ag100.rhcloud.com/option&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;fileuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/fileuploadform"&gt;http://cdw11-ag100.rhcloud.com/fileuploadform&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;imageuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/imageuploadform"&gt;http://cdw11-ag100.rhcloud.com/imageuploadform&lt;/a&gt;&lt;/p&gt;</summary><category term="40323109"></category><category term="cdw11"></category></entry></feed>
