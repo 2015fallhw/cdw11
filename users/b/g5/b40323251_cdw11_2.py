@@ -1,235 +1,6 @@
-from sympy import *
-import math
-# center of left circle
-x1 = Symbol('x1')
-y1 = Symbol('y1')
-# center of right circle
-x2 = Symbol('x2')
-y2 = Symbol('y2')
-# left tangent points
-x3 = Symbol('x3')
-y3 = Symbol('y3')
-# right tangent points
-x4 = Symbol('x4')
-y4 = Symbol('y4')
- 
-chainlength = 20
-leftdegree = 20
-rightdegree = 12
-leftr = chainlength/2/math.sin(leftdegree*math.pi/180/2)
-rightr = chainlength/2/math.sin(rightdegree*math.pi/180/2)
-#print(leftr,"\n",rightr)
-# tangent line is 10 sets of chain
-len34 = 10*chainlength
-# (x3-x4)**2+(y3-y4)**2-len34**2 表示 (x3, y3) 與 (x4, y4)距離 len34
-# (x1-x3)**2+(y1-y3)**2-(leftr)**2 表示 (x1, y1) 與 (x3, y3) 距離為左圓半徑
-# (x2-x4)**2+(y2-y4)**2-(rightr)**2 表示 (x2, y2) 與 (x4, y4) 距離為右圓半徑
-# (x1-x4)**2+(y1-y4)**2-len34**2-(leftr)**2 表示左圓心與兩個相切點所圍成直角三角形邊長關係
-# (x2-x3)**2+(y2-y3)**2-len34**2-(rightr)**2 表示右圓心與兩個相切點所圍成直角三角形邊長關係
- 
-answer = solve([(x3-x4)**2+(y3-y4)**2-len34**2, \
-(x1-x3)**2+(y1-y3)**2-(leftr)**2, \
-(x2-x4)**2+(y2-y4)**2-(rightr)**2, \
-(x1-x4)**2+(y1-y4)**2-len34**2-(leftr)**2, \
-(x2-x3)**2+(y2-y3)**2-len34**2-(rightr)**2, y1, x2, y2], \
-[x1, y1, x2, y2, x3, y3, x4, y4])
- 
-for i in range(len(answer)):
-    try:
-        g.es(answer[i])
-    except:
-        print(answer[i])
-        
-<script type="text/javascript" src="http://brython.info/src/brython_dist.js"></script>
-<script type="text/javascript" src="http://cptocadp-2015fallhw.rhcloud.com/static/Cango-8v03.js"></script>
-<script type="text/javascript" src="http://cptocadp-2015fallhw.rhcloud.com/static/Cango2D-6v13.js"></script>
-<script type="text/javascript" src="http://cptocadp-2015fallhw.rhcloud.com/static/CangoAxes-1v33.js"></script>
- 
-<script>
-window.onload=function(){
-brython(1);
-}
-</script>
- 
-<canvas id="plotarea" width="800" height="800"></canvas>
- 
-<script type="text/python">
-from javascript import JSConstructor
-from browser import alert
-from browser import window
-import math
- 
-cango = JSConstructor(window.Cango)
-cobj = JSConstructor(window.Cobj)
-shapedefs = window.shapeDefs
-obj2d = JSConstructor(window.Obj2D)
-cgo = cango("plotarea")
- 
-cgo.setWorldCoords(-250, -250, 500, 500) 
- 
-# 畫軸線
-cgo.drawAxes(0, 240, 0, 240, {
-    "strokeColor":"#aaaaaa",
-    "fillColor": "#aaaaaa",
-    "xTickInterval": 20,
-    "xLabelInterval": 20,
-    "yTickInterval": 20,
-    "yLabelInterval": 20})
- 
-deg = math.pi/180 
- 
-# 將繪製鏈條輪廓的內容寫成 class 物件
-class chain():
-    # 輪廓的外型設為 class variable
-    chamber = "M -6.8397, -1.4894             A 7, 7, 0, 1, 0, 6.8397, -1.4894             A 40, 40, 0, 0, 1, 6.8397, -18.511             A 7, 7, 0, 1, 0, -6.8397, -18.511             A 40, 40, 0, 0, 1, -6.8397, -1.4894 z"
-    #chamber = "M 0, 0 L 0, -20 z"
-    cgoChamber = window.svgToCgoSVG(chamber)
- 
-    def __init__(self, fillcolor="green", border=True, strokecolor= "tan", linewidth=2, scale=1):
-        self.fillcolor = fillcolor
-        self.border = border
-        self.strokecolor = strokecolor
-        self.linewidth = linewidth
-        self.scale = scale
- 
-    # 利用鏈條起點與終點定義繪圖
-    def basic(self, x1, y1, x2, y2):
-        self.x1 = x1
-        self.y1 = y1
-        self.x2 = x2
-        self.y2 = y2
-        # 注意, cgo.Chamber 為成員變數
-        cmbr = cobj(self.cgoChamber, "SHAPE", {
-                "fillColor": self.fillcolor,
-                "border": self.border,
-                "strokeColor": self.strokecolor,
-                "lineWidth": self.linewidth })
- 
-        # hole 為原點位置
-        hole = cobj(shapedefs.circle(4*self.scale), "PATH")
-        cmbr.appendPath(hole)
- 
-        # 複製 cmbr, 然後命名為 basic1
-        basic1 = cmbr.dup()
-        # 因為鏈條的角度由原點向下垂直, 所以必須轉 90 度, 再考量 atan2 的轉角
-        basic1.rotate(math.atan2(y2-y1, x2-x1)/deg+90)
- 
-        # 放大 scale 倍
-        cgo.render(basic1, x1, y1, self.scale, 0)
- 
-    # 利用鏈條起點與旋轉角度定義繪圖, 使用內定的 color, border 與 linewidth 變數
-    def basic_rot(self, x1, y1, rot, v=False):
-        # 若 v 為 True 則為虛擬 chain, 不 render
-        self.x1 = x1
-        self.y1 = y1
-        self.rot = rot
-        self.v = v
-        # 注意, cgoChamber 為成員變數
-        cmbr = cobj(self.cgoChamber, "SHAPE", {
-                "fillColor": self.fillcolor,
-                "border": self.border,
-                "strokeColor": self.strokecolor,
-                "lineWidth": self.linewidth })
- 
-        # hole0 為原點位置
-        hole = cobj(shapedefs.circle(4*self.scale), "PATH")
-        cmbr.appendPath(hole)
-        # 根據旋轉角度, 計算 x2 與 y2
-        x2 = x1 + 20*math.cos(rot*deg)*self.scale
-        y2 = y1 + 20*math.sin(rot*deg)*self.scale
- 
-        # 複製 cmbr, 然後命名為 basic1
-        basic1 = cmbr.dup()
-        # 因為鏈條的角度由原點向下垂直, 所以必須轉 90 度, 再考量 atan2 的轉角
-        basic1.rotate(rot+90)
- 
-        # 放大 scale 倍
-        if v == False:
-            cgo.render(basic1, x1, y1, self.scale, 0)
- 
-        return x2, y2
- 
-mychain = chain()
- 
-x1, y1 = mychain.basic_rot(-133.06,49.48, 20.78)
- 
-x2, y2=mychain.basic_rot(x1, y1,0.7800000000000011, True) 
-x3, y3=mychain.basic_rot(x2, y2,-19.22, True) 
-x4, y4=mychain.basic_rot(x3, y3,-39.22, True) 
-x5, y5=mychain.basic_rot(x4, y4,-59.22, True) 
-x6, y6=mychain.basic_rot(x5, y5,-79.22, True) 
-x7, y7=mychain.basic_rot(x6, y6,-99.22, True) 
-x8, y8=mychain.basic_rot(x7, y7,-119.22, True) 
-x9, y9=mychain.basic_rot(x8, y8,-139.22, True) 
-x10, y10=mychain.basic_rot(x9, y9,-159.22, True) 
-x11, y11=mychain.basic_rot(x10, y10,-179.22, True) 
-x12, y12=mychain.basic_rot(x11, y11,-199.22) 
-x13, y13=mychain.basic_rot(x12, y12,-219.22) 
-x14, y14=mychain.basic_rot(x13, y13,-239.22) 
-x15, y15=mychain.basic_rot(x14, y14,-259.22) 
-x16, y16=mychain.basic_rot(x15, y15,-279.22) 
-x17, y17=mychain.basic_rot(x16, y16,-299.22) 
-x18, y18=mychain.basic_rot(x17, y17,-319.22) 
- 
-#mychain = chain()
- 
-p1, k1 = mychain.basic_rot(82.11,93.98, 4.78)
-p2, k2=mychain.basic_rot(p1, k1,-7.219999999999999) 
-p3, k3=mychain.basic_rot(p2, k2,-19.22) 
-p4, k4=mychain.basic_rot(p3, k3,-31.22) 
-p5, k5=mychain.basic_rot(p4, k4,-43.22) 
-p6, k6=mychain.basic_rot(p5, k5,-55.22) 
-p7, k7=mychain.basic_rot(p6, k6,-67.22) 
-p8, k8=mychain.basic_rot(p7, k7,-79.22) 
-p9, k9=mychain.basic_rot(p8, k8,-91.22) 
-p10, k10=mychain.basic_rot(p9, k9,-103.22) 
-p11, k11=mychain.basic_rot(p10, k10,-115.22) 
-p12, k12=mychain.basic_rot(p11, k11,-127.22) 
-p13, k13=mychain.basic_rot(p12, k12,-139.22) 
-p14, k14=mychain.basic_rot(p13, k13,-151.22) 
-p15, k15=mychain.basic_rot(p14, k14,-163.22) 
-p16, k16=mychain.basic_rot(p15, k15,-175.22) 
-p17, k17=mychain.basic_rot(p16, k16,-187.22) 
-p18, k18=mychain.basic_rot(p17, k17,-199.22, True) 
-p19, k19=mychain.basic_rot(p18, k18,-211.22, True) 
-p20, k20=mychain.basic_rot(p19, k19,-223.22, True) 
-p21, k21=mychain.basic_rot(p20, k20,-235.22, True) 
-p22, k22=mychain.basic_rot(p21, k21,-247.22, True) 
-p23, k23=mychain.basic_rot(p22, k22,-259.22, True) 
-p24, k24=mychain.basic_rot(p23, k23,-271.22, True) 
-p25, k25=mychain.basic_rot(p24, k24,-283.22, True) 
-p26, k26=mychain.basic_rot(p25, k25,-295.22, True) 
-p27, k27=mychain.basic_rot(p26, k26,-307.22, True) 
-p28, k28=mychain.basic_rot(p27, k27,-319.22, True) 
-p29, k29=mychain.basic_rot(p28, k28,-331.22, True) 
-p30, k30=mychain.basic_rot(p29, k29,-343.22, True) 
- 
-m1, n1 = mychain.basic_rot(x1, y1, 10.78)
-m2, n2=mychain.basic_rot(m1, n1, 10.78)
-m3, n3=mychain.basic_rot(m2, n2, 10.78)
-m4, n4=mychain.basic_rot(m3, n3, 10.78)
-m5, n5=mychain.basic_rot(m4, n4, 10.78)
-m6, n6=mychain.basic_rot(m5, n5, 10.78)
-m7, n7=mychain.basic_rot(m6, n6, 10.78)
-m8, n8=mychain.basic_rot(m7, n7, 10.78)
-m9, n9=mychain.basic_rot(m8, n8, 10.78)
-m10, n10=mychain.basic_rot(m9, n9, 10.78)
- 
-r1, s1 = mychain.basic_rot(x11, y11, -10.78)
-r2, s2=mychain.basic_rot(r1, s1, -10.78)
-r3, s3=mychain.basic_rot(r2, s2, -10.78)
-r4, s4=mychain.basic_rot(r3, s3, -10.78)
-r5, s5=mychain.basic_rot(r4, s4, -10.78)
-r6, s6=mychain.basic_rot(r5, s5, -10.78)
-r7, s7=mychain.basic_rot(r6, s6, -10.78)
-r8, s8=mychain.basic_rot(r7, s7, -10.78)
-r9, s9=mychain.basic_rot(r8, s8, -10.78)
-r10, s10=mychain.basic_rot(r9, s9, -10.78)
-</script>
-
 from flask import Blueprint, request
  
-ag100 = Blueprint('ag100', __name__, url_prefix='/ag100', template_folder='templates')
+bg5_40323251_2 = Blueprint('bg5_40323251_2', __name__, url_prefix='/bg5_40323251_2', template_folder='templates')
  
 head_str = '''
 <!DOCTYPE html>
@@ -621,7 +392,7 @@ def eighteenthirty(x, y):
     x = 50
     y = 0
     degree = 20
-    first_degree = 20.78
+    first_degree = 20.78+30
     startx = -233.06+100
     starty = 49.48
     repeat = 360 / degree
@@ -644,10 +415,10 @@ x1, y1 = mychain.basic_rot('''+str(startx)+","+str(starty)+", "+str(first_degree
     # 接著處理右邊的非虛擬鍊條
     # 先畫出右邊第一關鍵節
  
-    p = -17.89+100
-    k = 93.98
+    p = -17.89+54
+    k = 93.98+104
     degree = 12
-    first_degree = 4.78
+    first_degree = 4.78+30
     repeat = 360 / degree
     # 第1節不是 virtual chain
     outstring += '''
@@ -665,7 +436,7 @@ p1, k1 = mychain.basic_rot('''+str(p)+","+str(k)+", "+str(first_degree)+''')
  
     # 上段連接直線
     # 從 x1, y1 作為起點
-    first_degree = 10.78
+    first_degree = 10.78+30
     repeat = 10
     outstring += '''
 m1, n1 = mychain.basic_rot(x1, y1, '''+str(first_degree)+''')
@@ -675,7 +446,7 @@ m1, n1 = mychain.basic_rot(x1, y1, '''+str(first_degree)+''')
  
     # 下段連接直線
     # 從 x11, y11 作為起點
-    first_degree = -10.78
+    first_degree = -10.78+30
     repeat = 10
     outstring += '''
 r1, s1 = mychain.basic_rot(x11, y11, '''+str(first_degree)+''')
@@ -686,50 +457,50 @@ r1, s1 = mychain.basic_rot(x11, y11, '''+str(first_degree)+''')
     return outstring
  
  
-@ag100.route('/a')
+@bg5_40323251_2.route('/a')
 def draw_a():
     return head_str + chain_str + a(0, 0) + tail_str
  
  
-@ag100.route('/b')
+@bg5_40323251_2.route('/b')
 def draw_b():
    # 每個橫向字元距離為 65 pixels, 上下字距則為 110 pixels
     return head_str + chain_str + b(0+65, 0) + tail_str
  
  
-@ag100.route('/c')
+@bg5_40323251_2.route('/c')
 def draw_c():
     # 每個橫向字元距離為 65 pixels
     return head_str + chain_str + c(0+65*2, 0) + tail_str
  
  
-@ag100.route('/d')
+@bg5_40323251_2.route('/d')
 def draw_d():
     return head_str + chain_str + d(0+65*3, 0) + tail_str
  
  
-@ag100.route('/ab')
+@bg5_40323251_2.route('/ab')
 def draw_ab():
     #return head_str + chain_str + a(0, 0) + b(0+65, 0) + tail_str
     return head_str + chain_str + a(0, 0) + b(0, 0-110) + tail_str
  
  
-@ag100.route('/ac')
+@bg5_40323251_2.route('/ac')
 def draw_ac():
     return head_str + chain_str + a(0, 0) + c(0+65, 0) + tail_str
  
  
-@ag100.route('/bc')
+@bg5_40323251_2.route('/bc')
 def draw_bc():
     return head_str + chain_str + b(0, 0) + c(0+65, 0) + tail_str
  
  
-@ag100.route('/abc')
+@bg5_40323251_2.route('/abc')
 def draw_abc():
     return head_str + chain_str + a(0, 0) + b(0+65, 0) + c(0+65*2, 0) + tail_str
  
  
-@ag100.route('/aaaa')
+@bg5_40323251_2.route('/aaaa')
 def draw_aaaa():
     outstring = head_str + chain_str
     scale = 2
@@ -740,51 +511,51 @@ def draw_aaaa():
     #return head_str + chain_str + a(0, 0, scale=1) + a(0+65, 0, scale=0.8, color="red") + a(0+65*2, 0, scale=0.6) + a(0+65*3, 0, scale=0.4, color="red") + tail_str
  
  
-@ag100.route('/badc')
+@bg5_40323251_2.route('/badc')
 def draw_badc():
     return head_str + chain_str + b(0, 0) + a(0+65, 0) + d(0+65*2, 0) + c(0+65*3, 0) + tail_str
  
  
-@ag100.route('/abcd')
+@bg5_40323251_2.route('/abcd')
 def draw_abcd():
     #return head_str + chain_str + a(0, 0) + b(0+65, 0) + c(0+65*2, 0) + d(0+65*3, 0) + tail_str
     return head_str + chain_str + a(0, 110) + b(0, 110-110) + c(0, 110-110*2) + d(0, 110-110*3) + tail_str
  
  
-@ag100.route('/circle')
+@bg5_40323251_2.route('/circle')
 def drawcircle():
     return head_str + chain_str + circle(0, 0) + tail_str
  
  
-@ag100.route('/circle1/<degree>', defaults={'x': 0, 'y': 0})
-@ag100.route('/circle1/<x>/<degree>', defaults={'y': 0})
-@ag100.route('/circle1/<x>/<y>/<degree>')
-#@ag100.route('/circle1/<int:x>/<int:y>/<int:degree>')
+@bg5_40323251_2.route('/circle1/<degree>', defaults={'x': 0, 'y': 0})
+@bg5_40323251_2.route('/circle1/<x>/<degree>', defaults={'y': 0})
+@bg5_40323251_2.route('/circle1/<x>/<y>/<degree>')
+#@bg5_40323251_2.route('/circle1/<int:x>/<int:y>/<int:degree>')
 def drawcircle1(x,y,degree):
     return head_str + chain_str + circle1(int(x), int(y), int(degree)) + tail_str
  
  
-@ag100.route('/circle2/<degree>', defaults={'x': 0, 'y': 0})
-@ag100.route('/circle2/<x>/<degree>', defaults={'y': 0})
-@ag100.route('/circle2/<x>/<y>/<degree>')
-#@ag100.route('/circle2/<int:x>/<int:y>/<int:degree>')
+@bg5_40323251_2.route('/circle2/<degree>', defaults={'x': 0, 'y': 0})
+@bg5_40323251_2.route('/circle2/<x>/<degree>', defaults={'y': 0})
+@bg5_40323251_2.route('/circle2/<x>/<y>/<degree>')
+#@bg5_40323251_2.route('/circle2/<int:x>/<int:y>/<int:degree>')
 def drawcircle2(x,y,degree):
     return head_str + chain_str + circle2(int(x), int(y), int(degree)) + tail_str
  
  
-@ag100.route('/twocircle/<x>/<y>')
-@ag100.route('/twocircle', defaults={'x':0, 'y':0})
+@bg5_40323251_2.route('/twocircle/<x>/<y>')
+@bg5_40323251_2.route('/twocircle', defaults={'x':0, 'y':0})
 def drawtwocircle(x,y):
     return head_str + chain_str + twocircle(int(x), int(y)) + tail_str
  
  
-@ag100.route('/eighteenthirty/<x>/<y>')
-@ag100.route('/eighteenthirty', defaults={'x':0, 'y':0})
+@bg5_40323251_2.route('/eighteenthirty/<x>/<y>')
+@bg5_40323251_2.route('/eighteenthirty', defaults={'x':0, 'y':0})
 def draweithteenthirdy(x,y):
     return head_str + chain_str + eighteenthirty(int(x), int(y)) + tail_str
  
  
-@ag100.route('/snap')
+@bg5_40323251_2.route('/snap')
 # http://svg.dabbles.info/snaptut-base
 def snap():
     outstring = '''
@@ -863,7 +634,7 @@ document['tux'].bind('mouseleave', hoverout)
     return outstring
  
  
-@ag100.route('/snap_link')
+@bg5_40323251_2.route('/snap_link')
 # http://svg.dabbles.info/
 def snap_link():
     outstring = '''
@@ -945,7 +716,7 @@ g4.animate( { 'transform' : 'r360,25,25' },4000)
     return outstring
  
  
-@ag100.route('/snap_gear')
+@bg5_40323251_2.route('/snap_gear')
 def snap_gear():
     outstring = '''
 <!DOCTYPE html>
