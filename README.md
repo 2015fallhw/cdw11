@@ -5,7 +5,7 @@
 
 所有協同內容衝突請直接在 github 倉儲中解決, OpenShift 對應平台僅用來執行本倉儲的最新程式版本
 
-各組員相關內容回報請利用 http://cdw11-ag100.rhcloud.com/static/
+各組員相關內容回報請利用 http://cdw11-ag100.rhcloud.com/static/blog/category/ag100.html (ag100 代表 a 班 g100 組)
 
 期中成績驗證:
 
