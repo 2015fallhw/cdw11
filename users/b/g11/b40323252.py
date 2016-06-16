@@ -1,6 +1,6 @@
 from flask import Blueprint, request
  
-bg11 = Blueprint('bg11', __name__, url_prefix='/bg11', template_folder='templates')
+bg11_1 = Blueprint('bg11_1', __name__, url_prefix='/bg11_1', template_folder='templates')
  
 head_str = '''
 <!DOCTYPE html>
@@ -392,9 +392,9 @@ def eighteenthirty(x, y):
     #x = 50
     #y = 0
     degree = 20
-    first_degree = 20.78
-    startx = -233.06+100+x
-    starty = 49.48+y
+    first_degree = 20.78 +90
+    startx = -48.57+100+x
+    starty = -58.70-50+y
     repeat = 360 / degree
     # 先畫出左邊第一關鍵節
     outstring = '''
@@ -415,10 +415,10 @@ x1, y1 = mychain.basic_rot('''+str(startx)+","+str(starty)+", "+str(first_degree
     # 接著處理右邊的非虛擬鍊條
     # 先畫出右邊第一關鍵節
  
-    p = -17.89+100+x
-    k = 93.98+y
+    p = -93.98+100+x
+    k = 161.77-50+y
     degree = 12
-    first_degree = 4.78
+    first_degree = 4.78+90
     repeat = 360 / degree
     # 第1節不是 virtual chain
     outstring += '''
@@ -436,7 +436,7 @@ p1, k1 = mychain.basic_rot('''+str(p)+","+str(k)+", "+str(first_degree)+''')
  
     # 上段連接直線
     # 從 x1, y1 作為起點
-    first_degree = 10.78
+    first_degree = 10.78+90
     repeat = 10
     outstring += '''
 m1, n1 = mychain.basic_rot(x1, y1, '''+str(first_degree)+''')
@@ -446,7 +446,7 @@ m1, n1 = mychain.basic_rot(x1, y1, '''+str(first_degree)+''')
  
     # 下段連接直線
     # 從 x11, y11 作為起點
-    first_degree = -10.78
+    first_degree = -10.78+90.5
     repeat = 10
     outstring += '''
 r1, s1 = mychain.basic_rot(x11, y11, '''+str(first_degree)+''')
@@ -457,50 +457,50 @@ r1, s1 = mychain.basic_rot(x11, y11, '''+str(first_degree)+''')
     return outstring
  
  
-@bg11.route('/a')
+@bg11_1.route('/a')
 def draw_a():
     return head_str + chain_str + a(0, 0) + tail_str
  
  
-@bg11.route('/b')
+@bg11_1.route('/b')
 def draw_b():
    # 每個橫向字元距離為 65 pixels, 上下字距則為 110 pixels
     return head_str + chain_str + b(0+65, 0) + tail_str
  
  
-@bg11.route('/c')
+@bg11_1.route('/c')
 def draw_c():
     # 每個橫向字元距離為 65 pixels
     return head_str + chain_str + c(0+65*2, 0) + tail_str
  
  
-@bg11.route('/d')
+@bg11_1.route('/d')
 def draw_d():
     return head_str + chain_str + d(0+65*3, 0) + tail_str
  
  
-@bg11.route('/ab')
+@bg11_1.route('/ab')
 def draw_ab():
     #return head_str + chain_str + a(0, 0) + b(0+65, 0) + tail_str
     return head_str + chain_str + a(0, 0) + b(0, 0-110) + tail_str
  
  
-@bg11.route('/ac')
+@bg11_1.route('/ac')
 def draw_ac():
     return head_str + chain_str + a(0, 0) + c(0+65, 0) + tail_str
  
  
-@bg11.route('/bc')
+@bg11_1.route('/bc')
 def draw_bc():
     return head_str + chain_str + b(0, 0) + c(0+65, 0) + tail_str
  
  
-@bg11.route('/abc')
+@bg11_1.route('/abc')
 def draw_abc():
     return head_str + chain_str + a(0, 0) + b(0+65, 0) + c(0+65*2, 0) + tail_str
  
  
-@bg11.route('/aaaa')
+@bg11_1.route('/aaaa')
 def draw_aaaa():
     outstring = head_str + chain_str
     scale = 2
@@ -511,51 +511,51 @@ def draw_aaaa():
     #return head_str + chain_str + a(0, 0, scale=1) + a(0+65, 0, scale=0.8, color="red") + a(0+65*2, 0, scale=0.6) + a(0+65*3, 0, scale=0.4, color="red") + tail_str
  
  
-@bg11.route('/badc')
+@bg11_1.route('/badc')
 def draw_badc():
     return head_str + chain_str + b(0, 0) + a(0+65, 0) + d(0+65*2, 0) + c(0+65*3, 0) + tail_str
  
  
-@bg11.route('/abcd')
+@bg11_1.route('/abcd')
 def draw_abcd():
     #return head_str + chain_str + a(0, 0) + b(0+65, 0) + c(0+65*2, 0) + d(0+65*3, 0) + tail_str
     return head_str + chain_str + a(0, 110) + b(0, 110-110) + c(0, 110-110*2) + d(0, 110-110*3) + tail_str
  
  
-@bg11.route('/circle')
+@bg11_1.route('/circle')
 def drawcircle():
     return head_str + chain_str + circle(0, 0) + tail_str
  
  
-@bg11.route('/circle1/<degree>', defaults={'x': 0, 'y': 0})
-@bg11.route('/circle1/<x>/<degree>', defaults={'y': 0})
-@bg11.route('/circle1/<x>/<y>/<degree>')
+@bg11_1.route('/circle1/<degree>', defaults={'x': 0, 'y': 0})
+@bg11_1.route('/circle1/<x>/<degree>', defaults={'y': 0})
+@bg11_1.route('/circle1/<x>/<y>/<degree>')
 #@bg11.route('/circle1/<int:x>/<int:y>/<int:degree>')
 def drawcircle1(x,y,degree):
     return head_str + chain_str + circle1(int(x), int(y), int(degree)) + tail_str
  
  
-@bg11.route('/circle2/<degree>', defaults={'x': 0, 'y': 0})
-@bg11.route('/circle2/<x>/<degree>', defaults={'y': 0})
-@bg11.route('/circle2/<x>/<y>/<degree>')
+@bg11_1.route('/circle2/<degree>', defaults={'x': 0, 'y': 0})
+@bg11_1.route('/circle2/<x>/<degree>', defaults={'y': 0})
+@bg11_1.route('/circle2/<x>/<y>/<degree>')
 #@bg11.route('/circle2/<int:x>/<int:y>/<int:degree>')
 def drawcircle2(x,y,degree):
     return head_str + chain_str + circle2(int(x), int(y), int(degree)) + tail_str
  
  
-@bg11.route('/twocircle/<x>/<y>')
-@bg11.route('/twocircle', defaults={'x':0, 'y':0})
+@bg11_1.route('/twocircle/<x>/<y>')
+@bg11_1.route('/twocircle', defaults={'x':0, 'y':0})
 def drawtwocircle(x,y):
     return head_str + chain_str + twocircle(int(x), int(y)) + tail_str
  
  
-@bg11.route('/eighteenthirty/<x>/<y>')
-@bg11.route('/eighteenthirty', defaults={'x':0, 'y':0})
+@bg11_1.route('/eighteenthirty/<x>/<y>')
+@bg11_1.route('/eighteenthirty', defaults={'x':0, 'y':0})
 def draweithteenthirdy(x,y):
     return head_str + chain_str + eighteenthirty(int(x), int(y)) + tail_str
  
  
-@bg11.route('/snap')
+@bg11_1.route('/snap')
 # http://svg.dabbles.info/snaptut-base
 def snap():
     outstring = '''
@@ -634,7 +634,7 @@ document['tux'].bind('mouseleave', hoverout)
     return outstring
  
  
-@bg11.route('/snap_link')
+@bg11_1.route('/snap_link')
 # http://svg.dabbles.info/
 def snap_link():
     outstring = '''
@@ -716,7 +716,7 @@ g4.animate( { 'transform' : 'r360,25,25' },4000)
     return outstring
  
  
-@bg11.route('/snap_gear')
+@bg11_1.route('/snap_gear')
 def snap_gear():
     outstring = '''
 <!DOCTYPE html>
@@ -755,7 +755,7 @@ s.line(0, 0, 100, 100).attr({ 'fill': "silver", 'stroke': "black", 'strokeWidth'
 </html>
 '''
     return outstring
-@bg11.route('/gearf')
+@bg11_1.route('/gearf')
 def gearf():
     outstring = '''
 <!DOCTYPE html>
@@ -860,9 +860,9 @@ def spur(cx, cy, m, n, pa, theta):
     cgo.render(Line)
  
 # 3個齒輪的齒數
-n1 = 10
+n1 = 20
 n2 = 12
-n3 = 14
+n3 = 18
 n4 = 16
  
 # m 為模數, 根據畫布的寬度, 計算適合的模數大小

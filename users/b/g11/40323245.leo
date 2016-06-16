@@ -22,7 +22,12 @@
 </v>
 <v t="amd.20160501215942.1" a="E"><vh>@path content/b/g11</vh>
 <v t="leo.20160505085006.1"><vh>@edit 40323245-20160519.md</vh></v>
+<<<<<<< HEAD
 <v t="leo.20160616091538.1"><vh>@edit 40323245-20160602.md</vh></v>
+=======
+<v t="leo.20160616082924.1"><vh>@edit 40323245-20160616.md</vh></v>
+<v t="leo.20160526080958.1"><vh>@edit 40323245-20160512.md</vh></v>
+>>>>>>> 0938d723a107da0d6a466fc5434d508514303891
 <v t="leo.20160526081023.1"><vh>@edit 40323245-20160505.md</vh></v>
 </v>
 </v>
@@ -31,7 +36,11 @@
 <v t="amd.20160501215545.1" a="E"><vh>wsgi 程式部份</vh>
 <v t="leo.20160512105051.1" a="E"><vh>@clean bg11_40323245_1.py</vh>
 <v t="leo.20160512111926.1"><vh>bg11_40323245_1 declarations</vh></v>
+<<<<<<< HEAD
 <v t="leo.20160616091417.1"><vh>gear</vh></v>
+=======
+<v t="leo.20160616082222.1"><vh>zxc</vh></v>
+>>>>>>> 0938d723a107da0d6a466fc5434d508514303891
 <v t="leo.20160512111926.2"><vh>a</vh></v>
 <v t="leo.20160512111926.3"><vh>b</vh></v>
 <v t="leo.20160512111926.4"><vh>c</vh></v>
@@ -193,7 +202,7 @@ app.register_blueprint(users.b.g5.b40323206_cdw11_2.bg5_40323206_2)
 #bg11
 app.register_blueprint(users.b.g11.bg11_40323245.bg11_40323245)
 app.register_blueprint(users.b.g11.bg11_40323252.bg11_40323252)
-app.register_blueprint(users.b.g11.bg11_40323245_1.bg11)
+app.register_blueprint(users.b.g11.bg11.bg11_40323245_1)
 #bg101
 app.register_blueprint(users.b.g101.b40123200.bg101)
 
@@ -443,7 +452,7 @@ import users.b.g5.b40323206_cdw11_2
 #bg11
 import users.b.g11.bg11_40323245
 import users.b.g11.bg11_40323252
-import users.b.g11.bg11_40323245_1
+import users.b.g11.bg11
 #bg101
 import users.b.g101.b40123200
 #ag7
@@ -1528,9 +1537,16 @@ r1, s1 = mychain.basic_rot(p13, k13, '''+str(first_degree)+''')
  
     return outstring
 </t>
+<<<<<<< HEAD
 <t tx="leo.20160616091417.1">@bg11.route('/gear')
 def gear():
     outstring = '''
+=======
+<t tx="leo.20160616082222.1">@bg11.route('/zxc')
+def draw_zxc():
+ 
+outstring = '''
+>>>>>>> 0938d723a107da0d6a466fc5434d508514303891
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -1549,6 +1565,7 @@ brython(1);
 }
 &lt;/script&gt;
  
+<<<<<<< HEAD
 &lt;canvas id='gear1' width='800' height='750'&gt;&lt;/canvas&gt;
  
 &lt;script type="text/python"&gt;
@@ -1637,17 +1654,46 @@ n1 = 10
 n2 = 12
 n3 = 14
 n4 = 16
+=======
+&lt;div id="container"&gt;&lt;/div&gt;
+ 
+&lt;script type="text/python" src="http://cadlab.mde.tw/post/by/spur.js" id="spurmain"&gt;&lt;/script&gt;
+ 
+&lt;script type="text/python"&gt;
+import spurmain
+from browser import document, html
+# 利用 Brython 的 document 建立一個 id 為 container 的 div 區域, 然後在其中放入對應的 html 標註
+container = document['container']
+# 3個齒輪的齒數
+n1 = 17
+n2 = 29
+n3 = 15
+# 根據繪圖的 3 個齒輪大小計算所需的畫布高度
+height = 1.2*800*0.8/(int(n1)+int(n2)+int(n3))*max([int(n1), int(n2), int(n3)])
+# 決定畫布的 id 字串
+id = "gear"
+# 利用 Brython 的 html 方法建立 CANVAS
+canvas = html.CANVAS(id=id, width=800, height=height)
+ 
+# 將所建立的 canvas 畫布標註放入 container
+container &lt;= canvas
+>>>>>>> 0938d723a107da0d6a466fc5434d508514303891
  
 # m 為模數, 根據畫布的寬度, 計算適合的模數大小
 # Module = mm of pitch diameter per tooth
 # 利用 80% 的畫布寬度進行繪圖
 # 計算模數的對應尺寸
+<<<<<<< HEAD
 m = canvas.width*0.8/(n1+n2+n3+n4)
+=======
+m = canvas.width*0.8/(n1+n2+n3)
+>>>>>>> 0938d723a107da0d6a466fc5434d508514303891
  
 # 根據齒數與模組計算各齒輪的節圓半徑
 pr1 = n1*m/2
 pr2 = n2*m/2
 pr3 = n3*m/2
+<<<<<<< HEAD
 pr4 = n4*m/2
 # 畫布左右兩側都保留畫布寬度的 10%
 # 依此計算對應的最左邊齒輪的軸心座標
@@ -1657,6 +1703,8 @@ cy = canvas.height/2
 # pa 為壓力角
 pa = 25
  
+=======
+>>>>>>> 0938d723a107da0d6a466fc5434d508514303891
  
 # 畫布左右兩側都保留畫布寬度的 10%
 # 依此計算對應的最左邊齒輪的軸心座標
@@ -1666,16 +1714,29 @@ cy = canvas.height/2
 # pa 為壓力角
 pa = 25
  
+<<<<<<< HEAD
 # 畫最左邊齒輪, 定位線旋轉角為 0, 軸心座標 (cx, cy)
 spur(cx, cy, m, n1, pa, 0)
 # 第2個齒輪將原始的定位線逆時鐘轉 180 度後, 與第1個齒輪正好齒頂與齒頂對齊
 # 只要第2個齒輪再逆時鐘或順時鐘轉動半齒的角度, 即可完成囓合
 # 每一個齒分別包括從齒根到齒頂的範圍, 涵蓋角度為 360/n, 因此所謂的半齒角度為 180/n
 spur(cx+pr1+pr2, cy, m, n2, pa, 180-180/n2)
+=======
+# 這裡的齒輪繪圖以所導入的 spurmain 模組中的 Spur 類別建立對應的 gear 變數, 且宣告畫布 id
+gear = spurmain.Spur(id)
+ 
+# 畫最左邊齒輪, 定位線旋轉角為 0, 軸心座標 (cx, cy)
+gear.spur(cx, cy, m, n1, pa, 0)
+# 第2個齒輪將原始的定位線逆時鐘轉 180 度後, 與第1個齒輪正好齒頂與齒頂對齊
+# 只要第2個齒輪再逆時鐘或順時鐘轉動半齒的角度, 即可完成囓合
+# 每一個齒分別包括從齒根到齒頂的範圍, 涵蓋角度為 360/n, 因此所謂的半齒角度為 180/n
+gear.spur(cx+pr1+pr2, cy, m, n2, pa, 180-180/n2)
+>>>>>>> 0938d723a107da0d6a466fc5434d508514303891
 # 第2齒與第3齒的囓合, 首先假定第2齒的定位線在 theta 角為 0 的原始位置
 # 如此, 第3齒只要逆時鐘旋轉 180 度後, 再逆時鐘或順時鐘轉動半齒的角度, 即可與第2齒囓合
 # 但是第2齒為了與第一齒囓合時, 已經從原始定位線轉了 180-180/n2 度
 # 而當第2齒從與第3齒囓合的定位線, 逆時鐘旋轉 180-180/n2 角度後, 原先囓合的第3齒必須要再配合旋轉 (180-180/n2 )*n2/n3
+<<<<<<< HEAD
 spur(cx+pr1+pr2+pr2+pr3, cy, m, n3, pa, 180-180/n3+(180-180/n2)*n2/n3)
  
 spur(cx+pr1+pr2+pr2+pr3+pr3+pr4, cy, m, n4, pa, 180-180/n3*n3/n4+(180-180/n2)*n2/n3*n3/n4+(180-180/n3)*n3/n4)
@@ -1692,6 +1753,10 @@ var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s)
 &lt;/script&gt;
 &lt;/body&gt;
 &lt;/html&gt;
+=======
+gear.spur(cx+pr1+pr2+pr2+pr3, cy, m, n3, pa, 180-180/n3+(180-180/n2)*n2/n3)
+&lt;/script&gt;
+>>>>>>> 0938d723a107da0d6a466fc5434d508514303891
 '''
     return outstring</t>
 </tnodes>
