@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>CDW11 網頁 (虎尾科大MDE)</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/" rel="alternate"></link><link href="http://cdw11-ag100.rhcloud.com/static/blog/feeds/ag1.atom.xml" rel="self"></link><id>http://cdw11-ag100.rhcloud.com/static/blog/</id><updated>2016-06-16T15:25:58+08:00</updated><entry><title>40123145 cdw11 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40123145-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T15:25:58+08:00</updated><author><name>40123145</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40123145-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>CDW11 網頁 (虎尾科大MDE)</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/" rel="alternate"></link><link href="http://cdw11-ag100.rhcloud.com/static/blog/feeds/ag1.atom.xml" rel="self"></link><id>http://cdw11-ag100.rhcloud.com/static/blog/</id><updated>2016-06-16T20:35:59+08:00</updated><entry><title>40123145 cdw11 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40123145-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T20:35:59+08:00</updated><author><name>40123145</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40123145-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
 
 
 &lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-ag100.rhcloud.com/static/"&gt;http://cdw11-ag100.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
@@ -9,7 +9,16 @@
 &lt;p&gt;請各組在 CDW11 下課前完成下列3個圖形的零件組合繪圖:&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_4a.png" width="100%" /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_badc.png" width="100%" /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40123145"></category><category term="cdw11"></category></entry><entry><title>40323105 final 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323105-final-bao-gao.html" rel="alternate"></link><updated>2016-06-16T15:25:58+08:00</updated><author><name>40323105</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40323105-final-bao-gao.html</id><summary type="html">&lt;p&gt;1.繪出2D齒輪&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40123145"></category><category term="cdw11"></category></entry><entry><title>40323105 期末報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323105-qi-mo-bao-gao.html" rel="alternate"></link><updated>2016-06-16T20:35:59+08:00</updated><author><name>40323105</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40323105-qi-mo-bao-gao.html</id><summary type="html">&lt;p&gt;Leo架構部分&lt;/p&gt;
+&lt;p&gt;1.如圖所示&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://imgur.com/r2ebxBV.jpg" width="80%" /&gt;&lt;/p&gt;
+&lt;p&gt;2.建立畫布&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://imgur.com/S26LXG1.jpg" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;3.註冊&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://imgur.com/h9qWvyL.jpg" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://imgur.com/1cUyU6G.jpg" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;齒輪及鍊條部分&lt;/p&gt;
+&lt;p&gt;1.繪出2D齒輪&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://cdw13-40323105.rhcloud.com/a40323105/ag1_2D"&gt;http://cdw13-40323105.rhcloud.com/a40323105/ag1_2D&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://imgur.com/t3D6G9C.jpg" width="100%" /&gt;&lt;/p&gt;
 &lt;p&gt;2.繪出3D嚙合齒輪&lt;/p&gt;
@@ -29,7 +38,23 @@
 &lt;p&gt;&lt;a href="https://cad.onshape.com/documents/3c6654b66598ba5c8b705139/w/5a56bdaca9b01b12352faf0e/e/58c7aa53c24011e473149e43"&gt;https://cad.onshape.com/documents/3c6654b66598ba5c8b705139/w/5a56bdaca9b01b12352faf0e/e/58c7aa53c24011e473149e43&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Tooth angle  必須要調整,不然在嚙合時會發生干涉&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://imgur.com/fR09Xp7.jpg" width="75%" /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="http://imgur.com/xmPS6Ph.jpg" width="75%" /&gt;&lt;/p&gt;</summary><category term="40323105"></category><category term="cdw11"></category></entry><entry><title>40323105 cdw11 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323105-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T15:25:57+08:00</updated><author><name>40323105</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40323105-cdw11-bao-gao.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+&lt;p&gt;&lt;img src="http://imgur.com/xmPS6Ph.jpg" width="75%" /&gt;&lt;/p&gt;
+&lt;p&gt;第三個 --- 四齒嚙合&lt;/p&gt;
+&lt;p&gt;將齒數設定為10齒,20齒,25齒,35齒~&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cad.onshape.com/documents/86fd9d81eea4d1b5476e2c0a/w/edfaeb51623e755ef318f199/e/573651dde4d2729de24f0e8b "&gt;https://cad.onshape.com/documents/86fd9d81eea4d1b5476e2c0a/w/edfaeb51623e755ef318f199/e/573651dde4d2729de24f0e8b&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://imgur.com/VNI3gx4.jpg" width="75%" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://imgur.com/2ei9Pn2.jpg" width="75%" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://imgur.com/IeLV8qK.jpg" width="75%" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://imgur.com/xq1stPI.jpg" width="75%" /&gt;&lt;/p&gt;
+&lt;p&gt;設定完齒數後組裝&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://imgur.com/hC7jGH2.jpg" width="85%" /&gt;&lt;/p&gt;
+&lt;p&gt;組裝完之後要調整tooth  angle  ,並調整轉向就OK了&lt;/p&gt;
+&lt;p&gt;心得：
+這次要繪出鍊條2D以及齒輪的2D.3D,而齒輪的2D我先複製老師的程式碼,
+每個齒輪中間都繪有一條橫線,顏色為blue,寬度為1,而我將線條的顏色改為red,寬度為5。在齒輪3D的部分,首先先用同齒的下去弄，好了之後再用不同齒的嚙合，兩者皆完成之後再畫出2齒以上嚙合，但是不知道為甚麼當我齒3嚙合齒4的時候好像有錯誤,目前還在解決中,我發現當我在設定齒數的時候,模數也會跟著變,且在組合的時候,tooth  angle也是要設定的,不然會干涉,轉速比也要調整。&lt;/p&gt;
+&lt;p&gt;不僅是齒輪,現在因為兩班一起弄一個倉儲,所以有時候近端開不起來,而我通常都是在班級倉儲裡面做的.所以這時候就會很麻煩,也讓我知道了要自己建一個屬於自己的倉儲會比較安全。&lt;/p&gt;
+&lt;p&gt;另外在做報告的時候,顯示了utf-8的警告,一開始是沒有的,後來出現了,我那時就在想是不是我修改到別人的md檔,之後我再重新clone後,就OK了,所以我想應該是這個原因&lt;/p&gt;
+&lt;p&gt;自評：75&lt;/p&gt;</summary><category term="40323105"></category><category term="cdw11"></category></entry><entry><title>40323105 cdw11 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323105-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-16T20:35:59+08:00</updated><author><name>40323105</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40323105-cdw11-bao-gao.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
 &lt;p&gt;cdw11任務&lt;/p&gt;
 &lt;p&gt;1.繪出AAAA&lt;/p&gt;
@@ -62,7 +87,7 @@
 &lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-ag100.rhcloud.com/static/"&gt;http://cdw11-ag100.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;分組程式: &lt;a href="http://cdw11-ag100.rhcloud.com/option"&gt;http://cdw11-ag100.rhcloud.com/option&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;fileuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/fileuploadform"&gt;http://cdw11-ag100.rhcloud.com/fileuploadform&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;imageuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/imageuploadform"&gt;http://cdw11-ag100.rhcloud.com/imageuploadform&lt;/a&gt;&lt;/p&gt;</summary><category term="40323105"></category><category term="cdw11"></category></entry><entry><title>40323105 cdw11 期中報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323105-cdw11-qi-zhong-bao-gao.html" rel="alternate"></link><updated>2016-06-16T15:25:57+08:00</updated><author><name>40323105</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40323105-cdw11-qi-zhong-bao-gao.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+&lt;p&gt;imageuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/imageuploadform"&gt;http://cdw11-ag100.rhcloud.com/imageuploadform&lt;/a&gt;&lt;/p&gt;</summary><category term="40323105"></category><category term="cdw11"></category></entry><entry><title>40323105 cdw11 期中報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323105-cdw11-qi-zhong-bao-gao.html" rel="alternate"></link><updated>2016-06-16T20:35:59+08:00</updated><author><name>40323105</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40323105-cdw11-qi-zhong-bao-gao.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
 &lt;p&gt;cdw11任務&lt;/p&gt;
 &lt;p&gt;1.繪出AAAA&lt;/p&gt;
