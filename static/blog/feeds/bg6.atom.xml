@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <feed xmlns="http://www.w3.org/2005/Atom"><title>CDW11 網頁 (虎尾科大MDE)</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/" rel="alternate"></link><link href="http://cdw11-ag100.rhcloud.com/static/blog/feeds/bg6.atom.xml" rel="self"></link><id>http://cdw11-ag100.rhcloud.com/static/blog/</id><updated>2016-06-16T21:58:49+08:00</updated><entry><title>40323248 cdw11報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323248-cdw11bao-gao.html" rel="alternate"></link><updated>2016-06-16T21:58:49+08:00</updated><author><name>40323248</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40323248-cdw11bao-gao.html</id><summary type="html">&lt;p&gt;cdw11
+=======
+<feed xmlns="http://www.w3.org/2005/Atom"><title>CDW11 網頁 (虎尾科大MDE)</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/" rel="alternate"></link><link href="http://cdw11-ag100.rhcloud.com/static/blog/feeds/bg6.atom.xml" rel="self"></link><id>http://cdw11-ag100.rhcloud.com/static/blog/</id><updated>2016-06-16T23:27:27+08:00</updated><entry><title>40323248 cdw11報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323248-cdw11bao-gao.html" rel="alternate"></link><updated>2016-06-16T23:27:27+08:00</updated><author><name>40323248</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40323248-cdw11bao-gao.html</id><summary type="html">&lt;p&gt;cdw11
+>>>>>>> f97315b1d9193f30d38d2778b6d35efc2d396461
 &lt;/p&gt;
 &lt;p&gt;&lt;img src="http://i.imgur.com/cQkRl5L.png"&gt; &lt;/p&gt;</summary><category term="40323248"></category></entry></feed>
