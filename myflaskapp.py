@@ -623,6 +623,6 @@ app.register_blueprint(users.b.g3.bg3_40123250_cdw14.b40123250_1)
 app.register_blueprint(users.b.g3.bg3_40123224_cdw14.b40123224_1)
 
 #bg6
-app.register_blueprint(users.b.g6.bg6_40323248.bg6_4032323248)
+app.register_blueprint(users.b.g6.bg6_40323248.bg6_40323248)
 
 
