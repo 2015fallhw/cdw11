@@ -89,23 +89,21 @@ import users.b.g5.b40323204_cdw11_1
 import users.b.g5.b40323204_cdw11_2
 import users.b.g5.b40323206_cdw11_2
 
-#<<<<<<< HEAD
 #bg10
 import users.b.g10.bg10_40328245
 import users.b.g10.bg10_40328242
 import users.b.g10.bg10_40323241
 import users.b.g10.bg10_40323222
-#=======
-#>>>>>>> 21a6f9df1026a1a4917e4f466e1f4e276fc8a118
 
 #bg11
 
 import users.b.g11.bg11_40323252
-#import users.b.g11.bg11_40323245_1
+import users.b.g11.bg11_40323245_2
 import users.b.g11.b40323252
 import users.b.g11.bg11_40323245
-#import users.b.g11.bg11_40323245_1
 import users.b.g11.b40323252
+import users.b.g11.bg11_40323247
+import users.b.g11.bg11_40323247_2
 
 #bg101
 import users.b.g101.b40123200
@@ -598,14 +596,11 @@ app.register_blueprint(users.b.g10.bg10_40323222.bg10_40323222)
 #bg11
 app.register_blueprint(users.b.g11.bg11_40323245.bg11_40323245)
 app.register_blueprint(users.b.g11.bg11_40323252.bg11_40323252)
-#app.register_blueprint(users.b.g11.bg11.bg11_40323245_1)
-#app.register_blueprint(users.b.g11.bg11_40323245_1.bg11)
+app.register_blueprint(users.b.g11.bg11_40323245_2.bg11)
 app.register_blueprint(users.b.g11.b40323252.bg11_1)
+app.register_blueprint(users.b.g11.bg11_40323247_2.bg11_2)
+app.register_blueprint(users.b.g11.bg11_40323247.bg11_40323247)
 
-#app.register_blueprint(users.b.g11.bg11.bg11_40323245_1)
-
-#app.register_blueprint(users.b.g11.bg11_40323245_1.bg11)
-app.register_blueprint(users.b.g11.b40323252.bg11_1)
 #bg101
 app.register_blueprint(users.b.g101.b40123200.bg101)
 
