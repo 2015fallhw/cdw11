@@ -23,6 +23,7 @@
 <v t="amd.20160501215942.1" a="E"><vh>@path content/b/g1</vh>
 <v t="amd.20160501215720.1"><vh>@edit 40123144.md</vh></v>
 <v t="leo.20160616221033.1"><vh>@edit 40123144part2.md</vh></v>
+<v t="leo.20160617085851.1"><vh>@40123144_3.md</vh></v>
 </v>
 </v>
 </v>
@@ -3858,6 +3859,91 @@ spur(cx+pr1+pr2+pr2+pr3+pr3+pr4, cy, m, n4, pa, 180-180/n3*n3/n4+(180-180/n2)*n2
 &lt;/script&gt;
 '''
     return outstring
+</t>
+<t tx="leo.20160617085851.1">@language md
+Title: 40123144 期末報告_2
+Category: bg1
+Tags: 40123144, cdw12
+Author: 40123144
+
+Bg1 40123144期末報告_2
+&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;/h3&gt;任務1&lt;/h3&gt;
+
+&lt;/h3&gt;直立式鍊條繪圖&lt;/h3&gt;
+
+&lt;/br&gt;&lt;img src="http://i.imgur.com/Mkq5KMs.jpg?1" width="100%" /&gt;
+&lt;/br&gt;
+&lt;/h3&gt;直立式鍊條程式碼&lt;/h3&gt;
+
+
+&lt;pre class="brush: python"&gt;
+def twocircle(x, y):
+    # 20 為鏈條兩圓距
+    # chain 所圍之圓圈半徑為 20/2/math.asin(degree*math.pi/180/2)
+    # degree = math.asin(20/2/radius)*180/math.pi
+    x = 50
+    y = 0
+    degree = 12
+    # 78, 66, 54, 42, 30, 18, 6度
+    #必須有某些 chain 算座標但是不 render
+    first_degree = 90 - degree
+    repeat = 360 / degree
+    # 第1節也是 virtual chain
+    outstring = '''
+mychain = chain()
+ 
+x1, y1 = mychain.basic_rot('''+str(x)+","+str(y)+", "+str(first_degree)+''', True)
+#x1, y1 = mychain.basic_rot('''+str(x)+","+str(y)+", "+str(first_degree)+''')
+'''
+    # 這裡要上下各多留一節虛擬 chain, 以便最後進行連接 (x7, y7) 與 (x22, y22)
+    for i in range(2, int(repeat)+1):
+        #if i &lt; 7 or i &gt; 23:        
+        if i &lt;= 7 or i &gt;= 23:
+            # virautl chain
+            outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+", 180-"+str(i*degree)+", True) \n"
+            #outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+", 90-"+str(i*degree)+") \n"
+        else:
+            outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+", 180-"+str(i*degree)+") \n"
+ 
+    p = 7
+    k = -185
+    degree = 20
+    # 70, 50, 30, 10
+    # 從 i=5 開始, 就是 virautl chain
+    first_degree = 180 - degree
+    repeat = 360 / degree
+    # 第1節不是 virtual chain
+    outstring += '''
+#mychain = chain()
+
+&lt;/pre&gt;
+&lt;/h3&gt;直立式鍊條繪圖&lt;/h3&gt;
+&lt;/br&gt;
+&lt;img src="http://i.imgur.com/3VKmHoC.jpg" width="100%" /&gt;
+&lt;/br&gt;
+&lt;/h4&gt;先依照老師所算出來的鏈條節點尺寸以及角度做繪圖。
+以兩軸相節點座標做為參考修改程式
+&lt;/h4&gt;
+&lt;/h3&gt;任務2&lt;/h3&gt;
+&lt;img src="http://i.imgur.com/Q8LZ1Zc.jpg?1" width="100%" /&gt;
+&lt;/h3&gt;
+2對齒輪契合練習
+&lt;/h3&gt;
+&lt;/h4&gt;
+先設定齒輪軸心，再讓齒輪以前一齒輪為旋轉角度為基準旋轉180度
+&lt;/h4&gt;
+&lt;/h3&gt;
+心得
+&lt;/h3&gt;
+&lt;/h4&gt;
+這次鍊條組合雖然可以用目視法來完成，但是使用繪圖程式可以更為
+精確的組合，而齒輪程式則需要搞懂如何設定齒輪軸心以及旋轉角度
+來讓齒輪齧和，本次作業讓我們了解到程式架構的厲害，只要寫出基本架構你要改變齒數、壓力角、節圓的大小都非常容易。
+&lt;/h4&gt;
+
+
 </t>
 </tnodes>
 </leo_file>
