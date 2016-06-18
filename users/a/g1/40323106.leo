@@ -136,7 +136,12 @@ app.register_blueprint(users.a.g1.a40323105_1.a40323105_1)
 app.register_blueprint(users.a.g4.ag4_40323109.ag4_40323109)
 app.register_blueprint(users.a.g4.ag4_40323109_task2bacd.ag4_40323109bacd)
 app.register_blueprint(users.a.g4.ag4_40323109_task3abcd.ag4_40323109task3)
+&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+app.register_blueprint(users.a.g1.a40323146_1.a40323146_1)
+=======
 app.register_blueprint(users.a.g1.a40323106.a40323106)
+app.register_blueprint(users.a.g1.a40323107_2.a40323107_2)
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; e7eaa9e11750edefe0fbc6a3b33a8064b03abb51
 #bg1
 app.register_blueprint(users.b.g1.bg1_40123156.bg1_40123156)
 app.register_blueprint(users.b.g1.bg1_40123156_2.bg1_40123156_2)
@@ -194,17 +199,21 @@ app.register_blueprint(users.b.g5.b40323204_cdw11_2.bg5_40323204_2)
 app.register_blueprint(users.b.g5.b40323204_cdw11.bg5_40323204)
 #app.register_blueprint(users.b.g5.b40323206_cdw11_1.bg5_40323206_1)
 app.register_blueprint(users.b.g5.b40323206_cdw11_2.bg5_40323206_2)
+
+#bg10
+app.register_blueprint(users.b.g10.bg10_40328245.bg10_40328245)
+app.register_blueprint(users.b.g10.bg10_40328242.bg10_40328242)
+app.register_blueprint(users.b.g10.bg10_40323241.bg10_40323241)
+app.register_blueprint(users.b.g10.bg10_40323222.bg10_40323222)
+
 #bg11
 app.register_blueprint(users.b.g11.bg11_40323245.bg11_40323245)
 app.register_blueprint(users.b.g11.bg11_40323252.bg11_40323252)
-#app.register_blueprint(users.b.g11.bg11.bg11_40323245_1)
-#app.register_blueprint(users.b.g11.bg11_40323245_1.bg11)
+app.register_blueprint(users.b.g11.bg11_40323245_2.bg11)
 app.register_blueprint(users.b.g11.b40323252.bg11_1)
+app.register_blueprint(users.b.g11.bg11_40323247_2.bg11_2)
+app.register_blueprint(users.b.g11.bg11_40323247.bg11_40323247)
 
-#app.register_blueprint(users.b.g11.bg11.bg11_40323245_1)
-
-#app.register_blueprint(users.b.g11.bg11_40323245_1.bg11)
-app.register_blueprint(users.b.g11.b40323252.bg11_1)
 #bg101
 app.register_blueprint(users.b.g101.b40123200.bg101)
 
@@ -212,9 +221,10 @@ app.register_blueprint(users.b.g101.b40123200.bg101)
 app.register_blueprint(users.a.g7.ag7_40123149_1.ag7_40123149_1)
 app.register_blueprint(users.a.g7.ag7_40123149_2.ag7_40123149_2)
 #ag8
-#app.register_blueprint(users.a.g8.a40323143.ag8_40323143)
+app.register_blueprint(users.a.g8.a40323143.ag8_40323143)
 app.register_blueprint(users.a.g8.a40323137.ag8_40323137)
 app.register_blueprint(users.a.g8.a40323154.ag8_40323154)
+app.register_blueprint(users.a.g8.ag8_40323145.ag8_40323145)
 #ag10
 app.register_blueprint(users.a.g10.a40323139.ag10_40323139_1)
 #app.register_blueprint(users.a.g10.a40323141.ag10_40323141_1)
@@ -235,6 +245,8 @@ app.register_blueprint(users.b.g3.bg3_40123242_cdw12.b40123242)
 app.register_blueprint(users.b.g3.bg3_40123250_cdw14.b40123250_1)
 app.register_blueprint(users.b.g3.bg3_40123224_cdw14.b40123224_1)
 
+#bg6
+app.register_blueprint(users.b.g6.bg6_40323248.bg6_40323248)
 
 
 </t>
@@ -395,7 +407,13 @@ import users.a.g4.ag4_40323109_task2bacd
 import users.a.g4.ag4_40323109_task3abcd
 import users.a.g4.a40323130
 import users.a.g1.a40323105_1
+&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+import users.a.g1.a40323146_1
+=======
 import users.a.g1.a40323106
+import users.a.g1.a40323107_2
+import users.b.g6.bg6_40323248
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; e7eaa9e11750edefe0fbc6a3b33a8064b03abb51
 #bg1
 import users.b.g1.bg1_40123156
 import users.b.g1.bg1_40123156_2
@@ -451,14 +469,22 @@ import users.b.g5.b40323204_cdw11_2
 import users.b.g5.b40323204_cdw11_1
 import users.b.g5.b40323204_cdw11_2
 import users.b.g5.b40323206_cdw11_2
+
+#bg10
+import users.b.g10.bg10_40328245
+import users.b.g10.bg10_40328242
+import users.b.g10.bg10_40323241
+import users.b.g10.bg10_40323222
+
 #bg11
 
 import users.b.g11.bg11_40323252
-#import users.b.g11.bg11_40323245_1
+import users.b.g11.bg11_40323245_2
 import users.b.g11.b40323252
 import users.b.g11.bg11_40323245
-#import users.b.g11.bg11_40323245_1
 import users.b.g11.b40323252
+import users.b.g11.bg11_40323247
+import users.b.g11.bg11_40323247_2
 
 #bg101
 import users.b.g101.b40123200
@@ -469,6 +495,7 @@ import users.a.g7.ag7_40123149_2
 import users.a.g8.a40323143
 import users.a.g8.a40323137
 import users.a.g8.a40323154
+import users.a.g8.ag8_40323145
 #ag10
 import users.a.g10.a40323139
 import users.a.g10.a40323141
