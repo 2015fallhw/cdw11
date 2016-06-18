@@ -22,6 +22,8 @@
 </v>
 <v t="amd.20160501215942.1" a="E"><vh>@path content/b/g1</vh>
 <v t="amd.20160501215720.1"><vh>@edit 40123144.md</vh></v>
+<v t="leo.20160616221033.1"><vh>@edit 40123144part2.md</vh></v>
+<v t="leo.20160617085851.1"><vh>@40123144_3.md</vh></v>
 </v>
 </v>
 </v>
@@ -169,6 +171,12 @@
 <v t="leo.20160519091246.61"><vh>new:snap_gear</vh></v>
 </v>
 </v>
+<v t="leo.20160616221023.2" a="E"><vh>Recovered Nodes</vh>
+<v t="leo.20160616221023.3"><vh>Recovered node "snap_gear" from @clean bg1_40123144_2.py</vh>
+<v t="leo.20160616221023.4"><vh>old:snap_gear</vh></v>
+<v t="leo.20160616221023.5"><vh>new:snap_gear</vh></v>
+</v>
+</v>
 </vnodes>
 <tnodes>
 <t tx="amd.20160501215436.2"></t>
@@ -204,6 +212,8 @@ app.register_blueprint(users.a.g9.ag9_40323132task.ag9_40323132)
 app.register_blueprint(users.a.g10.ag10_40323139.ag10_40323139)
 app.register_blueprint(users.a.g5.ag5_40323113task1.ag5_40323113)
 app.register_blueprint(users.a.g5.ag5_40123145task1.ag5_40123145)
+app.register_blueprint(users.a.g5.ag5_40123145task2.ag5_40123145_2)
+app.register_blueprint(users.a.g5.ag5_40123145task3.ag5_40123145_3)
 app.register_blueprint(users.a.g8.ag8_40323131_task1.ag8_40323131)
 app.register_blueprint(users.a.g4.ag4_40323138_task2bacd.ag4_40323138bacd)
 app.register_blueprint(users.a.g4.ag4_40323138_task3abcd.ag4_40323138task3)
@@ -211,47 +221,114 @@ app.register_blueprint(users.a.g8.ag8_40323123.ag8_40323123)
 app.register_blueprint(users.a.g10.ag10_40323129_task1.ag10_40323129)
 app.register_blueprint(users.a.g2.ag2_40323120.ag2_40323120)
 app.register_blueprint(users.a.g1.ag1_40323105.ag1_40323105)
-
-
-
+app.register_blueprint(users.a.g1.a40223153.aag1)
+app.register_blueprint(users.a.g3.ag3_40323108.ag3_40323108)
+app.register_blueprint(users.a.g3.ag3_40323108_task2bacd.ag3_40323108bacd)
+app.register_blueprint(users.a.g3.ag3_40323108_task3abcd.ag3_40323108task3)
 app.register_blueprint(users.b.g9.bg9_40323250.bg9_40323250)
+app.register_blueprint(users.a.g4.a40323130.ag4_40323130)
+app.register_blueprint(users.a.g1.a40323105_1.a40323105_1)
+app.register_blueprint(users.a.g4.ag4_40323109.ag4_40323109)
+app.register_blueprint(users.a.g4.ag4_40323109_task2bacd.ag4_40323109bacd)
+app.register_blueprint(users.a.g4.ag4_40323109_task3abcd.ag4_40323109task3)
+app.register_blueprint(users.a.g1.a40323106.a40323106)
 #bg1
 app.register_blueprint(users.b.g1.bg1_40123156.bg1_40123156)
 app.register_blueprint(users.b.g1.bg1_40123156_2.bg1_40123156_2)
+
+app.register_blueprint(users.b.g1.bg1_40123129.bg1_40123129)
+app.register_blueprint(users.b.g1.bg1_40123129_2.bg1_40123129_2)
+
 app.register_blueprint(users.b.g1.bg1_40123144.bg1_40123144)
 app.register_blueprint(users.b.g1.bg1_40123144_2.bg40123144)
-app.register_blueprint(users.b.g1.bg1_40123131.bg1_40123131)
-app.register_blueprint(users.b.g1.bg1_40123131_2.bg40123131)
+app.register_blueprint(users.b.g1.b40123131_cdw11.bg1_40123131)
+app.register_blueprint(users.b.g1.b40123131_cdw12.bg1)
+app.register_blueprint(users.b.g1.b40123131_cdw13.b40123131_cdw13)
+
+app.register_blueprint(users.b.g1.b40123131_cdw11.bg1_40123131)
+app.register_blueprint(users.b.g1.b40123131_cdw12.bg1)
+app.register_blueprint(users.b.g1.bg1_40123134.bg1_40123134)
+app.register_blueprint(users.b.g1.bg1_40123134_2.bg1_40123134_2)
+app.register_blueprint(users.b.g1.bg1_40123134_3.bg1_40123134_3)
+app.register_blueprint(users.b.g1.b40123133_cdw11.bg1_40123133)
+app.register_blueprint(users.b.g1.b40123133_cdw12.bg1_40123133_2)
+#app.register_blueprint(users.b.g1.bg1_40123131.bg1_40123131)
+#app.register_blueprint(users.b.g1.bg1_40123131_2.bg40123131)
+
+app.register_blueprint(users.b.g1.bg1_40123126.bg1_40123126)
+app.register_blueprint(users.b.g1.bg1_40123126_2.bg1_40123126_2)
 
 #bg2
 app.register_blueprint(users.b.g2.bg2_40123235.bg2_40123235)
 app.register_blueprint(users.b.g2.bg2_40123202.bg2_40123202)
+app.register_blueprint(users.b.g2.bg2_40123235_cdw12.b40123235)
+
+app.register_blueprint(users.b.g2.bg2_40123202_cdw13.b40123202)
+app.register_blueprint(users.b.g2.bg2_40123202_cdw14.bg2_40123202_cdw14)
+app.register_blueprint(users.b.g2.bg2_40123235_cdw14.b40123235_1)
+#app.register_blueprint(users.b.g2.bg2_40123202_1.b40123202)
+app.register_blueprint(users.b.g2.bg2_40123226_cdw12.b40123226)
+app.register_blueprint(users.b.g2.bg2_40123232_cdw12.b40123232)
+app.register_blueprint(users.b.g2.bg2_40123214_cdw12.b40123214)
+app.register_blueprint(users.b.g2.bg2_40123217_cdw12.b40123217)
+app.register_blueprint(users.b.g2.bg2_40123244_cdw12.b40123244)
 #bg4
 app.register_blueprint(users.b.g4.bg4_40323203.bg4_40323203)
+app.register_blueprint(users.b.g4.bg4_40323205.bg4_40323205)
+app.register_blueprint(users.b.g4.bg4_40323208.bg4_40323208)
 #bg8
 app.register_blueprint(users.b.g8.bg8_40323213.bg8_40323213)
 app.register_blueprint(users.b.g4.bg4_40323202.bg4_40323202)
 app.register_blueprint(users.b.g4.b40323201_cdw11.b40323201)
-app.register_blueprint(users.b.g4.bg4_40323205.bg4_40323205)
+app.register_blueprint(users.b.g4.bg4_40123128.bg4_40123128)
+app.register_blueprint(users.b.g4.bg4_40123128_cdw11.b40123128)
+app.register_blueprint(users.b.g4.bg4_40123128_cdw14.b40123128_1)
 #bg5
 app.register_blueprint(users.b.g5.b40323204_cdw11_1.bg5_40323204_1)
-app.register_blueprint(users.b.g5.b40323206_cdw11_1.bg5_40323206_1)
+app.register_blueprint(users.b.g5.b40323204_cdw11_2.bg5_40323204_2)
+app.register_blueprint(users.b.g5.b40323204_cdw11.bg5_40323204)
+#app.register_blueprint(users.b.g5.b40323206_cdw11_1.bg5_40323206_1)
 app.register_blueprint(users.b.g5.b40323206_cdw11_2.bg5_40323206_2)
 #bg11
 app.register_blueprint(users.b.g11.bg11_40323245.bg11_40323245)
 app.register_blueprint(users.b.g11.bg11_40323252.bg11_40323252)
+#app.register_blueprint(users.b.g11.bg11.bg11_40323245_1)
+#app.register_blueprint(users.b.g11.bg11_40323245_1.bg11)
+app.register_blueprint(users.b.g11.b40323252.bg11_1)
+
+#app.register_blueprint(users.b.g11.bg11.bg11_40323245_1)
+
+#app.register_blueprint(users.b.g11.bg11_40323245_1.bg11)
+app.register_blueprint(users.b.g11.b40323252.bg11_1)
 #bg101
 app.register_blueprint(users.b.g101.b40123200.bg101)
 
+#ag7
+app.register_blueprint(users.a.g7.ag7_40123149_1.ag7_40123149_1)
+app.register_blueprint(users.a.g7.ag7_40123149_2.ag7_40123149_2)
 #ag8
-app.register_blueprint(users.a.g8.a40323143.ag8_40323143)
+#app.register_blueprint(users.a.g8.a40323143.ag8_40323143)
+app.register_blueprint(users.a.g8.a40323137.ag8_40323137)
 app.register_blueprint(users.a.g8.a40323154.ag8_40323154)
 #ag10
 app.register_blueprint(users.a.g10.a40323139.ag10_40323139_1)
-app.register_blueprint(users.a.g10.a40323141.ag10_40323141_1)
-
+#app.register_blueprint(users.a.g10.a40323141.ag10_40323141_1)
+#ag3
+app.register_blueprint(users.a.g3.a40323108.ag3_40323108_1)
 #ag100
 app.register_blueprint(users.a.g100.cdw13.a40123100.ag100)
+
+#bg3
+#app.register_blueprint(users.b.g3.bg3_40123224.bg3_40123224)
+#app.register_blueprint(users.b.g3.bg3_.bg3_40123250)
+#app.register_blueprint(users.b.g3.bg3_40123250.bg3_40123242)
+app.register_blueprint(users.b.g3.bg3_40123224_cdw11.b40123224)
+app.register_blueprint(users.b.g3.bg3_40123250.bg3_40123250)
+app.register_blueprint(users.b.g3.bg3_40123250_cdw11.b40123250)
+#app.register_blueprint(users.b.g3.bg3_40123250.bg3_40123242)
+app.register_blueprint(users.b.g3.bg3_40123242_cdw12.b40123242)
+app.register_blueprint(users.b.g3.bg3_40123250_cdw14.b40123250_1)
+app.register_blueprint(users.b.g3.bg3_40123224_cdw14.b40123224_1)
 
 
 
@@ -396,51 +473,114 @@ import users.a.g10.ag10_40323139
 import users.a.g9.ag9_40323132task
 import users.a.g5.ag5_40323113task1
 import users.a.g5.ag5_40123145task1
+import users.a.g5.ag5_40123145task2
+import users.a.g5.ag5_40123145task3
 import users.a.g4.ag4_40323138
 import users.a.g4.ag4_40323138_task2bacd
 import users.a.g4.ag4_40323138_task3abcd
 import users.a.g8.ag8_40323131_task1
 import users.b.g9.bg9_40323250
 import users.a.g8.ag8_40323123
+import users.a.g1.a40223153
+import users.a.g3.ag3_40323108
+import users.a.g3.ag3_40323108_task2bacd
+import users.a.g3.ag3_40323108_task3abcd
+import users.a.g4.ag4_40323109
+import users.a.g4.ag4_40323109_task2bacd
+import users.a.g4.ag4_40323109_task3abcd
+import users.a.g4.a40323130
+import users.a.g1.a40323105_1
+import users.a.g1.a40323106
 #bg1
 import users.b.g1.bg1_40123156
 import users.b.g1.bg1_40123156_2
+import users.b.g1.bg1_40123129
+import users.b.g1.bg1_40123129_2
 import users.b.g1.bg1_40123144
 import users.b.g1.bg1_40123144_2
-import users.b.g1.bg1_40123131
-import users.b.g1.bg1_40123131_2
+import users.b.g1.b40123131_cdw11
+import users.b.g1.b40123131_cdw12
+import users.b.g1.b40123131_cdw13
 
+import users.b.g1.b40123131_cdw11
+import users.b.g1.b40123131_cdw12
+import users.b.g1.bg1_40123134
+import users.b.g1.bg1_40123134_2
+import users.b.g1.bg1_40123134_3
+import users.b.g1.b40123133_cdw11
+import users.b.g1.b40123133_cdw12
+import users.b.g1.bg1_40123126
+import users.b.g1.bg1_40123126_2
 #bg2
 import users.b.g2.bg2_40123235
+import users.b.g2.bg2_40123235_cdw12
+import users.b.g2.bg2_40123235_cdw14
 import users.b.g2.bg2_40123202
+import users.b.g2.bg2_40123202_cdw13
+import users.b.g2.bg2_40123202_cdw14
+import users.b.g2.bg2_40123226_cdw12
+import users.b.g2.bg2_40123232_cdw12
+import users.b.g2.bg2_40123214_cdw12
+import users.b.g2.bg2_40123217_cdw12
+import users.b.g2.bg2_40123244_cdw12
 #bg4
 import users.b.g4.bg4_40323203
+import users.b.g4.bg4_40323205
+import users.b.g4.bg4_40323208
+import users.b.g4.bg4_40123128
+import users.b.g4.bg4_40123128_cdw11
+import users.b.g4.bg4_40123128_cdw14
 #bg8
 import users.b.g8.bg8_40323213
 import users.b.g4.bg4_40323202
 import users.b.g4.b40323201_cdw11
-#bg5
-import users.b.g5.b40323206_cdw11_1
-import users.b.g5.b40323204_cdw11_1
-import users.b.g4.bg4_40323205
 
 #bg5
-import users.b.g5.b40323206_cdw11_1
+#import users.b.g5.b40323206_cdw11_1
+import users.b.g5.b40323204_cdw11_1
+import users.b.g5.b40323204_cdw11
+import users.b.g5.b40323204_cdw11_2
+
+#bg5
+#import users.b.g5.b40323206_cdw11_1
 import users.b.g5.b40323204_cdw11_1
 import users.b.g5.b40323204_cdw11_2
 import users.b.g5.b40323206_cdw11_2
 #bg11
-import users.b.g11.bg11_40323245
+
 import users.b.g11.bg11_40323252
+#import users.b.g11.bg11_40323245_1
+import users.b.g11.b40323252
+import users.b.g11.bg11_40323245
+#import users.b.g11.bg11_40323245_1
+import users.b.g11.b40323252
+
 #bg101
 import users.b.g101.b40123200
+#ag7
+import users.a.g7.ag7_40123149_1
+import users.a.g7.ag7_40123149_2
 #ag8
 import users.a.g8.a40323143
+import users.a.g8.a40323137
 import users.a.g8.a40323154
 #ag10
 import users.a.g10.a40323139
 import users.a.g10.a40323141
-
+#bg3
+#import users.b.g3.b40123224
+#import users.b.g3.b40123250
+#import users.b.g3.b40123242
+import users.b.g3.bg3_40123224
+import users.b.g3.bg3_40123224_cdw11
+import users.b.g3.bg3_40123250
+import users.b.g3.bg3_40123250_cdw11
+import users.b.g3.bg3_40123250_cdw14
+import users.b.g3.bg3_40123224_cdw14
+#import users.b.g3.b40123242
+import users.b.g3.bg3_40123242_cdw12
+#ag3
+import users.a.g3.a40323108
 #ag100
 import users.a.g100.cdw13.a40123100
 # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
@@ -468,7 +608,6 @@ app = Flask(__name__)
 # In order to use sessions you have to set a secret key
 # set the secret key.  keep this really secret:
 app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
-
 
 
 
@@ -1495,6 +1634,145 @@ s.line(0, 0, 100, 100).attr({ 'fill': "silver", 'stroke': "black", 'strokeWidth'
 &lt;/script&gt;
 &lt;/body&gt;
 &lt;/html&gt;
+'''
+    return outstring
+@bg40123144.route('/threegear')
+def threegear():
+    outstring ='''
+&lt;script type="text/javascript" src="http://brython.info/src/brython_dist.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://2015fallhw.github.io/cptocadp/static/Cango-8v03.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://2015fallhw.github.io/cptocadp/static/Cango2D-7v01-min.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://2015fallhw.github.io/cptocadp/static/gearUtils-05.js"&gt;&lt;/script&gt;
+
+&lt;script&gt;
+window.onload=function(){
+brython(1);
+}
+&lt;/script&gt;
+ 
+&lt;canvas id='gear1' width='800' height='750'&gt;&lt;/canvas&gt;
+ 
+&lt;script type="text/python"&gt;
+# 將 導入的 document 設為 doc 主要原因在於與舊程式碼相容
+from browser import document as doc
+# 由於 Python3 與 Javascript 程式碼已經不再混用, 因此來自 Javascript 的變數, 必須居中透過 window 物件轉換
+from browser import window
+# 針對 Javascript 既有的物件, 則必須透過 JSConstructor 轉換
+from javascript import JSConstructor
+import math
+ 
+# 主要用來取得畫布大小
+canvas = doc["gear1"]
+# 此程式採用 Cango Javascript 程式庫繪圖, 因此無需 ctx
+#ctx = canvas.getContext("2d")
+# 針對類別的轉換, 將 Cango.js 中的 Cango 物件轉為 Python cango 物件
+cango = JSConstructor(window.Cango)
+# 針對變數的轉換, shapeDefs 在 Cango 中資料型別為變數, 可以透過 window 轉換
+shapedefs = window.shapeDefs
+# 目前 Cango 結合 Animation 在 Brython 尚無法運作, 此刻只能繪製靜態圖形
+# in CangoAnimation.js
+#interpolate1 = window.interpolate
+# Cobi 與 createGearTooth 都是 Cango Javascript 程式庫中的物件
+cobj = JSConstructor(window.Cobj)
+creategeartooth = JSConstructor(window.createGearTooth)
+ 
+# 經由 Cango 轉換成 Brython 的 cango, 指定將圖畫在 id="plotarea" 的 canvas 上
+cgo = cango("gear1")
+ 
+######################################
+# 畫正齒輪輪廓
+#####################################
+def spur(cx, cy, m, n, pa, theta):
+    # n 為齒數
+    #n = 17
+    # pa 為壓力角
+    #pa = 25
+    # m 為模數, 根據畫布的寬度, 計算適合的模數大小
+    # Module = mm of pitch diameter per tooth
+    #m = 0.8*canvas.width/n
+    # pr 為節圓半徑
+    pr = n*m/2 # gear Pitch radius
+    # generate gear
+    data = creategeartooth(m, n, pa)
+    # Brython 程式中的 print 會將資料印在 Browser 的 console 區
+    #print(data)
+ 
+    gearTooth = cobj(data, "SHAPE", {
+            "fillColor":"#ddd0dd",
+            "border": True,
+            "strokeColor": "#606060" })
+    #gearTooth.rotate(180/n) # rotate gear 1/2 tooth to mesh, 請注意 rotate 角度為 degree
+    # theta 為角度
+    gearTooth.rotate(theta) 
+    # 單齒的齒形資料經過旋轉後, 將資料複製到 gear 物件中
+    gear = gearTooth.dup()
+    # gear 為單一齒的輪廓資料
+    #cgo.render(gearTooth)
+ 
+    # 利用單齒輪廓旋轉, 產生整個正齒輪外形
+    for i in range(1, n):
+        # 將 gearTooth 中的資料複製到 newTooth
+        newTooth = gearTooth.dup()
+        # 配合迴圈, newTooth 的齒形資料進行旋轉, 然後利用 appendPath 方法, 將資料併入 gear
+        newTooth.rotate(360*i/n)
+        # appendPath 為 Cango 程式庫中的方法, 第二個變數為 True, 表示要刪除最前頭的 Move to SVG Path 標註符號
+        gear.appendPath(newTooth, True) # trim move command = True
+ 
+    # 建立軸孔
+    # add axle hole, hr 為 hole radius
+    hr = 0.6*pr # diameter of gear shaft
+    shaft = cobj(shapedefs.circle(hr), "PATH")
+    shaft.revWinding()
+    gear.appendPath(shaft) # retain the 'moveTo' command for shaft sub path
+    gear.translate(cx, cy)
+    # render 繪出靜態正齒輪輪廓
+    cgo.render(gear)
+    # 接著繪製齒輪的基準線
+    deg = math.pi/180
+    Line = cobj(['M', cx, cy, 'L', cx+pr*math.cos(theta*deg), cy+pr*math.sin(theta*deg)], "PATH", {
+          'strokeColor':'blue', 'lineWidth': 1})
+    cgo.render(Line)
+ 
+# 4個齒輪的齒數
+n1 = 20
+n2 = 16
+n3 = 18
+n4 = 25
+ 
+# m 為模數, 根據畫布的寬度, 計算適合的模數大小
+# Module = mm of pitch diameter per tooth
+# 利用 80% 的畫布寬度進行繪圖
+# 計算模數的對應尺寸
+m = canvas.width*0.8/(n1+n2+n3+n4)
+ 
+# 根據齒數與模組計算各齒輪的節圓半徑
+pr1 = n1*m/2
+pr2 = n2*m/2
+pr3 = n3*m/2
+pr4 = n4*m/2
+ 
+# 畫布左右兩側都保留畫布寬度的 10%
+# 依此計算對應的最左邊齒輪的軸心座標
+cx = canvas.width*0.1+pr1
+cy = canvas.height/2
+ 
+# pa 為壓力角
+pa = 25
+ 
+# 畫最左邊齒輪, 定位線旋轉角為 0, 軸心座標 (cx, cy)
+spur(cx, cy, m, n1, pa, 0)
+# 第2個齒輪將原始的定位線逆時鐘轉 180 度後, 與第1個齒輪正好齒頂與齒頂對齊
+# 只要第2個齒輪再逆時鐘或順時鐘轉動半齒的角度, 即可完成囓合
+# 每一個齒分別包括從齒根到齒頂的範圍, 涵蓋角度為 360/n, 因此所謂的半齒角度為 180/n
+spur(cx+pr1+pr2, cy, m, n2, pa, 180-180/n2)
+# 第2齒與第3齒的囓合, 首先假定第2齒的定位線在 theta 角為 0 的原始位置
+# 如此, 第3齒只要逆時鐘旋轉 180 度後, 再逆時鐘或順時鐘轉動半齒的角度, 即可與第2齒囓合
+# 但是第2齒為了與第一齒囓合時, 已經從原始定位線轉了 180-180/n2 度
+# 而當第2齒從與第3齒囓合的定位線, 逆時鐘旋轉 180-180/n2 角度後, 原先囓合的第3齒必須要再配合旋轉 (180-180/n2 )*n2/n3
+spur(cx+pr1+pr2+pr2+pr3, cy, m, n3, pa, 180-180/n3+(180-180/n2)*n2/n3)
+
+spur(cx+pr1+pr2+pr2+pr3+pr3+pr4, cy, m, n4, pa, 180-180/n3*n3/n4+(180-180/n2)*n2/n3*n3/n4+(180-180/n3)*n3/n4)
+&lt;/script&gt;
 '''
     return outstring
 </t>
@@ -3180,6 +3458,492 @@ def draw_b():
     return head_str + chain_str + b(0+65, 0) + tail_str
  
  
+</t>
+<t tx="leo.20160616221023.2"></t>
+<t tx="leo.20160616221023.3">(uncached) leo.20160512122307.29
+Diff...
+  @bg40123144.route('/snap_gear')
+  def snap_gear():
+      outstring = '''
+  &lt;!DOCTYPE html&gt;
+  &lt;html&gt;
+  &lt;head&gt;
+      &lt;meta charset="UTF-8"&gt;
+      &lt;title&gt;網際 snap 繪圖&lt;/title&gt;
+      &lt;!-- IE 9: display inline SVG --&gt;
+      &lt;meta http-equiv="X-UA-Compatible" content="IE=9"&gt;
+      &lt;script type="text/javascript" src="http://brython.info/src/brython_dist.js"&gt;&lt;/script&gt;
+      &lt;script type="text/javascript" src="/static/snap.svg-min.js"&gt;&lt;/script&gt;
+   
+      &lt;script&gt;
+      window.onload=function(){
+      brython(1);
+      }
+      &lt;/script&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+   
+  &lt;svg width="800" height="800" viewBox="0 0 800 800" id="svgout"&gt;&lt;/svg&gt;
+   
+  &lt;script type="text/python"&gt;
+  from javascript import JSConstructor
+  from browser import alert
+  from browser import window, document
+   
+  # 透過 window 與 JSConstructor 從 Brython 物件 snap 擷取 Snap 物件的內容
+  snap = JSConstructor(window.Snap)
+   
+  s = snap("#svgout")
+  # 畫直線
+  s.line(0, 0, 100, 100).attr({ 'fill': "silver", 'stroke': "black", 'strokeWidth': "1"  }).attr({ 'id': 'line1' })
+  &lt;/script&gt;
+  &lt;/body&gt;
+  &lt;/html&gt;
+  '''
+      return outstring
+- @bg40123144.route('/threegear')
+- def threegear():
+-     outstring ='''
+- &lt;script type="text/javascript" src="http://brython.info/src/brython_dist.js"&gt;&lt;/script&gt;
+- &lt;script type="text/javascript" src="http://2015fallhw.github.io/cptocadp/static/Cango-8v03.js"&gt;&lt;/script&gt;
+- &lt;script type="text/javascript" src="http://2015fallhw.github.io/cptocadp/static/Cango2D-7v01-min.js"&gt;&lt;/script&gt;
+- &lt;script type="text/javascript" src="http://2015fallhw.github.io/cptocadp/static/gearUtils-05.js"&gt;&lt;/script&gt;
+- 
+- &lt;script&gt;
+- window.onload=function(){
+- brython(1);
+- }
+- &lt;/script&gt;
+-  
+- &lt;canvas id='gear1' width='800' height='750'&gt;&lt;/canvas&gt;
+-  
+- &lt;script type="text/python"&gt;
+- # 將 導入的 document 設為 doc 主要原因在於與舊程式碼相容
+- from browser import document as doc
+- # 由於 Python3 與 Javascript 程式碼已經不再混用, 因此來自 Javascript 的變數, 必須居中透過 window 物件轉換
+- from browser import window
+- # 針對 Javascript 既有的物件, 則必須透過 JSConstructor 轉換
+- from javascript import JSConstructor
+- import math
+-  
+- # 主要用來取得畫布大小
+- canvas = doc["gear1"]
+- # 此程式採用 Cango Javascript 程式庫繪圖, 因此無需 ctx
+- #ctx = canvas.getContext("2d")
+- # 針對類別的轉換, 將 Cango.js 中的 Cango 物件轉為 Python cango 物件
+- cango = JSConstructor(window.Cango)
+- # 針對變數的轉換, shapeDefs 在 Cango 中資料型別為變數, 可以透過 window 轉換
+- shapedefs = window.shapeDefs
+- # 目前 Cango 結合 Animation 在 Brython 尚無法運作, 此刻只能繪製靜態圖形
+- # in CangoAnimation.js
+- #interpolate1 = window.interpolate
+- # Cobi 與 createGearTooth 都是 Cango Javascript 程式庫中的物件
+- cobj = JSConstructor(window.Cobj)
+- creategeartooth = JSConstructor(window.createGearTooth)
+-  
+- # 經由 Cango 轉換成 Brython 的 cango, 指定將圖畫在 id="plotarea" 的 canvas 上
+- cgo = cango("gear1")
+-  
+- ######################################
+- # 畫正齒輪輪廓
+- #####################################
+- def spur(cx, cy, m, n, pa, theta):
+-     # n 為齒數
+-     #n = 17
+-     # pa 為壓力角
+-     #pa = 25
+-     # m 為模數, 根據畫布的寬度, 計算適合的模數大小
+-     # Module = mm of pitch diameter per tooth
+-     #m = 0.8*canvas.width/n
+-     # pr 為節圓半徑
+-     pr = n*m/2 # gear Pitch radius
+-     # generate gear
+-     data = creategeartooth(m, n, pa)
+-     # Brython 程式中的 print 會將資料印在 Browser 的 console 區
+-     #print(data)
+-  
+-     gearTooth = cobj(data, "SHAPE", {
+-             "fillColor":"#ddd0dd",
+-             "border": True,
+-             "strokeColor": "#606060" })
+-     #gearTooth.rotate(180/n) # rotate gear 1/2 tooth to mesh, 請注意 rotate 角度為 degree
+-     # theta 為角度
+-     gearTooth.rotate(theta) 
+-     # 單齒的齒形資料經過旋轉後, 將資料複製到 gear 物件中
+-     gear = gearTooth.dup()
+-     # gear 為單一齒的輪廓資料
+-     #cgo.render(gearTooth)
+-  
+-     # 利用單齒輪廓旋轉, 產生整個正齒輪外形
+-     for i in range(1, n):
+-         # 將 gearTooth 中的資料複製到 newTooth
+-         newTooth = gearTooth.dup()
+-         # 配合迴圈, newTooth 的齒形資料進行旋轉, 然後利用 appendPath 方法, 將資料併入 gear
+-         newTooth.rotate(360*i/n)
+-         # appendPath 為 Cango 程式庫中的方法, 第二個變數為 True, 表示要刪除最前頭的 Move to SVG Path 標註符號
+-         gear.appendPath(newTooth, True) # trim move command = True
+-  
+-     # 建立軸孔
+-     # add axle hole, hr 為 hole radius
+-     hr = 0.6*pr # diameter of gear shaft
+-     shaft = cobj(shapedefs.circle(hr), "PATH")
+-     shaft.revWinding()
+-     gear.appendPath(shaft) # retain the 'moveTo' command for shaft sub path
+-     gear.translate(cx, cy)
+-     # render 繪出靜態正齒輪輪廓
+-     cgo.render(gear)
+-     # 接著繪製齒輪的基準線
+-     deg = math.pi/180
+-     Line = cobj(['M', cx, cy, 'L', cx+pr*math.cos(theta*deg), cy+pr*math.sin(theta*deg)], "PATH", {
+-           'strokeColor':'blue', 'lineWidth': 1})
+-     cgo.render(Line)
+-  
+- # 4個齒輪的齒數
+- n1 = 20
+- n2 = 16
+- n3 = 18
+- n4 = 25
+-  
+- # m 為模數, 根據畫布的寬度, 計算適合的模數大小
+- # Module = mm of pitch diameter per tooth
+- # 利用 80% 的畫布寬度進行繪圖
+- # 計算模數的對應尺寸
+- m = canvas.width*0.8/(n1+n2+n3+n4)
+-  
+- # 根據齒數與模組計算各齒輪的節圓半徑
+- pr1 = n1*m/2
+- pr2 = n2*m/2
+- pr3 = n3*m/2
+- pr4 = n4*m/2
+-  
+- # 畫布左右兩側都保留畫布寬度的 10%
+- # 依此計算對應的最左邊齒輪的軸心座標
+- cx = canvas.width*0.1+pr1
+- cy = canvas.height/2
+-  
+- # pa 為壓力角
+- pa = 25
+-  
+- # 畫最左邊齒輪, 定位線旋轉角為 0, 軸心座標 (cx, cy)
+- spur(cx, cy, m, n1, pa, 0)
+- # 第2個齒輪將原始的定位線逆時鐘轉 180 度後, 與第1個齒輪正好齒頂與齒頂對齊
+- # 只要第2個齒輪再逆時鐘或順時鐘轉動半齒的角度, 即可完成囓合
+- # 每一個齒分別包括從齒根到齒頂的範圍, 涵蓋角度為 360/n, 因此所謂的半齒角度為 180/n
+- spur(cx+pr1+pr2, cy, m, n2, pa, 180-180/n2)
+- # 第2齒與第3齒的囓合, 首先假定第2齒的定位線在 theta 角為 0 的原始位置
+- # 如此, 第3齒只要逆時鐘旋轉 180 度後, 再逆時鐘或順時鐘轉動半齒的角度, 即可與第2齒囓合
+- # 但是第2齒為了與第一齒囓合時, 已經從原始定位線轉了 180-180/n2 度
+- # 而當第2齒從與第3齒囓合的定位線, 逆時鐘旋轉 180-180/n2 角度後, 原先囓合的第3齒必須要再配合旋轉 (180-180/n2 )*n2/n3
+- spur(cx+pr1+pr2+pr2+pr3, cy, m, n3, pa, 180-180/n3+(180-180/n2)*n2/n3)
+- 
+- spur(cx+pr1+pr2+pr2+pr3+pr3+pr4, cy, m, n4, pa, 180-180/n3*n3/n4+(180-180/n2)*n2/n3*n3/n4+(180-180/n3)*n3/n4)
+- &lt;/script&gt;
+- '''
+-     return outstring
+</t>
+<t tx="leo.20160616221023.4">@bg40123144.route('/snap_gear')
+def snap_gear():
+    outstring = '''
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;網際 snap 繪圖&lt;/title&gt;
+    &lt;!-- IE 9: display inline SVG --&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=9"&gt;
+    &lt;script type="text/javascript" src="http://brython.info/src/brython_dist.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript" src="/static/snap.svg-min.js"&gt;&lt;/script&gt;
+ 
+    &lt;script&gt;
+    window.onload=function(){
+    brython(1);
+    }
+    &lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+ 
+&lt;svg width="800" height="800" viewBox="0 0 800 800" id="svgout"&gt;&lt;/svg&gt;
+ 
+&lt;script type="text/python"&gt;
+from javascript import JSConstructor
+from browser import alert
+from browser import window, document
+ 
+# 透過 window 與 JSConstructor 從 Brython 物件 snap 擷取 Snap 物件的內容
+snap = JSConstructor(window.Snap)
+ 
+s = snap("#svgout")
+# 畫直線
+s.line(0, 0, 100, 100).attr({ 'fill': "silver", 'stroke': "black", 'strokeWidth': "1"  }).attr({ 'id': 'line1' })
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+'''
+    return outstring
+</t>
+<t tx="leo.20160616221023.5">@bg40123144.route('/snap_gear')
+def snap_gear():
+    outstring = '''
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;網際 snap 繪圖&lt;/title&gt;
+    &lt;!-- IE 9: display inline SVG --&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=9"&gt;
+    &lt;script type="text/javascript" src="http://brython.info/src/brython_dist.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript" src="/static/snap.svg-min.js"&gt;&lt;/script&gt;
+ 
+    &lt;script&gt;
+    window.onload=function(){
+    brython(1);
+    }
+    &lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+ 
+&lt;svg width="800" height="800" viewBox="0 0 800 800" id="svgout"&gt;&lt;/svg&gt;
+ 
+&lt;script type="text/python"&gt;
+from javascript import JSConstructor
+from browser import alert
+from browser import window, document
+ 
+# 透過 window 與 JSConstructor 從 Brython 物件 snap 擷取 Snap 物件的內容
+snap = JSConstructor(window.Snap)
+ 
+s = snap("#svgout")
+# 畫直線
+s.line(0, 0, 100, 100).attr({ 'fill': "silver", 'stroke': "black", 'strokeWidth': "1"  }).attr({ 'id': 'line1' })
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+'''
+    return outstring
+@bg40123144.route('/threegear')
+def threegear():
+    outstring ='''
+&lt;script type="text/javascript" src="http://brython.info/src/brython_dist.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://2015fallhw.github.io/cptocadp/static/Cango-8v03.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://2015fallhw.github.io/cptocadp/static/Cango2D-7v01-min.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://2015fallhw.github.io/cptocadp/static/gearUtils-05.js"&gt;&lt;/script&gt;
+
+&lt;script&gt;
+window.onload=function(){
+brython(1);
+}
+&lt;/script&gt;
+ 
+&lt;canvas id='gear1' width='800' height='750'&gt;&lt;/canvas&gt;
+ 
+&lt;script type="text/python"&gt;
+# 將 導入的 document 設為 doc 主要原因在於與舊程式碼相容
+from browser import document as doc
+# 由於 Python3 與 Javascript 程式碼已經不再混用, 因此來自 Javascript 的變數, 必須居中透過 window 物件轉換
+from browser import window
+# 針對 Javascript 既有的物件, 則必須透過 JSConstructor 轉換
+from javascript import JSConstructor
+import math
+ 
+# 主要用來取得畫布大小
+canvas = doc["gear1"]
+# 此程式採用 Cango Javascript 程式庫繪圖, 因此無需 ctx
+#ctx = canvas.getContext("2d")
+# 針對類別的轉換, 將 Cango.js 中的 Cango 物件轉為 Python cango 物件
+cango = JSConstructor(window.Cango)
+# 針對變數的轉換, shapeDefs 在 Cango 中資料型別為變數, 可以透過 window 轉換
+shapedefs = window.shapeDefs
+# 目前 Cango 結合 Animation 在 Brython 尚無法運作, 此刻只能繪製靜態圖形
+# in CangoAnimation.js
+#interpolate1 = window.interpolate
+# Cobi 與 createGearTooth 都是 Cango Javascript 程式庫中的物件
+cobj = JSConstructor(window.Cobj)
+creategeartooth = JSConstructor(window.createGearTooth)
+ 
+# 經由 Cango 轉換成 Brython 的 cango, 指定將圖畫在 id="plotarea" 的 canvas 上
+cgo = cango("gear1")
+ 
+######################################
+# 畫正齒輪輪廓
+#####################################
+def spur(cx, cy, m, n, pa, theta):
+    # n 為齒數
+    #n = 17
+    # pa 為壓力角
+    #pa = 25
+    # m 為模數, 根據畫布的寬度, 計算適合的模數大小
+    # Module = mm of pitch diameter per tooth
+    #m = 0.8*canvas.width/n
+    # pr 為節圓半徑
+    pr = n*m/2 # gear Pitch radius
+    # generate gear
+    data = creategeartooth(m, n, pa)
+    # Brython 程式中的 print 會將資料印在 Browser 的 console 區
+    #print(data)
+ 
+    gearTooth = cobj(data, "SHAPE", {
+            "fillColor":"#ddd0dd",
+            "border": True,
+            "strokeColor": "#606060" })
+    #gearTooth.rotate(180/n) # rotate gear 1/2 tooth to mesh, 請注意 rotate 角度為 degree
+    # theta 為角度
+    gearTooth.rotate(theta) 
+    # 單齒的齒形資料經過旋轉後, 將資料複製到 gear 物件中
+    gear = gearTooth.dup()
+    # gear 為單一齒的輪廓資料
+    #cgo.render(gearTooth)
+ 
+    # 利用單齒輪廓旋轉, 產生整個正齒輪外形
+    for i in range(1, n):
+        # 將 gearTooth 中的資料複製到 newTooth
+        newTooth = gearTooth.dup()
+        # 配合迴圈, newTooth 的齒形資料進行旋轉, 然後利用 appendPath 方法, 將資料併入 gear
+        newTooth.rotate(360*i/n)
+        # appendPath 為 Cango 程式庫中的方法, 第二個變數為 True, 表示要刪除最前頭的 Move to SVG Path 標註符號
+        gear.appendPath(newTooth, True) # trim move command = True
+ 
+    # 建立軸孔
+    # add axle hole, hr 為 hole radius
+    hr = 0.6*pr # diameter of gear shaft
+    shaft = cobj(shapedefs.circle(hr), "PATH")
+    shaft.revWinding()
+    gear.appendPath(shaft) # retain the 'moveTo' command for shaft sub path
+    gear.translate(cx, cy)
+    # render 繪出靜態正齒輪輪廓
+    cgo.render(gear)
+    # 接著繪製齒輪的基準線
+    deg = math.pi/180
+    Line = cobj(['M', cx, cy, 'L', cx+pr*math.cos(theta*deg), cy+pr*math.sin(theta*deg)], "PATH", {
+          'strokeColor':'blue', 'lineWidth': 1})
+    cgo.render(Line)
+ 
+# 4個齒輪的齒數
+n1 = 20
+n2 = 16
+n3 = 18
+n4 = 25
+ 
+# m 為模數, 根據畫布的寬度, 計算適合的模數大小
+# Module = mm of pitch diameter per tooth
+# 利用 80% 的畫布寬度進行繪圖
+# 計算模數的對應尺寸
+m = canvas.width*0.8/(n1+n2+n3+n4)
+ 
+# 根據齒數與模組計算各齒輪的節圓半徑
+pr1 = n1*m/2
+pr2 = n2*m/2
+pr3 = n3*m/2
+pr4 = n4*m/2
+ 
+# 畫布左右兩側都保留畫布寬度的 10%
+# 依此計算對應的最左邊齒輪的軸心座標
+cx = canvas.width*0.1+pr1
+cy = canvas.height/2
+ 
+# pa 為壓力角
+pa = 25
+ 
+# 畫最左邊齒輪, 定位線旋轉角為 0, 軸心座標 (cx, cy)
+spur(cx, cy, m, n1, pa, 0)
+# 第2個齒輪將原始的定位線逆時鐘轉 180 度後, 與第1個齒輪正好齒頂與齒頂對齊
+# 只要第2個齒輪再逆時鐘或順時鐘轉動半齒的角度, 即可完成囓合
+# 每一個齒分別包括從齒根到齒頂的範圍, 涵蓋角度為 360/n, 因此所謂的半齒角度為 180/n
+spur(cx+pr1+pr2, cy, m, n2, pa, 180-180/n2)
+# 第2齒與第3齒的囓合, 首先假定第2齒的定位線在 theta 角為 0 的原始位置
+# 如此, 第3齒只要逆時鐘旋轉 180 度後, 再逆時鐘或順時鐘轉動半齒的角度, 即可與第2齒囓合
+# 但是第2齒為了與第一齒囓合時, 已經從原始定位線轉了 180-180/n2 度
+# 而當第2齒從與第3齒囓合的定位線, 逆時鐘旋轉 180-180/n2 角度後, 原先囓合的第3齒必須要再配合旋轉 (180-180/n2 )*n2/n3
+spur(cx+pr1+pr2+pr2+pr3, cy, m, n3, pa, 180-180/n3+(180-180/n2)*n2/n3)
+
+spur(cx+pr1+pr2+pr2+pr3+pr3+pr4, cy, m, n4, pa, 180-180/n3*n3/n4+(180-180/n2)*n2/n3*n3/n4+(180-180/n3)*n3/n4)
+&lt;/script&gt;
+'''
+    return outstring
+</t>
+<t tx="leo.20160617085851.1">@language md
+Title: 40123144 期末報告_2
+Category: bg1
+Tags: 40123144, cdw12
+Author: 40123144
+
+Bg1 40123144期末報告_2
+&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;/h3&gt;任務1&lt;/h3&gt;
+
+&lt;/h3&gt;直立式鍊條繪圖&lt;/h3&gt;
+
+&lt;/br&gt;&lt;img src="http://i.imgur.com/Mkq5KMs.jpg?1" width="100%" /&gt;
+&lt;/br&gt;
+&lt;/h3&gt;直立式鍊條程式碼&lt;/h3&gt;
+
+
+&lt;pre class="brush: python"&gt;
+def twocircle(x, y):
+    # 20 為鏈條兩圓距
+    # chain 所圍之圓圈半徑為 20/2/math.asin(degree*math.pi/180/2)
+    # degree = math.asin(20/2/radius)*180/math.pi
+    x = 50
+    y = 0
+    degree = 12
+    # 78, 66, 54, 42, 30, 18, 6度
+    #必須有某些 chain 算座標但是不 render
+    first_degree = 90 - degree
+    repeat = 360 / degree
+    # 第1節也是 virtual chain
+    outstring = '''
+mychain = chain()
+ 
+x1, y1 = mychain.basic_rot('''+str(x)+","+str(y)+", "+str(first_degree)+''', True)
+#x1, y1 = mychain.basic_rot('''+str(x)+","+str(y)+", "+str(first_degree)+''')
+'''
+    # 這裡要上下各多留一節虛擬 chain, 以便最後進行連接 (x7, y7) 與 (x22, y22)
+    for i in range(2, int(repeat)+1):
+        #if i &lt; 7 or i &gt; 23:        
+        if i &lt;= 7 or i &gt;= 23:
+            # virautl chain
+            outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+", 180-"+str(i*degree)+", True) \n"
+            #outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+", 90-"+str(i*degree)+") \n"
+        else:
+            outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+", 180-"+str(i*degree)+") \n"
+ 
+    p = 7
+    k = -185
+    degree = 20
+    # 70, 50, 30, 10
+    # 從 i=5 開始, 就是 virautl chain
+    first_degree = 180 - degree
+    repeat = 360 / degree
+    # 第1節不是 virtual chain
+    outstring += '''
+#mychain = chain()
+
+&lt;/pre&gt;
+&lt;/h3&gt;直立式鍊條繪圖&lt;/h3&gt;
+&lt;/br&gt;
+&lt;img src="http://i.imgur.com/3VKmHoC.jpg" width="100%" /&gt;
+&lt;/br&gt;
+&lt;/h4&gt;先依照老師所算出來的鏈條節點尺寸以及角度做繪圖。
+以兩軸相節點座標做為參考修改程式
+&lt;/h4&gt;
+&lt;/h3&gt;任務2&lt;/h3&gt;
+&lt;img src="http://i.imgur.com/Q8LZ1Zc.jpg?1" width="100%" /&gt;
+&lt;/h3&gt;
+2對齒輪契合練習
+&lt;/h3&gt;
+&lt;/h4&gt;
+先設定齒輪軸心，再讓齒輪以前一齒輪為旋轉角度為基準旋轉180度
+&lt;/h4&gt;
+&lt;/h3&gt;
+心得
+&lt;/h3&gt;
+&lt;/h4&gt;
+這次鍊條組合雖然可以用目視法來完成，但是使用繪圖程式可以更為
+精確的組合，而齒輪程式則需要搞懂如何設定齒輪軸心以及旋轉角度
+來讓齒輪齧和，本次作業讓我們了解到程式架構的厲害，只要寫出基本架構你要改變齒數、壓力角、節圓的大小都非常容易。
+&lt;/h4&gt;
+
+
 </t>
 </tnodes>
 </leo_file>
