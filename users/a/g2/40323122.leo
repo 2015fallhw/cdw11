@@ -14,7 +14,7 @@
 <v t="amd.20160501215558.1" a="E"><vh>@path ./../../../</vh>
 <v t="amd.20160501223113.1"><vh>@edit README.md</vh></v>
 <v t="amd.20160501215634.1" a="E"><vh>@path static</vh>
-<v t="amd.20160501220009.1"><vh>假如要送到 gh-pages 分支, 使用下列按鈕</vh>
+<v t="amd.20160501220009.1" a="E"><vh>假如要送到 gh-pages 分支, 使用下列按鈕</vh>
 <v t="amd.20160501220009.2"><vh>@button gh-pages pelican</vh></v>
 </v>
 <v t="amd.20160501220029.1" a="E"><vh>假如要在近端檢視, 使用下列按鈕</vh>
@@ -23,6 +23,7 @@
 <v t="amd.20160501215942.1" a="E"><vh>@path content/a/g2</vh>
 <v t="leo.20160618225248.1"><vh>@edit 40323122-cdw11期中.md</vh></v>
 <v t="leo.20160618234220.1"><vh>@edit 40323122-cdw13.md</vh></v>
+<v t="leo.20160619004704.1"><vh>@edit 40323122-期末報告.md</vh></v>
 </v>
 </v>
 </v>
