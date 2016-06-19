@@ -10,23 +10,45 @@
 <preferences/>
 <find_panel_settings/>
 <vnodes>
-<v t="amd.20160501215436.2" a="E"><vh>pelican 部份</vh>
-<v t="amd.20160501215558.1" a="E"><vh>@path ./../../../</vh>
-<v t="amd.20160501223113.1"><vh>@edit README.md</vh></v>
-<v t="amd.20160501215634.1" a="E"><vh>@path static</vh>
-<v t="amd.20160501220009.1" a="E"><vh>假如要送到 gh-pages 分支, 使用下列按鈕</vh>
-<v t="amd.20160501220009.2"><vh>@button gh-pages pelican</vh></v>
+<v t="leo.20160619113656.1" a="E"><vh>pelican 部份</vh>
+<v t="leo.20160619113656.2" a="E"><vh>@path ./../../../</vh>
+<v t="leo.20160619113656.3"><vh>@edit README.md</vh></v>
+<v t="leo.20160619113656.4" a="E"><vh>@path static</vh>
+<v t="leo.20160619113656.5" a="E"><vh>假如要送到 gh-pages 分支, 使用下列按鈕</vh>
+<v t="leo.20160619113656.6"><vh>@button gh-pages pelican</vh></v>
 </v>
-<v t="amd.20160501220029.1" a="E"><vh>假如要在近端檢視, 使用下列按鈕</vh>
-<v t="amd.20160501220029.2"><vh>@button local pelican</vh></v>
+<v t="leo.20160619113656.7" a="E"><vh>假如要在近端檢視, 使用下列按鈕</vh>
+<v t="leo.20160619113656.8"><vh>@button local pelican</vh></v>
 </v>
-<v t="amd.20160501215942.1" a="E"><vh>@path content/a/g6</vh>
-<v t="amd.20160501215720.1"><vh>@edit 40323199-20160429.md</vh></v>
+<v t="leo.20160619113656.9" a="E"><vh>@path content/a/g6</vh>
+<v t="leo.20160619113656.10"><vh>@edit 40323155-20160429.md</vh></v>
+<v t="leo.20160619113656.11"><vh>@edit 40323155-20160501.md</vh></v>
+<v t="leo.20160619113656.12"><vh>@edit 40323155-20160502.md</vh></v>
+<v t="leo.20160619113656.13"><vh>@edit 40323155-20160503.md</vh></v>
+<v t="leo.20160619113656.14"><vh>@edit 40323155-20160504.md</vh></v>
 </v>
 </v>
 </v>
 </v>
-<v t="amd.20160501215545.1" a="E"><vh>wsgi 程式部份</vh>
+<v t="amd.20160501215545.1"><vh>wsgi 程式部份</vh>
+<v t="leo.20160619113032.1"><vh>@path cdw13</vh>
+<v t="leo.20160619113032.2" a="E"><vh>@clean a40323155.py</vh>
+<v t="leo.20160619113032.3"><vh>a40323155 declarations</vh></v>
+<v t="leo.20160619113032.4"><vh>circle36</vh></v>
+<v t="leo.20160619113032.5"><vh>circle35</vh></v>
+<v t="leo.20160619113032.6"><vh>eighteenthirty</vh></v>
+<v t="leo.20160619113032.7"><vh>draweithteenthirdy</vh></v>
+<v t="leo.20160619113032.8"><vh>drawcircle36</vh></v>
+<v t="leo.20160619113032.9"><vh>drawcircle35</vh></v>
+<v t="leo.20160619113032.10"><vh>a</vh></v>
+<v t="leo.20160619113032.11"><vh>task50_1</vh></v>
+<v t="leo.20160619113032.12"><vh>task50_2</vh></v>
+<v t="leo.20160619113032.13"><vh>task50_3</vh></v>
+<v t="leo.20160619113032.14"><vh>abc</vh></v>
+<v t="leo.20160619113032.15"><vh>threegear</vh></v>
+<v t="leo.20160619113032.16"><vh>threegear2</vh></v>
+</v>
+</v>
 <v t="amd.20160501221015.1" a="E"><vh>@path ./../../../</vh>
 <v t="amd.20160501221001.1" a="E"><vh>@clean myflaskapp.py</vh>
 <v t="amd.20160501221001.2"><vh>myflaskapp declarations</vh></v>
@@ -49,62 +71,157 @@
 </v>
 </v>
 </v>
-<v t="leo.20160502084140.1"><vh>@edit ag6_40323155.py</vh></v>
 </vnodes>
 <tnodes>
-<t tx="amd.20160501215436.2"></t>
 <t tx="amd.20160501215545.1"></t>
-<t tx="amd.20160501215558.1"></t>
-<t tx="amd.20160501215634.1"></t>
-<t tx="amd.20160501215720.1">@language md
-Title: 40323199 cdw11 報告
-Category: ag100
-Tags: 40323199, cdw11
-Author: 40323199
-啟動 cdw11 協同專案
-
-&lt;!-- PELICAN_END_SUMMARY --&gt;
-
-pelican 網誌位置: &lt;a href="http://cdw11-ag100.rhcloud.com/static/"&gt;http://cdw11-ag100.rhcloud.com/static/&lt;/a&gt;
-
-分組程式: &lt;a href="http://cdw11-ag100.rhcloud.com/option"&gt;http://cdw11-ag100.rhcloud.com/option&lt;/a&gt;
-
-fileuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/fileuploadform"&gt;http://cdw11-ag100.rhcloud.com/fileuploadform&lt;/a&gt;
-
-imageuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/imageuploadform"&gt;http://cdw11-ag100.rhcloud.com/imageuploadform&lt;/a&gt;
-
-請各組在 CDW11 下課前完成下列3個圖形的零件組合繪圖:
-
-&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_4a.png" width="100%" /&gt;
-
-&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_badc.png" width="100%" /&gt;
-
-&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;</t>
-<t tx="amd.20160501215942.1"></t>
-<t tx="amd.20160501220009.1"></t>
-<t tx="amd.20160501220009.2">@language python
-import os
-#os.system("pelican content -o ./ -s publishconf.py -t theme/pelican-bootstrap3")
-os.system("pelican content -o blog -s publishconf.py")
-g.es("admin pelican 執行完畢")
-
-</t>
-<t tx="amd.20160501220029.1"></t>
-<t tx="amd.20160501220029.2">@language python
-import os
-#os.system("pelican content -o output -s local_publishconf.py -t theme/pelican-bootstrap3")
-os.system("pelican content -o blog -s local_publishconf.py")
-g.es("admin pelican 近端執行完畢")
-
-
-</t>
 <t tx="amd.20160501221001.1">@language python
 @tabwidth -4
 @others
 if __name__ == "__main__":
     app.run()
-    
-app.register_blueprint(users.a.g6.ag6_40323155.ag6_40323155)
+app.register_blueprint(users.a.g4.ag4_40323138.ag4_40323138)
+app.register_blueprint(users.a.g10.ag10_40323141_task1.ag10_40323141)    
+app.register_blueprint(users.a.g9.ag9_40323132task.ag9_40323132)
+app.register_blueprint(users.a.g10.ag10_40323139.ag10_40323139)
+app.register_blueprint(users.a.g5.ag5_40323113task1.ag5_40323113)
+app.register_blueprint(users.a.g5.ag5_40123145task1.ag5_40123145)
+app.register_blueprint(users.a.g5.ag5_40123145task2.ag5_40123145_2)
+app.register_blueprint(users.a.g5.ag5_40123145task3.ag5_40123145_3)
+app.register_blueprint(users.a.g8.ag8_40323131_task1.ag8_40323131)
+app.register_blueprint(users.a.g4.ag4_40323138_task2bacd.ag4_40323138bacd)
+app.register_blueprint(users.a.g4.ag4_40323138_task3abcd.ag4_40323138task3)
+app.register_blueprint(users.a.g8.ag8_40323123.ag8_40323123)
+app.register_blueprint(users.a.g10.ag10_40323129_task1.ag10_40323129)
+app.register_blueprint(users.a.g2.ag2_40323120.ag2_40323120)
+#app.register_blueprint(users.a.g2.ag2_40323122.ag2_40323122)
+app.register_blueprint(users.a.g1.ag1_40323105.ag1_40323105)
+app.register_blueprint(users.a.g1.a40223153.aag1)
+app.register_blueprint(users.a.g3.ag3_40323108.ag3_40323108)
+app.register_blueprint(users.a.g3.ag3_40323108_task2bacd.ag3_40323108bacd)
+app.register_blueprint(users.a.g3.ag3_40323108_task3abcd.ag3_40323108task3)
+app.register_blueprint(users.b.g9.bg9_40323250.bg9_40323250)
+app.register_blueprint(users.a.g4.a40323130.ag4_40323130)
+app.register_blueprint(users.a.g1.a40323105_1.a40323105_1)
+app.register_blueprint(users.a.g4.ag4_40323109.ag4_40323109)
+app.register_blueprint(users.a.g4.ag4_40323109_task2bacd.ag4_40323109bacd)
+app.register_blueprint(users.a.g4.ag4_40323109_task3abcd.ag4_40323109task3)
+
+app.register_blueprint(users.a.g1.a40323146_1.a40323146_1)
+app.register_blueprint(users.a.g1.a40323106.a40323106)
+app.register_blueprint(users.a.g1.a40323107_2.a40323107_2)
+
+#bg1
+app.register_blueprint(users.b.g1.bg1_40123156.bg1_40123156)
+app.register_blueprint(users.b.g1.bg1_40123156_2.bg1_40123156_2)
+
+app.register_blueprint(users.b.g1.bg1_40123129.bg1_40123129)
+app.register_blueprint(users.b.g1.bg1_40123129_2.bg1_40123129_2)
+
+app.register_blueprint(users.b.g1.bg1_40123144.bg1_40123144)
+app.register_blueprint(users.b.g1.bg1_40123144_2.bg40123144)
+app.register_blueprint(users.b.g1.b40123131_cdw11.bg1_40123131)
+app.register_blueprint(users.b.g1.b40123131_cdw12.bg1)
+app.register_blueprint(users.b.g1.b40123131_cdw13.b40123131_cdw13)
+
+app.register_blueprint(users.b.g1.b40123131_cdw11.bg1_40123131)
+app.register_blueprint(users.b.g1.b40123131_cdw12.bg1)
+app.register_blueprint(users.b.g1.bg1_40123134.bg1_40123134)
+app.register_blueprint(users.b.g1.bg1_40123134_2.bg1_40123134_2)
+app.register_blueprint(users.b.g1.bg1_40123134_3.bg1_40123134_3)
+app.register_blueprint(users.b.g1.b40123133_cdw11.bg1_40123133)
+app.register_blueprint(users.b.g1.b40123133_cdw12.bg1_40123133_2)
+#app.register_blueprint(users.b.g1.bg1_40123131.bg1_40123131)
+#app.register_blueprint(users.b.g1.bg1_40123131_2.bg40123131)
+
+app.register_blueprint(users.b.g1.bg1_40123126.bg1_40123126)
+app.register_blueprint(users.b.g1.bg1_40123126_2.bg1_40123126_2)
+
+#bg2
+app.register_blueprint(users.b.g2.bg2_40123235.bg2_40123235)
+app.register_blueprint(users.b.g2.bg2_40123202.bg2_40123202)
+app.register_blueprint(users.b.g2.bg2_40123235_cdw12.b40123235)
+
+app.register_blueprint(users.b.g2.bg2_40123202_cdw13.b40123202)
+app.register_blueprint(users.b.g2.bg2_40123202_cdw14.bg2_40123202_cdw14)
+app.register_blueprint(users.b.g2.bg2_40123235_cdw14.b40123235_1)
+#app.register_blueprint(users.b.g2.bg2_40123202_1.b40123202)
+app.register_blueprint(users.b.g2.bg2_40123226_cdw12.b40123226)
+app.register_blueprint(users.b.g2.bg2_40123232_cdw12.b40123232)
+app.register_blueprint(users.b.g2.bg2_40123214_cdw12.b40123214)
+app.register_blueprint(users.b.g2.bg2_40123217_cdw12.b40123217)
+app.register_blueprint(users.b.g2.bg2_40123244_cdw12.b40123244)
+#bg4
+app.register_blueprint(users.b.g4.bg4_40323203.bg4_40323203)
+app.register_blueprint(users.b.g4.bg4_40323205.bg4_40323205)
+app.register_blueprint(users.b.g4.bg4_40323208.bg4_40323208)
+#bg8
+app.register_blueprint(users.b.g8.bg8_40323213.bg8_40323213)
+app.register_blueprint(users.b.g4.bg4_40323202.bg4_40323202)
+app.register_blueprint(users.b.g4.b40323201_cdw11.b40323201)
+app.register_blueprint(users.b.g4.bg4_40123128.bg4_40123128)
+app.register_blueprint(users.b.g4.bg4_40123128_cdw11.b40123128)
+app.register_blueprint(users.b.g4.bg4_40123128_cdw14.b40123128_1)
+#bg5
+app.register_blueprint(users.b.g5.b40323204_cdw11_1.bg5_40323204_1)
+app.register_blueprint(users.b.g5.b40323204_cdw11_2.bg5_40323204_2)
+app.register_blueprint(users.b.g5.b40323204_cdw11.bg5_40323204)
+#app.register_blueprint(users.b.g5.b40323206_cdw11_1.bg5_40323206_1)
+app.register_blueprint(users.b.g5.b40323206_cdw11_2.bg5_40323206_2)
+
+#bg10
+app.register_blueprint(users.b.g10.bg10_40328245.bg10_40328245)
+app.register_blueprint(users.b.g10.bg10_40328242.bg10_40328242)
+app.register_blueprint(users.b.g10.bg10_40323241.bg10_40323241)
+app.register_blueprint(users.b.g10.bg10_40323222.bg10_40323222)
+
+#bg11
+app.register_blueprint(users.b.g11.bg11_40323245.bg11_40323245)
+app.register_blueprint(users.b.g11.bg11_40323252.bg11_40323252)
+app.register_blueprint(users.b.g11.bg11_40323245_2.bg11)
+app.register_blueprint(users.b.g11.b40323252.bg11_1)
+app.register_blueprint(users.b.g11.bg11_40323247_2.bg11_2)
+app.register_blueprint(users.b.g11.bg11_40323247.bg11_40323247)
+
+#bg101
+app.register_blueprint(users.b.g101.b40123200.bg101)
+
+#ag7
+app.register_blueprint(users.a.g7.ag7_40123149_1.ag7_40123149_1)
+app.register_blueprint(users.a.g7.ag7_40123149_2.ag7_40123149_2)
+#ag8
+app.register_blueprint(users.a.g8.a40323143.ag8_40323143)
+app.register_blueprint(users.a.g8.a40323137.ag8_40323137)
+app.register_blueprint(users.a.g8.a40323154.ag8_40323154)
+app.register_blueprint(users.a.g8.ag8_40323145.ag8_40323145)
+#ag10
+app.register_blueprint(users.a.g10.a40323139.ag10_40323139_1)
+#app.register_blueprint(users.a.g10.a40323141.ag10_40323141_1)
+#ag3
+app.register_blueprint(users.a.g3.a40323108.ag3_40323108_1)
+#ag100
+app.register_blueprint(users.a.g100.cdw13.a40123100.ag100)
+
+#bg3
+#app.register_blueprint(users.b.g3.bg3_40123224.bg3_40123224)
+#app.register_blueprint(users.b.g3.bg3_.bg3_40123250)
+#app.register_blueprint(users.b.g3.bg3_40123250.bg3_40123242)
+app.register_blueprint(users.b.g3.bg3_40123224_cdw11.b40123224)
+app.register_blueprint(users.b.g3.bg3_40123250.bg3_40123250)
+app.register_blueprint(users.b.g3.bg3_40123250_cdw11.b40123250)
+#app.register_blueprint(users.b.g3.bg3_40123250.bg3_40123242)
+app.register_blueprint(users.b.g3.bg3_40123242_cdw12.b40123242)
+app.register_blueprint(users.b.g3.bg3_40123250_cdw14.b40123250_1)
+app.register_blueprint(users.b.g3.bg3_40123224_cdw14.b40123224_1)
+
+#ag6
+app.register_blueprint(users.a.g6.cdw13.a40323133.ag6_40323133_1)
+app.register_blueprint(users.a.g6.cdw13.a40323147.ag6_40323147_1)
+app.register_blueprint(users.a.g6.cdw13.a40323152.ag6_40323152_1)
+app.register_blueprint(users.a.g6.cdw13.a40323155.ag6_40323155_1)
+app.register_blueprint(users.a.g6.cdw13.a40323156.ag6_40323156_1)
+
+
+
 
 </t>
 <t tx="amd.20160501221001.10">@app.route('/fileaxupload', methods=['POST'])
@@ -239,8 +356,146 @@ import math
 import os
 # init.py 為自行建立的起始物件
 import init
+import users.a.g1.ag1_40323105
+import users.a.g2.ag2_40323120
+#import users.a.g2.ag2_40323122
+import users.a.g10.ag10_40323129_task1
+import users.a.g10.ag10_40323141_task1
+import users.a.g10.ag10_40323139
+import users.a.g9.ag9_40323132task
+import users.a.g5.ag5_40323113task1
+import users.a.g5.ag5_40123145task1
+import users.a.g5.ag5_40123145task2
+import users.a.g5.ag5_40123145task3
+import users.a.g4.ag4_40323138
+import users.a.g4.ag4_40323138_task2bacd
+import users.a.g4.ag4_40323138_task3abcd
+import users.a.g8.ag8_40323131_task1
+import users.b.g9.bg9_40323250
+import users.a.g8.ag8_40323123
+import users.a.g1.a40223153
+import users.a.g3.ag3_40323108
+import users.a.g3.ag3_40323108_task2bacd
+import users.a.g3.ag3_40323108_task3abcd
+import users.a.g4.ag4_40323109
+import users.a.g4.ag4_40323109_task2bacd
+import users.a.g4.ag4_40323109_task3abcd
+import users.a.g4.a40323130
+import users.a.g1.a40323105_1
+import users.a.g1.a40323146_1
+import users.a.g1.a40323106
+import users.a.g1.a40323107_2
+import users.b.g6.bg6_40323248
 
-import users.a.g6.ag6_40323155
+#bg1
+import users.b.g1.bg1_40123156
+import users.b.g1.bg1_40123156_2
+import users.b.g1.bg1_40123129
+import users.b.g1.bg1_40123129_2
+import users.b.g1.bg1_40123144
+import users.b.g1.bg1_40123144_2
+import users.b.g1.b40123131_cdw11
+import users.b.g1.b40123131_cdw12
+import users.b.g1.b40123131_cdw13
+
+import users.b.g1.b40123131_cdw11
+import users.b.g1.b40123131_cdw12
+import users.b.g1.bg1_40123134
+import users.b.g1.bg1_40123134_2
+import users.b.g1.bg1_40123134_3
+import users.b.g1.b40123133_cdw11
+import users.b.g1.b40123133_cdw12
+import users.b.g1.bg1_40123126
+import users.b.g1.bg1_40123126_2
+#bg2
+import users.b.g2.bg2_40123235
+import users.b.g2.bg2_40123235_cdw12
+import users.b.g2.bg2_40123235_cdw14
+import users.b.g2.bg2_40123202
+import users.b.g2.bg2_40123202_cdw13
+import users.b.g2.bg2_40123202_cdw14
+import users.b.g2.bg2_40123226_cdw12
+import users.b.g2.bg2_40123232_cdw12
+import users.b.g2.bg2_40123214_cdw12
+import users.b.g2.bg2_40123217_cdw12
+import users.b.g2.bg2_40123244_cdw12
+#bg4
+import users.b.g4.bg4_40323203
+import users.b.g4.bg4_40323205
+import users.b.g4.bg4_40323208
+import users.b.g4.bg4_40123128
+import users.b.g4.bg4_40123128_cdw11
+import users.b.g4.bg4_40123128_cdw14
+#bg8
+import users.b.g8.bg8_40323213
+import users.b.g4.bg4_40323202
+import users.b.g4.b40323201_cdw11
+
+#bg5
+#import users.b.g5.b40323206_cdw11_1
+import users.b.g5.b40323204_cdw11_1
+import users.b.g5.b40323204_cdw11
+import users.b.g5.b40323204_cdw11_2
+
+#bg5
+#import users.b.g5.b40323206_cdw11_1
+import users.b.g5.b40323204_cdw11_1
+import users.b.g5.b40323204_cdw11_2
+import users.b.g5.b40323206_cdw11_2
+
+#bg10
+import users.b.g10.bg10_40328245
+import users.b.g10.bg10_40328242
+import users.b.g10.bg10_40323241
+import users.b.g10.bg10_40323222
+
+#bg11
+
+import users.b.g11.bg11_40323252
+import users.b.g11.bg11_40323245_2
+import users.b.g11.b40323252
+import users.b.g11.bg11_40323245
+import users.b.g11.b40323252
+import users.b.g11.bg11_40323247
+import users.b.g11.bg11_40323247_2
+
+#bg101
+import users.b.g101.b40123200
+#ag7
+import users.a.g7.ag7_40123149_1
+import users.a.g7.ag7_40123149_2
+#ag8
+import users.a.g8.a40323143
+import users.a.g8.a40323137
+import users.a.g8.a40323154
+import users.a.g8.ag8_40323145
+#ag10
+import users.a.g10.a40323139
+import users.a.g10.a40323141
+#bg3
+#import users.b.g3.b40123224
+#import users.b.g3.b40123250
+#import users.b.g3.b40123242
+import users.b.g3.bg3_40123224
+import users.b.g3.bg3_40123224_cdw11
+import users.b.g3.bg3_40123250
+import users.b.g3.bg3_40123250_cdw11
+import users.b.g3.bg3_40123250_cdw14
+import users.b.g3.bg3_40123224_cdw14
+#import users.b.g3.b40123242
+import users.b.g3.bg3_40123242_cdw12
+#ag3
+import users.a.g3.a40323108
+
+#ag6
+import users.a.g6.cdw13.a40323133
+import users.a.g6.cdw13.a40323147
+import users.a.g6.cdw13.a40323152
+import users.a.g6.cdw13.a40323155
+import users.a.g6.cdw13.a40323156
+
+#ag100
+import users.a.g100.cdw13.a40123100
 # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
 _curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
 # 設定在雲端與近端的資料儲存目錄
@@ -266,8 +521,6 @@ app = Flask(__name__)
 # In order to use sessions you have to set a secret key
 # set the secret key.  keep this really secret:
 app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
-
-
 
 
 
@@ -502,5 +755,1488 @@ def send_blog():
   return app.send_static_file('blog/index.html')
 
 </t>
+<t tx="leo.20160619113032.1"></t>
+<t tx="leo.20160619113032.10"># 傳繪 A 函式內容
+
+def a(x, y, scale=1, color="green"):
+    outstring = '''
+# 利用 chain class 建立案例, 對應到 mychain 變數
+mychain = chain(scale='''+str(scale)+''', fillcolor="'''+str(color)+'''")
+ 
+# 畫 A
+# 左邊兩個垂直單元
+x1, y1 = mychain.basic_rot('''+str(x)+","+str(y)+''', 90)
+x2, y2 = mychain.basic_rot(x1, y1, 90)
+# 左斜邊兩個單元
+x3, y3 = mychain.basic_rot(x2, y2, 80)
+x4, y4 = mychain.basic_rot(x3, y3, 71)
+# 最上方水平單元
+x5, y5 = mychain.basic_rot(x4, y4, 0)
+# 右斜邊兩個單元
+x6, y6 = mychain.basic_rot(x5, y5, -71)
+x7, y7 = mychain.basic_rot(x6, y6, -80)
+# 右邊兩個垂直單元
+x8, y8 = mychain.basic_rot(x7, y7, -90)
+x9, y9 = mychain.basic_rot(x8, y8, -90)
+# 中間兩個水平單元
+x10, y10 = mychain.basic_rot(x8, y8, -180)
+mychain.basic(x10, y10, x1, y1)
+'''
+
+    return outstring
+
+def a2(a, b, scale=1, color="green"):
+    outstring = '''
+# 利用 chain class 建立案例, 對應到 mychain 變數
+mychain = chain(scale='''+str(scale)+''', fillcolor="'''+str(color)+'''")
+ 
+# 畫 A
+# 左邊兩個垂直單元
+x1, y1 = mychain.basic_rot('''+str(a)+","+str(b)+''', 90)
+x2, y2 = mychain.basic_rot(x1, y1, 90)
+# 左斜邊兩個單元
+x3, y3 = mychain.basic_rot(x2, y2, 80)
+x4, y4 = mychain.basic_rot(x3, y3, 71)
+# 最上方水平單元
+x5, y5 = mychain.basic_rot(x4, y4, 0)
+# 右斜邊兩個單元
+x6, y6 = mychain.basic_rot(x5, y5, -71)
+x7, y7 = mychain.basic_rot(x6, y6, -80)
+# 右邊兩個垂直單元
+x8, y8 = mychain.basic_rot(x7, y7, -90)
+x9, y9 = mychain.basic_rot(x8, y8, -90)
+# 中間兩個水平單元
+x10, y10 = mychain.basic_rot(x8, y8, -180)
+mychain.basic(x10, y10, x1, y1)
+'''
+
+    return outstring
+
+
+@ag6_40323155_1.route('/a')
+def draw_a():
+    return head_str + chain_str + a(0, 0) + tail_str</t>
+<t tx="leo.20160619113032.11">@ag6_40323155_1.route('/task50_1')
+def task50_1():
+    outstring = '''
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;網際 2D 繪圖&lt;/title&gt;
+    &lt;!-- IE 9: display inline SVG --&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=9"&gt;
+&lt;script type="text/javascript" src="http://brython.info/src/brython_dist.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://cptocadp-2015fallhw.rhcloud.com/static/Cango-8v03.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://cptocadp-2015fallhw.rhcloud.com/static/Cango2D-6v13.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://cptocadp-2015fallhw.rhcloud.com/static/CangoAxes-1v33.js"&gt;&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;script&gt;
+window.onload=function(){
+brython(1);
+}
+&lt;/script&gt;
+&lt;canvas id="plotarea" width="800" height="800"&gt;&lt;/canvas&gt;
+&lt;script type="text/python"&gt;
+from javascript import JSConstructor
+from browser import alert
+from browser import window
+import math
+ 
+cango = JSConstructor(window.Cango)
+cobj = JSConstructor(window.Cobj)
+shapedefs = window.shapeDefs
+obj2d = JSConstructor(window.Obj2D)
+cgo = cango("plotarea")
+ 
+cgo.setWorldCoords(-250, -250, 500, 500) 
+ 
+# 畫軸線
+cgo.drawAxes(0, 240, 0, 240, {
+    "strokeColor":"#aaaaaa",
+    "fillColor": "#aaaaaa",
+    "xTickInterval": 20,
+    "xLabelInterval": 20,
+    "yTickInterval": 20,
+    "yLabelInterval": 20})
+ 
+deg = math.pi/180  
+
+class chain():
+    # 輪廓的外型設為成員變數
+    chamber = "M -6.8397, -1.4894 \
+            A 7, 7, 0, 1, 0, 6.8397, -1.4894 \
+            A 40, 40, 0, 0, 1, 6.8397, -18.511 \
+            A 7, 7, 0, 1, 0, -6.8397, -18.511 \
+            A 40, 40, 0, 0, 1, -6.8397, -1.4894 z"
+    cgoChamber = window.svgToCgoSVG(chamber)
+ 
+    # 利用鏈條起點與終點定義繪圖, 使用內定的 color, border 與 linewidth 變數
+    def basic(self, x1, y1, x2, y2, color="green", border=True, linewidth=4, scale=1):
+        self.x1 = x1
+        self.y1 = y1
+        self.x2 = x2
+        self.y2 = y2
+        self.color = color
+        self.border = border
+        self.linewidth = linewidth
+        self.scale = scale
+        # 注意, cgo.Chamber 為成員變數
+        cmbr = cobj(self.cgoChamber, "SHAPE", {
+                "fillColor": color,
+                "border": border,
+                "strokeColor": "tan",
+                "lineWidth": linewidth })
+ 
+        # hole 為原點位置
+        hole = cobj(shapedefs.circle(4), "PATH")
+        cmbr.appendPath(hole)
+ 
+        # 複製 cmbr, 然後命名為 basic1
+        basic1 = cmbr.dup()
+        # 因為鏈條的角度由原點向下垂直, 所以必須轉 90 度, 再考量 atan2 的轉角
+        basic1.rotate(math.atan2(y2-y1, x2-x1)/deg+90)
+ 
+        # 放大 scale 倍
+        cgo.render(basic1, x1, y1, scale, 0)
+ 
+    # 利用鏈條起點與旋轉角度定義繪圖, 使用內定的 color, border 與 linewidth 變數
+    def basic_rot(self, x1, y1, rot, color="green", border=True, linewidth=4, scale=1):
+        self.x1 = x1
+        self.y1 = y1
+        self.rot = rot
+        self.color = color
+        self.border = border
+        self.linewidth = linewidth
+        self.scale = scale
+        # 注意, cgo.Chamber 為成員變數
+        cmbr = cobj(self.cgoChamber, "SHAPE", {
+                "fillColor": color,
+                "border": border,
+                "strokeColor": "tan",
+                "lineWidth": linewidth })
+ 
+        # hole 為原點位置
+        hole = cobj(shapedefs.circle(4), "PATH")
+        cmbr.appendPath(hole)
+        # 根據旋轉角度, 計算 x2 與 y2
+        x2 = x1 + 20*math.cos(rot*deg)
+        y2 = y1 + 20*math.sin(rot*deg)
+ 
+        # 複製 cmbr, 然後命名為 basic1
+        basic1 = cmbr.dup()
+        # 因為鏈條的角度由原點向下垂直, 所以必須轉 90 度, 再考量 atan2 的轉角
+        basic1.rotate(rot+90)
+ 
+        # 放大 scale 倍
+        cgo.render(basic1, x1, y1, scale, 0)
+ 
+        return x2, y2
+ 
+# 利用 chain class 建立案例, 對應到 mychain 變數
+mychain = chain()
+ 
+# 畫 A
+# 左邊兩個垂直單元
+x1, y1 = mychain.basic_rot(0, 0, 90)
+x2, y2 = mychain.basic_rot(x1, y1, 90)
+# 左斜邊兩個單元
+x3, y3 = mychain.basic_rot(x2, y2, 80)
+x4, y4 = mychain.basic_rot(x3, y3, 71)
+# 最上方水平單元
+x5, y5 = mychain.basic_rot(x4, y4, 0)
+# 右斜邊兩個單元
+x6, y6 = mychain.basic_rot(x5, y5, -71)
+x7, y7 = mychain.basic_rot(x6, y6, -80)
+# 右邊兩個垂直單元
+x8, y8 = mychain.basic_rot(x7, y7, -90)
+x9, y9 = mychain.basic_rot(x8, y8, -90)
+# 中間兩個水平單元
+x10, y10 = mychain.basic_rot(x8, y8, -180)
+mychain.basic(x10, y10, x1, y1, color="green")
+
+
+cgo.setWorldCoords(-315, -250, 500, 500) 
+# 畫 A
+# 左邊兩個垂直單元
+x1, y1 = mychain.basic_rot(0, 0, 90)
+x2, y2 = mychain.basic_rot(x1, y1, 90)
+# 左斜邊兩個單元
+x3, y3 = mychain.basic_rot(x2, y2, 80)
+x4, y4 = mychain.basic_rot(x3, y3, 71)
+# 最上方水平單元
+x5, y5 = mychain.basic_rot(x4, y4, 0)
+# 右斜邊兩個單元
+x6, y6 = mychain.basic_rot(x5, y5, -71)
+x7, y7 = mychain.basic_rot(x6, y6, -80)
+# 右邊兩個垂直單元
+x8, y8 = mychain.basic_rot(x7, y7, -90)
+x9, y9 = mychain.basic_rot(x8, y8, -90)
+# 中間兩個水平單元
+x10, y10 = mychain.basic_rot(x8, y8, -180)
+mychain.basic(x10, y10, x1, y1, color="blue")
+
+cgo.setWorldCoords(-385, -250, 500, 500) 
+# 畫 A
+# 左邊兩個垂直單元
+x1, y1 = mychain.basic_rot(0, 0, 90)
+x2, y2 = mychain.basic_rot(x1, y1, 90)
+# 左斜邊兩個單元
+x3, y3 = mychain.basic_rot(x2, y2, 80)
+x4, y4 = mychain.basic_rot(x3, y3, 71)
+# 最上方水平單元
+x5, y5 = mychain.basic_rot(x4, y4, 0)
+# 右斜邊兩個單元
+x6, y6 = mychain.basic_rot(x5, y5, -71)
+x7, y7 = mychain.basic_rot(x6, y6, -80)
+# 右邊兩個垂直單元
+x8, y8 = mychain.basic_rot(x7, y7, -90)
+x9, y9 = mychain.basic_rot(x8, y8, -90)
+# 中間兩個水平單元
+x10, y10 = mychain.basic_rot(x8, y8, -180)
+mychain.basic(x10, y10, x1, y1, color="red")
+
+cgo.setWorldCoords(-445, -250, 500, 500) 
+# 畫 A
+# 左邊兩個垂直單元
+x1, y1 = mychain.basic_rot(0, 0, 90)
+x2, y2 = mychain.basic_rot(x1, y1, 90)
+# 左斜邊兩個單元
+x3, y3 = mychain.basic_rot(x2, y2, 80)
+x4, y4 = mychain.basic_rot(x3, y3, 71)
+# 最上方水平單元
+x5, y5 = mychain.basic_rot(x4, y4, 0)
+# 右斜邊兩個單元
+x6, y6 = mychain.basic_rot(x5, y5, -71)
+x7, y7 = mychain.basic_rot(x6, y6, -80)
+# 右邊兩個垂直單元
+x8, y8 = mychain.basic_rot(x7, y7, -90)
+x9, y9 = mychain.basic_rot(x8, y8, -90)
+# 中間兩個水平單元
+x10, y10 = mychain.basic_rot(x8, y8, -180)
+mychain.basic(x10, y10, x1, y1, color="green")
+&lt;/script&gt;
+&lt;/body&gt;&lt;/html&gt;
+'''
+    return outstring
+    
+
+</t>
+<t tx="leo.20160619113032.12">@ag6_40323155_1.route('/task50_2')
+def task50_2():
+    outstring = '''
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;網際 2D 繪圖&lt;/title&gt;
+    &lt;!-- IE 9: display inline SVG --&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=9"&gt;
+&lt;script type="text/javascript" src="http://brython.info/src/brython_dist.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://cptocadp-2015fallhw.rhcloud.com/static/Cango-8v03.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://cptocadp-2015fallhw.rhcloud.com/static/Cango2D-6v13.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://cptocadp-2015fallhw.rhcloud.com/static/CangoAxes-1v33.js"&gt;&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;script&gt;
+window.onload=function(){
+brython(1);
+}
+&lt;/script&gt;
+&lt;canvas id="plotarea" width="800" height="800"&gt;&lt;/canvas&gt;
+&lt;script type="text/python"&gt;
+from javascript import JSConstructor
+from browser import alert
+from browser import window
+import math
+ 
+cango = JSConstructor(window.Cango)
+cobj = JSConstructor(window.Cobj)
+shapedefs = window.shapeDefs
+obj2d = JSConstructor(window.Obj2D)
+cgo = cango("plotarea")
+ 
+cgo.setWorldCoords(-40, -250, 500, 500) 
+ 
+# 畫軸線
+cgo.drawAxes(0, 240, 0, 240, {
+    "strokeColor":"#aaaaaa",
+    "fillColor": "#aaaaaa",
+    "xTickInterval": 20,
+    "xLabelInterval": 20,
+    "yTickInterval": 20,
+    "yLabelInterval": 20})
+ 
+deg = math.pi/180  
+
+class chain():
+    # 輪廓的外型設為成員變數
+    chamber = "M -6.8397, -1.4894 \
+            A 7, 7, 0, 1, 0, 6.8397, -1.4894 \
+            A 40, 40, 0, 0, 1, 6.8397, -18.511 \
+            A 7, 7, 0, 1, 0, -6.8397, -18.511 \
+            A 40, 40, 0, 0, 1, -6.8397, -1.4894 z"
+    cgoChamber = window.svgToCgoSVG(chamber)
+ 
+    # 利用鏈條起點與終點定義繪圖, 使用內定的 color, border 與 linewidth 變數
+    def basic(self, x1, y1, x2, y2, color="green", border=True, linewidth=4, scale=1):
+        self.x1 = x1
+        self.y1 = y1
+        self.x2 = x2
+        self.y2 = y2
+        self.color = color
+        self.border = border
+        self.linewidth = linewidth
+        self.scale = scale
+        # 注意, cgo.Chamber 為成員變數
+        cmbr = cobj(self.cgoChamber, "SHAPE", {
+                "fillColor": color,
+                "border": border,
+                "strokeColor": "tan",
+                "lineWidth": linewidth })
+ 
+        # hole 為原點位置
+        hole = cobj(shapedefs.circle(4), "PATH")
+        cmbr.appendPath(hole)
+ 
+        # 複製 cmbr, 然後命名為 basic1
+        basic1 = cmbr.dup()
+        # 因為鏈條的角度由原點向下垂直, 所以必須轉 90 度, 再考量 atan2 的轉角
+        basic1.rotate(math.atan2(y2-y1, x2-x1)/deg+90)
+ 
+        # 放大 scale 倍
+        cgo.render(basic1, x1, y1, scale, 0)
+ 
+    # 利用鏈條起點與旋轉角度定義繪圖, 使用內定的 color, border 與 linewidth 變數
+    def basic_rot(self, x1, y1, rot, color="green", border=True, linewidth=4, scale=1):
+        self.x1 = x1
+        self.y1 = y1
+        self.rot = rot
+        self.color = color
+        self.border = border
+        self.linewidth = linewidth
+        self.scale = scale
+        # 注意, cgo.Chamber 為成員變數
+        cmbr = cobj(self.cgoChamber, "SHAPE", {
+                "fillColor": color,
+                "border": border,
+                "strokeColor": "tan",
+                "lineWidth": linewidth })
+ 
+        # hole 為原點位置
+        hole = cobj(shapedefs.circle(4), "PATH")
+        cmbr.appendPath(hole)
+        # 根據旋轉角度, 計算 x2 與 y2
+        x2 = x1 + 20*math.cos(rot*deg)
+        y2 = y1 + 20*math.sin(rot*deg)
+ 
+        # 複製 cmbr, 然後命名為 basic1
+        basic1 = cmbr.dup()
+        # 因為鏈條的角度由原點向下垂直, 所以必須轉 90 度, 再考量 atan2 的轉角
+        basic1.rotate(rot+90)
+ 
+        # 放大 scale 倍
+        cgo.render(basic1, x1, y1, scale, 0)
+ 
+        return x2, y2
+ 
+# 利用 chain class 建立案例, 對應到 mychain 變數
+mychain = chain()
+ 
+# 畫 B
+# 左邊四個垂直單元
+x1, y1 = mychain.basic_rot(0, 0, 90)
+x2, y2 = mychain.basic_rot(x1, y1, 90)
+x3, y3 = mychain.basic_rot(x2, y2, 90)
+x4, y4 = mychain.basic_rot(x3, y3, 90)
+# 上方一個水平單元
+x5, y5 = mychain.basic_rot(x4, y4, 0)
+# 右斜 -30 度
+x6, y6 = mychain.basic_rot(x5, y5, -30)
+# 右上垂直向下單元
+x7, y7 = mychain.basic_rot(x6, y6, -90)
+# 右斜 240 度
+x8, y8 = mychain.basic_rot(x7, y7, 210)
+# 中間水平
+mychain.basic(x8, y8, x2, y2)
+# 右下斜 -30 度
+x10, y10 = mychain.basic_rot(x8, y8, -30)
+# 右下垂直向下單元
+x11, y11 = mychain.basic_rot(x10, y10, -90)
+# 右下斜 240 度
+x12, y12 = mychain.basic_rot(x11, y11, 210)
+# 水平接回起點
+mychain.basic(x12,y12, 0, 0, color="green")
+
+cgo.setWorldCoords(-107.5, -250, 500, 500) 
+# 畫 A
+# 左邊兩個垂直單元
+x1, y1 = mychain.basic_rot(0, 0, 90)
+x2, y2 = mychain.basic_rot(x1, y1, 90)
+# 左斜邊兩個單元
+x3, y3 = mychain.basic_rot(x2, y2, 80)
+x4, y4 = mychain.basic_rot(x3, y3, 71)
+# 最上方水平單元
+x5, y5 = mychain.basic_rot(x4, y4, 0)
+# 右斜邊兩個單元
+x6, y6 = mychain.basic_rot(x5, y5, -71)
+x7, y7 = mychain.basic_rot(x6, y6, -80)
+# 右邊兩個垂直單元
+x8, y8 = mychain.basic_rot(x7, y7, -90)
+x9, y9 = mychain.basic_rot(x8, y8, -90)
+# 中間兩個水平單元
+x10, y10 = mychain.basic_rot(x8, y8, -180)
+mychain.basic(x10, y10, x1, y1, color="green")
+
+cgo.setWorldCoords(-50, -250, 500, 500) 
+# 畫 C
+# 上半部
+# 左邊中間垂直起點, 圓心位於線段中央, y 方向再向上平移兩個鏈條圓心距單位
+x1, y1 = mychain.basic_rot(0+65*2, -10+10+20*math.sin(80*deg)+20*math.sin(30*deg), 90)
+# 上方轉 80 度
+x2, y2 = mychain.basic_rot(x1, y1, 80)
+# 上方轉 30 度
+x3, y3 = mychain.basic_rot(x2, y2, 30)
+# 上方水平
+x4, y4 = mychain.basic_rot(x3, y3, 0)
+# 下半部, 從起點開始 -80 度
+x5, y5 = mychain.basic_rot(0+65*2, -10+10+20*math.sin(80*deg)+20*math.sin(30*deg), -80)
+# 下斜 -30 度
+x6, y6 = mychain.basic_rot(x5, y5, -30)
+# 下方水平單元
+x7, y7 = mychain.basic_rot(x6, y6, -0, color="green")
+
+cgo.setWorldCoords(-55, -250, 500, 500) 
+# 畫 D
+# 左邊四個垂直單元
+x1, y1 = mychain.basic_rot(0+65*3, 0, 90)
+x2, y2 = mychain.basic_rot(x1, y1, 90)
+x3, y3 = mychain.basic_rot(x2, y2, 90)
+x4, y4 = mychain.basic_rot(x3, y3, 90)
+# 上方一個水平單元
+x5, y5 = mychain.basic_rot(x4, y4, 0)
+# 右斜 -40 度
+x6, y6 = mychain.basic_rot(x5, y5, -40)
+x7, y7 = mychain.basic_rot(x6, y6, -60)
+# 右中垂直向下單元
+x8, y8 = mychain.basic_rot(x7, y7, -90)
+# -120 度
+x9, y9 = mychain.basic_rot(x8, y8, -120)
+# -140
+x10, y10 = mychain.basic_rot(x9, y9, -140)
+# 水平接回原點
+mychain.basic(x10, y10, 0+65*3, 0, color="green")
+
+&lt;/script&gt;
+&lt;/body&gt;&lt;/html&gt;
+'''
+    return outstring
+
+
+
+</t>
+<t tx="leo.20160619113032.13">@ag6_40323155_1.route('/task50_3')
+def task50_3():
+    outstring = '''
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;網際 2D 繪圖&lt;/title&gt;
+    &lt;!-- IE 9: display inline SVG --&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=9"&gt;
+&lt;script type="text/javascript" src="http://brython.info/src/brython_dist.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://cptocadp-2015fallhw.rhcloud.com/static/Cango-8v03.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://cptocadp-2015fallhw.rhcloud.com/static/Cango2D-6v13.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://cptocadp-2015fallhw.rhcloud.com/static/CangoAxes-1v33.js"&gt;&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;script&gt;
+window.onload=function(){
+brython(1);
+}
+&lt;/script&gt;
+&lt;canvas id="plotarea" width="800" height="800"&gt;&lt;/canvas&gt;
+&lt;script type="text/python"&gt;
+from javascript import JSConstructor
+from browser import alert
+from browser import window
+import math
+ 
+cango = JSConstructor(window.Cango)
+cobj = JSConstructor(window.Cobj)
+shapedefs = window.shapeDefs
+obj2d = JSConstructor(window.Obj2D)
+cgo = cango("plotarea")
+ 
+cgo.setWorldCoords(-250, -250, 500, 500) 
+ 
+# 畫軸線
+cgo.drawAxes(0, 240, 0, 240, {
+    "strokeColor":"#aaaaaa",
+    "fillColor": "#aaaaaa",
+    "xTickInterval": 20,
+    "xLabelInterval": 20,
+    "yTickInterval": 20,
+    "yLabelInterval": 20})
+ 
+deg = math.pi/180  
+ 
+# 將繪製鏈條輪廓的內容寫成 class 物件
+class chain():
+    # 輪廓的外型設為成員變數
+    chamber = "M -6.8397, -1.4894 \
+            A 7, 7, 0, 1, 0, 6.8397, -1.4894 \
+            A 40, 40, 0, 0, 1, 6.8397, -18.511 \
+            A 7, 7, 0, 1, 0, -6.8397, -18.511 \
+            A 40, 40, 0, 0, 1, -6.8397, -1.4894 z"
+    cgoChamber = window.svgToCgoSVG(chamber)
+ 
+    # 利用鏈條起點與終點定義繪圖, 使用內定的 color, border 與 linewidth 變數
+    def basic(self, x1, y1, x2, y2, color="green", border=True, linewidth=4, scale=1):
+        self.x1 = x1
+        self.y1 = y1
+        self.x2 = x2
+        self.y2 = y2
+        self.color = color
+        self.border = border
+        self.linewidth = linewidth
+        self.scale = scale
+        # 注意, cgo.Chamber 為成員變數
+        cmbr = cobj(self.cgoChamber, "SHAPE", {
+                "fillColor": color,
+                "border": border,
+                "strokeColor": "tan",
+                "lineWidth": linewidth })
+ 
+        # hole 為原點位置
+        hole = cobj(shapedefs.circle(4), "PATH")
+        cmbr.appendPath(hole)
+ 
+        # 複製 cmbr, 然後命名為 basic1
+        basic1 = cmbr.dup()
+        # 因為鏈條的角度由原點向下垂直, 所以必須轉 90 度, 再考量 atan2 的轉角
+        basic1.rotate(math.atan2(y2-y1, x2-x1)/deg+90)
+ 
+        # 放大 scale 倍
+        cgo.render(basic1, x1, y1, scale, 0)
+ 
+    # 利用鏈條起點與旋轉角度定義繪圖, 使用內定的 color, border 與 linewidth 變數
+    def basic_rot(self, x1, y1, rot, color="green", border=True, linewidth=4, scale=1):
+        self.x1 = x1
+        self.y1 = y1
+        self.rot = rot
+        self.color = color
+        self.border = border
+        self.linewidth = linewidth
+        self.scale = scale
+        # 注意, cgo.Chamber 為成員變數
+        cmbr = cobj(self.cgoChamber, "SHAPE", {
+                "fillColor": color,
+                "border": border,
+                "strokeColor": "tan",
+                "lineWidth": linewidth })
+ 
+        # hole 為原點位置
+        hole = cobj(shapedefs.circle(4), "PATH")
+        cmbr.appendPath(hole)
+        # 根據旋轉角度, 計算 x2 與 y2
+        x2 = x1 + 20*math.cos(rot*deg)
+        y2 = y1 + 20*math.sin(rot*deg)
+ 
+        # 複製 cmbr, 然後命名為 basic1
+        basic1 = cmbr.dup()
+        # 因為鏈條的角度由原點向下垂直, 所以必須轉 90 度, 再考量 atan2 的轉角
+        basic1.rotate(rot+90)
+ 
+        # 放大 scale 倍
+        cgo.render(basic1, x1, y1, scale, 0)
+ 
+        return x2, y2
+ 
+# 利用 chain class 建立案例, 對應到 mychain 變數
+mychain = chain()
+ 
+# 畫 B
+# 左邊四個垂直單元
+x1, y1 = mychain.basic_rot(0, 0, 90)
+x2, y2 = mychain.basic_rot(x1, y1, 90)
+x3, y3 = mychain.basic_rot(x2, y2, 90)
+x4, y4 = mychain.basic_rot(x3, y3, 90)
+# 上方一個水平單元
+x5, y5 = mychain.basic_rot(x4, y4, 0)
+# 右斜 -30 度
+x6, y6 = mychain.basic_rot(x5, y5, -30)
+# 右上垂直向下單元
+x7, y7 = mychain.basic_rot(x6, y6, -90)
+# 右斜 240 度
+x8, y8 = mychain.basic_rot(x7, y7, 210)
+# 中間水平
+mychain.basic(x8, y8, x2, y2)
+# 右下斜 -30 度
+x10, y10 = mychain.basic_rot(x8, y8, -30)
+# 右下垂直向下單元
+x11, y11 = mychain.basic_rot(x10, y10, -90)
+# 右下斜 240 度
+x12, y12 = mychain.basic_rot(x11, y11, 210)
+# 水平接回起點
+mychain.basic(x12,y12, 0, 0, color="green")
+
+
+cgo.setWorldCoords(-247.5, -350, 500, 500) 
+# 畫 A
+# 左邊兩個垂直單元
+x1, y1 = mychain.basic_rot(0, 0, 90)
+x2, y2 = mychain.basic_rot(x1, y1, 90)
+# 左斜邊兩個單元
+x3, y3 = mychain.basic_rot(x2, y2, 80)
+x4, y4 = mychain.basic_rot(x3, y3, 71)
+# 最上方水平單元
+x5, y5 = mychain.basic_rot(x4, y4, 0)
+# 右斜邊兩個單元
+x6, y6 = mychain.basic_rot(x5, y5, -71)
+x7, y7 = mychain.basic_rot(x6, y6, -80)
+# 右邊兩個垂直單元
+x8, y8 = mychain.basic_rot(x7, y7, -90)
+x9, y9 = mychain.basic_rot(x8, y8, -90)
+# 中間兩個水平單元
+x10, y10 = mychain.basic_rot(x8, y8, -180)
+mychain.basic(x10, y10, x1, y1, color="green")
+
+cgo.setWorldCoords(-55, -50, 500, 500) 
+# 畫 D
+# 左邊四個垂直單元
+x1, y1 = mychain.basic_rot(0+65*3, 0, 90)
+x2, y2 = mychain.basic_rot(x1, y1, 90)
+x3, y3 = mychain.basic_rot(x2, y2, 90)
+x4, y4 = mychain.basic_rot(x3, y3, 90)
+# 上方一個水平單元
+x5, y5 = mychain.basic_rot(x4, y4, 0)
+# 右斜 -40 度
+x6, y6 = mychain.basic_rot(x5, y5, -40)
+x7, y7 = mychain.basic_rot(x6, y6, -60)
+# 右中垂直向下單元
+x8, y8 = mychain.basic_rot(x7, y7, -90)
+# -120 度
+x9, y9 = mychain.basic_rot(x8, y8, -120)
+# -140
+x10, y10 = mychain.basic_rot(x9, y9, -140)
+# 水平接回原點
+mychain.basic(x10, y10, 0+65*3, 0, color="green")
+
+cgo.setWorldCoords(-120, -150, 500, 500) 
+# 畫 C
+# 上半部
+# 左邊中間垂直起點, 圓心位於線段中央, y 方向再向上平移兩個鏈條圓心距單位
+x1, y1 = mychain.basic_rot(0+65*2, -10+10+20*math.sin(80*deg)+20*math.sin(30*deg), 90)
+# 上方轉 80 度
+x2, y2 = mychain.basic_rot(x1, y1, 80)
+# 上方轉 30 度
+x3, y3 = mychain.basic_rot(x2, y2, 30)
+# 上方水平
+x4, y4 = mychain.basic_rot(x3, y3, 0)
+# 下半部, 從起點開始 -80 度
+x5, y5 = mychain.basic_rot(0+65*2, -10+10+20*math.sin(80*deg)+20*math.sin(30*deg), -80)
+# 下斜 -30 度
+x6, y6 = mychain.basic_rot(x5, y5, -30)
+# 下方水平單元
+x7, y7 = mychain.basic_rot(x6, y6, -0, color="green")
+&lt;/script&gt;
+&lt;/body&gt;&lt;/html&gt;
+'''
+    return outstring
+
+</t>
+<t tx="leo.20160619113032.14">@ag6_40323155_1.route('/abc')
+def abc():
+    outstring = '''
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;網際 2D 繪圖&lt;/title&gt;
+    &lt;!-- IE 9: display inline SVG --&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=9"&gt;
+&lt;script type="text/javascript" src="http://brython.info/src/brython_dist.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://2015fallhw.github.io/cptocadp/static/Cango-8v03.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://2015fallhw.github.io/cptocadp/static/Cango2D-7v01-min.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://2015fallhw.github.io/cptocadp/static/gearUtils-05.js"&gt;&lt;/script&gt;
+ 
+&lt;script&gt;
+window.onload=function(){
+brython(1);
+}
+&lt;/script&gt;
+ 
+&lt;canvas id='gear1' width='800' height='750'&gt;&lt;/canvas&gt;
+ 
+&lt;script type="text/python"&gt;
+# 將 導入的 document 設為 doc 主要原因在於與舊程式碼相容
+from browser import document as doc
+# 由於 Python3 與 Javascript 程式碼已經不再混用, 因此來自 Javascript 的變數, 必須居中透過 window 物件轉換
+from browser import window
+# 針對 Javascript 既有的物件, 則必須透過 JSConstructor 轉換
+from javascript import JSConstructor
+import math
+ 
+# 主要用來取得畫布大小
+canvas = doc["gear1"]
+# 此程式採用 Cango Javascript 程式庫繪圖, 因此無需 ctx
+#ctx = canvas.getContext("2d")
+# 針對類別的轉換, 將 Cango.js 中的 Cango 物件轉為 Python cango 物件
+cango = JSConstructor(window.Cango)
+# 針對變數的轉換, shapeDefs 在 Cango 中資料型別為變數, 可以透過 window 轉換
+shapedefs = window.shapeDefs
+# 目前 Cango 結合 Animation 在 Brython 尚無法運作, 此刻只能繪製靜態圖形
+# in CangoAnimation.js
+#interpolate1 = window.interpolate
+# Cobi 與 createGearTooth 都是 Cango Javascript 程式庫中的物件
+cobj = JSConstructor(window.Cobj)
+creategeartooth = JSConstructor(window.createGearTooth)
+ 
+# 經由 Cango 轉換成 Brython 的 cango, 指定將圖畫在 id="plotarea" 的 canvas 上
+cgo = cango("gear1")
+ 
+######################################
+# 畫正齒輪輪廓
+#####################################
+def spur(cx, cy, m, n, pa, theta):
+    # n 為齒數
+    #n = 17
+    # pa 為壓力角
+    #pa = 25
+    # m 為模數, 根據畫布的寬度, 計算適合的模數大小
+    # Module = mm of pitch diameter per tooth
+    #m = 0.8*canvas.width/n
+    # pr 為節圓半徑
+    pr = n*m/2 # gear Pitch radius
+    # generate gear
+    data = creategeartooth(m, n, pa)
+    # Brython 程式中的 print 會將資料印在 Browser 的 console 區
+    #print(data)
+ 
+    gearTooth = cobj(data, "SHAPE", {
+            "fillColor":"#ddd0dd",
+            "border": True,
+            "strokeColor": "#606060" })
+    #gearTooth.rotate(180/n) # rotate gear 1/2 tooth to mesh, 請注意 rotate 角度為 degree
+    # theta 為角度
+    gearTooth.rotate(theta) 
+    # 單齒的齒形資料經過旋轉後, 將資料複製到 gear 物件中
+    gear = gearTooth.dup()
+    # gear 為單一齒的輪廓資料
+    #cgo.render(gearTooth)
+ 
+    # 利用單齒輪廓旋轉, 產生整個正齒輪外形
+    for i in range(1, n):
+        # 將 gearTooth 中的資料複製到 newTooth
+        newTooth = gearTooth.dup()
+        # 配合迴圈, newTooth 的齒形資料進行旋轉, 然後利用 appendPath 方法, 將資料併入 gear
+        newTooth.rotate(360*i/n)
+        # appendPath 為 Cango 程式庫中的方法, 第二個變數為 True, 表示要刪除最前頭的 Move to SVG Path 標註符號
+        gear.appendPath(newTooth, True) # trim move command = True
+ 
+    # 建立軸孔
+    # add axle hole, hr 為 hole radius
+    hr = 0.6*pr # diameter of gear shaft
+    shaft = cobj(shapedefs.circle(hr), "PATH")
+    shaft.revWinding()
+    gear.appendPath(shaft) # retain the 'moveTo' command for shaft sub path
+    gear.translate(cx, cy)
+    # render 繪出靜態正齒輪輪廓
+    cgo.render(gear)
+    # 接著繪製齒輪的基準線
+    deg = math.pi/180
+    Line = cobj(['M', cx, cy, 'L', cx+pr*math.cos(theta*deg), cy+pr*math.sin(theta*deg)], "PATH", {
+          'strokeColor':'blue', 'lineWidth': 1})
+    cgo.render(Line)
+ 
+# 3個齒輪的齒數
+n1 = 17
+n2 = 29
+n3 = 15
+ 
+# m 為模數, 根據畫布的寬度, 計算適合的模數大小
+# Module = mm of pitch diameter per tooth
+# 利用 80% 的畫布寬度進行繪圖
+# 計算模數的對應尺寸
+m = canvas.width*0.8/(n1+n2+n3)
+ 
+# 根據齒數與模組計算各齒輪的節圓半徑
+pr1 = n1*m/2
+pr2 = n2*m/2
+pr3 = n3*m/2
+ 
+# 畫布左右兩側都保留畫布寬度的 10%
+# 依此計算對應的最左邊齒輪的軸心座標
+cx = canvas.width*0.1+pr1
+cy = canvas.height/2
+ 
+# pa 為壓力角
+pa = 25
+ 
+# 畫最左邊齒輪, 定位線旋轉角為 0, 軸心座標 (cx, cy)
+spur(cx, cy, m, n1, pa, 0)
+# 第2個齒輪將原始的定位線逆時鐘轉 180 度後, 與第1個齒輪正好齒頂與齒頂對齊
+# 只要第2個齒輪再逆時鐘或順時鐘轉動半齒的角度, 即可完成囓合
+# 每一個齒分別包括從齒根到齒頂的範圍, 涵蓋角度為 360/n, 因此所謂的半齒角度為 180/n
+spur(cx+pr1+pr2, cy, m, n2, pa, 180-180/n2)
+# 第2齒與第3齒的囓合, 首先假定第2齒的定位線在 theta 角為 0 的原始位置
+# 如此, 第3齒只要逆時鐘旋轉 180 度後, 再逆時鐘或順時鐘轉動半齒的角度, 即可與第2齒囓合
+# 但是第2齒為了與第一齒囓合時, 已經從原始定位線轉了 180-180/n2 度
+# 而當第2齒從與第3齒囓合的定位線, 逆時鐘旋轉 180-180/n2 角度後, 原先囓合的第3齒必須要再配合旋轉 (180-180/n2 )*n2/n3
+spur(cx+pr1+pr2+pr2+pr3, cy, m, n3, pa, 180-180/n3+(180-180/n2)*n2/n3)
+&lt;/script&gt;
+'''
+    return outstring
+
+</t>
+<t tx="leo.20160619113032.15">@ag6_40323155_1.route('/threegear', defaults={'n1':15,'n2':20,'n3':18})
+@ag6_40323155_1.route('/threegear/&lt;n1&gt;/&lt;n2&gt;/&lt;n3&gt;')
+def threegear(n1, n2, n3):
+    # 真正最後的架構應該要在函式中準備繪圖所需的資料, 然後用 template 呈現內容
+    title = "網際 2D 繪圖"
+    head = '''
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;'''+ title +'''&lt;/title&gt;
+    &lt;!-- IE 9: display inline SVG --&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=9"&gt;
+'''
+    script = '''
+&lt;script type="text/javascript" src="http://brython.info/src/brython_dist.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://2015fallhw.github.io/cptocadp/static/Cango-8v03.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://2015fallhw.github.io/cptocadp/static/Cango2D-7v01-min.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://2015fallhw.github.io/cptocadp/static/gearUtils-05.js"&gt;&lt;/script&gt;
+ 
+&lt;script&gt;
+window.onload=function(){
+brython(1);
+}
+&lt;/script&gt;
+'''
+    headstring = head + script + "&lt;/head&gt;"
+    # 能否根據 n1, n2, n3 與 width, 算出合理的 height
+    # 模數計算 m = canvas.width*0.8/(n1+n2+n3)
+    # max([int(n1), int(n2), int(n3)])
+    # 所以 height = 1.2*800*0.8/(int(n1)+int(n2)+int(n3))*max([int(n1), int(n2), int(n3)])
+    height = 1.2*800*0.8/(int(n1)+int(n2)+int(n3))*max([int(n1), int(n2), int(n3)])
+    body = '''
+    
+&lt;canvas id='gear1' width='800' height="'''+str(int(height))+'''"&gt;&lt;/canvas&gt;
+&lt;script type="text/python"&gt;
+# 將 導入的 document 設為 doc 主要原因在於與舊程式碼相容
+from browser import document as doc
+# 由於 Python3 與 Javascript 程式碼已經不再混用, 因此來自 Javascript 的變數, 必須居中透過 window 物件轉換
+from browser import window
+# 針對 Javascript 既有的物件, 則必須透過 JSConstructor 轉換
+from javascript import JSConstructor
+import math
+ 
+# 主要用來取得畫布大小
+canvas = doc["gear1"]
+# 此程式採用 Cango Javascript 程式庫繪圖, 因此無需 ctx
+#ctx = canvas.getContext("2d")
+# 針對類別的轉換, 將 Cango.js 中的 Cango 物件轉為 Python cango 物件
+cango = JSConstructor(window.Cango)
+# 針對變數的轉換, shapeDefs 在 Cango 中資料型別為變數, 可以透過 window 轉換
+shapedefs = window.shapeDefs
+# 目前 Cango 結合 Animation 在 Brython 尚無法運作, 此刻只能繪製靜態圖形
+# in CangoAnimation.js
+#interpolate1 = window.interpolate
+# Cobi 與 createGearTooth 都是 Cango Javascript 程式庫中的物件
+cobj = JSConstructor(window.Cobj)
+creategeartooth = JSConstructor(window.createGearTooth)
+ 
+# 經由 Cango 轉換成 Brython 的 cango, 指定將圖畫在 id="plotarea" 的 canvas 上
+cgo = cango("gear1")
+ 
+######################################
+# 畫正齒輪輪廓
+#####################################
+def spur(cx, cy, m, n, pa, theta):
+    # n 為齒數
+    #n = 17
+    # pa 為壓力角
+    #pa = 25
+    # m 為模數, 根據畫布的寬度, 計算適合的模數大小
+    # Module = mm of pitch diameter per tooth
+    #m = 0.8*canvas.width/n
+    # pr 為節圓半徑
+    pr = n*m/2 # gear Pitch radius
+    # generate gear
+    data = creategeartooth(m, n, pa)
+    # Brython 程式中的 print 會將資料印在 Browser 的 console 區
+    #print(data)
+ 
+    gearTooth = cobj(data, "SHAPE", {
+            "fillColor":"#ddd0dd",
+            "border": True,
+            "strokeColor": "#606060" })
+    #gearTooth.rotate(180/n) # rotate gear 1/2 tooth to mesh, 請注意 rotate 角度為 degree
+    # theta 為角度
+    gearTooth.rotate(theta) 
+    # 單齒的齒形資料經過旋轉後, 將資料複製到 gear 物件中
+    gear = gearTooth.dup()
+    # gear 為單一齒的輪廓資料
+    #cgo.render(gearTooth)
+ 
+    # 利用單齒輪廓旋轉, 產生整個正齒輪外形
+    for i in range(1, n):
+        # 將 gearTooth 中的資料複製到 newTooth
+        newTooth = gearTooth.dup()
+        # 配合迴圈, newTooth 的齒形資料進行旋轉, 然後利用 appendPath 方法, 將資料併入 gear
+        newTooth.rotate(360*i/n)
+        # appendPath 為 Cango 程式庫中的方法, 第二個變數為 True, 表示要刪除最前頭的 Move to SVG Path 標註符號
+        gear.appendPath(newTooth, True) # trim move command = True
+ 
+    # 建立軸孔
+    # add axle hole, hr 為 hole radius
+    hr = 0.6*pr # diameter of gear shaft
+    shaft = cobj(shapedefs.circle(hr), "PATH")
+    shaft.revWinding()
+    gear.appendPath(shaft) # retain the 'moveTo' command for shaft sub path
+    gear.translate(cx, cy)
+    # render 繪出靜態正齒輪輪廓
+    cgo.render(gear)
+    # 接著繪製齒輪的基準線
+    deg = math.pi/180
+    Line = cobj(['M', cx, cy, 'L', cx+pr*math.cos(theta*deg), cy+pr*math.sin(theta*deg)], "PATH", {
+          'strokeColor':'blue', 'lineWidth': 1})
+    cgo.render(Line)
+ 
+# 3個齒輪的齒數
+n1 = '''+str(n1)+'''
+n2 = '''+str(n2)+'''
+n3 = '''+str(n3)+'''
+ 
+# m 為模數, 根據畫布的寬度, 計算適合的模數大小
+# Module = mm of pitch diameter per tooth
+# 利用 80% 的畫布寬度進行繪圖
+# 計算模數的對應尺寸
+m = canvas.width*0.8/(n1+n2+n3)
+ 
+# 根據齒數與模組計算各齒輪的節圓半徑
+pr1 = n1*m/2
+pr2 = n2*m/2
+pr3 = n3*m/2
+ 
+# 畫布左右兩側都保留畫布寬度的 10%
+# 依此計算對應的最左邊齒輪的軸心座標
+cx = canvas.width*0.1+pr1
+cy = canvas.height/2
+ 
+# pa 為壓力角
+pa = 25
+ 
+# 畫最左邊齒輪, 定位線旋轉角為 0, 軸心座標 (cx, cy)
+spur(cx, cy, m, n1, pa, 0)
+# 第2個齒輪將原始的定位線逆時鐘轉 180 度後, 與第1個齒輪正好齒頂與齒頂對齊
+# 只要第2個齒輪再逆時鐘或順時鐘轉動半齒的角度, 即可完成囓合
+# 每一個齒分別包括從齒根到齒頂的範圍, 涵蓋角度為 360/n, 因此所謂的半齒角度為 180/n
+spur(cx+pr1+pr2, cy, m, n2, pa, 180-180/n2)
+# 第2齒與第3齒的囓合, 首先假定第2齒的定位線在 theta 角為 0 的原始位置
+# 如此, 第3齒只要逆時鐘旋轉 180 度後, 再逆時鐘或順時鐘轉動半齒的角度, 即可與第2齒囓合
+# 但是第2齒為了與第一齒囓合時, 已經從原始定位線轉了 180-180/n2 度
+# 而當第2齒從與第3齒囓合的定位線, 逆時鐘旋轉 180-180/n2 角度後, 原先囓合的第3齒必須要再配合旋轉 (180-180/n2 )*n2/n3
+spur(cx+pr1+pr2+pr2+pr3, cy, m, n3, pa, 180-180/n3+(180-180/n2)*n2/n3)
+&lt;/script&gt;
+'''
+    bodystring = "&lt;body&gt;" + body+"&lt;/body&gt;"
+    endstring = "&lt;/html&gt;"
+    outstring = headstring + bodystring + endstring
+    return outstring
+    # 若 template 檔案名稱與位於外部 templates 目錄中的檔案同名, 則取外部的 template
+   # return render_template('g1index.html', user=user)
+
+</t>
+<t tx="leo.20160619113032.16">@ag6_40323155_1.route('/threegear2')
+def threegear2():
+    outstring = '''
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;網際 2D 繪圖&lt;/title&gt;
+    &lt;!-- IE 9: display inline SVG --&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=9"&gt;
+&lt;script type="text/javascript" src="http://brython.info/src/brython_dist.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://2015fallhw.github.io/cptocadp/static/Cango-8v03.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://2015fallhw.github.io/cptocadp/static/Cango2D-7v01-min.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://2015fallhw.github.io/cptocadp/static/gearUtils-05.js"&gt;&lt;/script&gt;
+ 
+&lt;script&gt;
+window.onload=function(){
+brython(1);
+}
+&lt;/script&gt;
+ 
+&lt;canvas id='gear1' width='800' height='750'&gt;&lt;/canvas&gt;
+ 
+&lt;script type="text/python"&gt;
+# 將 導入的 document 設為 doc 主要原因在於與舊程式碼相容
+from browser import document as doc
+# 由於 Python3 與 Javascript 程式碼已經不再混用, 因此來自 Javascript 的變數, 必須居中透過 window 物件轉換
+from browser import window
+# 針對 Javascript 既有的物件, 則必須透過 JSConstructor 轉換
+from javascript import JSConstructor
+import math
+ 
+# 主要用來取得畫布大小
+canvas = doc["gear1"]
+# 此程式採用 Cango Javascript 程式庫繪圖, 因此無需 ctx
+#ctx = canvas.getContext("2d")
+# 針對類別的轉換, 將 Cango.js 中的 Cango 物件轉為 Python cango 物件
+cango = JSConstructor(window.Cango)
+# 針對變數的轉換, shapeDefs 在 Cango 中資料型別為變數, 可以透過 window 轉換
+shapedefs = window.shapeDefs
+# 目前 Cango 結合 Animation 在 Brython 尚無法運作, 此刻只能繪製靜態圖形
+# in CangoAnimation.js
+#interpolate1 = window.interpolate
+# Cobi 與 createGearTooth 都是 Cango Javascript 程式庫中的物件
+cobj = JSConstructor(window.Cobj)
+creategeartooth = JSConstructor(window.createGearTooth)
+ 
+# 經由 Cango 轉換成 Brython 的 cango, 指定將圖畫在 id="plotarea" 的 canvas 上
+cgo = cango("gear1")
+ 
+######################################
+# 畫正齒輪輪廓
+#####################################
+def spur(cx, cy, m, n, pa, theta):
+    # n 為齒數
+    #n = 17
+    # pa 為壓力角
+    #pa = 25
+    # m 為模數, 根據畫布的寬度, 計算適合的模數大小
+    # Module = mm of pitch diameter per tooth
+    #m = 0.8*canvas.width/n
+    # pr 為節圓半徑
+    pr = n*m/2 # gear Pitch radius
+    # generate gear
+    data = creategeartooth(m, n, pa)
+    # Brython 程式中的 print 會將資料印在 Browser 的 console 區
+    #print(data)
+ 
+    gearTooth = cobj(data, "SHAPE", {
+            "fillColor":"#ddd0dd",
+            "border": True,
+            "strokeColor": "#606060" })
+    #gearTooth.rotate(180/n) # rotate gear 1/2 tooth to mesh, 請注意 rotate 角度為 degree
+    # theta 為角度
+    gearTooth.rotate(theta) 
+    # 單齒的齒形資料經過旋轉後, 將資料複製到 gear 物件中
+    gear = gearTooth.dup()
+    # gear 為單一齒的輪廓資料
+    #cgo.render(gearTooth)
+ 
+    # 利用單齒輪廓旋轉, 產生整個正齒輪外形
+    for i in range(1, n):
+        # 將 gearTooth 中的資料複製到 newTooth
+        newTooth = gearTooth.dup()
+        # 配合迴圈, newTooth 的齒形資料進行旋轉, 然後利用 appendPath 方法, 將資料併入 gear
+        newTooth.rotate(360*i/n)
+        # appendPath 為 Cango 程式庫中的方法, 第二個變數為 True, 表示要刪除最前頭的 Move to SVG Path 標註符號
+        gear.appendPath(newTooth, True) # trim move command = True
+ 
+    # 建立軸孔
+    # add axle hole, hr 為 hole radius
+    hr = 0.6*pr # diameter of gear shaft
+    shaft = cobj(shapedefs.circle(hr), "PATH")
+    shaft.revWinding()
+    gear.appendPath(shaft) # retain the 'moveTo' command for shaft sub path
+    gear.translate(cx, cy)
+    # render 繪出靜態正齒輪輪廓
+    cgo.render(gear)
+    # 接著繪製齒輪的基準線
+    deg = math.pi/180
+    Line = cobj(['M', cx, cy, 'L', cx+pr*math.cos(theta*deg), cy+pr*math.sin(theta*deg)], "PATH", {
+          'strokeColor':'blue', 'lineWidth': 1})
+    cgo.render(Line)
+ 
+# 3個齒輪的齒數
+n1 = 30
+n2 = 20
+n3 = 10
+n4 = 5
+ 
+# m 為模數, 根據畫布的寬度, 計算適合的模數大小
+# Module = mm of pitch diameter per tooth
+# 利用 80% 的畫布寬度進行繪圖
+# 計算模數的對應尺寸
+m = canvas.width*0.8/(n1+n2+n3+n4)
+ 
+# 根據齒數與模組計算各齒輪的節圓半徑
+pr1 = n1*m/2
+pr2 = n2*m/2
+pr3 = n3*m/2
+pr4 = n4*m/2
+# 畫布左右兩側都保留畫布寬度的 10%
+# 依此計算對應的最左邊齒輪的軸心座標
+cx = canvas.width*0.1+pr1
+cy = canvas.height/2
+ 
+# pa 為壓力角
+pa = 25
+ 
+ 
+# 畫布左右兩側都保留畫布寬度的 10%
+# 依此計算對應的最左邊齒輪的軸心座標
+cx = canvas.width*0.1+pr1
+cy = canvas.height/2
+ 
+# pa 為壓力角
+pa = 25
+ 
+# 畫最左邊齒輪, 定位線旋轉角為 0, 軸心座標 (cx, cy)
+spur(cx, cy, m, n1, pa, 0)
+# 第2個齒輪將原始的定位線逆時鐘轉 180 度後, 與第1個齒輪正好齒頂與齒頂對齊
+# 只要第2個齒輪再逆時鐘或順時鐘轉動半齒的角度, 即可完成囓合
+# 每一個齒分別包括從齒根到齒頂的範圍, 涵蓋角度為 360/n, 因此所謂的半齒角度為 180/n
+spur(cx+pr1+pr2, cy, m, n2, pa, 180-180/n2)
+# 第2齒與第3齒的囓合, 首先假定第2齒的定位線在 theta 角為 0 的原始位置
+# 如此, 第3齒只要逆時鐘旋轉 180 度後, 再逆時鐘或順時鐘轉動半齒的角度, 即可與第2齒囓合
+# 但是第2齒為了與第一齒囓合時, 已經從原始定位線轉了 180-180/n2 度
+# 而當第2齒從與第3齒囓合的定位線, 逆時鐘旋轉 180-180/n2 角度後, 原先囓合的第3齒必須要再配合旋轉 (180-180/n2 )*n2/n3
+spur(cx+pr1+pr2+pr2+pr3, cy, m, n3, pa, 180-180/n3+(180-180/n2)*n2/n3)
+ 
+spur(cx+pr1+pr2+pr2+pr3+pr3+pr4, cy, m, n4, pa, 180-180/n3*n3/n4+(180-180/n2)*n2/n3*n3/n4+(180-180/n3)*n3/n4)
+ 
+ 
+&lt;/script&gt;
+ 
+&lt;script type='text/javascript'&gt;
+var onWebChat={ar:[], set: function(a,b){if (typeof onWebChat_==='undefined'){this.ar.
+push([a,b]);}else{onWebChat_.set(a,b);}},get:function(a){return(onWebChat_.get(a));},w
+:(function(){ var ga=document.createElement('script'); ga.type = 'text/javascript';ga.
+async=1;ga.src='//www.onwebchat.com/clientchat/795d781612868f02aa4bb0552c0655a5/1/1';
+var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})()}
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+'''
+    return outstring
+
+</t>
+<t tx="leo.20160619113032.2">@language python
+@tabwidth -4
+@others
+</t>
+<t tx="leo.20160619113032.3"># 各組分別在各自的 .py 程式中建立應用程式 (第1步/總共3步)
+from flask import Blueprint, render_template, make_response, request
+
+# 利用 Blueprint建立 ag1, 並且 url 前綴為 /ag1, 並設定 template 存放目錄
+ag6_40323155_1 = Blueprint('ag6_40323155_1', __name__, url_prefix='/ag6_40323155_1', template_folder='templates')
+ 
+head_str = '''
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;網際 2D 鏈條繪圖&lt;/title&gt;
+    &lt;!-- IE 9: display inline SVG --&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=9"&gt;
+&lt;script type="text/javascript" src="http://brython.info/src/brython_dist.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://cptocadp-2015fallhw.rhcloud.com/static/Cango-8v03.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://cptocadp-2015fallhw.rhcloud.com/static/Cango2D-6v13.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://cptocadp-2015fallhw.rhcloud.com/static/CangoAxes-1v33.js"&gt;&lt;/script&gt;
+ 
+&lt;/head&gt;
+&lt;body&gt;
+ 
+&lt;script&gt;
+window.onload=function(){
+brython(1);
+}
+&lt;/script&gt;
+ 
+&lt;canvas id="plotarea" width="800" height="800"&gt;&lt;/canvas&gt;
+'''
+ 
+tail_str = '''
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+'''
+ 
+chain_str = '''
+&lt;script type="text/python"&gt;
+from javascript import JSConstructor
+from browser import alert
+from browser import window
+import math
+ 
+cango = JSConstructor(window.Cango)
+cobj = JSConstructor(window.Cobj)
+shapedefs = window.shapeDefs
+obj2d = JSConstructor(window.Obj2D)
+cgo = cango("plotarea")
+ 
+cgo.setWorldCoords(-250, -250, 500, 500) 
+ 
+# 畫軸線
+cgo.drawAxes(0, 240, 0, 240, {
+    "strokeColor":"#aaaaaa",
+    "fillColor": "#aaaaaa",
+    "xTickInterval": 20,
+    "xLabelInterval": 20,
+    "yTickInterval": 20,
+    "yLabelInterval": 20})
+ 
+deg = math.pi/180  
+ 
+# 將繪製鏈條輪廓的內容寫成 class 物件
+class chain():
+    # 輪廓的外型設為 class variable
+    chamber = "M -6.8397, -1.4894 \
+            A 7, 7, 0, 1, 0, 6.8397, -1.4894 \
+            A 40, 40, 0, 0, 1, 6.8397, -18.511 \
+            A 7, 7, 0, 1, 0, -6.8397, -18.511 \
+            A 40, 40, 0, 0, 1, -6.8397, -1.4894 z"
+    cgoChamber = window.svgToCgoSVG(chamber)
+ 
+    def __init__(self, fillcolor="green", border=True, strokecolor= "tan", linewidth=2, scale=1):
+        self.fillcolor = fillcolor
+        self.border = border
+        self.strokecolor = strokecolor
+        self.linewidth = linewidth
+        self.scale = scale
+ 
+    # 利用鏈條起點與終點定義繪圖
+    def basic(self, x1, y1, x2, y2):
+        self.x1 = x1
+        self.y1 = y1
+        self.x2 = x2
+        self.y2 = y2
+        # 注意, cgo.Chamber 為成員變數
+        cmbr = cobj(self.cgoChamber, "SHAPE", {
+                "fillColor": self.fillcolor,
+                "border": self.border,
+                "strokeColor": self.strokecolor,
+                "lineWidth": self.linewidth })
+ 
+        # hole 為原點位置
+        hole = cobj(shapedefs.circle(4*self.scale), "PATH")
+        cmbr.appendPath(hole)
+ 
+        # 複製 cmbr, 然後命名為 basic1
+        basic1 = cmbr.dup()
+        # 因為鏈條的角度由原點向下垂直, 所以必須轉 90 度, 再考量 atan2 的轉角
+        basic1.rotate(math.atan2(y2-y1, x2-x1)/deg+90)
+ 
+        # 放大 scale 倍
+        cgo.render(basic1, x1, y1, self.scale, 0)
+ 
+    # 利用鏈條起點與旋轉角度定義繪圖, 使用內定的 color, border 與 linewidth 變數
+    def basic_rot(self, x1, y1, rot, v=False):
+        # 若 v 為 True 則為虛擬 chain, 不 render
+        self.x1 = x1
+        self.y1 = y1
+        self.rot = rot
+        self.v = v
+        # 注意, cgo.Chamber 為成員變數
+        cmbr = cobj(self.cgoChamber, "SHAPE", {
+                "fillColor": self.fillcolor,
+                "border": self.border,
+                "strokeColor": self.strokecolor,
+                "lineWidth": self.linewidth })
+ 
+        # hole 為原點位置
+        hole = cobj(shapedefs.circle(4*self.scale), "PATH")
+        cmbr.appendPath(hole)
+        # 根據旋轉角度, 計算 x2 與 y2
+        x2 = x1 + 20*math.cos(rot*deg)*self.scale
+        y2 = y1 + 20*math.sin(rot*deg)*self.scale
+ 
+        # 複製 cmbr, 然後命名為 basic1
+        basic1 = cmbr.dup()
+        # 因為鏈條的角度由原點向下垂直, 所以必須轉 90 度, 再考量 atan2 的轉角
+        basic1.rotate(rot+90)
+ 
+        # 放大 scale 倍
+        if v == False:
+            cgo.render(basic1, x1, y1, self.scale, 0)
+ 
+        return x2, y2
+'''
+
+
+</t>
+<t tx="leo.20160619113032.4">def circle36(x, y, degree):
+    # 20 為鏈條輪廓之圓距
+    # chain 所圍之圓圈半徑為 20/2/math.asin(degree*math.pi/180/2)
+    # degree = math.asin(20/2/radius)*180/math.pi
+    #degree = 10
+    first_degree = 90 - degree
+    repeat = 360 / degree
+    
+    outstring = '''
+mychain = chain()
+x1, y1 = mychain.basic_rot('''+str(x)+","+str(y)+", "+str(first_degree)+''')
+'''
+
+    for i in range(2, int(repeat)+1):
+        outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+", 90-"+str(i*degree)+") \n"
+
+    return outstring
+    </t>
+<t tx="leo.20160619113032.5">def circle35(x, y, degree,a,b,degree2):
+    # 20 為鏈條輪廓之圓距
+    # chain 所圍之圓圈半徑為 20/2/math.asin(degree*math.pi/180/2)
+    # degree = math.asin(20/2/radius)*180/math.pi
+    #degree = 10
+    first_degree = 90 - degree
+    repeat = 360 / degree
+    sec_degree = 90 - degree2
+    repeat2 = 360 / degree2
+    outstring1 = '''
+mychain = chain()
+x1, y1 = mychain.basic_rot('''+str(x)+","+str(y)+", "+str(first_degree)+''')
+'''
+    outstring2 = '''
+mychain = chain()
+x1, y1 = mychain.basic_rot('''+str(a)+","+str(b)+", "+str(sec_degree)+''')
+'''
+    for i in range(2, int(repeat)+1):
+        outstring1 += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+", 90-"+str(i*degree)+") \n"
+    for e in range(2, int(repeat2)+1):
+        outstring2 += "x"+str(e)+", y"+str(e)+"=mychain.basic_rot(x"+str(e-1)+", y"+str(e-1)+", 90-"+str(e*degree2)+") \n"
+            
+    outstring = outstring1 + outstring2 
+    
+    return outstring
+    </t>
+<t tx="leo.20160619113032.6">def eighteenthirty(x, y):
+    '''
+從圖解法與符號式解法得到的兩條外切線座標點
+(-203.592946177111, 0.0), (0.0, 0.0), (-214.364148466539, 56.5714145924675), (-17.8936874260919, 93.9794075692901)
+(-203.592946177111, 0.0), (0.0, 0.0), (-214.364148466539, -56.5714145924675), (-17.8936874260919, -93.9794075692901)
+左邊關鍵鍊條起點 (-233.06, 49.48), 角度 20.78, 圓心 (-203.593, 0.0)
+右邊關鍵鍊條起點 (-17.89, 93.9), 角度 4.78, 圓心 (0, 0)
+    '''
+    # 20 為鏈條兩圓距
+    # chain 所圍之圓圈半徑為 20/2/math.asin(degree*math.pi/180/2)
+    # degree = math.asin(20/2/radius)*180/math.pi
+    x = 50
+    y = 0
+    degree = 20
+    first_degree = 20.78+90
+    startx = 44.0532
+    starty = -165.17
+    repeat = 360 / degree
+    # 先畫出左邊第一關鍵節
+    outstring = '''
+mychain = chain()
+ 
+x1, y1 = mychain.basic_rot('''+str(startx)+","+str(starty)+", "+str(first_degree)+''')
+ 
+'''
+    # 接著繪製左邊的非虛擬鍊條
+    for i in range(2, int(repeat)+1):
+        if i &gt;=2 and i &lt;=11:
+            # virautl chain
+            #outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+","+str(first_degree+degree-i*degree)+") \n"
+            outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+","+str(first_degree+degree-i*degree)+", True) \n"
+        else:
+            outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+","+str(first_degree+degree-i*degree)+") \n"
+ 
+    # 接著處理右邊的非虛擬鍊條
+    # 先畫出右邊第一關鍵節
+ 
+    p =0
+    k = 50
+    degree = 12
+    first_degree =4.78+90
+    repeat = 360 / degree
+    # 第1節不是 virtual chain
+    outstring += '''
+#mychain = chain()
+ 
+p1, k1 = mychain.basic_rot('''+str(p)+","+str(k)+", "+str(first_degree)+''')
+'''
+    for i in range(2, int(repeat)+1):
+        if i &gt;=18:
+            # virautl chain
+            outstring += "p"+str(i)+", k"+str(i)+"=mychain.basic_rot(p"+str(i-1)+", k"+str(i-1)+","+str(first_degree+degree-i*degree)+", True) \n"
+            #outstring += "p"+str(i)+", k"+str(i)+"=mychain.basic_rot(p"+str(i-1)+", k"+str(i-1)+","+str(first_degree+degree-i*degree)+") \n"
+        else:
+            outstring += "p"+str(i)+", k"+str(i)+"=mychain.basic_rot(p"+str(i-1)+", k"+str(i-1)+","+str(first_degree+degree-i*degree)+") \n"
+ 
+    # 上段連接直線
+    # 從 x1, y1 作為起點
+    first_degree = 10.78+90
+    repeat = 10
+    outstring += '''
+m1, n1 = mychain.basic_rot(x1, y1, '''+str(first_degree)+''')
+'''
+    for i in range(2, int(repeat)+1):
+        outstring += "m"+str(i)+", n"+str(i)+"=mychain.basic_rot(m"+str(i-1)+", n"+str(i-1)+", "+str(first_degree)+")\n"
+ 
+    # 下段連接直線
+    # 從 x11, y11 作為起點
+    first_degree =-10.78+90
+    repeat = 10
+    outstring += '''
+r1, s1 = mychain.basic_rot(x11, y11, '''+str(first_degree)+''')
+'''
+    for i in range(2, int(repeat)+1):
+        outstring += "r"+str(i)+", s"+str(i)+"=mychain.basic_rot(r"+str(i-1)+", s"+str(i-1)+", "+str(first_degree)+")\n"
+ 
+    return outstring
+ 
+ 
+</t>
+<t tx="leo.20160619113032.7">@ag6_40323155_1.route('/eighteenthirty/&lt;x&gt;/&lt;y&gt;')
+@ag6_40323155_1.route('/eighteenthirty', defaults={'x':0, 'y':0})
+def draweithteenthirdy(x,y):
+    return head_str + chain_str + eighteenthirty(int(x), int(y)) + tail_str
+ 
+ 
+</t>
+<t tx="leo.20160619113032.8">@ag6_40323155_1.route('/circle36/&lt;degree&gt;', defaults={'x': 0, 'y': 0})
+@ag6_40323155_1.route('/circle36/&lt;x&gt;/&lt;degree&gt;', defaults={'y': 0})
+@ag6_40323155_1.route('/circle36/&lt;x&gt;/&lt;y&gt;/&lt;degree&gt;')
+
+def drawcircle36(x, y, degree):
+    return head_str + chain_str + circle36(int(x), int(y), int(degree)) + tail_str
+    
+#@ag3_40323102.route('/circle36/&lt;int:x&gt;/&lt;int:y&gt;/&lt;int:degree&gt;')
+
+
+
+    
+
+
+    
+    
+</t>
+<t tx="leo.20160619113032.9">@ag6_40323155_1.route('/circle35/&lt;x&gt;/&lt;y&gt;/&lt;degree&gt;/&lt;a&gt;/&lt;b&gt;/&lt;degree2&gt;')
+def drawcircle35(x, y, degree, a, b, degree2):
+    return head_str + chain_str + circle35(int(x), int(y), int(degree), int(a), int(b), int(degree2)) + tail_str
+    </t>
+<t tx="leo.20160619113656.1"></t>
+<t tx="leo.20160619113656.2"></t>
+<t tx="leo.20160619113656.4"></t>
+<t tx="leo.20160619113656.5"></t>
+<t tx="leo.20160619113656.6">@language python
+import os
+#os.system("pelican content -o ./ -s publishconf.py -t theme/pelican-bootstrap3")
+os.system("pelican content -o blog -s publishconf.py")
+g.es("admin pelican 執行完畢")
+
+</t>
+<t tx="leo.20160619113656.7"></t>
+<t tx="leo.20160619113656.8">@language python
+import os
+#os.system("pelican content -o output -s local_publishconf.py -t theme/pelican-bootstrap3")
+os.system("pelican content -o blog -s local_publishconf.py")
+g.es("admin pelican 近端執行完畢")
+
+
+</t>
+<t tx="leo.20160619113656.9"></t>
 </tnodes>
 </leo_file>
