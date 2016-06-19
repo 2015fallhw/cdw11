@@ -8,7 +8,8 @@ import init
 import users.a.g1.ag1_40323105
 #import users.a.g1.ag1_40323148
 import users.a.g2.ag2_40323120
-#import users.a.g2.ag2_40323122
+import users.a.g2.ag2_40323122
+import users.a.g2.ag2_40323117
 import users.a.g10.ag10_40323129_task1
 import users.a.g10.ag10_40323141_task1
 import users.a.g10.ag10_40323139
@@ -528,7 +529,8 @@ app.register_blueprint(users.a.g4.ag4_40323138_task3abcd.ag4_40323138task3)
 app.register_blueprint(users.a.g8.ag8_40323123.ag8_40323123)
 app.register_blueprint(users.a.g10.ag10_40323129_task1.ag10_40323129)
 app.register_blueprint(users.a.g2.ag2_40323120.ag2_40323120)
-#app.register_blueprint(users.a.g2.ag2_40323122.ag2_40323122)
+app.register_blueprint(users.a.g2.ag2_40323122.ag2_40323122)
+app.register_blueprint(users.a.g2.ag2_40323117.ag2_40323117)
 app.register_blueprint(users.a.g1.ag1_40323105.ag1_40323105)
 app.register_blueprint(users.a.g1.a40223153.aag1)
 app.register_blueprint(users.a.g3.ag3_40323108.ag3_40323108)
