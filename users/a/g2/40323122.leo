@@ -14,7 +14,7 @@
 <v t="amd.20160501215558.1" a="E"><vh>@path ./../../../</vh>
 <v t="amd.20160501223113.1"><vh>@edit README.md</vh></v>
 <v t="amd.20160501215634.1" a="E"><vh>@path static</vh>
-<v t="amd.20160501220009.1"><vh>假如要送到 gh-pages 分支, 使用下列按鈕</vh>
+<v t="amd.20160501220009.1" a="E"><vh>假如要送到 gh-pages 分支, 使用下列按鈕</vh>
 <v t="amd.20160501220009.2"><vh>@button gh-pages pelican</vh></v>
 </v>
 <v t="amd.20160501220029.1" a="E"><vh>假如要在近端檢視, 使用下列按鈕</vh>
@@ -22,12 +22,20 @@
 </v>
 <v t="amd.20160501215942.1" a="E"><vh>@path content/a/g2</vh>
 <v t="leo.20160618225248.1"><vh>@edit 40323122-cdw11期中.md</vh></v>
+<v t="leo.20160618234220.1"><vh>@edit 40323122-cdw13.md</vh></v>
+<v t="leo.20160619004704.1"><vh>@edit 40323122-期末報告.md</vh></v>
 </v>
 </v>
 </v>
 </v>
 <v t="amd.20160501215545.1" a="E"><vh>wsgi 程式部份</vh>
-<v t="leo.20160508230137.1"><vh>@edit ag2_40323122.py</vh></v>
+<v t="leo.20160508230137.1" a="E"><vh>@clean ag2_40323122.py</vh>
+<v t="leo.20160619001005.1"><vh>ag2_40323122 declarations</vh></v>
+<v t="leo.20160619000332.1"><vh>A4</vh></v>
+<v t="leo.20160619000612.1"><vh>BADC</vh></v>
+<v t="leo.20160619000746.1"><vh>abcd</vh></v>
+<v t="leo.20160619000521.1"><vh>ex</vh></v>
+</v>
 <v t="amd.20160501221015.1" a="E"><vh>@path ./../../../</vh>
 <v t="amd.20160501221001.1" a="E"><vh>@clean myflaskapp.py</vh>
 <v t="amd.20160501221001.2"><vh>myflaskapp declarations</vh></v>
@@ -50,10 +58,10 @@
 </v>
 </v>
 </v>
-<v t="leo.20160618223924.2"><vh>Recovered Nodes</vh>
-<v t="leo.20160618223924.3"><vh>Recovered node "myflaskapp declarations" from @clean myflaskapp.py</vh>
-<v t="leo.20160618223924.4"><vh>old:myflaskapp declarations</vh></v>
-<v t="leo.20160618223924.5"><vh>new:myflaskapp declarations</vh></v>
+<v t="leo.20160619162058.2" a="E"><vh>Recovered Nodes</vh>
+<v t="leo.20160619162058.3"><vh>Recovered node "myflaskapp declarations" from @clean myflaskapp.py</vh>
+<v t="leo.20160619162058.4"><vh>old:myflaskapp declarations</vh></v>
+<v t="leo.20160619162058.5"><vh>new:myflaskapp declarations</vh></v>
 </v>
 </v>
 </vnodes>
@@ -111,6 +119,11 @@ app.register_blueprint(users.a.g1.a40323105_1.a40323105_1)
 app.register_blueprint(users.a.g4.ag4_40323109.ag4_40323109)
 app.register_blueprint(users.a.g4.ag4_40323109_task2bacd.ag4_40323109bacd)
 app.register_blueprint(users.a.g4.ag4_40323109_task3abcd.ag4_40323109task3)
+#app.register_blueprint(users.a.g1.ag1_40323148.ag1_40323148)
+
+app.register_blueprint(users.a.g1.a40323146_1.a40323146_1)
+app.register_blueprint(users.a.g1.a40323106.a40323106)
+app.register_blueprint(users.a.g1.a40323107_2.a40323107_2)
 
 #bg1
 app.register_blueprint(users.b.g1.bg1_40123156.bg1_40123156)
@@ -214,6 +227,13 @@ app.register_blueprint(users.b.g3.bg3_40123250_cdw11.b40123250)
 app.register_blueprint(users.b.g3.bg3_40123242_cdw12.b40123242)
 app.register_blueprint(users.b.g3.bg3_40123250_cdw14.b40123250_1)
 app.register_blueprint(users.b.g3.bg3_40123224_cdw14.b40123224_1)
+
+#ag6
+app.register_blueprint(users.a.g6.cdw13.a40323133.ag6_40323133_1)
+app.register_blueprint(users.a.g6.cdw13.a40323147.ag6_40323147_1)
+app.register_blueprint(users.a.g6.cdw13.a40323152.ag6_40323152_1)
+app.register_blueprint(users.a.g6.cdw13.a40323155.ag6_40323155_1)
+app.register_blueprint(users.a.g6.cdw13.a40323156.ag6_40323156_1)
 
 
 
@@ -352,6 +372,7 @@ import os
 # init.py 為自行建立的起始物件
 import init
 import users.a.g1.ag1_40323105
+#import users.a.g1.ag1_40323148
 import users.a.g2.ag2_40323120
 import users.a.g2.ag2_40323122
 import users.a.g10.ag10_40323129_task1
@@ -377,6 +398,10 @@ import users.a.g4.ag4_40323109_task2bacd
 import users.a.g4.ag4_40323109_task3abcd
 import users.a.g4.a40323130
 import users.a.g1.a40323105_1
+import users.a.g1.a40323146_1
+import users.a.g1.a40323106
+import users.a.g1.a40323107_2
+import users.b.g6.bg6_40323248
 
 #bg1
 import users.b.g1.bg1_40123156
@@ -477,6 +502,14 @@ import users.b.g3.bg3_40123224_cdw14
 import users.b.g3.bg3_40123242_cdw12
 #ag3
 import users.a.g3.a40323108
+
+#ag6
+import users.a.g6.cdw13.a40323133
+import users.a.g6.cdw13.a40323147
+import users.a.g6.cdw13.a40323152
+import users.a.g6.cdw13.a40323155
+import users.a.g6.cdw13.a40323156
+
 #ag100
 import users.a.g100.cdw13.a40123100
 # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
@@ -738,8 +771,884 @@ def send_blog():
   return app.send_static_file('blog/index.html')
 
 </t>
-<t tx="leo.20160618223924.2"></t>
-<t tx="leo.20160618223924.3">(uncached) amd.20160501221001.2
+<t tx="leo.20160508230137.1">@language python
+@tabwidth -4
+@others
+
+
+</t>
+<t tx="leo.20160619000332.1">@ag2_40323122.route('/A4')
+def A4():
+    outstring = '''
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;網際 2D 繪圖&lt;/title&gt;
+    &lt;!-- IE 9: display inline SVG --&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=9"&gt;
+&lt;script type="text/javascript" src="http://brython.info/src/brython_dist.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://cptocadp-2015fallhw.rhcloud.com/static/Cango-8v03.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://cptocadp-2015fallhw.rhcloud.com/static/Cango2D-6v13.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://cptocadp-2015fallhw.rhcloud.com/static/CangoAxes-1v33.js"&gt;&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;script&gt;
+window.onload=function(){
+brython(1);
+}
+&lt;/script&gt;
+&lt;canvas id="plotarea" width="800" height="800"&gt;&lt;/canvas&gt;
+&lt;script type="text/python"&gt;
+from javascript import JSConstructor
+from browser import alert
+from browser import window
+import math
+ 
+cango = JSConstructor(window.Cango)
+cobj = JSConstructor(window.Cobj)
+shapedefs = window.shapeDefs
+obj2d = JSConstructor(window.Obj2D)
+cgo = cango("plotarea")
+ 
+cgo.setWorldCoords(-250, -250, 500, 500) 
+ 
+# 畫軸線
+cgo.drawAxes(0, 240, 0, 240, {
+    "strokeColor":"#aaaaaa",
+    "fillColor": "#aaaaaa",
+    "xTickInterval": 20,
+    "xLabelInterval": 20,
+    "yTickInterval": 20,
+    "yLabelInterval": 20})
+ 
+deg = math.pi/180  
+
+class chain():
+    # 輪廓的外型設為成員變數
+    chamber = "M -6.8397, -1.4894 \
+            A 7, 7, 0, 1, 0, 6.8397, -1.4894 \
+            A 40, 40, 0, 0, 1, 6.8397, -18.511 \
+            A 7, 7, 0, 1, 0, -6.8397, -18.511 \
+            A 40, 40, 0, 0, 1, -6.8397, -1.4894 z"
+    cgoChamber = window.svgToCgoSVG(chamber)
+ 
+    # 利用鏈條起點與終點定義繪圖, 使用內定的 color, border 與 linewidth 變數
+    def basic(self, x1, y1, x2, y2, color="green", border=True, linewidth=4, scale=1):
+        self.x1 = x1
+        self.y1 = y1
+        self.x2 = x2
+        self.y2 = y2
+        self.color = color
+        self.border = border
+        self.linewidth = linewidth
+        self.scale = scale
+        # 注意, cgo.Chamber 為成員變數
+        cmbr = cobj(self.cgoChamber, "SHAPE", {
+                "fillColor": color,
+                "border": border,
+                "strokeColor": "tan",
+                "lineWidth": linewidth })
+ 
+        # hole 為原點位置
+        hole = cobj(shapedefs.circle(4), "PATH")
+        cmbr.appendPath(hole)
+ 
+        # 複製 cmbr, 然後命名為 basic1
+        basic1 = cmbr.dup()
+        # 因為鏈條的角度由原點向下垂直, 所以必須轉 90 度, 再考量 atan2 的轉角
+        basic1.rotate(math.atan2(y2-y1, x2-x1)/deg+90)
+ 
+        # 放大 scale 倍
+        cgo.render(basic1, x1, y1, scale, 0)
+ 
+    # 利用鏈條起點與旋轉角度定義繪圖, 使用內定的 color, border 與 linewidth 變數
+    def basic_rot(self, x1, y1, rot, color="green", border=True, linewidth=4, scale=1):
+        self.x1 = x1
+        self.y1 = y1
+        self.rot = rot
+        self.color = color
+        self.border = border
+        self.linewidth = linewidth
+        self.scale = scale
+        # 注意, cgo.Chamber 為成員變數
+        cmbr = cobj(self.cgoChamber, "SHAPE", {
+                "fillColor": color,
+                "border": border,
+                "strokeColor": "tan",
+                "lineWidth": linewidth })
+ 
+        # hole 為原點位置
+        hole = cobj(shapedefs.circle(4), "PATH")
+        cmbr.appendPath(hole)
+        # 根據旋轉角度, 計算 x2 與 y2
+        x2 = x1 + 20*math.cos(rot*deg)
+        y2 = y1 + 20*math.sin(rot*deg)
+ 
+        # 複製 cmbr, 然後命名為 basic1
+        basic1 = cmbr.dup()
+        # 因為鏈條的角度由原點向下垂直, 所以必須轉 90 度, 再考量 atan2 的轉角
+        basic1.rotate(rot+90)
+ 
+        # 放大 scale 倍
+        cgo.render(basic1, x1, y1, scale, 0)
+ 
+        return x2, y2
+
+# 利用 chain class 建立案例, 對應到 mychain 變數
+mychain = chain()
+ 
+# 畫 A
+# 左邊兩個垂直單元
+x1, y1 = mychain.basic_rot(0, 0, 90, color="blue")
+x2, y2 = mychain.basic_rot(x1, y1, 90, color="blue")
+# 左斜邊兩個單元
+x3, y3 = mychain.basic_rot(x2, y2, 80, color="blue")
+x4, y4 = mychain.basic_rot(x3, y3, 71, color="blue")
+# 最上方水平單元
+x5, y5 = mychain.basic_rot(x4, y4, 0, color="blue")
+# 右斜邊兩個單元
+x6, y6 = mychain.basic_rot(x5, y5, -71, color="blue")
+x7, y7 = mychain.basic_rot(x6, y6, -80, color="blue")
+# 右邊兩個垂直單元
+x8, y8 = mychain.basic_rot(x7, y7, -90, color="blue")
+x9, y9 = mychain.basic_rot(x8, y8, -90, color="blue")
+# 中間兩個水平單元
+x10, y10 = mychain.basic_rot(x8, y8, -180, color="blue")
+mychain.basic(x10, y10, x1, y1, color="blue")
+
+
+cgo.setWorldCoords(-315, -250, 500, 500) 
+# 畫 A
+# 左邊兩個垂直單元
+x1, y1 = mychain.basic_rot(0, 0, 90, color="blue")
+x2, y2 = mychain.basic_rot(x1, y1, 90, color="blue")
+# 左斜邊兩個單元
+x3, y3 = mychain.basic_rot(x2, y2, 80, color="blue")
+x4, y4 = mychain.basic_rot(x3, y3, 71, color="blue")
+# 最上方水平單元
+x5, y5 = mychain.basic_rot(x4, y4, 0, color="blue")
+# 右斜邊兩個單元
+x6, y6 = mychain.basic_rot(x5, y5, -71, color="blue")
+x7, y7 = mychain.basic_rot(x6, y6, -80, color="blue")
+# 右邊兩個垂直單元
+x8, y8 = mychain.basic_rot(x7, y7, -90, color="blue")
+x9, y9 = mychain.basic_rot(x8, y8, -90, color="blue")
+# 中間兩個水平單元
+x10, y10 = mychain.basic_rot(x8, y8, -180, color="blue")
+mychain.basic(x10, y10, x1, y1, color="blue")
+
+cgo.setWorldCoords(-385, -250, 500, 500) 
+# 畫 A
+# 左邊兩個垂直單元
+x1, y1 = mychain.basic_rot(0, 0, 90, color="blue")
+x2, y2 = mychain.basic_rot(x1, y1, 90, color="blue")
+# 左斜邊兩個單元
+x3, y3 = mychain.basic_rot(x2, y2, 80, color="blue")
+x4, y4 = mychain.basic_rot(x3, y3, 71, color="blue")
+# 最上方水平單元
+x5, y5 = mychain.basic_rot(x4, y4, 0, color="blue")
+# 右斜邊兩個單元
+x6, y6 = mychain.basic_rot(x5, y5, -71, color="blue")
+x7, y7 = mychain.basic_rot(x6, y6, -80, color="blue")
+# 右邊兩個垂直單元
+x8, y8 = mychain.basic_rot(x7, y7, -90, color="blue")
+x9, y9 = mychain.basic_rot(x8, y8, -90, color="blue")
+# 中間兩個水平單元
+x10, y10 = mychain.basic_rot(x8, y8, -180, color="blue")
+mychain.basic(x10, y10, x1, y1, color="blue")
+
+cgo.setWorldCoords(-445, -250, 500, 500) 
+# 畫 A
+# 左邊兩個垂直單元
+x1, y1 = mychain.basic_rot(0, 0, 90, color="blue")
+x2, y2 = mychain.basic_rot(x1, y1, 90, color="blue")
+# 左斜邊兩個單元
+x3, y3 = mychain.basic_rot(x2, y2, 80, color="blue")
+x4, y4 = mychain.basic_rot(x3, y3, 71, color="blue")
+# 最上方水平單元
+x5, y5 = mychain.basic_rot(x4, y4, 0, color="blue")
+# 右斜邊兩個單元
+x6, y6 = mychain.basic_rot(x5, y5, -71, color="blue")
+x7, y7 = mychain.basic_rot(x6, y6, -80, color="blue")
+# 右邊兩個垂直單元
+x8, y8 = mychain.basic_rot(x7, y7, -90, color="blue")
+x9, y9 = mychain.basic_rot(x8, y8, -90, color="blue")
+# 中間兩個水平單元
+x10, y10 = mychain.basic_rot(x8, y8, -180, color="blue")
+mychain.basic(x10, y10, x1, y1, color="blue")
+&lt;/script&gt;
+&lt;/body&gt;&lt;/html&gt;
+'''
+    return outstring</t>
+<t tx="leo.20160619000521.1">@ag2_40323122.route('/ex/&lt;x&gt;/&lt;y&gt;')
+@ag2_40323122.route('/ex', defaults={'x':0, 'y':0})
+def ex(x,y):
+    return head_str + chain_str + ex(int(x), int(y)) + tail_str
+
+from flask import Blueprint, request
+  
+head_str = '''
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;網際 2D 鏈條繪圖&lt;/title&gt;
+    &lt;!-- IE 9: display inline SVG --&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=9"&gt;
+&lt;script type="text/javascript" src="http://brython.info/src/brython_dist.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://cptocadp-2015fallhw.rhcloud.com/static/Cango-8v03.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://cptocadp-2015fallhw.rhcloud.com/static/Cango2D-6v13.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://cptocadp-2015fallhw.rhcloud.com/static/CangoAxes-1v33.js"&gt;&lt;/script&gt;
+ 
+&lt;/head&gt;
+&lt;body&gt;
+ 
+&lt;script&gt;
+window.onload=function(){
+brython(1);
+}
+&lt;/script&gt;
+ 
+&lt;canvas id="plotarea" width="800" height="800"&gt;&lt;/canvas&gt;
+'''
+ 
+tail_str = '''
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+'''
+ 
+chain_str = '''
+&lt;script type="text/python"&gt;
+from javascript import JSConstructor
+from browser import alert
+from browser import window
+import math
+ 
+cango = JSConstructor(window.Cango)
+cobj = JSConstructor(window.Cobj)
+shapedefs = window.shapeDefs
+obj2d = JSConstructor(window.Obj2D)
+cgo = cango("plotarea")
+ 
+cgo.setWorldCoords(-250, -250, 500, 500) 
+ 
+# 畫軸線
+cgo.drawAxes(0, 240, 0, 240, {
+    "strokeColor":"#aaaaaa",
+    "fillColor": "#aaaaaa",
+    "xTickInterval": 20,
+    "xLabelInterval": 20,
+    "yTickInterval": 20,
+    "yLabelInterval": 20})
+ 
+deg = math.pi/180  
+ 
+# 將繪製鏈條輪廓的內容寫成 class 物件
+class chain():
+    # 輪廓的外型設為 class variable
+    chamber = "M -6.8397, -1.4894 \
+            A 7, 7, 0, 1, 0, 6.8397, -1.4894 \
+            A 40, 40, 0, 0, 1, 6.8397, -18.511 \
+            A 7, 7, 0, 1, 0, -6.8397, -18.511 \
+            A 40, 40, 0, 0, 1, -6.8397, -1.4894 z"
+    cgoChamber = window.svgToCgoSVG(chamber)
+ 
+    def __init__(self, fillcolor="blue", border=True, strokecolor= "tan", linewidth=2, scale=1):
+        self.fillcolor = fillcolor
+        self.border = border
+        self.strokecolor = strokecolor
+        self.linewidth = linewidth
+        self.scale = scale
+ 
+    # 利用鏈條起點與終點定義繪圖
+    def basic(self, x1, y1, x2, y2):
+        self.x1 = x1
+        self.y1 = y1
+        self.x2 = x2
+        self.y2 = y2
+        # 注意, cgo.Chamber 為成員變數
+        cmbr = cobj(self.cgoChamber, "SHAPE", {
+                "fillColor": self.fillcolor,
+                "border": self.border,
+                "strokeColor": self.strokecolor,
+                "lineWidth": self.linewidth })
+ 
+        # hole 為原點位置
+        hole = cobj(shapedefs.circle(4*self.scale), "PATH")
+        cmbr.appendPath(hole)
+ 
+        # 複製 cmbr, 然後命名為 basic1
+        basic1 = cmbr.dup()
+        # 因為鏈條的角度由原點向下垂直, 所以必須轉 90 度, 再考量 atan2 的轉角
+        basic1.rotate(math.atan2(y2-y1, x2-x1)/deg+90)
+ 
+        # 放大 scale 倍
+        cgo.render(basic1, x1, y1, self.scale, 0)
+ 
+    # 利用鏈條起點與旋轉角度定義繪圖, 使用內定的 color, border 與 linewidth 變數
+    def basic_rot(self, x1, y1, rot, v=False):
+        # 若 v 為 True 則為虛擬 chain, 不 render
+        self.x1 = x1
+        self.y1 = y1
+        self.rot = rot
+        self.v = v
+        # 注意, cgo.Chamber 為成員變數
+        cmbr = cobj(self.cgoChamber, "SHAPE", {
+                "fillColor": self.fillcolor,
+                "border": self.border,
+                "strokeColor": self.strokecolor,
+                "lineWidth": self.linewidth })
+ 
+        # hole 為原點位置
+        hole = cobj(shapedefs.circle(4*self.scale), "PATH")
+        cmbr.appendPath(hole)
+        # 根據旋轉角度, 計算 x2 與 y2
+        x2 = x1 + 20*math.cos(rot*deg)*self.scale
+        y2 = y1 + 20*math.sin(rot*deg)*self.scale
+ 
+        # 複製 cmbr, 然後命名為 basic1
+        basic1 = cmbr.dup()
+        # 因為鏈條的角度由原點向下垂直, 所以必須轉 90 度, 再考量 atan2 的轉角
+        basic1.rotate(rot+90)
+ 
+        # 放大 scale 倍
+        if v == False:
+            cgo.render(basic1, x1, y1, self.scale, 0)
+ 
+        return x2, y2
+'''
+def circle2(x, y, degree=10):
+    # 20 為鏈條兩圓距
+    # chain 所圍之圓圈半徑為 20/2/math.asin(degree*math.pi/180/2)
+    # degree = math.asin(20/2/radius)*180/math.pi
+    #degree = 10
+    first_degree = 90 - degree
+    repeat = 360 / degree
+ 
+    outstring = '''
+mychain = chain()
+ 
+x1, y1 = mychain.basic_rot('''+str(x)+","+str(y)+", "+str(first_degree)+''')
+'''
+    for i in range(2, int(repeat)+1):
+        outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+", 90-"+str(i*degree)+") \n"
+    return outstring
+ 
+ 
+def ex(x, y):
+    # 20 為鏈條兩圓距
+    # chain 所圍之圓圈半徑為 20/2/math.asin(degree*math.pi/180/2)
+    # degree = math.asin(20/2/radius)*180/math.pi
+    x = 50
+    y = 0
+    degree = 12
+    # 78, 66, 54, 42, 30, 18, 6度
+    #必須有某些 chain 算座標但是不 render
+    first_degree =90-degree
+    repeat = 360 / degree
+    # 第1節也是 virtual chain
+    outstring = '''
+mychain = chain()
+ 
+x1, y1 = mychain.basic_rot('''+str(x)+","+str(y)+", "+str(first_degree)+''', True)
+#x1, y1 = mychain.basic_rot('''+str(x)+","+str(y)+", "+str(first_degree)+''')
+'''
+    # 這裡要上下各多留一節虛擬 chain, 以便最後進行連接 (x7, y7) 與 (x22, y22)
+    for i in range(2, int(repeat)+1):
+        #if i &lt; 7 or i &gt; 23:        
+        if i &lt;= 7 or i &gt;= 23:
+            # virautl chain
+            outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+", 90-"+str(i*degree)+", True) \n"
+            #outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+", 90-"+str(i*degree)+") \n"
+        else:
+            outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+", 90-"+str(i*degree)+") \n"
+ 
+    p = -150
+    k = 0
+    degree = 20
+    # 70, 50, 30, 10
+    # 從 i=5 開始, 就是 virautl chain
+    first_degree = 90-
+    repeat = 360 / degree
+    # 第1節不是 virtual chain
+    outstring += '''
+#mychain = chain()
+ 
+p1, k1 = mychain.basic_rot('''+str(p)+","+str(k)+", "+str(first_degree)+''')
+'''
+    for i in range(2, int(repeat)+1):
+        if i &gt;= 5 and i &lt;= 13:
+            # virautl chain
+            outstring += "p"+str(i)+", k"+str(i)+"=mychain.basic_rot(p"+str(i-1)+", k"+str(i-1)+", 90-"+str(i*degree)+", True) \n"
+            #outstring += "p"+str(i)+", k"+str(i)+"=mychain.basic_rot(p"+str(i-1)+", k"+str(i-1)+", 90-"+str(i*degree)+") \n"
+        else:
+            outstring += "p"+str(i)+", k"+str(i)+"=mychain.basic_rot(p"+str(i-1)+", k"+str(i-1)+", 90-"+str(i*degree)+") \n"
+ 
+    # 上段連接直線
+    # 從 p5, k5 作為起點
+    first_degree = 10
+    repeat = 11
+    outstring += '''
+m1, n1 = mychain.basic_rot(p4, k4, '''+str(first_degree)+''')
+'''
+    for i in range(2, int(repeat)+1):
+        outstring += "m"+str(i)+", n"+str(i)+"=mychain.basic_rot(m"+str(i-1)+", n"+str(i-1)+", "+str(first_degree)+")\n"
+ 
+    # 下段連接直線
+    # 從 p12, k12 作為起點
+    first_degree = -10
+    repeat = 11
+    outstring += '''
+r1, s1 = mychain.basic_rot(p13, k13, '''+str(first_degree)+''')
+'''
+    for i in range(2, int(repeat)+1):
+        outstring += "r"+str(i)+", s"+str(i)+"=mychain.basic_rot(r"+str(i-1)+", s"+str(i-1)+", "+str(first_degree)+")\n"
+ 
+    # 上段右方接點為 x7, y7, 左側則為 m11, n11
+    outstring += "mychain.basic(x7, y7, m11, n11)\n"
+    # 下段右方接點為 x22, y22, 左側則為 r11, s11
+    outstring += "mychain.basic(x22, y22, r11, s11)\n"
+ 
+    return outstring</t>
+<t tx="leo.20160619000612.1">@ag2_40323122.route('/BADC')
+def BADC():
+    outstring = '''
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;網際 2D 繪圖&lt;/title&gt;
+    &lt;!-- IE 9: display inline SVG --&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=9"&gt;
+&lt;script type="text/javascript" src="http://brython.info/src/brython_dist.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://cptocadp-2015fallhw.rhcloud.com/static/Cango-8v03.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://cptocadp-2015fallhw.rhcloud.com/static/Cango2D-6v13.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://cptocadp-2015fallhw.rhcloud.com/static/CangoAxes-1v33.js"&gt;&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;script&gt;
+window.onload=function(){
+brython(1);
+}
+&lt;/script&gt;
+&lt;canvas id="plotarea" width="800" height="800"&gt;&lt;/canvas&gt;
+&lt;script type="text/python"&gt;
+from javascript import JSConstructor
+from browser import alert
+from browser import window
+import math
+ 
+cango = JSConstructor(window.Cango)
+cobj = JSConstructor(window.Cobj)
+shapedefs = window.shapeDefs
+obj2d = JSConstructor(window.Obj2D)
+cgo = cango("plotarea")
+ 
+cgo.setWorldCoords(-40, -250, 500, 500) 
+ 
+# 畫軸線
+cgo.drawAxes(0, 240, 0, 240, {
+    "strokeColor":"#aaaaaa",
+    "fillColor": "#aaaaaa",
+    "xTickInterval": 20,
+    "xLabelInterval": 20,
+    "yTickInterval": 20,
+    "yLabelInterval": 20})
+ 
+deg = math.pi/180  
+
+class chain():
+    # 輪廓的外型設為成員變數
+    chamber = "M -6.8397, -1.4894 \
+            A 7, 7, 0, 1, 0, 6.8397, -1.4894 \
+            A 40, 40, 0, 0, 1, 6.8397, -18.511 \
+            A 7, 7, 0, 1, 0, -6.8397, -18.511 \
+            A 40, 40, 0, 0, 1, -6.8397, -1.4894 z"
+    cgoChamber = window.svgToCgoSVG(chamber)
+ 
+    # 利用鏈條起點與終點定義繪圖, 使用內定的 color, border 與 linewidth 變數
+    def basic(self, x1, y1, x2, y2, color="green", border=True, linewidth=4, scale=1):
+        self.x1 = x1
+        self.y1 = y1
+        self.x2 = x2
+        self.y2 = y2
+        self.color = color
+        self.border = border
+        self.linewidth = linewidth
+        self.scale = scale
+        # 注意, cgo.Chamber 為成員變數
+        cmbr = cobj(self.cgoChamber, "SHAPE", {
+                "fillColor": color,
+                "border": border,
+                "strokeColor": "tan",
+                "lineWidth": linewidth })
+ 
+        # hole 為原點位置
+        hole = cobj(shapedefs.circle(4), "PATH")
+        cmbr.appendPath(hole)
+ 
+        # 複製 cmbr, 然後命名為 basic1
+        basic1 = cmbr.dup()
+        # 因為鏈條的角度由原點向下垂直, 所以必須轉 90 度, 再考量 atan2 的轉角
+        basic1.rotate(math.atan2(y2-y1, x2-x1)/deg+90)
+ 
+        # 放大 scale 倍
+        cgo.render(basic1, x1, y1, scale, 0)
+ 
+    # 利用鏈條起點與旋轉角度定義繪圖, 使用內定的 color, border 與 linewidth 變數
+    def basic_rot(self, x1, y1, rot, color="green", border=True, linewidth=4, scale=1):
+        self.x1 = x1
+        self.y1 = y1
+        self.rot = rot
+        self.color = color
+        self.border = border
+        self.linewidth = linewidth
+        self.scale = scale
+        # 注意, cgo.Chamber 為成員變數
+        cmbr = cobj(self.cgoChamber, "SHAPE", {
+                "fillColor": color,
+                "border": border,
+                "strokeColor": "tan",
+                "lineWidth": linewidth })
+ 
+        # hole 為原點位置
+        hole = cobj(shapedefs.circle(4), "PATH")
+        cmbr.appendPath(hole)
+        # 根據旋轉角度, 計算 x2 與 y2
+        x2 = x1 + 20*math.cos(rot*deg)
+        y2 = y1 + 20*math.sin(rot*deg)
+ 
+        # 複製 cmbr, 然後命名為 basic1
+        basic1 = cmbr.dup()
+        # 因為鏈條的角度由原點向下垂直, 所以必須轉 90 度, 再考量 atan2 的轉角
+        basic1.rotate(rot+90)
+ 
+        # 放大 scale 倍
+        cgo.render(basic1, x1, y1, scale, 0)
+ 
+        return x2, y2
+ 
+# 利用 chain class 建立案例, 對應到 mychain 變數
+mychain = chain()
+ 
+# 畫 B
+# 左邊四個垂直單元
+x1, y1 = mychain.basic_rot(0, 0, 90, color="blue")
+x2, y2 = mychain.basic_rot(x1, y1, 90, color="blue")
+x3, y3 = mychain.basic_rot(x2, y2, 90, color="blue")
+x4, y4 = mychain.basic_rot(x3, y3, 90, color="blue")
+# 上方一個水平單元
+x5, y5 = mychain.basic_rot(x4, y4, 0, color="blue")
+# 右斜 -30 度
+x6, y6 = mychain.basic_rot(x5, y5, -30, color="blue")
+# 右上垂直向下單元
+x7, y7 = mychain.basic_rot(x6, y6, -90, color="blue")
+# 右斜 240 度
+x8, y8 = mychain.basic_rot(x7, y7, 210, color="blue")
+# 中間水平
+mychain.basic(x8, y8, x2, y2, color="blue")
+# 右下斜 -30 度
+x10, y10 = mychain.basic_rot(x8, y8, -30, color="blue")
+# 右下垂直向下單元
+x11, y11 = mychain.basic_rot(x10, y10, -90, color="blue")
+# 右下斜 240 度
+x12, y12 = mychain.basic_rot(x11, y11, 210, color="blue")
+# 水平接回起點
+mychain.basic(x12,y12, 0, 0, color="blue")
+
+cgo.setWorldCoords(-50, -250, 500, 500) 
+
+# 畫 A
+# 左邊兩個垂直單元
+x1, y1 = mychain.basic_rot(50,0, 90, color="blue")
+x2, y2 = mychain.basic_rot(x1, y1, 90, color="blue")
+# 左斜邊兩個單元
+x3, y3 = mychain.basic_rot(x2, y2, 80, color="blue")
+x4, y4 = mychain.basic_rot(x3, y3, 71, color="blue")
+# 最上方水平單元
+x5, y5 = mychain.basic_rot(x4, y4, 0, color="blue")
+# 右斜邊兩個單元
+x6, y6 = mychain.basic_rot(x5, y5, -71, color="blue")
+x7, y7 = mychain.basic_rot(x6, y6, -80, color="blue")
+# 右邊兩個垂直單元
+x8, y8 = mychain.basic_rot(x7, y7, -90, color="blue")
+x9, y9 = mychain.basic_rot(x8, y8, -90, color="blue")
+# 中間兩個水平單元
+x10, y10 = mychain.basic_rot(x8, y8, -180, color="blue")
+mychain.basic(x10, y10, x1, y1, color="blue")
+
+cgo.setWorldCoords(-107.5, -250, 500, 500) 
+
+
+# 畫 D
+# 左邊四個垂直單元
+x1, y1 = mychain.basic_rot(0+60, 0, 90, color="blue")
+x2, y2 = mychain.basic_rot(x1, y1, 90, color="blue")
+x3, y3 = mychain.basic_rot(x2, y2, 90, color="blue")
+x4, y4 = mychain.basic_rot(x3, y3, 90, color="blue")
+# 上方一個水平單元
+x5, y5 = mychain.basic_rot(x4, y4, 0, color="blue")
+# 右斜 -40 度
+x6, y6 = mychain.basic_rot(x5, y5, -40, color="blue")
+x7, y7 = mychain.basic_rot(x6, y6, -60, color="blue")
+# 右中垂直向下單元
+x8, y8 = mychain.basic_rot(x7, y7, -90, color="blue")
+# -120 度
+x9, y9 = mychain.basic_rot(x8, y8, -120, color="blue")
+# -140
+x10, y10 = mychain.basic_rot(x9, y9, -140, color="blue")
+# 水平接回原點
+mychain.basic(x10, y10, 0+60, 0, color="blue")
+
+# 畫 C
+# 上半部
+# 左邊中間垂直起點, 圓心位於線段中央, y 方向再向上平移兩個鏈條圓心距單位
+x1, y1 = mychain.basic_rot(0+65*2, -10+10+20*math.sin(80*deg)+20*math.sin(30*deg), 90, color="blue")
+# 上方轉 80 度
+x2, y2 = mychain.basic_rot(x1, y1, 80, color="blue")
+# 上方轉 30 度
+x3, y3 = mychain.basic_rot(x2, y2, 30, color="blue")
+# 上方水平
+x4, y4 = mychain.basic_rot(x3, y3, 0, color="blue")
+# 下半部, 從起點開始 -80 度
+x5, y5 = mychain.basic_rot(0+65*2, -10+10+20*math.sin(80*deg)+20*math.sin(30*deg), -80, color="blue")
+# 下斜 -30 度
+x6, y6 = mychain.basic_rot(x5, y5, -30, color="blue")
+# 下方水平單元
+x7, y7 = mychain.basic_rot(x6, y6, -0, color="blue")
+
+cgo.setWorldCoords(-55, -250, 500, 500) 
+&lt;/script&gt;
+&lt;/body&gt;&lt;/html&gt;
+'''
+    return outstring</t>
+<t tx="leo.20160619000746.1">@ag2_40323122.route('/abcd')
+def abcd():
+    outstring = '''
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;網際 2D 繪圖&lt;/title&gt;
+    &lt;!-- IE 9: display inline SVG --&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=9"&gt;
+&lt;script type="text/javascript" src="http://brython.info/src/brython_dist.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://cptocadp-2015fallhw.rhcloud.com/static/Cango-8v03.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://cptocadp-2015fallhw.rhcloud.com/static/Cango2D-6v13.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://cptocadp-2015fallhw.rhcloud.com/static/CangoAxes-1v33.js"&gt;&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;script&gt;
+window.onload=function(){
+brython(1);
+}
+&lt;/script&gt;
+&lt;canvas id="plotarea" width="800" height="800"&gt;&lt;/canvas&gt;
+&lt;script type="text/python"&gt;
+from javascript import JSConstructor
+from browser import alert
+from browser import window
+import math
+ 
+cango = JSConstructor(window.Cango)
+cobj = JSConstructor(window.Cobj)
+shapedefs = window.shapeDefs
+obj2d = JSConstructor(window.Obj2D)
+cgo = cango("plotarea")
+ 
+cgo.setWorldCoords(-250, -250, 500, 500) 
+ 
+# 畫軸線
+cgo.drawAxes(0, 240, 0, 240, {
+    "strokeColor":"#aaaaaa",
+    "fillColor": "#aaaaaa",
+    "xTickInterval": 20,
+    "xLabelInterval": 20,
+    "yTickInterval": 20,
+    "yLabelInterval": 20})
+ 
+deg = math.pi/180  
+ 
+# 將繪製鏈條輪廓的內容寫成 class 物件
+class chain():
+    # 輪廓的外型設為成員變數
+    chamber = "M -6.8397, -1.4894 \
+            A 7, 7, 0, 1, 0, 6.8397, -1.4894 \
+            A 40, 40, 0, 0, 1, 6.8397, -18.511 \
+            A 7, 7, 0, 1, 0, -6.8397, -18.511 \
+            A 40, 40, 0, 0, 1, -6.8397, -1.4894 z"
+    cgoChamber = window.svgToCgoSVG(chamber)
+ 
+    # 利用鏈條起點與終點定義繪圖, 使用內定的 color, border 與 linewidth 變數
+    def basic(self, x1, y1, x2, y2, color="green", border=True, linewidth=4, scale=1):
+        self.x1 = x1
+        self.y1 = y1
+        self.x2 = x2
+        self.y2 = y2
+        self.color = color
+        self.border = border
+        self.linewidth = linewidth
+        self.scale = scale
+        # 注意, cgo.Chamber 為成員變數
+        cmbr = cobj(self.cgoChamber, "SHAPE", {
+                "fillColor": color,
+                "border": border,
+                "strokeColor": "tan",
+                "lineWidth": linewidth })
+ 
+        # hole 為原點位置
+        hole = cobj(shapedefs.circle(4), "PATH")
+        cmbr.appendPath(hole)
+ 
+        # 複製 cmbr, 然後命名為 basic1
+        basic1 = cmbr.dup()
+        # 因為鏈條的角度由原點向下垂直, 所以必須轉 90 度, 再考量 atan2 的轉角
+        basic1.rotate(math.atan2(y2-y1, x2-x1)/deg+90)
+ 
+        # 放大 scale 倍
+        cgo.render(basic1, x1, y1, scale, 0)
+ 
+    # 利用鏈條起點與旋轉角度定義繪圖, 使用內定的 color, border 與 linewidth 變數
+    def basic_rot(self, x1, y1, rot, color="green", border=True, linewidth=4, scale=1):
+        self.x1 = x1
+        self.y1 = y1
+        self.rot = rot
+        self.color = color
+        self.border = border
+        self.linewidth = linewidth
+        self.scale = scale
+        # 注意, cgo.Chamber 為成員變數
+        cmbr = cobj(self.cgoChamber, "SHAPE", {
+                "fillColor": color,
+                "border": border,
+                "strokeColor": "tan",
+                "lineWidth": linewidth })
+ 
+        # hole 為原點位置
+        hole = cobj(shapedefs.circle(4), "PATH")
+        cmbr.appendPath(hole)
+        # 根據旋轉角度, 計算 x2 與 y2
+        x2 = x1 + 20*math.cos(rot*deg)
+        y2 = y1 + 20*math.sin(rot*deg)
+ 
+        # 複製 cmbr, 然後命名為 basic1
+        basic1 = cmbr.dup()
+        # 因為鏈條的角度由原點向下垂直, 所以必須轉 90 度, 再考量 atan2 的轉角
+        basic1.rotate(rot+90)
+ 
+        # 放大 scale 倍
+        cgo.render(basic1, x1, y1, scale, 0)
+ 
+        return x2, y2
+ 
+# 利用 chain class 建立案例, 對應到 mychain 變數
+mychain = chain()
+ 
+# 畫 A
+# 左邊四個垂直單元
+x1, y1 = mychain.basic_rot(0, 0, 90, color="blue")
+x2, y2 = mychain.basic_rot(x1, y1, 90, color="blue")
+x3, y3 = mychain.basic_rot(x2, y2, 90, color="blue")
+x4, y4 = mychain.basic_rot(x3, y3, 90, color="blue")
+# 上方一個水平單元
+x5, y5 = mychain.basic_rot(x4, y4, 0, color="blue")
+# 右斜 -30 度
+x6, y6 = mychain.basic_rot(x5, y5, -30, color="blue")
+# 右上垂直向下單元
+x7, y7 = mychain.basic_rot(x6, y6, -90, color="blue")
+# 右斜 240 度
+x8, y8 = mychain.basic_rot(x7, y7, 210, color="blue")
+# 中間水平
+mychain.basic(x8, y8, x2, y2, color="blue")
+# 右下斜 -30 度
+x10, y10 = mychain.basic_rot(x8, y8, -30, color="blue")
+# 右下垂直向下單元
+x11, y11 = mychain.basic_rot(x10, y10, -90, color="blue")
+# 右下斜 240 度
+x12, y12 = mychain.basic_rot(x11, y11, 210, color="blue")
+# 水平接回起點
+mychain.basic(x12,y12, 0, 0, color="blue")
+
+
+cgo.setWorldCoords(-247.5, -350, 500, 500) 
+# 畫 B
+# 左邊兩個垂直單元
+x1, y1 = mychain.basic_rot(0, 0, 90, color="blue")
+x2, y2 = mychain.basic_rot(x1, y1, 90, color="blue")
+# 左斜邊兩個單元
+x3, y3 = mychain.basic_rot(x2, y2, 80, color="blue")
+x4, y4 = mychain.basic_rot(x3, y3, 71, color="blue")
+# 最上方水平單元
+x5, y5 = mychain.basic_rot(x4, y4, 0, color="blue")
+# 右斜邊兩個單元
+x6, y6 = mychain.basic_rot(x5, y5, -71, color="blue")
+x7, y7 = mychain.basic_rot(x6, y6, -80, color="blue")
+# 右邊兩個垂直單元
+x8, y8 = mychain.basic_rot(x7, y7, -90, color="blue")
+x9, y9 = mychain.basic_rot(x8, y8, -90, color="blue")
+# 中間兩個水平單元
+x10, y10 = mychain.basic_rot(x8, y8, -180, color="blue")
+mychain.basic(x10, y10, x1, y1, color="blue")
+
+cgo.setWorldCoords(-55, -50, 500, 500) 
+# 畫 C
+# 左邊四個垂直單元
+x1, y1 = mychain.basic_rot(0+65*3, 0, 90, color="blue")
+x2, y2 = mychain.basic_rot(x1, y1, 90, color="blue")
+x3, y3 = mychain.basic_rot(x2, y2, 90, color="blue")
+x4, y4 = mychain.basic_rot(x3, y3, 90, color="blue")
+# 上方一個水平單元
+x5, y5 = mychain.basic_rot(x4, y4, 0, color="blue")
+# 右斜 -40 度
+x6, y6 = mychain.basic_rot(x5, y5, -40, color="blue")
+x7, y7 = mychain.basic_rot(x6, y6, -60, color="blue")
+# 右中垂直向下單元
+x8, y8 = mychain.basic_rot(x7, y7, -90, color="blue")
+# -120 度
+x9, y9 = mychain.basic_rot(x8, y8, -120, color="blue")
+# -140
+x10, y10 = mychain.basic_rot(x9, y9, -140, color="blue")
+# 水平接回原點
+mychain.basic(x10, y10, 0+65*3, 0, color="blue")
+
+cgo.setWorldCoords(-120, -150, 500, 500) 
+# 畫 D
+# 上半部
+# 左邊中間垂直起點, 圓心位於線段中央, y 方向再向上平移兩個鏈條圓心距單位
+x1, y1 = mychain.basic_rot(0+65*2, -10+10+20*math.sin(80*deg)+20*math.sin(30*deg), 90, color="blue")
+# 上方轉 80 度
+x2, y2 = mychain.basic_rot(x1, y1, 80, color="blue")
+# 上方轉 30 度
+x3, y3 = mychain.basic_rot(x2, y2, 30, color="blue")
+# 上方水平
+x4, y4 = mychain.basic_rot(x3, y3, 0, color="blue")
+# 下半部, 從起點開始 -80 度
+x5, y5 = mychain.basic_rot(0+65*2, -10+10+20*math.sin(80*deg)+20*math.sin(30*deg), -80, color="blue")
+# 下斜 -30 度
+x6, y6 = mychain.basic_rot(x5, y5, -30, color="blue")
+# 下方水平單元
+x7, y7 = mychain.basic_rot(x6, y6, -0, color="blue")
+&lt;/script&gt;
+&lt;/body&gt;&lt;/html&gt;
+'''
+    return outstring
+
+</t>
+<t tx="leo.20160619001005.1">@language python
+# 各組分別在各自的 .py 程式中建立應用程式 (第1步/總共3步)
+from flask import Blueprint, render_template, make_response
+
+# 利用 Blueprint建立 ag1, 並且 url 前綴為 /ag1, 並設定 template 存放目錄
+ag2_40323122 = Blueprint('ag2_40323122', __name__, url_prefix='/ag2_40323122', template_folder='templates')
+
+
+
+
+</t>
+<t tx="leo.20160619162058.2"></t>
+<t tx="leo.20160619162058.3">(uncached) amd.20160501221001.2
 Diff...
   # coding: utf-8
   from flask import Flask, send_from_directory, request, redirect, render_template, session, make_response
@@ -749,151 +1658,144 @@ Diff...
   # init.py 為自行建立的起始物件
   import init
   import users.a.g1.ag1_40323105
+- #import users.a.g1.ag1_40323148
   import users.a.g2.ag2_40323120
++ import users.a.g2.ag2_40323122
   import users.a.g10.ag10_40323129_task1
   import users.a.g10.ag10_40323141_task1
   import users.a.g10.ag10_40323139
   import users.a.g9.ag9_40323132task
   import users.a.g5.ag5_40323113task1
   import users.a.g5.ag5_40123145task1
-- import users.a.g5.ag5_40123145task2
-- import users.a.g5.ag5_40123145task3
+  import users.a.g5.ag5_40123145task2
+  import users.a.g5.ag5_40123145task3
   import users.a.g4.ag4_40323138
   import users.a.g4.ag4_40323138_task2bacd
   import users.a.g4.ag4_40323138_task3abcd
   import users.a.g8.ag8_40323131_task1
   import users.b.g9.bg9_40323250
   import users.a.g8.ag8_40323123
-- import users.a.g1.a40223153
-- import users.a.g3.ag3_40323108
-- import users.a.g3.ag3_40323108_task2bacd
-- import users.a.g3.ag3_40323108_task3abcd
-- import users.a.g4.ag4_40323109
-- import users.a.g4.ag4_40323109_task2bacd
-- import users.a.g4.ag4_40323109_task3abcd
-- import users.a.g4.a40323130
-- import users.a.g1.a40323105_1
-- 
+  import users.a.g1.a40223153
+  import users.a.g3.ag3_40323108
+  import users.a.g3.ag3_40323108_task2bacd
+  import users.a.g3.ag3_40323108_task3abcd
+  import users.a.g4.ag4_40323109
+  import users.a.g4.ag4_40323109_task2bacd
+  import users.a.g4.ag4_40323109_task3abcd
+  import users.a.g4.a40323130
+  import users.a.g1.a40323105_1
+- import users.a.g1.a40323146_1
+- import users.a.g1.a40323106
+- import users.a.g1.a40323107_2
+- import users.b.g6.bg6_40323248
+  
   #bg1
   import users.b.g1.bg1_40123156
   import users.b.g1.bg1_40123156_2
-- import users.b.g1.bg1_40123129
-- import users.b.g1.bg1_40123129_2
+  import users.b.g1.bg1_40123129
+  import users.b.g1.bg1_40123129_2
   import users.b.g1.bg1_40123144
   import users.b.g1.bg1_40123144_2
-- import users.b.g1.b40123131_cdw11
-?                            ------
-+ import users.b.g1.bg1_40123131
-?                    +++
-- import users.b.g1.b40123131_cdw12
-?                             ----
-+ import users.b.g1.bg1_40123131_2
-?                    +++
-- import users.b.g1.b40123131_cdw13
+  import users.b.g1.b40123131_cdw11
+  import users.b.g1.b40123131_cdw12
+  import users.b.g1.b40123131_cdw13
   
-- import users.b.g1.b40123131_cdw11
-- import users.b.g1.b40123131_cdw12
-- import users.b.g1.bg1_40123134
-- import users.b.g1.bg1_40123134_2
-- import users.b.g1.bg1_40123134_3
-- import users.b.g1.b40123133_cdw11
-- import users.b.g1.b40123133_cdw12
-- import users.b.g1.bg1_40123126
-- import users.b.g1.bg1_40123126_2
+  import users.b.g1.b40123131_cdw11
+  import users.b.g1.b40123131_cdw12
+  import users.b.g1.bg1_40123134
+  import users.b.g1.bg1_40123134_2
+  import users.b.g1.bg1_40123134_3
+  import users.b.g1.b40123133_cdw11
+  import users.b.g1.b40123133_cdw12
+  import users.b.g1.bg1_40123126
+  import users.b.g1.bg1_40123126_2
   #bg2
   import users.b.g2.bg2_40123235
-- import users.b.g2.bg2_40123235_cdw12
-- import users.b.g2.bg2_40123235_cdw14
+  import users.b.g2.bg2_40123235_cdw12
+  import users.b.g2.bg2_40123235_cdw14
   import users.b.g2.bg2_40123202
-- import users.b.g2.bg2_40123202_cdw13
-- import users.b.g2.bg2_40123202_cdw14
-- import users.b.g2.bg2_40123226_cdw12
-- import users.b.g2.bg2_40123232_cdw12
-- import users.b.g2.bg2_40123214_cdw12
-- import users.b.g2.bg2_40123217_cdw12
-- import users.b.g2.bg2_40123244_cdw12
+  import users.b.g2.bg2_40123202_cdw13
+  import users.b.g2.bg2_40123202_cdw14
+  import users.b.g2.bg2_40123226_cdw12
+  import users.b.g2.bg2_40123232_cdw12
+  import users.b.g2.bg2_40123214_cdw12
+  import users.b.g2.bg2_40123217_cdw12
+  import users.b.g2.bg2_40123244_cdw12
   #bg4
   import users.b.g4.bg4_40323203
   import users.b.g4.bg4_40323205
   import users.b.g4.bg4_40323208
-- import users.b.g4.bg4_40123128
-- import users.b.g4.bg4_40123128_cdw11
-- import users.b.g4.bg4_40123128_cdw14
+  import users.b.g4.bg4_40123128
+  import users.b.g4.bg4_40123128_cdw11
+  import users.b.g4.bg4_40123128_cdw14
   #bg8
   import users.b.g8.bg8_40323213
   import users.b.g4.bg4_40323202
   import users.b.g4.b40323201_cdw11
-+ #bg5
-+ import users.b.g5.b40323206_cdw11_1
-+ import users.b.g5.b40323204_cdw11_1
   
   #bg5
-- #import users.b.g5.b40323206_cdw11_1
-? -
-+ import users.b.g5.b40323206_cdw11_1
-- import users.b.g5.b40323204_cdw11_1
-- import users.b.g5.b40323204_cdw11
-- import users.b.g5.b40323204_cdw11_2
-- 
-- #bg5
-- #import users.b.g5.b40323206_cdw11_1
+  #import users.b.g5.b40323206_cdw11_1
+  import users.b.g5.b40323204_cdw11_1
+  import users.b.g5.b40323204_cdw11
+  import users.b.g5.b40323204_cdw11_2
+  
+  #bg5
+  #import users.b.g5.b40323206_cdw11_1
   import users.b.g5.b40323204_cdw11_1
   import users.b.g5.b40323204_cdw11_2
   import users.b.g5.b40323206_cdw11_2
-- 
-- #bg10
-- import users.b.g10.bg10_40328245
-- import users.b.g10.bg10_40328242
-- import users.b.g10.bg10_40323241
-- import users.b.g10.bg10_40323222
-- 
+  
+  #bg10
+  import users.b.g10.bg10_40328245
+  import users.b.g10.bg10_40328242
+  import users.b.g10.bg10_40323241
+  import users.b.g10.bg10_40323222
+  
   #bg11
-- 
-+ import users.b.g11.bg11_40323245
+  
   import users.b.g11.bg11_40323252
-- import users.b.g11.bg11_40323245_2
-- import users.b.g11.b40323252
-- import users.b.g11.bg11_40323245
-- import users.b.g11.b40323252
-- import users.b.g11.bg11_40323247
-- import users.b.g11.bg11_40323247_2
-- 
+  import users.b.g11.bg11_40323245_2
+  import users.b.g11.b40323252
+  import users.b.g11.bg11_40323245
+  import users.b.g11.b40323252
+  import users.b.g11.bg11_40323247
+  import users.b.g11.bg11_40323247_2
+  
   #bg101
   import users.b.g101.b40123200
-- #ag7
-- import users.a.g7.ag7_40123149_1
-- import users.a.g7.ag7_40123149_2
+  #ag7
+  import users.a.g7.ag7_40123149_1
+  import users.a.g7.ag7_40123149_2
   #ag8
   import users.a.g8.a40323143
-- import users.a.g8.a40323137
+  import users.a.g8.a40323137
   import users.a.g8.a40323154
-- import users.a.g8.ag8_40323145
+  import users.a.g8.ag8_40323145
   #ag10
   import users.a.g10.a40323139
   import users.a.g10.a40323141
   #bg3
-- #import users.b.g3.b40123224
-? -                ^
-+ import users.b.g10.b40123224
-?                 ^^
-- #import users.b.g3.b40123250
-? -                ^
-+ import users.b.g10.b40123250
-?                 ^^
-- #import users.b.g3.b40123242
-? -                ^
-+ import users.b.g10.b40123242
-?                 ^^
-- import users.b.g3.bg3_40123224
-- import users.b.g3.bg3_40123224_cdw11
-- import users.b.g3.bg3_40123250
-- import users.b.g3.bg3_40123250_cdw11
-- import users.b.g3.bg3_40123250_cdw14
-- import users.b.g3.bg3_40123224_cdw14
-- #import users.b.g3.b40123242
-- import users.b.g3.bg3_40123242_cdw12
-- #ag3
-- import users.a.g3.a40323108
+  #import users.b.g3.b40123224
+  #import users.b.g3.b40123250
+  #import users.b.g3.b40123242
+  import users.b.g3.bg3_40123224
+  import users.b.g3.bg3_40123224_cdw11
+  import users.b.g3.bg3_40123250
+  import users.b.g3.bg3_40123250_cdw11
+  import users.b.g3.bg3_40123250_cdw14
+  import users.b.g3.bg3_40123224_cdw14
+  #import users.b.g3.b40123242
+  import users.b.g3.bg3_40123242_cdw12
+  #ag3
+  import users.a.g3.a40323108
+- 
+- #ag6
+- import users.a.g6.cdw13.a40323133
+- import users.a.g6.cdw13.a40323147
+- import users.a.g6.cdw13.a40323152
+- import users.a.g6.cdw13.a40323155
+- import users.a.g6.cdw13.a40323156
+- 
   #ag100
   import users.a.g100.cdw13.a40123100
   # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
@@ -927,9 +1829,8 @@ Diff...
   
   
   
-+ 
 </t>
-<t tx="leo.20160618223924.4"># coding: utf-8
+<t tx="leo.20160619162058.4"># coding: utf-8
 from flask import Flask, send_from_directory, request, redirect, render_template, session, make_response
 import random
 import math
@@ -938,105 +1839,7 @@ import os
 import init
 import users.a.g1.ag1_40323105
 import users.a.g2.ag2_40323120
-import users.a.g10.ag10_40323129_task1
-import users.a.g10.ag10_40323141_task1
-import users.a.g10.ag10_40323139
-import users.a.g9.ag9_40323132task
-import users.a.g5.ag5_40323113task1
-import users.a.g5.ag5_40123145task1
-import users.a.g4.ag4_40323138
-import users.a.g4.ag4_40323138_task2bacd
-import users.a.g4.ag4_40323138_task3abcd
-import users.a.g8.ag8_40323131_task1
-import users.b.g9.bg9_40323250
-import users.a.g8.ag8_40323123
-#bg1
-import users.b.g1.bg1_40123156
-import users.b.g1.bg1_40123156_2
-import users.b.g1.bg1_40123144
-import users.b.g1.bg1_40123144_2
-import users.b.g1.bg1_40123131
-import users.b.g1.bg1_40123131_2
-
-#bg2
-import users.b.g2.bg2_40123235
-import users.b.g2.bg2_40123202
-#bg4
-import users.b.g4.bg4_40323203
-import users.b.g4.bg4_40323205
-import users.b.g4.bg4_40323208
-#bg8
-import users.b.g8.bg8_40323213
-import users.b.g4.bg4_40323202
-import users.b.g4.b40323201_cdw11
-#bg5
-import users.b.g5.b40323206_cdw11_1
-import users.b.g5.b40323204_cdw11_1
-
-#bg5
-import users.b.g5.b40323206_cdw11_1
-import users.b.g5.b40323204_cdw11_1
-import users.b.g5.b40323204_cdw11_2
-import users.b.g5.b40323206_cdw11_2
-#bg11
-import users.b.g11.bg11_40323245
-import users.b.g11.bg11_40323252
-#bg101
-import users.b.g101.b40123200
-#ag8
-import users.a.g8.a40323143
-import users.a.g8.a40323154
-#ag10
-import users.a.g10.a40323139
-import users.a.g10.a40323141
-#bg3
-import users.b.g10.b40123224
-import users.b.g10.b40123250
-import users.b.g10.b40123242
-#ag100
-import users.a.g100.cdw13.a40123100
-# 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
-_curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
-# 設定在雲端與近端的資料儲存目錄
-if 'OPENSHIFT_REPO_DIR' in os.environ.keys():
-    # 表示程式在雲端執行
-    data_dir = os.environ['OPENSHIFT_DATA_DIR']
-    static_dir = os.environ['OPENSHIFT_REPO_DIR']+"/static"
-    download_dir = os.environ['OPENSHIFT_DATA_DIR']+"/downloads"
-else:
-    # 表示程式在近端執行
-    data_dir = _curdir + "/local_data/"
-    static_dir = _curdir + "/static"
-    download_dir = _curdir + "/local_data/downloads/"
-
-# 利用 init.py 啟動, 建立所需的相關檔案
-initobj = init.Init()
-
-# 必須先將 download_dir 設為 static_folder, 然後才可以用於 download 方法中的 app.static_folder 的呼叫
-app = Flask(__name__)
-#app.config['download_dir'] = download_dir
-
-# 使用 session 必須要設定 secret_key
-# In order to use sessions you have to set a secret key
-# set the secret key.  keep this really secret:
-app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
-
-
-
-
-
-
-
-</t>
-<t tx="leo.20160618223924.5"># coding: utf-8
-from flask import Flask, send_from_directory, request, redirect, render_template, session, make_response
-import random
-import math
-import os
-# init.py 為自行建立的起始物件
-import init
-import users.a.g1.ag1_40323105
-import users.a.g2.ag2_40323120
+import users.a.g2.ag2_40323122
 import users.a.g10.ag10_40323129_task1
 import users.a.g10.ag10_40323141_task1
 import users.a.g10.ag10_40323139
@@ -1160,6 +1963,185 @@ import users.b.g3.bg3_40123224_cdw14
 import users.b.g3.bg3_40123242_cdw12
 #ag3
 import users.a.g3.a40323108
+#ag100
+import users.a.g100.cdw13.a40123100
+# 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
+_curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
+# 設定在雲端與近端的資料儲存目錄
+if 'OPENSHIFT_REPO_DIR' in os.environ.keys():
+    # 表示程式在雲端執行
+    data_dir = os.environ['OPENSHIFT_DATA_DIR']
+    static_dir = os.environ['OPENSHIFT_REPO_DIR']+"/static"
+    download_dir = os.environ['OPENSHIFT_DATA_DIR']+"/downloads"
+else:
+    # 表示程式在近端執行
+    data_dir = _curdir + "/local_data/"
+    static_dir = _curdir + "/static"
+    download_dir = _curdir + "/local_data/downloads/"
+
+# 利用 init.py 啟動, 建立所需的相關檔案
+initobj = init.Init()
+
+# 必須先將 download_dir 設為 static_folder, 然後才可以用於 download 方法中的 app.static_folder 的呼叫
+app = Flask(__name__)
+#app.config['download_dir'] = download_dir
+
+# 使用 session 必須要設定 secret_key
+# In order to use sessions you have to set a secret key
+# set the secret key.  keep this really secret:
+app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
+
+
+
+
+
+
+</t>
+<t tx="leo.20160619162058.5"># coding: utf-8
+from flask import Flask, send_from_directory, request, redirect, render_template, session, make_response
+import random
+import math
+import os
+# init.py 為自行建立的起始物件
+import init
+import users.a.g1.ag1_40323105
+#import users.a.g1.ag1_40323148
+import users.a.g2.ag2_40323120
+import users.a.g10.ag10_40323129_task1
+import users.a.g10.ag10_40323141_task1
+import users.a.g10.ag10_40323139
+import users.a.g9.ag9_40323132task
+import users.a.g5.ag5_40323113task1
+import users.a.g5.ag5_40123145task1
+import users.a.g5.ag5_40123145task2
+import users.a.g5.ag5_40123145task3
+import users.a.g4.ag4_40323138
+import users.a.g4.ag4_40323138_task2bacd
+import users.a.g4.ag4_40323138_task3abcd
+import users.a.g8.ag8_40323131_task1
+import users.b.g9.bg9_40323250
+import users.a.g8.ag8_40323123
+import users.a.g1.a40223153
+import users.a.g3.ag3_40323108
+import users.a.g3.ag3_40323108_task2bacd
+import users.a.g3.ag3_40323108_task3abcd
+import users.a.g4.ag4_40323109
+import users.a.g4.ag4_40323109_task2bacd
+import users.a.g4.ag4_40323109_task3abcd
+import users.a.g4.a40323130
+import users.a.g1.a40323105_1
+import users.a.g1.a40323146_1
+import users.a.g1.a40323106
+import users.a.g1.a40323107_2
+import users.b.g6.bg6_40323248
+
+#bg1
+import users.b.g1.bg1_40123156
+import users.b.g1.bg1_40123156_2
+import users.b.g1.bg1_40123129
+import users.b.g1.bg1_40123129_2
+import users.b.g1.bg1_40123144
+import users.b.g1.bg1_40123144_2
+import users.b.g1.b40123131_cdw11
+import users.b.g1.b40123131_cdw12
+import users.b.g1.b40123131_cdw13
+
+import users.b.g1.b40123131_cdw11
+import users.b.g1.b40123131_cdw12
+import users.b.g1.bg1_40123134
+import users.b.g1.bg1_40123134_2
+import users.b.g1.bg1_40123134_3
+import users.b.g1.b40123133_cdw11
+import users.b.g1.b40123133_cdw12
+import users.b.g1.bg1_40123126
+import users.b.g1.bg1_40123126_2
+#bg2
+import users.b.g2.bg2_40123235
+import users.b.g2.bg2_40123235_cdw12
+import users.b.g2.bg2_40123235_cdw14
+import users.b.g2.bg2_40123202
+import users.b.g2.bg2_40123202_cdw13
+import users.b.g2.bg2_40123202_cdw14
+import users.b.g2.bg2_40123226_cdw12
+import users.b.g2.bg2_40123232_cdw12
+import users.b.g2.bg2_40123214_cdw12
+import users.b.g2.bg2_40123217_cdw12
+import users.b.g2.bg2_40123244_cdw12
+#bg4
+import users.b.g4.bg4_40323203
+import users.b.g4.bg4_40323205
+import users.b.g4.bg4_40323208
+import users.b.g4.bg4_40123128
+import users.b.g4.bg4_40123128_cdw11
+import users.b.g4.bg4_40123128_cdw14
+#bg8
+import users.b.g8.bg8_40323213
+import users.b.g4.bg4_40323202
+import users.b.g4.b40323201_cdw11
+
+#bg5
+#import users.b.g5.b40323206_cdw11_1
+import users.b.g5.b40323204_cdw11_1
+import users.b.g5.b40323204_cdw11
+import users.b.g5.b40323204_cdw11_2
+
+#bg5
+#import users.b.g5.b40323206_cdw11_1
+import users.b.g5.b40323204_cdw11_1
+import users.b.g5.b40323204_cdw11_2
+import users.b.g5.b40323206_cdw11_2
+
+#bg10
+import users.b.g10.bg10_40328245
+import users.b.g10.bg10_40328242
+import users.b.g10.bg10_40323241
+import users.b.g10.bg10_40323222
+
+#bg11
+
+import users.b.g11.bg11_40323252
+import users.b.g11.bg11_40323245_2
+import users.b.g11.b40323252
+import users.b.g11.bg11_40323245
+import users.b.g11.b40323252
+import users.b.g11.bg11_40323247
+import users.b.g11.bg11_40323247_2
+
+#bg101
+import users.b.g101.b40123200
+#ag7
+import users.a.g7.ag7_40123149_1
+import users.a.g7.ag7_40123149_2
+#ag8
+import users.a.g8.a40323143
+import users.a.g8.a40323137
+import users.a.g8.a40323154
+import users.a.g8.ag8_40323145
+#ag10
+import users.a.g10.a40323139
+import users.a.g10.a40323141
+#bg3
+#import users.b.g3.b40123224
+#import users.b.g3.b40123250
+#import users.b.g3.b40123242
+import users.b.g3.bg3_40123224
+import users.b.g3.bg3_40123224_cdw11
+import users.b.g3.bg3_40123250
+import users.b.g3.bg3_40123250_cdw11
+import users.b.g3.bg3_40123250_cdw14
+import users.b.g3.bg3_40123224_cdw14
+#import users.b.g3.b40123242
+import users.b.g3.bg3_40123242_cdw12
+#ag3
+import users.a.g3.a40323108
+
+#ag6
+import users.a.g6.cdw13.a40323133
+import users.a.g6.cdw13.a40323147
+import users.a.g6.cdw13.a40323152
+import users.a.g6.cdw13.a40323155
+import users.a.g6.cdw13.a40323156
+
 #ag100
 import users.a.g100.cdw13.a40123100
 # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線

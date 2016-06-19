@@ -756,9 +756,9 @@ s.line(0, 0, 100, 100).attr({ 'fill': "silver", 'stroke': "black", 'strokeWidth'
 </html>
 '''
     return outstring
-@ag10_40323139_1.route('/gears', defaults={'n1':17,'n2':29,'n3':15})
-@ag10_40323139_1.route('/gears/<n1>/<n2>/<n3>')
-def gears(n1, n2, n3):
+@ag10_40323139_1.route('/gears', defaults={'n1':17,'n2':29,'n3':15,'n4':25})
+@ag10_40323139_1.route('/gears/<n1>/<n2>/<n3>/<n4>')
+def gears(n1, n2, n3, n4):
     outstring = '''
 <!DOCTYPE html>
 <html>
@@ -862,11 +862,12 @@ def spur(cx, cy, m, n, pa, theta):
           'strokeColor':'blue', 'lineWidth': 1})
     cgo.render(Line)
  
-# 3個齒輪的齒數
+# 4個齒輪的齒數
 n1 = 17
 n2 = 29
 n3 = 15
 n4 = 25
+
  
 # m 為模數, 根據畫布的寬度, 計算適合的模數大小
 # Module = mm of pitch diameter per tooth
@@ -882,6 +883,7 @@ pr4 = n4*m/2
  
 # 畫布左右兩側都保留畫布寬度的 10%
 # 依此計算對應的最左邊齒輪的軸心座標
+
 cx = canvas.width*0.1+pr1
 cy = canvas.height/2
  
