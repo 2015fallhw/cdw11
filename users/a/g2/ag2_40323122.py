@@ -823,7 +823,7 @@ x1, y1 = mychain.basic_rot('''+str(x)+","+str(y)+", "+str(first_degree)+''', Tru
     degree = 20
     # 70, 50, 30, 10
     # 從 i=5 開始, 就是 virautl chain
-    first_degree = 90-
+    first_degree = 90
     repeat = 360 / degree
     # 第1節不是 virtual chain
     outstring += '''
