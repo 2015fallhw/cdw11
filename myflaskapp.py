@@ -6,7 +6,7 @@ import os
 # init.py 為自行建立的起始物件
 import init
 import users.a.g1.ag1_40323105
-import users.a.g1.ag1_40323148
+#import users.a.g1.ag1_40323148
 import users.a.g2.ag2_40323120
 #import users.a.g2.ag2_40323122
 import users.a.g10.ag10_40323129_task1
@@ -540,7 +540,7 @@ app.register_blueprint(users.a.g1.a40323105_1.a40323105_1)
 app.register_blueprint(users.a.g4.ag4_40323109.ag4_40323109)
 app.register_blueprint(users.a.g4.ag4_40323109_task2bacd.ag4_40323109bacd)
 app.register_blueprint(users.a.g4.ag4_40323109_task3abcd.ag4_40323109task3)
-app.register_blueprint(users.a.g1.ag1_40323148.ag1_40323148)
+#app.register_blueprint(users.a.g1.ag1_40323148.ag1_40323148)
 
 app.register_blueprint(users.a.g1.a40323146_1.a40323146_1)
 app.register_blueprint(users.a.g1.a40323106.a40323106)
