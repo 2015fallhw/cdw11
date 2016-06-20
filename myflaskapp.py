@@ -42,6 +42,7 @@ import users.b.g6.bg6_40323248
 import users.a.g3.a40323103
 import users.a.g10.a40323127
 import users.a.g10.a40323128
+import users.a.g9.a40323125
 
 #bg1
 import users.b.g1.bg1_40123156
@@ -520,6 +521,7 @@ def send_file(path):
 
 if __name__ == "__main__":
     app.run()
+
 app.register_blueprint(users.a.g4.ag4_40323138.ag4_40323138)
 app.register_blueprint(users.a.g10.ag10_40323141_task1.ag10_40323141)    
 app.register_blueprint(users.a.g9.ag9_40323132task.ag9_40323132)
@@ -556,6 +558,7 @@ app.register_blueprint(users.a.g1.a40323107_2.a40323107_2)
 app.register_blueprint(users.a.g3.a40323103.ag3_40323103)
 app.register_blueprint(users.a.g10.a40323127.ag10_40323127)
 app.register_blueprint(users.a.g10.a40323128.ag10_40323128)
+app.register_blueprint(users.a.g9.a40323125.ag9_40323125)
 
 #bg1
 app.register_blueprint(users.b.g1.bg1_40123156.bg1_40123156)
