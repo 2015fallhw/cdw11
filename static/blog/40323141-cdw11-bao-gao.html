@@ -177,7 +177,11 @@ init_mathjax();
         <meta property="og:title" content="40323141 cdw11 報告"/>
         <meta property="og:url" content="http://cdw11-ag100.rhcloud.com/static/blog/40323141-cdw11-bao-gao.html"/>
         <meta property="og:description" content="啟動 cdw11 協同專案"/>
+<<<<<<< HEAD
         <meta property="article:published_time" content="2016-06-19" />
+=======
+        <meta property="article:published_time" content="2016-06-20" />
+>>>>>>> 98d5d444a450302e079c8e384057de44c49f06c4
             <meta property="article:section" content="ag10" />
             <meta property="article:tag" content="40323141" />
             <meta property="article:tag" content="cdw11" />
@@ -369,7 +373,11 @@ CDW11 網頁 (虎尾科大MDE)            </a>
 <footer class="post-info">
     <span class="label label-default">Date</span>
     <span class="published">
+<<<<<<< HEAD
         <i class="fa fa-calendar"></i><time datetime="2016-06-19T21:51:03.181538+08:00"> 週日 19 六月 2016</time>
+=======
+        <i class="fa fa-calendar"></i><time datetime="2016-06-20T14:02:15.732114+08:00"> 週一 20 六月 2016</time>
+>>>>>>> 98d5d444a450302e079c8e384057de44c49f06c4
     </span>
             <span class="label label-default">By</span>
             <a href="http://cdw11-ag100.rhcloud.com/static/blog/author/40323141.html"><i class="fa fa-user"></i> 40323141</a>
@@ -390,44 +398,26 @@ CDW11 網頁 (虎尾科大MDE)            </a>
 <p>前言:
 利用2D繪圖程式在LEO上繪製出4個A、BACD和直行的ABCD</p>
 <p>任務描述及說明:</p>
-<p>任務一   繪製出4個A:
-<img src="http://i.imgur.com/4kPf5eb.png" width="100%" /></p>
-<p>一開始先註冊藍圖及導入，如下圖</p>
-<p><img src="http://i.imgur.com/oBHKkzX.png" width="100%" />
-<img src="http://i.imgur.com/4G2QqyF.png" width="100%" /></p>
-<p>然後輸入指令python wsgi.py 如果成功會出現下圖，成功後即可打開畫布</p>
-<p><img src="http://i.imgur.com/5q2IyRL.png" width="100%" /></p>
-<p>然後在網頁輸入localhost:5000/後面打自己圖的圖名，名稱可以隨意取，但是改完之後再網址後面也要跟著更改</p>
-<p>開啟後可以看到如下圖地顯示出的4個A，可以看到上面圈起來的網址</p>
-<p><img src="http://i.imgur.com/doBc3MB.png" width="100%" /></p>
-<p>然後複製A函式的參數，貼到edit ag10_40323139.py底下，在最下方要加上html的語法才會顯示圖形。</p>
-<p>html語法</p>
-<p><img src="http://i.imgur.com/Al7dH5J.png" width="100%" />
-<img src="http://i.imgur.com/c3sTova.png" width="100%" /></p>
-<p>成功之後，複製A圖檔程式</p>
-<p><img src="http://i.imgur.com/9432ryw.png" width="100%" /></p>
-<p>再重複導入A圖檔程式，更改一下X的座標軸，如下圖圈圈所示
-X位置0</p>
-<p><img src="http://i.imgur.com/zUfCZv4.png" width="100%" />
-<img src="http://i.imgur.com/LG9Mubj.png" width="100%" /></p>
-<p>X座標改完後，將4個A圖檔存檔後檢查網站有無4個A</p>
-<p><img src="http://i.imgur.com/4kPf5eb.png" width="100%" /></p>
-<p>完成任務一(4個A)</p>
-<p>任務二 (BACD) </p>
-<p>用上述方法將其餘3個A改成BCD，然後即可到網站上檢查</p>
-<p><img src="http://i.imgur.com/u9LFrU6.png" width="100%" /></p>
-<p>這裡在網站上只需要把localhost:5000/後面改成任務二的圖名，如下圖說明</p>
-<p><img src="http://i.imgur.com/OI3tD0k.png" width="100%" /></p>
-<p>完成任務二(BACD)</p>
-<p>任務三(由直行排ABCD):</p>
-<p>如上面任務一和任務二，不過這次改的是Y軸的部分，我使用110、10、-65、-200</p>
-<p><img src="http://i.imgur.com/1AOs8th.png" width="100%" />
-<img src="http://i.imgur.com/bVPPU3R.png" width="100%" /></p>
-<p>任務三完成(直行ABCD)</p>
+<p>1.繪製出4個A:
+http://40323141cdw11-40323141.rhcloud.com/ag10_40323141/task1_41
+<img src="http://imgur.com/qYEQ3M7.png" width="100%" /></p>
+<p>然後先開啟leo 註冊藍圖及導入</p>
+<p><img src="http://imgur.com/eA8Dy56.png" width="100%" /></p>
+<p>再輸入指令wsgi.py 成功後便可打開畫布</p>
+<p><img src="http://imgur.com/equGKFl.png" width="100%" /></p>
+<p>開啟瀏覽器後輸入網址localhost:5000/後面加自己名稱  成功後4a就會顯示出來了 </p>
+<p><img src="http://imgur.com/qYEQ3M7.png" width="100%" /></p>
+<p>接著進入LEO的編輯程式  更改4A的座標 Y軸部分更改為60,120,180便完成 </p>
+<p>2.繪製出BADC:</p>
+<p>用上面的方法做參數式繪圖即可完成
+http://40323141cdw11-40323141.rhcloud.com/ag10_40323141/task2
+<img src="http://imgur.com/mIrNBxW.png" width="100%" /></p>
+<p>3.繪製出直行的ABCD:</p>
+<p>用上面的方法做參數式繪圖即可完成
+http://40323141cdw11-40323141.rhcloud.com/ag10_40323141/task3
+<img src="http://imgur.com/hnucrUp.png" width="100%" /></p>
 <p>結果說明:</p>
-<p>這些鍊條組成的英文字母ABCD都是靠參數式一個一個去打成的，利用XY軸去寫這些鍊條的位置、角度，或是將鍊條固定在一個地方，也可以將其改成自己想要的顏色。</p>
-<p>結論與討論:</p>
-<p>一開始因為覺得非常複雜所以就會畏懼它不去學它，後來再經過同學的教導下，慢慢學到許多知識，慢慢地自己也可以來試著試試看，後來就越來越習慣這些該如何去做、如何去改，也讓我學到了許多。</p>
+<p>前面沒有仔細去聽，就會覺得程式很複雜，但後來問了同學之後發現有些地方都很類似，找到他的規則之後就會簡單一些，雖然還是得花很多時間，多用幾次之後就會越來越上手了。</p>
 <p>pelican 網誌位置: <a href="http://cdw11-ag100.rhcloud.com/static/">http://cdw11-ag100.rhcloud.com/static/</a></p>
 <p>分組程式: <a href="http://cdw11-ag100.rhcloud.com/option">http://cdw11-ag100.rhcloud.com/option</a></p>
 <p>fileuploadform: <a href="http://cdw11-ag100.rhcloud.com/fileuploadform">http://cdw11-ag100.rhcloud.com/fileuploadform</a></p>
@@ -477,6 +467,7 @@ X位置0</p>
             <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Recent Posts</span></h4>
                 <ul class="list-group" id="recentposts">
                     <li class="list-group-item">
+<<<<<<< HEAD
                         <a href="http://cdw11-ag100.rhcloud.com/static/blog/40123134-cdw13bao-gao.html">
                             40123134 cdw13報告
                         </a>
@@ -499,6 +490,30 @@ X位置0</p>
                     <li class="list-group-item">
                         <a href="http://cdw11-ag100.rhcloud.com/static/blog/40123128-cdw11-bao-gao-1.html">
                             40123128 cdw11 報告-1
+=======
+                        <a href="http://cdw11-ag100.rhcloud.com/static/blog/40323125-qi-mo-bao-gao.html">
+                            40323125 期末報告
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="http://cdw11-ag100.rhcloud.com/static/blog/40323103-cdw17-bao-gao.html">
+                            40323103 cdw17 報告
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="http://cdw11-ag100.rhcloud.com/static/blog/40323250-qi-mo-bao-gao.html">
+                            40323250 期末報告
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="http://cdw11-ag100.rhcloud.com/static/blog/40323231-cdw11bao-gao.html">
+                            40323231 cdw11報告
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="http://cdw11-ag100.rhcloud.com/static/blog/40323250-cdw11bao-gao.html">
+                            40323250 cdw11報告
+>>>>>>> 98d5d444a450302e079c8e384057de44c49f06c4
                         </a>
                     </li>
                 </ul>
