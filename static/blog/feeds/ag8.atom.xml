@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <feed xmlns="http://www.w3.org/2005/Atom"><title>CDW11 網頁 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/ag8.atom.xml" rel="self"></link><id>./</id><updated>2016-06-20T17:22:17+08:00</updated><entry><title>40323154 cdw13 報告</title><link href="./40323154-cdw13-bao-gao.html" rel="alternate"></link><updated>2016-06-20T17:22:17+08:00</updated><author><name>40323154</name></author><id>tag:,2016-06-20:./40323154-cdw13-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw13 協同專案&lt;/p&gt;
 
 
@@ -10,6 +11,12 @@
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_4a.png" width="100%" /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_badc.png" width="100%" /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40323154"></category><category term="cdw13"></category></entry><entry><title>40323154 cdw17 報告</title><link href="./40323154-cdw17-bao-gao.html" rel="alternate"></link><updated>2016-06-20T17:22:17+08:00</updated><author><name>40323154</name></author><id>tag:,2016-06-20:./40323154-cdw17-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw17 協同專案&lt;/p&gt;
+=======
+<<<<<<< HEAD
+<feed xmlns="http://www.w3.org/2005/Atom"><title>CDW11 網頁 (虎尾科大MDE)</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/" rel="alternate"></link><link href="http://cdw11-ag100.rhcloud.com/static/blog/feeds/ag8.atom.xml" rel="self"></link><id>http://cdw11-ag100.rhcloud.com/static/blog/</id><updated>2016-06-19T21:51:03+08:00</updated><entry><title>40323123 cdw11 期末報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323123-cdw11-qi-mo-bao-gao.html" rel="alternate"></link><updated>2016-06-19T21:51:03+08:00</updated><author><name>40323123</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-19:static/blog/40323123-cdw11-qi-mo-bao-gao.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+=======
+<feed xmlns="http://www.w3.org/2005/Atom"><title>CDW11 網頁 (虎尾科大MDE)</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/" rel="alternate"></link><link href="http://cdw11-ag100.rhcloud.com/static/blog/feeds/ag8.atom.xml" rel="self"></link><id>http://cdw11-ag100.rhcloud.com/static/blog/</id><updated>2016-06-20T14:02:15+08:00</updated><entry><title>40323154 cdw17 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323154-cdw17-bao-gao.html" rel="alternate"></link><updated>2016-06-20T14:02:15+08:00</updated><author><name>40323154</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-20:static/blog/40323154-cdw17-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw17 協同專案&lt;/p&gt;
+>>>>>>> c0c580947c3ad6f6d8314462575601e9c07ffc32
 
 
 &lt;p&gt;期末報告內容:&lt;/p&gt;
@@ -198,6 +205,7 @@ cdw11_abcd.png;:&lt;/p&gt;
 &lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-2014w11.rhcloud.com/static/"&gt;http://cdw11-2014w11.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;分組程式: &lt;a href="http://cdw11-ag100.rhcloud.com/option"&gt;http://cdw11-ag100.rhcloud.com/option&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;fileuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/fileuploadform"&gt;http://cdw11-ag100.rhcloud.com/fileuploadform&lt;/a&gt;&lt;/p&gt;
+<<<<<<< HEAD
 &lt;p&gt;imageuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/imageuploadform"&gt;http://cdw11-ag100.rhcloud.com/imageuploadform&lt;/a&gt;&lt;/p&gt;</summary><category term="40323137"></category><category term="cdw11"></category></entry><entry><title>40323137 cdw17 期末報告</title><link href="./40323137-cdw17-qi-mo-bao-gao.html" rel="alternate"></link><updated>2016-06-20T17:22:17+08:00</updated><author><name>40323137</name></author><id>tag:,2016-06-20:./40323137-cdw17-qi-mo-bao-gao.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
 &lt;p&gt;期末報告內容:&lt;/p&gt;
@@ -280,6 +288,10 @@ cdw11_abcd.png;:&lt;/p&gt;
 &lt;p&gt;心得：
 覺得2D和3D的所學都非常廣，在2D的繪畫，對於物體的準確性和指令程式，都是息息相關，在3D的學習也是熟悉又好玩，就像3D嚙合齒輪部分，學到可以輸入參數就可以簡單跑出圖形，非常快速，又可以做到做動部分，覺得非常棒，可以將2D的理論，然後直接在3D運作，立即看到實體，非常實用，也學到很多小地方都是要注意到，像角度設定等等，都是影響齒輪非常大的一環，對於設計又更近一步的了解。&lt;/p&gt;
 &lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-2014w11.rhcloud.com/static/"&gt;http://cdw11-2014w11.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;</summary><category term="40323137"></category><category term="cdw17"></category></entry><entry><title>40323123 cdw11 期末報告</title><link href="./40323123-cdw11-qi-mo-bao-gao.html" rel="alternate"></link><updated>2016-06-20T17:22:17+08:00</updated><author><name>40323123</name></author><id>tag:,2016-06-20:./40323123-cdw11-qi-mo-bao-gao.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+=======
+&lt;p&gt;imageuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/imageuploadform"&gt;http://cdw11-ag100.rhcloud.com/imageuploadform&lt;/a&gt;&lt;/p&gt;</summary><category term="40323137"></category><category term="cdw11"></category></entry><entry><title>40323123 cdw11 期末報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323123-cdw11-qi-mo-bao-gao.html" rel="alternate"></link><updated>2016-06-20T14:02:15+08:00</updated><author><name>40323123</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-20:static/blog/40323123-cdw11-qi-mo-bao-gao.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+>>>>>>> 98d5d444a450302e079c8e384057de44c49f06c4
+>>>>>>> c0c580947c3ad6f6d8314462575601e9c07ffc32
 
 &lt;p&gt;前言:
 在設定上的問題會以及Onshape的設定會有許多問題，要一一仔細的檢查，不然就無法讓齒輪旋轉。
@@ -563,6 +575,7 @@ spur(cx+pr1+pr2+pr2+2*pr3+pr4+pr5,cy,m,n5,pa,180-180/n5+(180-180/n3)*n4/n5)
 &lt;p&gt;&lt;img src="http://i.imgur.com/2Nq2WW9.png"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://i.imgur.com/8PLq4Dz.png"&gt;&lt;/p&gt;
 &lt;p&gt;心得:
+<<<<<<< HEAD
 時代的演進，讓機械業也進入了協同的世界，雖然在電機和資工比起來，進入的時間真的算很慢了，不過也因為機械業是最龐大的產業，光是零組件就不知道可以比電機的零件多多少了，在這學期Onshape的出現，真的是翻轉了機械產業在SolidWork中的比例，未來不一定要靠安裝軟體才能使用3D軟體，現在應該已經有了在所有平台上面都可以畫出cad而不是被公司綁住買一些自己不需要的軟體，未來功能可能就是朝向付費取向，以及訂閱制，而不是買斷產品了。&lt;/p&gt;</summary><category term="40323123"></category><category term="cdw11"></category></entry><entry><title>40323131 cdw11 報告</title><link href="./40323131-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-20T17:22:17+08:00</updated><author><name>40323131</name></author><id>tag:,2016-06-20:./40323131-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
 
 
@@ -624,6 +637,9 @@ spur(cx+pr1+pr2+pr2+2*pr3+pr4+pr5,cy,m,n5,pa,180-180/n5+(180-180/n3)*n4/n5)
 &lt;p&gt;分組程式: &lt;a href="http://cdw11-ag100.rhcloud.com/option"&gt;http://cdw11-ag100.rhcloud.com/option&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;fileuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/fileuploadform"&gt;http://cdw11-ag100.rhcloud.com/fileuploadform&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;imageuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/imageuploadform"&gt;http://cdw11-ag100.rhcloud.com/imageuploadform&lt;/a&gt;&lt;/p&gt;</summary><category term="40323131"></category><category term="cdw11"></category></entry><entry><title>40323123 cdw11 期中報告</title><link href="./40323123-cdw11-qi-zhong-bao-gao.html" rel="alternate"></link><updated>2016-06-20T17:22:17+08:00</updated><author><name>40323123</name></author><id>tag:,2016-06-20:./40323123-cdw11-qi-zhong-bao-gao.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+=======
+時代的演進，讓機械業也進入了協同的世界，雖然在電機和資工比起來，進入的時間真的算很慢了，不過也因為機械業是最龐大的產業，光是零組件就不知道可以比電機的零件多多少了，在這學期Onshape的出現，真的是翻轉了機械產業在SolidWork中的比例，未來不一定要靠安裝軟體才能使用3D軟體，現在應該已經有了在所有平台上面都可以畫出cad而不是被公司綁住買一些自己不需要的軟體，未來功能可能就是朝向付費取向，以及訂閱制，而不是買斷產品了。&lt;/p&gt;</summary><category term="40323123"></category><category term="cdw11"></category></entry><entry><title>40323123 cdw11 期中報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323123-cdw11-qi-zhong-bao-gao.html" rel="alternate"></link><updated>2016-06-19T21:51:03+08:00</updated><author><name>40323123</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-19:static/blog/40323123-cdw11-qi-zhong-bao-gao.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+>>>>>>> c0c580947c3ad6f6d8314462575601e9c07ffc32
 
 &lt;p&gt;前言:
 在使用github和openshift串流中，和使用設定，有許多的問題和設定上需要注意的地方，例如註冊帳號使用設定，要用到利用和值得設定，像藍圖註冊的帳號就是需要去想像，因此在未來設定上需要多加注意。&lt;/p&gt;
@@ -650,4 +666,363 @@ DACB :&lt;a href="http://cdw11-40323123.rhcloud.com/ag8_40323123/task1_25"&gt;ht
 &lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-2014w11.rhcloud.com/static/"&gt;http://cdw11-2014w11.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;分組程式: &lt;a href="http://cdw11-ag100.rhcloud.com/option"&gt;http://cdw11-ag100.rhcloud.com/option&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;fileuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/fileuploadform"&gt;http://cdw11-ag100.rhcloud.com/fileuploadform&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;imageuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/imageuploadform"&gt;http://cdw11-ag100.rhcloud.com/imageuploadform&lt;/a&gt;&lt;/p&gt;</summary><category term="40323123"></category><category term="cdw11"></category></entry></feed>
+&lt;p&gt;imageuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/imageuploadform"&gt;http://cdw11-ag100.rhcloud.com/imageuploadform&lt;/a&gt;&lt;/p&gt;</summary><category term="40323123"></category><category term="cdw11"></category></entry><entry><title>40323131 cdw11 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323131-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-19T21:51:03+08:00</updated><author><name>40323131</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-19:static/blog/40323131-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+
+
+&lt;p&gt;期中報告內容:&lt;/p&gt;
+&lt;p&gt;前言:
+利用2D繪圖程式繪製出4個A、BACD及ABCD&lt;/p&gt;
+&lt;p&gt;任務描述及執行說明:&lt;/p&gt;
+&lt;p&gt;任務一(繪製出四個A):
+&lt;img src="http://i.imgur.com/D5uY4jn.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;首先在下圖圈起來地方的位置註冊藍圖及導入&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/2yfbmz5.png" width="100%" /&gt;
+&lt;img src="http://i.imgur.com/qnYr5OR.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;再來將2D繪圖程式打開，在要繪圖的資料夾底下輸入python wsgi.py執行，若在 Linux 下要用 Python3 啟動:  python3 wsgi.py&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/PA8yAqB.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;若是開啟成功，會出現上圖的圖示，若是失敗的話則會出現哪裡有錯誤，這個要再去找看看是哪裡出錯。
+在網頁輸入localhost:5000/下圖圈起來的位置1./位置2.，當然這個名稱是自己定的，可以任意變更&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/Nq14ERX.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;開啟之後會出現在這個位置底下的東西&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/Vx6bs2w.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;再來要說明如何繪製字母A，首先可以自行繪製，也可以從老師給的參數直接拿過來使用，
+接下來要說明的是如何從老師給的參數直接導入繪製出字母A、B、C及D
+可以從班級cdw2中取得這些參數，再將這些參數導入，而位置cdw2中的users底下的s2a中的g100裏頭的scrum1_task1.py然後用編輯器打開來&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/KBb1Hsl.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;複製a函式的參數，然後貼到自己位置的底下，記得要加上html的語法才可以跑出圖形，不然會只有文字檔而已&lt;/p&gt;
+&lt;p&gt;html語法&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/Al7dH5J.png" width="100%" /&gt;
+&lt;img src="http://i.imgur.com/c3sTova.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;導入成功之後&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/Dbpjofv.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;接著再重複導入A函式，更改一下座標軸，紅色底線部分為座標軸的參數&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/IbbLkQl.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;導入四次A函式之後，及用座標軸調整之間的距離&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/Vx6bs2w.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;完成!&lt;/p&gt;
+&lt;p&gt;任務二(依序排列BACD):
+&lt;img src="http://i.imgur.com/2WVFIXd.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;根據上面導入A函式的方法，只是換成導入B、C及D函式而已&lt;/p&gt;
+&lt;p&gt;只是需要注意到的地方是導入的B函式的參數要更動一下&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/mYeY870.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;更動位置如下圖
+原本函式在圈起來的地方為0+65，要改成0&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/iTntgp2.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;改成0之後，所顯示的字母B的起始位置會在原點&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/1AH1Rwk.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;之後再依序導入A、C、D函式，再調整一下座標位置&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/2WVFIXd.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;完成!&lt;/p&gt;
+&lt;p&gt;任務三(由上到下排序ABCD):&lt;/p&gt;
+&lt;p&gt;依照上面所講的方法，再導入A、B、C及D函式，調整位置就可以完成了&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/lLNrLI8.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;結果說明:&lt;/p&gt;
+&lt;p&gt;如何繪製出字母A是靠a函式裏頭的很多X、Y軸的參數，經過數學的運算，才會顯示出字母A的形狀，可是我們直接用導入的可能會無法理解裏頭的X、Y的參數更改的話，到底是影響到甚麼地方，這個是我們可以去思考的地方。&lt;/p&gt;
+&lt;p&gt;其實除了用到座標軸參數去排列以外，也可以去更改它的鍊條顏色，只要在下圖的地方改成你要的顏色就可以了。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/3mrClGf.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/NTWQx3t.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;結論與討論:&lt;/p&gt;
+&lt;p&gt;基本上熟悉了之後，知道要去修改哪邊的參數，才會變成想要的結果，還有出問題的時候大概要去哪裡找問題，差不多都有了一些頭緒，只是有些地方可能比較麻煩，可是大致上還ok。&lt;/p&gt;
+&lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-2014w11.rhcloud.com/static/"&gt;http://cdw11-2014w11.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;分組程式: &lt;a href="http://cdw11-ag100.rhcloud.com/option"&gt;http://cdw11-ag100.rhcloud.com/option&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;fileuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/fileuploadform"&gt;http://cdw11-ag100.rhcloud.com/fileuploadform&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;imageuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/imageuploadform"&gt;http://cdw11-ag100.rhcloud.com/imageuploadform&lt;/a&gt;&lt;/p&gt;</summary><category term="40323131"></category><category term="cdw11"></category></entry><entry><title>40323131 cdw17 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323131-cdw17-bao-gao.html" rel="alternate"></link><updated>2016-06-19T21:51:03+08:00</updated><author><name>40323131</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-19:static/blog/40323131-cdw17-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw17 協同專案&lt;/p&gt;
+
+
+&lt;p&gt;期末報告內容:&lt;/p&gt;
+&lt;p&gt;前言:
+完成網際2D鏈條組立、2D齒輪囓合及Onshape的3D齒輪囓合&lt;/p&gt;
+&lt;p&gt;任務描述及執行說明:&lt;/p&gt;
+&lt;p&gt;任務一(2D鏈條):&lt;/p&gt;
+&lt;p&gt;(左18齒右30齒)
+&lt;img src="http://i.imgur.com/ED7n4MC.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;轉90度(上30下18)
+&lt;img src="http://i.imgur.com/tTEKTQp.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;下圖為對鏈條程式碼的一些參數說明
+&lt;img src="http://i.imgur.com/znii2ZK.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;下圖為對(上30下18齒)的鏈條程式參數的說明，參數設定完成之後，再用for迴圈下去執行
+&lt;img src="http://i.imgur.com/vqz4sQZ.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/yIV3J6f.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/7AqlozY.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;2D齒輪囓合
+&lt;img src="http://i.imgur.com/5sqINqZ.png" width="100%" /&gt;
+要先將原本導入的資料庫，換成下圖的資料庫位置
+&lt;img src="http://i.imgur.com/wFxJ4wO.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/e0HVbrT.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/64MOjt8.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;Onshape 3D齒輪
+&lt;img src="http://i.imgur.com/4RbFG9z.png" width="100%" /&gt;
+這邊可以先計算兩齒輪囓合的中心距離，
+那如果要做斜的嚙合的話，要先加上旋轉的角度，
+先將起始位置決定好，再來要偏轉一個齒的角度
+&lt;img src="http://i.imgur.com/quDuScm.png" width="100%" /&gt;
+齒輪的特徵可以從裏頭進行呼叫，在下圖紅色框框處
+&lt;img src="http://i.imgur.com/d3pO0yi.png" width="100%" /&gt;
+在底下收尋spur，底下有齒輪的圖案
+&lt;img src="http://i.imgur.com/DM74Xhm.png" width="100%" /&gt;
+下圖是對齒輪的參數設定，當中的偏轉角是囓合的關鍵!!
+&lt;img src="http://i.imgur.com/LdncrST.png" width="100%" /&gt;
+再來是對齒輪進行組立並囓合，要先選取兩齒輪的軸心
+，再來要去算齒數比，兩兩進行囓合
+&lt;img src="http://i.imgur.com/oloIeoC.png" width="100%" /&gt;
+下圖是完成圖
+&lt;img src="http://i.imgur.com/1BGpM0g.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;心得:
+期末做的作業，鍊條跟齒輪，感覺上都還算是蠻有趣的，首先鏈條的組立，
+要先去用solvespace畫出並推算出鏈條的四個接點，再來用sympy幫忙算出點的座標，
+然後再用for迴圈下去跑，就可以完成了。
+齒輪方面，首先要先導入資料庫，然後再去跑齒輪的程式，當中我們將齒數、節圓半徑、壓力角拉出來當作變數，其中有畫一條齒輪的基準線是要用來做兩齒輪囓合的時候使用，當然3D方面也是用相同原理進行
+囓合，先將兩條基準線接在一起之後，我們會發現兩齒式接在一起的，再來要偏轉一個齒的角度，才可以進行囓合。
+3D齒輪方面，由於Onshape上的Featurescript裡頭有內建的齒輪程式，所以我們只需要輸入齒輪的參數，就可以直接生成出來，但是齒數過多的話，它跑出來的齒型會有不正確的齒型，算是裡頭內建程式的錯誤，而至於囓合方面，其實就跟2D囓合原理一樣，而至於斜角的嚙合，首先要去推算出將基準線接在一起的轉角之後，再加上偏轉角，就可以進行囓合了，再來設定一下齒數比，之後試轉一下，就可以了。&lt;/p&gt;
+&lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-2014w11.rhcloud.com/static/"&gt;http://cdw11-2014w11.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;</summary><category term="40323131"></category><category term="cdw17"></category></entry><entry><title>40323137 cdw11 期中報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323137-cdw11-qi-zhong-bao-gao.html" rel="alternate"></link><updated>2016-06-19T21:51:03+08:00</updated><author><name>40323137</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-19:static/blog/40323137-cdw11-qi-zhong-bao-gao.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;p&gt;期中報告內容:
+前言
+期中報告
+任務描述&lt;/p&gt;
+&lt;p&gt;畫出
+4a
+badc
+abcd&lt;/p&gt;
+&lt;p&gt;協同規劃
+任務執行說明
+cdw11_4a.png:先把1個A畫出來，每加一個A其X座標就+60，最畫出4個A。
+cdw11_badc.png:
+cdw11_abcd.png;:
+結果說明
+cdw11_4a.png: http://cdw11-40323143.rhcloud....
+cdw11_badc.png:
+cdw11_abcd.png;:&lt;/p&gt;
+&lt;p&gt;結論與討論
+最後只有把4A的圖畫出來，因太晚做，cdw2的wsgi.py已經沒有了，借組員43顯示。&lt;/p&gt;
+&lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-2014w11.rhcloud.com/static/"&gt;http://cdw11-2014w11.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;分組程式: &lt;a href="http://cdw11-ag100.rhcloud.com/option"&gt;http://cdw11-ag100.rhcloud.com/option&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;fileuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/fileuploadform"&gt;http://cdw11-ag100.rhcloud.com/fileuploadform&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;imageuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/imageuploadform"&gt;http://cdw11-ag100.rhcloud.com/imageuploadform&lt;/a&gt;&lt;/p&gt;</summary><category term="40323137"></category><category term="cdw11"></category></entry><entry><title>40323137 cdw17 期末報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323137-cdw17-qi-mo-bao-gao.html" rel="alternate"></link><updated>2016-06-19T21:51:03+08:00</updated><author><name>40323137</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-19:static/blog/40323137-cdw17-qi-mo-bao-gao.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;p&gt;期末報告內容:&lt;/p&gt;
+&lt;p&gt;2D齒輪囓合&lt;/p&gt;
+&lt;p&gt;完成圖
+&lt;img src="http://i.imgur.com/Pl0pDco.png" width="100%" /&gt;
+1. 載入資料庫
+&lt;img src="http://i.imgur.com/sqriJ1V.png" width="100%" /&gt;
+2. 蓋掉程式內定的變數，並新增theta變數
+&lt;img src="http://i.imgur.com/siSq9xk.png" width="100%" /&gt;
+3. 蓋掉程式內定的轉動變數，以theta為轉動變數
+&lt;img src="http://i.imgur.com/siSq9xk.png" width="100%" /&gt;
+4. 設定Line線的線的角度位置和粗細
+&lt;img src="http://i.imgur.com/QQcEQ0A.png" width="100%" /&gt;
+5. \會造成畫布消失，所以不加 " \ " 畫布才會產生
+&lt;img src="http://i.imgur.com/Ho9dyTf.png" width="100%" /&gt;
+6. 設定齒數
+&lt;img src="http://i.imgur.com/warCtWL.png" width="100%" /&gt;
+7. 設定模數和節圓半徑條件
+&lt;img src="http://i.imgur.com/kS9uLQb.png" width="100%" /&gt;
+8. 設定齒輪轉動時，以線假設齒輪轉動位置
+&lt;img src="http://i.imgur.com/J1c1k2I.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;2D齒輪圖形: &lt;a href="http://cdw112d-40323137.rhcloud.com/ag8_40323137/gear/"&gt;http://cdw112d-40323137.rhcloud.com/ag8_40323137/gear/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Onshape 3D齒輪&lt;/p&gt;
+&lt;p&gt;完成圖
+&lt;img src="http://i.imgur.com/ha6EuRT.png" width="100%" /&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;建立草圖，畫一個版子。
+&lt;img src="http://i.imgur.com/iaJAIcx.png" width="100%" /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;畫三個圓形，延伸為柱子，穿插在齒輪的center hole，計畫三個齒輪，直徑和齒數都是30、35、45，45和30的中心距為37.5，45和35的中心距為40。
+&lt;img src="http://i.imgur.com/zuWRFKo.png" width="100%" /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;延伸呈柱子。
+&lt;img src="http://i.imgur.com/boZ9YIk.png" width="100%" /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;點選"+"，並輸入「spur gear」，點選呈SG符號，再點選它，決定齒輪參數，點選center hole 為柱子直徑為10。
+&lt;img src="http://i.imgur.com/vR3DuZn.png" width="100%" /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;進入組合圖，選擇零件。
+&lt;img src="http://i.imgur.com/bkrUGzA.png" width="100%" /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;點拘束條件，可使齒輪在柱子上旋轉。
+&lt;img src="http://i.imgur.com/k5sdPHn.png" width="100%" /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;發現基數與偶數只會干涉，到零件圖新增偏轉角。
+&lt;img src="http://i.imgur.com/6XdkSqG.png" width="100%" /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;到30齒齒輪，點選offset，選擇Tooth angle，輸入180/30，轉一個半角，才會嚙合。
+&lt;img src="http://i.imgur.com/LqHgOBh.png" width="100%" /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;嚙合。
+&lt;img src="http://i.imgur.com/VpL5QPP.png" width="100%" /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;進行齒輪配合旋轉，點選圖片所圈之處，由45齒齒輪為主動輪，其餘兩齒輪為從動輪，在Revolute ratio中，輸入齒數比(45(主)/30、35(從))，兩個主從動輪設定完。
+&lt;img src="http://i.imgur.com/khFR3W2.png" width="100%" /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在主動輪(Revolute 2)下，按右鍵，點選Animate。
+&lt;img src="http://i.imgur.com/vJs39zz.png" width="100%" /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;按Play，齒輪就會進行轉動。
+&lt;img src="http://i.imgur.com/Nameeb5.png" width="100%" /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Onshape 3D齒輪嚙合機構: &lt;a href="https://cad.onshape.com/documents/115457e789fc4b90eacdeacb/w/409b4f0b1b1a5030ab231e65/e/31f8db14c3cdf4121e43c403/"&gt;https://cad.onshape.com/documents/115457e789fc4b90eacdeacb/w/409b4f0b1b1a5030ab231e65/e/31f8db14c3cdf4121e43c403/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;實際操作影片
+&lt;embed src="https://vimeo.com/171216363" autostart="false" width="800" height="600"&gt;
+&lt;/embed&gt;&lt;/p&gt;
+&lt;p&gt;心得：
+覺得2D和3D的所學都非常廣，在2D的繪畫，對於物體的準確性和指令程式，都是息息相關，在3D的學習也是熟悉又好玩，就像3D嚙合齒輪部分，學到可以輸入參數就可以簡單跑出圖形，非常快速，又可以做到做動部分，覺得非常棒，可以將2D的理論，然後直接在3D運作，立即看到實體，非常實用，也學到很多小地方都是要注意到，像角度設定等等，都是影響齒輪非常大的一環，對於設計又更近一步的了解。&lt;/p&gt;
+&lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-2014w11.rhcloud.com/static/"&gt;http://cdw11-2014w11.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;</summary><category term="40323137"></category><category term="cdw17"></category></entry><entry><title>40323143 cdw11 期末報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323143-cdw11-qi-mo-bao-gao.html" rel="alternate"></link><updated>2016-06-19T21:51:03+08:00</updated><author><name>40323143</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-19:static/blog/40323143-cdw11-qi-mo-bao-gao.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;p&gt;期中報告內容:
+前言
+自期中後的課程進入2D鏈輪、齒輪及3D齒輪嚙合的繪製，&lt;/p&gt;
+&lt;p&gt;內容&lt;/p&gt;
+&lt;p&gt;2D 繪圖:&lt;/p&gt;
+&lt;p&gt;2D鏈輪:&lt;a href="http://pythoncdw-40323143.rhcloud.com/ag8_40323143/twocircle"&gt;http://pythoncdw-40323143.rhcloud.com/ag8_40323143/twocircle&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;先在solvespace劃出兩個圓及其外公切線，算出圓切線及外公切線的夾角，然後用程式計算出其切點座標，然後用for迴圈將其鏈結會出來。&lt;/p&gt;
+&lt;p&gt;2D齒輪嚙合:&lt;a href="http://pythoncdw-40323143.rhcloud.com/ag8_40323143/gear"&gt;http://pythoncdw-40323143.rhcloud.com/ag8_40323143/gear&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;2D齒輪嚙合主要是藉由將齒輪輪參數輸入老師寫好的齒輪繪圖程式，然後指定以各齒輪的pr為變數的齒輪生成位置，最後在設定每個齒輪與前面的齒輪的角度關係，劃出個齒輪的齒輪嚙合圖。&lt;/p&gt;
+&lt;p&gt;個齒輪位置及角度關係
+&lt;img src="http://i.imgur.com/km3phn0.png"&gt;&lt;/p&gt;
+&lt;p&gt;3D 齒輪嚙合:
+&lt;a href="https://cad.onshape.com/documents/ea1b4146750171b8d5980d78/w/bf2fb7ac158020c39327c4ab/e/abcdef53f62afc1cf2d37902"&gt;https://cad.onshape.com/documents/ea1b4146750171b8d5980d78/w/bf2fb7ac158020c39327c4ab/e/abcdef53f62afc1cf2d37902&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;進入Onshape 點選上方的+
+&lt;img src="http://i.imgur.com/7yFI4vD.png"&gt;
+選擇要引入的齒輪程式
+&lt;img src="http://i.imgur.com/nWPhAMY.png"&gt;
+輸入齒輪參數
+&lt;img src="http://i.imgur.com/FTHK9ja.png"&gt;
+劃出齒輪，並劃出一個底座
+&lt;img src="http://i.imgur.com/mwgtfQu.png"&gt;
+建立組合圖並組合完成
+&lt;img src="http://i.imgur.com/DH6Nuhx.png"&gt;
+點選上方的齒輪配合，加進兩個旋轉設定配合，並設定齒數比
+&lt;img src="http://i.imgur.com/IRn09Uu.png"&gt;
+到齒輪的零件圖去設定各齒輪嚙合需要旋轉的角度
+&lt;img src="http://i.imgur.com/mwgtfQu.png"&gt;
+完成
+&lt;img src="http://i.imgur.com/RrlNocN.png"&gt;&lt;/p&gt;
+&lt;p&gt;心得:
+經過了一整個學期，協同產品設計的課程也接近尾聲，我在這門課學到了許多，卻也有許多沒學成。學到的是關於協同的思想架構，心中也有些關於協同管理待驗證的想法，而沒學成的是實際上配合電腦去實踐這些想法架構的手段，空有想法卻沒有方法也不知道應該怎麼找方法，感覺真是矛盾，對此實在很慚愧。&lt;/p&gt;</summary><category term="40323143"></category><category term="cdw11"></category></entry><entry><title>40323143 cdw11 期中報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323143-cdw11-qi-zhong-bao-gao.html" rel="alternate"></link><updated>2016-06-19T21:51:03+08:00</updated><author><name>40323143</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-19:static/blog/40323143-cdw11-qi-zhong-bao-gao.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;p&gt;期中報告內容:
+前言
+期中報告
+任務描述&lt;/p&gt;
+&lt;p&gt;畫出
+4a
+badc
+abcd&lt;/p&gt;
+&lt;p&gt;協同規劃
+任務執行說明
+cdw11_4a.png:先把1個A畫出來，然後複製程式並改變X座標，每加一個A其X座標就+60，最畫出4個A。
+cdw11_badc.png:
+cdw11_abcd.png;:
+結果說明
+cdw11_4a.png: http://cdw11-40323143.rhcloud....
+cdw11_badc.png:
+cdw11_abcd.png;:
+結論與討論
+最後只有把4A的圖畫出來&lt;/p&gt;
+&lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-2014w11.rhcloud.com/static/"&gt;http://cdw11-2014w11.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;分組程式: &lt;a href="http://cdw11-ag100.rhcloud.com/option"&gt;http://cdw11-ag100.rhcloud.com/option&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;fileuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/fileuploadform"&gt;http://cdw11-ag100.rhcloud.com/fileuploadform&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;imageuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/imageuploadform"&gt;http://cdw11-ag100.rhcloud.com/imageuploadform&lt;/a&gt;&lt;/p&gt;</summary><category term="40323143"></category><category term="cdw11"></category></entry><entry><title>40323145 cdw11 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323145-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-19T21:51:03+08:00</updated><author><name>40323145</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-19:static/blog/40323145-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+
+
+<<<<<<< HEAD
+&lt;p&gt;期中報告內容:&lt;/p&gt;
+&lt;p&gt;2D鍊條:
+&lt;img src="http://i.imgur.com/jmQFt3K.png" width="80%" /&gt;
+我們可以用網路的程式計算點的座標位子再帶入老師的程式進行座標的變化，和改變內部參數，就能使鍊條進行變形。&lt;/p&gt;
+&lt;p&gt;2D 齒輪繪圖:
+&lt;img src="http://i.imgur.com/SJBBWYK.png" width="80%" /&gt;
+在程式中先用出齒輪的繪圖設定，之後再運用改變齒輪規格數值的方式，如齒數、模數大小、節圓半徑等，就能產生數個齒輪，再利用程式設定方程式，如180-180/n3+(180-180/n2)*n2/n3來讓齒輪間進行嚙&lt;/p&gt;
+&lt;p&gt;3D齒輪繪圖:
+&lt;img src="http://i.imgur.com/iMxqYlK.png" width="80%" /&gt;
+先經由onshape繪出齒輪組的底座，並且要計算出齒輪間的距離及齒輪規格的設計。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/IqYYmjb.png" width="80%" /&gt;
+運用列表中SG圖式的功能鍵，就能創建齒輪，再運用圖中列表設定齒輪規格，上方三個齒輪齒數分別為24、16、32，模數都為0.25。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/LW1YQzT.png" width="80%" /&gt;
+再運用設定列表下方角度旋轉就能調整齒輪互相的咬合，並將他們組裝起來。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/EKRs87t.png" width="80%" /&gt;
+最後再用animate的功能將齒輪做動，要確認咬合方向和齒數比。&lt;/p&gt;
+&lt;p&gt;2D 鍊條繪圖:&lt;a href="http://gear40323145-ds77317.rhcloud.com/ag8_40323145/twocircle"&gt;http://gear40323145-ds77317.rhcloud.com/ag8_40323145/twocircle&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;2D 齒輪繪圖:&lt;a href="http://gear40323145-ds77317.rhcloud.com/ag8_40323145/gear"&gt;http://gear40323145-ds77317.rhcloud.com/ag8_40323145/gear&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;3D齒輪繪圖:&lt;a href="https://cad.onshape.com/documents/dd57fc2aecf7abd4f684869e/w/fd3eaca6216a313ecb82bd75/e/718656cb7a03781ebc21b1f0"&gt;https://cad.onshape.com/documents/dd57fc2aecf7abd4f684869e/w/fd3eaca6216a313ecb82bd75/e/718656cb7a03781ebc21b1f0&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;個人倉儲:&lt;a href="https://github.com/40323145"&gt;https://github.com/40323145&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;自評分數:70&lt;/p&gt;
+&lt;p&gt;心得 :這次用到了許多之前教的東西，而在做2D齒輪時，藍色線一直對不起來，雖然聽完老師說後，感覺是了解了他的原理，但怎麼做還是不知道，而3D齒輪就好些了，設定參數和畫圖，一開始用斜對角的方式讓齒輪相接，但接起來有問題，試很久還是找不出原因，最後還是改成垂直對接，而齒輪的角度調整有點麻煩，咬合方面雖然沒甚麼問題，但感覺還是有些吃到，不知是數值運算上的小差距還是視角問題，不過最後還是順利傳動了。&lt;/p&gt;</summary><category term="40323145"></category><category term="cdw11"></category></entry><entry><title>40323154 cdw13 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323154-cdw13-bao-gao.html" rel="alternate"></link><updated>2016-06-19T21:51:03+08:00</updated><author><name>40323154</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-19:static/blog/40323154-cdw13-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw13 協同專案&lt;/p&gt;
+
+=======
+&lt;p&gt;實際狀況&lt;/p&gt;
+&lt;p&gt;Onshape 3D 齒輪設計&lt;/p&gt;
+&lt;p&gt;先導入齒輪的Feacture script&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/U1HSmj6.png"&gt;&lt;/p&gt;
+&lt;p&gt;然後定義兩個齒輪
+※注意模數和齒輪圓的大小，以及偏移的角度&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/HvQegOX.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/vIRF83o.png"&gt;&lt;/p&gt;
+&lt;p&gt;設計一個齒輪座
+&lt;img src="http://i.imgur.com/YEVDz4b.png"&gt;&lt;/p&gt;
+&lt;p&gt;最後進行組裝和模擬轉動&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/2Nq2WW9.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/8PLq4Dz.png"&gt;&lt;/p&gt;
+&lt;p&gt;心得:
+時代的演進，讓機械業也進入了協同的世界，雖然在電機和資工比起來，進入的時間真的算很慢了，不過也因為機械業是最龐大的產業，光是零組件就不知道可以比電機的零件多多少了，在這學期Onshape的出現，真的是翻轉了機械產業在SolidWork中的比例，未來不一定要靠安裝軟體才能使用3D軟體，現在應該已經有了在所有平台上面都可以畫出cad而不是被公司綁住買一些自己不需要的軟體，未來功能可能就是朝向付費取向，以及訂閱制，而不是買斷產品了。&lt;/p&gt;</summary><category term="40323123"></category><category term="cdw11"></category></entry><entry><title>40323123 cdw11 期中報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323123-cdw11-qi-zhong-bao-gao.html" rel="alternate"></link><updated>2016-06-20T14:02:15+08:00</updated><author><name>40323123</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-20:static/blog/40323123-cdw11-qi-zhong-bao-gao.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+>>>>>>> 98d5d444a450302e079c8e384057de44c49f06c4
+
+&lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-ag100.rhcloud.com/static/"&gt;http://cdw11-ag100.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;分組程式: &lt;a href="http://cdw11-ag100.rhcloud.com/option"&gt;http://cdw11-ag100.rhcloud.com/option&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;fileuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/fileuploadform"&gt;http://cdw11-ag100.rhcloud.com/fileuploadform&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;imageuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/imageuploadform"&gt;http://cdw11-ag100.rhcloud.com/imageuploadform&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;請各組在 CDW11 下課前完成下列3個圖形的零件組合繪圖:&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_4a.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_badc.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40323154"></category><category term="cdw13"></category></entry><entry><title>40323154 cdw17 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323154-cdw17-bao-gao.html" rel="alternate"></link><updated>2016-06-19T21:51:03+08:00</updated><author><name>40323154</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-19:static/blog/40323154-cdw17-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw17 協同專案&lt;/p&gt;
+
+
+&lt;p&gt;期末報告內容:&lt;/p&gt;
+&lt;p&gt;完成網際2D鏈條組立、2D齒輪囓合及Onshape的3D齒輪囓合&lt;/p&gt;
+&lt;p&gt;2D鏈條
+左18齒右30齒
+&lt;img src="http://imgur.com/ugBO4UE" width="100%" /&gt;
+下方圖片為一些名詞解釋
+&lt;img src="http://imgur.com/BovwtX5" width="100%" /&gt;
+&lt;img src="http://imgur.com/n9cH6C9" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;轉90度
+&lt;img src="http://imgur.com/JOIK02L" width="100%" /&gt;
+下方圖片為一些名詞解釋
+&lt;img src="http://imgur.com/YsU3h7V" width="100%" /&gt;
+&lt;img src="http://imgur.com/7PNLg54" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;2D齒輪囓合
+&lt;img src="http://imgur.com/LkTdJkj" width="100%" /&gt;
+要將原本導入的資料，換成下圖的資料，便會形成五齒
+&lt;img src="http://imgur.com/TjYhumG" width="100%" /&gt;
+http://imgur.com/FnVzoSe
+&lt;img src="http://imgur.com/FnVzoSe" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;Onshape 3D齒輪&lt;/p&gt;
+&lt;p&gt;一開始，要先呼叫齒輪的特徵，先點擊綠色框框
+&lt;img src="http://imgur.com/EdK7n1G" width="100%" /&gt;
+搜尋spur，選取有齒輪的圖案
+在進行齒輪的參數進行設置，在當中偏轉角度是最重要的
+齒輪在進行組立，要先選取兩齒輪的軸心
+，計算齒數比，兩兩進行囓合
+下方為完成圖
+&lt;img src="http://imgur.com/LbQalmE" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;心得:
+期末報告有三部分，分別為2D鍊條、2D齒輪以及3D齒輪。
+鏈條的繪製，
+我是看著元旭的期末報告來繪製，加上上課有一聽進一部分，因此我鏈條的繪製是這樣產生。
+齒輪方面，老師有提供資料，利用老師所提供的資料來繪製齒輪，在繪製中我們把齒數、節圓半徑、壓力角拉出來當作變數，
+在囓合時，要偏轉一個齒的角度，才可以進行囓合，而且其中心距也是要經過計算才能得到。
+在繪製3D齒輪，由於Onshape有內建的齒輪程式，我們只需要輸入齒輪的參數，就可以直接生成出來，而至於囓合方面，特別注意偏轉角，就可以進行囓合了，再來設定一下齒數比，之後試轉一下，就可以了。&lt;/p&gt;</summary><category term="40323154"></category><category term="cdw17"></category></entry></feed>
