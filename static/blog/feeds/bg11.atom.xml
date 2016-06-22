@@ -1,28 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>CDW11 網頁 (虎尾科大MDE)</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/" rel="alternate"></link><link href="http://cdw11-ag100.rhcloud.com/static/blog/feeds/bg11.atom.xml" rel="self"></link><id>http://cdw11-ag100.rhcloud.com/static/blog/</id><updated>2016-06-16T12:32:42+08:00</updated><entry><title>40323252 cdw13報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323252-cdw13bao-gao.html" rel="alternate"></link><updated>2016-06-16T12:32:42+08:00</updated><author><name>40323252</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40323252-cdw13bao-gao.html</id><summary type="html">&lt;p&gt;cdw13
+<feed xmlns="http://www.w3.org/2005/Atom"><title>CDW11 網頁 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/bg11.atom.xml" rel="self"></link><id>./</id><updated>2016-06-16T13:39:14+08:00</updated><entry><title>40323252 cdw13報告</title><link href="./40323252-cdw13bao-gao.html" rel="alternate"></link><updated>2016-06-16T13:39:14+08:00</updated><author><name>40323252</name></author><id>tag:,2016-06-16:./40323252-cdw13bao-gao.html</id><summary type="html">&lt;p&gt;cdw13
 &lt;/p&gt;
-&lt;p&gt;編輯&lt;/p&gt;</summary><category term="4032352"></category></entry><entry><title>40323245 cdw17報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323245-cdw17bao-gao.html" rel="alternate"></link><updated>2016-06-16T12:32:41+08:00</updated><author><name>40323245</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40323245-cdw17bao-gao.html</id><summary type="html">&lt;p&gt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt; HEAD
-cdw17 內容規畫 : 
-=======
-cdw13 內容規畫 : &lt;/p&gt;
-&lt;blockquote&gt;
-&lt;blockquote&gt;
-&lt;blockquote&gt;
-&lt;blockquote&gt;
-&lt;blockquote&gt;
-&lt;blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;0938d723a107da0d6a466fc5434d508514303891
+&lt;p&gt;編輯&lt;/p&gt;</summary><category term="4032352"></category></entry><entry><title>40323252 期末報告</title><link href="./40323252-qi-mo-bao-gao.html" rel="alternate"></link><updated>2016-06-16T13:39:14+08:00</updated><author><name>40323252</name></author><id>tag:,2016-06-16:./40323252-qi-mo-bao-gao.html</id><summary type="html">&lt;p&gt;cdw11
 &lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/blockquote&gt;
-&lt;/blockquote&gt;
-&lt;/blockquote&gt;
-&lt;/blockquote&gt;
-&lt;/blockquote&gt;
-&lt;/blockquote&gt;</summary><category term="40323245"></category></entry><entry><title>40323252 cdw11報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323252-cdw11bao-gao.html" rel="alternate"></link><updated>2016-06-16T12:32:41+08:00</updated><author><name>40323252</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40323252-cdw11bao-gao.html</id><summary type="html">&lt;p&gt;cdw11
-&lt;/p&gt;
-&lt;p&gt;編輯123&lt;/p&gt;</summary><category term="4032352"></category></entry><entry><title>40323245 cdw15報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323245-cdw15bao-gao.html" rel="alternate"></link><updated>2016-06-16T12:32:41+08:00</updated><author><name>40323245</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40323245-cdw15bao-gao.html</id><summary type="html">&lt;h3&gt;cdw15 內容規畫 :&lt;h3&gt; 
+&lt;h3&gt;新增畫布&lt;h3&gt;
+&lt;br&gt;
+&lt;img src="http://i.imgur.com/yANbEh8.png"&gt;
+&lt;br&gt;
+在@clean myflaskapp.py 與 myflaskapp declarations 下，新增自己畫布名稱
+&lt;br&gt;
+&lt;img src="http://i.imgur.com/anMmHtq.png"&gt;
+&lt;br&gt;
+將第11週的程式碼裡面的ag100修改為自己組的名稱
+&lt;br&gt;
+&lt;img src="http://i.imgur.com/iJ8S2Jb.png"&gt;
+&lt;br&gt;
+完成18.30齒鍊條
+&lt;br&gt;
+&lt;img src="http://i.imgur.com/JPhD52e.png"&gt;
+&lt;br&gt;
+弄好要看的時候要檢查衝突
+&lt;br&gt;
+&lt;img src="http://i.imgur.com/WmDa70v.png"&gt;
+&lt;br&gt;
+第2個作業 將橫的鏈條改成垂直 利用上一個程式碼將first_degree加上90度 共有4個
+&lt;br&gt;
+&lt;img src="http://i.imgur.com/JLJQiX9.png"&gt;
+&lt;br&gt;
+鍊條垂直圖
+&lt;br&gt;
+&lt;img src="http://i.imgur.com/DPBDeKr.png"&gt;
+&lt;br&gt;
+將近端localhost移至遠端Openshift 
+&lt;br&gt;
+&lt;img src="http://i.imgur.com/DPBDeKr.png"&gt;
+&lt;br&gt;
+3個齒輪的嚙合
+&lt;br&gt;
+&lt;img src="http://i.imgur.com/bSPsrfC.png?1"&gt;
+&lt;br&gt;
+運用3個齒輪的程式碼 我們希望讓它變成4個齒輪 新增齒輪N4 
+&lt;br&gt;
+&lt;img src="http://i.imgur.com/GGFn0Xs.png"&gt;
+&lt;br&gt;
+&lt;img src="http://i.imgur.com/hTFiQha.png"&gt;
+&lt;br&gt;
+4個齒輪的嚙合
+&lt;br&gt;
+&lt;img src="http://i.imgur.com/PlZVugK.png"&gt;
+&lt;br&gt;
+&lt;h3&gt;心得:&lt;h3&gt;
+&lt;br&gt;
+設定畫布的時候常出現衝突必須從DOS上看哪裡錯誤然後去修改或是覆蓋再次檢查是否沒有衝突了接下來這週的鏈條先要用solvespace畫出來然後去求點求角度以及第一齒要從哪裡開始放然後最後一齒要讓他往下自然垂下來的地方我沒有完成</summary><category term="4032352"></category></entry><entry><title>40323245 cdw15報告</title><link href="./40323245-cdw15bao-gao.html" rel="alternate"></link><updated>2016-06-16T13:39:14+08:00</updated><author><name>40323245</name></author><id>tag:,2016-06-16:./40323245-cdw15bao-gao.html</id><summary type="html">&lt;h3&gt;cdw15 內容規畫 :&lt;h3&gt; 
 
 參考老師上課網址&lt;a href="http://chiamingyen.github.io/kmolab/blog/wang-ji-2d-zheng-chi-lun-chuan-dong-nie-he-hui-tu.html"&gt;http://chiamingyen.github.io/kmolab/blog/wang-ji-2d-zheng-chi-lun-chuan-dong-nie-he-hui-tu.html&lt;/a&gt;
 &lt;br/&gt;
@@ -47,7 +76,26 @@ cdw13 內容規畫 : &lt;/p&gt;
 &lt;br/&gt;
 完成所有設定後，即可畫出設計之齒輪組。
 &lt;br/&gt;
-&lt;img src="http://i.imgur.com/i12lLer.png"&gt;</summary><category term="40323245"></category></entry><entry><title>40323245 cdw13報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323245-cdw13bao-gao.html" rel="alternate"></link><updated>2016-06-16T12:32:41+08:00</updated><author><name>40323245</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40323245-cdw13bao-gao.html</id><summary type="html">&lt;p&gt;&lt;/h3&gt;cdw13 內容規畫 : &lt;/h3&gt;
+&lt;img src="http://i.imgur.com/i12lLer.png"&gt;</summary><category term="40323245"></category></entry><entry><title>40323245 cdw17報告</title><link href="./40323245-cdw17bao-gao.html" rel="alternate"></link><updated>2016-06-16T13:39:14+08:00</updated><author><name>40323245</name></author><id>tag:,2016-06-16:./40323245-cdw17bao-gao.html</id><summary type="html">&lt;p&gt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt; HEAD
+cdw17 內容規畫 : 
+=======
+cdw13 內容規畫 : &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;0938d723a107da0d6a466fc5434d508514303891
+&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;</summary><category term="40323245"></category></entry><entry><title>40323245 cdw13報告</title><link href="./40323245-cdw13bao-gao.html" rel="alternate"></link><updated>2016-06-16T13:39:14+08:00</updated><author><name>40323245</name></author><id>tag:,2016-06-16:./40323245-cdw13bao-gao.html</id><summary type="html">&lt;p&gt;&lt;/h3&gt;cdw13 內容規畫 : &lt;/h3&gt;
 &lt;/p&gt;
 &lt;h3&gt;本周作業為，將老師提供之鍊條，旋轉90度呈現站立狀態。&lt;/h3&gt;
 
@@ -69,9 +117,9 @@ cdw13 內容規畫 : &lt;/p&gt;
 &lt;br/&gt;
 &lt;img src="http://i.imgur.com/DcJsmta.png?1"&gt;
 &lt;br/&gt;
-&lt;img src="http://i.imgur.com/h6jgQ53.png?1"&gt;&lt;/p&gt;</summary><category term="40323245"></category></entry><entry><title>40323245 cdw12報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323245-cdw12bao-gao.html" rel="alternate"></link><updated>2016-06-16T12:32:41+08:00</updated><author><name>40323245</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-16:static/blog/40323245-cdw12bao-gao.html</id><summary type="html">&lt;p&gt;cdw12內容規畫 :&lt;br /&gt;
+&lt;img src="http://i.imgur.com/h6jgQ53.png?1"&gt;&lt;/p&gt;</summary><category term="40323245"></category></entry><entry><title>40323245 cdw12報告</title><link href="./40323245-cdw12bao-gao.html" rel="alternate"></link><updated>2016-06-16T13:39:14+08:00</updated><author><name>40323245</name></author><id>tag:,2016-06-16:./40323245-cdw12bao-gao.html</id><summary type="html">&lt;p&gt;cdw12內容規畫 :&lt;br /&gt;
 
-12345&lt;/p&gt;</summary><category term="40323245"></category></entry><entry><title>40323245 cdw11報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323245-cdw11bao-gao.html" rel="alternate"></link><updated>2016-05-12T09:11:39+08:00</updated><author><name>40323245</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-05-12:static/blog/40323245-cdw11bao-gao.html</id><summary type="html">&lt;h3&gt;cdw11內容規畫 : &lt;h3&gt;
+12345&lt;/p&gt;</summary><category term="40323245"></category></entry><entry><title>40323245 cdw11報告</title><link href="./40323245-cdw11bao-gao.html" rel="alternate"></link><updated>2016-06-16T13:39:14+08:00</updated><author><name>40323245</name></author><id>tag:,2016-06-16:./40323245-cdw11bao-gao.html</id><summary type="html">&lt;h3&gt;cdw11內容規畫 : &lt;h3&gt;
 
 參考老師上課網址&lt;a href="http://chiamingyen.github.io/kmolab/blog/zi-xing-che-chuan-dong-2d-lian-tiao-hui-tu.html"&gt;http://chiamingyen.github.io/kmolab/blog/zi-xing-che-chuan-dong-2d-lian-tiao-hui-tu.html&lt;/a&gt;
 &lt;br/&gt;
