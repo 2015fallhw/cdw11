@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>CDW11 網頁 (虎尾科大MDE)</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/" rel="alternate"></link><link href="http://cdw11-ag100.rhcloud.com/static/blog/feeds/bg1.atom.xml" rel="self"></link><id>http://cdw11-ag100.rhcloud.com/static/blog/</id><updated>2016-06-22T20:37:02+08:00</updated><entry><title>40123156 創造3D齒輪</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40123156-chuang-zao-3dchi-lun.html" rel="alternate"></link><updated>2016-06-22T20:37:02+08:00</updated><author><name>40123156</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-22:static/blog/40123156-chuang-zao-3dchi-lun.html</id><summary type="html">&lt;ol&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>CDW11 網頁 (虎尾科大MDE)</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/" rel="alternate"></link><link href="http://cdw11-ag100.rhcloud.com/static/blog/feeds/bg1.atom.xml" rel="self"></link><id>http://cdw11-ag100.rhcloud.com/static/blog/</id><updated>2016-06-23T00:33:38+08:00</updated><entry><title>40123133 3D 正齒輪傳動模擬 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40123133-3d-zheng-chi-lun-chuan-dong-mo-ni-bao-gao.html" rel="alternate"></link><updated>2016-06-23T00:33:38+08:00</updated><author><name>40123133</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-23:static/blog/40123133-3d-zheng-chi-lun-chuan-dong-mo-ni-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw16 協同專案&lt;/p&gt;
+
+
+&lt;p&gt;3D 正齒輪傳動模擬&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/GwMNVa7.png" /&gt;&lt;/p&gt;
+&lt;p&gt;步驟:&lt;/p&gt;
+&lt;p&gt;1.建立零件&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/QO8o1UD.png" /&gt;&lt;/p&gt;
+&lt;p&gt;2.輸入尺寸,要注意每個齒輪的模術與壓力角一樣&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/JhRW8wo.png" /&gt;&lt;/p&gt;
+&lt;p&gt;3.組立,要將板子固定以免齒輪轉動時會亂動&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/a09h2ss.png" /&gt;&lt;/p&gt;
+&lt;p&gt;心得:&lt;/p&gt;
+&lt;p&gt;這次onshape的操作上與其他的繪圖軟體差異不大,只要熟悉之後在繪圖上就比較容易,
+在這次操作上雖然沒有用到許多功能,但使用了feature studio功能,可以清楚了解它的便利。&lt;/p&gt;</summary><category term="40123133"></category><category term="cdw16"></category></entry><entry><title>40123156 創造3D齒輪</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40123156-chuang-zao-3dchi-lun.html" rel="alternate"></link><updated>2016-06-22T20:37:02+08:00</updated><author><name>40123156</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-22:static/blog/40123156-chuang-zao-3dchi-lun.html</id><summary type="html">&lt;ol&gt;
 &lt;li&gt;創造新圖檔，並點擊 Create Feature Studio 。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;img src="http://i.imgur.com/Gq8vluN.png"&gt;&lt;/p&gt;
