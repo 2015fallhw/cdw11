@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en"
+>
+<head>
+    <title>40323156 - CDW11 網頁 (虎尾科大MDE)</title>
+    <!-- Using the latest rendering mode for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+
+<style type="text/css">
+
+/*some stuff for output/input prompts*/
+div.cell{border:1px solid transparent;display:-webkit-box;-webkit-box-orient:vertical;-webkit-box-align:stretch;display:-moz-box;-moz-box-orient:vertical;-moz-box-align:stretch;display:box;box-orient:vertical;box-align:stretch;display:flex;flex-direction:column;align-items:stretch}div.cell.selected{border-radius:4px;border:thin #ababab solid}
+div.cell.edit_mode{border-radius:4px;border:thin #008000 solid}
+div.cell{width:100%;padding:5px 5px 5px 0;margin:0;outline:none}
+div.prompt{min-width:11ex;padding:.4em;margin:0;font-family:monospace;text-align:right;line-height:1.21429em}
+@media (max-width:480px){div.prompt{text-align:left}}div.inner_cell{display:-webkit-box;-webkit-box-orient:vertical;-webkit-box-align:stretch;display:-moz-box;-moz-box-orient:vertical;-moz-box-align:stretch;display:box;box-orient:vertical;box-align:stretch;display:flex;flex-direction:column;align-items:stretch;-webkit-box-flex:1;-moz-box-flex:1;box-flex:1;flex:1}
+div.input_area{border:1px solid #cfcfcf;border-radius:4px;background:#f7f7f7;line-height:1.21429em}
+div.prompt:empty{padding-top:0;padding-bottom:0}
+div.input{page-break-inside:avoid;display:-webkit-box;-webkit-box-orient:horizontal;-webkit-box-align:stretch;display:-moz-box;-moz-box-orient:horizontal;-moz-box-align:stretch;display:box;box-orient:horizontal;box-align:stretch;}
+div.inner_cell{width:90%;}
+div.input_area{border:1px solid #cfcfcf;border-radius:4px;background:#f7f7f7;}
+div.input_prompt{color:navy;border-top:1px solid transparent;}
+div.output_wrapper{margin-top:5px;position:relative;display:-webkit-box;-webkit-box-orient:vertical;-webkit-box-align:stretch;display:-moz-box;-moz-box-orient:vertical;-moz-box-align:stretch;display:box;box-orient:vertical;box-align:stretch;width:100%;}
+div.output_scroll{height:24em;width:100%;overflow:auto;border-radius:4px;-webkit-box-shadow:inset 0 2px 8px rgba(0, 0, 0, 0.8);-moz-box-shadow:inset 0 2px 8px rgba(0, 0, 0, 0.8);box-shadow:inset 0 2px 8px rgba(0, 0, 0, 0.8);}
+div.output_collapsed{margin:0px;padding:0px;display:-webkit-box;-webkit-box-orient:vertical;-webkit-box-align:stretch;display:-moz-box;-moz-box-orient:vertical;-moz-box-align:stretch;display:box;box-orient:vertical;box-align:stretch;width:100%;}
+div.out_prompt_overlay{height:100%;padding:0px 0.4em;position:absolute;border-radius:4px;}
+div.out_prompt_overlay:hover{-webkit-box-shadow:inset 0 0 1px #000000;-moz-box-shadow:inset 0 0 1px #000000;box-shadow:inset 0 0 1px #000000;background:rgba(240, 240, 240, 0.5);}
+div.output_prompt{color:darkred;}
+
+a.anchor-link:link{text-decoration:none;padding:0px 20px;visibility:hidden;}
+h1:hover .anchor-link,h2:hover .anchor-link,h3:hover .anchor-link,h4:hover .anchor-link,h5:hover .anchor-link,h6:hover .anchor-link{visibility:visible;}
+/* end stuff for output/input prompts*/
+
+
+.highlight-ipynb .hll { background-color: #ffffcc }
+.highlight-ipynb  { background: #f8f8f8; }
+.highlight-ipynb .c { color: #408080; font-style: italic } /* Comment */
+.highlight-ipynb .err { border: 1px solid #FF0000 } /* Error */
+.highlight-ipynb .k { color: #008000; font-weight: bold } /* Keyword */
+.highlight-ipynb .o { color: #666666 } /* Operator */
+.highlight-ipynb .cm { color: #408080; font-style: italic } /* Comment.Multiline */
+.highlight-ipynb .cp { color: #BC7A00 } /* Comment.Preproc */
+.highlight-ipynb .c1 { color: #408080; font-style: italic } /* Comment.Single */
+.highlight-ipynb .cs { color: #408080; font-style: italic } /* Comment.Special */
+.highlight-ipynb .gd { color: #A00000 } /* Generic.Deleted */
+.highlight-ipynb .ge { font-style: italic } /* Generic.Emph */
+.highlight-ipynb .gr { color: #FF0000 } /* Generic.Error */
+.highlight-ipynb .gh { color: #000080; font-weight: bold } /* Generic.Heading */
+.highlight-ipynb .gi { color: #00A000 } /* Generic.Inserted */
+.highlight-ipynb .go { color: #888888 } /* Generic.Output */
+.highlight-ipynb .gp { color: #000080; font-weight: bold } /* Generic.Prompt */
+.highlight-ipynb .gs { font-weight: bold } /* Generic.Strong */
+.highlight-ipynb .gu { color: #800080; font-weight: bold } /* Generic.Subheading */
+.highlight-ipynb .gt { color: #0044DD } /* Generic.Traceback */
+.highlight-ipynb .kc { color: #008000; font-weight: bold } /* Keyword.Constant */
+.highlight-ipynb .kd { color: #008000; font-weight: bold } /* Keyword.Declaration */
+.highlight-ipynb .kn { color: #008000; font-weight: bold } /* Keyword.Namespace */
+.highlight-ipynb .kp { color: #008000 } /* Keyword.Pseudo */
+.highlight-ipynb .kr { color: #008000; font-weight: bold } /* Keyword.Reserved */
+.highlight-ipynb .kt { color: #B00040 } /* Keyword.Type */
+.highlight-ipynb .m { color: #666666 } /* Literal.Number */
+.highlight-ipynb .s { color: #BA2121 } /* Literal.String */
+.highlight-ipynb .na { color: #7D9029 } /* Name.Attribute */
+.highlight-ipynb .nb { color: #008000 } /* Name.Builtin */
+.highlight-ipynb .nc { color: #0000FF; font-weight: bold } /* Name.Class */
+.highlight-ipynb .no { color: #880000 } /* Name.Constant */
+.highlight-ipynb .nd { color: #AA22FF } /* Name.Decorator */
+.highlight-ipynb .ni { color: #999999; font-weight: bold } /* Name.Entity */
+.highlight-ipynb .ne { color: #D2413A; font-weight: bold } /* Name.Exception */
+.highlight-ipynb .nf { color: #0000FF } /* Name.Function */
+.highlight-ipynb .nl { color: #A0A000 } /* Name.Label */
+.highlight-ipynb .nn { color: #0000FF; font-weight: bold } /* Name.Namespace */
+.highlight-ipynb .nt { color: #008000; font-weight: bold } /* Name.Tag */
+.highlight-ipynb .nv { color: #19177C } /* Name.Variable */
+.highlight-ipynb .ow { color: #AA22FF; font-weight: bold } /* Operator.Word */
+.highlight-ipynb .w { color: #bbbbbb } /* Text.Whitespace */
+.highlight-ipynb .mf { color: #666666 } /* Literal.Number.Float */
+.highlight-ipynb .mh { color: #666666 } /* Literal.Number.Hex */
+.highlight-ipynb .mi { color: #666666 } /* Literal.Number.Integer */
+.highlight-ipynb .mo { color: #666666 } /* Literal.Number.Oct */
+.highlight-ipynb .sb { color: #BA2121 } /* Literal.String.Backtick */
+.highlight-ipynb .sc { color: #BA2121 } /* Literal.String.Char */
+.highlight-ipynb .sd { color: #BA2121; font-style: italic } /* Literal.String.Doc */
+.highlight-ipynb .s2 { color: #BA2121 } /* Literal.String.Double */
+.highlight-ipynb .se { color: #BB6622; font-weight: bold } /* Literal.String.Escape */
+.highlight-ipynb .sh { color: #BA2121 } /* Literal.String.Heredoc */
+.highlight-ipynb .si { color: #BB6688; font-weight: bold } /* Literal.String.Interpol */
+.highlight-ipynb .sx { color: #008000 } /* Literal.String.Other */
+.highlight-ipynb .sr { color: #BB6688 } /* Literal.String.Regex */
+.highlight-ipynb .s1 { color: #BA2121 } /* Literal.String.Single */
+.highlight-ipynb .ss { color: #19177C } /* Literal.String.Symbol */
+.highlight-ipynb .bp { color: #008000 } /* Name.Builtin.Pseudo */
+.highlight-ipynb .vc { color: #19177C } /* Name.Variable.Class */
+.highlight-ipynb .vg { color: #19177C } /* Name.Variable.Global */
+.highlight-ipynb .vi { color: #19177C } /* Name.Variable.Instance */
+.highlight-ipynb .il { color: #666666 } /* Literal.Number.Integer.Long */
+</style>
+
+<style type="text/css">
+/* Overrides of notebook CSS for static HTML export */
+div.entry-content {
+  overflow: visible;
+  padding: 8px;
+}
+.input_area {
+  padding: 0.2em;
+}
+
+a.heading-anchor {
+ white-space: normal;
+}
+
+.rendered_html
+code {
+ font-size: .8em;
+}
+
+pre.ipynb {
+  color: black;
+  background: #f7f7f7;
+  border: none;
+  box-shadow: none;
+  margin-bottom: 0;
+  padding: 0;
+  margin: 0px;
+  font-size: 13px;
+}
+
+/* remove the prompt div from text cells */
+div.text_cell .prompt {
+    display: none;
+}
+
+/* remove horizontal padding from text cells, */
+/* so it aligns with outer body text */
+div.text_cell_render {
+    padding: 0.5em 0em;
+}
+
+img.anim_icon{padding:0; border:0; vertical-align:middle; -webkit-box-shadow:none; -box-shadow:none}
+</style>
+
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML" type="text/javascript"></script>
+<script type="text/javascript">
+init_mathjax = function() {
+    if (window.MathJax) {
+        // MathJax loaded
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
+            },
+            displayAlign: 'left', // Change this to 'center' to center equations.
+            "HTML-CSS": {
+                styles: {'.MathJax_Display': {"margin": 0}}
+            }
+        });
+        MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+    }
+}
+init_mathjax();
+</script>
+
+
+    <meta name="author" content="kmol" />
+    <meta name="keywords" content="40323156" />
+
+    <!-- Open Graph tags -->
+        <meta property="og:site_name" content="CDW11 網頁 (虎尾科大MDE)" />
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="CDW11 網頁 (虎尾科大MDE)"/>
+        <meta property="og:url" content="http://cdw11-ag100.rhcloud.com/static/blog"/>
+        <meta property="og:description" content="CDW11 網頁 (虎尾科大MDE)"/>
+
+
+    <!-- Bootstrap -->
+        <link rel="stylesheet" href="http://cdw11-ag100.rhcloud.com/static/blog/theme/css/bootstrap.united.min.css" type="text/css"/>
+    <link href="http://cdw11-ag100.rhcloud.com/static/blog/theme/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="http://cdw11-ag100.rhcloud.com/static/blog/theme/css/pygments/monokai.css" rel="stylesheet">
+    <link href="http://cdw11-ag100.rhcloud.com/static/blog/theme/tipuesearch/tipuesearch.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://cdw11-ag100.rhcloud.com/static/blog/theme/css/style.css" type="text/css"/>
+
+        <link href="http://cdw11-ag100.rhcloud.com/static/blog/feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
+              title="CDW11 網頁 (虎尾科大MDE) ATOM Feed"/>
+
+<script type="text/javascript" src="http://cad-lab.github.io/cadlab_data/files/syntaxhighlighter/shCore.js"></script>
+<script type="text/javascript" src="http://cad-lab.github.io/cadlab_data/files/syntaxhighlighter/shBrushJScript.js"></script>
+<script type="text/javascript" src="http://cad-lab.github.io/cadlab_data/files/syntaxhighlighter/shBrushJava.js"></script>
+<script type="text/javascript" src="http://cad-lab.github.io/cadlab_data/files/syntaxhighlighter/shBrushPython.js"></script>
+<script type="text/javascript" src="http://cad-lab.github.io/cadlab_data/files/syntaxhighlighter/shBrushSql.js"></script>
+<script type="text/javascript" src="http://cad-lab.github.io/cadlab_data/files/syntaxhighlighter/shBrushXml.js"></script>
+<script type="text/javascript" src="http://cad-lab.github.io/cadlab_data/files/syntaxhighlighter/shBrushPhp.js"></script>
+<script type="text/javascript" src="http://cad-lab.github.io/cadlab_data/files/syntaxhighlighter/shBrushCpp.js"></script>
+<script type="text/javascript" src="http://cad-lab.github.io/cadlab_data/files/syntaxhighlighter/shBrushCss.js"></script>
+<script type="text/javascript" src="http://cad-lab.github.io/cadlab_data/files/syntaxhighlighter/shBrushCSharp.js"></script>
+<script type='text/javascript'>
+	(function(){
+		var corecss = document.createElement('link');
+		var themecss = document.createElement('link');
+		var corecssurl = "http://cad-lab.github.io/cadlab_data/files/syntaxhighlighter/css/shCore.css";
+		if ( corecss.setAttribute ) {
+				corecss.setAttribute( "rel", "stylesheet" );
+				corecss.setAttribute( "type", "text/css" );
+				corecss.setAttribute( "href", corecssurl );
+		} else {
+				corecss.rel = "stylesheet";
+				corecss.href = corecssurl;
+		}
+		document.getElementsByTagName("head")[0].insertBefore( corecss, document.getElementById("syntaxhighlighteranchor") );
+		var themecssurl = "http://cad-lab.github.io/cadlab_data/files/syntaxhighlighter/css/shThemeDefault.css?ver=3.0.9b";
+		if ( themecss.setAttribute ) {
+				themecss.setAttribute( "rel", "stylesheet" );
+				themecss.setAttribute( "type", "text/css" );
+				themecss.setAttribute( "href", themecssurl );
+		} else {
+				themecss.rel = "stylesheet";
+				themecss.href = themecssurl;
+		}
+		//document.getElementById("syntaxhighlighteranchor").appendChild(themecss);
+		document.getElementsByTagName("head")[0].insertBefore( themecss, document.getElementById("syntaxhighlighteranchor") );
+	})();
+	SyntaxHighlighter.config.strings.expandSource = '+ expand source';
+	SyntaxHighlighter.config.strings.help = '?';
+	SyntaxHighlighter.config.strings.alert = 'SyntaxHighlighter\n\n';
+	SyntaxHighlighter.config.strings.noBrush = 'Can\'t find brush for: ';
+	SyntaxHighlighter.config.strings.brushNotHtmlScript = 'Brush wasn\'t configured for html-script option: ';
+	SyntaxHighlighter.defaults['pad-line-numbers'] = false;
+	SyntaxHighlighter.defaults['toolbar'] = false;
+	SyntaxHighlighter.all();
+</script>
+
+</head>
+<body>
+
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="http://cdw11-ag100.rhcloud.com/static/blog/" class="navbar-brand">
+CDW11 網頁 (虎尾科大MDE)            </a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                        <li >
+                            <a href="http://cdw11-ag100.rhcloud.com/static/blog/category/ag1.html">Ag1</a>
+                        </li>
+                        <li >
+                            <a href="http://cdw11-ag100.rhcloud.com/static/blog/category/ag10.html">Ag10</a>
+                        </li>
+                        <li >
+                            <a href="http://cdw11-ag100.rhcloud.com/static/blog/category/ag1_40223153.html">Ag1_40223153</a>
+                        </li>
+                        <li >
+                            <a href="http://cdw11-ag100.rhcloud.com/static/blog/category/ag1_402231530.html">Ag1_402231530</a>
+                        </li>
+                        <li >
+                            <a href="http://cdw11-ag100.rhcloud.com/static/blog/category/ag2.html">Ag2</a>
+                        </li>
+                        <li >
+                            <a href="http://cdw11-ag100.rhcloud.com/static/blog/category/ag3.html">Ag3</a>
+                        </li>
+                        <li >
+                            <a href="http://cdw11-ag100.rhcloud.com/static/blog/category/ag4.html">Ag4</a>
+                        </li>
+                        <li >
+                            <a href="http://cdw11-ag100.rhcloud.com/static/blog/category/ag5.html">Ag5</a>
+                        </li>
+                        <li >
+                            <a href="http://cdw11-ag100.rhcloud.com/static/blog/category/ag6.html">Ag6</a>
+                        </li>
+                        <li >
+                            <a href="http://cdw11-ag100.rhcloud.com/static/blog/category/ag7.html">Ag7</a>
+                        </li>
+                        <li >
+                            <a href="http://cdw11-ag100.rhcloud.com/static/blog/category/ag8.html">Ag8</a>
+                        </li>
+                        <li >
+                            <a href="http://cdw11-ag100.rhcloud.com/static/blog/category/ag9.html">Ag9</a>
+                        </li>
+                        <li >
+                            <a href="http://cdw11-ag100.rhcloud.com/static/blog/category/bg1.html">Bg1</a>
+                        </li>
+                        <li >
+                            <a href="http://cdw11-ag100.rhcloud.com/static/blog/category/bg10.html">Bg10</a>
+                        </li>
+                        <li >
+                            <a href="http://cdw11-ag100.rhcloud.com/static/blog/category/bg101.html">Bg101</a>
+                        </li>
+                        <li >
+                            <a href="http://cdw11-ag100.rhcloud.com/static/blog/category/bg11.html">Bg11</a>
+                        </li>
+                        <li >
+                            <a href="http://cdw11-ag100.rhcloud.com/static/blog/category/bg13.html">Bg13</a>
+                        </li>
+                        <li >
+                            <a href="http://cdw11-ag100.rhcloud.com/static/blog/category/bg15.html">Bg15</a>
+                        </li>
+                        <li >
+                            <a href="http://cdw11-ag100.rhcloud.com/static/blog/category/bg2.html">Bg2</a>
+                        </li>
+                        <li >
+                            <a href="http://cdw11-ag100.rhcloud.com/static/blog/category/bg3.html">Bg3</a>
+                        </li>
+                        <li >
+                            <a href="http://cdw11-ag100.rhcloud.com/static/blog/category/bg4.html">Bg4</a>
+                        </li>
+                        <li >
+                            <a href="http://cdw11-ag100.rhcloud.com/static/blog/category/bg5.html">Bg5</a>
+                        </li>
+                        <li >
+                            <a href="http://cdw11-ag100.rhcloud.com/static/blog/category/bg6.html">Bg6</a>
+                        </li>
+                        <li >
+                            <a href="http://cdw11-ag100.rhcloud.com/static/blog/category/bg8.html">Bg8</a>
+                        </li>
+                        <li >
+                            <a href="http://cdw11-ag100.rhcloud.com/static/blog/category/bg9.html">Bg9</a>
+                        </li>
+                        <li >
+                            <a href="http://cdw11-ag100.rhcloud.com/static/blog/category/g3.html">G3</a>
+                        </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><span>
+                <form class="navbar-search" action="http://cdw11-ag100.rhcloud.com/static/blog/search.html">
+                  <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input" required>
+                </form></span>
+              </li>
+              <li><a href="http://cdw11-ag100.rhcloud.com/static/blog/archives.html"><i class="fa fa-th-list"></i><span class="icon-label">Archives</span></a></li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</div> <!-- /.navbar -->
+<!-- Banner -->
+<!-- End Banner -->
+<div class="container">
+    <div class="row">
+        <div class="col-sm-9">
+
+            <article>
+                <h2><a href="http://cdw11-ag100.rhcloud.com/static/blog/40323156-cdw11-zi-mu-hui-zhi.html">40323156 cdw11 字母繪製</a></h2>
+                <div class="summary"><p>首先複製老師提供的ag100範例中的程式碼並將資料改成自己想要的</p>
+<p><img src="https://lh3.googleusercontent.com/aEAO41tRKJKy0GnnQ8fnPx0Hq4ekhzblbJGhAJx6SVvH498WZVdeEVpC309quREeoZ35rnI90XC4Wlv-RQH2-AHOQztvfiwdhbwebhui-7MZxAwLmC26CFBDYq8banf0Zq7XgjDRdM3nPHCaEYViVSt65WaFvuXtmqhlsSJpk9ZkfOgG9T4Di6FjqV28601Hi9AxYjwx0hGcow3QSrZUrroc0FuDB2hlPxJNU3riHBp_-0V1_4wp_sbcsa74GGQNS8mtP3aQta_f9XZxZD4tzwNGAsK4U8Mqoa0qsQqlR8v0nTDDWU8by5q5Fb5mqrMQmhpD91UpUGeGTmvekmNPaAxwwXhMkCFPFRDP0yy8maxkXVWQc1ricijpBJOtu_Ai4eCJLH6EKP1lJp_eYrL3sAECWS5A3Tm2YoD4rWoK0_0TgliKNdcRvQyaNjsuYv_sOhhWr6caiA67YwUgGpxX4fomjIZGc9uGKlHrLYxwjYxo4nzNetKNrdc7ENMUR7cK3NAhXrD_Z2ZQha3N7Stt9Nuz2r4okHnn8307amqjq5JoC-kSDOhU10CxYGZPXrLG1_wIwdxNjP4ezTa7YI4sUZq0WA6WHA=w725-h408-no" width="100%" /></p>
+<p>完成後到myflaskapp註冊資料</p>
+<p><img src="https://lh3.googleusercontent.com/o7vwobDsPOhjwWeiNxfa_OLv0jWrGHPFuZSQS4HP-uWmog92t4nm2O9m7ifqXUYlHl4moVauVGMcGDm5iO6A8-EfeP-e2nbEigzuudLXlwiUrEjqNK7w5LN2FOorcaEb3JUTk3A1J-PkJ0dLFAQ8sbydOIVTzKUuHIevcFNHfh8SMwT83sSu-mr_a-GltzaYzy4MV57He11vUqbsYzV-yYPCNiEPyd40SfGN6jDmysPygymApCrd4fh4UROPgsZ7RHRcwUu84BCUmmnOe00CXtUK_jLL_7KbG_Bh2re-wTg2Vl630RU8LPIA5pucGbUsvEOrybpRGSjUAU5IIrLe_-wrKU7Cnew8q4anpO1wv8weI4uAoTENbLMrEW_u3lLvLI1_TtCJ4tnK95hUBVS7GjfGfbxDx7_TaUWYQfi7iNQ2mTOROax_MUtv_wyoXsNf8A39UCdMfC44WPWCHaehX2YN0FMfLrOBSA9BDNXcyztEAavIbu8WzAXLQkz4XjrlNLxtqzhfp2QZEM1JFdjOxRZsUuZScTJjRhMG8PZ_VOQ7mm_PmaaZwv2aA-iotH3kOK_jicG3iVnN4_PmGNL5vPbIuqYWWQ=w725-h408-no" width="100%" /></p>
+<p><img src="https://lh3.googleusercontent.com/li4aOFPXJLUAUUEatrJtPK73iozoqDHRPKJb-jgR5TgEpPMo2N7sKnIEd20xvrLC-1U5ZgKYFlaKA9nUlvRfMOP9hDlPUcFm7RxFtsm_8MWbKOQYZaJEIjTHJZGPO7UMh7ZW38H55x8apNW_PoHbOAqnK-DSQJplYPNx9DPxJongaVR_dCvEHM3_3t_Y8e84sP9mw-vvr7pQAt8sdjhb1eSHCp0cSoZct_8UMLofC3cG4BkvCi7ks5WCDssBrNTJXWtipUWJ1fWt5EOHyXs_7l1Kt50zCWs_W15mW4NOlDUiD8WXd95yigfZNWVxOg1J7oj1xl__uPo_FFxg9Sb2xoNFH-q4dSHASsL60O7ZYVGMEvF_GA64IolkCeqEDfkvDYIaHWK4L9yLlqqKtV5ugfdvREnetQ07oGdPD0PceJe_zLwwIiOJa15SH9qi64N7mVg6JVtq3R4_2upHUg7QDexO7RMWIRqWhchMzh3wvwXV5hfZdVIA8FHwGNdeqzFl18DyAihr9YNhENrqFxeiiW5czwBpqdU17-3mHqtx0yWaTKfHWSyzfBIhg9DYep6tT2-jSf23K-fRJwQ4aByn78VRrI1Dlg=w725-h408-no" width="100%" /></p>
+<p>AAAA</p>
+<p><img src="https://lh3.googleusercontent.com/Qu6aNQPFglNvbBbf6WFYp_JT7Is1EVCb2gybB3UUg-oBZQPyJqxs1LpKVALiFXv9w0GcKxfIG05k06YPe8YdojyBc-VBXNG1Lny1yGIAheKzEicVcKVhvQ0kqWXMZFO6B3LZrPpXPvJREWu5u88ToGFrdeJ5bhXFx70_AreuRD_sKNpdhT2RmzgIZm2pGiJ_C6QVXxOjYdsuQxJ-AxEP5bu0lpigybS7JQBb0uvYvaEHrAOEy9NcpCb3dBJMaai6jFf2AvWtOGAuySiTwqc0NkHitjN74OtT67E8MBkHkraOaQMMDTx0on6nnTUY_EevdYKxuEKweKJEfZl8jIRSjk9KATYfeassLpCBctHvoLrEtr2-QoU-upO6B1yjdzevfJ0mvgnDxzI3HxTIIlRNb0TW_9_hc0-vxPpEuHgkhqHFKMmLsflyw7d44RcT3drlTyIjiMXzxmuyN058Nj7mHCHfcvssNVOCEeAH7UOCmLaKWLq3-uH3wygm2Snjf1TDtyJmDHFGsgretgd9W8wYwGo7Vfg2hWYjzo45qR5kPvGYOHNFonj6ihPsVQg8fADEiwovhrw0_xue6zZfQNBN-LStjlFLiA=w1698-h955-no" width="100%" /></p>
+<p>BACD</p>
+<p><img src="https://lh3.googleusercontent.com/BiOtrkUAlB1Ys0HUwoAjxrybcjtE4ye4evAZwfOgK5-6rw8jn9Rtwz47gGNp_3XSLm_BXNr2oJP0dMvYveVwi5kgJtC29QvWHKNSlrGPar41xKybhFUz289x3xXwV8zJwuNDMt8BFCdtTh9urZxqI2NqjKDEy6wqf6pEzsfwlMRfw9LwxuKkpCCZ8z70JrgBZx-9MzhN-Gie0OvPg4kszbPzXE9TtfekwzsqirP1q4Its3kPDUEI9FQGyrxJf8KxkMKUXwqZ6wWn8PNRVTL73NyFvOFOhgWpyOCV2AED6bEWwb4JfUWFt93ccYAQc69jXfP24-3yEFhfvgR4AavJZczagtiCmXgI6h27VG9WnYFHiWHrWu0W3_biCcj_1R8nVex2Cp4pNcgM95zQoiizJurxj7lG8qN0y6C4iw2RDzXFIJjTONonO7DIX6Kkf42KlVi_01B8kWE46yYQX5kA8R6KBT93s_h5W-HQEfh8705EulsHHCiSG_e_rSzM5Y7v_1HlI00YCdmrtsDOeLgYIpMunkPx_GEcSO1Ytla-IwPbjdKZe3YdAOPRpdsVWmb1vJiNCeyRFAFxJxODH-LGEKK2gG__ZA=w1698-h955-no" width="100%" /></p>
+<p>ABCD</p>
+<p><img src="https://lh3.googleusercontent.com/WkSOnTZC8wCKoPIZY4h-QtM9Or39EyJG_LReVteypvPXPE0Ezm8W0Qw52sD9LeIVTr7l8mwceLxHbTc0wST-wM_tueEw8DqPHvjsh_kavZhZ1wFkPECLaQ2phk8OIz7HGeqIYih_u5t0c09vFP4kX5JcQaPU4s24XULjpCAGoIn3MVXGfqYvQcWL_PEpxaSnNWfMeI7mVtwF0NdfCmg4bx6UZa5_tqwh51gOuS0zm_xEV20o93KcBNpmIJFLsXB7IL9965h00a2vV-Qeq3wMhswsqEKWJZO9YwobfzA1WdiKByvUJ824TAVa2ik6fX6N7iuIWzRPlIRAJdQYK9tOyh1zUOIazcmSbgsLnqv9IFsVCJwFAC7b6H-vHn3gOWX9m36NL6HGZx-X3Hagz1xdKgzCHfnQU6RuhLIc4fSN-OHKXgnxKl9Ty5nu7Kz2RUPXfGWGB23O-w8gHG3Qw7wx2pYNuX5_wWzbTDWtAOhSZhNFYPMIJdKXTa-Kuq4FbMXpdCI5qxirjkTM9o70WAoJIUcQkhhQcuVZbeEv_gA82VeypKSVaVeozmBS97CBKp_1_6wNfATS58oGnAK_ihBSbasLTR-qOA=w1698-h955-no" width="100%" /></p>
+<p>心得:再上傳的途中有點小失誤，無法顯示。但是後來找到問題所在很順利的解決就成功的完成了。</p>
+<p>自評:65</p>
+                    <a class="btn btn-default btn-xs" href="http://cdw11-ag100.rhcloud.com/static/blog/40323156-cdw11-zi-mu-hui-zhi.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="http://cdw11-ag100.rhcloud.com/static/blog/40323156-cdw11-zi-xing-che-lian-tiao-hui-zhi.html">40323156 cdw11 自行車鍊條繪製</a></h2>
+                <div class="summary"><p>首先複製老師提供的ag100範例中的程式碼並將資料改成想要的</p>
+<p><img src="https://lh3.googleusercontent.com/aEAO41tRKJKy0GnnQ8fnPx0Hq4ekhzblbJGhAJx6SVvH498WZVdeEVpC309quREeoZ35rnI90XC4Wlv-RQH2-AHOQztvfiwdhbwebhui-7MZxAwLmC26CFBDYq8banf0Zq7XgjDRdM3nPHCaEYViVSt65WaFvuXtmqhlsSJpk9ZkfOgG9T4Di6FjqV28601Hi9AxYjwx0hGcow3QSrZUrroc0FuDB2hlPxJNU3riHBp_-0V1_4wp_sbcsa74GGQNS8mtP3aQta_f9XZxZD4tzwNGAsK4U8Mqoa0qsQqlR8v0nTDDWU8by5q5Fb5mqrMQmhpD91UpUGeGTmvekmNPaAxwwXhMkCFPFRDP0yy8maxkXVWQc1ricijpBJOtu_Ai4eCJLH6EKP1lJp_eYrL3sAECWS5A3Tm2YoD4rWoK0_0TgliKNdcRvQyaNjsuYv_sOhhWr6caiA67YwUgGpxX4fomjIZGc9uGKlHrLYxwjYxo4nzNetKNrdc7ENMUR7cK3NAhXrD_Z2ZQha3N7Stt9Nuz2r4okHnn8307amqjq5JoC-kSDOhU10CxYGZPXrLG1_wIwdxNjP4ezTa7YI4sUZq0WA6WHA=w725-h408-no" width="100%" /></p>
+<p>完成後到myflaskapp註冊資料</p>
+<p><img src="https://lh3.googleusercontent.com/o7vwobDsPOhjwWeiNxfa_OLv0jWrGHPFuZSQS4HP-uWmog92t4nm2O9m7ifqXUYlHl4moVauVGMcGDm5iO6A8-EfeP-e2nbEigzuudLXlwiUrEjqNK7w5LN2FOorcaEb3JUTk3A1J-PkJ0dLFAQ8sbydOIVTzKUuHIevcFNHfh8SMwT83sSu-mr_a-GltzaYzy4MV57He11vUqbsYzV-yYPCNiEPyd40SfGN6jDmysPygymApCrd4fh4UROPgsZ7RHRcwUu84BCUmmnOe00CXtUK_jLL_7KbG_Bh2re-wTg2Vl630RU8LPIA5pucGbUsvEOrybpRGSjUAU5IIrLe_-wrKU7Cnew8q4anpO1wv8weI4uAoTENbLMrEW_u3lLvLI1_TtCJ4tnK95hUBVS7GjfGfbxDx7_TaUWYQfi7iNQ2mTOROax_MUtv_wyoXsNf8A39UCdMfC44WPWCHaehX2YN0FMfLrOBSA9BDNXcyztEAavIbu8WzAXLQkz4XjrlNLxtqzhfp2QZEM1JFdjOxRZsUuZScTJjRhMG8PZ_VOQ7mm_PmaaZwv2aA-iotH3kOK_jicG3iVnN4_PmGNL5vPbIuqYWWQ=w725-h408-no" width="100%" /></p>
+<p><img src="https://lh3.googleusercontent.com/li4aOFPXJLUAUUEatrJtPK73iozoqDHRPKJb-jgR5TgEpPMo2N7sKnIEd20xvrLC-1U5ZgKYFlaKA9nUlvRfMOP9hDlPUcFm7RxFtsm_8MWbKOQYZaJEIjTHJZGPO7UMh7ZW38H55x8apNW_PoHbOAqnK-DSQJplYPNx9DPxJongaVR_dCvEHM3_3t_Y8e84sP9mw-vvr7pQAt8sdjhb1eSHCp0cSoZct_8UMLofC3cG4BkvCi7ks5WCDssBrNTJXWtipUWJ1fWt5EOHyXs_7l1Kt50zCWs_W15mW4NOlDUiD8WXd95yigfZNWVxOg1J7oj1xl__uPo_FFxg9Sb2xoNFH-q4dSHASsL60O7ZYVGMEvF_GA64IolkCeqEDfkvDYIaHWK4L9yLlqqKtV5ugfdvREnetQ07oGdPD0PceJe_zLwwIiOJa15SH9qi64N7mVg6JVtq3R4_2upHUg7QDexO7RMWIRqWhchMzh3wvwXV5hfZdVIA8FHwGNdeqzFl18DyAihr9YNhENrqFxeiiW5czwBpqdU17-3mHqtx0yWaTKfHWSyzfBIhg9DYep6tT2-jSf23K-fRJwQ4aByn78VRrI1Dlg=w725-h408-no" width="100%" /></p>
+<p>連接到瀏覽器中呼叫自行車鍊條的程式</p>
+<p><img src="https://lh3.googleusercontent.com/PiI84hqqhmFgB_pP489DQCGf6b6o30QLrZxgL65gR0YpfOAsCXI5rqhqYEVoEl7qp9EZn2RxM2UGh-gJCsyuZCwZvZxtyQoV15q82HsLywUxUf_JWHpKAZr9uN1ilUSaLK8AkUz4wQbtHOViikH3ATUn29BWBuBYVK6lQRVG5AXjc7e6FVQ46efqMt7EwQvPMciZH7v9TL6kEvcoMKM9gam0sQzsj0wpn5hnk_5VXq12pkOAhSAy5rSjqaVbzS-4xScVd1s7F-INQ-yxNfUwNA1zsAXnCV14ZwaQpoTTUgC9SQGtDE5FKum_K_4USkXLQdoVAFzdQXhxypQPR_XkK0WmeVWpU5Deynb7rX-C2dqjGY4CzCHeFBWlBSIapLv2k5pFUZk7DnypHBeGapiiuySlEJg_1wW3IdWI4fRKWo5YjpLFJNslzBKj3pi1GIcvskXIoFdHXVwmKCTGUYWQ7PprAn7daDcZ3n9W-kIR-PBHGhu0KNvzEVmg1uyY_rDOX0MD4bCgCpCS0bE2b5qSxxmjjVzeUTYhRk2gGeB_Vc0OklFTCntifvd6qQS1E0H7DVEtaJBSR5_OVRT5NVE3BBRyTHG1RA=w1698-h955-no" width="100%" /></p>
+<p>心得:這次也是很順利地完成了。途中沒有太大的問題</p>
+<p>自評:65</p>
+                    <a class="btn btn-default btn-xs" href="http://cdw11-ag100.rhcloud.com/static/blog/40323156-cdw11-zi-xing-che-lian-tiao-hui-zhi.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="http://cdw11-ag100.rhcloud.com/static/blog/40323156-cdw11-lian-yuan-hui-zhi.html">40323156 cdw11 鍊圓繪製</a></h2>
+                <div class="summary"><p>首先複製老師提供的ag100範例中的程式碼並將資料改成自己想要的</p>
+<p><img src="https://lh3.googleusercontent.com/aEAO41tRKJKy0GnnQ8fnPx0Hq4ekhzblbJGhAJx6SVvH498WZVdeEVpC309quREeoZ35rnI90XC4Wlv-RQH2-AHOQztvfiwdhbwebhui-7MZxAwLmC26CFBDYq8banf0Zq7XgjDRdM3nPHCaEYViVSt65WaFvuXtmqhlsSJpk9ZkfOgG9T4Di6FjqV28601Hi9AxYjwx0hGcow3QSrZUrroc0FuDB2hlPxJNU3riHBp_-0V1_4wp_sbcsa74GGQNS8mtP3aQta_f9XZxZD4tzwNGAsK4U8Mqoa0qsQqlR8v0nTDDWU8by5q5Fb5mqrMQmhpD91UpUGeGTmvekmNPaAxwwXhMkCFPFRDP0yy8maxkXVWQc1ricijpBJOtu_Ai4eCJLH6EKP1lJp_eYrL3sAECWS5A3Tm2YoD4rWoK0_0TgliKNdcRvQyaNjsuYv_sOhhWr6caiA67YwUgGpxX4fomjIZGc9uGKlHrLYxwjYxo4nzNetKNrdc7ENMUR7cK3NAhXrD_Z2ZQha3N7Stt9Nuz2r4okHnn8307amqjq5JoC-kSDOhU10CxYGZPXrLG1_wIwdxNjP4ezTa7YI4sUZq0WA6WHA=w725-h408-no" width="100%" /></p>
+<p>完成後到myflaskapp註冊資料</p>
+<p><img src="https://lh3.googleusercontent.com/o7vwobDsPOhjwWeiNxfa_OLv0jWrGHPFuZSQS4HP-uWmog92t4nm2O9m7ifqXUYlHl4moVauVGMcGDm5iO6A8-EfeP-e2nbEigzuudLXlwiUrEjqNK7w5LN2FOorcaEb3JUTk3A1J-PkJ0dLFAQ8sbydOIVTzKUuHIevcFNHfh8SMwT83sSu-mr_a-GltzaYzy4MV57He11vUqbsYzV-yYPCNiEPyd40SfGN6jDmysPygymApCrd4fh4UROPgsZ7RHRcwUu84BCUmmnOe00CXtUK_jLL_7KbG_Bh2re-wTg2Vl630RU8LPIA5pucGbUsvEOrybpRGSjUAU5IIrLe_-wrKU7Cnew8q4anpO1wv8weI4uAoTENbLMrEW_u3lLvLI1_TtCJ4tnK95hUBVS7GjfGfbxDx7_TaUWYQfi7iNQ2mTOROax_MUtv_wyoXsNf8A39UCdMfC44WPWCHaehX2YN0FMfLrOBSA9BDNXcyztEAavIbu8WzAXLQkz4XjrlNLxtqzhfp2QZEM1JFdjOxRZsUuZScTJjRhMG8PZ_VOQ7mm_PmaaZwv2aA-iotH3kOK_jicG3iVnN4_PmGNL5vPbIuqYWWQ=w725-h408-no" width="100%" /></p>
+<p><img src="https://lh3.googleusercontent.com/li4aOFPXJLUAUUEatrJtPK73iozoqDHRPKJb-jgR5TgEpPMo2N7sKnIEd20xvrLC-1U5ZgKYFlaKA9nUlvRfMOP9hDlPUcFm7RxFtsm_8MWbKOQYZaJEIjTHJZGPO7UMh7ZW38H55x8apNW_PoHbOAqnK-DSQJplYPNx9DPxJongaVR_dCvEHM3_3t_Y8e84sP9mw-vvr7pQAt8sdjhb1eSHCp0cSoZct_8UMLofC3cG4BkvCi7ks5WCDssBrNTJXWtipUWJ1fWt5EOHyXs_7l1Kt50zCWs_W15mW4NOlDUiD8WXd95yigfZNWVxOg1J7oj1xl__uPo_FFxg9Sb2xoNFH-q4dSHASsL60O7ZYVGMEvF_GA64IolkCeqEDfkvDYIaHWK4L9yLlqqKtV5ugfdvREnetQ07oGdPD0PceJe_zLwwIiOJa15SH9qi64N7mVg6JVtq3R4_2upHUg7QDexO7RMWIRqWhchMzh3wvwXV5hfZdVIA8FHwGNdeqzFl18DyAihr9YNhENrqFxeiiW5czwBpqdU17-3mHqtx0yWaTKfHWSyzfBIhg9DYep6tT2-jSf23K-fRJwQ4aByn78VRrI1Dlg=w725-h408-no" width="100%" /></p>
+<p>連接到瀏覽器中呼叫鍊圓的程式並且給予數值</p>
+<p><img src="https://lh3.googleusercontent.com/yBFowir-x2uNn3GvVfHPD5pmDGw4yGa_aK83qh9daHbRiV-aTrRmUzuHFdn2YZoKwj-RT8Im1VJ3cGQEVc2RotWgxDAT9vGBxRIMyzHFJdrP2LDScOzoksdNstbuiW0PvP08AwmDwp9NMQ17IgQ736sxg96m9NfLfP02hQAlgKoWtzo4_iGIwMnBD8lZ4g8zZADRFs2tQb4jwiNd_z4zN00ujdGOUeGUuzYAeRO9XEWPxpGjAM7NNkrqdD_Ku8SiTrnZt3ExA3JNP6HMf7oN0v6QoBtY1UEeFnXQcbzqO3f_xYJ-IkFuxMlW73a5JLVEeQ9X8dfbYUY6O1-JZaVoE8hr4ehSjXCubYY3DcSvhp4ZWXvEViBBj2tUB0WMw2k1cp01zseljugllEyaK1U33veIm0TX186eNRRsMSso_DVBMaAw3ZodrE57aWIcdVgZR6cvRCdxKrrhA9_jfnVPcC2NGslazd0FCw2hkT-4_Vxjp5vKOzXmczMmoaLT73ihlpBIQ0L6T8-7RYX4d3rC8f3aaH4BNdczT5tNqoJo6Owx6YqyZGoSwtcgdrkAcMBa83d-OhWeSmtpJwTmqWpOuBTh9FoXrQ=w1698-h955-no" width="100%" /></p>
+<p>更改數值可以調整位置及大小</p>
+<p><img src="https://lh3.googleusercontent.com/rP036lgq58Q7f9BmS9MMYQfZRqSnTiGSLriXEZ75VgzXmzYa3pA84NKNRKwZXHzDCKKQGK4ZH9RlUyTD_-CyQwV0qSjpbXJ58gsSXzXQfHIVazoPBty92FnKDHu7c-dPl48b4NyEVs3yTlc3a__hWx2IqkvrFp42Uga5iDNgqGY3kpNyMtvfuOK6CR7XhZvMWcc_ykRdtAj9S9YKdzm7ecU-WPLCAGQ-NcvKTa43sUBW1q-jXOpQplwxVnLiSPyAONjx219bkmhUhJi36aPFp9NEyWPmNzgcJ6KWccY1Z267BIkKyC00hKmW-LFqzNiiZgQ_iSNLU66l-yQek-yvIAuoivU7Ol_fQ_Z7o1qqlN8VH8LlI5X9iS3szOqY5oG4o_Cjr_tDUFz6UESbxlQApMEcB-NU5fFytFBeXp0ye6Efd1ww7SiOr-p-2FG4hY3G9Xbu9jIO1_4K00ks2QzyP3FRQtXOzHBOT-6txDiwd_AHZPySbIkQ1whVMY_Ymm8mC6ilbZIgmyrfpx5B4LfAoaBXYn37-WeusEe3nCVn5IymQWBhD9nhm54W0Ez0QGfAplYBLh8g0z-AwB4jmqnrd-t_ZN1zoQ=w1698-h955-no" width="100%" /></p>
+<p>心得:跟前一個一樣複製改數值，就可以很順利的完成圓鍊。</p>
+<p>自評:65</p>
+                    <a class="btn btn-default btn-xs" href="http://cdw11-ag100.rhcloud.com/static/blog/40323156-cdw11-lian-yuan-hui-zhi.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="http://cdw11-ag100.rhcloud.com/static/blog/40323156-cdw11-2dchi-lun-nie-he-xin-de-bao-gao.html">40323156 cdw11 2D齒輪嚙合心得報告</a></h2>
+                <div class="summary"><p>首先複製老師提供的ag100範例中的程式碼並將資料改成自己想要的</p>
+<p><img src="https://lh3.googleusercontent.com/aEAO41tRKJKy0GnnQ8fnPx0Hq4ekhzblbJGhAJx6SVvH498WZVdeEVpC309quREeoZ35rnI90XC4Wlv-RQH2-AHOQztvfiwdhbwebhui-7MZxAwLmC26CFBDYq8banf0Zq7XgjDRdM3nPHCaEYViVSt65WaFvuXtmqhlsSJpk9ZkfOgG9T4Di6FjqV28601Hi9AxYjwx0hGcow3QSrZUrroc0FuDB2hlPxJNU3riHBp_-0V1_4wp_sbcsa74GGQNS8mtP3aQta_f9XZxZD4tzwNGAsK4U8Mqoa0qsQqlR8v0nTDDWU8by5q5Fb5mqrMQmhpD91UpUGeGTmvekmNPaAxwwXhMkCFPFRDP0yy8maxkXVWQc1ricijpBJOtu_Ai4eCJLH6EKP1lJp_eYrL3sAECWS5A3Tm2YoD4rWoK0_0TgliKNdcRvQyaNjsuYv_sOhhWr6caiA67YwUgGpxX4fomjIZGc9uGKlHrLYxwjYxo4nzNetKNrdc7ENMUR7cK3NAhXrD_Z2ZQha3N7Stt9Nuz2r4okHnn8307amqjq5JoC-kSDOhU10CxYGZPXrLG1_wIwdxNjP4ezTa7YI4sUZq0WA6WHA=w725-h408-no" width="100%" /></p>
+<p>完成後到myflaskapp註冊資料</p>
+<p><img src="https://lh3.googleusercontent.com/o7vwobDsPOhjwWeiNxfa_OLv0jWrGHPFuZSQS4HP-uWmog92t4nm2O9m7ifqXUYlHl4moVauVGMcGDm5iO6A8-EfeP-e2nbEigzuudLXlwiUrEjqNK7w5LN2FOorcaEb3JUTk3A1J-PkJ0dLFAQ8sbydOIVTzKUuHIevcFNHfh8SMwT83sSu-mr_a-GltzaYzy4MV57He11vUqbsYzV-yYPCNiEPyd40SfGN6jDmysPygymApCrd4fh4UROPgsZ7RHRcwUu84BCUmmnOe00CXtUK_jLL_7KbG_Bh2re-wTg2Vl630RU8LPIA5pucGbUsvEOrybpRGSjUAU5IIrLe_-wrKU7Cnew8q4anpO1wv8weI4uAoTENbLMrEW_u3lLvLI1_TtCJ4tnK95hUBVS7GjfGfbxDx7_TaUWYQfi7iNQ2mTOROax_MUtv_wyoXsNf8A39UCdMfC44WPWCHaehX2YN0FMfLrOBSA9BDNXcyztEAavIbu8WzAXLQkz4XjrlNLxtqzhfp2QZEM1JFdjOxRZsUuZScTJjRhMG8PZ_VOQ7mm_PmaaZwv2aA-iotH3kOK_jicG3iVnN4_PmGNL5vPbIuqYWWQ=w725-h408-no" width="100%" /></p>
+<p><img src="https://lh3.googleusercontent.com/li4aOFPXJLUAUUEatrJtPK73iozoqDHRPKJb-jgR5TgEpPMo2N7sKnIEd20xvrLC-1U5ZgKYFlaKA9nUlvRfMOP9hDlPUcFm7RxFtsm_8MWbKOQYZaJEIjTHJZGPO7UMh7ZW38H55x8apNW_PoHbOAqnK-DSQJplYPNx9DPxJongaVR_dCvEHM3_3t_Y8e84sP9mw-vvr7pQAt8sdjhb1eSHCp0cSoZct_8UMLofC3cG4BkvCi7ks5WCDssBrNTJXWtipUWJ1fWt5EOHyXs_7l1Kt50zCWs_W15mW4NOlDUiD8WXd95yigfZNWVxOg1J7oj1xl__uPo_FFxg9Sb2xoNFH-q4dSHASsL60O7ZYVGMEvF_GA64IolkCeqEDfkvDYIaHWK4L9yLlqqKtV5ugfdvREnetQ07oGdPD0PceJe_zLwwIiOJa15SH9qi64N7mVg6JVtq3R4_2upHUg7QDexO7RMWIRqWhchMzh3wvwXV5hfZdVIA8FHwGNdeqzFl18DyAihr9YNhENrqFxeiiW5czwBpqdU17-3mHqtx0yWaTKfHWSyzfBIhg9DYep6tT2-jSf23K-fRJwQ4aByn78VRrI1Dlg=w725-h408-no" width="100%" /></p>
+<p>連接到瀏覽器中呼叫齒輪的程式並給他數值</p>
+<p><img src="https://lh3.googleusercontent.com/KJ3bwBeukh4pgEyqalgp53zXU-hQZ4yEw-tWYnTccpvJRNOeqRj2_Ona167LPU_FJDVBodEtGcTTY-NipPBIGChAF2YWf0iuZM1gWr1GTUASPmbXgbHpPO_bAivGflXGsITmnronYadv4cQ7wRdXp3NxDnaj0sNtHVg2e6uGTSiXK-5_cwobjTzeznttHUqFOvHBKchqzHPq7R38tO14nlY3OEL8wW8B7KVQl_EVIWi6CBeNYpJOJHCrxxWnCzove6GQtxuTOA7YzCMuMWK9mSgo6QC0Yx7dCShMhw_UCjVTU4SOyUnNMjbsXeq2dgDOtv_7GGoUHDryWiicdbV9WTSLFg2wVd_vGLy_0s65oF50sBJ4dFpgBABpjlmAmpGwB0DLKVJ58xI5cdiQBp3zRfn1h4eXg4hruzShJY1_-ZB5GfCPIKDDInhqQ19ckRd4Gh_CxyrH4xi3ICDMKkcxWPD55Mbx8tEqWxNJvDCudKcNFHvH0e05-VN7oGGohNSDeFWbAv-rxIUgMg0_bdEjHzlc-1HmvEYRtwrd2e87ziMUo_ie73B6s_-_UrAS805uv_Gfdin7O7Xsa01xo8Y-_o1mqQvEbA=w725-h408-no" width="100%" /></p>
+<p>心得:複製老師的程式，在改其他的數值。就很順利的完成也可以看到不同的大小。</p>
+<p>自評:65</p>
+                    <a class="btn btn-default btn-xs" href="http://cdw11-ag100.rhcloud.com/static/blog/40323156-cdw11-2dchi-lun-nie-he-xin-de-bao-gao.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="http://cdw11-ag100.rhcloud.com/static/blog/40323156-cdw11-3dchi-lun-nie-he-xin-de-bao-gao.html">40323156 cdw11 3D齒輪嚙合心得報告</a></h2>
+                <div class="summary"><p>先調整尺寸為mm</p>
+<p><img src="https://lh3.googleusercontent.com/qAEwbPYS2Yk2BfGoLPIAFs4EebD4y9J_XCgMV19Cm566564e1h_3AAaibh3G4316T14_lfY9uOZQ8KVaf5CLhbdDBRnn6rxlAdCaiha5lTVDI6j3QdfOfbTeScEgb4qBK5SYywLarRrcVN1tXN-0AzYPY5tfQs1Xq4bfsWP6T9dwYJQlJuHq6bnyLTsXbaMQpGFw_XmvqUKM2cq6z_TNAm3EwCe7nez_OG1te5vd-y6TIyEaxusjlaFhjZ8p0THYf8jr5t1Zh-s9G0toCqadH0NSwgI1Iu4LVlx3mop6A49vtizaiNBUk4Rz11ZoZiVGLBsC0vOc63rR-lXt0RBXemZ3BZA5UJ0NYlzjP3to97XLgYfnAERks4nsGzWdY3Q6ZvZmwzieIvb9LhObeAMu1XRFEklEYIud3kcEDxHtIdXwz_cyIyE5__huCEp4KkC303cEASg-r-vHvF74mejkINfkEbEhSGvQ1XlXNrrSCNot_J0p0nx7FoO8pkgsv2NSeKRalRC4TksPLvWFCpUbNfewWndxMVTWukTcwN_yj_7zYHhHdWg7ApCYp-adFmAdo2A2izcfkqjDFRJ-2tS0XEW7_Lo_aw=w438-h380-no" width="100%" /></p>
+<p>加入齒輪</p>
+<p><img src="https://lh3.googleusercontent.com/PsznlRdATHGf-X8PhVal7YcbLVkGgWtqEeFFhwVKfWtGyHaim1X5JK_CmHqw9nNlzAGUSyiet0qcHLp3hTJV-f-EEowuHEkkgvwUcp95zpQa1NyZg-E4xIUGSdnZTpWhEXpgVJZwBikEq8kVU_D6n_q_mgUxi_PgCEkc4G-EgneYMHpLssf5YQ-qG_aCl2zNBcWt__q6wASv64Ue2WU8app_WTF4EuOH6g8pppML6j20T-6i-9OCC3_QQfpTeNiyxCc13tHG-DWrEDlNzJyKck9T01FMJB4HIOTLzunGMG-4U8Kg9QaBd81MOH58_eEVpV9jb-frh2tJXo6Fkm1EmSzBwZuZMZEFO55UiwUA6VN5La-TLOcMOluu_-4vlEsDvdWL521L_ym9IojjclMbO5a0ijDwRww_NXAXoua2RZ7KAaoOXhEEh0dXqrI85zUz_McsrHHse-w-bGYjCcLt3lUAeP3xG7QuOfo6O1EkQ67P-uWlztyCeQba_DxmLsv-_3T9kcIO1YbWL00em4W9a8qrPpBT8SKnPTmjZx-EQqtGB_0EHgnmfVD-sBkCTJIoQPa6nsIsET52lyjvxwDyDLPtBe0uyw=w571-h565-no" width="100%" /></p>
+<p>設定4個齒輪的齒數及模數</p>
+<p><img src="https://lh3.googleusercontent.com/Wf79xKSK2stnNSeBPbjdfznzSN6JqmPnPLAPe8uFcKLPD8avxI9UUopwK4x-GvuQpWeMDMreEhYVvb4Dwj76LysS40F83rduf5wotA8OQWwxjhtLuuMluf4FWdV5Al-L5SE-c-6GoMwq3Wp8jPZBibwZZxaThLlgeZ2-7QQNxiw1VQtr4gf5FZvOdQg4RnYag-MRq7JtSAkdp8urm6KUD33XXsHXB9yxYPh2BvAIHT4s-CUDNYF9xNBbhMOL4B5BLNITPpKdaXXSTekX9HxeqwGfpHIZmRpbhmhe5SBoBYa6QqBnkuMRcD7SjDMEYTLzbU-XUsMjyLR3NvyKXAOLfAKnWGoc6VeIgWBxbTIiLhr-ZpBqYIB-WHw5LXG1VgpDSkadcP5kydPaukOxJh_6RZ-Ig7ktM5n5w1P4WmrPY33zRKFJGsWaw7AW_x9DVj5DAj88NjXdU03KRJW0fxYL56v1alWmKEX1iSQXHgPsgE14t1g0XgXQpPo3Ytz7Sf5oo_LHoxecWoRs4Vdel7UrtiHKiAS66jcUy996fd8mji0pSWtXeDKUWpvaKrGZGSFwdJBJmp_gs3JeKmNhRIsDHE_ryDNZRA=w432-h446-no" width="100%" /></p>
+<p>第一個25齒 模數3</p>
+<p><img src="https://lh3.googleusercontent.com/RuwgJ4gmE8uhIGPrtq2BcKHoYo9Tp3yJpHnBJRq-4XSoEEVhLFXScl_Uy3jmpCk_3RDsAsMx-h-kCIQHTMsA6v7B8k7hFvHFcXHbDcduz25htnc28CudZInIWi7c_R0tAMJSOaC5jLN0Gmh8Dkjq6LTby54XomkpHZYgQjbiXePyXm_hygn-A2SR1io2PaGbc4PzHVmPIqoOMj5fdVJS75crLvZLpcu5cpKSTGKLb8GfDGgnY_7Cvfzb5ZfeWCsegSxVip_HV0Hvvc7KaBaBHAM_PKCnHd0XmqNU4tDvOliFC7XgBC9WvIpb60r9QtfYTS0CBUuAelpPxIURaJPp6zSSoGXLjUxJWR0oCwboL6iTk0lKQDmMelm4AB_hz1yx0g6W59oHva3Z9RrH7Y2bCe1WeOwLAOVt9AwJnj2eAB6BBbVTShOC1MwUnkX2naZRretPVg1DSKSCpIEFUk8KP7_uRTTNrLqxnHd1I8i7o15Wu8I75-hf7-afgmNt5cWe-w894PyRUEEaK9oU2EmNmiA0VkInieNFRorQjl2hrUdrN2Nb2OVaIekhz_b5Ez7gKFnct_gF-nd0IWAVaaGdEfTx8Jvrog=w1560-h780-no" width="100%" /></p>
+<p>第二個35齒 模數3</p>
+<p><img src="https://lh3.googleusercontent.com/Cf3oRDSFudWq9RQTrat5UicAE1GGs2eOwJivM2lPNh3Z9gZuLZfJ8iKzfYUVAAUlEL1NumRhbvMb-5sfVaxmi3GOdFvo9eayTjKeKv1jJnbA48uHcK49nSUnJShCh0tc9FJwEZQzkRyt1kBydOwHCfkut5a150yQ_rdNBk8hWu0fSnrwFg1yu50FgIHX4Ov2eGn4Y6H9RZduGTK4U9hfOjeam3FyfOlP3zmKyuNkFvOkONlxFtb91iug-ChfsLPGYJ6h_Vz0yuLkp9hCqxSfP1aKM1aHMN0lZvjNdUbm2_suQ8GNbomKBpLpSrgBCQzAyd2cWHyMA_C37v0EAO7f5E-7-Co8XV1D2npQaEy-B_oLoiAiLeWerUwD3_-R1njq2n-GO9HLbkzNrxSsZAR149ZYuGdTQ3PfOkDtw1w0cbDcFHgjsrlLJxS4ybmM1SuJ1rF6B8PLEHvlPhcArDBdrhdS5vy5hDzdcNYVkD0dIHbBTRaYCgQEqcpe4--ljCwU6mawbaAvItvMVhFFCCtMUxfhTj7Z7HVvz225tkuHHapdjZoi-dcv5Cpgw2k8JdgPo9LyV4g7794xf3S8NbUMNrmTDkHo1Q=w1560-h784-no" width="100%" /></p>
+<p>第三個45齒 模數3</p>
+<p><img src="https://lh3.googleusercontent.com/9XstETTSsRNAXp1K0ilN4QcpliHMXkxAXTfrna3pgHlBOrAGaY_B4wcL2O0ji96tQLuH_0sm7tut53tfAXJEuCT1cV5ST4J8EFpKVEsv15_gc5C0D0zWRQ6_S1hf_poRhPq31ekfiO8df7AoomF_4Nx8xUHKd5iR15UkOy_fD052YDVRAu84hSm22bYtdF_7cz_22fpc-uWLNuofeoYogUYT4rQr47UKTsh4FPn_z4q5yRgRhYLygkAGr8p3VFe9c644MevBv-lfs4AWWpeZ8VOVs5DNYUee6ftuYf-zQ4kE0kjvnQd8MoEDvK4tP-Cvop26yIjhA2P7GQsS8cEb1DdPgXyjdO5PuGHzTQ1tyH_Hv7hVg11_e7pnxZKWQJ2B5f7Ft14fTHGBKUmQJSp85WjsIYWdQiRrZy11Rs77h-k202kzR9xkD3qd4YnfsVVngxk5Hni1Hh2l1ZnGKzS5oo2oM9HofvmsoreciALbJaiuOrAuBwQtfVVqZGhkgbg6PtuLCUtHrS24boOiSZfy4g7B2WCUFdOaezl8SCXDI57R8i3dux40VkJT9gUTM3_Yqp3a-nXxh8ihINyDvgEXyETnOITaUA=w1560-h780-no" width="100%" /></p>
+<p>第四個60齒 模數3</p>
+<p><img src="https://lh3.googleusercontent.com/Gv786MtoFo5-ig8lggbM6vPj7mXwoy1oN3FMVyZ63wM3X6mo6i1QG9J3yOfWnezPr46LkhL3ZOFw6JRVbiiA9XKqp9mYG_VOb1uX61lByt11VSVtIJ8CcEZpEuv3eOglUX0eE5lFfSo6Gy6SjlfAzqsAcXr8rJl1tc5tfWHt7U2P0dt27aYPph9UD8HKkU38u1ElNCjIywbuFlHAfjtGwCVeGNpX0E290KwEElMi3fkyUL26WQg78WIkDhOghH7z0t5W3-2ddQdsoAM9MpUYnch61csVYfWAWiJxZaq6_5oJzts6oC9i0piTihxye7mNbqadma444Lhnusp29O8DeBMReQY-B_MxR9HREvJ_oX_PaEP-ObL_nL4jxjx-F94xa37CElz0lZvLRQO6cQx96xHlc8hdQL0NjmBYQZaAxsNKAYq136LfLQ07Dv5Dyac6nELyBjTiMnFK8eFeHLbFuEvS1OC6IeBm2ixLU-8V0RjnpPkTtrLmkv9kcaK4tlhRmJo_3l_trTiiP8b_ap8jeNRXS4J1vf92sXalTySSwOanECh2m9106Qitoqz6KLRu1-syXWLWCfOQYC3dnHtAwqAgHNNTlg=w1560-h781-no" width="100%" /></p>
+<p>劃一板材做符合的間距，第一跟第二的節圓直徑相加除二，以此類推二跟三、三跟四。</p>
+<p><img src="https://lh3.googleusercontent.com/GRmlFA41D1ReMru0An8KPOUrA6umov_ReEkCqxULag5FISE7pFxBERalhUFLw-exi2545OVByoCVzvbCjgFoBFiA9jUxO1AcrGRmM8a0SRBevaWB20Cnl9umptf273nXrHISG1x0sShdTDkSBFCwhHwpAlOrWJgxHXfitBz3x5NNdBYGWTTrlkSM7_qxX1ApbKTL-z8FgIpjzv6TLhr9a0sMu1kpA23wo9rqIl35UYFLVO_IfSpA_bEJs0yvliRgXv83z5tzRoRNZMB33vI1hUZivw270zyIbEZzkGNssFczH0oHjjSMlWXQbbfhO3kzwQl9GblGCHDVDstI_lwH_vszkHTHuwS7_2WRG2aegAkFiQd9po1kYSfsnfk6fslVrtdQPqilZ1IyWLHVwoVh2vR7IyjUyBysU_n5bkTQgeRzRmMMCw7O_chozIAYLibF921err6XTLkpZMh4HAOZ7rJ0T5OQHwawLELiIbqK6D6XCrZ3f2AK0h_mwMTIQULG5i9nBRTPVUL8GzJGeuZsSE9FarfjXp7K0_cvv0JK4ml9cYa71OAtJ7sag8OPkRYyjcHShQpVWHWCaJnVunagKqxCh9vYAw=w1560-h778-no" width="100%" /></p>
+<p>板子成形</p>
+<p><img src="https://lh3.googleusercontent.com/Kki2Q58dAd89fKQI5Tqm3ITNUuN5K5uX0C8nGf58JxzOnHTx7v5F3TX9kV4rV_RD2MWZT4y3KnJiOYt2g7N073PNV1GYLZEQK8Vra9sr-3fzM_cXnqfLEbhj72HRvmJJ0U56pYggJjbe6_peDxtua138Vz-vCPOnCZ1mQDtgnm3WcKM8kEgCECiN7tXhN6VeObOSOM1GWDsI_q0kRVthiqF4PQI-tLo0sxYQbx8GPysqwjTnW49M4cL0-GeImQ-iLEweXAatohOIpmg1qSWkfABGQ_uBV4lNoe7CRLotRbhUO3SVWKJfw4scobqMs9C0CLZGjk0TUyHc0hmUw6lKZuCgvTQg_iuo1F1rxeMRUBXMVBbBJO52qBIdpHI5Am1Ao-ClRvDlV91jF7G7rTSaeHtB728rwB6D0zypAm3atjNlQ4hdP4GVi0mN_dzIJCBmoppuUD3RnYqZou43mh9KvrQGNji5qAQU2uzfDOQiIQo_CNP0d6YbaAF5wMbOzfxEL2w9Zeu1RYD1jGt_H5CloC5TF2DtvydB1oLJlfk-DRc47vfWGAkUYSDolPfMZGZpFC01TLUrjbqB2TcSHHHGZHlLtuBSTA=w1560-h778-no" width="100%" /></p>
+<p>組合圖</p>
+<p><img src="https://lh3.googleusercontent.com/nPfuSBWc5LkX2jZSrCgGHT6PxdTP71uqnzvo1vQJdZqIor9goVJpDB5fVoSuMv597NlWPcLlqf3IKALMK_frtj_HYp5ulONoV_jThtLBADwWgcIC8TAZrtjsiT_XWUI2X7Gd9vP3qySSiv5CEJInBJHf7ld2NDN0tLPC_y4cB-guVXF9MFcAyEYVvub6QFBSH1vNnlrd4FC9KnrmZtCt0PKqMG88iIRvgfAoKd_dG2uCgQsr3BAhwiZdhOp45dfXBnoawpXU2vdMbZOBjzY8sM_d-rrFVRnF5GtidJBH_r4rqVTwvHoV-rI7s3Jz8YB0AeryRzy5xK6h5fF-xoyv9VKkb5PQ6TzGBNTAuc9mmMEiZyXv-5aDpdNfKPE9O1dkv_WMxTvDIFA0zW4SDweggKE5zXLdRLRU8PgbmoXSCawZv3tXP6gj6XIecdEOslz9oHF0V61S6jej7j9NIsNoi2GD1OXEbM1aiKL_vtUUV9yqb7vDlyzGu2nCAdrC4YzW7WDn06ThsZ4nFBfnFbMLJ-pWU78qLMR-l7_yqS4dazC_NG1ARdkFntS420QIz_SRyJXgx3x40LYBzhVeTUP3glpnLIz97Q=w1560-h780-no" width="100%" /></p>
+<p>組合完後要讓一跟二連動，二跟三、三跟四，在輸入他們的齒數25/35、35/45、45/60</p>
+<p><img src="https://lh3.googleusercontent.com/RBTUgO7TBfcKloxfv2yuqHhevXwzPbX01JjgLdedD_RCG_c1gyE9gWyJ50aGMFU0krBIkEBEGUaCN59oo3gmTwhAJm9_MhuBXQkzx-MSeTAwyRZg9Jp3UhN3SfF-xEXsjA3Fx5M_x5ivbJPB4qx2muqI5dJTNgsqJ3Cm-fCHg_N5o_lzMGKQw4jGbp3Gv0d0yEbecSygYDoOosIa_kLsZSWbJow4FPYMs08gHOUze-0PlbBkwrx5SeZmDyd828bO09jJ38SjNBFeDH1txzYFzBuuudbOQSk5aQrHPQI8JT2QpNIX-GS0sAQOp55_7hdPGyK6hbS9ospZHmp4W0m1deDnerzdZYG8wzp0DGj86SwRci0O7_ML4KG7QTgV1N-IviaUs6229SCoxLqZxjGZFpE7npQjPdPSZX_0sxhxScltup3BNxwSCXEqj37VsEkPqjvxk_DlaR8vW-o3z9ioV4mUpl-0mGRV5SRWxfFC4IuNEvA62pKsts5gaYOCCQbH9hcQIzq1ftqgWUpjxldlZneimyHU_59xKIVc2EMCr6cJbwaV1TGBW6YRzHeSB0FH2tvTPLITX3MltsOkzkaGWBe92zAj7w=w1310-h842-no" width="100%" /></p>
+<p>心得:我一開始找不到尺寸，可是後面一步一步來很順利的就做到組合的部分，開始連接的時候有些不順就是會重疊在一起，不過後來發現問題就順利的完成可惜好像因為程式的問題齒輪接觸有些問題。</p>
+<p>自評:65</p>
+                    <a class="btn btn-default btn-xs" href="http://cdw11-ag100.rhcloud.com/static/blog/40323156-cdw11-3dchi-lun-nie-he-xin-de-bao-gao.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+
+        </div>
+        <div class="col-sm-3" id="sidebar">
+            <aside>
+
+<section class="well well-sm">
+    <ul class="list-group list-group-flush">
+
+            <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Recent Posts</span></h4>
+                <ul class="list-group" id="recentposts">
+                    <li class="list-group-item">
+                        <a href="http://cdw11-ag100.rhcloud.com/static/blog/40323156-cdw11-zi-mu-hui-zhi.html">
+                            40323156 cdw11 字母繪製
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="http://cdw11-ag100.rhcloud.com/static/blog/40323156-cdw11-zi-xing-che-lian-tiao-hui-zhi.html">
+                            40323156 cdw11 自行車鍊條繪製
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="http://cdw11-ag100.rhcloud.com/static/blog/40323156-cdw11-lian-yuan-hui-zhi.html">
+                            40323156 cdw11 鍊圓繪製
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="http://cdw11-ag100.rhcloud.com/static/blog/40323156-cdw11-2dchi-lun-nie-he-xin-de-bao-gao.html">
+                            40323156 cdw11 2D齒輪嚙合心得報告
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="http://cdw11-ag100.rhcloud.com/static/blog/40323156-cdw11-3dchi-lun-nie-he-xin-de-bao-gao.html">
+                            40323156 cdw11 3D齒輪嚙合心得報告
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="list-group-item"><a href="http://cdw11-ag100.rhcloud.com/static/blog/categories.html"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Categories</span></h4></a>
+                <ul class="list-group" id="categories">
+                    <li class="list-group-item">
+                        <a href="http://cdw11-ag100.rhcloud.com/static/blog/category/ag1.html">
+                            <i class="fa fa-folder-open fa-lg"></i> ag1
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="http://cdw11-ag100.rhcloud.com/static/blog/category/ag10.html">
+                            <i class="fa fa-folder-open fa-lg"></i> ag10
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="http://cdw11-ag100.rhcloud.com/static/blog/category/ag1_40223153.html">
+                            <i class="fa fa-folder-open fa-lg"></i> ag1_40223153
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="http://cdw11-ag100.rhcloud.com/static/blog/category/ag1_402231530.html">
+                            <i class="fa fa-folder-open fa-lg"></i> ag1_402231530
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="http://cdw11-ag100.rhcloud.com/static/blog/category/ag2.html">
+                            <i class="fa fa-folder-open fa-lg"></i> ag2
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="http://cdw11-ag100.rhcloud.com/static/blog/category/ag3.html">
+                            <i class="fa fa-folder-open fa-lg"></i> ag3
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="http://cdw11-ag100.rhcloud.com/static/blog/category/ag4.html">
+                            <i class="fa fa-folder-open fa-lg"></i> ag4
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="http://cdw11-ag100.rhcloud.com/static/blog/category/ag5.html">
+                            <i class="fa fa-folder-open fa-lg"></i> ag5
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="http://cdw11-ag100.rhcloud.com/static/blog/category/ag6.html">
+                            <i class="fa fa-folder-open fa-lg"></i> ag6
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="http://cdw11-ag100.rhcloud.com/static/blog/category/ag7.html">
+                            <i class="fa fa-folder-open fa-lg"></i> ag7
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="http://cdw11-ag100.rhcloud.com/static/blog/category/ag8.html">
+                            <i class="fa fa-folder-open fa-lg"></i> ag8
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="http://cdw11-ag100.rhcloud.com/static/blog/category/ag9.html">
+                            <i class="fa fa-folder-open fa-lg"></i> ag9
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="http://cdw11-ag100.rhcloud.com/static/blog/category/bg1.html">
+                            <i class="fa fa-folder-open fa-lg"></i> bg1
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="http://cdw11-ag100.rhcloud.com/static/blog/category/bg10.html">
+                            <i class="fa fa-folder-open fa-lg"></i> bg10
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="http://cdw11-ag100.rhcloud.com/static/blog/category/bg101.html">
+                            <i class="fa fa-folder-open fa-lg"></i> bg101
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="http://cdw11-ag100.rhcloud.com/static/blog/category/bg11.html">
+                            <i class="fa fa-folder-open fa-lg"></i> bg11
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="http://cdw11-ag100.rhcloud.com/static/blog/category/bg13.html">
+                            <i class="fa fa-folder-open fa-lg"></i> bg13
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="http://cdw11-ag100.rhcloud.com/static/blog/category/bg15.html">
+                            <i class="fa fa-folder-open fa-lg"></i> bg15
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="http://cdw11-ag100.rhcloud.com/static/blog/category/bg2.html">
+                            <i class="fa fa-folder-open fa-lg"></i> bg2
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="http://cdw11-ag100.rhcloud.com/static/blog/category/bg3.html">
+                            <i class="fa fa-folder-open fa-lg"></i> bg3
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="http://cdw11-ag100.rhcloud.com/static/blog/category/bg4.html">
+                            <i class="fa fa-folder-open fa-lg"></i> bg4
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="http://cdw11-ag100.rhcloud.com/static/blog/category/bg5.html">
+                            <i class="fa fa-folder-open fa-lg"></i> bg5
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="http://cdw11-ag100.rhcloud.com/static/blog/category/bg6.html">
+                            <i class="fa fa-folder-open fa-lg"></i> bg6
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="http://cdw11-ag100.rhcloud.com/static/blog/category/bg8.html">
+                            <i class="fa fa-folder-open fa-lg"></i> bg8
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="http://cdw11-ag100.rhcloud.com/static/blog/category/bg9.html">
+                            <i class="fa fa-folder-open fa-lg"></i> bg9
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="http://cdw11-ag100.rhcloud.com/static/blog/category/g3.html">
+                            <i class="fa fa-folder-open fa-lg"></i> g3
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="list-group-item"><a href="http://cdw11-ag100.rhcloud.com/static/blog/tags.html"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
+                <ul class="list-group list-inline tagcloud" id="tags">
+                </ul>
+            </li>
+    <li class="list-group-item"><h4><i class="fa fa-external-link-square fa-lg"></i><span class="icon-label">Links</span></h4>
+      <ul class="list-group" id="links">
+        <li class="list-group-item">
+            <a href="http://getpelican.com/" target="_blank">
+                Pelican
+            </a>
+        </li>
+        <li class="list-group-item">
+            <a href="https://github.com/DandyDev/pelican-bootstrap3/" target="_blank">
+                pelican-bootstrap3
+            </a>
+        </li>
+        <li class="list-group-item">
+            <a href="https://github.com/getpelican/pelican-plugins" target="_blank">
+                pelican-plugins
+            </a>
+        </li>
+        <li class="list-group-item">
+            <a href="https://github.com/Tipue/Tipue-Search" target="_blank">
+                Tipue search
+            </a>
+        </li>
+      </ul>
+    </li>
+    </ul>
+</section>
+            </aside>
+        </div>
+    </div>
+</div>
+<footer>
+   <div class="container">
+      <hr>
+      <div class="row">
+         <div class="col-xs-10">&copy; 2016 kmol
+            &middot; Powered by <a href="https://github.com/DandyDev/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
+            <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
+            <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>         </div>
+         <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Back to top</a></p></div>
+      </div>
+   </div>
+</footer>
+<script src="http://cdw11-ag100.rhcloud.com/static/blog/theme/js/jquery.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="http://cdw11-ag100.rhcloud.com/static/blog/theme/js/bootstrap.min.js"></script>
+
+<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+<script src="http://cdw11-ag100.rhcloud.com/static/blog/theme/js/respond.min.js"></script>
+
+    <!-- Disqus -->
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'cadlabmanual'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function () {
+            var s = document.createElement('script');
+            s.async = true;
+            s.type = 'text/javascript';
+            s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+    </script>
+    <!-- End Disqus Code -->
+
+</body>
+</html>

@@ -22,6 +22,7 @@
 </v>
 <v t="amd.20160501215942.1" a="E"><vh>@path content/a/g8</vh>
 <v t="amd.20160501215720.1"><vh>@edit 40323154-20160516.md</vh></v>
+<v t="leo.20160616131201.1"><vh>@edit 40323154-20160616.md</vh></v>
 </v>
 </v>
 </v>
@@ -116,6 +117,8 @@ app.register_blueprint(users.a.g9.ag9_40323132task.ag9_40323132)
 app.register_blueprint(users.a.g10.ag10_40323139.ag10_40323139)
 app.register_blueprint(users.a.g5.ag5_40323113task1.ag5_40323113)
 app.register_blueprint(users.a.g5.ag5_40123145task1.ag5_40123145)
+app.register_blueprint(users.a.g5.ag5_40123145task2.ag5_40123145_2)
+app.register_blueprint(users.a.g5.ag5_40123145task3.ag5_40123145_3)
 app.register_blueprint(users.a.g8.ag8_40323131_task1.ag8_40323131)
 app.register_blueprint(users.a.g4.ag4_40323138_task2bacd.ag4_40323138bacd)
 app.register_blueprint(users.a.g4.ag4_40323138_task3abcd.ag4_40323138task3)
@@ -127,10 +130,11 @@ app.register_blueprint(users.a.g1.a40223153.ag1_40223153)
 app.register_blueprint(users.a.g3.ag3_40323108.ag3_40323108)
 app.register_blueprint(users.a.g3.ag3_40323108_task2bacd.ag3_40323108bacd)
 app.register_blueprint(users.a.g3.ag3_40323108_task3abcd.ag3_40323108task3)
-app.register_blueprint(users.a.g1.a40323105_1.a40323105_1)
-
-
 app.register_blueprint(users.b.g9.bg9_40323250.bg9_40323250)
+
+app.register_blueprint(users.a.g4.ag4_40323109.ag4_40323109)
+app.register_blueprint(users.a.g4.ag4_40323109_task2bacd.ag4_40323109bacd)
+app.register_blueprint(users.a.g4.ag4_40323109_task3abcd.ag4_40323109task3)
 #bg1
 app.register_blueprint(users.b.g1.bg1_40123156.bg1_40123156)
 app.register_blueprint(users.b.g1.bg1_40123156_2.bg1_40123156_2)
@@ -184,12 +188,21 @@ app.register_blueprint(users.b.g4.bg4_40123128_cdw11.b40123128)
 app.register_blueprint(users.b.g4.bg4_40123128_cdw14.b40123128_1)
 #bg5
 app.register_blueprint(users.b.g5.b40323204_cdw11_1.bg5_40323204_1)
+app.register_blueprint(users.b.g5.b40323204_cdw11_2.bg5_40323204_2)
+app.register_blueprint(users.b.g5.b40323204_cdw11.bg5_40323204)
 #app.register_blueprint(users.b.g5.b40323206_cdw11_1.bg5_40323206_1)
 app.register_blueprint(users.b.g5.b40323206_cdw11_2.bg5_40323206_2)
 #bg11
 app.register_blueprint(users.b.g11.bg11_40323245.bg11_40323245)
 app.register_blueprint(users.b.g11.bg11_40323252.bg11_40323252)
-app.register_blueprint(users.b.g11.bg11_40323245_1.bg11)
+#app.register_blueprint(users.b.g11.bg11.bg11_40323245_1)
+#app.register_blueprint(users.b.g11.bg11_40323245_1.bg11)
+app.register_blueprint(users.b.g11.b40323252.bg11_1)
+
+#app.register_blueprint(users.b.g11.bg11.bg11_40323245_1)
+
+#app.register_blueprint(users.b.g11.bg11_40323245_1.bg11)
+app.register_blueprint(users.b.g11.b40323252.bg11_1)
 #bg101
 app.register_blueprint(users.b.g101.b40123200.bg101)
 
@@ -197,7 +210,8 @@ app.register_blueprint(users.b.g101.b40123200.bg101)
 app.register_blueprint(users.a.g7.ag7_40123149_1.ag7_40123149_1)
 app.register_blueprint(users.a.g7.ag7_40123149_2.ag7_40123149_2)
 #ag8
-
+#app.register_blueprint(users.a.g8.a40323143.ag8_40323143)
+app.register_blueprint(users.a.g8.a40323137.ag8_40323137)
 app.register_blueprint(users.a.g8.a40323154.ag8_40323154)
 #ag10
 app.register_blueprint(users.a.g10.a40323139.ag10_40323139_1)
@@ -362,6 +376,8 @@ import users.a.g10.ag10_40323139
 import users.a.g9.ag9_40323132task
 import users.a.g5.ag5_40323113task1
 import users.a.g5.ag5_40123145task1
+import users.a.g5.ag5_40123145task2
+import users.a.g5.ag5_40123145task3
 import users.a.g4.ag4_40323138
 import users.a.g4.ag4_40323138_task2bacd
 import users.a.g4.ag4_40323138_task3abcd
@@ -372,7 +388,9 @@ import users.a.g1.a40223153
 import users.a.g3.ag3_40323108
 import users.a.g3.ag3_40323108_task2bacd
 import users.a.g3.ag3_40323108_task3abcd
-import users.a.g1.a40323105_1
+import users.a.g4.ag4_40323109
+import users.a.g4.ag4_40323109_task2bacd
+import users.a.g4.ag4_40323109_task3abcd
 #bg1
 import users.b.g1.bg1_40123156
 import users.b.g1.bg1_40123156_2
@@ -420,7 +438,8 @@ import users.b.g4.b40323201_cdw11
 #bg5
 #import users.b.g5.b40323206_cdw11_1
 import users.b.g5.b40323204_cdw11_1
-
+import users.b.g5.b40323204_cdw11
+import users.b.g5.b40323204_cdw11_2
 
 #bg5
 #import users.b.g5.b40323206_cdw11_1
@@ -428,9 +447,14 @@ import users.b.g5.b40323204_cdw11_1
 import users.b.g5.b40323204_cdw11_2
 import users.b.g5.b40323206_cdw11_2
 #bg11
-import users.b.g11.bg11_40323245
+
 import users.b.g11.bg11_40323252
-import users.b.g11.bg11_40323245_1
+#import users.b.g11.bg11_40323245_1
+import users.b.g11.b40323252
+import users.b.g11.bg11_40323245
+#import users.b.g11.bg11_40323245_1
+import users.b.g11.b40323252
+
 #bg101
 import users.b.g101.b40123200
 #ag7
@@ -438,6 +462,7 @@ import users.a.g7.ag7_40123149_1
 import users.a.g7.ag7_40123149_2
 #ag8
 import users.a.g8.a40323143
+import users.a.g8.a40323137
 import users.a.g8.a40323154
 #ag10
 import users.a.g10.a40323139
@@ -769,10 +794,10 @@ shapedefs = window.shapeDefs
 obj2d = JSConstructor(window.Obj2D)
 cgo = cango("plotarea")
  
-cgo.setWorldCoords(-250, -250, 500, 500) 
+cgo.setWorldCoords(-350, -350, 1000, 1000) 
  
 # 畫軸線
-cgo.drawAxes(0, 240, 0, 240, {
+cgo.drawAxes(0, 480, 0, 480, {
     "strokeColor":"#aaaaaa",
     "fillColor": "#aaaaaa",
     "xTickInterval": 20,
@@ -873,9 +898,9 @@ class chain():
     x = 50
     y = 0
     degree = 20
-    first_degree = 20.78
-    startx = -233.06+100
-    starty = 49.48
+    first_degree = 20.78+90
+    startx = 0
+    starty = 0-215.16
     repeat = 360 / degree
     # 先畫出左邊第一關鍵節
     outstring = '''
@@ -896,10 +921,10 @@ x1, y1 = mychain.basic_rot('''+str(startx)+","+str(starty)+", "+str(first_degree
     # 接著處理右邊的非虛擬鍊條
     # 先畫出右邊第一關鍵節
  
-    p = -17.89+100
-    k = 93.98
+    p = -0-44.49
+    k = 0
     degree = 12
-    first_degree = 4.78
+    first_degree = 4.78+90
     repeat = 360 / degree
     # 第1節不是 virtual chain
     outstring += '''
@@ -917,7 +942,7 @@ p1, k1 = mychain.basic_rot('''+str(p)+","+str(k)+", "+str(first_degree)+''')
  
     # 上段連接直線
     # 從 x1, y1 作為起點
-    first_degree = 10.78
+    first_degree = 10.78+90
     repeat = 10
     outstring += '''
 m1, n1 = mychain.basic_rot(x1, y1, '''+str(first_degree)+''')
@@ -927,7 +952,7 @@ m1, n1 = mychain.basic_rot(x1, y1, '''+str(first_degree)+''')
  
     # 下段連接直線
     # 從 x11, y11 作為起點
-    first_degree = -10.78
+    first_degree = -10.78+90
     repeat = 10
     outstring += '''
 r1, s1 = mychain.basic_rot(x11, y11, '''+str(first_degree)+''')
@@ -1618,17 +1643,21 @@ def spur(cx, cy, m, n, pa, theta):
 n1 = 17
 n2 = 29
 n3 = 15
+n4 = 40
+n5 = 20
  
 # m 為模數, 根據畫布的寬度, 計算適合的模數大小
 # Module = mm of pitch diameter per tooth
 # 利用 80% 的畫布寬度進行繪圖
 # 計算模數的對應尺寸
-m = canvas.width*0.8/(n1+n2+n3)
+m = canvas.width*0.8/(n1+n2+n3+n4+n5)
  
 # 根據齒數與模組計算各齒輪的節圓半徑
 pr1 = n1*m/2
 pr2 = n2*m/2
 pr3 = n3*m/2
+pr4 = n4*m/2
+pr5 = n5*m/2
  
 # 畫布左右兩側都保留畫布寬度的 10%
 # 依此計算對應的最左邊齒輪的軸心座標
@@ -1649,6 +1678,8 @@ spur(cx+pr1+pr2, cy, m, n2, pa, 180-180/n2)
 # 但是第2齒為了與第一齒囓合時, 已經從原始定位線轉了 180-180/n2 度
 # 而當第2齒從與第3齒囓合的定位線, 逆時鐘旋轉 180-180/n2 角度後, 原先囓合的第3齒必須要再配合旋轉 (180-180/n2 )*n2/n3
 spur(cx+pr1+pr2+pr2+pr3, cy, m, n3, pa, 180-180/n3+(180-180/n2)*n2/n3)
+spur(cx+pr1+pr2+pr2+2*pr3+pr4, cy, m, n4, pa, 180-180/n4+(180-180/n3)*n3/n4)
+spur(cx+pr1+pr2+pr2+2*pr3+2*pr4+pr5, cy, m, n5, pa, 180-180/n5+(180-180/n4)*n4/n5)
 &lt;/script&gt;
 
 '''

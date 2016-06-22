@@ -15,18 +15,19 @@
 <v t="amd.20160501223113.1"><vh>@edit README.md</vh></v>
 <v t="amd.20160501215634.1" a="E"><vh>@path content/ag5</vh>
 <v t="amd.20160501215720.1"><vh>@edit 40323116-20160502.md</vh></v>
-<v t="amd.20160501220009.1"><vh>假如要送到 gh-pages 分支, 使用下列按鈕</vh>
+<v t="amd.20160501220009.1" a="E"><vh>假如要送到 gh-pages 分支, 使用下列按鈕</vh>
 <v t="amd.20160501220009.2"><vh>@button gh-pages pelican</vh></v>
 </v>
-<v t="amd.20160501220029.1"><vh>假如要在近端檢視, 使用下列按鈕</vh>
+<v t="amd.20160501220029.1" a="E"><vh>假如要在近端檢視, 使用下列按鈕</vh>
 <v t="amd.20160501220029.2"><vh>@button local pelican</vh></v>
 </v>
 </v>
 </v>
 </v>
 <v t="amd.20160501215545.1" a="E"><vh>wsgi 程式部份</vh>
-<v t="amd.20160501221015.1"><vh>@path ./../../../</vh>
-<v t="amd.20160501221001.1"><vh>@clean myflaskapp.py</vh>
+<v t="amd.20160501221015.1" a="E"><vh>@path ./../../../</vh>
+<v t="amd.20160501221001.1" a="E"><vh>@clean myflaskapp.py</vh>
+<v t="leo.20160616155712.1"><vh>40323116</vh></v>
 <v t="amd.20160501221001.2"><vh>myflaskapp declarations</vh></v>
 <v t="amd.20160501221001.3"><vh>index</vh></v>
 <v t="amd.20160501221001.4"><vh>user</vh></v>
@@ -40,14 +41,14 @@
 <v t="amd.20160501221001.12"><vh>imageaxupload</vh></v>
 <v t="amd.20160501221001.13"><vh>imagefileuploadform</vh></v>
 <v t="amd.20160501221001.14"><vh>download</vh></v>
-<v t="amd.20160501221001.15"><vh>send_images</vh></v>
 <v t="amd.20160501221001.16"><vh>send_static</vh></v>
 <v t="amd.20160501230850.1"><vh>send_blog</vh></v>
+<v t="amd.20160501221001.15"><vh>send_images</vh></v>
 <v t="amd.20160501225844.1"><vh>send_file</vh></v>
 </v>
 </v>
-<v t="leo.20160606110409.1"><vh>w14</vh></v>
 <v t="leo.20160502113402.1"><vh>@edit ag5_40323116_task1.py</vh></v>
+<v t="leo.20160616155638.1"><vh>w14</vh></v>
 </v>
 <v t="leo.20160502110937.2" a="E"><vh>Recovered Nodes</vh>
 <v t="leo.20160502110937.3"><vh>Recovered node "myflaskapp declarations" from @clean myflaskapp.py</vh>
@@ -2088,7 +2089,7 @@ Diff...
 +   &lt;/section&gt;&lt;/body&gt;&lt;/html&gt;
 +   '''
 </t>
-<t tx="leo.20160606110409.1">&lt;script type="text/javascript" src="http://brython.info/src/brython_dist.js"&gt;&lt;/script&gt;
+<t tx="leo.20160616155638.1">&lt;script type="text/javascript" src="http://brython.info/src/brython_dist.js"&gt;&lt;/script&gt;
 
 &lt;script type="text/javascript" src="http://2015fallhw.github.io/cptocadp/static/Cango-8v03.js"&gt;&lt;/script&gt;
 
@@ -2198,5 +2199,144 @@ spur(cx-105,cy,m,n,pa)
 spur(cx,cy,m,11,pa)
 spur(cx+92,cy,m,13,pa)
 &lt;/script&gt;</t>
+<t tx="leo.20160616155712.1">from flask import Blueprint, request
+ 
+ag5_16 = Blueprint('ag5_16', __name__, url_prefix='/ag5_16', template_folder='templates')
+
+
+head_str = '''
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;網際 2D 繪圖&lt;/title&gt;
+    &lt;!-- IE 9: display inline SVG --&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=9"&gt;
+
+&lt;script type="text/javascript" src="http://cptocadp-2015fallhw.rhcloud.com/static/Cango-8v03.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://cptocadp-2015fallhw.rhcloud.com/static/Cango2D-6v13.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://cptocadp-2015fallhw.rhcloud.com/static/CangoAxes-1v33.js"&gt;&lt;/script&gt;
+ 
+&lt;/head&gt;
+&lt;body&gt;
+ 
+&lt;script&gt;
+window.onload=function(){
+brython(1);
+}
+&lt;/script&gt;
+ 
+&lt;canvas id="plotarea" width="800" height="800"&gt;&lt;/canvas&gt;
+'''
+ 
+tail_str = '''
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+'''
+ 
+chain_str = '''
+&lt;script type="text/python"&gt;
+from javascript import JSConstructor
+from browser import alert
+from browser import window
+import math
+ 
+cango = JSConstructor(window.Cango)
+cobj = JSConstructor(window.Cobj)
+shapedefs = window.shapeDefs
+obj2d = JSConstructor(window.Obj2D)
+cgo = cango("plotarea")
+ 
+cgo.setWorldCoords(-250, -250, 500, 500) 
+ 
+# 畫軸線
+cgo.drawAxes(0, 240, 0, 240, {
+    "strokeColor":"#aaaaaa",
+    "fillColor": "#aaaaaa",
+    "xTickInterval": 20,
+    "xLabelInterval": 20,
+    "yTickInterval": 20,
+    "yLabelInterval": 20})
+ 
+deg = math.pi/180  
+ 
+# 將繪製鏈條輪廓的內容寫成 class 物件
+class chain():
+    # 輪廓的外型設為 class variable
+    chamber = "M -6.8397, -1.4894 \
+            A 7, 7, 0, 1, 0, 6.8397, -1.4894 \
+            A 40, 40, 0, 0, 1, 6.8397, -18.511 \
+            A 7, 7, 0, 1, 0, -6.8397, -18.511 \
+            A 40, 40, 0, 0, 1, -6.8397, -1.4894 z"
+    #chamber = "M 0, 0 L 0, -20 z"
+    cgoChamber = window.svgToCgoSVG(chamber)
+ 
+    def __init__(self, fillcolor="green", border=True, strokecolor= "tan", linewidth=2, scale=1):
+        self.fillcolor = fillcolor
+        self.border = border
+        self.strokecolor = strokecolor
+        self.linewidth = linewidth
+        self.scale = scale
+ 
+    # 利用鏈條起點與終點定義繪圖
+    def basic(self, x1, y1, x2, y2):
+        self.x1 = x1
+        self.y1 = y1
+        self.x2 = x2
+        self.y2 = y2
+        # 注意, cgo.Chamber 為成員變數
+        cmbr = cobj(self.cgoChamber, "SHAPE", {
+                "fillColor": self.fillcolor,
+                "border": self.border,
+                "strokeColor": self.strokecolor,
+                "lineWidth": self.linewidth })
+ 
+        # hole 為原點位置
+        hole = cobj(shapedefs.circle(4*self.scale), "PATH")
+        cmbr.appendPath(hole)
+ 
+        # 複製 cmbr, 然後命名為 basic1
+        basic1 = cmbr.dup()
+        # 因為鏈條的角度由原點向下垂直, 所以必須轉 90 度, 再考量 atan2 的轉角
+        basic1.rotate(math.atan2(y2-y1, x2-x1)/deg+90)
+ 
+        # 放大 scale 倍
+        cgo.render(basic1, x1, y1, self.scale, 0)
+ 
+    # 利用鏈條起點與旋轉角度定義繪圖, 使用內定的 color, border 與 linewidth 變數
+    def basic_rot(self, x1, y1, rot, v=False):
+        # 若 v 為 True 則為虛擬 chain, 不 render
+        self.x1 = x1
+        self.y1 = y1
+        self.rot = rot
+        self.v = v
+        # 注意, cgoChamber 為成員變數
+        cmbr = cobj(self.cgoChamber, "SHAPE", {
+                "fillColor": self.fillcolor,
+                "border": self.border,
+                "strokeColor": self.strokecolor,
+                "lineWidth": self.linewidth })
+ 
+        # hole0 為原點位置
+        hole = cobj(shapedefs.circle(4*self.scale), "PATH")
+        cmbr.appendPath(hole)
+        # 根據旋轉角度, 計算 x2 與 y2
+        x2 = x1 + 20*math.cos(rot*deg)*self.scale
+        y2 = y1 + 20*math.sin(rot*deg)*self.scale
+ 
+        # 複製 cmbr, 然後命名為 basic1
+        basic1 = cmbr.dup()
+        # 因為鏈條的角度由原點向下垂直, 所以必須轉 90 度, 再考量 atan2 的轉角
+        basic1.rotate(rot+90)
+ 
+        # 放大 scale 倍
+        if v == False:
+            cgo.render(basic1, x1, y1, self.scale, 0)
+ 
+        return x2, y2
+'''
+ 
+</t>
 </tnodes>
 </leo_file>

@@ -29,8 +29,9 @@
 </v>
 </v>
 <v t="amd.20160501215545.1" a="E"><vh>wsgi 程式部份</vh>
-<v t="leo.20160512105051.1" a="E"><vh>@clean bg11_40323245_1.py</vh>
-<v t="leo.20160512111926.1"><vh>bg11_40323245_1 declarations</vh></v>
+<v t="leo.20160512105051.1" a="E"><vh>@clean bg11_40323245_2.py</vh>
+<v t="leo.20160512111926.1"><vh>bg11_40323245_2 declarations</vh></v>
+<v t="leo.20160617225339.1"><vh>gear</vh></v>
 <v t="leo.20160512111926.2"><vh>a</vh></v>
 <v t="leo.20160512111926.3"><vh>b</vh></v>
 <v t="leo.20160512111926.4"><vh>c</vh></v>
@@ -132,15 +133,18 @@ app.register_blueprint(users.a.g8.ag8_40323123.ag8_40323123)
 app.register_blueprint(users.a.g10.ag10_40323129_task1.ag10_40323129)
 app.register_blueprint(users.a.g2.ag2_40323120.ag2_40323120)
 app.register_blueprint(users.a.g1.ag1_40323105.ag1_40323105)
-app.register_blueprint(users.a.g1.a40223153.ag1_40223153)
+app.register_blueprint(users.a.g1.a40223153.aag1)
 app.register_blueprint(users.a.g3.ag3_40323108.ag3_40323108)
 app.register_blueprint(users.a.g3.ag3_40323108_task2bacd.ag3_40323108bacd)
 app.register_blueprint(users.a.g3.ag3_40323108_task3abcd.ag3_40323108task3)
 app.register_blueprint(users.b.g9.bg9_40323250.bg9_40323250)
-
+app.register_blueprint(users.a.g4.a40323130.ag4_40323130)
+app.register_blueprint(users.a.g1.a40323105_1.a40323105_1)
 app.register_blueprint(users.a.g4.ag4_40323109.ag4_40323109)
 app.register_blueprint(users.a.g4.ag4_40323109_task2bacd.ag4_40323109bacd)
 app.register_blueprint(users.a.g4.ag4_40323109_task3abcd.ag4_40323109task3)
+app.register_blueprint(users.a.g1.a40323106.a40323106)
+app.register_blueprint(users.a.g1.a40323107_2.a40323107_2)
 #bg1
 app.register_blueprint(users.b.g1.bg1_40123156.bg1_40123156)
 app.register_blueprint(users.b.g1.bg1_40123156_2.bg1_40123156_2)
@@ -194,15 +198,21 @@ app.register_blueprint(users.b.g4.bg4_40123128_cdw11.b40123128)
 app.register_blueprint(users.b.g4.bg4_40123128_cdw14.b40123128_1)
 #bg5
 app.register_blueprint(users.b.g5.b40323204_cdw11_1.bg5_40323204_1)
+app.register_blueprint(users.b.g5.b40323204_cdw11_2.bg5_40323204_2)
+app.register_blueprint(users.b.g5.b40323204_cdw11.bg5_40323204)
 #app.register_blueprint(users.b.g5.b40323206_cdw11_1.bg5_40323206_1)
 app.register_blueprint(users.b.g5.b40323206_cdw11_2.bg5_40323206_2)
+
+#bg10
+app.register_blueprint(users.b.g10.bg10_40328245.bg10_40328245)
+app.register_blueprint(users.b.g10.bg10_40328242.bg10_40328242)
+app.register_blueprint(users.b.g10.bg10_40323241.bg10_40323241)
+app.register_blueprint(users.b.g10.bg10_40323222.bg10_40323222)
+
 #bg11
 app.register_blueprint(users.b.g11.bg11_40323245.bg11_40323245)
 app.register_blueprint(users.b.g11.bg11_40323252.bg11_40323252)
-
-#app.register_blueprint(users.b.g11.bg11.bg11_40323245_1)
-
-app.register_blueprint(users.b.g11.bg11_40323245_1.bg11)
+app.register_blueprint(users.b.g11.bg11_40323245_2.bg11)
 app.register_blueprint(users.b.g11.b40323252.bg11_1)
 
 #bg101
@@ -212,9 +222,10 @@ app.register_blueprint(users.b.g101.b40123200.bg101)
 app.register_blueprint(users.a.g7.ag7_40123149_1.ag7_40123149_1)
 app.register_blueprint(users.a.g7.ag7_40123149_2.ag7_40123149_2)
 #ag8
-#app.register_blueprint(users.a.g8.a40323143.ag8_40323143)
+app.register_blueprint(users.a.g8.a40323143.ag8_40323143)
 app.register_blueprint(users.a.g8.a40323137.ag8_40323137)
 app.register_blueprint(users.a.g8.a40323154.ag8_40323154)
+app.register_blueprint(users.a.g8.ag8_40323145.ag8_40323145)
 #ag10
 app.register_blueprint(users.a.g10.a40323139.ag10_40323139_1)
 #app.register_blueprint(users.a.g10.a40323141.ag10_40323141_1)
@@ -235,6 +246,8 @@ app.register_blueprint(users.b.g3.bg3_40123242_cdw12.b40123242)
 app.register_blueprint(users.b.g3.bg3_40123250_cdw14.b40123250_1)
 app.register_blueprint(users.b.g3.bg3_40123224_cdw14.b40123224_1)
 
+#bg6
+app.register_blueprint(users.b.g6.bg6_40323248.bg6_40323248)
 
 
 </t>
@@ -393,6 +406,11 @@ import users.a.g3.ag3_40323108_task3abcd
 import users.a.g4.ag4_40323109
 import users.a.g4.ag4_40323109_task2bacd
 import users.a.g4.ag4_40323109_task3abcd
+import users.a.g4.a40323130
+import users.a.g1.a40323105_1
+import users.a.g1.a40323106
+import users.a.g1.a40323107_2
+import users.b.g6.bg6_40323248
 #bg1
 import users.b.g1.bg1_40123156
 import users.b.g1.bg1_40123156_2
@@ -440,18 +458,27 @@ import users.b.g4.b40323201_cdw11
 #bg5
 #import users.b.g5.b40323206_cdw11_1
 import users.b.g5.b40323204_cdw11_1
-
+import users.b.g5.b40323204_cdw11
+import users.b.g5.b40323204_cdw11_2
 
 #bg5
 #import users.b.g5.b40323206_cdw11_1
 import users.b.g5.b40323204_cdw11_1
 import users.b.g5.b40323204_cdw11_2
 import users.b.g5.b40323206_cdw11_2
+
+#bg10
+import users.b.g10.bg10_40328245
+import users.b.g10.bg10_40328242
+import users.b.g10.bg10_40323241
+import users.b.g10.bg10_40323222
+
 #bg11
 
 import users.b.g11.bg11_40323252
+import users.b.g11.bg11_40323245_2
+import users.b.g11.b40323252
 import users.b.g11.bg11_40323245
-import users.b.g11.bg11_40323245_1
 import users.b.g11.b40323252
 
 #bg101
@@ -463,6 +490,7 @@ import users.a.g7.ag7_40123149_2
 import users.a.g8.a40323143
 import users.a.g8.a40323137
 import users.a.g8.a40323154
+import users.a.g8.ag8_40323145
 #ag10
 import users.a.g10.a40323139
 import users.a.g10.a40323141
@@ -885,9 +913,7 @@ class chain():
  
         return x2, y2
 '''
- 
-
-</t>
+ </t>
 <t tx="leo.20160512111926.10">def eighteenthirty(x, y):
     '''
 從圖解法與符號式解法得到的兩條外切線座標點
@@ -2178,5 +2204,165 @@ x7, y7 = mychain.basic_rot(x6, y6, -0, color="green")
     return outstring
 
 </t>
+<t tx="leo.20160617225339.1">@bg11.route('/gear')
+def gear():
+    outstring = '''
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;網際 2D 繪圖&lt;/title&gt;
+    &lt;!-- IE 9: display inline SVG --&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=9"&gt;
+&lt;script type="text/javascript" src="http://brython.info/src/brython_dist.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://2015fallhw.github.io/cptocadp/static/Cango-8v03.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://2015fallhw.github.io/cptocadp/static/Cango2D-7v01-min.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://2015fallhw.github.io/cptocadp/static/gearUtils-05.js"&gt;&lt;/script&gt;
+ 
+&lt;script&gt;
+window.onload=function(){
+brython(1);
+}
+&lt;/script&gt;
+ 
+&lt;canvas id='gear1' width='800' height='750'&gt;&lt;/canvas&gt;
+ 
+&lt;script type="text/python"&gt;
+# 將 導入的 document 設為 doc 主要原因在於與舊程式碼相容
+from browser import document as doc
+# 由於 Python3 與 Javascript 程式碼已經不再混用, 因此來自 Javascript 的變數, 必須居中透過 window 物件轉換
+from browser import window
+# 針對 Javascript 既有的物件, 則必須透過 JSConstructor 轉換
+from javascript import JSConstructor
+import math
+ 
+# 主要用來取得畫布大小
+canvas = doc["gear1"]
+# 此程式採用 Cango Javascript 程式庫繪圖, 因此無需 ctx
+#ctx = canvas.getContext("2d")
+# 針對類別的轉換, 將 Cango.js 中的 Cango 物件轉為 Python cango 物件
+cango = JSConstructor(window.Cango)
+# 針對變數的轉換, shapeDefs 在 Cango 中資料型別為變數, 可以透過 window 轉換
+shapedefs = window.shapeDefs
+# 目前 Cango 結合 Animation 在 Brython 尚無法運作, 此刻只能繪製靜態圖形
+# in CangoAnimation.js
+#interpolate1 = window.interpolate
+# Cobi 與 createGearTooth 都是 Cango Javascript 程式庫中的物件
+cobj = JSConstructor(window.Cobj)
+creategeartooth = JSConstructor(window.createGearTooth)
+ 
+# 經由 Cango 轉換成 Brython 的 cango, 指定將圖畫在 id="plotarea" 的 canvas 上
+cgo = cango("gear1")
+ 
+######################################
+# 畫正齒輪輪廓
+#####################################
+def spur(cx, cy, m, n, pa, theta):
+    # n 為齒數
+    #n = 17
+    # pa 為壓力角
+    #pa = 25
+    # m 為模數, 根據畫布的寬度, 計算適合的模數大小
+    # Module = mm of pitch diameter per tooth
+    #m = 0.8*canvas.width/n
+    # pr 為節圓半徑
+    pr = n*m/2 # gear Pitch radius
+    # generate gear
+    data = creategeartooth(m, n, pa)
+    # Brython 程式中的 print 會將資料印在 Browser 的 console 區
+    #print(data)
+ 
+    gearTooth = cobj(data, "SHAPE", {
+            "fillColor":"#ddd0dd",
+            "border": True,
+            "strokeColor": "#606060" })
+    #gearTooth.rotate(180/n) # rotate gear 1/2 tooth to mesh, 請注意 rotate 角度為 degree
+    # theta 為角度
+    gearTooth.rotate(theta) 
+    # 單齒的齒形資料經過旋轉後, 將資料複製到 gear 物件中
+    gear = gearTooth.dup()
+    # gear 為單一齒的輪廓資料
+    #cgo.render(gearTooth)
+ 
+    # 利用單齒輪廓旋轉, 產生整個正齒輪外形
+    for i in range(1, n):
+        # 將 gearTooth 中的資料複製到 newTooth
+        newTooth = gearTooth.dup()
+        # 配合迴圈, newTooth 的齒形資料進行旋轉, 然後利用 appendPath 方法, 將資料併入 gear
+        newTooth.rotate(360*i/n)
+        # appendPath 為 Cango 程式庫中的方法, 第二個變數為 True, 表示要刪除最前頭的 Move to SVG Path 標註符號
+        gear.appendPath(newTooth, True) # trim move command = True
+ 
+    # 建立軸孔
+    # add axle hole, hr 為 hole radius
+    hr = 0.6*pr # diameter of gear shaft
+    shaft = cobj(shapedefs.circle(hr), "PATH")
+    shaft.revWinding()
+    gear.appendPath(shaft) # retain the 'moveTo' command for shaft sub path
+    gear.translate(cx, cy)
+    # render 繪出靜態正齒輪輪廓
+    cgo.render(gear)
+    # 接著繪製齒輪的基準線
+    deg = math.pi/180
+    Line = cobj(['M', cx, cy, 'L', cx+pr*math.cos(theta*deg), cy+pr*math.sin(theta*deg)], "PATH", {
+          'strokeColor':'blue', 'lineWidth': 1})
+    cgo.render(Line)
+ 
+# 3個齒輪的齒數
+n1 = 10
+n2 = 12
+n3 = 14
+n4 = 16
+ 
+# m 為模數, 根據畫布的寬度, 計算適合的模數大小
+# Module = mm of pitch diameter per tooth
+# 利用 80% 的畫布寬度進行繪圖
+# 計算模數的對應尺寸
+m = canvas.width*0.8/(n1+n2+n3+n4)
+ 
+# 根據齒數與模組計算各齒輪的節圓半徑
+pr1 = n1*m/2
+pr2 = n2*m/2
+pr3 = n3*m/2
+pr4 = n4*m/2
+# 畫布左右兩側都保留畫布寬度的 10%
+# 依此計算對應的最左邊齒輪的軸心座標
+cx = canvas.width*0.1+pr1
+cy = canvas.height/2
+ 
+# pa 為壓力角
+pa = 25
+ 
+
+# 畫布左右兩側都保留畫布寬度的 10%
+# 依此計算對應的最左邊齒輪的軸心座標
+cx = canvas.width*0.1+pr1
+cy = canvas.height/2
+ 
+# pa 為壓力角
+pa = 25
+ 
+# 畫最左邊齒輪, 定位線旋轉角為 0, 軸心座標 (cx, cy)
+spur(cx, cy, m, n1, pa, 0)
+# 第2個齒輪將原始的定位線逆時鐘轉 180 度後, 與第1個齒輪正好齒頂與齒頂對齊
+# 只要第2個齒輪再逆時鐘或順時鐘轉動半齒的角度, 即可完成囓合
+# 每一個齒分別包括從齒根到齒頂的範圍, 涵蓋角度為 360/n, 因此所謂的半齒角度為 180/n
+spur(cx+pr1+pr2, cy, m, n2, pa, 180-180/n2)
+# 第2齒與第3齒的囓合, 首先假定第2齒的定位線在 theta 角為 0 的原始位置
+# 如此, 第3齒只要逆時鐘旋轉 180 度後, 再逆時鐘或順時鐘轉動半齒的角度, 即可與第2齒囓合
+# 但是第2齒為了與第一齒囓合時, 已經從原始定位線轉了 180-180/n2 度
+# 而當第2齒從與第3齒囓合的定位線, 逆時鐘旋轉 180-180/n2 角度後, 原先囓合的第3齒必須要再配合旋轉 (180-180/n2 )*n2/n3
+spur(cx+pr1+pr2+pr2+pr3, cy, m, n3, pa, 180-180/n3+(180-180/n2)*n2/n3)
+
+spur(cx+pr1+pr2+pr2+pr3+pr3+pr4, cy, m, n4, pa, 180-180/n3*n3/n4+(180-180/n2)*n2/n3*n3/n4+(180-180/n3)*n3/n4)
+
+
+&lt;/script&gt;
+
+
+&lt;/body&gt;
+&lt;/html&gt;
+'''
+    return outstring</t>
 </tnodes>
 </leo_file>
