@@ -39,8 +39,10 @@ import users.a.g1.a40323146_1
 import users.a.g1.a40323106
 import users.a.g1.a40323107_2
 import users.b.g6.bg6_40323248
-import users.a.g4.a40323138
-import users.a.g4.a403231382
+import users.a.g3.a40323103
+import users.a.g10.a40323127
+import users.a.g10.a40323128
+import users.a.g9.a40323125
 
 #bg1
 import users.b.g1.bg1_40123156
@@ -58,6 +60,7 @@ import users.b.g1.b40123131_cdw12
 import users.b.g1.bg1_40123134
 import users.b.g1.bg1_40123134_2
 import users.b.g1.bg1_40123134_3
+import users.b.g1.bg1_40123134_4
 import users.b.g1.b40123133_cdw11
 import users.b.g1.b40123133_cdw12
 import users.b.g1.bg1_40123126
@@ -519,6 +522,7 @@ def send_file(path):
 
 if __name__ == "__main__":
     app.run()
+
 app.register_blueprint(users.a.g4.ag4_40323138.ag4_40323138)
 app.register_blueprint(users.a.g10.ag10_40323141_task1.ag10_40323141)    
 app.register_blueprint(users.a.g9.ag9_40323132task.ag9_40323132)
@@ -549,12 +553,13 @@ app.register_blueprint(users.a.g4.ag4_40323109_task3abcd.ag4_40323109task3)
 app.register_blueprint(users.a.g9.a40323132_1.a40323132_1)
 app.register_blueprint(users.a.g9.a40323149.a40323149_1)
 #app.register_blueprint(users.a.g1.ag1_40323148.ag1_40323148)
-app.register_blueprint(users.a.g4.a40323138.a40323138)
-app.register_blueprint(users.a.g4.a403231382.a403231381)
-
 app.register_blueprint(users.a.g1.a40323146_1.a40323146_1)
 app.register_blueprint(users.a.g1.a40323106.a40323106)
 app.register_blueprint(users.a.g1.a40323107_2.a40323107_2)
+app.register_blueprint(users.a.g3.a40323103.ag3_40323103)
+app.register_blueprint(users.a.g10.a40323127.ag10_40323127)
+app.register_blueprint(users.a.g10.a40323128.ag10_40323128)
+app.register_blueprint(users.a.g9.a40323125.ag9_40323125)
 
 #bg1
 app.register_blueprint(users.b.g1.bg1_40123156.bg1_40123156)
@@ -574,10 +579,10 @@ app.register_blueprint(users.b.g1.b40123131_cdw12.bg1)
 app.register_blueprint(users.b.g1.bg1_40123134.bg1_40123134)
 app.register_blueprint(users.b.g1.bg1_40123134_2.bg1_40123134_2)
 app.register_blueprint(users.b.g1.bg1_40123134_3.bg1_40123134_3)
+app.register_blueprint(users.b.g1.bg1_40123134_4.bg1_40123134_4)
 app.register_blueprint(users.b.g1.b40123133_cdw11.bg1_40123133)
 app.register_blueprint(users.b.g1.b40123133_cdw12.bg1_40123133_2)
-#app.register_blueprint(users.b.g1.bg1_40123131.bg1_40123131)
-#app.register_blueprint(users.b.g1.bg1_40123131_2.bg40123131)
+
 
 app.register_blueprint(users.b.g1.bg1_40123126.bg1_40123126)
 app.register_blueprint(users.b.g1.bg1_40123126_2.bg1_40123126_2)

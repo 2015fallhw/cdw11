@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>CDW11 網頁 (虎尾科大MDE)</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/" rel="alternate"></link><link href="http://cdw11-ag100.rhcloud.com/static/blog/feeds/ag5.atom.xml" rel="self"></link><id>http://cdw11-ag100.rhcloud.com/static/blog/</id><updated>2016-06-22T20:37:02+08:00</updated><entry><title>40123145 - 期末報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40123145-qi-mo-bao-gao.html" rel="alternate"></link><updated>2016-06-22T20:37:02+08:00</updated><author><name>40123145</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-22:static/blog/40123145-qi-mo-bao-gao.html</id><summary type="html">&lt;h3&gt;40123145 - 期末報告&lt;/h3&gt;
+
+
+
+&lt;p&gt;&lt;/h3&gt;2D齒輪嚙合&lt;/h3&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://python40123145-40123145.rhcloud.com/ag5_40123145_2/threegear"&gt;http://python40123145-40123145.rhcloud.com/ag5_40123145_2/threegear/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/6ygNkRQ.jpg?1" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/h3&gt;2D齒輪嚙合程式碼&lt;/h3&gt;&lt;/p&gt;
+&lt;pre class="brush: python"&gt;
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;網際 2D 繪圖&lt;/title&gt;
+    &lt;!-- IE 9: display inline SVG --&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=9"&gt;
+&lt;script type="text/javascript" src="http://brython.info/src/brython_dist.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://2015fallhw.github.io/cptocadp/static/Cango-8v03.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://2015fallhw.github.io/cptocadp/static/Cango2D-7v01-min.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://2015fallhw.github.io/cptocadp/static/CangoAxes-1v33.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://2015fallhw.github.io/cptocadp/static/flintlockPartDefs-02.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://2015fallhw.github.io/cptocadp/static/CangoAnimation-4v01.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://2015fallhw.github.io/cptocadp/static/gearUtils-05.js"&gt;&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;script&gt;
+window.onload=function(){
+brython(1);
+}
+&lt;/script&gt;
+&lt;canvas id='gear1' width='800' height='750'&gt;&lt;/canvas&gt;
+
+&lt;script type="text/python"&gt;
+# 將 導入的 document 設為 doc 主要原因在於與舊程式碼相容
+from browser import document as doc
+# 由於 Python3 與 Javascript 程式碼已經不再混用, 因此來自 Javascript 的變數, 必須居中透過 window 物件轉換
+from browser import window
+# 針對 Javascript 既有的物件, 則必須透過 JSConstructor 轉換
+from javascript import JSConstructor
+import math
+
+# 主要用來取得畫布大小
+canvas = doc["gear1"]
+# 此程式採用 Cango Javascript 程式庫繪圖, 因此無需 ctx
+#ctx = canvas.getContext("2d")
+# 針對類別的轉換, 將 Cango.js 中的 Cango 物件轉為 Python cango 物件
+cango = JSConstructor(window.Cango)
+# 針對變數的轉換, shapeDefs 在 Cango 中資料型別為變數, 可以透過 window 轉換
+shapedefs = window.shapeDefs
+# 目前 Cango 結合 Animation 在 Brython 尚無法運作, 此刻只能繪製靜態圖形
+# in CangoAnimation.js
+#interpolate1 = window.interpolate
+# Cobi 與 createGearTooth 都是 Cango Javascript 程式庫中的物件
+cobj = JSConstructor(window.Cobj)
+creategeartooth = JSConstructor(window.createGearTooth)
+
+# 經由 Cango 轉換成 Brython 的 cango, 指定將圖畫在 id="plotarea" 的 canvas 上
+cgo = cango("gear1")
+
+######################################
+# 畫正齒輪輪廓
+#####################################
+def spur(cx, cy, m, n, pa):
+    # n 為齒數
+    #n = 25
+    # pa 為壓力角
+    #pa = 25
+    # m 為模數, 根據畫布的寬度, 計算適合的模數大小
+    # Module = mm of pitch diameter per tooth
+    #m = 0.8*canvas.width/n
+    # pr 為節圓半徑
+    pr = n*m/2  # gear Pitch radius
+    # generate gear
+    data = creategeartooth(m, n, pa)
+    # Brython 程式中的 print 會將資料印在 Browser 的 console 區
+    #print(data)
+    gearTooth = cobj(data, "SHAPE", {
+            "fillColor":"#ddd0dd",
+            "border": True,
+            "strokeColor": "#606060" })
+    gearTooth.rotate(180/n) # rotate gear 1/2 tooth to mesh
+    # 單齒的齒形資料經過旋轉後, 將資料複製到 gear 物件中
+    gear = gearTooth.dup()
+    # gear 為單一齒的輪廓資料
+    #cgo.render(gearTooth)
+
+    # 利用單齒輪廓旋轉, 產生整個正齒輪外形
+    for i in range(1, n):
+        # 將 gearTooth 中的資料複製到 newTooth
+        newTooth = gearTooth.dup()
+        # 配合迴圈, newTooth 的齒形資料進行旋轉, 然後利用 appendPath 方法, 將資料併入 gear
+        newTooth.rotate(360*i/n)
+        # appendPath 為 Cango 程式庫中的方法, 第二個變數為 True, 表示要刪除最前頭的 Move to SVG Path 標註符號
+        gear.appendPath(newTooth, True) # trim move command = True
+
+    # 建立軸孔
+    # add axle hole, hr 為 hole radius
+    hr = 0.6*pr # diameter of gear shaft
+    shaft = cobj(shapedefs.circle(hr), "PATH")
+    shaft.revWinding()
+    gear.appendPath(shaft) # retain the 'moveTo' command for shaft sub path
+    #cx = canvas.width/2
+    #cy = canvas.height/2
+    gear.translate(cx, cy)
+    # render 繪出靜態正齒輪輪廓
+    cgo.render(gear)
+    # 接著繪製齒輪的基準線
+    deg = math.pi/180
+    Line =  cobj(['M', cx, cy, 'L', cx+pr*math.cos(180/n*deg), cy+pr*math.sin(180/n*deg)], "PARH", {'strokeColor':'blue' ,'linWidth':4})
+    cgo.render(Line)
+cx = canvas.width/2
+cy = canvas.height/2
+# n 為齒數
+n = 25
+# pa 為壓力角
+pa = 25
+# m 為模數, 根據畫布的寬度, 計算適合的模數大小
+# Module = mm of pitch diameter per tooth
+m = 0.8*canvas.width/n/4
+spur(cx-118, cy, m, n, pa)
+spur(cx, cy, m, 11, pa)
+spur(cx+80, cy, m, 13, pa)
+spur(cx+179, cy, m, 17, pa)
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+&lt;/pre&gt;
+
+&lt;p&gt;&lt;/h3&gt;
+說明:
+&lt;/h3&gt;
+&lt;/h4&gt;
+藉由老師給的齒輪程式碼，並且載入資料庫，再更改程式碼中的齒數、模數，就可以產生齒輪，並且自己判斷嚙合，改變壓力角以及齒數達到嚙合的效果。增加spur(cx, cy, m, *, pa).可以增加一個齒輪。
+&lt;/h4&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/h3&gt;2D鍊條直立&lt;/h3&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/WSx6bo5.jpg?1" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://python40123145-40123145.rhcloud.com/ag5_40123145_2/twocircle"&gt;http://python40123145-40123145.rhcloud.com/ag5_40123145_2/twocircle&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/h3&gt;2D鍊條程式碼&lt;/h3&gt;&lt;/p&gt;
+&lt;pre class="brush: python"&gt;
+
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;網際 2D 繪圖&lt;/title&gt;
+    &lt;!-- IE 9: display inline SVG --&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=9"&gt;
+&lt;script type="text/javascript" src="http://brython.info/src/brython_dist.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://cptocadp-2015fallhw.rhcloud.com/static/Cango-8v03.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://cptocadp-2015fallhw.rhcloud.com/static/Cango2D-6v13.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://cptocadp-2015fallhw.rhcloud.com/static/CangoAxes-1v33.js"&gt;&lt;/script&gt;
+
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;script&gt;
+window.onload=function(){
+brython(1);
+}
+&lt;/script&gt;
+
+&lt;canvas id="plotarea" width="800" height="800"&gt;&lt;/canvas&gt;
+
+&lt;script type="text/python"&gt;
+from javascript import JSConstructor
+from browser import alert
+from browser import window
+import math
+
+cango = JSConstructor(window.Cango)
+cobj = JSConstructor(window.Cobj)
+shapedefs = window.shapeDefs
+obj2d = JSConstructor(window.Obj2D)
+cgo = cango("plotarea")
+
+cgo.setWorldCoords(-250, -250, 500, 500) 
+
+# 畫軸線
+cgo.drawAxes(0, 240, 0, 240, {
+    "strokeColor":"#aaaaaa",
+    "fillColor": "#aaaaaa",
+    "xTickInterval": 20,
+    "xLabelInterval": 20,
+    "yTickInterval": 20,
+    "yLabelInterval": 20})
+
+deg = math.pi/180  
+
+# 將繪製鏈條輪廓的內容寫成 class 物件
+class chain():
+    # 輪廓的外型設為 class variable
+    chamber = "M -6.8397, -1.4894             A 7, 7, 0, 1, 0, 6.8397, -1.4894             A 40, 40, 0, 0, 1, 6.8397, -18.511             A 7, 7, 0, 1, 0, -6.8397, -18.511             A 40, 40, 0, 0, 1, -6.8397, -1.4894 z"
+    #chamber = "M 0, 0 L 0, -20 z"
+    cgoChamber = window.svgToCgoSVG(chamber)
+
+    def __init__(self, fillcolor="green", border=True, strokecolor= "tan", linewidth=2, scale=1):
+        self.fillcolor = fillcolor
+        self.border = border
+        self.strokecolor = strokecolor
+        self.linewidth = linewidth
+        self.scale = scale
+
+    # 利用鏈條起點與終點定義繪圖
+    def basic(self, x1, y1, x2, y2):
+        self.x1 = x1
+        self.y1 = y1
+        self.x2 = x2
+        self.y2 = y2
+        # 注意, cgo.Chamber 為成員變數
+        cmbr = cobj(self.cgoChamber, "SHAPE", {
+                "fillColor": self.fillcolor,
+                "border": self.border,
+                "strokeColor": self.strokecolor,
+                "lineWidth": self.linewidth })
+
+        # hole 為原點位置
+        hole = cobj(shapedefs.circle(4*self.scale), "PATH")
+        cmbr.appendPath(hole)
+
+        # 複製 cmbr, 然後命名為 basic1
+        basic1 = cmbr.dup()
+        # 因為鏈條的角度由原點向下垂直, 所以必須轉 90 度, 再考量 atan2 的轉角
+        basic1.rotate(math.atan2(y2-y1, x2-x1)/deg+90)
+
+        # 放大 scale 倍
+        cgo.render(basic1, x1, y1, self.scale, 0)
+
+    # 利用鏈條起點與旋轉角度定義繪圖, 使用內定的 color, border 與 linewidth 變數
+    def basic_rot(self, x1, y1, rot, v=False):
+        # 若 v 為 True 則為虛擬 chain, 不 render
+        self.x1 = x1
+        self.y1 = y1
+        self.rot = rot
+        self.v = v
+        # 注意, cgoChamber 為成員變數
+        cmbr = cobj(self.cgoChamber, "SHAPE", {
+                "fillColor": self.fillcolor,
+                "border": self.border,
+                "strokeColor": self.strokecolor,
+                "lineWidth": self.linewidth })
+
+        # hole0 為原點位置
+        hole = cobj(shapedefs.circle(4*self.scale), "PATH")
+        cmbr.appendPath(hole)
+        # 根據旋轉角度, 計算 x2 與 y2
+        x2 = x1 + 20*math.cos(rot*deg)*self.scale
+        y2 = y1 + 20*math.sin(rot*deg)*self.scale
+
+        # 複製 cmbr, 然後命名為 basic1
+        basic1 = cmbr.dup()
+        # 因為鏈條的角度由原點向下垂直, 所以必須轉 90 度, 再考量 atan2 的轉角
+        basic1.rotate(rot+90)
+
+        # 放大 scale 倍
+        if v == False:
+            cgo.render(basic1, x1, y1, self.scale, 0)
+
+        return x2, y2
+
+mychain = chain()
+
+x1, y1 = mychain.basic_rot(50,0, 78, True)
+#x1, y1 = mychain.basic_rot(50,0, 78)
+x2, y2=mychain.basic_rot(x1, y1, 180-24, True) 
+x3, y3=mychain.basic_rot(x2, y2, 180-36, True) 
+x4, y4=mychain.basic_rot(x3, y3, 180-48, True) 
+x5, y5=mychain.basic_rot(x4, y4, 180-60, True) 
+x6, y6=mychain.basic_rot(x5, y5, 180-72, True) 
+x7, y7=mychain.basic_rot(x6, y6, 180-84, True) 
+x8, y8=mychain.basic_rot(x7, y7, 180-96) 
+x9, y9=mychain.basic_rot(x8, y8, 180-108) 
+x10, y10=mychain.basic_rot(x9, y9, 180-120) 
+x11, y11=mychain.basic_rot(x10, y10, 180-132) 
+x12, y12=mychain.basic_rot(x11, y11, 180-144) 
+x13, y13=mychain.basic_rot(x12, y12, 180-156) 
+x14, y14=mychain.basic_rot(x13, y13, 180-168) 
+x15, y15=mychain.basic_rot(x14, y14, 180-180) 
+x16, y16=mychain.basic_rot(x15, y15, 180-192) 
+x17, y17=mychain.basic_rot(x16, y16, 180-204) 
+x18, y18=mychain.basic_rot(x17, y17, 180-216) 
+x19, y19=mychain.basic_rot(x18, y18, 180-228) 
+x20, y20=mychain.basic_rot(x19, y19, 180-240) 
+x21, y21=mychain.basic_rot(x20, y20, 180-252) 
+x22, y22=mychain.basic_rot(x21, y21, 180-264) 
+x23, y23=mychain.basic_rot(x22, y22, 180-276, True) 
+x24, y24=mychain.basic_rot(x23, y23, 180-288, True) 
+x25, y25=mychain.basic_rot(x24, y24, 180-300, True) 
+x26, y26=mychain.basic_rot(x25, y25, 180-312, True) 
+x27, y27=mychain.basic_rot(x26, y26, 180-324, True) 
+x28, y28=mychain.basic_rot(x27, y27, 180-336, True) 
+x29, y29=mychain.basic_rot(x28, y28, 180-348, True) 
+x30, y30=mychain.basic_rot(x29, y29, 180-360, True) 
+
+#mychain = chain()
+
+p1, k1 = mychain.basic_rot(73.5,-185, 160)
+p2, k2=mychain.basic_rot(p1, k1, 180-40) 
+p3, k3=mychain.basic_rot(p2, k2, 180-60) 
+p4, k4=mychain.basic_rot(p3, k3, 180-80) 
+p5, k5=mychain.basic_rot(p4, k4, 180-100, True) 
+p6, k6=mychain.basic_rot(p5, k5, 180-120, True) 
+p7, k7=mychain.basic_rot(p6, k6, 180-140, True) 
+p8, k8=mychain.basic_rot(p7, k7, 180-160, True) 
+p9, k9=mychain.basic_rot(p8, k8, 180-180, True) 
+p10, k10=mychain.basic_rot(p9, k9, 180-200, True) 
+p11, k11=mychain.basic_rot(p10, k10, 180-220, True) 
+p12, k12=mychain.basic_rot(p11, k11, 180-240, True) 
+p13, k13=mychain.basic_rot(p12, k12, 180-260, True) 
+p14, k14=mychain.basic_rot(p13, k13, 180-280) 
+p15, k15=mychain.basic_rot(p14, k14, 180-300) 
+p16, k16=mychain.basic_rot(p15, k15, 180-320) 
+p17, k17=mychain.basic_rot(p16, k16, 180-340) 
+p18, k18=mychain.basic_rot(p17, k17, 180-360) 
+
+m1, n1 = mychain.basic_rot(p4, k4, 100)
+m2, n2=mychain.basic_rot(m1, n1, 100)
+m3, n3=mychain.basic_rot(m2, n2, 100)
+m4, n4=mychain.basic_rot(m3, n3, 100)
+m5, n5=mychain.basic_rot(m4, n4, 100)
+m6, n6=mychain.basic_rot(m5, n5, 100)
+m7, n7=mychain.basic_rot(m6, n6, 100)
+m8, n8=mychain.basic_rot(m7, n7, 100)
+m9, n9=mychain.basic_rot(m8, n8, 100)
+m10, n10=mychain.basic_rot(m9, n9, 100)
+m11, n11=mychain.basic_rot(m10, n10, 100)
+
+r1, s1 = mychain.basic_rot(p13, k13, 80)
+r2, s2=mychain.basic_rot(r1, s1, 80)
+r3, s3=mychain.basic_rot(r2, s2, 80)
+r4, s4=mychain.basic_rot(r3, s3, 80)
+r5, s5=mychain.basic_rot(r4, s4, 80)
+r6, s6=mychain.basic_rot(r5, s5, 80)
+r7, s7=mychain.basic_rot(r6, s6, 80)
+r8, s8=mychain.basic_rot(r7, s7, 80)
+r9, s9=mychain.basic_rot(r8, s8, 80)
+r10, s10=mychain.basic_rot(r9, s9, 80)
+r11, s11=mychain.basic_rot(r10, s10, 80)
+mychain.basic(x7, y7, m11, n11)
+mychain.basic(x22, y22, r11, s11)
+
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+
+&lt;/pre&gt;
+
+&lt;p&gt;&lt;/h3&gt;
+說明:
+&lt;/h3&gt;
+&lt;/h4&gt;
+藉著老師算出來的數值再畫出圖來，再另用座標的關係和角度，達到直立的效果，也可以使用畫圖的方式達到更精確的位置。
+&lt;/h4&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/h3&gt;onshape 3D齒輪&lt;/h3&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/7MhxP2Z.jpg?1" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cad.onshape.com/documents/aeb63baf86a0f1cb63c7b0cc/w/236482a88c88d73f7d3b356b/e/be28924879143778a5fe6cdf"&gt;https://cad.onshape.com/documents/aeb63baf86a0f1cb63c7b0cc/w/236482a88c88d73f7d3b356b/e/be28924879143778a5fe6cdf&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/h3&gt;
+說明:
+&lt;/h3&gt;
+&lt;/h4&gt;
+導入Feacture script齒輪模組設定齒數、模數、壓力角和孔徑，再藉由每個組員個別畫出齒輪在嚙合起來完成齒輪組。
+&lt;/h4&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/h3&gt;
+心得:
+&lt;/h3&gt;
+&lt;/h4&gt;
+期末後開始作業難度增加了，靠自己的拼拼湊湊以及同學幫忙才能完成報告，協同的重要性也在期末後展現出來，大家分工到組合確實減少了非常多得時間，期望修完這門課後到業界會因為協同而帶來更多的方便，時代變遷的非常快，從當初需要面對面溝通到現在
+&lt;/h4&gt;&lt;/p&gt;</summary><category term="40123145"></category></entry></feed>
