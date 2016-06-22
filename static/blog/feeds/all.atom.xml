@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>CDW11 網頁 (虎尾科大MDE)</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/" rel="alternate"></link><link href="http://cdw11-ag100.rhcloud.com/static/blog/feeds/all.atom.xml" rel="self"></link><id>http://cdw11-ag100.rhcloud.com/static/blog/</id><updated>2016-06-21T13:34:06+08:00</updated><entry><title>40123134 2D齒輪報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40123134-2dchi-lun-bao-gao.html" rel="alternate"></link><updated>2016-06-21T13:34:06+08:00</updated><author><name>40123134</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-21:static/blog/40123134-2dchi-lun-bao-gao.html</id><summary type="html">&lt;h2&gt;2D齒輪:  &lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>CDW11 網頁 (虎尾科大MDE)</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/" rel="alternate"></link><link href="http://cdw11-ag100.rhcloud.com/static/blog/feeds/all.atom.xml" rel="self"></link><id>http://cdw11-ag100.rhcloud.com/static/blog/</id><updated>2016-06-22T14:12:42+08:00</updated><entry><title>40123134 3D齒輪報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40123134-3dchi-lun-bao-gao.html" rel="alternate"></link><updated>2016-06-22T14:12:42+08:00</updated><author><name>40123134</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-22:static/blog/40123134-3dchi-lun-bao-gao.html</id><summary type="html">&lt;h2&gt;3D齒輪:  &lt;/h2&gt;
+
+
+
+&lt;h2&gt;先到老師的Onshape找到MDE Spur Gear複製老師程式碼後，到自己的Onshape點開左下角的(+)之後建立Feature Studio將程式碼貼上後按Save，就可以獲得正齒輪特徵&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src="http://imgur.com/hE3OvMw.png"&gt;
+&lt;h2&gt;如下圖。第一行為齒數，圖中用紅筆畫的為模數很重要!!!!!齒型的模數一定要相等，不然無法配合，壓力角也是。&lt;/h2&gt;
+&lt;img src="http://i.imgur.com/bTlp8pl.jpg"&gt;
+&lt;h2&gt;在來就是組裝，設定好齒輪關係後最重要的就是關係比例，關係比例如何設定呢?將第一齒的齒數/第二齒的齒數就可以得到一個值,,將這個值填入就可以完成齒輪配合(如下圖)如果不填入比例關係會造成齒輪干涉。&lt;/h2&gt;
+&lt;img src="http://i.imgur.com/H3t3bPG.jpg"&gt;&lt;/p&gt;
+&lt;h2&gt;心得:現在是雲端時代，我們也必須學會如何在雲端操作及協同，Onshpae也已經將程式碼公開。在組立過程遇到問題，問題在組立好後再旋轉的時候會發生干涉，再詢問同學後發現關係比例要設定不然會在旋轉的時候發生干涉。&lt;/h2&gt;
+
+&lt;h3&gt;自評:75分&lt;/h3&gt;</summary><category term="40123134"></category></entry><entry><title>40123134 2D齒輪報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40123134-2dchi-lun-bao-gao.html" rel="alternate"></link><updated>2016-06-21T13:34:06+08:00</updated><author><name>40123134</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-21:static/blog/40123134-2dchi-lun-bao-gao.html</id><summary type="html">&lt;h2&gt;2D齒輪:  &lt;/h2&gt;
 
 
 
@@ -19,7 +32,7 @@
 &lt;h2&gt;這一行要新增第四個齒輪的座標以及要選轉的角度，第四個齒輪x座標等於原本的加上第一個齒輪的半徑+第二個齒輪的直徑+第三個齒輪的直徑在加上原本齒輪的半徑就是第四個齒輪的半徑(如下圖)&lt;/h2&gt;
 &lt;img src="http://imgur.com/zwDZigt.png"&gt;
 &lt;h2&gt;心得:由於程式碼老師已經公布了，所以我們只需要做更改，以及新增齒輪，雖然一開始看不太懂程式碼再寫甚麼，不過老師在上面都有助解這段程式碼再寫甚麼，所以只需要複習再複習就可以了解老師這段程式碼再寫甚麼，有些不懂的程式碼還是需要問同學，最後謝謝教授細心的教導。&lt;/h2&gt;
-&lt;h3&gt;自評:70分&lt;/h3&gt;&lt;/p&gt;</summary><category term="40123134"></category></entry><entry><title>40123145 - 期末報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40123145-qi-mo-bao-gao.html" rel="alternate"></link><updated>2016-06-21T12:50:40+08:00</updated><author><name>40123145</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-21:static/blog/40123145-qi-mo-bao-gao.html</id><summary type="html">&lt;h3&gt;40123145 - 期末報告&lt;/h3&gt;
+&lt;h3&gt;自評:75分&lt;/h3&gt;&lt;/p&gt;</summary><category term="40123134"></category></entry><entry><title>40123145 - 期末報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40123145-qi-mo-bao-gao.html" rel="alternate"></link><updated>2016-06-21T12:50:40+08:00</updated><author><name>40123145</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-21:static/blog/40123145-qi-mo-bao-gao.html</id><summary type="html">&lt;h3&gt;40123145 - 期末報告&lt;/h3&gt;
 
 
 
@@ -655,7 +668,7 @@ https://cad.onshape.com/documents/ccce85d505680ae7ad572129/w/be216c03dd13d4bfcff
 &lt;h3&gt;完成結果:&lt;/h3&gt;
 &lt;img src="http://i.imgur.com/ckI18Hc.png "&gt;
 &lt;h3&gt;心得: 剛開始還搞不太懂怎麼轉鏈條角度，嘗試了一下發現只能旋轉鍊條還無法將鏈條相接，剛開始只知道一直嘗試修改數字找出如何修改位置，但還是無法將鍊條相接再一起，後來詢問同學後發現要用繪圖軟體計算出鍊條的位置，填入相對位置就可以將鍊條相接在一起。&lt;/h3&gt;&lt;/p&gt;
-&lt;h3&gt;自評:70分&lt;/h3&gt;</summary><category term="40123134"></category></entry><entry><title>40323250 期末報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323250-qi-mo-bao-gao.html" rel="alternate"></link><updated>2016-06-19T21:51:03+08:00</updated><author><name>40323250</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-19:static/blog/40323250-qi-mo-bao-gao.html</id><summary type="html">&lt;p&gt;期末報告 (統整)
+&lt;h3&gt;自評:75分&lt;/h3&gt;</summary><category term="40123134"></category></entry><entry><title>40323250 期末報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323250-qi-mo-bao-gao.html" rel="alternate"></link><updated>2016-06-19T21:51:03+08:00</updated><author><name>40323250</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-19:static/blog/40323250-qi-mo-bao-gao.html</id><summary type="html">&lt;p&gt;期末報告 (統整)
 
 &lt;h3&gt;鍊條上30下18齒&lt;/h3&gt;
 從老師的18及30齒中，找到eighteenthirty 或是 其他程式拿來修改，我是用eighteenthirty，然後將兩部分的鏈條分開，並定位到(0,0)位置，就可以開始計算需要移動的距離，就可以很容易的接合，但是修改容易寫程式難，還是要想辦法搞懂程式才行。
