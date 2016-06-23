@@ -331,7 +331,7 @@ x1, y1 = mychain.basic_rot('''+str(x)+","+str(y)+", "+str(first_degree)+''', Tru
         else:
             outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+", 180-"+str(i*degree)+") \n"
  
-    p = 7
+    p = 50
     k = -185
     degree = 20
     # 70, 50, 30, 10

@@ -125,7 +125,8 @@ class chain():
         return x2, y2
  
 # 利用 chain class 建立案例, 對應到 mychain 變數
-mychain = chain()
+mychain = 
+()
  
 # 畫 A
 # 左邊兩個垂直單元

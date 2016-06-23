@@ -15,6 +15,7 @@
 <v t="amd.20160501215942.1" a="E"><vh>@path ./../../../static/content/b/g1</vh>
 <v t="amd.20160501215720.1"><vh>@edit 40123156-20160505.md</vh></v>
 <v t="leo.20160526101309.1"><vh>@edit 40123156-20160519.md</vh></v>
+<v t="leo.20160622201246.1"><vh>@edit 40123156-20160622.md</vh></v>
 </v>
 <v t="amd.20160501215558.1"><vh>@path ./../../../</vh>
 <v t="amd.20160501223113.1"><vh>@edit README.md</vh></v>
@@ -28,14 +29,14 @@
 </v>
 </v>
 </v>
-<v t="amd.20160501215545.1"><vh>wsgi 程式部份</vh>
+<v t="amd.20160501215545.1" a="E"><vh>wsgi 程式部份</vh>
 <v t="leo.20160505180155.1"><vh>@clean bg1_40123156.py</vh>
 <v t="leo.20160505180755.1"><vh>bg1_40123156 declarations</vh></v>
 <v t="leo.20160505180755.2"><vh>one</vh></v>
 <v t="leo.20160505180755.3"><vh>two</vh></v>
 <v t="leo.20160505180755.4"><vh>three</vh></v>
 </v>
-<v t="leo.20160512105545.1"><vh>@clean bg1_40123156_2.py</vh>
+<v t="leo.20160512105545.1" a="E"><vh>@clean bg1_40123156_2.py</vh>
 <v t="leo.20160512112035.1"><vh>bg1_40123156_2 declarations</vh></v>
 <v t="leo.20160512112035.2"><vh>a</vh></v>
 <v t="leo.20160512112035.3"><vh>b</vh></v>
@@ -118,6 +119,7 @@ g.es("admin pelican 近端執行完畢")
 @others
 if __name__ == "__main__":
     app.run()
+
 app.register_blueprint(users.a.g4.ag4_40323138.ag4_40323138)
 app.register_blueprint(users.a.g10.ag10_40323141_task1.ag10_40323141)    
 app.register_blueprint(users.a.g9.ag9_40323132task.ag9_40323132)
@@ -132,16 +134,30 @@ app.register_blueprint(users.a.g4.ag4_40323138_task3abcd.ag4_40323138task3)
 app.register_blueprint(users.a.g8.ag8_40323123.ag8_40323123)
 app.register_blueprint(users.a.g10.ag10_40323129_task1.ag10_40323129)
 app.register_blueprint(users.a.g2.ag2_40323120.ag2_40323120)
+app.register_blueprint(users.a.g2.ag2_40323122.ag2_40323122)
+app.register_blueprint(users.a.g2.ag2_40323117.ag2_40323117)
 app.register_blueprint(users.a.g1.ag1_40323105.ag1_40323105)
-app.register_blueprint(users.a.g1.a40223153.ag1_40223153)
+app.register_blueprint(users.a.g1.a40223153.aag1)
 app.register_blueprint(users.a.g3.ag3_40323108.ag3_40323108)
 app.register_blueprint(users.a.g3.ag3_40323108_task2bacd.ag3_40323108bacd)
 app.register_blueprint(users.a.g3.ag3_40323108_task3abcd.ag3_40323108task3)
 app.register_blueprint(users.b.g9.bg9_40323250.bg9_40323250)
-
+app.register_blueprint(users.a.g4.a40323130.ag4_40323130)
+app.register_blueprint(users.a.g1.a40323105_1.a40323105_1)
 app.register_blueprint(users.a.g4.ag4_40323109.ag4_40323109)
 app.register_blueprint(users.a.g4.ag4_40323109_task2bacd.ag4_40323109bacd)
 app.register_blueprint(users.a.g4.ag4_40323109_task3abcd.ag4_40323109task3)
+app.register_blueprint(users.a.g9.a40323132_1.a40323132_1)
+app.register_blueprint(users.a.g9.a40323149.a40323149_1)
+#app.register_blueprint(users.a.g1.ag1_40323148.ag1_40323148)
+app.register_blueprint(users.a.g1.a40323146_1.a40323146_1)
+app.register_blueprint(users.a.g1.a40323106.a40323106)
+app.register_blueprint(users.a.g1.a40323107_2.a40323107_2)
+app.register_blueprint(users.a.g3.a40323103.ag3_40323103)
+app.register_blueprint(users.a.g10.a40323127.ag10_40323127)
+app.register_blueprint(users.a.g10.a40323128.ag10_40323128)
+app.register_blueprint(users.a.g9.a40323125.ag9_40323125)
+
 #bg1
 app.register_blueprint(users.b.g1.bg1_40123156.bg1_40123156)
 app.register_blueprint(users.b.g1.bg1_40123156_2.bg1_40123156_2)
@@ -160,10 +176,10 @@ app.register_blueprint(users.b.g1.b40123131_cdw12.bg1)
 app.register_blueprint(users.b.g1.bg1_40123134.bg1_40123134)
 app.register_blueprint(users.b.g1.bg1_40123134_2.bg1_40123134_2)
 app.register_blueprint(users.b.g1.bg1_40123134_3.bg1_40123134_3)
+app.register_blueprint(users.b.g1.bg1_40123134_4.bg1_40123134_4)
 app.register_blueprint(users.b.g1.b40123133_cdw11.bg1_40123133)
 app.register_blueprint(users.b.g1.b40123133_cdw12.bg1_40123133_2)
-#app.register_blueprint(users.b.g1.bg1_40123131.bg1_40123131)
-#app.register_blueprint(users.b.g1.bg1_40123131_2.bg40123131)
+
 
 app.register_blueprint(users.b.g1.bg1_40123126.bg1_40123126)
 app.register_blueprint(users.b.g1.bg1_40123126_2.bg1_40123126_2)
@@ -195,12 +211,25 @@ app.register_blueprint(users.b.g4.bg4_40123128_cdw11.b40123128)
 app.register_blueprint(users.b.g4.bg4_40123128_cdw14.b40123128_1)
 #bg5
 app.register_blueprint(users.b.g5.b40323204_cdw11_1.bg5_40323204_1)
+app.register_blueprint(users.b.g5.b40323204_cdw11_2.bg5_40323204_2)
+app.register_blueprint(users.b.g5.b40323204_cdw11.bg5_40323204)
 #app.register_blueprint(users.b.g5.b40323206_cdw11_1.bg5_40323206_1)
 app.register_blueprint(users.b.g5.b40323206_cdw11_2.bg5_40323206_2)
+
+#bg10
+app.register_blueprint(users.b.g10.bg10_40328245.bg10_40328245)
+app.register_blueprint(users.b.g10.bg10_40328242.bg10_40328242)
+app.register_blueprint(users.b.g10.bg10_40323241.bg10_40323241)
+app.register_blueprint(users.b.g10.bg10_40323222.bg10_40323222)
+
 #bg11
 app.register_blueprint(users.b.g11.bg11_40323245.bg11_40323245)
 app.register_blueprint(users.b.g11.bg11_40323252.bg11_40323252)
-app.register_blueprint(users.b.g11.bg11_40323245_1.bg11)
+app.register_blueprint(users.b.g11.bg11_40323245_2.bg11)
+app.register_blueprint(users.b.g11.b40323252.bg11_1)
+app.register_blueprint(users.b.g11.bg11_40323247_2.bg11_2)
+app.register_blueprint(users.b.g11.bg11_40323247.bg11_40323247)
+
 #bg101
 app.register_blueprint(users.b.g101.b40123200.bg101)
 
@@ -208,9 +237,10 @@ app.register_blueprint(users.b.g101.b40123200.bg101)
 app.register_blueprint(users.a.g7.ag7_40123149_1.ag7_40123149_1)
 app.register_blueprint(users.a.g7.ag7_40123149_2.ag7_40123149_2)
 #ag8
-#app.register_blueprint(users.a.g8.a40323143.ag8_40323143)
+app.register_blueprint(users.a.g8.a40323143.ag8_40323143)
 app.register_blueprint(users.a.g8.a40323137.ag8_40323137)
 app.register_blueprint(users.a.g8.a40323154.ag8_40323154)
+app.register_blueprint(users.a.g8.ag8_40323145.ag8_40323145)
 #ag10
 app.register_blueprint(users.a.g10.a40323139.ag10_40323139_1)
 #app.register_blueprint(users.a.g10.a40323141.ag10_40323141_1)
@@ -230,6 +260,14 @@ app.register_blueprint(users.b.g3.bg3_40123250_cdw11.b40123250)
 app.register_blueprint(users.b.g3.bg3_40123242_cdw12.b40123242)
 app.register_blueprint(users.b.g3.bg3_40123250_cdw14.b40123250_1)
 app.register_blueprint(users.b.g3.bg3_40123224_cdw14.b40123224_1)
+
+#ag6
+app.register_blueprint(users.a.g6.cdw13.a40323133.ag6_40323133_1)
+app.register_blueprint(users.a.g6.cdw13.a40323147.ag6_40323147_1)
+app.register_blueprint(users.a.g6.cdw13.a40323152.ag6_40323152_1)
+app.register_blueprint(users.a.g6.cdw13.a40323155.ag6_40323155_1)
+app.register_blueprint(users.a.g6.cdw13.a40323156.ag6_40323156_1)
+
 
 
 
@@ -367,7 +405,10 @@ import os
 # init.py 為自行建立的起始物件
 import init
 import users.a.g1.ag1_40323105
+#import users.a.g1.ag1_40323148
 import users.a.g2.ag2_40323120
+import users.a.g2.ag2_40323122
+import users.a.g2.ag2_40323117
 import users.a.g10.ag10_40323129_task1
 import users.a.g10.ag10_40323141_task1
 import users.a.g10.ag10_40323139
@@ -389,6 +430,19 @@ import users.a.g3.ag3_40323108_task3abcd
 import users.a.g4.ag4_40323109
 import users.a.g4.ag4_40323109_task2bacd
 import users.a.g4.ag4_40323109_task3abcd
+import users.a.g4.a40323130
+import users.a.g1.a40323105_1
+import users.a.g9.a40323132_1
+import users.a.g9.a40323149
+import users.a.g1.a40323146_1
+import users.a.g1.a40323106
+import users.a.g1.a40323107_2
+import users.b.g6.bg6_40323248
+import users.a.g3.a40323103
+import users.a.g10.a40323127
+import users.a.g10.a40323128
+import users.a.g9.a40323125
+
 #bg1
 import users.b.g1.bg1_40123156
 import users.b.g1.bg1_40123156_2
@@ -405,6 +459,7 @@ import users.b.g1.b40123131_cdw12
 import users.b.g1.bg1_40123134
 import users.b.g1.bg1_40123134_2
 import users.b.g1.bg1_40123134_3
+import users.b.g1.bg1_40123134_4
 import users.b.g1.b40123133_cdw11
 import users.b.g1.b40123133_cdw12
 import users.b.g1.bg1_40123126
@@ -436,17 +491,31 @@ import users.b.g4.b40323201_cdw11
 #bg5
 #import users.b.g5.b40323206_cdw11_1
 import users.b.g5.b40323204_cdw11_1
-
+import users.b.g5.b40323204_cdw11
+import users.b.g5.b40323204_cdw11_2
 
 #bg5
 #import users.b.g5.b40323206_cdw11_1
 import users.b.g5.b40323204_cdw11_1
 import users.b.g5.b40323204_cdw11_2
 import users.b.g5.b40323206_cdw11_2
+
+#bg10
+import users.b.g10.bg10_40328245
+import users.b.g10.bg10_40328242
+import users.b.g10.bg10_40323241
+import users.b.g10.bg10_40323222
+
 #bg11
-import users.b.g11.bg11_40323245
+
 import users.b.g11.bg11_40323252
-import users.b.g11.bg11_40323245_1
+import users.b.g11.bg11_40323245_2
+import users.b.g11.b40323252
+import users.b.g11.bg11_40323245
+import users.b.g11.b40323252
+import users.b.g11.bg11_40323247
+import users.b.g11.bg11_40323247_2
+
 #bg101
 import users.b.g101.b40123200
 #ag7
@@ -456,6 +525,7 @@ import users.a.g7.ag7_40123149_2
 import users.a.g8.a40323143
 import users.a.g8.a40323137
 import users.a.g8.a40323154
+import users.a.g8.ag8_40323145
 #ag10
 import users.a.g10.a40323139
 import users.a.g10.a40323141
@@ -473,6 +543,14 @@ import users.b.g3.bg3_40123224_cdw14
 import users.b.g3.bg3_40123242_cdw12
 #ag3
 import users.a.g3.a40323108
+
+#ag6
+import users.a.g6.cdw13.a40323133
+import users.a.g6.cdw13.a40323147
+import users.a.g6.cdw13.a40323152
+import users.a.g6.cdw13.a40323155
+import users.a.g6.cdw13.a40323156
+
 #ag100
 import users.a.g100.cdw13.a40123100
 # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線

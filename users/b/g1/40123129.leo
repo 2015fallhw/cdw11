@@ -13,7 +13,7 @@
 <v t="leo.20160512114644.1"><vh>40123129的筆記</vh></v>
 <v t="amd.20160501215436.2" a="E"><vh>pelican 部份</vh>
 <v t="amd.20160501215942.1" a="E"><vh>@path ./../../../static/content/b/g1</vh>
-<v t="amd.20160501215720.1" a="M"><vh>@edit 40123129-20160519.md</vh></v>
+<v t="amd.20160501215720.1"><vh>@edit 40123129-20160519.md</vh></v>
 <v t="leo.20160616181921.1"><vh>@edit 40123129-20160616.md</vh></v>
 <v t="leo.20160619013552.1"><vh>@edit 40123129-20160619.md</vh></v>
 </v>
@@ -89,6 +89,12 @@
 </v>
 </v>
 </v>
+<v t="leo.20160623193606.1" a="E"><vh>Recovered Nodes</vh>
+<v t="leo.20160623193606.2"><vh>Recovered node "one" from @clean bg1_40123129.py</vh>
+<v t="leo.20160623193606.3"><vh>old:one</vh></v>
+<v t="leo.20160623193606.4"><vh>new:one</vh></v>
+</v>
+</v>
 </vnodes>
 <tnodes>
 <t tx="amd.20160501215436.2"></t>
@@ -118,6 +124,7 @@ g.es("admin pelican 近端執行完畢")
 @others
 if __name__ == "__main__":
     app.run()
+
 app.register_blueprint(users.a.g4.ag4_40323138.ag4_40323138)
 app.register_blueprint(users.a.g10.ag10_40323141_task1.ag10_40323141)    
 app.register_blueprint(users.a.g9.ag9_40323132task.ag9_40323132)
@@ -132,7 +139,8 @@ app.register_blueprint(users.a.g4.ag4_40323138_task3abcd.ag4_40323138task3)
 app.register_blueprint(users.a.g8.ag8_40323123.ag8_40323123)
 app.register_blueprint(users.a.g10.ag10_40323129_task1.ag10_40323129)
 app.register_blueprint(users.a.g2.ag2_40323120.ag2_40323120)
-#app.register_blueprint(users.a.g2.ag2_40323122.ag2_40323122)
+app.register_blueprint(users.a.g2.ag2_40323122.ag2_40323122)
+app.register_blueprint(users.a.g2.ag2_40323117.ag2_40323117)
 app.register_blueprint(users.a.g1.ag1_40323105.ag1_40323105)
 app.register_blueprint(users.a.g1.a40223153.aag1)
 app.register_blueprint(users.a.g3.ag3_40323108.ag3_40323108)
@@ -144,11 +152,16 @@ app.register_blueprint(users.a.g1.a40323105_1.a40323105_1)
 app.register_blueprint(users.a.g4.ag4_40323109.ag4_40323109)
 app.register_blueprint(users.a.g4.ag4_40323109_task2bacd.ag4_40323109bacd)
 app.register_blueprint(users.a.g4.ag4_40323109_task3abcd.ag4_40323109task3)
-app.register_blueprint(users.a.g1.ag1_40323148.ag1_40323148)
-
+app.register_blueprint(users.a.g9.a40323132_1.a40323132_1)
+app.register_blueprint(users.a.g9.a40323149.a40323149_1)
+#app.register_blueprint(users.a.g1.ag1_40323148.ag1_40323148)
 app.register_blueprint(users.a.g1.a40323146_1.a40323146_1)
 app.register_blueprint(users.a.g1.a40323106.a40323106)
 app.register_blueprint(users.a.g1.a40323107_2.a40323107_2)
+app.register_blueprint(users.a.g3.a40323103.ag3_40323103)
+app.register_blueprint(users.a.g10.a40323127.ag10_40323127)
+app.register_blueprint(users.a.g10.a40323128.ag10_40323128)
+app.register_blueprint(users.a.g9.a40323125.ag9_40323125)
 
 #bg1
 app.register_blueprint(users.b.g1.bg1_40123156.bg1_40123156)
@@ -168,10 +181,10 @@ app.register_blueprint(users.b.g1.b40123131_cdw12.bg1)
 app.register_blueprint(users.b.g1.bg1_40123134.bg1_40123134)
 app.register_blueprint(users.b.g1.bg1_40123134_2.bg1_40123134_2)
 app.register_blueprint(users.b.g1.bg1_40123134_3.bg1_40123134_3)
+app.register_blueprint(users.b.g1.bg1_40123134_4.bg1_40123134_4)
 app.register_blueprint(users.b.g1.b40123133_cdw11.bg1_40123133)
 app.register_blueprint(users.b.g1.b40123133_cdw12.bg1_40123133_2)
-#app.register_blueprint(users.b.g1.bg1_40123131.bg1_40123131)
-#app.register_blueprint(users.b.g1.bg1_40123131_2.bg40123131)
+
 
 app.register_blueprint(users.b.g1.bg1_40123126.bg1_40123126)
 app.register_blueprint(users.b.g1.bg1_40123126_2.bg1_40123126_2)
@@ -228,6 +241,11 @@ app.register_blueprint(users.b.g101.b40123200.bg101)
 #ag7
 app.register_blueprint(users.a.g7.ag7_40123149_1.ag7_40123149_1)
 app.register_blueprint(users.a.g7.ag7_40123149_2.ag7_40123149_2)
+app.register_blueprint(users.a.g7.ag7_40123216.ag7_40123216)
+app.register_blueprint(users.a.g7.ag7_40123216_cdw11.a40123216)
+app.register_blueprint(users.a.g7.ag7_40123216_cdw14.a40123216_1)
+
+
 #ag8
 app.register_blueprint(users.a.g8.a40323143.ag8_40323143)
 app.register_blueprint(users.a.g8.a40323137.ag8_40323137)
@@ -397,9 +415,10 @@ import os
 # init.py 為自行建立的起始物件
 import init
 import users.a.g1.ag1_40323105
-import users.a.g1.ag1_40323148
+#import users.a.g1.ag1_40323148
 import users.a.g2.ag2_40323120
-#import users.a.g2.ag2_40323122
+import users.a.g2.ag2_40323122
+import users.a.g2.ag2_40323117
 import users.a.g10.ag10_40323129_task1
 import users.a.g10.ag10_40323141_task1
 import users.a.g10.ag10_40323139
@@ -423,10 +442,16 @@ import users.a.g4.ag4_40323109_task2bacd
 import users.a.g4.ag4_40323109_task3abcd
 import users.a.g4.a40323130
 import users.a.g1.a40323105_1
+import users.a.g9.a40323132_1
+import users.a.g9.a40323149
 import users.a.g1.a40323146_1
 import users.a.g1.a40323106
 import users.a.g1.a40323107_2
 import users.b.g6.bg6_40323248
+import users.a.g3.a40323103
+import users.a.g10.a40323127
+import users.a.g10.a40323128
+import users.a.g9.a40323125
 
 #bg1
 import users.b.g1.bg1_40123156
@@ -444,6 +469,7 @@ import users.b.g1.b40123131_cdw12
 import users.b.g1.bg1_40123134
 import users.b.g1.bg1_40123134_2
 import users.b.g1.bg1_40123134_3
+import users.b.g1.bg1_40123134_4
 import users.b.g1.b40123133_cdw11
 import users.b.g1.b40123133_cdw12
 import users.b.g1.bg1_40123126
@@ -505,6 +531,10 @@ import users.b.g101.b40123200
 #ag7
 import users.a.g7.ag7_40123149_1
 import users.a.g7.ag7_40123149_2
+import users.a.g7.ag7_40123216
+import users.a.g7.ag7_40123216_cdw11
+import users.a.g7.ag7_40123216_cdw14
+
 #ag8
 import users.a.g8.a40323143
 import users.a.g8.a40323137
@@ -928,7 +958,8 @@ class chain():
         return x2, y2
  
 # 利用 chain class 建立案例, 對應到 mychain 變數
-mychain = chain()
+mychain = 
+()
  
 # 畫 A
 # 左邊兩個垂直單元
@@ -2563,5 +2594,630 @@ r1, s1 = mychain.basic_rot(p13, k13, '''+str(first_degree)+''')
 
 2016/05/12
 新增 bg1_40123129_2.py (已修改myflaskapp.py )</t>
+<t tx="leo.20160623193606.1"></t>
+<t tx="leo.20160623193606.2">(uncached) leo.20160505180755.2
+Diff...
+  @bg1_40123129.route('/one')
+  def one():
+      outstring = '''
+  &lt;!DOCTYPE html&gt;
+  &lt;html&gt;
+  &lt;head&gt;
+      &lt;meta charset="UTF-8"&gt;
+      &lt;title&gt;網際 2D 繪圖&lt;/title&gt;
+      &lt;!-- IE 9: display inline SVG --&gt;
+      &lt;meta http-equiv="X-UA-Compatible" content="IE=9"&gt;
+  &lt;script type="text/javascript" src="http://brython.info/src/brython_dist.js"&gt;&lt;/script&gt;
+  &lt;script type="text/javascript" src="http://cptocadp-2015fallhw.rhcloud.com/static/Cango-8v03.js"&gt;&lt;/script&gt;
+  &lt;script type="text/javascript" src="http://cptocadp-2015fallhw.rhcloud.com/static/Cango2D-6v13.js"&gt;&lt;/script&gt;
+  &lt;script type="text/javascript" src="http://cptocadp-2015fallhw.rhcloud.com/static/CangoAxes-1v33.js"&gt;&lt;/script&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+  &lt;script&gt;
+  window.onload=function(){
+  brython(1);
+  }
+  &lt;/script&gt;
+  &lt;canvas id="plotarea" width="800" height="800"&gt;&lt;/canvas&gt;
+  &lt;script type="text/python"&gt;
+  from javascript import JSConstructor
+  from browser import alert
+  from browser import window
+  import math
+   
+  cango = JSConstructor(window.Cango)
+  cobj = JSConstructor(window.Cobj)
+  shapedefs = window.shapeDefs
+  obj2d = JSConstructor(window.Obj2D)
+  cgo = cango("plotarea")
+   
+  cgo.setWorldCoords(-250, -250, 500, 500) 
+   
+  # 畫軸線
+  cgo.drawAxes(0, 240, 0, 240, {
+      "strokeColor":"#aaaaaa",
+      "fillColor": "#aaaaaa",
+      "xTickInterval": 20,
+      "xLabelInterval": 20,
+      "yTickInterval": 20,
+      "yLabelInterval": 20})
+   
+  deg = math.pi/180  
+  
+  class chain():
+      # 輪廓的外型設為成員變數
+      chamber = "M -6.8397, -1.4894 \
+              A 7, 7, 0, 1, 0, 6.8397, -1.4894 \
+              A 40, 40, 0, 0, 1, 6.8397, -18.511 \
+              A 7, 7, 0, 1, 0, -6.8397, -18.511 \
+              A 40, 40, 0, 0, 1, -6.8397, -1.4894 z"
+      cgoChamber = window.svgToCgoSVG(chamber)
+   
+      # 利用鏈條起點與終點定義繪圖, 使用內定的 color, border 與 linewidth 變數
+      def basic(self, x1, y1, x2, y2, color="green", border=True, linewidth=4, scale=1):
+          self.x1 = x1
+          self.y1 = y1
+          self.x2 = x2
+          self.y2 = y2
+          self.color = color
+          self.border = border
+          self.linewidth = linewidth
+          self.scale = scale
+          # 注意, cgo.Chamber 為成員變數
+          cmbr = cobj(self.cgoChamber, "SHAPE", {
+                  "fillColor": color,
+                  "border": border,
+                  "strokeColor": "tan",
+                  "lineWidth": linewidth })
+   
+          # hole 為原點位置
+          hole = cobj(shapedefs.circle(4), "PATH")
+          cmbr.appendPath(hole)
+   
+          # 複製 cmbr, 然後命名為 basic1
+          basic1 = cmbr.dup()
+          # 因為鏈條的角度由原點向下垂直, 所以必須轉 90 度, 再考量 atan2 的轉角
+          basic1.rotate(math.atan2(y2-y1, x2-x1)/deg+90)
+   
+          # 放大 scale 倍
+          cgo.render(basic1, x1, y1, scale, 0)
+   
+      # 利用鏈條起點與旋轉角度定義繪圖, 使用內定的 color, border 與 linewidth 變數
+      def basic_rot(self, x1, y1, rot, color="green", border=True, linewidth=4, scale=1):
+          self.x1 = x1
+          self.y1 = y1
+          self.rot = rot
+          self.color = color
+          self.border = border
+          self.linewidth = linewidth
+          self.scale = scale
+          # 注意, cgo.Chamber 為成員變數
+          cmbr = cobj(self.cgoChamber, "SHAPE", {
+                  "fillColor": color,
+                  "border": border,
+                  "strokeColor": "tan",
+                  "lineWidth": linewidth })
+   
+          # hole 為原點位置
+          hole = cobj(shapedefs.circle(4), "PATH")
+          cmbr.appendPath(hole)
+          # 根據旋轉角度, 計算 x2 與 y2
+          x2 = x1 + 20*math.cos(rot*deg)
+          y2 = y1 + 20*math.sin(rot*deg)
+   
+          # 複製 cmbr, 然後命名為 basic1
+          basic1 = cmbr.dup()
+          # 因為鏈條的角度由原點向下垂直, 所以必須轉 90 度, 再考量 atan2 的轉角
+          basic1.rotate(rot+90)
+   
+          # 放大 scale 倍
+          cgo.render(basic1, x1, y1, scale, 0)
+   
+          return x2, y2
+   
+  # 利用 chain class 建立案例, 對應到 mychain 變數
+- mychain = 
++ mychain = chain()
+?           +++++++
+- ()
+   
+  # 畫 A
+  # 左邊兩個垂直單元
+  x1, y1 = mychain.basic_rot(0, 0, 90)
+  x2, y2 = mychain.basic_rot(x1, y1, 90)
+  # 左斜邊兩個單元
+  x3, y3 = mychain.basic_rot(x2, y2, 80)
+  x4, y4 = mychain.basic_rot(x3, y3, 71)
+  # 最上方水平單元
+  x5, y5 = mychain.basic_rot(x4, y4, 0)
+  # 右斜邊兩個單元
+  x6, y6 = mychain.basic_rot(x5, y5, -71)
+  x7, y7 = mychain.basic_rot(x6, y6, -80)
+  # 右邊兩個垂直單元
+  x8, y8 = mychain.basic_rot(x7, y7, -90)
+  x9, y9 = mychain.basic_rot(x8, y8, -90)
+  # 中間兩個水平單元
+  x10, y10 = mychain.basic_rot(x8, y8, -180)
+  mychain.basic(x10, y10, x1, y1, color="green")
+  
+  
+  cgo.setWorldCoords(-315, -250, 500, 500) 
+  # 畫 A
+  # 左邊兩個垂直單元
+  x1, y1 = mychain.basic_rot(0, 0, 90)
+  x2, y2 = mychain.basic_rot(x1, y1, 90)
+  # 左斜邊兩個單元
+  x3, y3 = mychain.basic_rot(x2, y2, 80)
+  x4, y4 = mychain.basic_rot(x3, y3, 71)
+  # 最上方水平單元
+  x5, y5 = mychain.basic_rot(x4, y4, 0)
+  # 右斜邊兩個單元
+  x6, y6 = mychain.basic_rot(x5, y5, -71)
+  x7, y7 = mychain.basic_rot(x6, y6, -80)
+  # 右邊兩個垂直單元
+  x8, y8 = mychain.basic_rot(x7, y7, -90)
+  x9, y9 = mychain.basic_rot(x8, y8, -90)
+  # 中間兩個水平單元
+  x10, y10 = mychain.basic_rot(x8, y8, -180)
+  mychain.basic(x10, y10, x1, y1, color="blue")
+  
+  cgo.setWorldCoords(-385, -250, 500, 500) 
+  # 畫 A
+  # 左邊兩個垂直單元
+  x1, y1 = mychain.basic_rot(0, 0, 90)
+  x2, y2 = mychain.basic_rot(x1, y1, 90)
+  # 左斜邊兩個單元
+  x3, y3 = mychain.basic_rot(x2, y2, 80)
+  x4, y4 = mychain.basic_rot(x3, y3, 71)
+  # 最上方水平單元
+  x5, y5 = mychain.basic_rot(x4, y4, 0)
+  # 右斜邊兩個單元
+  x6, y6 = mychain.basic_rot(x5, y5, -71)
+  x7, y7 = mychain.basic_rot(x6, y6, -80)
+  # 右邊兩個垂直單元
+  x8, y8 = mychain.basic_rot(x7, y7, -90)
+  x9, y9 = mychain.basic_rot(x8, y8, -90)
+  # 中間兩個水平單元
+  x10, y10 = mychain.basic_rot(x8, y8, -180)
+  mychain.basic(x10, y10, x1, y1, color="red")
+  
+  cgo.setWorldCoords(-445, -250, 500, 500) 
+  # 畫 A
+  # 左邊兩個垂直單元
+  x1, y1 = mychain.basic_rot(0, 0, 90)
+  x2, y2 = mychain.basic_rot(x1, y1, 90)
+  # 左斜邊兩個單元
+  x3, y3 = mychain.basic_rot(x2, y2, 80)
+  x4, y4 = mychain.basic_rot(x3, y3, 71)
+  # 最上方水平單元
+  x5, y5 = mychain.basic_rot(x4, y4, 0)
+  # 右斜邊兩個單元
+  x6, y6 = mychain.basic_rot(x5, y5, -71)
+  x7, y7 = mychain.basic_rot(x6, y6, -80)
+  # 右邊兩個垂直單元
+  x8, y8 = mychain.basic_rot(x7, y7, -90)
+  x9, y9 = mychain.basic_rot(x8, y8, -90)
+  # 中間兩個水平單元
+  x10, y10 = mychain.basic_rot(x8, y8, -180)
+  mychain.basic(x10, y10, x1, y1, color="green")
+  &lt;/script&gt;
+  &lt;/body&gt;&lt;/html&gt;
+  '''
+      return outstring
+      
+</t>
+<t tx="leo.20160623193606.3">@bg1_40123129.route('/one')
+def one():
+    outstring = '''
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;網際 2D 繪圖&lt;/title&gt;
+    &lt;!-- IE 9: display inline SVG --&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=9"&gt;
+&lt;script type="text/javascript" src="http://brython.info/src/brython_dist.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://cptocadp-2015fallhw.rhcloud.com/static/Cango-8v03.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://cptocadp-2015fallhw.rhcloud.com/static/Cango2D-6v13.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://cptocadp-2015fallhw.rhcloud.com/static/CangoAxes-1v33.js"&gt;&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;script&gt;
+window.onload=function(){
+brython(1);
+}
+&lt;/script&gt;
+&lt;canvas id="plotarea" width="800" height="800"&gt;&lt;/canvas&gt;
+&lt;script type="text/python"&gt;
+from javascript import JSConstructor
+from browser import alert
+from browser import window
+import math
+ 
+cango = JSConstructor(window.Cango)
+cobj = JSConstructor(window.Cobj)
+shapedefs = window.shapeDefs
+obj2d = JSConstructor(window.Obj2D)
+cgo = cango("plotarea")
+ 
+cgo.setWorldCoords(-250, -250, 500, 500) 
+ 
+# 畫軸線
+cgo.drawAxes(0, 240, 0, 240, {
+    "strokeColor":"#aaaaaa",
+    "fillColor": "#aaaaaa",
+    "xTickInterval": 20,
+    "xLabelInterval": 20,
+    "yTickInterval": 20,
+    "yLabelInterval": 20})
+ 
+deg = math.pi/180  
+
+class chain():
+    # 輪廓的外型設為成員變數
+    chamber = "M -6.8397, -1.4894 \
+            A 7, 7, 0, 1, 0, 6.8397, -1.4894 \
+            A 40, 40, 0, 0, 1, 6.8397, -18.511 \
+            A 7, 7, 0, 1, 0, -6.8397, -18.511 \
+            A 40, 40, 0, 0, 1, -6.8397, -1.4894 z"
+    cgoChamber = window.svgToCgoSVG(chamber)
+ 
+    # 利用鏈條起點與終點定義繪圖, 使用內定的 color, border 與 linewidth 變數
+    def basic(self, x1, y1, x2, y2, color="green", border=True, linewidth=4, scale=1):
+        self.x1 = x1
+        self.y1 = y1
+        self.x2 = x2
+        self.y2 = y2
+        self.color = color
+        self.border = border
+        self.linewidth = linewidth
+        self.scale = scale
+        # 注意, cgo.Chamber 為成員變數
+        cmbr = cobj(self.cgoChamber, "SHAPE", {
+                "fillColor": color,
+                "border": border,
+                "strokeColor": "tan",
+                "lineWidth": linewidth })
+ 
+        # hole 為原點位置
+        hole = cobj(shapedefs.circle(4), "PATH")
+        cmbr.appendPath(hole)
+ 
+        # 複製 cmbr, 然後命名為 basic1
+        basic1 = cmbr.dup()
+        # 因為鏈條的角度由原點向下垂直, 所以必須轉 90 度, 再考量 atan2 的轉角
+        basic1.rotate(math.atan2(y2-y1, x2-x1)/deg+90)
+ 
+        # 放大 scale 倍
+        cgo.render(basic1, x1, y1, scale, 0)
+ 
+    # 利用鏈條起點與旋轉角度定義繪圖, 使用內定的 color, border 與 linewidth 變數
+    def basic_rot(self, x1, y1, rot, color="green", border=True, linewidth=4, scale=1):
+        self.x1 = x1
+        self.y1 = y1
+        self.rot = rot
+        self.color = color
+        self.border = border
+        self.linewidth = linewidth
+        self.scale = scale
+        # 注意, cgo.Chamber 為成員變數
+        cmbr = cobj(self.cgoChamber, "SHAPE", {
+                "fillColor": color,
+                "border": border,
+                "strokeColor": "tan",
+                "lineWidth": linewidth })
+ 
+        # hole 為原點位置
+        hole = cobj(shapedefs.circle(4), "PATH")
+        cmbr.appendPath(hole)
+        # 根據旋轉角度, 計算 x2 與 y2
+        x2 = x1 + 20*math.cos(rot*deg)
+        y2 = y1 + 20*math.sin(rot*deg)
+ 
+        # 複製 cmbr, 然後命名為 basic1
+        basic1 = cmbr.dup()
+        # 因為鏈條的角度由原點向下垂直, 所以必須轉 90 度, 再考量 atan2 的轉角
+        basic1.rotate(rot+90)
+ 
+        # 放大 scale 倍
+        cgo.render(basic1, x1, y1, scale, 0)
+ 
+        return x2, y2
+ 
+# 利用 chain class 建立案例, 對應到 mychain 變數
+mychain = chain()
+ 
+# 畫 A
+# 左邊兩個垂直單元
+x1, y1 = mychain.basic_rot(0, 0, 90)
+x2, y2 = mychain.basic_rot(x1, y1, 90)
+# 左斜邊兩個單元
+x3, y3 = mychain.basic_rot(x2, y2, 80)
+x4, y4 = mychain.basic_rot(x3, y3, 71)
+# 最上方水平單元
+x5, y5 = mychain.basic_rot(x4, y4, 0)
+# 右斜邊兩個單元
+x6, y6 = mychain.basic_rot(x5, y5, -71)
+x7, y7 = mychain.basic_rot(x6, y6, -80)
+# 右邊兩個垂直單元
+x8, y8 = mychain.basic_rot(x7, y7, -90)
+x9, y9 = mychain.basic_rot(x8, y8, -90)
+# 中間兩個水平單元
+x10, y10 = mychain.basic_rot(x8, y8, -180)
+mychain.basic(x10, y10, x1, y1, color="green")
+
+
+cgo.setWorldCoords(-315, -250, 500, 500) 
+# 畫 A
+# 左邊兩個垂直單元
+x1, y1 = mychain.basic_rot(0, 0, 90)
+x2, y2 = mychain.basic_rot(x1, y1, 90)
+# 左斜邊兩個單元
+x3, y3 = mychain.basic_rot(x2, y2, 80)
+x4, y4 = mychain.basic_rot(x3, y3, 71)
+# 最上方水平單元
+x5, y5 = mychain.basic_rot(x4, y4, 0)
+# 右斜邊兩個單元
+x6, y6 = mychain.basic_rot(x5, y5, -71)
+x7, y7 = mychain.basic_rot(x6, y6, -80)
+# 右邊兩個垂直單元
+x8, y8 = mychain.basic_rot(x7, y7, -90)
+x9, y9 = mychain.basic_rot(x8, y8, -90)
+# 中間兩個水平單元
+x10, y10 = mychain.basic_rot(x8, y8, -180)
+mychain.basic(x10, y10, x1, y1, color="blue")
+
+cgo.setWorldCoords(-385, -250, 500, 500) 
+# 畫 A
+# 左邊兩個垂直單元
+x1, y1 = mychain.basic_rot(0, 0, 90)
+x2, y2 = mychain.basic_rot(x1, y1, 90)
+# 左斜邊兩個單元
+x3, y3 = mychain.basic_rot(x2, y2, 80)
+x4, y4 = mychain.basic_rot(x3, y3, 71)
+# 最上方水平單元
+x5, y5 = mychain.basic_rot(x4, y4, 0)
+# 右斜邊兩個單元
+x6, y6 = mychain.basic_rot(x5, y5, -71)
+x7, y7 = mychain.basic_rot(x6, y6, -80)
+# 右邊兩個垂直單元
+x8, y8 = mychain.basic_rot(x7, y7, -90)
+x9, y9 = mychain.basic_rot(x8, y8, -90)
+# 中間兩個水平單元
+x10, y10 = mychain.basic_rot(x8, y8, -180)
+mychain.basic(x10, y10, x1, y1, color="red")
+
+cgo.setWorldCoords(-445, -250, 500, 500) 
+# 畫 A
+# 左邊兩個垂直單元
+x1, y1 = mychain.basic_rot(0, 0, 90)
+x2, y2 = mychain.basic_rot(x1, y1, 90)
+# 左斜邊兩個單元
+x3, y3 = mychain.basic_rot(x2, y2, 80)
+x4, y4 = mychain.basic_rot(x3, y3, 71)
+# 最上方水平單元
+x5, y5 = mychain.basic_rot(x4, y4, 0)
+# 右斜邊兩個單元
+x6, y6 = mychain.basic_rot(x5, y5, -71)
+x7, y7 = mychain.basic_rot(x6, y6, -80)
+# 右邊兩個垂直單元
+x8, y8 = mychain.basic_rot(x7, y7, -90)
+x9, y9 = mychain.basic_rot(x8, y8, -90)
+# 中間兩個水平單元
+x10, y10 = mychain.basic_rot(x8, y8, -180)
+mychain.basic(x10, y10, x1, y1, color="green")
+&lt;/script&gt;
+&lt;/body&gt;&lt;/html&gt;
+'''
+    return outstring
+    
+</t>
+<t tx="leo.20160623193606.4">@bg1_40123129.route('/one')
+def one():
+    outstring = '''
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;網際 2D 繪圖&lt;/title&gt;
+    &lt;!-- IE 9: display inline SVG --&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=9"&gt;
+&lt;script type="text/javascript" src="http://brython.info/src/brython_dist.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://cptocadp-2015fallhw.rhcloud.com/static/Cango-8v03.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://cptocadp-2015fallhw.rhcloud.com/static/Cango2D-6v13.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://cptocadp-2015fallhw.rhcloud.com/static/CangoAxes-1v33.js"&gt;&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;script&gt;
+window.onload=function(){
+brython(1);
+}
+&lt;/script&gt;
+&lt;canvas id="plotarea" width="800" height="800"&gt;&lt;/canvas&gt;
+&lt;script type="text/python"&gt;
+from javascript import JSConstructor
+from browser import alert
+from browser import window
+import math
+ 
+cango = JSConstructor(window.Cango)
+cobj = JSConstructor(window.Cobj)
+shapedefs = window.shapeDefs
+obj2d = JSConstructor(window.Obj2D)
+cgo = cango("plotarea")
+ 
+cgo.setWorldCoords(-250, -250, 500, 500) 
+ 
+# 畫軸線
+cgo.drawAxes(0, 240, 0, 240, {
+    "strokeColor":"#aaaaaa",
+    "fillColor": "#aaaaaa",
+    "xTickInterval": 20,
+    "xLabelInterval": 20,
+    "yTickInterval": 20,
+    "yLabelInterval": 20})
+ 
+deg = math.pi/180  
+
+class chain():
+    # 輪廓的外型設為成員變數
+    chamber = "M -6.8397, -1.4894 \
+            A 7, 7, 0, 1, 0, 6.8397, -1.4894 \
+            A 40, 40, 0, 0, 1, 6.8397, -18.511 \
+            A 7, 7, 0, 1, 0, -6.8397, -18.511 \
+            A 40, 40, 0, 0, 1, -6.8397, -1.4894 z"
+    cgoChamber = window.svgToCgoSVG(chamber)
+ 
+    # 利用鏈條起點與終點定義繪圖, 使用內定的 color, border 與 linewidth 變數
+    def basic(self, x1, y1, x2, y2, color="green", border=True, linewidth=4, scale=1):
+        self.x1 = x1
+        self.y1 = y1
+        self.x2 = x2
+        self.y2 = y2
+        self.color = color
+        self.border = border
+        self.linewidth = linewidth
+        self.scale = scale
+        # 注意, cgo.Chamber 為成員變數
+        cmbr = cobj(self.cgoChamber, "SHAPE", {
+                "fillColor": color,
+                "border": border,
+                "strokeColor": "tan",
+                "lineWidth": linewidth })
+ 
+        # hole 為原點位置
+        hole = cobj(shapedefs.circle(4), "PATH")
+        cmbr.appendPath(hole)
+ 
+        # 複製 cmbr, 然後命名為 basic1
+        basic1 = cmbr.dup()
+        # 因為鏈條的角度由原點向下垂直, 所以必須轉 90 度, 再考量 atan2 的轉角
+        basic1.rotate(math.atan2(y2-y1, x2-x1)/deg+90)
+ 
+        # 放大 scale 倍
+        cgo.render(basic1, x1, y1, scale, 0)
+ 
+    # 利用鏈條起點與旋轉角度定義繪圖, 使用內定的 color, border 與 linewidth 變數
+    def basic_rot(self, x1, y1, rot, color="green", border=True, linewidth=4, scale=1):
+        self.x1 = x1
+        self.y1 = y1
+        self.rot = rot
+        self.color = color
+        self.border = border
+        self.linewidth = linewidth
+        self.scale = scale
+        # 注意, cgo.Chamber 為成員變數
+        cmbr = cobj(self.cgoChamber, "SHAPE", {
+                "fillColor": color,
+                "border": border,
+                "strokeColor": "tan",
+                "lineWidth": linewidth })
+ 
+        # hole 為原點位置
+        hole = cobj(shapedefs.circle(4), "PATH")
+        cmbr.appendPath(hole)
+        # 根據旋轉角度, 計算 x2 與 y2
+        x2 = x1 + 20*math.cos(rot*deg)
+        y2 = y1 + 20*math.sin(rot*deg)
+ 
+        # 複製 cmbr, 然後命名為 basic1
+        basic1 = cmbr.dup()
+        # 因為鏈條的角度由原點向下垂直, 所以必須轉 90 度, 再考量 atan2 的轉角
+        basic1.rotate(rot+90)
+ 
+        # 放大 scale 倍
+        cgo.render(basic1, x1, y1, scale, 0)
+ 
+        return x2, y2
+ 
+# 利用 chain class 建立案例, 對應到 mychain 變數
+mychain = 
+()
+ 
+# 畫 A
+# 左邊兩個垂直單元
+x1, y1 = mychain.basic_rot(0, 0, 90)
+x2, y2 = mychain.basic_rot(x1, y1, 90)
+# 左斜邊兩個單元
+x3, y3 = mychain.basic_rot(x2, y2, 80)
+x4, y4 = mychain.basic_rot(x3, y3, 71)
+# 最上方水平單元
+x5, y5 = mychain.basic_rot(x4, y4, 0)
+# 右斜邊兩個單元
+x6, y6 = mychain.basic_rot(x5, y5, -71)
+x7, y7 = mychain.basic_rot(x6, y6, -80)
+# 右邊兩個垂直單元
+x8, y8 = mychain.basic_rot(x7, y7, -90)
+x9, y9 = mychain.basic_rot(x8, y8, -90)
+# 中間兩個水平單元
+x10, y10 = mychain.basic_rot(x8, y8, -180)
+mychain.basic(x10, y10, x1, y1, color="green")
+
+
+cgo.setWorldCoords(-315, -250, 500, 500) 
+# 畫 A
+# 左邊兩個垂直單元
+x1, y1 = mychain.basic_rot(0, 0, 90)
+x2, y2 = mychain.basic_rot(x1, y1, 90)
+# 左斜邊兩個單元
+x3, y3 = mychain.basic_rot(x2, y2, 80)
+x4, y4 = mychain.basic_rot(x3, y3, 71)
+# 最上方水平單元
+x5, y5 = mychain.basic_rot(x4, y4, 0)
+# 右斜邊兩個單元
+x6, y6 = mychain.basic_rot(x5, y5, -71)
+x7, y7 = mychain.basic_rot(x6, y6, -80)
+# 右邊兩個垂直單元
+x8, y8 = mychain.basic_rot(x7, y7, -90)
+x9, y9 = mychain.basic_rot(x8, y8, -90)
+# 中間兩個水平單元
+x10, y10 = mychain.basic_rot(x8, y8, -180)
+mychain.basic(x10, y10, x1, y1, color="blue")
+
+cgo.setWorldCoords(-385, -250, 500, 500) 
+# 畫 A
+# 左邊兩個垂直單元
+x1, y1 = mychain.basic_rot(0, 0, 90)
+x2, y2 = mychain.basic_rot(x1, y1, 90)
+# 左斜邊兩個單元
+x3, y3 = mychain.basic_rot(x2, y2, 80)
+x4, y4 = mychain.basic_rot(x3, y3, 71)
+# 最上方水平單元
+x5, y5 = mychain.basic_rot(x4, y4, 0)
+# 右斜邊兩個單元
+x6, y6 = mychain.basic_rot(x5, y5, -71)
+x7, y7 = mychain.basic_rot(x6, y6, -80)
+# 右邊兩個垂直單元
+x8, y8 = mychain.basic_rot(x7, y7, -90)
+x9, y9 = mychain.basic_rot(x8, y8, -90)
+# 中間兩個水平單元
+x10, y10 = mychain.basic_rot(x8, y8, -180)
+mychain.basic(x10, y10, x1, y1, color="red")
+
+cgo.setWorldCoords(-445, -250, 500, 500) 
+# 畫 A
+# 左邊兩個垂直單元
+x1, y1 = mychain.basic_rot(0, 0, 90)
+x2, y2 = mychain.basic_rot(x1, y1, 90)
+# 左斜邊兩個單元
+x3, y3 = mychain.basic_rot(x2, y2, 80)
+x4, y4 = mychain.basic_rot(x3, y3, 71)
+# 最上方水平單元
+x5, y5 = mychain.basic_rot(x4, y4, 0)
+# 右斜邊兩個單元
+x6, y6 = mychain.basic_rot(x5, y5, -71)
+x7, y7 = mychain.basic_rot(x6, y6, -80)
+# 右邊兩個垂直單元
+x8, y8 = mychain.basic_rot(x7, y7, -90)
+x9, y9 = mychain.basic_rot(x8, y8, -90)
+# 中間兩個水平單元
+x10, y10 = mychain.basic_rot(x8, y8, -180)
+mychain.basic(x10, y10, x1, y1, color="green")
+&lt;/script&gt;
+&lt;/body&gt;&lt;/html&gt;
+'''
+    return outstring
+    
+</t>
 </tnodes>
 </leo_file>
