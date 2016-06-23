@@ -20,15 +20,15 @@
 <v t="amd.20160501220029.1" a="E"><vh>假如要在近端檢視, 使用下列按鈕</vh>
 <v t="amd.20160501220029.2"><vh>@button local pelican</vh></v>
 </v>
-<v t="amd.20160501215942.1" a="E"><vh>@path content/a/g2</vh>
-<v t="leo.20160616131201.1"><vh>@edit 40323113-20160623.md</vh></v>
+<v t="amd.20160501215942.1" a="E"><vh>@path content/a/g5</vh>
+<v t="leo.20160616131201.1"><vh>@edit 40323122-20160623.md</vh></v>
 </v>
 </v>
 </v>
 </v>
 <v t="amd.20160501215545.1" a="E"><vh>wsgi 程式部份</vh>
-<v t="leo.20160516102106.1" a="E"><vh>@clean a40323113.py</vh>
-<v t="leo.20160516103250.1"><vh>a40323113 declarations</vh></v>
+<v t="leo.20160516102106.1" a="E"><vh>@clean a40323122.py</vh>
+<v t="leo.20160516103250.1"><vh>a4032312 declarations</vh></v>
 <v t="leo.20160516103250.2"><vh>a</vh></v>
 <v t="leo.20160516103250.3"><vh>b</vh></v>
 <v t="leo.20160516103250.4"><vh>c</vh></v>
@@ -157,6 +157,8 @@ app.register_blueprint(users.a.g2.a40323111.ag2_40323111)
 app.register_blueprint(users.a.g5.a40323113.ag5_40323113)
 app.register_blueprint(users.a.g5.a40323116.ag5_40323116)
 app.register_blueprint(users.a.g2.a40323119.ag2_40323119)
+app.register_blueprint(users.a.g5.a40323151.ag5_40323151)
+app.register_blueprint(users.a.g5.a40323122.ag5_40323122)
 
 #bg1
 app.register_blueprint(users.b.g1.bg1_40123156.bg1_40123156)
@@ -450,6 +452,8 @@ import users.a.g2.a40323111
 import users.a.g5.a40323113
 import users.a.g5.a40323116
 import users.a.g2.a40323119
+import users.a.g5.a40323151
+import users.a.g5.a40323122
 
 #bg1
 import users.b.g1.bg1_40123156
@@ -830,7 +834,7 @@ def send_blog():
 </t>
 <t tx="leo.20160516103250.1">from flask import Blueprint, request
  
-ag2_40323119 = Blueprint('ag2_40323119', __name__, url_prefix='/ag2_40323119', template_folder='templates')
+ag5_40323122 = Blueprint('ag5_40323122', __name__, url_prefix='/ag5_40323122', template_folder='templates')
  
 head_str = '''
 &lt;!DOCTYPE html&gt;
@@ -1046,58 +1050,58 @@ r1, s1 = mychain.basic_rot(x11, y11, '''+str(first_degree)+''')
  
  
 </t>
-<t tx="leo.20160516103250.11">@ag5_4032313.route('/a')
+<t tx="leo.20160516103250.11">@ag5_40323122.route('/a')
 def draw_a():
     return head_str + chain_str + a(0, 0) + tail_str
  
  
 </t>
-<t tx="leo.20160516103250.12">@ag5_4032313.route('/b')
+<t tx="leo.20160516103250.12">@ag5_40323122.route('/b')
 def draw_b():
    # 每個橫向字元距離為 65 pixels, 上下字距則為 110 pixels
     return head_str + chain_str + b(0+65, 0) + tail_str
  
  
 </t>
-<t tx="leo.20160516103250.13">@ag5_4032313.route('/c')
+<t tx="leo.20160516103250.13">@ag5_40323122.route('/c')
 def draw_c():
     # 每個橫向字元距離為 65 pixels
     return head_str + chain_str + c(0+65*2, 0) + tail_str
  
  
 </t>
-<t tx="leo.20160516103250.14">@ag5_4032313.route('/d')
+<t tx="leo.20160516103250.14">@ag5_40323122.route('/d')
 def draw_d():
     return head_str + chain_str + d(0+65*3, 0) + tail_str
  
  
 </t>
-<t tx="leo.20160516103250.15">@ag5_4032313.route('/ab')
+<t tx="leo.20160516103250.15">@ag5_40323122.route('/ab')
 def draw_ab():
     #return head_str + chain_str + a(0, 0) + b(0+65, 0) + tail_str
     return head_str + chain_str + a(0, 0) + b(0, 0-110) + tail_str
  
  
 </t>
-<t tx="leo.20160516103250.16">@ag5_4032313.route('/ac')
+<t tx="leo.20160516103250.16">@ag5_40323122.route('/ac')
 def draw_ac():
     return head_str + chain_str + a(0, 0) + c(0+65, 0) + tail_str
  
  
 </t>
-<t tx="leo.20160516103250.17">@ag5_4032313.route('/bc')
+<t tx="leo.20160516103250.17">@ag5_40323122.route('/bc')
 def draw_bc():
     return head_str + chain_str + b(0, 0) + c(0+65, 0) + tail_str
  
  
 </t>
-<t tx="leo.20160516103250.18">@ag5_4032313.route('/abc')
+<t tx="leo.20160516103250.18">@ag5_40323122.route('/abc')
 def draw_abc():
     return head_str + chain_str + a(0, 0) + b(0+65, 0) + c(0+65*2, 0) + tail_str
  
  
 </t>
-<t tx="leo.20160516103250.19">@ag5_4032313.route('/aaaa')
+<t tx="leo.20160516103250.19">@ag5_40323122.route('/aaaa')
 def draw_aaaa():
     outstring = head_str + chain_str
     scale = 2
@@ -1139,58 +1143,58 @@ mychain.basic(x10, y10, x1, y1)
  
  
 </t>
-<t tx="leo.20160516103250.20">@ag5_4032313.route('/badc')
+<t tx="leo.20160516103250.20">@ag5_40323122.route('/badc')
 def draw_badc():
     return head_str + chain_str + b(0, 0) + a(0+65, 0) + d(0+65*2, 0) + c(0+65*3, 0) + tail_str
  
  
 </t>
-<t tx="leo.20160516103250.21">@ag5_4032313.route('/abcd')
+<t tx="leo.20160516103250.21">@ag5_40323122.route('/abcd')
 def draw_abcd():
     #return head_str + chain_str + a(0, 0) + b(0+65, 0) + c(0+65*2, 0) + d(0+65*3, 0) + tail_str
     return head_str + chain_str + a(0, 110) + b(0, 110-110) + c(0, 110-110*2) + d(0, 110-110*3) + tail_str
  
  
 </t>
-<t tx="leo.20160516103250.22">@ag5_4032313.route('/circle')
+<t tx="leo.20160516103250.22">@ag5_40323122.route('/circle')
 def drawcircle():
     return head_str + chain_str + circle(0, 0) + tail_str
  
  
 </t>
-<t tx="leo.20160516103250.23">@ag5_4032313.route('/circle1/&lt;degree&gt;', defaults={'x': 0, 'y': 0})
-@ag5_4032313.route('/circle1/&lt;x&gt;/&lt;degree&gt;', defaults={'y': 0})
-@ag5_4032313.route('/circle1/&lt;x&gt;/&lt;y&gt;/&lt;degree&gt;')
-#@ag5_4032313.route('/circle1/&lt;int:x&gt;/&lt;int:y&gt;/&lt;int:degree&gt;')
+<t tx="leo.20160516103250.23">@ag5_40323122.route('/circle1/&lt;degree&gt;', defaults={'x': 0, 'y': 0})
+@ag5_40323122.route('/circle1/&lt;x&gt;/&lt;degree&gt;', defaults={'y': 0})
+@ag5_40323122.route('/circle1/&lt;x&gt;/&lt;y&gt;/&lt;degree&gt;')
+#@ag5_40323122.route('/circle1/&lt;int:x&gt;/&lt;int:y&gt;/&lt;int:degree&gt;')
 def drawcircle1(x,y,degree):
     return head_str + chain_str + circle1(int(x), int(y), int(degree)) + tail_str
  
  
 </t>
-<t tx="leo.20160516103250.24">@ag5_4032313.route('/circle2/&lt;degree&gt;', defaults={'x': 0, 'y': 0})
-@ag5_4032313.route('/circle2/&lt;x&gt;/&lt;degree&gt;', defaults={'y': 0})
-@ag5_4032313.route('/circle2/&lt;x&gt;/&lt;y&gt;/&lt;degree&gt;')
-#@ag5_4032313.route('/circle2/&lt;int:x&gt;/&lt;int:y&gt;/&lt;int:degree&gt;')
+<t tx="leo.20160516103250.24">@ag5_40323122.route('/circle2/&lt;degree&gt;', defaults={'x': 0, 'y': 0})
+@ag5_40323122.route('/circle2/&lt;x&gt;/&lt;degree&gt;', defaults={'y': 0})
+@ag5_40323122.route('/circle2/&lt;x&gt;/&lt;y&gt;/&lt;degree&gt;')
+#@ag5_40323122.route('/circle2/&lt;int:x&gt;/&lt;int:y&gt;/&lt;int:degree&gt;')
 def drawcircle2(x,y,degree):
     return head_str + chain_str + circle2(int(x), int(y), int(degree)) + tail_str
  
  
 </t>
-<t tx="leo.20160516103250.25">@ag5_4032313.route('/twocircle/&lt;x&gt;/&lt;y&gt;')
-@ag5_4032313.route('/twocircle', defaults={'x':0, 'y':0})
+<t tx="leo.20160516103250.25">@ag5_40323122.route('/twocircle/&lt;x&gt;/&lt;y&gt;')
+@ag5_40323122.route('/twocircle', defaults={'x':0, 'y':0})
 def drawtwocircle(x,y):
     return head_str + chain_str + twocircle(int(x), int(y)) + tail_str
  
  
 </t>
-<t tx="leo.20160516103250.26">@ag5_4032313.route('/eighteenthirty/&lt;x&gt;/&lt;y&gt;')
-@ag5_4032313.route('/eighteenthirty', defaults={'x':0, 'y':0})
+<t tx="leo.20160516103250.26">@ag5_40323122.route('/eighteenthirty/&lt;x&gt;/&lt;y&gt;')
+@ag5_40323122.route('/eighteenthirty', defaults={'x':0, 'y':0})
 def draweithteenthirdy(x,y):
     return head_str + chain_str + eighteenthirty(int(x), int(y)) + tail_str
  
  
 </t>
-<t tx="leo.20160516103250.27">@ag5_4032313.route('/snap')
+<t tx="leo.20160516103250.27">@ag5_40323122.route('/snap')
 # http://svg.dabbles.info/snaptut-base
 def snap():
     outstring = '''
@@ -1270,7 +1274,7 @@ document['tux'].bind('mouseleave', hoverout)
  
  
 </t>
-<t tx="leo.20160516103250.28">@ag5_4032313.route('/snap_link')
+<t tx="leo.20160516103250.28">@ag5_40323122.route('/snap_link')
 # http://svg.dabbles.info/
 def snap_link():
     outstring = '''
@@ -1353,7 +1357,7 @@ g4.animate( { 'transform' : 'r360,25,25' },4000)
  
  
 </t>
-<t tx="leo.20160516103250.29">@ag5_4032313.route('/snap_gear')
+<t tx="leo.20160516103250.29">@ag5_40323122.route('/snap_gear')
 def snap_gear():
     outstring = '''
 &lt;!DOCTYPE html&gt;
@@ -1614,7 +1618,7 @@ r1, s1 = mychain.basic_rot(p13, k13, '''+str(first_degree)+''')
  
     return outstring
 </t>
-<t tx="leo.20160613093504.1">@ag5_4032313.route('/gear')
+<t tx="leo.20160613093504.1">@ag5_40323122.route('/gear')
 def gear():
     outstring = '''
 &lt;!DOCTYPE html&gt;
