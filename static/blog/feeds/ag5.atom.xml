@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<<<<<<< HEAD
-<feed xmlns="http://www.w3.org/2005/Atom"><title>CDW11 網頁 (虎尾科大MDE)</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/" rel="alternate"></link><link href="http://cdw11-ag100.rhcloud.com/static/blog/feeds/ag5.atom.xml" rel="self"></link><id>http://cdw11-ag100.rhcloud.com/static/blog/</id><updated>2016-06-23T22:42:53+08:00</updated><entry><title>40323113 cdw17 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323113-cdw17-bao-gao.html" rel="alternate"></link><updated>2016-06-23T22:42:53+08:00</updated><author><name>40323113</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-23:static/blog/40323113-cdw17-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw17 協同專案&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>CDW11 網頁 (虎尾科大MDE)</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/" rel="alternate"></link><link href="http://cdw11-ag100.rhcloud.com/static/blog/feeds/ag5.atom.xml" rel="self"></link><id>http://cdw11-ag100.rhcloud.com/static/blog/</id><updated>2016-06-23T23:43:34+08:00</updated><entry><title>40323116 cdw17 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323116-cdw17-bao-gao.html" rel="alternate"></link><updated>2016-06-23T23:43:34+08:00</updated><author><name>40323116</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-23:static/blog/40323116-cdw17-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw17 協同專案&lt;/p&gt;
+
+
+&lt;p&gt;期末報告內容:&lt;/p&gt;
+&lt;p&gt;完成網際2D鏈條組立、2D齒輪囓合及Onshape的3D齒輪囓合&lt;/p&gt;
+&lt;p&gt;1.繪出2D齒輪&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://40323130-40323130.rhcloud.com/ag4_40323130/gear"&gt;http://40323130-40323130.rhcloud.com/ag4_40323130/gear&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/BOnioHB.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/QJeS618.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/RNVTEce.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;2.利用onshape繪出3D嚙合齒輪&lt;/p&gt;
+&lt;p&gt;繪製同齒齒輪囓合:&lt;/p&gt;
+&lt;p&gt;齒數為25齒,&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cad.onshape.com/documents/8ed08345d77951b6a01d3ee2/w/ee09b2abd42052a484b16be2/e/72ecef8940005778912ab975"&gt;https://cad.onshape.com/documents/8ed08345d77951b6a01d3ee2/w/ee09b2abd42052a484b16be2/e/72ecef8940005778912ab975&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/KP4kWO8.png" width="75%" /&gt;&lt;/p&gt;
+&lt;p&gt;心得:這次期末的東西跟期中比起來了難很多，因為我聽不懂QQQ， 利用程式產生2D圖檔設定各個參數，還有在ONSHAPE協同畫圖，這次真的學了很多東西&lt;/p&gt;
+&lt;p&gt;自評分數:65&lt;/p&gt;</summary><category term="40323116"></category><category term="cdw17"></category></entry><entry><title>40323113 cdw17 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323113-cdw17-bao-gao.html" rel="alternate"></link><updated>2016-06-23T22:42:53+08:00</updated><author><name>40323113</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-23:static/blog/40323113-cdw17-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw17 協同專案&lt;/p&gt;
 
 
 &lt;p&gt;期末報告內容:&lt;/p&gt;
@@ -24,9 +39,6 @@
 &lt;p&gt;&lt;img src="http://i.imgur.com/Hu3TH2V.png" width="75%" /&gt;&lt;/p&gt;
 &lt;p&gt;心得:這次期末的東西跟期中比起來簡單了一點，可能是會摳會改了，改過一次後這幾個禮拜的東西，就能得心應手，最會失敗的就是註冊其中一個小地方錯了或重複了圖檔就打不開。&lt;/p&gt;
 &lt;p&gt;自評分數:65&lt;/p&gt;</summary><category term="40323113"></category><category term="cdw17"></category></entry><entry><title>40123145 - 期末報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40123145-qi-mo-bao-gao.html" rel="alternate"></link><updated>2016-06-23T22:16:04+08:00</updated><author><name>40123145</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-23:static/blog/40123145-qi-mo-bao-gao.html</id><summary type="html">&lt;h3&gt;40123145 - 期末報告&lt;/h3&gt;
-=======
-<feed xmlns="http://www.w3.org/2005/Atom"><title>CDW11 網頁 (虎尾科大MDE)</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/" rel="alternate"></link><link href="http://cdw11-ag100.rhcloud.com/static/blog/feeds/ag5.atom.xml" rel="self"></link><id>http://cdw11-ag100.rhcloud.com/static/blog/</id><updated>2016-06-23T18:32:44+08:00</updated><entry><title>40123145 - 期末報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40123145-qi-mo-bao-gao.html" rel="alternate"></link><updated>2016-06-23T18:32:44+08:00</updated><author><name>40123145</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-23:static/blog/40123145-qi-mo-bao-gao.html</id><summary type="html">&lt;h3&gt;40123145 - 期末報告&lt;/h3&gt;
->>>>>>> 1eb717669fc2c15df380c813fbda809640d82f88
 
 
 
