@@ -23,7 +23,7 @@
 <v t="amd.20160501215942.1" a="E"><vh>@path content/b/g1</vh>
 <v t="amd.20160501215720.1"><vh>@edit 40123144.md</vh></v>
 <v t="leo.20160616221033.1"><vh>@edit 40123144part2.md</vh></v>
-<v t="leo.20160617085851.1"><vh>@40123144_3.md</vh></v>
+<v t="leo.20160617085851.1"><vh>@edit 40123144_3.md</vh></v>
 </v>
 </v>
 </v>
@@ -3922,43 +3922,6 @@ spur(cx+pr1+pr2+pr2+pr3+pr3+pr4, cy, m, n4, pa, 180-180/n3*n3/n4+(180-180/n2)*n2
 &lt;/script&gt;
 '''
     return outstring
-</t>
-<t tx="leo.20160617085851.1">@language md
-Title: 40123144網際3D齒輪繪圖報告
-Category: bg1
-Tags: 40123144, cdw12
-Author: 40123144
-
-Bg1 40123144網際3D齒輪繪圖報告
-&lt;!-- PELICAN_END_SUMMARY --&gt;
-
-&lt;/h3&gt;網際3D齒輪繪圖&lt;/h3&gt;
-
-&lt;/br&gt;&lt;img src="http://i.imgur.com/hbUUl6c.png?1" width="100%" /&gt;
-&lt;/br&gt;
-&lt;/h3&gt;15,25,30,40齒輪嚙和&lt;/h3&gt;
-
-&lt;/br&gt;&lt;img src="http://i.imgur.com/2cIsxXx.png?1" width="100%" /&gt;
-&lt;/h3&gt;首先先去老師範例裡FeatureStudio複製齒型程式碼&lt;/h3&gt;
-&lt;/br&gt;&lt;img src="http://i.imgur.com/SSWvDch.png?1" width="100%" /&gt;
-&lt;/h3&gt;導入FeatureStudio便能自由設定齒數、壓力角、中心孔直徑、鍵槽寬高&lt;/h3&gt;
-
-&lt;/br&gt;&lt;img src="hhttp://i.imgur.com/48N7Qhe.png?1" width="100%" /&gt;
-&lt;/h3&gt;節圓直徑為MxTooth，接下來算好中心距離以及齒輪比便能組立&lt;/h3&gt;
-
-&lt;/h3&gt;
-心得
-&lt;/h3&gt;
-
-&lt;/h3&gt;
-這個作業看似簡單但是對於初次接觸這個軟體的我來說並不太容易，但是靠著對著solidwork的熟練以及google翻譯才能完成，
-能在網路上使用3D繪圖軟體不需要下載solidwork那快10GB的軟體真的方便非常多
-&lt;/h3&gt;
-
-
-
-
-
 </t>
 <t tx="leo.20160623081749.5"></t>
 <t tx="leo.20160623081749.6">(uncached) leo.20160512122307.9

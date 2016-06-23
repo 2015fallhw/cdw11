@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>CDW11 網頁 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/bg1.atom.xml" rel="self"></link><id>./</id><updated>2016-06-23T08:17:22+08:00</updated><entry><title>40123156 創造3D齒輪</title><link href="./40123156-chuang-zao-3dchi-lun.html" rel="alternate"></link><updated>2016-06-23T08:17:22+08:00</updated><author><name>40123156</name></author><id>tag:,2016-06-23:./40123156-chuang-zao-3dchi-lun.html</id><summary type="html">&lt;ol&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>CDW11 網頁 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/bg1.atom.xml" rel="self"></link><id>./</id><updated>2016-06-23T10:02:00+08:00</updated><entry><title>40123144網際3D齒輪繪圖報告</title><link href="./40123144wang-ji-3dchi-lun-hui-tu-bao-gao.html" rel="alternate"></link><updated>2016-06-23T10:02:00+08:00</updated><author><name>40123144</name></author><id>tag:,2016-06-23:./40123144wang-ji-3dchi-lun-hui-tu-bao-gao.html</id><summary type="html">&lt;p&gt;Bg1 40123144網際3D齒輪繪圖報告
+&lt;/p&gt;
+&lt;p&gt;&lt;/h3&gt;網際3D齒輪繪圖&lt;/h3&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/br&gt;&lt;img src="http://i.imgur.com/hbUUl6c.png?1" width="100%" /&gt;
+&lt;/br&gt;
+&lt;/h3&gt;15,25,30,40齒輪嚙和&lt;/h3&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/br&gt;&lt;img src="http://i.imgur.com/2cIsxXx.png?1" width="100%" /&gt;
+&lt;/h3&gt;首先先去老師範例裡FeatureStudio複製齒型程式碼&lt;/h3&gt;
+&lt;/br&gt;&lt;img src="http://i.imgur.com/SSWvDch.png?1" width="100%" /&gt;
+&lt;/h3&gt;導入FeatureStudio便能自由設定齒數、壓力角、中心孔直徑、鍵槽寬高&lt;/h3&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/br&gt;&lt;img src="hhttp://i.imgur.com/48N7Qhe.png?1" width="100%" /&gt;
+&lt;/h3&gt;節圓直徑為MxTooth，接下來算好中心距離以及齒輪比便能組立&lt;/h3&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/h3&gt;
+心得
+&lt;/h3&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/h3&gt;
+這個作業看似簡單但是對於初次接觸這個軟體的我來說並不太容易，但是靠著對著solidwork的熟練以及google翻譯才能完成，
+能在網路上使用3D繪圖軟體不需要下載solidwork那快10GB的軟體真的方便非常多
+&lt;/h3&gt;&lt;/p&gt;</summary><category term="40123144"></category><category term="cdw12"></category></entry><entry><title>40123156 創造3D齒輪</title><link href="./40123156-chuang-zao-3dchi-lun.html" rel="alternate"></link><updated>2016-06-23T08:17:22+08:00</updated><author><name>40123156</name></author><id>tag:,2016-06-23:./40123156-chuang-zao-3dchi-lun.html</id><summary type="html">&lt;ol&gt;
 &lt;li&gt;創造新圖檔，並點擊 Create Feature Studio 。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;img src="http://i.imgur.com/Gq8vluN.png"&gt;&lt;/p&gt;
