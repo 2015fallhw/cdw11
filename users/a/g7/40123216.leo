@@ -20,7 +20,9 @@
 <v t="leo.20160623140249.1"><vh>假如要在近端檢視, 使用下列按鈕</vh>
 <v t="leo.20160623140326.1"><vh>@button local pelican</vh></v>
 </v>
-<v t="leo.20160623140406.1"><vh>@path content/b/g3</vh></v>
+<v t="leo.20160623140406.1" a="E"><vh>@path content/a/g7</vh>
+<v t="leo.20160623153238.1"><vh>@edit 40123216-01.md</vh></v>
+</v>
 </v>
 </v>
 </v>
