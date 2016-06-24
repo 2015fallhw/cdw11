@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <feed xmlns="http://www.w3.org/2005/Atom"><title>CDW11 網頁 (虎尾科大MDE)</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/" rel="alternate"></link><link href="http://cdw11-ag100.rhcloud.com/static/blog/feeds/ag1_40223153.atom.xml" rel="self"></link><id>http://cdw11-ag100.rhcloud.com/static/blog/</id><updated>2016-06-20T14:02:15+08:00</updated><entry><title>40223153 cdw11 報告-1</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40223153-cdw11-bao-gao-1.html" rel="alternate"></link><updated>2016-06-20T14:02:15+08:00</updated><author><name>40223153</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-20:static/blog/40223153-cdw11-bao-gao-1.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+=======
+<feed xmlns="http://www.w3.org/2005/Atom"><title>CDW11 網頁 (虎尾科大MDE)</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/" rel="alternate"></link><link href="http://cdw11-ag100.rhcloud.com/static/blog/feeds/ag1_40223153.atom.xml" rel="self"></link><id>http://cdw11-ag100.rhcloud.com/static/blog/</id><updated>2016-06-24T13:43:54+08:00</updated><entry><title>40223153 cdw13 報告-1</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40223153-cdw13-bao-gao-1.html" rel="alternate"></link><updated>2016-06-24T13:43:54+08:00</updated><author><name>40223153</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-24:static/blog/40223153-cdw13-bao-gao-1.html</id><summary type="html">&lt;p&gt;啟動 cdw13 協同專案&lt;/p&gt;
+
+
+&lt;p&gt;啟動 cdw13 協同專案&lt;/p&gt;</summary><category term="40223153"></category><category term="cdw13"></category></entry><entry><title>40223153 cdw11 報告-1</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40223153-cdw11-bao-gao-1.html" rel="alternate"></link><updated>2016-06-24T13:43:54+08:00</updated><author><name>40223153</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-24:static/blog/40223153-cdw11-bao-gao-1.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+>>>>>>> 508e74ca61d39c09e73482865340a1008731f764
 
 
 &lt;p&gt;pelican 網誌位置: &lt;a href="http:ag1_4022315311-ag100.rhcloud.com/static/"&gt;http:ag1_4022315311-ag100.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
@@ -9,7 +16,11 @@
 &lt;p&gt;請各組在 CDW11 下課前完成下列3個圖形的零件組合繪圖:&lt;/p&gt;
 &lt;p&gt;&lt;img ag1_40223153http://cdw11-ag100.rhcloud.com/images/cdw11_4a.png" width="100%" /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;imag1_40223153="http://cdw11-ag100.rhcloud.com/images/cdw11_badc.png" width="100%" /&gt;&lt;/p&gt;
+<<<<<<< HEAD
 &lt;p&gt;&lt;ag1_40223153rc="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40223153"></category><category term="cdw11"></category></entry><entry><title>40223153 cdw13 報告-1</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40223153-cdw13-bao-gao-1.html" rel="alternate"></link><updated>2016-06-20T14:02:15+08:00</updated><author><name>40223153</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-20:static/blog/40223153-cdw13-bao-gao-1.html</id><summary type="html">&lt;p&gt;啟動 cdw13 協同專案&lt;/p&gt;
 
 
 &lt;p&gt;啟動 cdw13 協同專案&lt;/p&gt;</summary><category term="40223153"></category><category term="cdw13"></category></entry></feed>
+=======
+&lt;p&gt;&lt;ag1_40223153rc="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40223153"></category><category term="cdw11"></category></entry></feed>
+>>>>>>> 508e74ca61d39c09e73482865340a1008731f764
