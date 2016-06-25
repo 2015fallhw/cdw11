@@ -1,30 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
+<feed xmlns="http://www.w3.org/2005/Atom"><title>CDW11 網頁 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/ag5.atom.xml" rel="self"></link><id>./</id><updated>2016-06-24T16:15:31+08:00</updated><entry><title>40323121 期末報告</title><link href="./40323121-qi-mo-bao-gao.html" rel="alternate"></link><updated>2016-06-24T16:15:31+08:00</updated><author><name>40323121</name></author><id>tag:,2016-06-24:./40323121-qi-mo-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw17 協同專案&lt;/p&gt;
+=======
 <feed xmlns="http://www.w3.org/2005/Atom"><title>CDW11 網頁 (虎尾科大MDE)</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/" rel="alternate"></link><link href="http://cdw11-ag100.rhcloud.com/static/blog/feeds/ag5.atom.xml" rel="self"></link><id>http://cdw11-ag100.rhcloud.com/static/blog/</id><updated>2016-06-25T00:02:26+08:00</updated><entry><title>40323116 cdw17 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323116-cdw17-bao-gao.html" rel="alternate"></link><updated>2016-06-25T00:02:26+08:00</updated><author><name>40323116</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-25:static/blog/40323116-cdw17-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw17 協同專案&lt;/p&gt;
+>>>>>>> 346286a9d3af34e1fd0648f39002beff9cf03401
 
 
 &lt;p&gt;期末報告內容:&lt;/p&gt;
 &lt;p&gt;完成網際2D鏈條組立、2D齒輪囓合及Onshape的3D齒輪囓合&lt;/p&gt;
 &lt;p&gt;1.繪出2D齒輪&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://40323130-40323130.rhcloud.com/ag4_40323130/gear"&gt;http://40323130-40323130.rhcloud.com/ag4_40323130/gear&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="http://i.imgur.com/BOnioHB.png" width="100%" /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="http://i.imgur.com/QJeS618.png" width="100%" /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="http://i.imgur.com/RNVTEce.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/bRrviSH.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/DizgZBu.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/dgJEbOg.png" width="100%" /&gt;&lt;/p&gt;
 &lt;p&gt;2.利用onshape繪出3D嚙合齒輪&lt;/p&gt;
+<<<<<<< HEAD
+&lt;p&gt;齒數為25齒,模數為2&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cad.onshape.com/documents/04367570a69bddb7224a3b87/w/8489c549386051beaa8c7e60/e/79bf506ec972aad91fa11962"&gt;https://cad.onshape.com/documents/04367570a69bddb7224a3b87/w/8489c549386051beaa8c7e60/e/79bf506ec972aad91fa11962&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/TqRfdTc.png" width="75%" /&gt;&lt;/p&gt;
+&lt;p&gt;繪製不同齒齒輪囓合:&lt;/p&gt;
+&lt;p&gt;一個為30齒,一個為50齒，模數皆為2&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cad.onshape.com/documents/22cb85a60490707745a98b74/w/dcb3aee5a03b3828224c4c70/e/44ccf3da0a2bd99802e5662c"&gt;https://cad.onshape.com/documents/22cb85a60490707745a98b74/w/dcb3aee5a03b3828224c4c70/e/44ccf3da0a2bd99802e5662c&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/p5ZOsVT.png" width="75%" /&gt;&lt;/p&gt;
+&lt;p&gt;心得:終於到了學期末了，學到了不少東西，其中瑣碎的步驟基本上只要做的對，基本上不會有太大的錯誤按鈕一定要按，切記一定要按，很重要懶的說三次&lt;/p&gt;
+&lt;p&gt;自評分數:65&lt;/p&gt;</summary><category term="40323121"></category><category term="cdw17"></category></entry><entry><title>40323113 期末報告</title><link href="./40323113-qi-mo-bao-gao.html" rel="alternate"></link><updated>2016-06-24T05:28:10+08:00</updated><author><name>40323113</name></author><id>tag:,2016-06-24:./40323113-qi-mo-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw17 協同專案&lt;/p&gt;
+=======
 &lt;p&gt;繪製同齒齒輪囓合:&lt;/p&gt;
 &lt;p&gt;齒數為25齒,&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://cad.onshape.com/documents/8ed08345d77951b6a01d3ee2/w/ee09b2abd42052a484b16be2/e/72ecef8940005778912ab975"&gt;https://cad.onshape.com/documents/8ed08345d77951b6a01d3ee2/w/ee09b2abd42052a484b16be2/e/72ecef8940005778912ab975&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://i.imgur.com/KP4kWO8.png" width="75%" /&gt;&lt;/p&gt;
 &lt;p&gt;心得:這次期末的東西跟期中比起來了難很多，因為我聽不懂QQQ， 利用程式產生2D圖檔設定各個參數，還有在ONSHAPE協同畫圖，這次真的學了很多東西&lt;/p&gt;
 &lt;p&gt;自評分數:65&lt;/p&gt;</summary><category term="40323116"></category><category term="cdw17"></category></entry><entry><title>40323113 cdw17 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323113-cdw17-bao-gao.html" rel="alternate"></link><updated>2016-06-25T00:02:26+08:00</updated><author><name>40323113</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-25:static/blog/40323113-cdw17-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw17 協同專案&lt;/p&gt;
+>>>>>>> 346286a9d3af34e1fd0648f39002beff9cf03401
+
+
+&lt;p&gt;期末報告內容:&lt;/p&gt;
+&lt;p&gt;完成網際2D鏈條組立、2D齒輪囓合及Onshape的3D齒輪囓合&lt;/p&gt;
+&lt;p&gt;1.繪出2D齒輪&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/4Jowdf4.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/sLJkGeQ.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/HDRQs9F.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;2.利用onshape繪出3D嚙合齒輪&lt;/p&gt;
+&lt;p&gt;齒數為25齒,模數為2&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cad.onshape.com/documents/04367570a69bddb7224a3b87/w/8489c549386051beaa8c7e60/e/79bf506ec972aad91fa11962"&gt;https://cad.onshape.com/documents/04367570a69bddb7224a3b87/w/8489c549386051beaa8c7e60/e/79bf506ec972aad91fa11962&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/TqRfdTc.png" width="75%" /&gt;&lt;/p&gt;
+&lt;p&gt;繪製不同齒齒輪囓合:&lt;/p&gt;
+&lt;p&gt;一個為30齒,一個為50齒，模數皆為2&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cad.onshape.com/documents/22cb85a60490707745a98b74/w/dcb3aee5a03b3828224c4c70/e/44ccf3da0a2bd99802e5662c"&gt;https://cad.onshape.com/documents/22cb85a60490707745a98b74/w/dcb3aee5a03b3828224c4c70/e/44ccf3da0a2bd99802e5662c&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/p5ZOsVT.png" width="75%" /&gt;&lt;/p&gt;
+&lt;p&gt;心得:期末的課程相較期中考的作業簡單許多,已經學會如何copy和修改了,比較困難的地方是註冊的步驟,如果不小心遺漏了一個小細節容易讓整篇的內容無法順利推上去,這門課不僅讓我學到如果寫程式也讓我磨練了心智.希望在未來的職場生涯中,可以學以致用讓我順利&lt;/p&gt;
+&lt;p&gt;自評分數:70&lt;/p&gt;</summary><category term="40323113"></category><category term="cdw17"></category></entry><entry><title>40323122 cdw17 報告</title><link href="./40323122-cdw17-bao-gao.html" rel="alternate"></link><updated>2016-06-24T04:24:42+08:00</updated><author><name>40323122</name></author><id>tag:,2016-06-24:./40323122-cdw17-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw17 協同專案&lt;/p&gt;
 
 
 &lt;p&gt;期末報告內容:&lt;/p&gt;
 &lt;p&gt;完成網際2D鏈條組立、2D齒輪囓合及Onshape的3D齒輪囓合&lt;/p&gt;
 &lt;p&gt;1.繪出2D齒輪&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://40323130-40323130.rhcloud.com/ag4_40323130/gear"&gt;http://40323130-40323130.rhcloud.com/ag4_40323130/gear&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="http://i.imgur.com/4Jowdf4.png" width="100%" /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="http://i.imgur.com/sLJkGeQ.png" width="100%" /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="http://i.imgur.com/HDRQs9F.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/lvgw7YE.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/RKoLh4Y.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/dL3hyK1.png" width="100%" /&gt;&lt;/p&gt;
 &lt;p&gt;2.利用onshape繪出3D嚙合齒輪&lt;/p&gt;
 &lt;p&gt;繪製同齒齒輪囓合:&lt;/p&gt;
 &lt;p&gt;齒數為25齒,模數為2&lt;/p&gt;
@@ -37,8 +70,36 @@
 &lt;p&gt;繪製4顆不同齒齒輪囓合:&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://cad.onshape.com/documents/2e49d57ffc7a17759d02ac6a/w/2c539d05cf7c08ef10a43bdb/e/792ece27d8554767d02e08e6"&gt;https://cad.onshape.com/documents/2e49d57ffc7a17759d02ac6a/w/2c539d05cf7c08ef10a43bdb/e/792ece27d8554767d02e08e6&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src="http://i.imgur.com/Hu3TH2V.png" width="75%" /&gt;&lt;/p&gt;
+&lt;p&gt;心得:經過這學期的學習,終於把協同學習完了!希望未來出社會的時候可以更加把學到的東西利用到,並且能夠幫自己在職場上加分.&lt;/p&gt;
+&lt;p&gt;自評分數:65&lt;/p&gt;</summary><category term="40323122"></category><category term="cdw17"></category></entry><entry><title>40323151 cdw17 報告</title><link href="./40323151-cdw17-bao-gao.html" rel="alternate"></link><updated>2016-06-24T03:15:48+08:00</updated><author><name>40323151</name></author><id>tag:,2016-06-24:./40323151-cdw17-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw17 協同專案&lt;/p&gt;
+
+
+&lt;p&gt;期末報告內容:&lt;/p&gt;
+&lt;p&gt;完成網際2D鏈條組立、2D齒輪囓合及Onshape的3D齒輪囓合&lt;/p&gt;
+&lt;p&gt;1.繪出2D齒輪&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://40323130-40323130.rhcloud.com/ag4_40323130/gear"&gt;http://40323130-40323130.rhcloud.com/ag4_40323130/gear&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/zKjIXdX.jpg" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/DyRYavb.jpg" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/OUpDYqy.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;2.利用onshape繪出3D嚙合齒輪&lt;/p&gt;
+&lt;p&gt;繪製同齒齒輪囓合:&lt;/p&gt;
+&lt;p&gt;齒數為25齒,模數為2&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cad.onshape.com/documents/04367570a69bddb7224a3b87/w/8489c549386051beaa8c7e60/e/79bf506ec972aad91fa11962"&gt;https://cad.onshape.com/documents/04367570a69bddb7224a3b87/w/8489c549386051beaa8c7e60/e/79bf506ec972aad91fa11962&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/TqRfdTc.png" width="75%" /&gt;&lt;/p&gt;
+&lt;p&gt;繪製不同齒齒輪囓合:&lt;/p&gt;
+&lt;p&gt;一個為30齒,一個為50齒，模數皆為2&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cad.onshape.com/documents/22cb85a60490707745a98b74/w/dcb3aee5a03b3828224c4c70/e/44ccf3da0a2bd99802e5662c"&gt;https://cad.onshape.com/documents/22cb85a60490707745a98b74/w/dcb3aee5a03b3828224c4c70/e/44ccf3da0a2bd99802e5662c&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/p5ZOsVT.png" width="75%" /&gt;&lt;/p&gt;
+&lt;p&gt;繪製4顆不同齒齒輪囓合:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cad.onshape.com/documents/2e49d57ffc7a17759d02ac6a/w/2c539d05cf7c08ef10a43bdb/e/792ece27d8554767d02e08e6"&gt;https://cad.onshape.com/documents/2e49d57ffc7a17759d02ac6a/w/2c539d05cf7c08ef10a43bdb/e/792ece27d8554767d02e08e6&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/Hu3TH2V.png" width="75%" /&gt;&lt;/p&gt;
+<<<<<<< HEAD
+&lt;p&gt;心得:這個學期在這門課又學到了一些新的東西,雖然每週作業都是要等到其他同學學會懂了才能去問他們,然後跟他們學習後再完成,但是這學期的作業完成度至少有進步了,謝謝老師這學期的教學,程式的東西真的是很難理解,但是在未來一定會很有幫助,希望之後還有機會可以繼續選修這門課程,然後學習更多更深的程式相關課程,學習更多如何去應用.&lt;/p&gt;
+&lt;p&gt;自評分數:70&lt;/p&gt;</summary><category term="40323151"></category><category term="cdw17"></category></entry><entry><title>40123145 - 期末報告</title><link href="./40123145-qi-mo-bao-gao.html" rel="alternate"></link><updated>2016-06-24T01:46:26+08:00</updated><author><name>40123145</name></author><id>tag:,2016-06-24:./40123145-qi-mo-bao-gao.html</id><summary type="html">&lt;h3&gt;40123145 - 期末報告&lt;/h3&gt;
+=======
 &lt;p&gt;心得:這次期末的東西跟期中比起來簡單了一點，可能是會摳會改了，改過一次後這幾個禮拜的東西，就能得心應手，最會失敗的就是註冊其中一個小地方錯了或重複了圖檔就打不開。&lt;/p&gt;
 &lt;p&gt;自評分數:65&lt;/p&gt;</summary><category term="40323113"></category><category term="cdw17"></category></entry><entry><title>40123145 - 期末報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40123145-qi-mo-bao-gao.html" rel="alternate"></link><updated>2016-06-25T00:02:26+08:00</updated><author><name>40123145</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-25:static/blog/40123145-qi-mo-bao-gao.html</id><summary type="html">&lt;h3&gt;40123145 - 期末報告&lt;/h3&gt;
+>>>>>>> 346286a9d3af34e1fd0648f39002beff9cf03401
 
 
 
@@ -406,4 +467,20 @@ mychain.basic(x22, y22, r11, s11)
 &lt;/h3&gt;
 &lt;/h4&gt;
 期末後開始作業難度增加了，靠自己的拼拼湊湊以及同學幫忙才能完成報告，協同的重要性也在期末後展現出來，大家分工到組合確實減少了非常多得時間，期望修完這門課後到業界會因為協同而帶來更多的方便，時代變遷的非常快，從當初需要面對面溝通到現在
-&lt;/h4&gt;&lt;/p&gt;</summary><category term="40123145"></category></entry></feed>
+&lt;/h4&gt;&lt;/p&gt;</summary><category term="40123145"></category></entry><entry><title>40323116 cdw17 報告</title><link href="./40323116-cdw17-bao-gao.html" rel="alternate"></link><updated>2016-06-24T01:46:26+08:00</updated><author><name>40323116</name></author><id>tag:,2016-06-24:./40323116-cdw17-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw17 協同專案&lt;/p&gt;
+
+
+&lt;p&gt;期末報告內容:&lt;/p&gt;
+&lt;p&gt;完成網際2D鏈條組立、2D齒輪囓合及Onshape的3D齒輪囓合&lt;/p&gt;
+&lt;p&gt;1.繪出2D齒輪&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://40323130-40323130.rhcloud.com/ag4_40323130/gear"&gt;http://40323130-40323130.rhcloud.com/ag4_40323130/gear&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/BOnioHB.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/QJeS618.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/RNVTEce.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;2.利用onshape繪出3D嚙合齒輪&lt;/p&gt;
+&lt;p&gt;繪製同齒齒輪囓合:&lt;/p&gt;
+&lt;p&gt;齒數為25齒,&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cad.onshape.com/documents/8ed08345d77951b6a01d3ee2/w/ee09b2abd42052a484b16be2/e/72ecef8940005778912ab975"&gt;https://cad.onshape.com/documents/8ed08345d77951b6a01d3ee2/w/ee09b2abd42052a484b16be2/e/72ecef8940005778912ab975&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/KP4kWO8.png" width="75%" /&gt;&lt;/p&gt;
+&lt;p&gt;心得:這次期末的東西跟期中比起來了難很多，因為我聽不懂QQQ， 利用程式產生2D圖檔設定各個參數，還有在ONSHAPE協同畫圖，這次真的學了很多東西&lt;/p&gt;
+&lt;p&gt;自評分數:65&lt;/p&gt;</summary><category term="40323116"></category><category term="cdw17"></category></entry></feed>
