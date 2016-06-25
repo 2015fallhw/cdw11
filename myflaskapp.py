@@ -49,7 +49,7 @@ import users.a.g5.a40323116
 import users.a.g2.a40323119
 import users.a.g5.a40323151
 import users.a.g5.a40323121
-
+import users.a.g3.a40323124
 #bg1
 import users.b.g1.bg1_40123156
 import users.b.g1.bg1_40123156_2
@@ -575,6 +575,7 @@ app.register_blueprint(users.a.g5.a40323116.ag5_40323116)
 app.register_blueprint(users.a.g2.a40323119.ag2_40323119)
 app.register_blueprint(users.a.g5.a40323151.ag5_40323151)
 app.register_blueprint(users.a.g5.a40323121.ag5_40323121)
+app.register_blueprint(users.a.g3.a40323124.ag3_40323124)
 
 
 #bg1
