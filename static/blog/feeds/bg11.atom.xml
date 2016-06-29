@@ -1,107 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>CDW11 網頁 (虎尾科大MDE)</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/" rel="alternate"></link><link href="http://cdw11-ag100.rhcloud.com/static/blog/feeds/bg11.atom.xml" rel="self"></link><id>http://cdw11-ag100.rhcloud.com/static/blog/</id><updated>2016-06-24T01:46:26+08:00</updated><entry><title>40323225 期末報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323225-qi-mo-bao-gao.html" rel="alternate"></link><updated>2016-06-24T01:46:26+08:00</updated><author><name>40323225</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-24:static/blog/40323225-qi-mo-bao-gao.html</id><summary type="html">&lt;p&gt;&lt;/h3&gt;期末報告內容規畫 : &lt;/h3&gt;
-&lt;/p&gt;</summary><category term="40323225"></category></entry><entry><title>40323245 cdw11報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323245-cdw11bao-gao.html" rel="alternate"></link><updated>2016-06-24T01:46:26+08:00</updated><author><name>40323245</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-24:static/blog/40323245-cdw11bao-gao.html</id><summary type="html">&lt;h3&gt;cdw11內容規畫 : &lt;h3&gt;
-
-參考老師上課網址&lt;a href="http://chiamingyen.github.io/kmolab/blog/zi-xing-che-chuan-dong-2d-lian-tiao-hui-tu.html"&gt;http://chiamingyen.github.io/kmolab/blog/zi-xing-che-chuan-dong-2d-lian-tiao-hui-tu.html&lt;/a&gt;
-&lt;br/&gt;
-再利用 html canvas 完成的 2D 自行車鏈條繪圖:
-左側鏈輪齒數為 18, 右側鏈輪齒數為 30.
-&lt;br/&gt;
-&lt;img src="http://i.imgur.com/keaUyiw.png?1"&gt;
-&lt;br/&gt;
-再利用老師提供之程式碼，貼至Leo上，並將程式裡之ag100改成自己的組別(bg11)。
-&lt;br/&gt;
-&lt;img src="http://i.imgur.com/JuOWIOc.png?1"&gt;
-&lt;br/&gt;
-&lt;h3&gt;畫布設定&lt;h3&gt;
-在@clean myflaskapp.py 與 myflaskapp declarations 下，新增自己畫布名稱。
-&lt;br/&gt;
-&lt;img src="http://i.imgur.com/oJ2WMRF.png?1"&gt;
-&lt;br/&gt;
-完成所有設定後，在系統管理員處輸入python wsgi.py，在近端測試，並可檢查是否有錯誤。
-&lt;br/&gt;
-&lt;h3&gt;心得&lt;h3&gt;
-&lt;br/&gt;
-&lt;h3&gt;第一週的課程比較簡單一點，照著老師給的程式複製貼上到Leo上，在藍圖與畫布設定上出了點問題，在沒有檢查的情況下，就急著把檔案推上班上的github，造成了全班的不便，之後了解可以利用python wsgi.py來檢查是否有錯誤，再推上github。&lt;h3&gt;</summary><category term="40323245"></category></entry><entry><title>40323245 cdw12報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323245-cdw12bao-gao.html" rel="alternate"></link><updated>2016-06-24T01:46:26+08:00</updated><author><name>40323245</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-24:static/blog/40323245-cdw12bao-gao.html</id><summary type="html">&lt;p&gt;cdw12內容規畫 :&lt;br /&gt;
-
-12345&lt;/p&gt;</summary><category term="40323245"></category></entry><entry><title>40323245 cdw13報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323245-cdw13bao-gao.html" rel="alternate"></link><updated>2016-06-24T01:46:26+08:00</updated><author><name>40323245</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-24:static/blog/40323245-cdw13bao-gao.html</id><summary type="html">&lt;p&gt;&lt;/h3&gt;cdw13 內容規畫 : &lt;/h3&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>CDW11 網頁 (虎尾科大MDE)</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/" rel="alternate"></link><link href="http://cdw11-ag100.rhcloud.com/static/blog/feeds/bg11.atom.xml" rel="self"></link><id>http://cdw11-ag100.rhcloud.com/static/blog/</id><updated>2016-06-29T01:23:25+08:00</updated><entry><title>40323252 cdw13報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323252-cdw13bao-gao.html" rel="alternate"></link><updated>2016-06-29T01:23:25+08:00</updated><author><name>40323252</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-29:static/blog/40323252-cdw13bao-gao.html</id><summary type="html">&lt;p&gt;cdw13
 &lt;/p&gt;
-&lt;h3&gt;本周作業為，將老師提供之鍊條，旋轉90度呈現站立狀態。&lt;/h3&gt;
-
-&lt;p&gt;&lt;br/&gt;
-&lt;h3&gt;完成圖:&lt;/h3&gt;
-&lt;img src="http://i.imgur.com/Bx7pxhW.png"&gt; 
-&lt;br/&gt;
-參考老師上課網址&lt;a href="http://chiamingyen.github.io/kmolab/blog/zi-xing-che-chuan-dong-2d-lian-tiao-hui-tu-er.html"&gt;http://chiamingyen.github.io/kmolab/blog/zi-xing-che-chuan-dong-2d-lian-tiao-hui-tu-er.html&lt;/a&gt;
-&lt;br/&gt;
-至solvespace繪製下圖鍊條
-&lt;br/&gt;
-&lt;img src="http://i.imgur.com/Nsm1Wbs.png?1"&gt;
-&lt;br/&gt;
-根據上述的切點座標與相關角度條件, 就可以利用 自行車傳動 2D 鏈條繪圖 中的鏈條繪圖元件進行下列繪圖:
-&lt;br/&gt;
-&lt;img src="http://i.imgur.com/Fo9e3jw.png?1"&gt;
-&lt;br/&gt;
-要將此鍊條旋轉90度站立起來的話，只要在程式中first_degree的地方加上90，並根據在solvespace繪製之座標，在p、k的地方更改座標。
-&lt;br/&gt;
-&lt;img src="http://i.imgur.com/DcJsmta.png?1"&gt;
-&lt;br/&gt;
-&lt;img src="http://i.imgur.com/h6jgQ53.png?1"&gt;
-&lt;br/&gt;
-&lt;h3&gt;心得&lt;h3&gt;
-&lt;br/&gt;
-&lt;h3&gt;本周作業是將老師給的水平鍊條，更改為垂直的鏈條，首先是在solvespace繪圖軟體上畫出想要的圖形，在小視窗裡有著各點的座標，再將程式裡各座標進行更改，並在鍊條角度處加上90度，即可完成本週作業。&lt;h3&gt;&lt;/p&gt;</summary><category term="40323245"></category></entry><entry><title>40323245 cdw15報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323245-cdw15bao-gao.html" rel="alternate"></link><updated>2016-06-24T01:46:26+08:00</updated><author><name>40323245</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-24:static/blog/40323245-cdw15bao-gao.html</id><summary type="html">&lt;h3&gt;cdw15 內容規畫 :&lt;h3&gt; 
-
-參考老師上課網址&lt;a href="http://chiamingyen.github.io/kmolab/blog/wang-ji-2d-zheng-chi-lun-chuan-dong-nie-he-hui-tu.html"&gt;http://chiamingyen.github.io/kmolab/blog/wang-ji-2d-zheng-chi-lun-chuan-dong-nie-he-hui-tu.html&lt;/a&gt;
-&lt;br/&gt;
-以下為 17 齒, 29 齒與 15 齒輪組的囓合繪圖:
-&lt;br/&gt;
-&lt;img src="http://i.imgur.com/bSPsrfC.png?1"&gt;
-&lt;br/&gt;
-&lt;h3&gt;此週課程，可透過老師提供之程式進行修改，畫出不同齒數之齒輪。&lt;h3&gt;
-&lt;br/&gt;
-
-&lt;h3&gt;以下將設計出一10、12、14、16齒之齒輪。&lt;h3&gt;
-&lt;br/&gt;
-在此新增一n4齒輪，並可設定齒輪齒數。
-&lt;br/&gt;
-&lt;img src="http://i.imgur.com/rVgCN2R.png"&gt;
-&lt;br/&gt;
-&lt;img src="http://i.imgur.com/MlJcZMv.png"&gt;
-&lt;br/&gt;
-並在此完成齒心座標設定。
-&lt;br/&gt;
-&lt;img src="http://i.imgur.com/LsJdaoC.png"&gt;
-&lt;br/&gt;
-完成所有設定後，即可畫出設計之齒輪組。
-&lt;br/&gt;
-&lt;img src="http://i.imgur.com/i12lLer.png"&gt;
-&lt;br/&gt;
-&lt;h3&gt;心得&lt;h3&gt;
-&lt;br/&gt;
-&lt;h3&gt;本週作業為將老師提供之3齒輪組增加1齒輪，成為4齒輪組。相較於齒距的設定，齒輪的齒數、齒輪的節圓半徑設定是比較簡單的，齒數方面，只要新增一個n4 = X，X可以自由變更大小，半徑方面，只要新增一個pr4 = n4*m/2即可，齒距定位方面，就比較不懂了，所以一直跑去問同學，搞了老半天...，最後照著老師程式裡的提示，一步步慢慢的研究，最後還是完成了本週的作業。&lt;h3&gt;</summary><category term="40323245"></category></entry><entry><title>40323245 cdw17報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323245-cdw17bao-gao.html" rel="alternate"></link><updated>2016-06-24T01:46:26+08:00</updated><author><name>40323245</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-24:static/blog/40323245-cdw17bao-gao.html</id><summary type="html">&lt;p&gt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt; HEAD
-cdw17 內容規畫 : 
-=======
-cdw13 內容規畫 : &lt;/p&gt;
-&lt;blockquote&gt;
-&lt;blockquote&gt;
-&lt;blockquote&gt;
-&lt;blockquote&gt;
-&lt;blockquote&gt;
-&lt;blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;0938d723a107da0d6a466fc5434d508514303891
-&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/blockquote&gt;
-&lt;/blockquote&gt;
-&lt;/blockquote&gt;
-&lt;/blockquote&gt;
-&lt;/blockquote&gt;
-&lt;/blockquote&gt;</summary><category term="40323245"></category></entry><entry><title>40323247 cdw11報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323247-cdw11bao-gao.html" rel="alternate"></link><updated>2016-06-24T01:46:26+08:00</updated><author><name>40323247</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-24:static/blog/40323247-cdw11bao-gao.html</id><summary type="html">&lt;h3&gt;cdw11內容規畫 : &lt;h3&gt;
-</summary><category term="40323247"></category></entry><entry><title>40323252 cdw13報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323252-cdw13bao-gao.html" rel="alternate"></link><updated>2016-06-24T01:46:26+08:00</updated><author><name>40323252</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-24:static/blog/40323252-cdw13bao-gao.html</id><summary type="html">&lt;p&gt;cdw13
-&lt;/p&gt;
-&lt;p&gt;編輯&lt;/p&gt;</summary><category term="4032352"></category></entry><entry><title>40323252 期末報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323252-qi-mo-bao-gao.html" rel="alternate"></link><updated>2016-06-24T01:46:26+08:00</updated><author><name>40323252</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-24:static/blog/40323252-qi-mo-bao-gao.html</id><summary type="html">&lt;p&gt;cdw11
+&lt;p&gt;編輯&lt;/p&gt;</summary><category term="4032352"></category></entry><entry><title>40323252 期末報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323252-qi-mo-bao-gao.html" rel="alternate"></link><updated>2016-06-29T01:23:25+08:00</updated><author><name>40323252</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-29:static/blog/40323252-qi-mo-bao-gao.html</id><summary type="html">&lt;p&gt;cdw11
 &lt;/p&gt;
 &lt;h3&gt;新增畫布&lt;h3&gt;
 &lt;br&gt;
@@ -151,4 +51,430 @@ cdw13 內容規畫 : &lt;/p&gt;
 &lt;br&gt;
 &lt;h3&gt;心得:&lt;h3&gt;
 &lt;br&gt;
-設定畫布的時候常出現衝突必須從DOS上看哪裡錯誤然後去修改或是覆蓋，再次檢查是否沒有衝突了，接下來的鏈條先要用solvespace畫出來然後去求點求角度以及第一齒要從哪裡開始放，然後最後一齒要讓他往下自然垂下來的地方我沒有完成，期中過後的這些齒輪鍊條不管是2D3D，我認為對未來設計一下東西或是運用在專題都是有益的，修改程式碼就可以馬上在近端網頁看到，慢慢去變化.調整到我們需要的零件或是組合的一些細節，都可以用這方式很快得去調整也比較輕鬆便利，onshape上的3D圖，模擬也讓我們比較簡單去了解一些細部的東西</summary><category term="4032352"></category></entry></feed>
+設定畫布的時候常出現衝突必須從DOS上看哪裡錯誤然後去修改或是覆蓋，再次檢查是否沒有衝突了，接下來的鏈條先要用solvespace畫出來然後去求點求角度以及第一齒要從哪裡開始放，然後最後一齒要讓他往下自然垂下來的地方我沒有完成，期中過後的這些齒輪鍊條不管是2D3D，我認為對未來設計一下東西或是運用在專題都是有益的，修改程式碼就可以馬上在近端網頁看到，慢慢去變化.調整到我們需要的零件或是組合的一些細節，都可以用這方式很快得去調整也比較輕鬆便利，onshape上的3D圖，模擬也讓我們比較簡單去了解一些細部的東西</summary><category term="4032352"></category></entry><entry><title>40323247 cdw11報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323247-cdw11bao-gao.html" rel="alternate"></link><updated>2016-06-29T01:23:25+08:00</updated><author><name>40323247</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-29:static/blog/40323247-cdw11bao-gao.html</id><summary type="html">&lt;h3&gt;cdw11內容規畫 : &lt;h3&gt;
+</summary><category term="40323247"></category></entry><entry><title>40323245 cdw17報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323245-cdw17bao-gao.html" rel="alternate"></link><updated>2016-06-29T01:23:25+08:00</updated><author><name>40323245</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-29:static/blog/40323245-cdw17bao-gao.html</id><summary type="html">&lt;p&gt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt; HEAD
+cdw17 內容規畫 : 
+=======
+cdw13 內容規畫 : &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;0938d723a107da0d6a466fc5434d508514303891
+&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;</summary><category term="40323245"></category></entry><entry><title>40323245 cdw15報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323245-cdw15bao-gao.html" rel="alternate"></link><updated>2016-06-29T01:23:25+08:00</updated><author><name>40323245</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-29:static/blog/40323245-cdw15bao-gao.html</id><summary type="html">&lt;h3&gt;cdw15 內容規畫 :&lt;h3&gt; 
+
+參考老師上課網址&lt;a href="http://chiamingyen.github.io/kmolab/blog/wang-ji-2d-zheng-chi-lun-chuan-dong-nie-he-hui-tu.html"&gt;http://chiamingyen.github.io/kmolab/blog/wang-ji-2d-zheng-chi-lun-chuan-dong-nie-he-hui-tu.html&lt;/a&gt;
+&lt;br/&gt;
+以下為 17 齒, 29 齒與 15 齒輪組的囓合繪圖:
+&lt;br/&gt;
+&lt;img src="http://i.imgur.com/bSPsrfC.png?1"&gt;
+&lt;br/&gt;
+&lt;h3&gt;此週課程，可透過老師提供之程式進行修改，畫出不同齒數之齒輪。&lt;h3&gt;
+&lt;br/&gt;
+
+&lt;h3&gt;以下將設計出一10、12、14、16齒之齒輪。&lt;h3&gt;
+&lt;br/&gt;
+在此新增一n4齒輪，並可設定齒輪齒數。
+&lt;br/&gt;
+&lt;img src="http://i.imgur.com/rVgCN2R.png"&gt;
+&lt;br/&gt;
+&lt;img src="http://i.imgur.com/MlJcZMv.png"&gt;
+&lt;br/&gt;
+並在此完成齒心座標設定。
+&lt;br/&gt;
+&lt;img src="http://i.imgur.com/LsJdaoC.png"&gt;
+&lt;br/&gt;
+完成所有設定後，即可畫出設計之齒輪組。
+&lt;br/&gt;
+&lt;img src="http://i.imgur.com/i12lLer.png"&gt;
+&lt;br/&gt;
+&lt;h3&gt;心得&lt;h3&gt;
+&lt;br/&gt;
+&lt;h3&gt;本週作業為將老師提供之3齒輪組增加1齒輪，成為4齒輪組。相較於齒距的設定，齒輪的齒數、齒輪的節圓半徑設定是比較簡單的，齒數方面，只要新增一個n4 = X，X可以自由變更大小，半徑方面，只要新增一個pr4 = n4*m/2即可，齒距定位方面，就比較不懂了，所以一直跑去問同學，搞了老半天...，最後照著老師程式裡的提示，一步步慢慢的研究，最後還是完成了本週的作業。&lt;h3&gt;</summary><category term="40323245"></category></entry><entry><title>40323245 cdw13報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323245-cdw13bao-gao.html" rel="alternate"></link><updated>2016-06-29T01:23:25+08:00</updated><author><name>40323245</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-29:static/blog/40323245-cdw13bao-gao.html</id><summary type="html">&lt;p&gt;&lt;/h3&gt;cdw13 內容規畫 : &lt;/h3&gt;
+&lt;/p&gt;
+&lt;h3&gt;本周作業為，將老師提供之鍊條，旋轉90度呈現站立狀態。&lt;/h3&gt;
+
+&lt;p&gt;&lt;br/&gt;
+&lt;h3&gt;完成圖:&lt;/h3&gt;
+&lt;img src="http://i.imgur.com/Bx7pxhW.png"&gt; 
+&lt;br/&gt;
+參考老師上課網址&lt;a href="http://chiamingyen.github.io/kmolab/blog/zi-xing-che-chuan-dong-2d-lian-tiao-hui-tu-er.html"&gt;http://chiamingyen.github.io/kmolab/blog/zi-xing-che-chuan-dong-2d-lian-tiao-hui-tu-er.html&lt;/a&gt;
+&lt;br/&gt;
+至solvespace繪製下圖鍊條
+&lt;br/&gt;
+&lt;img src="http://i.imgur.com/Nsm1Wbs.png?1"&gt;
+&lt;br/&gt;
+根據上述的切點座標與相關角度條件, 就可以利用 自行車傳動 2D 鏈條繪圖 中的鏈條繪圖元件進行下列繪圖:
+&lt;br/&gt;
+&lt;img src="http://i.imgur.com/Fo9e3jw.png?1"&gt;
+&lt;br/&gt;
+要將此鍊條旋轉90度站立起來的話，只要在程式中first_degree的地方加上90，並根據在solvespace繪製之座標，在p、k的地方更改座標。
+&lt;br/&gt;
+&lt;img src="http://i.imgur.com/DcJsmta.png?1"&gt;
+&lt;br/&gt;
+&lt;img src="http://i.imgur.com/h6jgQ53.png?1"&gt;
+&lt;br/&gt;
+&lt;h3&gt;心得&lt;h3&gt;
+&lt;br/&gt;
+&lt;h3&gt;本周作業是將老師給的水平鍊條，更改為垂直的鏈條，首先是在solvespace繪圖軟體上畫出想要的圖形，在小視窗裡有著各點的座標，再將程式裡各座標進行更改，並在鍊條角度處加上90度，即可完成本週作業。&lt;h3&gt;&lt;/p&gt;</summary><category term="40323245"></category></entry><entry><title>40323245 cdw12報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323245-cdw12bao-gao.html" rel="alternate"></link><updated>2016-06-29T01:23:25+08:00</updated><author><name>40323245</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-29:static/blog/40323245-cdw12bao-gao.html</id><summary type="html">&lt;p&gt;cdw12內容規畫 :&lt;br /&gt;
+
+12345&lt;/p&gt;</summary><category term="40323245"></category></entry><entry><title>40323245 cdw11報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323245-cdw11bao-gao.html" rel="alternate"></link><updated>2016-06-29T01:23:25+08:00</updated><author><name>40323245</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-29:static/blog/40323245-cdw11bao-gao.html</id><summary type="html">&lt;h3&gt;cdw11內容規畫 : &lt;h3&gt;
+
+參考老師上課網址&lt;a href="http://chiamingyen.github.io/kmolab/blog/zi-xing-che-chuan-dong-2d-lian-tiao-hui-tu.html"&gt;http://chiamingyen.github.io/kmolab/blog/zi-xing-che-chuan-dong-2d-lian-tiao-hui-tu.html&lt;/a&gt;
+&lt;br/&gt;
+再利用 html canvas 完成的 2D 自行車鏈條繪圖:
+左側鏈輪齒數為 18, 右側鏈輪齒數為 30.
+&lt;br/&gt;
+&lt;img src="http://i.imgur.com/keaUyiw.png?1"&gt;
+&lt;br/&gt;
+再利用老師提供之程式碼，貼至Leo上，並將程式裡之ag100改成自己的組別(bg11)。
+&lt;br/&gt;
+&lt;img src="http://i.imgur.com/JuOWIOc.png?1"&gt;
+&lt;br/&gt;
+&lt;h3&gt;畫布設定&lt;h3&gt;
+在@clean myflaskapp.py 與 myflaskapp declarations 下，新增自己畫布名稱。
+&lt;br/&gt;
+&lt;img src="http://i.imgur.com/oJ2WMRF.png?1"&gt;
+&lt;br/&gt;
+完成所有設定後，在系統管理員處輸入python wsgi.py，在近端測試，並可檢查是否有錯誤。
+&lt;br/&gt;
+&lt;h3&gt;心得&lt;h3&gt;
+&lt;br/&gt;
+&lt;h3&gt;第一週的課程比較簡單一點，照著老師給的程式複製貼上到Leo上，在藍圖與畫布設定上出了點問題，在沒有檢查的情況下，就急著把檔案推上班上的github，造成了全班的不便，之後了解可以利用python wsgi.py來檢查是否有錯誤，再推上github。&lt;h3&gt;</summary><category term="40323245"></category></entry><entry><title>40323225 期末報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323225-qi-mo-bao-gao.html" rel="alternate"></link><updated>2016-06-29T01:23:25+08:00</updated><author><name>40323225</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-29:static/blog/40323225-qi-mo-bao-gao.html</id><summary type="html">&lt;h3&gt;期末報告內容規畫 : &lt;h3&gt;
+
+&lt;h4&gt;1.區域介紹&lt;/h4&gt;
+&lt;img src="http://i.imgur.com/QLpKZNE.png" width="100%" /&gt;
+------------------------------------------------------------------
+&lt;h4&gt;2.產生py檔案&lt;/h4&gt;
+&lt;img src="http://i.imgur.com/ljde2Fs.png" width="100%" /&gt;
+------------------------------------------------------------------
+&lt;h4&gt;3.創立Openshift&lt;/h4&gt;
+&lt;h4&gt;進入到Openshift，點選"Add Application"&lt;/h4&gt;
+&lt;img src="http://i.imgur.com/STznamI.png" width="100%" /&gt;
+------------------------------------------------------------------
+&lt;h4&gt;4.建立Openshift的鑰匙&lt;/h4&gt;
+&lt;h4&gt;使用puttygen創建新鑰匙&lt;/h4&gt;
+&lt;img src="http://i.imgur.com/5ZQlDxS.png" width="100%" /&gt;
+&lt;h4&gt;進入到Settings&lt;/h4&gt;
+&lt;img src="http://i.imgur.com/5bmaEIX.png" width="100%" /&gt;
+------------------------------------------------------------------
+&lt;h4&gt;5.編輯圖檔&lt;/h4&gt;
+&lt;h4&gt;使用Leo Editor，編輯鍊條及齒輪組&lt;/h4&gt;
+&lt;h4&gt;&lt;a href="http://40323225-bg11cdw11.rhcloud.com/bg11_4/eighteenthirty"&gt;http://40323225-bg11cdw11.rhcloud.com/bg11_4/eighteenthirty &lt;/a&gt;&lt;/h4&gt;
+&lt;img src="http://i.imgur.com/s8jlcRz.png" width="100%" /&gt;
+&lt;h4&gt;&lt;a href="http://40323225-bg11cdw11.rhcloud.com/bg11_4/gear"&gt;http://40323225-bg11cdw11.rhcloud.com/bg11_4/gear &lt;/a&gt;&lt;/h4&gt;
+&lt;img src="http://i.imgur.com/J9pVaTe.png" width="100%" /&gt;
+------------------------------------------------------------------
+&lt;h4&gt;6.SolveSpace&lt;/h4&gt;
+&lt;h4&gt;可以事先使用SolveSpace，進行運算的工作&lt;/h4&gt;
+&lt;img src="http://i.imgur.com/AVSQ3tW.jpg" width="100%" /&gt;
+&lt;h4&gt;上半部放大圖&lt;/h4&gt;
+&lt;img src="http://i.imgur.com/j9XSPFr.jpg" width="100%" /&gt;
+&lt;h4&gt;下半部放大圖&lt;/h4&gt;
+&lt;img src="http://i.imgur.com/2Pq88c0.jpg" width="100%" /&gt;
+------------------------------------------------------------------
+&lt;h4&gt;7.心得報告&lt;/h4&gt;
+&lt;h4&gt;
+第11周
+這周的課程主要設計可改變圖形的方向,位置等等，比較多變化，學完之後其實覺得這周的東西較為有趣，也希望之後的東西也能越學越有趣。&lt;h4&gt;
+
+&lt;h4&gt;第13周
+這周的課程是將三個齒輪結合第四個齒輪，並使其能夠正常運作，比較偏向概念性的原理，我個人是覺得還蠻有挑戰性的，值得去思考。&lt;h4&gt;
+
+&lt;h4&gt;第14周
+這周是利用onshape繪製出3D的齒輪，雖然以前常常畫圖，但繪製3D的圖形也比較困難，繪製經驗也比較少，還好有透過同學的教導，和自己的摸索，才把他畫出來，算是充實的一周。&lt;h4&gt;
+
+&lt;h4&gt;期末心得
+這學期其實剛開始都很認真在聽，但還是不太會，還好有同學的教導讓我都知道上課在做什麼，由其是畫圖的時候，因為以前沒有用onshape的經驗，雖然部奏不會很困難，但畫起來還蠻新鮮的，所以其實程式的東西還是要花時間去理解，也感謝同學願意教導，也許以後這些繪圖程式有機會用到&lt;/h4&gt;</summary><category term="40323225"></category></entry><entry><title>40323223 期末報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323223-qi-mo-bao-gao.html" rel="alternate"></link><updated>2016-06-29T01:23:25+08:00</updated><author><name>40323223</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-29:static/blog/40323223-qi-mo-bao-gao.html</id><summary type="html">&lt;h3&gt;期末報告內容規畫 : &lt;h3&gt;
+
+&lt;h2&gt;各週心得:&lt;/h2&gt;
+
+&lt;br&gt;  CDW11:
+這週學習的東西是將老師放在網路上的鍊條程式碼,我們要自己去測試修改他的內容,使他能旋轉90度,甚麼都不會的我,只能靠朋友的幫助,但是過程中也學到很多之前沒接觸的東西&lt;/br&gt;
+
+ &lt;br&gt;   CDW13:
+這禮拜要做的是2D齒輪結合,方法跟上禮拜差不多,一樣從老師放在網路上的程式碼抓下來,起初只有3個齒輪,老師叫我們要增加第四個齒輪,並且能夠配合與正常運作,在做的過程中需要注意的是在配合第四個齒輪的時候要修改一個旋轉腳,也花了一些時間與組員一起討論修改,才完成&lt;/br&gt;
+
+  &lt;br&gt;  CDW14:
+這裡禮拜老師要求我們每組用onshape畫出3D的齒輪,但也必需要能配合與正常運作,這次功課就是從基本開始,要繪製3D齒輪都要自己查表,畫出正確的規格,跟前幾次的東西比起來,這週的功課比較困難而有挑戰性,但我還是很認的把它完成&lt;/br&gt;
+
+&lt;h2&gt;Leo Editor 基本的使用:&lt;/h2&gt;
+1.開啟 Leo Editor 後, 使用者可以新增一個 .leo 檔案, 並在其中加入節點，以及在節點的內文中輸入資料。
+
+2.當節點名稱為@edit _____.md時，即為網誌檔，其內文可打資料，傳會後會顯示在網頁上。
+
+3.當節點名稱為@edit ____.py時，即為python檔，若想讓.py檔裡的程式分節，就將 edit 改為 auto，在檔名的位置點滑鼠右鍵選擇Refresh from disk就會自動分節，再將 auto改為 clean就完成。
+
+&lt;img src="http://i.imgur.com/emdE9zV.png" width="80%" /&gt;
+
+4.@path content/b/g11即為檔案存取到 content下的 b下的 g11 。
+
+5.程式中bg11_40323223_2 = Blueprint('bg11_40323223_2', __name__, url_prefix='/bg11_40323223_2', template_folder='templates') 此行為定義藍圖名稱
+
+6.若要在近端實行就輸入 python wsgi.py當跑出三行有*字號的文字即為成功，若沒有成功可看@clean myflaskapp.py或myflaskapp declarations 中是否有定義到自己的檔案或藍圖，也有可能是別人的定義錯誤，可在錯誤的定義前面加一個#字號暫時蓋掉，完成後再輸入一次python wsgi.py即可。.
+
+&lt;img src="http://i.imgur.com/cPiGrkk.png" width="80%" /&gt;
+
+7.當近端跑成功後可在網頁網址中輸入 localhost:5000/檔案位置/藍圖名稱/繪圖所定義的名稱。
+
+--------------------------
+
+&lt;h2&gt;2D英文字母繪製:&lt;/h2&gt;
+
+&lt;h4&gt;AAAA: &lt;/h4&gt;
+
+&lt;img src="http://i.imgur.com/zJ7VSbc.png" width="80%" /&gt;
+
+&lt;h4&gt;BACD: &lt;/h4&gt;
+
+&lt;img src="http://i.imgur.com/DgOiSOi.png" width="80%" /&gt;
+
+&lt;h4&gt;ABCD: &lt;/h4&gt;
+
+&lt;img src="http://i.imgur.com/C1rhJRf.png"  height="50%" /&gt;
+
+----------------------------
+
+&lt;h2&gt;自行車傳動 2D 鏈條繪圖:&lt;/h2&gt;
+
+&lt;h4&gt;計算鍊條點的位置: &lt;/h4&gt;
+
+利用solvespace繪圖計算鍊條點的位置在帶入程式中
+
+&lt;img src="http://imgur.com/cH1mZSh.png" width="80%" /&gt;
+
+欲將鍊條改為垂直，將first_degree都加上90，X與Y的部分做算並填上即可。
+
+&lt;h4&gt;垂直鍊條: &lt;/h4&gt;
+
+&lt;img src="http://imgur.com/PXEe47O.png" height="40%" /&gt;
+
+----------------------------
+
+&lt;h2&gt;2D 正齒輪傳動囓合繪圖:&lt;/h2&gt;
+
+&lt;img src="http://i.imgur.com/9L5Rqw6.png" width="60%" /&gt;
+
+&lt;h4&gt;齒輪嚙合程式: &lt;/h4&gt;
+
+&lt;pre class="brush: python"&gt;
+&lt;script type="text/javascript" src="http://brython.info/src/brython_dist.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://2015fallhw.github.io/cptocadp/static/Cango-8v03.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://2015fallhw.github.io/cptocadp/static/Cango2D-7v01-min.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://2015fallhw.github.io/cptocadp/static/gearUtils-05.js"&gt;&lt;/script&gt;
+
+&lt;script&gt;
+window.onload=function(){
+brython(1);
+}
+&lt;/script&gt;
+
+&lt;canvas id='gear1' width='800' height='750'&gt;&lt;/canvas&gt;
+
+&lt;script type="text/python"&gt;
+# 將 導入的 document 設為 doc 主要原因在於與舊程式碼相容
+from browser import document as doc
+# 由於 Python3 與 Javascript 程式碼已經不再混用, 因此來自 Javascript 的變數, 必須居中透過 window 物件轉換
+from browser import window
+# 針對 Javascript 既有的物件, 則必須透過 JSConstructor 轉換
+from javascript import JSConstructor
+import math
+
+# 主要用來取得畫布大小
+canvas = doc["gear1"]
+# 此程式採用 Cango Javascript 程式庫繪圖, 因此無需 ctx
+#ctx = canvas.getContext("2d")
+# 針對類別的轉換, 將 Cango.js 中的 Cango 物件轉為 Python cango 物件
+cango = JSConstructor(window.Cango)
+# 針對變數的轉換, shapeDefs 在 Cango 中資料型別為變數, 可以透過 window 轉換
+shapedefs = window.shapeDefs
+# 目前 Cango 結合 Animation 在 Brython 尚無法運作, 此刻只能繪製靜態圖形
+# in CangoAnimation.js
+#interpolate1 = window.interpolate
+# Cobi 與 createGearTooth 都是 Cango Javascript 程式庫中的物件
+cobj = JSConstructor(window.Cobj)
+creategeartooth = JSConstructor(window.createGearTooth)
+
+# 經由 Cango 轉換成 Brython 的 cango, 指定將圖畫在 id="plotarea" 的 canvas 上
+cgo = cango("gear1")
+
+######################################
+# 畫正齒輪輪廓
+#####################################
+def spur(cx, cy, m, n, pa, theta):
+    # n 為齒數
+    #n = 17
+    # pa 為壓力角
+    #pa = 25
+    # m 為模數, 根據畫布的寬度, 計算適合的模數大小
+    # Module = mm of pitch diameter per tooth
+    #m = 0.8*canvas.width/n
+    # pr 為節圓半徑
+    pr = n*m/2 # gear Pitch radius
+    # generate gear
+    data = creategeartooth(m, n, pa)
+    # Brython 程式中的 print 會將資料印在 Browser 的 console 區
+    #print(data)
+
+    gearTooth = cobj(data, "SHAPE", {
+            "fillColor":"#660099",
+            "border": True,
+            "strokeColor": "#cc9933" })
+    #gearTooth.rotate(180/n) # rotate gear 1/2 tooth to mesh, 請注意 rotate 角度為 degree
+    # theta 為角度
+    gearTooth.rotate(theta) 
+    # 單齒的齒形資料經過旋轉後, 將資料複製到 gear 物件中
+    gear = gearTooth.dup()
+    # gear 為單一齒的輪廓資料
+    #cgo.render(gearTooth)
+
+    # 利用單齒輪廓旋轉, 產生整個正齒輪外形
+    for i in range(1, n):
+        # 將 gearTooth 中的資料複製到 newTooth
+        newTooth = gearTooth.dup()
+        # 配合迴圈, newTooth 的齒形資料進行旋轉, 然後利用 appendPath 方法, 將資料併入 gear
+        newTooth.rotate(360*i/n)
+        # appendPath 為 Cango 程式庫中的方法, 第二個變數為 True, 表示要刪除最前頭的 Move to SVG Path 標註符號
+        gear.appendPath(newTooth, True) # trim move command = True
+
+    # 建立軸孔
+    # add axle hole, hr 為 hole radius
+    hr = 0.6*pr # diameter of gear shaft
+    shaft = cobj(shapedefs.circle(hr), "PATH")
+    shaft.revWinding()
+    gear.appendPath(shaft) # retain the 'moveTo' command for shaft sub path
+    gear.translate(cx, cy)
+    # render 繪出靜態正齒輪輪廓
+    cgo.render(gear)
+    # 接著繪製齒輪的基準線
+    deg = math.pi/180
+    Line = cobj(['M', cx, cy, 'L', cx+pr*math.cos(theta*deg), cy+pr*math.sin(theta*deg)], "PATH", {
+          'strokeColor':'blue', 'lineWidth': 1})
+    cgo.render(Line)
+
+# 3個齒輪的齒數
+n1 = 10
+n2 = 12
+n3 = 14
+n4 = 16
+
+# m 為模數, 根據畫布的寬度, 計算適合的模數大小
+# Module = mm of pitch diameter per tooth
+# 利用 80% 的畫布寬度進行繪圖
+# 計算模數的對應尺寸
+m = canvas.width*0.8/(n1+n2+n3+n4)
+
+# 根據齒數與模組計算各齒輪的節圓半徑
+pr1 = n1*m/2
+pr2 = n2*m/2
+pr3 = n3*m/2
+pr4 = n4*m/2
+
+# 畫布左右兩側都保留畫布寬度的 10%
+# 依此計算對應的最左邊齒輪的軸心座標
+cx = canvas.width*0.1+pr1
+cy = canvas.height/2
+
+# pa 為壓力角
+pa = 25
+
+# 畫最左邊齒輪, 定位線旋轉角為 0, 軸心座標 (cx, cy)
+spur(cx, cy, m, n1, pa, 0)
+# 第2個齒輪將原始的定位線逆時鐘轉 180 度後, 與第1個齒輪正好齒頂與齒頂對齊
+# 只要第2個齒輪再逆時鐘或順時鐘轉動半齒的角度, 即可完成囓合
+# 每一個齒分別包括從齒根到齒頂的範圍, 涵蓋角度為 360/n, 因此所謂的半齒角度為 180/n
+spur(cx+pr1+pr2, cy, m, n2, pa, 180-180/n2)
+# 第2齒與第3齒的囓合, 首先假定第2齒的定位線在 theta 角為 0 的原始位置
+# 如此, 第3齒只要逆時鐘旋轉 180 度後, 再逆時鐘或順時鐘轉動半齒的角度, 即可與第2齒囓合
+# 但是第2齒為了與第一齒囓合時, 已經從原始定位線轉了 180-180/n2 度
+# 而當第2齒從與第3齒囓合的定位線, 逆時鐘旋轉 180-180/n2 角度後, 原先囓合的第3齒必須要再配合旋轉 (180-180/n2 )*n2/n3
+spur(cx+pr1+pr2+pr2+pr3, cy, m, n3, pa, 180-180/n3+(180-180/n2)*n2/n3)
+spur(cx+pr1+pr2+pr2+pr3+pr3+pr4, cy, m, n4, pa, 180-180/n4)
+&lt;/script&gt;&lt;/pre&gt;</summary><category term="40323223"></category></entry><entry><title>40323223 cdw14報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323223-cdw14bao-gao.html" rel="alternate"></link><updated>2016-06-29T01:23:25+08:00</updated><author><name>40323223</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-29:static/blog/40323223-cdw14bao-gao.html</id><summary type="html">&lt;h3&gt;cdw14 內容規畫 :&lt;h3&gt; 
+
+參考老師上課網址&lt;a href="http://chiamingyen.github.io/kmolab/blog/wang-ji-2d-zheng-chi-lun-chuan-dong-nie-he-hui-tu.html"&gt;http://chiamingyen.github.io/kmolab/blog/wang-ji-2d-zheng-chi-lun-chuan-dong-nie-he-hui-tu.html&lt;/a&gt;
+&lt;br/&gt;
+以下為 17 齒, 29 齒與 15 齒輪組的囓合繪圖:
+&lt;br/&gt;
+&lt;img src="http://i.imgur.com/bSPsrfC.png?1"&gt;
+&lt;br/&gt;
+&lt;h3&gt;此週課程，可透過老師提供之程式進行修改，畫出不同齒數之齒輪。&lt;h3&gt;
+&lt;br/&gt;
+
+&lt;h3&gt;以下將設計出一10、12、14、16齒之齒輪。&lt;h3&gt;
+&lt;br/&gt;
+在此新增一n4齒輪，並可設定齒輪齒數。
+&lt;br/&gt;
+&lt;img src="http://i.imgur.com/rVgCN2R.png"&gt;
+&lt;br/&gt;
+&lt;img src="http://i.imgur.com/MlJcZMv.png"&gt;
+&lt;br/&gt;
+並在此完成齒心座標設定。
+&lt;br/&gt;
+&lt;img src="http://i.imgur.com/LsJdaoC.png"&gt;
+&lt;br/&gt;
+完成所有設定後，即可畫出設計之齒輪組。
+&lt;br/&gt;
+&lt;img src="http://i.imgur.com/i12lLer.png"&gt;
+&lt;br/&gt;
+&lt;h3&gt;心得&lt;h3&gt;
+&lt;br/&gt;
+&lt;h3&gt;本週作業為將老師提供之3齒輪組增加1齒輪，成為4齒輪組。相較於齒距的設定，齒輪的齒數、齒輪的節圓半徑設定是比較簡單的，齒數方面，只要新增一個n4 = X，X可以自由變更大小，半徑方面，只要新增一個pr4 = n4*m/2即可，齒距定位方面，就比較不懂了，所以一直跑去問同學，搞了老半天...，最後照著老師程式裡的提示，一步步慢慢的研究，最後還是完成了本週的作業。&lt;h3&gt;</summary><category term="40323223"></category></entry><entry><title>40323223 cdw13報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323223-cdw13bao-gao.html" rel="alternate"></link><updated>2016-06-29T01:23:25+08:00</updated><author><name>40323223</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-29:static/blog/40323223-cdw13bao-gao.html</id><summary type="html">&lt;p&gt;&lt;/h3&gt;cdw13 內容規畫 : &lt;/h3&gt;
+&lt;/p&gt;
+&lt;h3&gt;本周作業為，將老師提供之鍊條，旋轉90度呈現站立狀態。&lt;/h3&gt;
+
+&lt;p&gt;&lt;br/&gt;
+&lt;h3&gt;完成圖:&lt;/h3&gt;
+&lt;img src="http://i.imgur.com/Bx7pxhW.png"&gt; 
+&lt;br/&gt;
+參考老師上課網址&lt;a href="http://chiamingyen.github.io/kmolab/blog/zi-xing-che-chuan-dong-2d-lian-tiao-hui-tu-er.html"&gt;http://chiamingyen.github.io/kmolab/blog/zi-xing-che-chuan-dong-2d-lian-tiao-hui-tu-er.html&lt;/a&gt;
+&lt;br/&gt;
+至solvespace繪製下圖鍊條
+&lt;br/&gt;
+&lt;img src="http://i.imgur.com/Nsm1Wbs.png?1"&gt;
+&lt;br/&gt;
+根據上述的切點座標與相關角度條件, 就可以利用 自行車傳動 2D 鏈條繪圖 中的鏈條繪圖元件進行下列繪圖:
+&lt;br/&gt;
+&lt;img src="http://i.imgur.com/Fo9e3jw.png?1"&gt;
+&lt;br/&gt;
+要將此鍊條旋轉90度站立起來的話，只要在程式中first_degree的地方加上90，並根據在solvespace繪製之座標，在p、k的地方更改座標。
+&lt;br/&gt;
+&lt;img src="http://i.imgur.com/DcJsmta.png?1"&gt;
+&lt;br/&gt;
+&lt;img src="http://i.imgur.com/h6jgQ53.png?1"&gt;
+&lt;br/&gt;
+&lt;h3&gt;心得&lt;h3&gt;
+&lt;br/&gt;
+&lt;h3&gt;本周作業是將老師給的水平鍊條，更改為垂直的鏈條，首先是在solvespace繪圖軟體上畫出想要的圖形，在小視窗裡有著各點的座標，再將程式裡各座標進行更改，並在鍊條角度處加上90度，即可完成本週作業。&lt;h3&gt;&lt;/p&gt;</summary><category term="40323223"></category></entry><entry><title>40323223 cdw11報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323223-cdw11bao-gao.html" rel="alternate"></link><updated>2016-06-29T01:23:25+08:00</updated><author><name>40323223</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-29:static/blog/40323223-cdw11bao-gao.html</id><summary type="html">&lt;h3&gt;cdw11內容規畫 : &lt;h3&gt;
+
+參考老師上課網址&lt;a href="http://chiamingyen.github.io/kmolab/blog/zi-xing-che-chuan-dong-2d-lian-tiao-hui-tu.html"&gt;http://chiamingyen.github.io/kmolab/blog/zi-xing-che-chuan-dong-2d-lian-tiao-hui-tu.html&lt;/a&gt;
+&lt;br/&gt;
+再利用 html canvas 完成的 2D 自行車鏈條繪圖:
+左側鏈輪齒數為 18, 右側鏈輪齒數為 30.
+&lt;br/&gt;
+&lt;img src="http://i.imgur.com/keaUyiw.png?1"&gt;
+&lt;br/&gt;
+再利用老師提供之程式碼，貼至Leo上，並將程式裡之ag100改成自己的組別(bg11)。
+&lt;br/&gt;
+&lt;img src="http://i.imgur.com/JuOWIOc.png?1"&gt;
+&lt;br/&gt;
+&lt;h3&gt;畫布設定&lt;h3&gt;
+在@clean myflaskapp.py 與 myflaskapp declarations 下，新增自己畫布名稱。
+&lt;br/&gt;
+&lt;img src="http://i.imgur.com/oJ2WMRF.png?1"&gt;
+&lt;br/&gt;
+完成所有設定後，在系統管理員處輸入python wsgi.py，在近端測試，並可檢查是否有錯誤。
+&lt;br/&gt;
+&lt;h3&gt;心得&lt;h3&gt;
+&lt;br/&gt;
+&lt;h3&gt;第一週的課程比較簡單一點，照著老師給的程式複製貼上到Leo上，在藍圖與畫布設定上出了點問題，在沒有檢查的情況下，就急著把檔案推上班上的github，造成了全班的不便，之後了解可以利用python wsgi.py來檢查是否有錯誤，再推上github。&lt;h3&gt;</summary><category term="40323223"></category></entry></feed>

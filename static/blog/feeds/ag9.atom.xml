@@ -1,5 +1,110 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>CDW11 網頁 (虎尾科大MDE)</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/" rel="alternate"></link><link href="http://cdw11-ag100.rhcloud.com/static/blog/feeds/ag9.atom.xml" rel="self"></link><id>http://cdw11-ag100.rhcloud.com/static/blog/</id><updated>2016-06-24T01:46:26+08:00</updated><entry><title>40323125 期末報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323125-qi-mo-bao-gao.html" rel="alternate"></link><updated>2016-06-24T01:46:26+08:00</updated><author><name>40323125</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-24:static/blog/40323125-qi-mo-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw17 協同專案&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>CDW11 網頁 (虎尾科大MDE)</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/" rel="alternate"></link><link href="http://cdw11-ag100.rhcloud.com/static/blog/feeds/ag9.atom.xml" rel="self"></link><id>http://cdw11-ag100.rhcloud.com/static/blog/</id><updated>2016-06-29T01:23:25+08:00</updated><entry><title>40323149 期末報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323149-qi-mo-bao-gao.html" rel="alternate"></link><updated>2016-06-29T01:23:25+08:00</updated><author><name>40323149</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-29:static/blog/40323149-qi-mo-bao-gao.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;p&gt;Leo架構部分&lt;/p&gt;
+&lt;p&gt;1.如圖所示&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://imgur.com/r2ebxBV.jpg" width="80%" /&gt;&lt;/p&gt;
+&lt;p&gt;2.建立畫布&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/ODSguzC.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;3.註冊&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/H0u4Clm.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/V95lFBz.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;齒輪及鍊條部分&lt;/p&gt;
+&lt;p&gt;1.繪出2D齒輪及鍊條&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://cdw13-40323105.rhcloud.com/a40323105/ag1_2D"&gt;http://cdw13-40323105.rhcloud.com/a40323105/ag1_2D&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/U7XRDHE.jpg" width="100%" /&gt;
+&lt;img src="http://i.imgur.com/BpBHmlE.jpg" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;2.繪出3D嚙合齒輪&lt;/p&gt;
+&lt;p&gt;先打spur  gear讓齒輪指令產生&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/BgQIQW9.png" width="75%" /&gt;&lt;/p&gt;
+&lt;p&gt;出現SG圖示&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://imgur.com/cW6AN9M.jpg" width="75%" /&gt;&lt;/p&gt;
+&lt;p&gt;工具列中顯示SG&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/k02NlUs.png" width="75%" /&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;同齒 :&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;齒數為20齒,模數為0.2&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cad.onshape.com/documents/da1444297918de364da73f50/w/5370d0f4f8dadd521652e2e3/e/5f795d0a5675d48231ca7fce"&gt;https://cad.onshape.com/documents/da1444297918de364da73f50/w/5370d0f4f8dadd521652e2e3/e/5f795d0a5675d48231ca7fce&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/TSgbHps.png" width="75%" /&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;不同齒 :&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;一個為10齒,一個為30齒&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cad.onshape.com/documents/da1444297918de364da73f50/w/5370d0f4f8dadd521652e2e3/e/681548d291f3bae17caef8e9"&gt;https://cad.onshape.com/documents/da1444297918de364da73f50/w/5370d0f4f8dadd521652e2e3/e/681548d291f3bae17caef8e9&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Tooth angle 需要調整,不然嚙合時會發生干涉&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/VlArw6c.png" width="75%" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/maENbnN.png" width="75%" /&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;三齒嚙合&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;將齒數設定為10齒,20齒,30齒&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cad.onshape.com/documents/da1444297918de364da73f50/w/5370d0f4f8dadd521652e2e3/e/ecc96f469d55fc4c1dbdfe82 "&gt;https://cad.onshape.com/documents/da1444297918de364da73f50/w/5370d0f4f8dadd521652e2e3/e/ecc96f469d55fc4c1dbdfe82&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/E4qDX5J.png" width="75%" /&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;四齒嚙合&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;將齒數設定為10齒,30齒,30齒,20齒~&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cad.onshape.com/documents/da1444297918de364da73f50/w/5370d0f4f8dadd521652e2e3/e/7369e1e5739ebfa808596728 "&gt;https://cad.onshape.com/documents/da1444297918de364da73f50/w/5370d0f4f8dadd521652e2e3/e/7369e1e5739ebfa808596728&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/rdWgxJ6.png" width="75%" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/VlArw6c.png" width="75%" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/maENbnN.png" width="75%" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/hiiWgVT.png" width="75%" /&gt;&lt;/p&gt;
+&lt;p&gt;設定完tooth angle後組裝&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/ivX1sTL.png" width="85%" /&gt;
+調整完轉向後就可以了&lt;/p&gt;
+&lt;p&gt;心得:這次的作業步驟有點多，有時還會亂掉，像齒輪嚙合時每個模數要一樣，只要更動齒數模數也跟著改變，齒角度也要調整，但這些雖然做起來麻煩，但在未來去非常實用，所以得令自己多去學習多去摸索，把學到的東西發揮在未來職場上。&lt;/p&gt;
+&lt;p&gt;自評：70&lt;/p&gt;</summary><category term="40323149"></category><category term="cdw17"></category></entry><entry><title>40323149 cdw11</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323149-cdw11.html" rel="alternate"></link><updated>2016-06-29T01:23:25+08:00</updated><author><name>40323149</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-29:static/blog/40323149-cdw11.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;p&gt;期中報告內容:&lt;/p&gt;
+&lt;p&gt;前言:
+利用2D繪圖程式繪製出4個A、BACD及ABCD&lt;/p&gt;
+&lt;p&gt;任務描述及執行說明:&lt;/p&gt;
+&lt;p&gt;任務一(繪製出四個A):
+&lt;img src="http://i.imgur.com/D5uY4jn.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;首先在下圖圈起來地方的位置註冊藍圖及導入&lt;/p&gt;
+&lt;p&gt;再來將2D繪圖程式打開，在要繪圖的資料夾底下輸入python wsgi.py執行，若在 Linux 下要用 Python3 啟動:  python3 wsgi.py&lt;/p&gt;
+&lt;p&gt;若是開啟成功，會出現上圖的圖示，若是失敗的話則會出現哪裡有錯誤，這個要再去找看看是哪裡出錯。
+在網頁輸入localhost:5000/下圖圈起來的位置1./位置2.，當然這個名稱是自己定的，可以任意變更&lt;/p&gt;
+&lt;p&gt;開啟之後會出現在這個位置底下的東西&lt;/p&gt;
+&lt;p&gt;再來要說明如何繪製字母A，首先可以自行繪製，也可以從老師給的參數直接拿過來使用，
+接下來要說明的是如何從老師給的參數直接導入繪製出字母A、B、C及D
+可以從班級cdw2中取得這些參數，再將這些參數導入，而位置cdw2中的users底下的s2a中的g100裏頭的scrum1_task1.py然後用編輯器打開來&lt;/p&gt;
+&lt;p&gt;複製a函式的參數，然後貼到自己位置的底下，記得要加上html的語法才可以跑出圖形，不然會只有文字檔而已&lt;/p&gt;
+&lt;p&gt;html語法&lt;/p&gt;
+&lt;p&gt;導入成功之後&lt;/p&gt;
+&lt;p&gt;接著再重複導入A函式，更改一下座標軸，紅色底線部分為座標軸的參數&lt;/p&gt;
+&lt;p&gt;導入四次A函式之後，及用座標軸調整之間的距離&lt;/p&gt;
+&lt;p&gt;完成!&lt;/p&gt;
+&lt;p&gt;任務二(依序排列BACD):
+&lt;img src="http://i.imgur.com/2WVFIXd.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;根據上面導入A函式的方法，只是換成導入B、C及D函式而已&lt;/p&gt;
+&lt;p&gt;只是需要注意到的地方是導入的B函式的參數要更動一下&lt;/p&gt;
+&lt;p&gt;更動位置如下圖
+原本函式在圈起來的地方為0+65，要改成0&lt;/p&gt;
+&lt;p&gt;改成0之後，所顯示的字母B的起始位置會在原點&lt;/p&gt;
+&lt;p&gt;之後再依序導入A、C、D函式，再調整一下座標位置&lt;/p&gt;
+&lt;p&gt;完成!&lt;/p&gt;
+&lt;p&gt;任務三(由上到下排序ABCD):&lt;/p&gt;
+&lt;p&gt;依照上面所講的方法，再導入A、B、C及D函式，調整位置就可以完成了&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/lLNrLI8.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;結果說明:&lt;/p&gt;
+&lt;p&gt;如何繪製出字母A是靠a函式裏頭的很多X、Y軸的參數，經過數學的運算，才會顯示出字母A的形狀，可是我們直接用導入的可能會無法理解裏頭的X、Y的參數更改的話，到底是影響到甚麼地方，這個是我們可以去思考的地方。&lt;/p&gt;
+&lt;p&gt;其實除了用到座標軸參數去排列以外，也可以去更改它的鍊條顏色，只要在下圖的地方改成你要的顏色就可以了。&lt;/p&gt;
+&lt;p&gt;結論與討論:&lt;/p&gt;
+&lt;p&gt;基本上熟悉了之後，知道要去修改哪邊的參數，才會變成想要的結果，還有出問題的時候大概要去哪裡找問題，差不多都有了一些頭緒，只是有些地方可能比較麻煩，可是大致上還ok。&lt;/p&gt;</summary><category term="40323149"></category><category term="cdw11"></category></entry><entry><title>40323132 cdw11 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323132-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-29T01:23:25+08:00</updated><author><name>40323132</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-29:static/blog/40323132-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+
+
+&lt;p&gt;期中報告內容:
+前言:使用2D程式在LEO編輯,本周任務AAAA,BACD,及直式ABCD&lt;/p&gt;
+&lt;p&gt;任務一AAAA
+&lt;img src="http://imgur.com/J0hJWMH.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;任務二BACD&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://imgur.com/FMAJdBo.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;任務三ABCD由上到下&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://imgur.com/YflMzsg.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;心得:剛開始覺得很複雜，而且很怕一不小心就會把網站弄掛掉，但是經過同學的熱心指導，終於進步了很多。
+自評:68&lt;/p&gt;</summary><category term="40323132"></category><category term="cdw11"></category></entry><entry><title>40323125 期末報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323125-qi-mo-bao-gao.html" rel="alternate"></link><updated>2016-06-29T01:23:25+08:00</updated><author><name>40323125</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-29:static/blog/40323125-qi-mo-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw17 協同專案&lt;/p&gt;
 
 
 &lt;p&gt;不同齒輪&lt;/p&gt;
@@ -28,124 +133,4 @@
 &lt;p&gt;就完成不同齒輪的結合&lt;/p&gt;
 &lt;p&gt;心得:
 很少用過ONSHAPE作配齒輪配合，通常比較常用CREO跟SOLIDWORK做，雖然ONSHAPE有時畫圖會很當，不過能在線上直接畫圖，這次的齒輪也是看同學的示範一步一步畫，還有很久沒有用這個繪圖軟體了，所以慢慢摸索這個繪圖軟體，才回想到這個軟體的功能。&lt;/p&gt;
-&lt;p&gt;自評:65&lt;/p&gt;</summary><category term="40323125"></category><category term="cdw17"></category></entry><entry><title>40323132 cdw11 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323132-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-24T01:46:26+08:00</updated><author><name>40323132</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-24:static/blog/40323132-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
-
-
-&lt;p&gt;期中報告內容:
-前言:使用2D程式在LEO編輯,本周任務AAAA,BACD,及直式ABCD&lt;/p&gt;
-&lt;p&gt;任務一AAAA
-&lt;img src="http://imgur.com/J0hJWMH.png" width="100%" /&gt;&lt;/p&gt;
-&lt;p&gt;任務二BACD&lt;/p&gt;
-&lt;p&gt;&lt;img src="http://imgur.com/FMAJdBo.png" width="100%" /&gt;&lt;/p&gt;
-&lt;p&gt;任務三ABCD由上到下&lt;/p&gt;
-&lt;p&gt;&lt;img src="http://imgur.com/YflMzsg.png" width="100%" /&gt;&lt;/p&gt;
-&lt;p&gt;心得:剛開始覺得很複雜，而且很怕一不小心就會把網站弄掛掉，但是經過同學的熱心指導，終於進步了很多。
-自評:68&lt;/p&gt;</summary><category term="40323132"></category><category term="cdw11"></category></entry><entry><title>40323149 cdw11 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323149-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-24T01:46:26+08:00</updated><author><name>40323149</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-24:static/blog/40323149-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
-
-
-&lt;p&gt;期中報告內容:&lt;/p&gt;
-&lt;p&gt;前言:
-利用2D繪圖程式繪製出4個A、BACD及ABCD&lt;/p&gt;
-&lt;p&gt;任務描述及執行說明:&lt;/p&gt;
-&lt;p&gt;任務一(繪製出四個A):
-&lt;img src="http://i.imgur.com/D5uY4jn.png" width="100%" /&gt;&lt;/p&gt;
-&lt;p&gt;首先在下圖圈起來地方的位置註冊藍圖及導入&lt;/p&gt;
-&lt;p&gt;&lt;img src="http://i.imgur.com/2yfbmz5.png" width="100%" /&gt;
-&lt;img src="http://i.imgur.com/qnYr5OR.png" width="100%" /&gt;&lt;/p&gt;
-&lt;p&gt;再來將2D繪圖程式打開，在要繪圖的資料夾底下輸入python wsgi.py執行，若在 Linux 下要用 Python3 啟動:  python3 wsgi.py&lt;/p&gt;
-&lt;p&gt;&lt;img src="http://i.imgur.com/PA8yAqB.png" width="100%" /&gt;&lt;/p&gt;
-&lt;p&gt;若是開啟成功，會出現上圖的圖示，若是失敗的話則會出現哪裡有錯誤，這個要再去找看看是哪裡出錯。
-在網頁輸入localhost:5000/下圖圈起來的位置1./位置2.，當然這個名稱是自己定的，可以任意變更&lt;/p&gt;
-&lt;p&gt;&lt;img src="http://i.imgur.com/Nq14ERX.png" width="100%" /&gt;&lt;/p&gt;
-&lt;p&gt;開啟之後會出現在這個位置底下的東西&lt;/p&gt;
-&lt;p&gt;&lt;img src="http://i.imgur.com/Vx6bs2w.png" width="100%" /&gt;&lt;/p&gt;
-&lt;p&gt;再來要說明如何繪製字母A，首先可以自行繪製，也可以從老師給的參數直接拿過來使用，
-接下來要說明的是如何從老師給的參數直接導入繪製出字母A、B、C及D
-可以從班級cdw2中取得這些參數，再將這些參數導入，而位置cdw2中的users底下的s2a中的g100裏頭的scrum1_task1.py然後用編輯器打開來&lt;/p&gt;
-&lt;p&gt;&lt;img src="http://i.imgur.com/KBb1Hsl.png" width="100%" /&gt;&lt;/p&gt;
-&lt;p&gt;複製a函式的參數，然後貼到自己位置的底下，記得要加上html的語法才可以跑出圖形，不然會只有文字檔而已&lt;/p&gt;
-&lt;p&gt;html語法&lt;/p&gt;
-&lt;p&gt;&lt;img src="http://i.imgur.com/Al7dH5J.png" width="100%" /&gt;
-&lt;img src="http://i.imgur.com/c3sTova.png" width="100%" /&gt;&lt;/p&gt;
-&lt;p&gt;導入成功之後&lt;/p&gt;
-&lt;p&gt;&lt;img src="http://i.imgur.com/Dbpjofv.png" width="100%" /&gt;&lt;/p&gt;
-&lt;p&gt;接著再重複導入A函式，更改一下座標軸，紅色底線部分為座標軸的參數&lt;/p&gt;
-&lt;p&gt;&lt;img src="http://i.imgur.com/IbbLkQl.png" width="100%" /&gt;&lt;/p&gt;
-&lt;p&gt;導入四次A函式之後，及用座標軸調整之間的距離&lt;/p&gt;
-&lt;p&gt;&lt;img src="http://i.imgur.com/Vx6bs2w.png" width="100%" /&gt;&lt;/p&gt;
-&lt;p&gt;完成!&lt;/p&gt;
-&lt;p&gt;任務二(依序排列BACD):
-&lt;img src="http://i.imgur.com/2WVFIXd.png" width="100%" /&gt;&lt;/p&gt;
-&lt;p&gt;根據上面導入A函式的方法，只是換成導入B、C及D函式而已&lt;/p&gt;
-&lt;p&gt;只是需要注意到的地方是導入的B函式的參數要更動一下&lt;/p&gt;
-&lt;p&gt;&lt;img src="http://i.imgur.com/mYeY870.png" width="100%" /&gt;&lt;/p&gt;
-&lt;p&gt;更動位置如下圖
-原本函式在圈起來的地方為0+65，要改成0&lt;/p&gt;
-&lt;p&gt;&lt;img src="http://i.imgur.com/iTntgp2.png" width="100%" /&gt;&lt;/p&gt;
-&lt;p&gt;改成0之後，所顯示的字母B的起始位置會在原點&lt;/p&gt;
-&lt;p&gt;&lt;img src="http://i.imgur.com/1AH1Rwk.png" width="100%" /&gt;&lt;/p&gt;
-&lt;p&gt;之後再依序導入A、C、D函式，再調整一下座標位置&lt;/p&gt;
-&lt;p&gt;&lt;img src="http://i.imgur.com/2WVFIXd.png" width="100%" /&gt;&lt;/p&gt;
-&lt;p&gt;完成!&lt;/p&gt;
-&lt;p&gt;任務三(由上到下排序ABCD):&lt;/p&gt;
-&lt;p&gt;依照上面所講的方法，再導入A、B、C及D函式，調整位置就可以完成了&lt;/p&gt;
-&lt;p&gt;&lt;img src="http://i.imgur.com/lLNrLI8.png" width="100%" /&gt;&lt;/p&gt;
-&lt;p&gt;結果說明:&lt;/p&gt;
-&lt;p&gt;如何繪製出字母A是靠a函式裏頭的很多X、Y軸的參數，經過數學的運算，才會顯示出字母A的形狀，可是我們直接用導入的可能會無法理解裏頭的X、Y的參數更改的話，到底是影響到甚麼地方，這個是我們可以去思考的地方。&lt;/p&gt;
-&lt;p&gt;其實除了用到座標軸參數去排列以外，也可以去更改它的鍊條顏色，只要在下圖的地方改成你要的顏色就可以了。&lt;/p&gt;
-&lt;p&gt;&lt;img src="http://i.imgur.com/3mrClGf.png" width="100%" /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="http://i.imgur.com/NTWQx3t.png" width="100%" /&gt;&lt;/p&gt;
-&lt;p&gt;結論與討論:&lt;/p&gt;
-&lt;p&gt;基本上熟悉了之後，知道要去修改哪邊的參數，才會變成想要的結果，還有出問題的時候大概要去哪裡找問題，差不多都有了一些頭緒，只是有些地方可能比較麻煩，可是大致上還ok。&lt;/p&gt;
-&lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-2014w11.rhcloud.com/static/"&gt;http://cdw11-2014w11.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;分組程式: &lt;a href="http://cdw11-ag100.rhcloud.com/option"&gt;http://cdw11-ag100.rhcloud.com/option&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;fileuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/fileuploadform"&gt;http://cdw11-ag100.rhcloud.com/fileuploadform&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;imageuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/imageuploadform"&gt;http://cdw11-ag100.rhcloud.com/imageuploadform&lt;/a&gt;&lt;/p&gt;</summary><category term="40323149"></category><category term="cdw11"></category></entry><entry><title>40323149 cdw17 報告</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/40323149-cdw17-bao-gao.html" rel="alternate"></link><updated>2016-06-24T01:46:26+08:00</updated><author><name>40323149</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-24:static/blog/40323149-cdw17-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw17 協同專案&lt;/p&gt;
-
-
-&lt;p&gt;期末報告內容:&lt;/p&gt;
-&lt;p&gt;前言:
-完成網際2D鏈條組立、2D齒輪囓合及Onshape的3D齒輪囓合&lt;/p&gt;
-&lt;p&gt;任務描述及執行說明:&lt;/p&gt;
-&lt;p&gt;任務一(2D鏈條):&lt;/p&gt;
-&lt;p&gt;(左18齒右30齒)
-&lt;img src="http://i.imgur.com/ED7n4MC.png" width="100%" /&gt;&lt;/p&gt;
-&lt;p&gt;轉90度(上30下18)
-&lt;img src="http://i.imgur.com/tTEKTQp.png" width="100%" /&gt;&lt;/p&gt;
-&lt;p&gt;下圖為對鏈條程式碼的一些參數說明
-&lt;img src="http://i.imgur.com/znii2ZK.png" width="100%" /&gt;&lt;/p&gt;
-&lt;p&gt;下圖為對(上30下18齒)的鏈條程式參數的說明，參數設定完成之後，再用for迴圈下去執行
-&lt;img src="http://i.imgur.com/vqz4sQZ.png" width="100%" /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="http://i.imgur.com/yIV3J6f.png" width="100%" /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="http://i.imgur.com/7AqlozY.png" width="100%" /&gt;&lt;/p&gt;
-&lt;p&gt;2D齒輪囓合
-&lt;img src="http://i.imgur.com/5sqINqZ.png" width="100%" /&gt;
-要先將原本導入的資料庫，換成下圖的資料庫位置
-&lt;img src="http://i.imgur.com/wFxJ4wO.png" width="100%" /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="http://i.imgur.com/e0HVbrT.png" width="100%" /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="http://i.imgur.com/64MOjt8.png" width="100%" /&gt;&lt;/p&gt;
-&lt;p&gt;Onshape 3D齒輪
-&lt;img src="http://i.imgur.com/4RbFG9z.png" width="100%" /&gt;
-這邊可以先計算兩齒輪囓合的中心距離，
-那如果要做斜的嚙合的話，要先加上旋轉的角度，
-先將起始位置決定好，再來要偏轉一個齒的角度
-&lt;img src="http://i.imgur.com/quDuScm.png" width="100%" /&gt;
-齒輪的特徵可以從裏頭進行呼叫，在下圖紅色框框處
-&lt;img src="http://i.imgur.com/d3pO0yi.png" width="100%" /&gt;
-在底下收尋spur，底下有齒輪的圖案
-&lt;img src="http://i.imgur.com/DM74Xhm.png" width="100%" /&gt;
-下圖是對齒輪的參數設定，當中的偏轉角是囓合的關鍵!!
-&lt;img src="http://i.imgur.com/LdncrST.png" width="100%" /&gt;
-再來是對齒輪進行組立並囓合，要先選取兩齒輪的軸心
-，再來要去算齒數比，兩兩進行囓合
-&lt;img src="http://i.imgur.com/oloIeoC.png" width="100%" /&gt;
-下圖是完成圖
-&lt;img src="http://i.imgur.com/1BGpM0g.png" width="100%" /&gt;&lt;/p&gt;
-&lt;p&gt;心得:
-期末做的作業，鍊條跟齒輪，感覺上都還算是蠻有趣的，首先鏈條的組立，
-要先去用solvespace畫出並推算出鏈條的四個接點，再來用sympy幫忙算出點的座標，
-然後再用for迴圈下去跑，就可以完成了。
-齒輪方面，首先要先導入資料庫，然後再去跑齒輪的程式，當中我們將齒數、節圓半徑、壓力角拉出來當作變數，其中有畫一條齒輪的基準線是要用來做兩齒輪囓合的時候使用，當然3D方面也是用相同原理進行
-囓合，先將兩條基準線接在一起之後，我們會發現兩齒式接在一起的，再來要偏轉一個齒的角度，才可以進行囓合。
-3D齒輪方面，由於Onshape上的Featurescript裡頭有內建的齒輪程式，所以我們只需要輸入齒輪的參數，就可以直接生成出來，但是齒數過多的話，它跑出來的齒型會有不正確的齒型，算是裡頭內建程式的錯誤，而至於囓合方面，其實就跟2D囓合原理一樣，而至於斜角的嚙合，首先要去推算出將基準線接在一起的轉角之後，再加上偏轉角，就可以進行囓合了，再來設定一下齒數比，之後試轉一下，就可以了。&lt;/p&gt;
-&lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-2014w11.rhcloud.com/static/"&gt;http://cdw11-2014w11.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;</summary><category term="40323149"></category><category term="cdw17"></category></entry></feed>
+&lt;p&gt;自評:65&lt;/p&gt;</summary><category term="40323125"></category><category term="cdw17"></category></entry></feed>
