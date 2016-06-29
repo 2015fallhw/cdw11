@@ -1,4 +1,4 @@
-# cdw11
+# cdw11 (課程已經結束)
 協同產品設計實習 W11 倉儲-master 分支將與 http://cdw11-ag100.rhcloud.com/ 雲端網站同步
 
 登記為 cdw11 協同者: http://simpleflask-2014openshift.rhcloud.com/cdw11form
