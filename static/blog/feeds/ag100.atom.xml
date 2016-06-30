@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>CDW11 網頁 (虎尾科大MDE)</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/" rel="alternate"></link><link href="http://cdw11-ag100.rhcloud.com/static/blog/feeds/ag100.atom.xml" rel="self"></link><id>http://cdw11-ag100.rhcloud.com/static/blog/</id><updated>2016-06-30T15:41:46+08:00</updated><entry><title>2016 年春季協同產品設計實習</title><link href="http://cdw11-ag100.rhcloud.com/static/blog/2016-nian-chun-ji-xie-tong-chan-pin-she-ji-shi-xi.html" rel="alternate"></link><updated>2016-06-30T15:41:46+08:00</updated><author><name>2015fallhw</name></author><id>tag:cdw11-ag100.rhcloud.com,2016-06-30:static/blog/2016-nian-chun-ji-xie-tong-chan-pin-she-ji-shi-xi.html</id><summary type="html">&lt;p&gt;2016 年春季協同產品設計實習已經結束.&lt;/p&gt;
+
+
+&lt;p&gt;wsgi /ag100/a 繪圖:&lt;/p&gt;
+&lt;iframe src="/ag100/a" width="600" height="600"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;wsgi /ag100/abcd 繪圖:&lt;/p&gt;
+&lt;iframe src="/ag100/abcd" width="600" height="600"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;wsgi /ag100//eighteenthirty 繪圖:&lt;/p&gt;
+&lt;iframe src="/ag100/eighteenthirty" width="600" height="600"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;曾心榆四設計一甲:&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/XqexyeMg0wM" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;aG1:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cad.onshape.com/documents/5774c632e4b05891d8816951/w/4f5d15a894f47dcdf55892d5/e/348fd674c924a2c67722d890"&gt;https://cad.onshape.com/documents/5774c632e4b05891d8816951/w/4f5d15a894f47dcdf55892d5/e/348fd674c924a2c67722d890&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;bG4:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cad.onshape.com/documents/5774c6cde4b05891d8816a00/w/ea2c85366985d514355eb459/e/c1f17642f7555de73bb419a1"&gt;https://cad.onshape.com/documents/5774c6cde4b05891d8816a00/w/ea2c85366985d514355eb459/e/c1f17642f7555de73bb419a1&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;bG9:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cad.onshape.com/documents/6e76f3b8127eb09822f5682e/w/55d1cb559a2f4c4b5bd4c216/e/c9ba0e830afd4c98e41b246b"&gt;https://cad.onshape.com/documents/6e76f3b8127eb09822f5682e/w/55d1cb559a2f4c4b5bd4c216/e/c9ba0e830afd4c98e41b246b&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;bG10:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cad.onshape.com/documents/5774c9e2e4b0199757aebff8/w/b80b827811c74d180fcbfd76/e/e26252071be17e3f4b37acef"&gt;https://cad.onshape.com/documents/5774c9e2e4b0199757aebff8/w/b80b827811c74d180fcbfd76/e/e26252071be17e3f4b37acef&lt;/a&gt;&lt;/p&gt;</summary><category term="2016spring"></category><category term="final"></category></entry></feed>
